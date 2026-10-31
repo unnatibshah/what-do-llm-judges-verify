@@ -23,7 +23,8 @@ the matched features is good for dates (standardised mean differences \EBalOldYe
 (\EBalTitleRatioSMD); \EBalArea{} decoys share their link's IETF area. Two imbalances remain. Updating RFCs have shorter
 abstracts than replacing ones (\EBalNewWordsSMD), a property of updates that we chose not to force away. More
 importantly, abstract overlap was not a matching feature. A replacing RFC usually repeats much of the abstract of the
-RFC it replaces (median similarity \EAbsSimLinksSame{} for same-title links), whereas an updating RFC does not (median
+RFC it replaces (median similarity \EAbsSimLinksSame{} for same-title links, by the same string-similarity ratio
+computed on the abstracts as the judges saw them), whereas an updating RFC does not (median
 \EAbsSimDecoysSame{} for same-title decoys). We found this only after the runs; its consequences are discussed in
 \S\ref{sec:res-shortcut}.
 
@@ -33,7 +34,8 @@ Opus~4.5 through the Kaggle Benchmarks proxy, and Gemma~4~26B through Google's A
 temperature and seed itself and does not report them, which limits exact reproduction of the hosted judges. New requests in these runs went through the proxy with an output cap of 4,000 tokens, sending the system and
 user text as two messages. Replies to prompts identical to those of the pilot were taken from the pilot's cache rather
 than requested again: all 72 shared \texttt{both-texts} replies of Gemma, GPT-5.5 and Gemini, and 70 of Claude's 72. For the
-hosted judges those replies had been obtained with the proxy's earlier call (one joined message, no cap). Reuse
+hosted judges the reused replies had been obtained with the proxy's earlier call (one joined message, no cap), except
+GPT-5.5's pilot damaged-record replies, which already used the current call. Reuse
 affects the \texttt{both-texts} items of the first 24 links, their \texttt{status} items (except for GPT-5.5, which
 had no pilot \texttt{status} block) and the damaged-record items whose
 prompt did not change. For Gemma, the client retries a request once without the API's JSON mode when the

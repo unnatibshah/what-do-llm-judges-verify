@@ -34,15 +34,17 @@ block of each damaged context. The other contexts differ only in the record bloc
 
 \IfFileExists{generated/prompt_example.tex}{\input{generated/prompt_example.tex}}{}
 
+\clearpage
 \section{Case study: Indian rooftop-solar regulation}
 \label{app:case}
 
 \noindent\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\small
 \textbf{Status: descriptive only.} The test was first developed on this setting, where no curated consolidation
-exists and the amendment record had to be extracted from the documents by an AI pipeline. Its answer key failed the
-quality checks planned for it: a person applying the right-reason rule agreed with the automatic scorer on
-\ScorerCheckPctObserved{} of dev replies, against a planned threshold of 95\%, and when people read whole case files,
-many of the fixed ``correct'' answers turned out to be incomplete. None of its numbers is used as evidence for the
+exists and the amendment record had to be extracted from the documents by an AI pipeline. Its quality checks
+failed: people reviewing the AI-built answer key reached a different outcome on \NDroppedDecision{} of
+\NCandidateCases{} candidate cases, only \PctControlsCorrect{} of the checked ``correct'' answers were judged correct,
+and a person applying the right-reason rule agreed with the automatic scorer on \ScorerCheckPctObserved{} of dev
+replies, against a planned threshold of 95\%. None of its numbers is used as evidence for the
 hypotheses or findings of \S\ref{sec:results}. It is reported because its failures, annotation disagreements and
 negative results show what the test needs from an uncurated amendment record; its planned analyses and readings are
 kept as they were fixed, so that nothing is selected after the fact. The full report (reference data and their audit,
@@ -56,7 +58,8 @@ status line, but most of its findings were not about validity (\RobNonValidityCl
 could say whether they were wrong. Likewise, the large differences between any-finding and right-reason catches in this
 study are real outputs on this key, but we do not use them to support \S\ref{sec:res-scoring}, which rests on the RFC
 data. The text below is carried over from the study's own report, written before the RFC study, and uses its terms
-(reviewer for judge, registry for record, clause for document).
+(reviewer for judge, registry for record, clause for document). Its reason list differs from the RFC study's, and
+a ``validity'' reason there also includes wrong jurisdiction and not applicable.
 
 \subsection{Setting}
 \label{sec:study1}
@@ -79,3 +82,4 @@ no record (\rung{R2}). Clause-averaged, damage seeds averaged within clause, 95\
 \NClauses{} clauses.}
 \label{fig:damage}
 \end{figure}
+\clearpage

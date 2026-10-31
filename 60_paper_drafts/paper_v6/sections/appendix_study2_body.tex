@@ -5,7 +5,7 @@ sent as two messages), with the prompt text unchanged. An accidental repeat of o
 the first run is of record) differed by one catch. Every block records the model version, the context and the
 harness's code hash. A reply that cannot be parsed counts as a miss on a fault and a false alarm on a control; GPT-OSS
 had two to four such replies per block, the other reported judges at most two. Three further runs stopped before the
-deference pair of contexts and are not analysed; their blocks are in the repository.
+two damaged-record contexts and are not analysed; their blocks are in the repository.
 
 \paragraph{Items.} Two of the 48 replacing RFCs name the old RFC in their title (RFC~7142, RFC~6082); titles are not
 filtered, so these two links are explicit wherever they appear: for Qwen~32B in the pilot, and for all four judges
@@ -18,8 +18,6 @@ Claude \RfcTitleDifferentBothTextsClaudeOpusFourFive, GPT-OSS \RfcTitleDifferent
 \RfcTitleDifferentBothTextsGemmaFourTwoSixB. Masking the document numbers changed little for the frontier judges
 (Gemini \RfcCatchBothMaskedGeminiThreeOnePro, Claude \RfcCatchBothMaskedClaudeOpusFourFive, GPT-5.5
 \RfcCatchBothMaskedGPTFiveFive) and cost GPT-OSS a few catches (\RfcCatchBothMaskedGPTOSSOneTwoZeroB).
-
-\paragraph{Bare passes.} A reply on a fault is a bare pass when it has no finding at all.
 
 \paragraph{Controls citing the successor.} Table~\ref{tab:rfc-current} gives discrimination against controls that cite
 the replacing document. Given the documents, the frontier judges, GPT-OSS and Gemma rarely gave a validity reason on

@@ -279,7 +279,7 @@ def robust_table(lad: dict[str, Any]) -> list[str]:
     return [r"\begin{table*}[t]\centering\scriptsize",
             r"\caption{The findings across all models, on the same items (pooled k/n over S-both faults, where both versions "
             r"of the clause are shown, or matched correct answers; 50\%-dropped arms pooled over each model's damage "
-            r"seeds). The five planned models come first (the open models by size, then Flash-Lite); the last two "
+            r"seeds). The five planned models come first; the last two "
             r"columns were added after the analysis plan was fixed. Gains and losses compare each fault and seed with the "
             r"damaged lookup. The dropped-link catch is clause-averaged over the faults the intact registry catches and the "
             r"damaged one drops.}",
@@ -317,7 +317,7 @@ def exploratory_table(lad: dict[str, Any]) -> list[str]:
     if not any(m not in PANEL for m in models):
         return []
     return [r"\begin{table}[t]\centering\small",
-            r"\caption{Size comparison within one family. Rows marked ``no'' were added after the analysis plan was fixed and are "
+            r"\caption{The two models added after the plan: a size comparison within one family, and Claude Opus 4.5. Rows marked ``no'' were added after the analysis plan was fixed and are "
             r"exploratory; the planned sizes are shown beside them. The 32B model ran damage seeds 0--2 (the "
             r"planned capable models ran 0--4). S-both right-reason catches, false alarms on matched correct answers (any finding) and "
             r"any-finding catches, pooled k/n; discrimination clause-averaged (points), and the Q1 difference with a "

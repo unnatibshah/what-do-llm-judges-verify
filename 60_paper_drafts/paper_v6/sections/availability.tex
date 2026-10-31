@@ -4,7 +4,7 @@ The repository (\repourl) holds the harness (\texttt{evalkit.py}), the run and a
 decoys, every judge reply with its block metadata (model version, context, code hash), and the scripts that regenerate
 every number, table and figure in this paper from those replies: the analysis script (\texttt{analyse\_final\_e123.py}) rescores every reply
 from its raw text, checks the stored scores and regenerates \S\ref{sec:results} and Appendix~\ref{app:items};
-\texttt{python -m suryabench.evalkit} does the same for the pilot. The RFC Editor index is cited with its retrieval
+\texttt{python -m suryabench.evalkit} (the harness, in the project's Python package) does the same for the pilot. The RFC Editor index is cited with its retrieval
 date and content hash \citep{rfcindex2026} and included unchanged. The hypotheses, tests and readings were committed to
 the project's development repository before the runs, and the amendment adding the second draw before any call on it.
 That repository is private; the release contains the plan with its amendments and a provenance file listing the commit

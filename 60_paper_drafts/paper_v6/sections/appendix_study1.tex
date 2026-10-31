@@ -12,8 +12,8 @@ Every file is hashed and listed with its issuer, dates and source URL.
 \paragraph{Amendment registry.}
 The reviewer's amendment record is a registry of \NLinksRegistry{} clause-level links, each from an old clause to the
 clause that changes it, with a relation (supersedes, partially supersedes, amends), an effective date and a quote from
-the amending instrument. It was extracted from the documents by an AI assistant, without access to the gold graph used
-for scoring. It is the source of the \rung{R3} quotes, the \rung{R4} and \rung{R4n} status lines and the \rung{R5}
+the amending instrument. It was extracted from the documents by an AI assistant, without access to the gold graph (the
+adjudicated replacement links used for scoring). It is the source of the \rung{R3} quotes, the \rung{R4} and \rung{R4n} status lines and the \rung{R5}
 lookup. The registry as corrected by adjudication (below) is the one every run uses.
 
 \paragraph{Cases and reference answers.}
@@ -285,7 +285,7 @@ seed 0. \rung{R5}-damage is deterministic and runs every seed.
 \paragraph{Analysis plan.}
 The design, outcomes, analysis and the sentence reporting each outcome were written into a dated, version-controlled
 analysis plan before any model saw a test item, and the test set was sealed with a fingerprint recorded in the
-repository. The plan was not filed with a public registry; its history is in the released version control. Two dated
+repository. The plan was not filed with a public registry; the commit times of the plan and its amendments are listed in the release's provenance file. Two dated
 amendments were made before the seal. The first, written after the dev pilot, made the
 damaged-registry comparisons primary. The second, written after the human audit and before any model saw a test item,
 changed which cases annotation keeps, replaced the correct-answer and scorer gates by reporting, and added \rung{R4n},
@@ -513,9 +513,11 @@ of \FAMFlashRFour{} at \rung{R4}; seeing both versions did not close the gap for
 \label{sec:res-explore}
 \IfFileExists{generated/tab_exploratory.tex}{\input{generated/tab_exploratory.tex}}{}
 The two models added after the analysis plan was fixed are outside every planned test; Table~\ref{tab:exploratory}
-and the descriptive-results table of the paper's case-study appendix report them on the main arms. Claude Opus~4.5 is
-the clearest case that capability changes the picture: it is the only reviewer whose catches survive the absence of a
-record, and the only one that repaired a damaged record. A model from the same developer also helped build this
+and the descriptive-results table of the paper's case-study appendix report them on the main arms. Claude Opus~4.5
+behaves differently from the open models: it is the only reviewer whose catches survive the absence of a record, and
+the only one that gained more catches than it lost against the damaged lookup. Its catches on dropped links still
+fell under the damaged status line, as in the main study, and its false alarms on this key's correct answers are
+the highest, which the flawed key cannot interpret. A model from the same developer also helped build this
 benchmark (see the paper's statement on the use of AI assistants); its items were not tuned on any model's replies,
 but readers should weigh that relation. It ran one damage seed, through a
 proxy that sets temperature and seed itself, so its numbers carry more uncertainty than the planned models'. Within one model family, scale did not buy a better reviewer. \texttt{qwen2.5:32b}, run with
