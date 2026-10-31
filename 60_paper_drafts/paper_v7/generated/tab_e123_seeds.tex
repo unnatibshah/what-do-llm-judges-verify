@@ -1,0 +1,17 @@
+\begin{table*}[t]\centering\footnotesize
+\caption{H2a on two random draws of dropped links. Each seed drops 24 of the 48 links; the two draws share some links (Shared). Per seed: gap faults caught with no record $\to$ with the damaged record (authoritative form), lost/gained, Holm-adjusted exact McNemar $p$ (across judges, within seed). Pooled: unique links in either gap set, a shared link counted once (its reply is the same under both seeds); mean drop in points with a 95\% bootstrap interval over links, lost/gained, exact sign test. Seed 0 is the planned test; seed 1 and the pooled estimate were added before any seed-1 run, when seed-0 results existed for three judges.}
+\label{tab:e123-seeds}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l ccc cccc cccc}
+\toprule
+ & \multicolumn{3}{c}{Seed 0} & \multicolumn{4}{c}{Seed 1} & \multicolumn{4}{c}{Pooled over unique links} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-8}\cmidrule(lr){9-12}
+Judge & Caught & Lost/gained & $p$ & Caught & Lost/gained & $p$ & Shared & Links & Drop & Lost/gained & $p$ \\
+\midrule
+Gemma 4 26B & \EGemmaGapTexts{} $\to$ \EGemmaGapDamaged & \EGemmaHTwoaLost/\EGemmaHTwoaGained & \EGemmaHTwoaHolm & \EGemmaSOneOwn{} $\to$ \EGemmaSOneWith & \EGemmaSOneLost/\EGemmaSOneGained & \EGemmaSOneHolm & \EGemmaSOneShared & \EGemmaPoolLinks & \EGemmaPoolMean{} {\scriptsize \EGemmaPoolCI} & \EGemmaPoolLost/\EGemmaPoolGained & \EGemmaPoolP \\
+GPT-5.5 & \EGPTGapTexts{} $\to$ \EGPTGapDamaged & \EGPTHTwoaLost/\EGPTHTwoaGained & \EGPTHTwoaHolm & \EGPTSOneOwn{} $\to$ \EGPTSOneWith & \EGPTSOneLost/\EGPTSOneGained & \EGPTSOneHolm & \EGPTSOneShared & \EGPTPoolLinks & \EGPTPoolMean{} {\scriptsize \EGPTPoolCI} & \EGPTPoolLost/\EGPTPoolGained & \EGPTPoolP \\
+Gemini 3.1 Pro & \EGeminiGapTexts{} $\to$ \EGeminiGapDamaged & \EGeminiHTwoaLost/\EGeminiHTwoaGained & \EGeminiHTwoaHolm & \EGeminiSOneOwn{} $\to$ \EGeminiSOneWith & \EGeminiSOneLost/\EGeminiSOneGained & \EGeminiSOneHolm & \EGeminiSOneShared & \EGeminiPoolLinks & \EGeminiPoolMean{} {\scriptsize \EGeminiPoolCI} & \EGeminiPoolLost/\EGeminiPoolGained & \EGeminiPoolP \\
+Claude Opus 4.5 & \EOpusGapTexts{} $\to$ \EOpusGapDamaged & \EOpusHTwoaLost/\EOpusHTwoaGained & \EOpusHTwoaHolm & \EOpusSOneOwn{} $\to$ \EOpusSOneWith & \EOpusSOneLost/\EOpusSOneGained & \EOpusSOneHolm & \EOpusSOneShared & \EOpusPoolLinks & \EOpusPoolMean{} {\scriptsize \EOpusPoolCI} & \EOpusPoolLost/\EOpusPoolGained & \EOpusPoolP \\
+\bottomrule
+\end{tabular}}
+\end{table*}

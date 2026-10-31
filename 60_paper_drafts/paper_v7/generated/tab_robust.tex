@@ -1,0 +1,19 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{The findings across all models, on the same items (pooled k/n over S-both faults, where both versions of the clause are shown, or matched correct answers; 50\%-dropped arms pooled over each model's damage seeds). The five planned models come first; the last two columns were added after the analysis plan was fixed. Gains and losses compare each fault and seed with the damaged lookup. The dropped-link catch is clause-averaged over the faults the intact registry catches and the damaged one drops.}
+\label{tab:robust}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Finding & Llama 8B & Qwen 7B & Qwen 14B & Gemma 4 26B & Flash-Lite & Qwen 32B & Claude Opus 4.5 \\
+\midrule
+Right-reason catch, both versions (R2) & 0/42 & 5/42 & 13/42 & 9/42 & 19/42 & 4/42 & 34/42 \\
+Any-finding catch, R2 & 24/42 & 14/42 & 26/42 & 32/42 & 35/42 & 35/42 & 42/42 \\
+Scoring gap at R2, any minus right reason (points) & +57 & +21 & +31 & +55 & +38 & +74 & +19 \\
+Right-reason catch, status line (R4) & 3/42 & 2/42 & 32/42 & 25/42 & 33/42 & 29/42 & 35/42 \\
+Correct answers flagged, R4 & 19/42 & 2/42 & 10/42 & 20/42 & 19/42 & 23/42 & 37/42 \\
+R4 findings on correct answers not about validity & 13/25 & 0/2 & 4/11 & 28/30 & 19/22 & 21/24 & 44/55 \\
+Catches gained / lost vs lookup, 50\% dropped & +0 / $-$15 & +2 / $-$15 & +13 / $-$13 & +25 / $-$24 & -- & +4 / $-$8 & +14 / $-$0 \\
+Catch on dropped links, R2 $\to$ R4-damage, \% (clauses) & 0 $\to$ 0 (6) & 33 $\to$ 17 (6) & 41 $\to$ 7 (9) & 32 $\to$ 31 (9) & -- & 13 $\to$ 0 (9) & 92 $\to$ 67 (6) \\
+\bottomrule
+\end{tabular}}
+\end{table*}

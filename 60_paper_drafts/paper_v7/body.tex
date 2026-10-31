@@ -1,0 +1,43 @@
+% Shared body (D52, lock v2). Authors print unless \anonymous is defined (main_anon.tex, the double-anonymous submission).
+\ifdefined\anonymous
+\title[What Do LLM Judges Actually Verify?]{What Do LLM Judges Actually Verify? Matched Controls and Record Gaps for
+Document Currency}
+\author{\fnm{Anonymous} \sur{Authors}}
+\affil{\orgname{Anonymous for review}}
+\else
+% Authors as one centred row (name, affiliation, email; \authorsrow in preamble.tex) instead of the class's numbered
+% affiliations and e-mail lines.
+\title[What Do LLM Judges Actually Verify?]{What Do LLM Judges Actually Verify? Matched Controls and Record Gaps for
+Document Currency\par\vspace{1.2em}\authorsrow}
+\hypersetup{pdftitle={What Do LLM Judges Actually Verify? Matched Controls and Record Gaps for Document Currency},
+pdfauthor={Unnati Shah, Samruddhi Sanjaykumar Kakade, Aum Patel}}
+\fi
+\abstract{\input{sections/abstract}}
+\maketitle
+
+\ifnum\EComplete=0\relax
+\noindent\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\small\color{red}
+\textbf{INTERIM DRAFT.} Not every judge has finished the final runs; values marked [pending] are not yet run, and
+statements comparing judges will be rechecked when they are. Not for circulation outside the authors.}}
+\fi
+
+\input{sections/intro}
+\input{sections/related}
+\input{sections/framework}
+\input{sections/studies}
+\input{sections/findings}
+\input{sections/discussion}
+\input{sections/guide}
+\input{sections/limitations}
+\input{sections/conclusion}
+\input{sections/availability}
+
+\clearpage
+\begin{appendices}
+\input{sections/appendix}
+\end{appendices}
+
+\bibliography{references}
+
+% main_full.tex: the supplementary material (the case study in full) in the same PDF.
+\ifdefined\withsupplement\clearpage\input{sections/supplement_body}\fi

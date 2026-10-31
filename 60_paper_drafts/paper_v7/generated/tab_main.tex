@@ -1,0 +1,26 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{Main results on S-both faults and their matched correct answers. TP: right-reason catches of the planted superseded clause; FN: faults not caught; FP: matched correct answers with any finding; TN: matched correct answers passed. Recall, specificity, precision and balanced accuracy (\%) pool items, which share clauses, so they are descriptive. FA$_C$: clean correct answers flagged. Disc.: discrimination (catch minus matched false alarm), clause-averaged, with a 95\% bootstrap interval over clauses (points). R5 recovers the registry's own links by construction and R4 (intact) is given the answer: reference rows.}
+\label{tab:main}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllrrrrrrrrrll}
+\toprule
+Model & Arm & Reviewer sees & TP & FN & FP & TN & Rec. & Spec. & Prec. & Bal. & FA$_C$ & Disc. [95\% CI] & Cl. \\
+\midrule
+Qwen 14B & R2 & both versions & 13 & 29 & 18 & 24 & 31 & 57 & 42 & 44 & 12/42 & $-$7 [$-$38, +20] & 14 \\
+Qwen 14B & R4 & status line & 32 & 10 & 10 & 32 & 76 & 76 & 76 & 76 & 11/42 & +55 [+26, +79] & 14 \\
+Qwen 14B & R4n & no-record wording & 31 & 11 & 13 & 29 & 74 & 69 & 70 & 71 & 12/42 & +47 [+17, +73] & 14 \\
+Lookup & R5 & lookup (ref.) & 31 & 11 & 5 & 37 & 74 & 88 & 86 & 81 & 5/42 & +67 [+43, +88] & 14 \\
+Qwen 14B & R4-drop50 & status, drop 50\% & 88 & 122 & 54 & 156 & 42 & 74 & 62 & 58 & 55/210 & +21 [$-$6, +48] & 14 \\
+Qwen 14B & R4n-drop50 & no-record, drop 50\% & 95 & 115 & 58 & 152 & 45 & 72 & 62 & 59 & 60/210 & +23 [$-$6, +54] & 14 \\
+Lookup & R5-drop50 & lookup, drop 50\% & 88 & 122 & 8 & 202 & 42 & 96 & 92 & 69 & 8/210 & +42 [+24, +60] & 14 \\
+Qwen 14B & R4-spurious10 & status, spur. 10\% & 160 & 50 & 55 & 155 & 76 & 74 & 74 & 75 & 61/210 & +53 [+25, +76] & 14 \\
+Lookup & R5-spurious10 & lookup, spur. 10\% & 155 & 55 & 34 & 176 & 74 & 84 & 82 & 79 & 34/210 & +62 [+37, +84] & 14 \\
+Gemma 4 26B & R2 & both versions & 9 & 33 & 20 & 22 & 21 & 52 & 31 & 37 & 17/42 & $-$20 [$-$46, +4] & 14 \\
+Gemma 4 26B & R4 & status line & 25 & 17 & 20 & 22 & 60 & 52 & 56 & 56 & 18/42 & +21 [$-$18, +57] & 14 \\
+Gemma 4 26B & R4n & no-record wording & 26 & 16 & 21 & 21 & 62 & 50 & 55 & 56 & 15/42 & +18 [$-$20, +54] & 14 \\
+Gemma 4 26B & R4-drop50 & status, drop 50\% & 89 & 121 & 100 & 110 & 42 & 52 & 47 & 47 & 90/210 & +4 [$-$30, +35] & 14 \\
+Gemma 4 26B & R4n-drop50 & no-record, drop 50\% & 96 & 114 & 105 & 105 & 46 & 50 & 48 & 48 & 72/210 & +2 [$-$31, +31] & 14 \\
+Gemma 4 26B & R4-spurious10 & status, spur. 10\% & 125 & 85 & 103 & 107 & 60 & 51 & 55 & 55 & 94/210 & +20 [$-$20, +56] & 14 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

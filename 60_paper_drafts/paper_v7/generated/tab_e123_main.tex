@@ -1,0 +1,44 @@
+\begin{table*}[t]\centering\footnotesize
+\caption{All 48 links, per judge and context. Catch: right-reason catches of faults (any: any finding on the fault). False alarms (FA) count validity findings (replaced or not yet published) unless marked any. Controls cite the replacing RFC; date controls cite the replaced RFC as of a date before its replacement; decoys cite an RFC that a newer one updates but does not replace. \texttt{conflict-damaged} is exploratory: a \texttt{record\_conflict} finding counts under any, not as a catch or a validity false alarm. All counts are of 48.}
+\label{tab:e123-main}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llccccccc}
+\toprule
+ & & \multicolumn{2}{c}{Faults} & \multicolumn{2}{c}{Controls} & Date controls & \multicolumn{2}{c}{Decoys} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-7}\cmidrule(lr){8-9}
+Judge & Context & Catch & any & FA & any & FA & FA & any \\
+\midrule
+Gemma 4 26B & \texttt{both-texts} & \EGemmaCatchTexts & \EGemmaCatchAnyTexts & \EGemmaCtrlFATexts & \EGemmaCtrlAnyTexts & \EGemmaDateFATexts & \EGemmaDecoyFATexts & \EGemmaDecoyAnyTexts \\
+ & \texttt{status} & \EGemmaCatchRecord & \EGemmaCatchAnyRecord & \EGemmaCtrlFARecord & \EGemmaCtrlAnyRecord & \EGemmaDateFARecord & \EGemmaDecoyFARecord & \EGemmaDecoyAnyRecord \\
+ & \texttt{status-damaged} & \EGemmaCatchDamaged & \EGemmaCatchAnyDamaged & \EGemmaCtrlFADamaged & \EGemmaCtrlAnyDamaged & \EGemmaDateFADamaged & \EGemmaDecoyFADamaged & \EGemmaDecoyAnyDamaged \\
+ & \texttt{norecord-damaged} & \EGemmaCatchNorecord & \EGemmaCatchAnyNorecord & \EGemmaCtrlFANorecord & \EGemmaCtrlAnyNorecord & \EGemmaDateFANorecord & \EGemmaDecoyFANorecord & \EGemmaDecoyAnyNorecord \\
+ & \texttt{lowauth-damaged} & \EGemmaCatchLowauth & \EGemmaCatchAnyLowauth & \EGemmaCtrlFALowauth & \EGemmaCtrlAnyLowauth & \EGemmaDateFALowauth & \EGemmaDecoyFALowauth & \EGemmaDecoyAnyLowauth \\
+ & \texttt{caveat-damaged} & \EGemmaCatchCaveat & \EGemmaCatchAnyCaveat & \EGemmaCtrlFACaveat & \EGemmaCtrlAnyCaveat & \EGemmaDateFACaveat & \EGemmaDecoyFACaveat & \EGemmaDecoyAnyCaveat \\
+ & \texttt{conflict-damaged} & \EGemmaCatchConflict & \EGemmaCatchAnyConflict & \EGemmaCtrlFAConflict & \EGemmaCtrlAnyConflict & \EGemmaDateFAConflict & \EGemmaDecoyFAConflict & \EGemmaDecoyAnyConflict \\
+\addlinespace
+GPT-5.5 & \texttt{both-texts} & \EGPTCatchTexts & \EGPTCatchAnyTexts & \EGPTCtrlFATexts & \EGPTCtrlAnyTexts & \EGPTDateFATexts & \EGPTDecoyFATexts & \EGPTDecoyAnyTexts \\
+ & \texttt{status} & \EGPTCatchRecord & \EGPTCatchAnyRecord & \EGPTCtrlFARecord & \EGPTCtrlAnyRecord & \EGPTDateFARecord & \EGPTDecoyFARecord & \EGPTDecoyAnyRecord \\
+ & \texttt{status-damaged} & \EGPTCatchDamaged & \EGPTCatchAnyDamaged & \EGPTCtrlFADamaged & \EGPTCtrlAnyDamaged & \EGPTDateFADamaged & \EGPTDecoyFADamaged & \EGPTDecoyAnyDamaged \\
+ & \texttt{norecord-damaged} & \EGPTCatchNorecord & \EGPTCatchAnyNorecord & \EGPTCtrlFANorecord & \EGPTCtrlAnyNorecord & \EGPTDateFANorecord & \EGPTDecoyFANorecord & \EGPTDecoyAnyNorecord \\
+ & \texttt{lowauth-damaged} & \EGPTCatchLowauth & \EGPTCatchAnyLowauth & \EGPTCtrlFALowauth & \EGPTCtrlAnyLowauth & \EGPTDateFALowauth & \EGPTDecoyFALowauth & \EGPTDecoyAnyLowauth \\
+ & \texttt{caveat-damaged} & \EGPTCatchCaveat & \EGPTCatchAnyCaveat & \EGPTCtrlFACaveat & \EGPTCtrlAnyCaveat & \EGPTDateFACaveat & \EGPTDecoyFACaveat & \EGPTDecoyAnyCaveat \\
+ & \texttt{conflict-damaged} & \EGPTCatchConflict & \EGPTCatchAnyConflict & \EGPTCtrlFAConflict & \EGPTCtrlAnyConflict & \EGPTDateFAConflict & \EGPTDecoyFAConflict & \EGPTDecoyAnyConflict \\
+\addlinespace
+Gemini 3.1 Pro & \texttt{both-texts} & \EGeminiCatchTexts & \EGeminiCatchAnyTexts & \EGeminiCtrlFATexts & \EGeminiCtrlAnyTexts & \EGeminiDateFATexts & \EGeminiDecoyFATexts & \EGeminiDecoyAnyTexts \\
+ & \texttt{status} & \EGeminiCatchRecord & \EGeminiCatchAnyRecord & \EGeminiCtrlFARecord & \EGeminiCtrlAnyRecord & \EGeminiDateFARecord & \EGeminiDecoyFARecord & \EGeminiDecoyAnyRecord \\
+ & \texttt{status-damaged} & \EGeminiCatchDamaged & \EGeminiCatchAnyDamaged & \EGeminiCtrlFADamaged & \EGeminiCtrlAnyDamaged & \EGeminiDateFADamaged & \EGeminiDecoyFADamaged & \EGeminiDecoyAnyDamaged \\
+ & \texttt{norecord-damaged} & \EGeminiCatchNorecord & \EGeminiCatchAnyNorecord & \EGeminiCtrlFANorecord & \EGeminiCtrlAnyNorecord & \EGeminiDateFANorecord & \EGeminiDecoyFANorecord & \EGeminiDecoyAnyNorecord \\
+ & \texttt{lowauth-damaged} & \EGeminiCatchLowauth & \EGeminiCatchAnyLowauth & \EGeminiCtrlFALowauth & \EGeminiCtrlAnyLowauth & \EGeminiDateFALowauth & \EGeminiDecoyFALowauth & \EGeminiDecoyAnyLowauth \\
+ & \texttt{caveat-damaged} & \EGeminiCatchCaveat & \EGeminiCatchAnyCaveat & \EGeminiCtrlFACaveat & \EGeminiCtrlAnyCaveat & \EGeminiDateFACaveat & \EGeminiDecoyFACaveat & \EGeminiDecoyAnyCaveat \\
+ & \texttt{conflict-damaged} & \EGeminiCatchConflict & \EGeminiCatchAnyConflict & \EGeminiCtrlFAConflict & \EGeminiCtrlAnyConflict & \EGeminiDateFAConflict & \EGeminiDecoyFAConflict & \EGeminiDecoyAnyConflict \\
+\addlinespace
+Claude Opus 4.5 & \texttt{both-texts} & \EOpusCatchTexts & \EOpusCatchAnyTexts & \EOpusCtrlFATexts & \EOpusCtrlAnyTexts & \EOpusDateFATexts & \EOpusDecoyFATexts & \EOpusDecoyAnyTexts \\
+ & \texttt{status} & \EOpusCatchRecord & \EOpusCatchAnyRecord & \EOpusCtrlFARecord & \EOpusCtrlAnyRecord & \EOpusDateFARecord & \EOpusDecoyFARecord & \EOpusDecoyAnyRecord \\
+ & \texttt{status-damaged} & \EOpusCatchDamaged & \EOpusCatchAnyDamaged & \EOpusCtrlFADamaged & \EOpusCtrlAnyDamaged & \EOpusDateFADamaged & \EOpusDecoyFADamaged & \EOpusDecoyAnyDamaged \\
+ & \texttt{norecord-damaged} & \EOpusCatchNorecord & \EOpusCatchAnyNorecord & \EOpusCtrlFANorecord & \EOpusCtrlAnyNorecord & \EOpusDateFANorecord & \EOpusDecoyFANorecord & \EOpusDecoyAnyNorecord \\
+ & \texttt{lowauth-damaged} & \EOpusCatchLowauth & \EOpusCatchAnyLowauth & \EOpusCtrlFALowauth & \EOpusCtrlAnyLowauth & \EOpusDateFALowauth & \EOpusDecoyFALowauth & \EOpusDecoyAnyLowauth \\
+ & \texttt{caveat-damaged} & \EOpusCatchCaveat & \EOpusCatchAnyCaveat & \EOpusCtrlFACaveat & \EOpusCtrlAnyCaveat & \EOpusDateFACaveat & \EOpusDecoyFACaveat & \EOpusDecoyAnyCaveat \\
+ & \texttt{conflict-damaged} & \EOpusCatchConflict & \EOpusCatchAnyConflict & \EOpusCtrlFAConflict & \EOpusCtrlAnyConflict & \EOpusDateFAConflict & \EOpusDecoyFAConflict & \EOpusDecoyAnyConflict \\
+\bottomrule
+\end{tabular}}
+\end{table*}

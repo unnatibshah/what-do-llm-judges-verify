@@ -1,0 +1,22 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{Discrimination against current-document controls (points): right-reason catch minus validity false alarms on answers citing the replacing document. Mean over links.}
+\label{tab:rfc-current}
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Context & Qwen 32B & Gemma 4 26B & GPT-OSS 120B & Gemini 3.1 Pro & GPT-5.5 & Claude Opus 4.5 \\
+\midrule
+\texttt{cite-only} & $-$31 & +12 & -- & +46 & -- & +21 \\
+\texttt{cited-text} & $-$69 & -- & -- & -- & -- & +21 \\
+\texttt{both-texts} & +40 & +67 & +62 & +92 & +96 & +75 \\
+\texttt{both-masked} & +35 & +62 & +50 & +83 & +92 & +75 \\
+\texttt{both-explicit} & +46 & -- & +83 & +100 & +100 & +100 \\
+\texttt{status} & +100 & +100 & +75 & +100 & -- & +100 \\
+\texttt{status-damaged} & +69 & +50 & +62 & +50 & +67 & +92 \\
+\texttt{norecord-damaged} & +60 & +50 & -- & +62 & +75 & +88 \\
+\texttt{check-first} & +75 & +75 & -- & +100 & -- & +88 \\
+\texttt{few-shot} & +88 & -- & -- & -- & -- & +75 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

@@ -1,0 +1,22 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{Currency discrimination by context (points): right-reason catch on faults minus validity false alarms on date controls, which cite the same old document as of a date before it was replaced. Mean over links.}
+\label{tab:rfc-date}
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Context & Qwen 32B & Gemma 4 26B & GPT-OSS 120B & Gemini 3.1 Pro & GPT-5.5 & Claude Opus 4.5 \\
+\midrule
+\texttt{cite-only} & $-$38 & +12 & -- & +46 & -- & +21 \\
+\texttt{cited-text} & $-$69 & -- & -- & -- & -- & +25 \\
+\texttt{both-texts} & $-$2 & +67 & +67 & +92 & +96 & +71 \\
+\texttt{both-masked} & $-$19 & +62 & +54 & +83 & +92 & +75 \\
+\texttt{both-explicit} & $-$2 & -- & +88 & +100 & +100 & +92 \\
+\texttt{status} & +77 & +100 & +71 & +100 & -- & +100 \\
+\texttt{status-damaged} & +46 & +50 & +62 & +50 & +67 & +92 \\
+\texttt{norecord-damaged} & +27 & +50 & -- & +62 & +75 & +83 \\
+\texttt{check-first} & +23 & +75 & -- & +100 & -- & +88 \\
+\texttt{few-shot} & +79 & -- & -- & -- & -- & +75 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

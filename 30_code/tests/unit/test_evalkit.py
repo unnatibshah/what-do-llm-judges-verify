@@ -89,3 +89,12 @@ def test_decoys_are_balanced_on_dates() -> None:
     docs, links, _ = ek.rfc_links()
     b = ek.decoy_balance(links, ek.rfc_decoys(links, docs), docs)
     assert all(abs(b[k]["smd"]) < 0.25 for k in ("old_year", "new_year", "gap_years", "title_ratio"))
+
+
+def test_conflict_context_adds_one_code_and_scores_it_apart() -> None:
+    f, _, _ = ek.items([LINK], DOCS)
+    con, dam = ek.render(f, "conflict-damaged", DOCS, set()), ek.render(f, "status-damaged", DOCS, set())
+    assert "record_conflict" in con and "record_conflict" not in dam and "in_force" in con
+    assert con.replace("- record_conflict: " + ek.CONFLICT["record_conflict"] + "\n", "") == dam
+    s = ek.score(f, {"verdict": "FLAG", "findings": [{"doc_id": "RFC1", "reason": "record_conflict"}]})
+    assert s["conflict"] and not s["right"] and not s["validity"] and s["any"]

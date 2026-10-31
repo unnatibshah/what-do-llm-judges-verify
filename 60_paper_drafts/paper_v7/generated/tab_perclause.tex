@@ -1,0 +1,26 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{Right-reason catches per replaced clause (k/n faults; R5 also counts S-swap faults), capable models. The clause is the unit of every interval and test in the paper.}
+\label{tab:perclause}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccc}
+\toprule
+Replaced clause & \multicolumn{4}{c}{Qwen 14B} & \multicolumn{4}{c}{Gemma 4 26B} \\
+ & R2 & R4 & R4n & R5 & R2 & R4 & R4n & R5 \\
+\midrule
+\texttt{DL-C3-004\#cl-3.8} & 2/4 & 4/4 & 4/4 & 8/8 & 0/4 & 4/4 & 4/4 & 8/8 \\
+\texttt{DL-C3-004\#cl-9.2b} & 2/2 & 2/2 & 2/2 & 4/4 & 2/2 & 2/2 & 2/2 & 4/4 \\
+\texttt{DL-C3-006\#cl-3.2} & 2/3 & 3/3 & 3/3 & 6/6 & 3/3 & 3/3 & 3/3 & 6/6 \\
+\texttt{DL-C3-009\#cl-3.6} & 2/4 & 4/4 & 4/4 & 8/8 & 1/4 & 4/4 & 4/4 & 8/8 \\
+\texttt{GJ-C3-001\#cl-13.5-check} & 0/4 & 4/4 & 4/4 & 8/8 & 0/4 & 2/4 & 3/4 & 8/8 \\
+\texttt{GJ-C3-001\#cl-13.5-class} & 3/3 & 3/3 & 3/3 & 6/6 & 2/3 & 3/3 & 3/3 & 6/6 \\
+\texttt{GJ-C3-001\#cl-5-proviso} & 0/3 & 0/3 & 0/3 & 6/6 & 0/3 & 0/3 & 0/3 & 6/6 \\
+\texttt{GJ-C3-003\#cl-6.2} & 0/2 & 2/2 & 2/2 & 4/4 & 0/2 & 2/2 & 2/2 & 4/4 \\
+\texttt{IN-C1-011\#cl-annex-phase2-claims} & 0/2 & 2/2 & 2/2 & 4/4 & 0/2 & 2/2 & 2/2 & 4/4 \\
+\texttt{KA-C5-001\#cl-15} & 0/4 & 4/4 & 3/4 & 0/8 & 0/4 & 0/4 & 0/4 & 0/8 \\
+\texttt{KA-C5-001\#cl-26} & 0/4 & 0/4 & 0/4 & 0/4 & 0/4 & 0/4 & 0/4 & 0/4 \\
+\texttt{TN-C5-001\#cl-2} & 0/3 & 0/3 & 0/3 & 0/6 & 0/3 & 0/3 & 0/3 & 0/6 \\
+\texttt{UP-C3-001\#cl-5.1} & 1/2 & 2/2 & 2/2 & 4/4 & 0/2 & 1/2 & 1/2 & 4/4 \\
+\texttt{UP-C3-001\#cl-6.2} & 1/2 & 2/2 & 2/2 & 4/4 & 1/2 & 2/2 & 2/2 & 4/4 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

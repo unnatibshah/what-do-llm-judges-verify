@@ -1,0 +1,50 @@
+\section{Limitations and threats to validity}
+\label{sec:limitations}
+
+\paragraph{Two draws, few items.} Each draw gives each judge 24 gap faults; the two draws share 12,
+so the gap result rests on 36 distinct links. The drop held on both draws for every judge, but the pilot showed how much
+a judge's result can depend on which links are dropped (\S\ref{sec:res-gaps}), and differences between judges of a few
+items remain within what such variation could produce. The presentation conditions were run on the first draw only,
+and Claude's presentation effects are not significant.
+
+\paragraph{Single runs and decoding.} Hosted judges ran once each per prompt, through a proxy that sets and does not
+report temperature and seed. Two checks bound the variation this allows: in the pilot, a repeated block changed 30 of
+72 replies but only one catch, and requesting the pilot's prompts again changed the score of at most
+\EOpusReaskChanged{} of a judge's \EOpusReaskItems{} items (\S\ref{sec:studies}). The second draw reuses the first
+draw's text-only replies, and Gemma's client sometimes retried a cut-off reply without the API's JSON mode.
+
+\paragraph{The conflict code.} The context with a conflict code was added after the main results existed, in one
+wording, on one draw, without a planned test. It shows that one judge uses such a code often and the others rarely or
+never; it cannot show how other wordings of such a code would fare.
+
+\paragraph{The decoys are a partial control.} They are matched on dates, title similarity and, for most pairs, IETF
+area, but not on abstract overlap, which differs sharply between replacements and updates. Some decoys are new
+protocol versions, for which flagging the older RFC is a defensible reading of the question even though the
+publisher's record says it was not replaced. The similarity analysis is exploratory, post hoc and small.
+
+\paragraph{Construct.} The evidence is titles, dates and abstracts, not full documents. The error tested is always the
+citation of a whole replaced document; partial amendments and chains are not covered. Links are dropped at random,
+while real records fail in patterns (recent amendments, particular issuers). The question names the old document's
+title, which may provoke some of the non-currency findings on controls. Two of the 24 gap faults are weaker items:
+RFC~7142 (``Reclassification of RFC~1142 to Historic'') and RFC~6082 (``\ldots RFC~2482 is Historic'') name the
+old RFC in their titles, so the replacement is stated rather than inferred, and as reclassification notices they do
+not themselves specify the protocol, so the controls citing them are weaker. They account for two of Gemini's lost
+catches and one each of GPT-5.5's and Claude's (Table~\ref{tab:e123-items}); without them every judge still lost
+catches and gained none (Claude 7 lost, two-sided exact $p$ = .016). Under the damaged record Gemini missed both,
+even though the newer RFC's title states the replacement.
+
+\paragraph{Generalisation.} One corpus of technical standards, chosen because its publisher maintains an exact
+record, and four judges. Legal collections add problems this test does not address, as the case study illustrates:
+partial amendments, records extracted by machine, and answer keys that people disagree about. The title of the paper
+asks a general question; the answer we give is limited to these judges, prompts and documents. In this corpus a
+replacing RFC usually repeats its predecessor's title and abstract, so text-only catches are comparatively easy;
+where amendments look little like the original, as in many contracts and regulations, both the text-only baseline
+and what a record suppresses are untested.
+
+\paragraph{Mechanism.} The presentation conditions keep the record fixed and vary single features, one prompt variant
+each. They can show that presentation changed what a judge did; they cannot show why.
+
+\paragraph{Provenance.} The harness and the text were produced with an AI assistant from the same developer as one of
+the judges, Claude Opus~4.5 (\S\ref{sec:ai-use}). All judges received identical prompts and items, and the gold comes
+from the publisher. After the pilot, the plan was drafted with that assistant, then reviewed and amended by the authors; it
+was recorded internally rather than registered publicly.

@@ -1,0 +1,22 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{As Table~\ref{tab:rfc-date}, with any finding on a date control counted as a false alarm.}
+\label{tab:rfc-date-any}
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Context & Qwen 32B & Gemma 4 26B & GPT-OSS 120B & Gemini 3.1 Pro & GPT-5.5 & Claude Opus 4.5 \\
+\midrule
+\texttt{cite-only} & $-$38 & $-$58 & -- & $-$54 & -- & +12 \\
+\texttt{cited-text} & $-$73 & -- & -- & -- & -- & +25 \\
+\texttt{both-texts} & $-$8 & +67 & +67 & +92 & +96 & +71 \\
+\texttt{both-masked} & $-$19 & +62 & +54 & +83 & +92 & +75 \\
+\texttt{both-explicit} & $-$4 & -- & +88 & +100 & +100 & +92 \\
+\texttt{status} & +12 & +100 & +67 & +100 & -- & +96 \\
+\texttt{status-damaged} & $-$19 & +50 & +58 & +50 & +67 & +88 \\
+\texttt{norecord-damaged} & $-$35 & +50 & -- & +62 & +75 & +83 \\
+\texttt{check-first} & +4 & +75 & -- & +100 & -- & +83 \\
+\texttt{few-shot} & +79 & -- & -- & -- & -- & +75 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

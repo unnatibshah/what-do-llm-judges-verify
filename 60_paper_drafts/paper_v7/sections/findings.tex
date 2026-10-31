@@ -1,0 +1,195 @@
+% Results. Numbers: generated/numbers_e123.tex (final runs), generated/numbers_rfc.tex (pilot).
+% Any sentence that compares judges must be rechecked whenever a judge's runs are added (issue register).
+\section{Results}
+\label{sec:results}
+
+Table~\ref{tab:e123-main} lists every judge's catches and false alarms in every context. We begin with the correct
+record, which sets the baseline, and then turn to the gap faults.
+
+\IfFileExists{generated/tab_e123_main.tex}{\input{generated/tab_e123_main.tex}}{}
+
+\subsection{With a correct record}
+\label{sec:res-correct}
+
+Given a line from the correct record, the judges caught all or nearly all faults (Gemma \EGemmaCatchRecord, GPT-5.5
+\EGPTCatchRecord, Gemini \EGeminiCatchRecord, Claude \EOpusCatchRecord), as a lookup in the same record does by
+construction. The record also helped on correct answers. For decoys, the record line correctly reports the older RFC as
+in force, and decoy false alarms fell from \EGPTDecoyFATexts{} to \EGPTDecoyFARecord{} for GPT-5.5, from
+\EGeminiDecoyFATexts{} to \EGeminiDecoyFARecord{} for Gemini, from \EGemmaDecoyFATexts{} to \EGemmaDecoyFARecord{} for Gemma and from \EOpusDecoyFATexts{} to \EOpusDecoyFARecord{} for
+Claude. Following the record therefore has a benefit as well as the cost measured below, and on this corpus a judge
+given a correct record does essentially what the record does in its findings about currency.
+
+With the damaged record the lookup catches the 24 faults whose link survived and none of the 24 gap faults. Over all
+\ENLinks{} faults the judges scored Gemma \EGemmaCatchDamaged, GPT-5.5 \EGPTCatchDamaged, Gemini \EGeminiCatchDamaged{}
+and Claude \EOpusCatchDamaged. The gap faults themselves are analysed next.
+
+\subsection{Gap faults}
+\label{sec:res-gaps}
+
+Table~\ref{tab:e123-gap} and Figure~\ref{fig:gap} isolate the 24 gap faults; the items are the same in every column, so each comparison is
+within a judge.
+
+\IfFileExists{generated/tab_e123_gap.tex}{\input{generated/tab_e123_gap.tex}}{}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{generated/fig_gap.pdf}
+\caption{Catches on the 24 gap faults per judge (the values of Table~\ref{tab:e123-gap}): from both texts with no record, and with the damaged record in each of its four presentations. A lookup in the damaged record catches none of these faults.}
+\label{fig:gap}
+\end{figure}
+
+From the texts alone, Gemini caught \EGeminiGapTexts{} of the gap faults and, with the damaged record in its
+authoritative form, \EGeminiGapDamaged: \EGeminiHTwoaLost{} catches lost and \EGeminiHTwoaGained{} gained (H2a, Holm
+$p$ \EGeminiHTwoaHolm). GPT-5.5 went from \EGPTGapTexts{} to \EGPTGapDamaged{} (\EGPTHTwoaLost{} lost,
+\EGPTHTwoaGained{} gained; Holm $p$ \EGPTHTwoaHolm) and Claude from \EOpusGapTexts{} to \EOpusGapDamaged{}
+(\EOpusHTwoaLost{} lost, \EOpusHTwoaGained{} gained; Holm $p$ \EOpusHTwoaHolm). Gemma caught fewer from the texts,
+\EGemmaGapTexts, and none with the record (Holm $p$ \EGemmaHTwoaHolm). H2a therefore holds for all four judges. Under
+the damaged record, \EGeminiBareDamaged{} of Gemini's \EGeminiMissDamaged{} misses were replies with no finding at
+all; GPT-5.5's were \EGPTBareDamaged{} of \EGPTMissDamaged, Claude's \EOpusBareDamaged{} of \EOpusMissDamaged{} and
+Gemma's \EGemmaBareDamaged{} of \EGemmaMissDamaged. Claude's two misses that did carry a finding both mention the newer RFC, but as a content error (a
+title wrongly attributed to the cited RFC, or an answer that may be incomplete), not as a replacement; one repeats, as the
+record says, that the older RFC remains in force. Under none of the four presentations does a missed gap fault name a
+conflict between the record and the texts; the few replies that mention the record are catches.
+
+\IfFileExists{generated/tab_e123_seeds.tex}{\input{generated/tab_e123_seeds.tex}}{}
+
+\paragraph{A second draw of removed links.} Table~\ref{tab:e123-seeds} repeats H2a on the second draw. Each judge lost
+catches again and gained none: Gemini \EGeminiSOneOwn{} to \EGeminiSOneWith, GPT-5.5 \EGPTSOneOwn{} to
+\EGPTSOneWith, Claude \EOpusSOneOwn{} to \EOpusSOneWith{} and Gemma \EGemmaSOneOwn{} to \EGemmaSOneWith{} (Holm $p$
+\EGeminiSOneHolm, \EGPTSOneHolm, \EOpusSOneHolm{} and \EGemmaSOneHolm). The two draws share \EGPTSOneShared{} gap faults,
+whose replies are identical under both, so the seed-1 result is new evidence only through its other 12 items. Counting
+each link once, the drop over the \EGPTPoolLinks{} links in either gap set is \EGeminiPoolMean{} points for Gemini
+(95\% interval \EGeminiPoolCI), \EGPTPoolMean{} for GPT-5.5 (\EGPTPoolCI), \EGemmaPoolMean{} for Gemma
+(\EGemmaPoolCI) and \EOpusPoolMean{} for Claude (\EOpusPoolCI), with no link gained by any judge. On both draws Gemini lost
+the most catches and Claude the fewest, but with this many items we do not rank the judges.
+
+\paragraph{Presentation.} Writing ``no replacement recorded'' instead of ``in force'' did not bring any judge back to
+its text-only level. Gemini caught \EGeminiGapNorecord{} (\EGeminiArmNorecordGained{} gained, \EGeminiArmNorecordLost{}
+lost), GPT-5.5 \EGPTGapNorecord{} (\EGPTArmNorecordGained{} gained, \EGPTArmNorecordLost{} lost), Claude
+\EOpusGapNorecord{} (\EOpusArmNorecordGained{} gained, \EOpusArmNorecordLost{} lost) and Gemma \EGemmaGapNorecord; no
+change is significant before or after adjustment. Gains this small cannot be resolved with 24 pairs, so the result
+is that the rewording did not restore the lost catches, not that it had no effect. In this condition the record line
+is true: it reports only that no replacement is recorded. The drop seen here,
+for judges that had both texts in front of them, is therefore produced by an omission in the record, without any
+false statement. (The comparison with the texts alone was not a planned test; for each judge every item that changed
+moved away from a catch.)
+
+The other two presentations moved three of the judges. With the line headed as an unverified note, Gemini caught
+\EGeminiGapLowauth{} gap faults and GPT-5.5 \EGPTGapLowauth{}; with a warning that the record omits some replacements,
+\EGeminiGapCaveat{} and \EGPTGapCaveat. Every item that changed moved toward a catch (Gemini \EGeminiArmLowauthGained{}
+and \EGeminiArmCaveatGained{} items, GPT-5.5 \EGPTArmLowauthGained{} and \EGPTArmCaveatGained), and all four tests are
+significant after the Holm adjustment over the twelve presentation tests (Holm $p$ \EGeminiArmLowauthHolm,
+\EGeminiArmCaveatHolm, \EGPTArmLowauthHolm{} and \EGPTArmCaveatHolm). Claude moved
+the same way, to \EOpusGapLowauth{} and \EOpusGapCaveat{} (\EOpusArmLowauthGained{} items each, none lost; raw
+$p$ \EOpusArmLowauthRaw, Holm $p$ \EOpusArmLowauthHolm). In each condition it caught seven of the
+\EOpusHTwoaLost{} faults it had lost and one it had missed from the texts (Appendix~\ref{app:items}), equal to its
+text-only level of \EOpusGapTexts; with only \EOpusHTwoaLost{} lost catches to recover, even this near-complete
+recovery does not survive the Holm adjustment over the twelve tests. Gemma recovered less,
+catching \EGemmaGapLowauth{} and \EGemmaGapCaveat{} against \EGemmaGapTexts{} from the texts alone (Holm $p$
+\EGemmaArmLowauthHolm{} and \EGemmaArmCaveatHolm).
+
+Where the catches came back, they came back with the judge's text-only false alarms. Under the authoritative record,
+Gemini and GPT-5.5 raised no validity false alarm on decoys, because the record correctly lists the decoy's older RFC as
+in force. With the unverified note, GPT-5.5 flagged \EGPTDecoyFALowauth{} decoys and Gemini \EGeminiDecoyFALowauth; with
+the warning, \EGPTDecoyFACaveat{} and \EGeminiDecoyFACaveat, against \EGPTDecoyFATexts{} and \EGeminiDecoyFATexts{}
+from the texts alone. Claude's rose from \EOpusDecoyFADamaged{} to \EOpusDecoyFALowauth{} and \EOpusDecoyFACaveat{}
+(texts alone \EOpusDecoyFATexts). A decoy's older RFC was never replaced, so in every presentation its record line is
+correct; a judge that weighed record against texts would have no reason to flag more decoys when told the
+record might omit replacements. The change therefore looks more like a return to text-only behaviour than like better
+use of the record. False alarms on controls and date controls stayed at one of 48 or fewer in every damaged-record
+condition.
+
+\paragraph{A code for conflicts.} Given a reason for a record that conflicts with the evidence (exploratory;
+\S\ref{sec:studies}), the judges divided. Gemini gave it on \EGeminiConflictCodeGap{} of the 24 gap faults, GPT-5.5
+on \EGPTConflictCodeGap, Gemma on \EGemmaConflictCodeGap{} and Claude on none. Right-reason catches on the gap faults
+were \EGeminiGapConflict{} for Gemini, \EGPTGapConflict{} for GPT-5.5, \EOpusGapConflict{} for Claude and
+\EGemmaGapConflict{} for Gemma, against \EGeminiGapDamaged, \EGPTGapDamaged, \EOpusGapDamaged{} and
+\EGemmaGapDamaged{} without the code, and bare passes were \EGeminiBareConflict, \EGPTBareConflict,
+\EOpusBareConflict{} and \EGemmaBareConflict{} of 24 (against \EGeminiBareDamaged, \EGPTBareDamaged, \EOpusBareDamaged{} and
+\EGemmaBareDamaged{} without the code). The code was almost never used on correct answers (Gemini and
+Gemma once each, on a decoy; no judge on a control or date control). For Gemini, then, many of the silent passes under
+the authoritative line correspond to a conflict the judge registers when the format lets it say so; the other
+three judges rarely or never used the code, although Claude's right-reason catches rose from \EOpusGapDamaged{} to
+\EOpusGapConflict{} in this context (untested). With the code, every judge still caught fewer gap faults than from the texts
+alone.
+
+\paragraph{Comparison with the pilot.} In the pilot, Claude kept \RfcDeferWithStatusDamagedClaudeOpusFourFive{} of the
+\RfcDeferOwnStatusDamagedClaudeOpusFourFive{} gap faults it had caught from the texts. Here it lost
+\EOpusHTwoaLost. The two runs used different gap faults: the pilot's damaged record was built over 24 links, and only
+\EOpusPilotShared{} of its \EOpusPilotPilotItems{} gap faults are gap faults here, and on those Claude caught
+\EOpusPilotSharedCaught{} in this run; the other \EOpusPilotPilotOnly{} pilot items, all of which it caught in the pilot, are not
+gap faults in this run. Most of the difference therefore comes from which links were dropped, and on the second draw
+Claude again lost catches (\EOpusSOneLost) and gained none. What the comparison does show is that the choice of a dozen dropped links can turn a judge's small loss into a large one, so comparisons between judges on item
+sets of this size, including those in our own tables, are provisional.
+Appendix~\ref{app:items} lists every gap fault.
+
+\subsection{Replacements, updates and surface similarity}
+\label{sec:res-shortcut}
+
+Table~\ref{tab:e123-decoy} and Figure~\ref{fig:decoy} report the decoy test, with both texts and no record. Every judge caught more
+faults than it flagged decoys (paired difference \EGPTHOne{} points for GPT-5.5, 95\% interval \EGPTHOneCI; Gemini
+\EGeminiHOne, \EGeminiHOneCI; Claude \EOpusHOne, \EOpusHOneCI; Gemma \EGemmaHOne, \EGemmaHOneCI), so H1 holds. Because each decoy was
+drawn from its link's title group, a judge that flagged every pair with near-identical titles would score zero here;
+the weakness of H1 lies elsewhere, in abstract overlap, discussed below. The more informative comparison is within
+the same-title pairs, where title similarity is held roughly constant. There GPT-5.5 caught \EGPTSameCatch{} faults and flagged \EGPTSameDecoy{}
+decoys, Gemini \EGeminiSameCatch{} and \EGeminiSameDecoy, Claude \EOpusSameCatch{} and \EOpusSameDecoy, Gemma \EGemmaSameCatch{} and \EGemmaSameDecoy. Among
+different-title pairs, no judge flagged a decoy, and catches differed widely (GPT-5.5 \EGPTDifferentCatch, Gemini \EGeminiDifferentCatch, Claude
+\EOpusDifferentCatch, Gemma \EGemmaDifferentCatch).
+
+\IfFileExists{generated/tab_e123_decoy.tex}{\input{generated/tab_e123_decoy.tex}}{}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{generated/fig_decoy.pdf}
+\caption{Faults caught and decoys flagged as replaced, with both texts and no record, by whether the two RFCs of a pair have near-identical titles (the values of Table~\ref{tab:e123-decoy}). No judge flagged a decoy whose titles differ.}
+\label{fig:decoy}
+\end{figure}
+
+Our plan read a positive H1 as evidence that text-only catches are not a title shortcut. The data call for a more
+qualified reading, and the analysis that supports it was not planned. Title similarity travels with abstract overlap:
+in the text the judges saw, a replacing RFC usually repeats much of its predecessor's abstract (median similarity
+\EAbsSimLinksSame{} for same-title links, \EAbsSimLinksDifferent{} for different-title links), while the decoys, which
+were not matched on overlap, do not (\EAbsSimDecoysSame{} and \EAbsSimDecoysDifferent). Splitting at a similarity of
+0.3, chosen after seeing the data, false alarms on same-title decoys were more frequent when the abstracts overlapped
+(GPT-5.5 \EGPTDecoyFASimHigh{} against \EGPTDecoyFASimLow; Gemini \EGeminiDecoyFASimHigh{} against
+\EGeminiDecoyFASimLow; Claude \EOpusDecoyFASimHigh{} against \EOpusDecoyFASimLow;
+Gemma \EGemmaDecoyFASimHigh{} against \EGemmaDecoyFASimLow), and so were catches on different-title replacements (Claude
+\EOpusDiffCatchSimHigh{} against \EOpusDiffCatchSimLow; Gemma \EGemmaDiffCatchSimHigh{} against \EGemmaDiffCatchSimLow;
+GPT-5.5 \EGPTDiffCatchSimHigh{} against \EGPTDiffCatchSimLow; Gemini \EGeminiDiffCatchSimHigh{} against
+\EGeminiDiffCatchSimLow). The high-overlap cells hold six or seven items, and we
+report no test. The pattern is consistent with judges using the resemblance between the two documents as evidence of
+replacement. In the RFC series that is often good evidence, so we hesitate to call it a shortcut, and the data cannot
+separate the title from the abstract.
+
+The decoys also have a labelling caveat. Some of the decoys the judges flagged are updates that introduce a new version of a
+protocol, such as RFC~8210 (version~1 of the RPKI-to-Router protocol, updating RFC~6810), flagged by all four judges,
+and RFC~9777 (MLDv2, updating RFC~2710), flagged by two. By the publisher's record the older RFC is in force, which is our gold. For a
+question asking which document specifies the protocol, however, a reader could reasonably prefer the newer version.
+Some of these false alarms may therefore be defensible judgements rather than errors.
+
+\subsection{Scoring by reason}
+\label{sec:res-scoring}
+
+For the frontier judges given both texts, counting any finding on a fault instead of the right reason barely changes
+the catch (GPT-5.5 \EGPTCatchTexts{} against \EGPTCatchAnyTexts, Gemini \EGeminiCatchTexts{} against \EGeminiCatchAnyTexts,
+Claude \EOpusCatchTexts{} against \EOpusCatchAnyTexts). On correct answers the difference is large. With both texts, Claude raised some finding on
+\EOpusCtrlAnyTexts{} of the controls that cite the replacing RFC, but a validity finding on \EOpusCtrlFATexts; Gemini
+raised some finding on \EGeminiCtrlAnyTexts{} and a validity finding on \EGeminiCtrlFATexts; Gemma raised some finding on \EGemmaCtrlAnyTexts{} and a validity finding on \EGemmaCtrlFATexts. Gemma's findings on these
+controls all gave the reason ``content error''. We suspect, without having tested it, that the question format provokes
+them: the question names the old document's title, and the answer cites a document with a different number and
+sometimes a different title. Under any-finding scoring Claude, Gemini and Gemma would appear to raise false alarms on about two in
+five of these controls, none of which concern currency.
+
+The scoring rule also changes the catch when the judge has less evidence. In the pilot, given the citation alone, Gemini raised a finding on
+every fault but gave the right reason on \RfcCatchCiteOnlyGeminiThreeOnePro. Reason coding is also what makes the bare
+passes of \S\ref{sec:res-gaps} visible as a separate category from misses that carry an irrelevant finding.
+
+\subsection{Date controls}
+\label{sec:res-dates}
+
+The judges raised few or no validity false alarms on date controls (with both texts: GPT-5.5 \EGPTDateFATexts,
+Gemini \EGeminiDateFATexts, Claude \EOpusDateFATexts{} and Gemma \EGemmaDateFATexts). In this run the controls
+did not separate the judges. In the pilot they did. Qwen~2.5~32B caught \RfcCatchBothTextsQwenThreeTwoB{} faults with
+both texts, a catch rate comparable to the frontier judges, but also flagged \RfcDateFABothTextsQwenThreeTwoB{} answers
+that were correct on their date, for a currency discrimination (right-reason catch minus validity false alarms on date controls) of
+\RfcDiscDateBothTextsQwenThreeTwoB{} points over all \RfcSample{} links against \RfcDiscDateBothTextsGeminiThreeOnePro{} for Gemini over the first 24.
+Two worked examples in the prompt, one showing a correct answer being passed, reduced Qwen's date false alarms to \RfcDateFAFewShotQwenThreeTwoB. The result rests on one judge, and a catch rate alone would not
+have revealed it.

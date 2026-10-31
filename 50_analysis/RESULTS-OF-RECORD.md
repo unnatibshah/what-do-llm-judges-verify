@@ -1,22 +1,25 @@
 # Results of record
 
-Every number in the paper (`60_paper_drafts/paper_v6/`) comes from one of these files. Commands: `REPRODUCE.md`.
+Every number in the paper (`60_paper_drafts/paper_v7/`) comes from one of these files. Commands: `REPRODUCE.md`.
 
-## Final runs and damage seed 1 (main text, Appendices B–D)
+## Final runs and damage seed 1 (main text, Appendices B and C)
 
 | What | File |
 |---|---|
 | RFC index (gold for links and decoys) | `40_data/corpus_staging/rfc/rfc-index.xml` (+ `.sha256`) |
-| Replies, seed 0 (4 judges × 6 contexts) | `50_analysis/results/evalkit_rfc_v2/<judge>/<context>.json` |
-| Replies, damage seed 1 (4 judges × 2 contexts) | `50_analysis/results/evalkit_rfc_v2_seed1/<judge>/<context>.json` |
-| Analysis (rescoring check, H1, H2a, H2b, Holm, seed 1, pooled) | `50_analysis/results/evalkit_rfc_v2/analysis/` (`e123.json`, `e123.md`, `items.csv`, `seed1_links.csv`) |
-| Macros and tables | `60_paper_drafts/paper_v6/generated/numbers_e123.tex`, `tab_e123_*.tex`, `prompt_example.tex` |
+| Replies, seed 0 (4 judges × 7 contexts: six primary and the exploratory `conflict-damaged`) | `50_analysis/results/evalkit_rfc_v3/<judge>/<context>.json` |
+| Replies, damage seed 1 (4 judges × 2 contexts) | `50_analysis/results/evalkit_rfc_v3_seed1/<judge>/<context>.json` |
+| Analysis (rescoring check, H1, H2a, H2b, Holm, seed 1, pooled, conflict-code counts, scores changed against v2) | `50_analysis/results/evalkit_rfc_v3/analysis/` (`e123.json`, `e123.md`, `items.csv`, `seed1_links.csv`) |
+| Macros and tables | `60_paper_drafts/paper_v7/generated/numbers_e123.tex`, `tab_e123_*.tex`, `prompt_example.tex` |
+| Figures 2 and 3 | `60_paper_drafts/paper_v7/generated/fig_gap.pdf`, `fig_decoy.pdf` (`make_figures_v6.py`, from the macros) |
 | Plan and amendments | `00_tracking/final/FINAL-EXECUTION-PLAN.md`; commit times in `PROVENANCE.md` |
 
 Judges: gemma-4-26b-a4b-it (Google API), kbench-gpt-5-5, kbench-gemini-3-1-pro, kbench-claude-opus-4-5 (Kaggle Benchmarks
-proxy). Every block records the harness code hash 13b235179f49 and the model version string the provider reported
+proxy). Every v3 block records the harness code hash ce56c13ca00e (the pilot and v2 blocks: 13b235179f49; the change adds the
+`conflict-damaged` context and leaves every other prompt byte-identical) and the model version string the provider reported
 (for Gemma the API model name; for Gemini a "preview" identifier). Blocks written before the damage-seed option existed
-have no `damage_seed` field; they are seed 0.
+have no `damage_seed` field; they are seed 0. The v2 run (`evalkit_rfc_v2*/`) is superseded and cited by no number
+except the count of scores that changed when v3 asked the pilot's prompts again.
 
 ## Pilot (Appendix A)
 
@@ -24,9 +27,9 @@ have no `damage_seed` field; they are seed 0.
 |---|---|
 | Replies | `50_analysis/results/evalkit_rfc/<model>/<context>.json` |
 | Repeated block (Limitations: 30 of 72 replies differ) | `50_analysis/results/evalkit_rfc/repeat/kbench-gemini-3-1-pro/cite-only.json` |
-| Macros and tables | `60_paper_drafts/paper_v6/generated/numbers_rfc.tex`, `tab_rfc_*.tex` |
+| Macros and tables | `60_paper_drafts/paper_v7/generated/numbers_rfc.tex`, `tab_rfc_*.tex` |
 
-## Case study (Appendices E–L, descriptive)
+## Case study (Appendix D and the supplement, descriptive)
 
 | What | File |
 |---|---|
@@ -38,5 +41,5 @@ have no `damage_seed` field; they are seed 0.
 | Annotator agreement; human scorer check | `50_analysis/results/annotation_d45/`, `50_analysis/results/scorer_check/` |
 | Raw replies per block | `50_analysis/results/probe_test_v3/<model>/blocks/*.json`; exploratory `probe_test_v3_exploratory/`; repeat `probe_test_v3_repeat/`; dev check `probe_v3_dev_norec/` |
 | Rates, contrasts, Holm, sensitivity | `50_analysis/results/ladder_test_v3{,_S1,_S2,_exploratory}/` |
-| Macros, tables, figures | `60_paper_drafts/paper_v6/numbers.tex`, `generated/tab_*.tex`, `generated/fig_*.png` |
+| Macros, tables, figures | `60_paper_drafts/paper_v7/numbers.tex`, `generated/tab_*.tex`, `generated/fig_*.png` |
 | Plan | `20_method/PREREGISTRATION_v3*.md` |

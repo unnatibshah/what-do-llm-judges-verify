@@ -1,0 +1,91 @@
+% The test (30_code/src/suryabench/evalkit.py). Lock v2, section 6.
+\section{The test}
+\label{sec:framework}
+
+The test needs two inputs: a record of replacements that is correct wherever it is used as gold, and a short text for
+each document. It needs no labelled answers, because the record already says which citations are wrong on which dates.
+
+\input{sections/fig_design}
+
+\paragraph{Matched items.}
+Every item poses the same kind of question, ``As of date $D$, which document specifies $T$?'', where $T$ is the title
+of the older document, and supplies an answer that cites one document. For each link in the record (an old document and
+the document that replaced it) we write three items, and we pair each link with one decoy (Figure~\ref{fig:design}):
+\begin{itemize}
+  \item a \emph{fault} cites the old document, with $D$ after the replacement;
+  \item a \emph{control} cites the replacing document, with the same $D$;
+  \item a \emph{date control} cites the old document, with $D$ before the replacement existed, so the answer is correct;
+  \item a \emph{decoy} cites the older document of a different pair, in which a newer document \emph{updates} the
+  older one without replacing it. The older document is still in force, so this answer is also correct.
+\end{itemize}
+The fault and its date control are the same answer with a different date. A judge that objects to old citations
+without comparing dates will catch the fault and fail the date control. The decoy targets a different shortcut. In the
+fault, a newer document on the same subject sits next to the cited one; in the decoy, so does a newer document, often
+with the same title, but it did not replace the older one. A judge that flags any older document with a newer
+neighbour will catch the fault and fail the decoy. Catch rates alone cannot tell either judge apart from one that
+actually checks.
+
+\paragraph{What the judge sees.}
+The context is the part a builder controls, and we vary it while holding the question and the answer fixed
+(Table~\ref{tab:menu}). In every primary context the judge gets both documents' titles, dates and abstracts, with any
+sentence that states a replacement or names the other document removed, so that the replacement has to be inferred.
+Titles are not filtered, and in two links the replacing RFC's title names the old one (\S\ref{sec:limitations}).
+Five of the six primary contexts add one line from an amendment record about the cited document. In the damaged record, half
+the links are dropped with a fixed seed; for a dropped link the record says nothing about a replacement, and its line
+therefore reports the replaced document as in force. We call the faults on these links \emph{gap faults}. The four
+primary damaged contexts are built from the same damaged record and differ in how its line is presented:
+\begin{itemize}
+  \item the authoritative form, an ``amendment record lookup'' reporting the document as \texttt{in\_force};
+  \item the same record with the line worded \texttt{no\_replacement\_recorded} (wording);
+  \item the same line headed as an ``unverified note from an automated tagger'' (authority);
+  \item the authoritative form with a warning that the record is incomplete and may omit replacements (warning).
+\end{itemize}
+The pilot also used contexts that we did not repeat here: the citation alone (\texttt{cite-only}), the cited document
+alone (\texttt{cited-text}), masked document numbers (\texttt{both-masked}), the replacing document's own notice of
+replacement (\texttt{both-explicit}), an instruction to check replacement first (\texttt{check-first}), and two worked
+examples (\texttt{few-shot}). They are reported in Appendix~\ref{app:pilot}.
+
+\begin{table}[t]
+\centering\footnotesize
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{4.9cm}}
+\toprule
+Context & The judge is given, besides both texts \\
+\midrule
+\texttt{both-texts} & nothing else \\
+\texttt{status} & a line from the correct record: the cited document's status on the date \\
+\texttt{status-damaged} & the line from a record with half its links dropped, where a dropped link reads ``in force'' (authoritative form) \\
+\texttt{norecord-damaged} & as above, the line reading ``no replacement recorded'' (wording) \\
+\texttt{lowauth-damaged} & as \texttt{status-damaged}, headed as an unverified note from an automated tagger (authority) \\
+\texttt{caveat-damaged} & as \texttt{status-damaged}, with the warning that the record is incomplete and may omit replacements (warning) \\
+\midrule
+\texttt{conflict-damaged} & as \texttt{status-damaged}, with one more reason a finding may give: the record conflicts with the evidence (exploratory, added later) \\
+\bottomrule
+\end{tabular}
+\caption{The six primary contexts, and one exploratory context added after the main analysis (\S\ref{sec:studies}).
+The damaged contexts use the same damaged record; the warning adds one true statement about it.}
+\label{tab:menu}
+\end{table}
+
+\paragraph{Scoring by reason.}
+The judge returns a verdict and a list of findings. Each finding names a document and gives one reason from a closed
+list: replaced (coded \texttt{superseded} in the prompt), not yet published, not applicable, content error, unsupported, or other. We count a fault as
+\emph{caught} only if some finding names the cited document with the reason that it was replaced. A judge that flags
+the fault as, say, a content error has noticed that something is off without identifying the error, and an any-finding
+count would credit it with the catch. On the three kinds of correct answer we record two false-alarm counts: a
+\emph{validity} false alarm, a finding that a document was replaced or not yet published, and any finding at all. The
+first measures mistakes about currency; the second also counts complaints about relevance or content, which the
+question format may provoke (\S\ref{sec:res-scoring}). A reply that cannot be parsed counts against the judge: as a miss
+on a fault and as a false alarm of both kinds on a correct answer. We call a reply on a fault a \emph{bare pass} when it
+contains no finding at all.
+
+\paragraph{Lookup baseline.}
+A deterministic lookup, with no language model, flags exactly the documents the record marks as replaced. With the
+correct record it catches every fault and raises no false alarm. With the damaged record it catches the faults whose
+link survived and none of the gap faults. It tells us what the record alone achieves, and so what a judge given the
+record adds.
+
+\paragraph{Scope of the design.}
+The test covers one error, citing a whole replaced document, and one decision, the judge's verdict on a fixed answer.
+Partial amendments, chains of replacements and cross-references would need other item generators. Following the record
+can help as well as hurt. The gap faults measure the cost of following a silent record, and the decoys, whose record
+line is correct, give one measure of the benefit.

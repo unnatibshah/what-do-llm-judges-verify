@@ -1,0 +1,828 @@
+% SuryaBench paper v3 ("What Does a Verifier Need to Know? Catching Superseded Rules with AI Reviewers")
+% Verified bibliography, 2026-10-07 (T6 / P13-3). Report: 80_review/CITATION-VERIFICATION-v3.md.
+% Every entry was checked against the arXiv API record (title, full author list, date, comments,
+% journal-ref, DOI) and, for published versions, Crossref / ACL Anthology / NeurIPS / ICLR pages.
+% Entries marked "venue from memory" have the venue confirmed only by the arXiv comment or by
+% knowledge, not by opening the publisher page.
+% Keys: unchanged from 60_paper_drafts/paper_v2/references.bib, except the two keys paper_v3 already
+% uses (staledoc2026, reviewer2026).
+
+% =============================== Closest precedents (D37/D42) ===============================
+@article{staledoc2026,
+  title   = {Stale-Document Poisoning: When Outdated Retrieval Overrides Correct Model Answers},
+  author  = {Ahmed, Md Shamim and Galke Poech, Lukas and R{\"o}ttger, Richard},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2609.31342},
+  year    = {2026}
+}
+@inproceedings{reviewer2026,
+  title     = {Reviewing the Reviewer: Graph-Enhanced {LLMs} for {E}-commerce Appeal Adjudication},
+  author    = {Du, Yuchen and Li, Ashley and Huang, Zixi},
+  booktitle = {Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026), Applied Data Science Track},
+  year      = {2026},
+  note      = {{arXiv}:2603.19267},
+  url       = {https://arxiv.org/abs/2603.19267}
+}
+@inproceedings{qian2026relevant,
+  title     = {Relevant Is Not Warranted: Evidence-Force Calibration for Cited {RAG}},
+  author    = {Qian, Pin and Wang, Su and Chen, Yihang and Xu, Wenxuan and Wang, Xiaoyuan and Yu, Qiaolin and Lin, Shuhuai and Zhang, Sipeng and You, Junxian and Wei, Xinpeng},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  pages     = {33590--33603},
+  year      = {2026},
+  doi       = {10.18653/2026.findings-emnlp.1577},
+  url       = {https://aclanthology.org/2026.findings-emnlp.1577/}
+}
+
+% =============================== Temporal validity: legal and regulatory ===============================
+@inproceedings{cymbler2026temporal,
+  title     = {Temporal Misgrounding in Legal {RAG}: A Versioned-Corpus Benchmark for {French} Tax Law},
+  author    = {Cymbler, Rose and Guez, Daniel and Fabre, Laurent},
+  booktitle = {ICML 2026 Workshop on AI for Law (AI4Law)},
+  year      = {2026},
+  note      = {{arXiv}:2608.09393}
+}
+@article{sobhani2026tide,
+  title   = {Time Present and Time Past: Benchmarking Large Language Models on Temporally Evolving Document Understanding},
+  author  = {Sobhani, Mahbub E and Sayeedi, Md. Faiyaz Abdullah and Chowdhury, Fahmid Hasan and Arefeen, Md Adnan and Sadeque, Farig and Bari, Md. Faizul and Shatabda, Swakkhar},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2608.08512},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2608.08512}
+}
+@inproceedings{prior2026oldfriend,
+  title     = {Asking For An Old Friend: Diagnosing and Mitigating Temporal Failure Modes in {LLM}-based Statutory Question Answering},
+  author    = {Prior, Max and Schultz, Andreas and Grabmair, Matthias},
+  booktitle = {Proceedings of the International Conference on Artificial Intelligence and Law (ICAIL)},
+  year      = {2026},
+  note      = {{arXiv}:2605.23497}
+}
+@inproceedings{nam2026timelyrag,
+  title     = {{TimelyRAG}: Semantic-Temporal Hybrid Retrieval for Time-Critical Question Answering in Overlapping-Evolving Documents},
+  author    = {Nam, Youngeun and Kim, Joeun and Song, Hwanjun and Yoon, Susik and Lee, Jae-Gil and Lee, Byung Suk},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  pages     = {8414--8430},
+  year      = {2026},
+  doi       = {10.18653/2026.findings-emnlp.398},
+  url       = {https://aclanthology.org/2026.findings-emnlp.398/}
+}
+@article{huwiler2025versionrag,
+  title   = {{VersionRAG}: Version-Aware Retrieval-Augmented Generation for Evolving Documents},
+  author  = {Huwiler, Daniel and Stockinger, Kurt and F{\"u}rst, Jonathan},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2510.08109},
+  year    = {2025}
+}
+@inproceedings{molfetta2026sycophants,
+  title     = {Sycophants in the Courtroom: Are {LLMs} Fragile to Juridical Authority and Evolving Legal Standards?},
+  author    = {Molfetta, Lorenzo and Cocchieri, Alessio and Ragazzi, Luca and Bartolini, Ilaria and Patella, Marco and Moro, Gianluca},
+  booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {10865--10886},
+  year      = {2026},
+  doi       = {10.18653/v1/2026.acl-long.497},
+  url       = {https://aclanthology.org/2026.acl-long.497/}
+}
+@inproceedings{zhang2025overruled,
+  title     = {Do {LLMs} Truly ``Understand'' when a Precedent Is Overruled?},
+  author    = {Zhang, Li and Savelka, Jaromir and Ashley, Kevin},
+  booktitle = {Legal Knowledge and Information Systems (JURIX 2025)},
+  series    = {Frontiers in Artificial Intelligence and Applications},
+  publisher = {IOS Press},
+  year      = {2025},
+  doi       = {10.3233/FAIA251592},
+  note      = {{arXiv}:2510.20941},
+  url       = {https://arxiv.org/abs/2510.20941}
+}
+% War-room plan (Phase 11 related work).
+@article{putta2026casefacts,
+  title   = {{CaseFacts}: A Benchmark for Legal Fact-Checking and Precedent Retrieval},
+  author  = {Putta, Akshith Reddy and Devasier, Jacob and Li, Chengkai},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2601.17230},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2601.17230}
+}
+@inproceedings{taranukhin2026warrant,
+  title     = {Legal {LLM} Hallucination Should Be Evaluated as Failure of Legal Warrant},
+  author    = {Taranukhin, Maksym and Shwartz, Vered},
+  booktitle = {ICML 2026 Workshop on AI for Law (AI4Law)},
+  year      = {2026},
+  note      = {Position paper. arXiv:2609.17546},
+  url       = {https://arxiv.org/abs/2609.17546}
+}
+@inproceedings{verma2026citation,
+  title     = {Is this Citation on Point?},
+  author    = {Verma, Apurv},
+  booktitle = {ICML 2026 Workshop on AI for Law (AI4Law)},
+  year      = {2026},
+  note      = {{arXiv}:2608.12571},
+  url       = {https://arxiv.org/abs/2608.12571}
+}
+
+% =============================== Outdated information and knowledge conflict (answerers) ===============================
+@inproceedings{ouyang2025hoh,
+  title     = {{HoH}: A Dynamic Benchmark for Evaluating the Impact of Outdated Information on Retrieval-Augmented Generation},
+  author    = {Ouyang, Jie and Pan, Tingyue and Cheng, Mingyue and Yan, Ruiran and Luo, Yucong and Lin, Jiaying and Liu, Qi},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {6036--6063},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.acl-long.301},
+  url       = {https://aclanthology.org/2025.acl-long.301/}
+}
+@inproceedings{vu2024freshllms,
+  title     = {{FreshLLMs}: Refreshing Large Language Models with Search Engine Augmentation},
+  author    = {Vu, Tu and Iyyer, Mohit and Wang, Xuezhi and Constant, Noah and Wei, Jerry and Wei, Jason and Tar, Chris and Sung, Yun-Hsuan and Zhou, Denny and Le, Quoc and Luong, Thang},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  pages     = {13697--13720},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.findings-acl.813},
+  url       = {https://aclanthology.org/2024.findings-acl.813/}
+}
+@inproceedings{chen2021timeqa,
+  title     = {A Dataset for Answering Time-Sensitive Questions},
+  author    = {Chen, Wenhu and Wang, Xinyi and Wang, William Yang},
+  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.06314}
+}
+@inproceedings{zhang2021situatedqa,
+  title     = {{SituatedQA}: Incorporating Extra-Linguistic Contexts into {QA}},
+  author    = {Zhang, Michael J. Q. and Choi, Eunsol},
+  booktitle = {Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages     = {7371--7387},
+  year      = {2021},
+  doi       = {10.18653/v1/2021.emnlp-main.586},
+  url       = {https://aclanthology.org/2021.emnlp-main.586/}
+}
+@inproceedings{xu2024knowledge,
+  title     = {Knowledge Conflicts for {LLMs}: A Survey},
+  author    = {Xu, Rongwu and Qi, Zehan and Guo, Zhijiang and Wang, Cunxiang and Wang, Hongru and Zhang, Yue and Xu, Wei},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  pages     = {8541--8565},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.emnlp-main.486},
+  url       = {https://aclanthology.org/2024.emnlp-main.486/}
+}
+@inproceedings{wu2024clasheval,
+  title     = {{ClashEval}: Quantifying the Tug-of-War between an {LLM}'s Internal Prior and External Evidence},
+  author    = {Wu, Kevin and Wu, Eric and Zou, James},
+  booktitle = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
+  pages     = {33402--33422},
+  year      = {2024},
+  doi       = {10.52202/079017-1053},
+  url       = {https://arxiv.org/abs/2404.10198}
+}
+
+% =============================== Judges, verifiers, overseers ===============================
+@article{chen2026judgeknow,
+  title   = {A Judge Should Know What Changed: Construct Validity for {LLM}-as-a-Judge Evaluation},
+  author  = {Chen, Jianlin and Chen, Wenhui and Lin, Ziyao and Vong, Chi Man},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2608.24419},
+  year    = {2026}
+}
+@article{chen2026procedural,
+  title   = {Beyond Accuracy: How Procedural Traces Shift the Decision Criterion of {LLM} Overseers},
+  author  = {Chen, Zihan and Zhu, Di and Zheng, Lei and Li, Weiling},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2609.18204},
+  year    = {2026},
+  note    = {Accepted at the 60th Hawaii International Conference on System Sciences (HICSS); proceedings not yet published},
+  url     = {https://arxiv.org/abs/2609.18204}
+}
+@inproceedings{sadowski2026solving,
+  title     = {Solving versus Verifying: Catching Contradictions in Tax Reasoning Systems},
+  author    = {Sadowski, Albert and Chudziak, Jaros{\l}aw A.},
+  booktitle = {Proceedings of the 38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI)},
+  year      = {2026},
+  note      = {Accepted; arXiv:2609.05928},
+  url       = {https://arxiv.org/abs/2609.05928}
+}
+@inproceedings{deng2026fae,
+  title     = {Evaluating and Improving Evidence-Grounded Fact-Checking in {LLMs} via Multi-Round Evidence Ablation},
+  author    = {Deng, Xingyu and Cao, Mingzi and Aletras, Nikolaos and Wang, Xi and Stevenson, Mark},
+  booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM)},
+  year      = {2026},
+  note      = {{arXiv}:2609.08943},
+  url       = {https://arxiv.org/abs/2609.08943}
+}
+@article{zhu2026verifiability,
+  title   = {Justified or Just Convincing? Error Verifiability as a Dimension of {LLM} Quality},
+  author  = {Zhu, Xiaoyuan and Truong, Kimberly Le and Fogliato, Riccardo and Swamy, Gokul and Zhang, Weijian and Yang, Minglai and Ye, Longtian and Liu, Bangya and Liu, Minghao and Ilyas, Andrew and Wu, Steven},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2604.04418},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2604.04418}
+}
+% War-room plan: abstention ("can't confirm").
+@article{xu2026cherrypick,
+  title   = {Cherry-pick Override: {LLM} Judges Under-use the Non-Directional Verdicts Their Contract Authorizes},
+  author  = {Xu, Haoran},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2606.07834},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2606.07834}
+}
+% War-room plan: rationale-aware verification (for misnamed alarms).
+@inproceedings{kawabata2024rationale,
+  title     = {Rationale-Aware Answer Verification by Pairwise Self-Evaluation},
+  author    = {Kawabata, Akira and Sugawara, Saku},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  pages     = {16178--16196},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.emnlp-main.905},
+  url       = {https://aclanthology.org/2024.emnlp-main.905/}
+}
+@article{ji2026debate,
+  title   = {More Debate, Same Evidence: Structural Limits of Homogeneous Multi-Agent Groundedness},
+  author  = {Ji, Yuelyu},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2608.00243},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2608.00243}
+}
+
+% =============================== Self-correction and correlated errors ===============================
+@inproceedings{huang2024cannot,
+  title     = {Large Language Models Cannot Self-Correct Reasoning Yet},
+  author    = {Huang, Jie and Chen, Xinyun and Mishra, Swaroop and Zheng, Huaixiu Steven and Yu, Adams Wei and Song, Xinying and Zhou, Denny},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2310.01798}
+}
+@inproceedings{stechly2025self,
+  title     = {On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks},
+  author    = {Stechly, Kaya and Valmeekam, Karthik and Kambhampati, Subbarao},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2402.08115}
+}
+@inproceedings{madaan2023selfrefine,
+  title     = {{Self-Refine}: Iterative Refinement with Self-Feedback},
+  author    = {Madaan, Aman and Tandon, Niket and Gupta, Prakhar and Hallinan, Skyler and Gao, Luyu and Wiegreffe, Sarah and Alon, Uri and Dziri, Nouha and Prabhumoye, Shrimai and Yang, Yiming and Gupta, Shashank and Majumder, Bodhisattwa Prasad and Hermann, Katherine and Welleck, Sean and Yazdanbakhsh, Amir and Clark, Peter},
+  booktitle = {Advances in Neural Information Processing Systems 36 (NeurIPS 2023)},
+  pages     = {46534--46594},
+  year      = {2023},
+  doi       = {10.52202/075280-2019},
+  url       = {https://arxiv.org/abs/2303.17651}
+}
+@inproceedings{gou2024critic,
+  title     = {{CRITIC}: Large Language Models Can Self-Correct with Tool-Interactive Critiquing},
+  author    = {Gou, Zhibin and Shao, Zhihong and Gong, Yeyun and Shen, Yelong and Yang, Yujiu and Duan, Nan and Chen, Weizhu},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2305.11738}
+}
+@inproceedings{dhuliawala2024chain,
+  title     = {Chain-of-Verification Reduces Hallucination in Large Language Models},
+  author    = {Dhuliawala, Shehzaad and Komeili, Mojtaba and Xu, Jing and Raileanu, Roberta and Li, Xian and Celikyilmaz, Asli and Weston, Jason},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2024},
+  pages     = {3563--3578},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.findings-acl.212},
+  url       = {https://aclanthology.org/2024.findings-acl.212/}
+}
+% Venue from memory (ICLR 2024 oral); arXiv record has no venue comment.
+@inproceedings{asai2024selfrag,
+  title     = {{Self-RAG}: Learning to Retrieve, Generate, and Critique through Self-Reflection},
+  author    = {Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and Hajishirzi, Hannaneh},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2310.11511}
+}
+@article{yan2024corrective,
+  title   = {Corrective Retrieval Augmented Generation},
+  author  = {Yan, Shi-Qi and Gu, Jia-Chen and Zhu, Yun and Ling, Zhen-Hua},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2401.15884},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2401.15884}
+}
+@inproceedings{kim2025correlated,
+  title     = {Correlated Errors in Large Language Models},
+  author    = {Kim, Elliot and Garg, Avi and Peng, Kenny and Garg, Nikhil},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2506.07962}
+}
+@article{kohli2026nine,
+  title   = {Nine Judges, Two Effective Votes: Correlated Errors Undermine {LLM} Evaluation Panels},
+  author  = {Kohli, Guneet},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2605.29800},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2605.29800}
+}
+@article{hossain2026agreement,
+  title   = {Agreement Overstates Evidence: Error Dependence in {LLM} Judge Consensus},
+  author  = {Hossain, Elias and Yousefi, Niloofar and Lim, Ser-Nam},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2609.22512},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2609.22512}
+}
+@article{han2026cascades,
+  title   = {Partially Correlated Verifier Cascades in {LLM} Harnesses: Concave Log-Odds, Polynomial Reliability, and Blind-Spot Ceilings},
+  author  = {Han, Jiangang},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2607.13918},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2607.13918}
+}
+@inproceedings{panickssery2024llm,
+  title     = {{LLM} Evaluators Recognize and Favor Their Own Generations},
+  author    = {Panickssery, Arjun and Bowman, Samuel R. and Feng, Shi},
+  booktitle = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
+  pages     = {68772--68802},
+  year      = {2024},
+  doi       = {10.52202/079017-2197},
+  url       = {https://arxiv.org/abs/2404.13076}
+}
+
+% =============================== Agent memory and deterministic records ===============================
+@article{chao2026stale,
+  title   = {{STALE}: Can {LLM} Agents Know When Their Memories Are No Longer Valid?},
+  author  = {Chao, Hanxiang and Bai, Yihan and Sheng, Rui and Li, Tianle and Sun, Yushi},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2605.06527},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2605.06527}
+}
+@article{yadav2026memstrata,
+  title   = {Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for {AI} Agents over Evolving Knowledge},
+  author  = {Yadav, Neeraj},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2606.26511},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2606.26511}
+}
+@article{trooskens2026compiled,
+  title   = {Compiled {AI}: Deterministic Code Generation for {LLM}-Based Workflow Automation},
+  author  = {Trooskens, Geert and Karlsberg, Aaron and Sharma, Anmol and De Brouwer, Lamara and Van Puyvelde, Max and Young, Matthew and Thickstun, John and Alterovitz, Gil and De Brouwer, Walter A.},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2604.05150},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2604.05150}
+}
+@article{ovcharov2026oracle,
+  title   = {Citation Grounding Measures the Oracle: Graph Coverage Determines Reported {LLM} Hallucination Rates in Law},
+  author  = {Ovcharov, Volodymyr},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2606.00898},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2606.00898}
+}
+
+% =============================== Legal and regulatory NLP ===============================
+@inproceedings{guha2023legalbench,
+  title     = {{LegalBench}: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models},
+  author    = {Guha, Neel and Nyarko, Julian and Ho, Daniel E. and R{\'e}, Christopher and others},
+  booktitle = {Advances in Neural Information Processing Systems 36 (NeurIPS 2023), Datasets and Benchmarks Track},
+  pages     = {44123--44279},
+  year      = {2023},
+  doi       = {10.52202/075280-1915},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2023/hash/89e44582fd28ddfea1ea4dcb0ebbf4b0-Abstract-Datasets_and_Benchmarks.html}
+}
+@inproceedings{chalkidis2022lexglue,
+  title     = {{LexGLUE}: A Benchmark Dataset for Legal Language Understanding in {English}},
+  author    = {Chalkidis, Ilias and Jana, Abhik and Hartung, Dirk and Bommarito, Michael and Androutsopoulos, Ion and Katz, Daniel Martin and Aletras, Nikolaos},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {4310--4330},
+  year      = {2022},
+  doi       = {10.18653/v1/2022.acl-long.297},
+  url       = {https://aclanthology.org/2022.acl-long.297/}
+}
+@inproceedings{hendrycks2021cuad,
+  title     = {{CUAD}: An Expert-Annotated {NLP} Dataset for Legal Contract Review},
+  author    = {Hendrycks, Dan and Burns, Collin and Chen, Anya and Ball, Spencer},
+  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+  volume    = {1},
+  year      = {2021},
+  url       = {https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/6ea9ab1baa0efb9e19094440c317e21b-Abstract-round1.html}
+}
+@article{magesh2025hallucination,
+  title   = {Hallucination-Free? Assessing the Reliability of Leading {AI} Legal Research Tools},
+  author  = {Magesh, Varun and Surani, Faiz and Dahl, Matthew and Suzgun, Mirac and Manning, Christopher D. and Ho, Daniel E.},
+  journal = {Journal of Empirical Legal Studies},
+  volume  = {22},
+  pages   = {216--242},
+  year    = {2025},
+  doi     = {10.1111/jels.12413},
+  url     = {https://doi.org/10.1111/jels.12413}
+}
+@article{dahl2024large,
+  title   = {Large Legal Fictions: Profiling Legal Hallucinations in Large Language Models},
+  author  = {Dahl, Matthew and Magesh, Varun and Suzgun, Mirac and Ho, Daniel E.},
+  journal = {Journal of Legal Analysis},
+  volume  = {16},
+  number  = {1},
+  pages   = {64--93},
+  year    = {2024},
+  doi     = {10.1093/jla/laae003},
+  url     = {https://arxiv.org/abs/2401.01301}
+}
+@inproceedings{joshi2024iltur,
+  title     = {{IL-TUR}: Benchmark for {Indian} Legal Text Understanding and Reasoning},
+  author    = {Joshi, Abhinav and Paul, Shounak and Sharma, Akshat and Goyal, Pawan and Ghosh, Saptarshi and Modi, Ashutosh},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {11460--11499},
+  year      = {2024},
+  doi       = {10.18653/v1/2024.acl-long.618},
+  url       = {https://aclanthology.org/2024.acl-long.618/}
+}
+@article{pipitone2024legalbenchrag,
+  title   = {{LegalBench-RAG}: A Benchmark for Retrieval-Augmented Generation in the Legal Domain},
+  author  = {Pipitone, Nicholas and Houir Alami, Ghita},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2408.10343},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2408.10343}
+}
+@article{wu2026regdivergence,
+  title   = {{RegDivergence-101}: An {LLM} Benchmark for Cross-Jurisdiction Regulatory Contradiction Detection in Life Sciences},
+  author  = {Wu, Chuchu and Zhou, Zhiyin and Hu, Jingzhuo and You, Liang},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2608.28607},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2608.28607}
+}
+@article{song2026logisafetygen,
+  title   = {Evaluating Implicit Regulatory Compliance in {LLM} Tool Invocation via Logic-Guided Synthesis},
+  author  = {Song, Da and Huang, Yuheng and Chen, Boqi and Cong, Tianshuo and Goebel, Randy and Ma, Lei and Khomh, Foutse},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2601.08196},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2601.08196}
+}
+@inproceedings{yao2024taubench,
+  title     = {$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains},
+  author    = {Yao, Shunyu and Shinn, Noah and Razavi, Pedram and Narasimhan, Karthik},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  url       = {https://proceedings.iclr.cc/paper_files/paper/2025/file/1b126cc38b8638e07bef37e7b2bb72bf-Paper-Conference.pdf}
+}
+
+% =============================== Omission, attribution, tool use ===============================
+@inproceedings{zou2023omission,
+  title     = {Towards Understanding Omission in Dialogue Summarization},
+  author    = {Zou, Yicheng and Song, Kaitao and Tan, Xu and Fu, Zhongkai and Zhang, Qi and Li, Dongsheng and Gui, Tao},
+  booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {14268--14286},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.acl-long.798},
+  url       = {https://aclanthology.org/2023.acl-long.798/}
+}
+@inproceedings{min2023factscore,
+  title     = {{FActScore}: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation},
+  author    = {Min, Sewon and Krishna, Kalpesh and Lyu, Xinxi and Lewis, Mike and Yih, Wen-tau and Koh, Pang Wei and Iyyer, Mohit and Zettlemoyer, Luke and Hajishirzi, Hannaneh},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages     = {12076--12100},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.emnlp-main.741},
+  url       = {https://aclanthology.org/2023.emnlp-main.741/}
+}
+@inproceedings{qin2024toolllm,
+  title     = {{ToolLLM}: Facilitating Large Language Models to Master 16000+ Real-world {APIs}},
+  author    = {Qin, Yujia and Liang, Shihao and Ye, Yining and Zhu, Kunlun and Yan, Lan and Lu, Yaxi and Lin, Yankai and Cong, Xin and Tang, Xiangru and Qian, Bill and Zhao, Sihan and Hong, Lauren and Tian, Runchu and Xie, Ruobing and Zhou, Jie and Gerstein, Mark and Li, Dahai and Liu, Zhiyuan and Sun, Maosong},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2307.16789}
+}
+@inproceedings{patil2024gorilla,
+  title     = {{Gorilla}: Large Language Model Connected with Massive {APIs}},
+  author    = {Patil, Shishir G. and Zhang, Tianjun and Wang, Xin and Gonzalez, Joseph E.},
+  booktitle = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
+  pages     = {126544--126565},
+  year      = {2024},
+  doi       = {10.52202/079017-4020},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/e4c61f578ff07830f5c37378dd3ecb0d-Abstract-Conference.html}
+}
+
+% =============================== LLMs and agents in power and energy ===============================
+@article{zhou2024elecbench,
+  title   = {{ElecBench}: a Power Dispatch Evaluation Benchmark for Large Language Models},
+  author  = {Zhou, Xiyuan and Zhao, Huan and Cheng, Yuheng and Cao, Yuji and Liang, Gaoqi and Liu, Guolong and Liu, Wenxuan and Xu, Yan and Zhao, Junhua},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2407.05365},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2407.05365}
+}
+@inproceedings{jin2025gridmind,
+  title     = {{GridMind}: {LLMs}-Powered Agents for Power System Analysis and Operations},
+  author    = {Jin, Hongwei and Kim, Kibaek and Kwon, Jonghwan},
+  booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages     = {560--568},
+  year      = {2025},
+  doi       = {10.1145/3731599.3767409},
+  url       = {https://arxiv.org/abs/2509.02494}
+}
+@article{zhang2025gridagent,
+  title   = {{Grid-Agent}: An {LLM}-Powered Multi-Agent System for Power Grid Control},
+  author  = {Zhang, Yan and Saber, Ahmad Mohammad and Youssef, Amr and Kundur, Deepa},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2508.05702},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2508.05702}
+}
+@article{badmus2026powerdag,
+  title   = {{PowerDAG}: Supervisory Agentic {AI} System for Automating Distribution Grid Analysis},
+  author  = {Badmus, Emmanuel O. and Pandey, Amritanshu},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2603.17418},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2603.17418}
+}
+@article{mylonas2026poweragentbench,
+  title   = {{PowerAgentBench-SS}: A Benchmark for Agentic {AI} in Power System Steady-State Studies},
+  author  = {Mylonas, Costas and Foti, Magda and Pomarico, Andrea and Duarte, Matheus and Zhang, Qian and Varvarigos, Emmanouel},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2606.18789},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2606.18789}
+}
+@article{trashchenkov2026power,
+  title   = {Power Systems Agent Benchmark: Executable Evaluation of {AI} Agents in Electric Power Engineering},
+  author  = {Trashchenkov, Sergei},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2606.20950},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2606.20950}
+}
+@article{akinpelu2026energy,
+  title   = {How Do Tool-Augmented {LLM} Agents Perform on Real-World Energy Analytics Tasks?},
+  author  = {Akinpelu, David and Abbas, Akintonde and Alimi, Rereloluwa and Lana, Ayodeji},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2606.26346},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2606.26346}
+}
+@article{buster2024supporting,
+  title   = {Supporting Energy Policy Research with Large Language Models: A Case Study in Wind Energy Siting Ordinances},
+  author  = {Buster, Grant and Pinchuk, Pavlo and Barrons, Jacob and McKeever, Ryan and Levine, Aaron and Lopez, Anthony},
+  journal = {Energy and AI},
+  volume  = {18},
+  pages   = {100431},
+  year    = {2024},
+  doi     = {10.1016/j.egyai.2024.100431},
+  url     = {https://doi.org/10.1016/j.egyai.2024.100431}
+}
+
+% =============================== Preregistration ===============================
+@inproceedings{vanmiltenburg2021preregistering,
+  title     = {Preregistering {NLP} Research},
+  author    = {van Miltenburg, Emiel and van der Lee, Chris and Krahmer, Emiel},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  pages     = {613--623},
+  year      = {2021},
+  doi       = {10.18653/v1/2021.naacl-main.51},
+  url       = {https://aclanthology.org/2021.naacl-main.51/}
+}
+@inproceedings{sogaard2023two,
+  title     = {A Two-Sided Discussion of Preregistration of {NLP} Research},
+  author    = {S{\o}gaard, Anders and Hershcovich, Daniel and de Lhoneux, Miryam},
+  booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},
+  pages     = {83--93},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.eacl-main.6},
+  url       = {https://aclanthology.org/2023.eacl-main.6/}
+}
+
+% ============ verified 2026-10-29, litcheck (each page opened; venue only where the page states it) ============
+@article{liu2026trusting,
+  title   = {Trusting the Tool: Asymmetric Deference of {LLM} Vulnerability Auditors to Static-Analysis Evidence},
+  author  = {Liu, ZhiHong and Gao, Shuyao},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2610.32876. Submitted to IEEE Access},
+  year    = {2026}
+}
+
+@article{min2026absence,
+  title   = {When Absence Is Evidence: Evaluating Completeness-Sensitive Negative Reasoning in Large Language Models},
+  author  = {Min, Byoungjae and Edemacu, Kennedy and Cho, Sae-Hong and Choi, Yoonhyuk and Jang, Beakcheol and Kim, Jong Wook},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2608.04591},
+  year    = {2026}
+}
+
+@article{demir2026commit,
+  title   = {Commit or Abstain? System One Decision Models, {LLMs}, and Missing Legal Authority},
+  author  = {Demir, M. Mikail},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2610.29961},
+  year    = {2026}
+}
+
+@article{lee2026reference,
+  title   = {Judging Against the Reference: Uncovering Knowledge-Driven Failures in {LLM}-Judges on {QA} Evaluation},
+  author  = {Lee, Dongryeol and Hwang, Yerin and Kang, Taegwan and Lee, Minwoo and Chae, Younhyung and Jung, Kyomin},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2601.07506},
+  year    = {2026}
+}
+
+@inproceedings{xie2024chameleon,
+  title     = {Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts},
+  author    = {Xie, Jian and Zhang, Kai and Chen, Jiangjie and Lou, Renze and Su, Yu},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024},
+  note    = {{arXiv}:2305.13300}
+}
+
+@inproceedings{sharma2023sycophancy,
+  title   = {Towards Understanding Sycophancy in Language Models},
+  author  = {Sharma, Mrinank and Tong, Meg and Korbak, Tomasz and Duvenaud, David and Askell, Amanda and Bowman, Samuel R. and Cheng, Newton and Durmus, Esin and Hatfield-Dodds, Zac and Johnston, Scott R. and Kravec, Shauna and Maxwell, Timothy and McCandlish, Sam and Ndousse, Kamal and Rausch, Oliver and Schiefer, Nicholas and Yan, Da and Zhang, Miranda and Perez, Ethan},
+  booktitle = {The Twelfth International Conference on Learning Representations (ICLR 2024)},
+  year    = {2024}
+}
+
+@article{kirichenko2025abstentionbench,
+  title   = {{AbstentionBench}: Reasoning {LLMs} Fail on Unanswerable Questions},
+  author  = {Kirichenko, Polina and Ibrahim, Mark and Chaudhuri, Kamalika and Bell, Samuel J.},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2506.09038},
+  year    = {2025}
+}
+
+@inproceedings{prior2025consolidation,
+  title     = {Risks and Limits of Automatic Consolidation of Statutes},
+  author    = {Prior, Max and Hof, Adrian and Wais, Niklas and Grabmair, Matthias},
+  booktitle = {Proceedings of the Natural Legal Language Processing Workshop 2025},
+  pages     = {396--407},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.nllp-1.29}
+}
+
+@inproceedings{demir2025validate,
+  title     = {Validate Your Authority: Benchmarking {LLMs} on Multi-Label Precedent Treatment Classification},
+  author    = {Demir, M. Mikail and Canbaz, M. Abdullah},
+  booktitle = {Proceedings of the Natural Legal Language Processing Workshop 2025},
+  pages     = {172--183},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.nllp-1.13}
+}
+
+@article{kim2026hallmark,
+  title   = {{HALLMARK}: How to Diagnose {LLM} Citation Verifiers and When to Deploy Them},
+  author  = {Kim, Kayoon and Brendel, Wieland and Reizinger, Patrik},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2607.18360},
+  year    = {2026}
+}
+
+@article{ye2025stewardship,
+  title   = {Scalable Stewardship of an {LLM}-Assisted Clinical Benchmark with Physician Oversight},
+  author  = {Ye, Junze and Tawfik, Daniel and Goodell, Alex J. and Kotha, Nikhil V. and Buyyounouski, Mark K. and Bayati, Mohsen},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2512.19691},
+  year    = {2025}
+}
+
+@article{pall2026scoring,
+  title   = {Scoring-Rule Sensitivity in {LLM} Evaluation: Evidence from {Indian} Financial Regulatory Text},
+  author  = {Pall, Rajveer Singh},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2604.19298},
+  year    = {2026}
+}
+
+@article{wen2024abstention,
+  title   = {Know Your Limits: A Survey of Abstention in Large Language Models},
+  author  = {Wen, Bingbing and Yao, Jihan and Feng, Shangbin and Xu, Chenjun and Tsvetkov, Yulia and Howe, Bill and Wang, Lucy Lu},
+  journal = {Transactions of the Association for Computational Linguistics}, year = {2024}, note = {{arXiv}:2407.18418}}
+
+@article{cacioli2026sdt,
+  title   = {{LLMs} as Signal Detectors: Sensitivity, Bias, and the Temperature-Criterion Analogy},
+  author  = {Cacioli, Jon-Paul}, journal = {arXiv preprint},
+  note    = {{arXiv}:2603.14893}, year = {2026}}
+
+@inproceedings{zheng2023judging,
+  title   = {Judging {LLM}-as-a-Judge with {MT-Bench} and {Chatbot Arena}},
+  author  = {Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric P. and Zhang, Hao and Gonzalez, Joseph E. and Stoica, Ion},
+  booktitle = {Advances in Neural Information Processing Systems (Datasets and Benchmarks Track)}, volume = {36}, year = {2023},
+  doi = {10.52202/075280-2020}, note = {{arXiv}:2306.05685}}
+
+@inproceedings{gema2025mmlu,
+  title   = {Are We Done with {MMLU}?},
+  author  = {Gema, Aryo Pradipta and Leang, Joshua Ong Jun and Hong, Giwon and Devoto, Alessio and Mancino, Alberto Carlo Maria and Saxena, Rohit and He, Xuanli and Zhao, Yu and Du, Xiaotang and Ghasemi Madani, Mohammad Reza and Barale, Claire and McHardy, Robert and Harris, Joshua and Kaddour, Jean and Van Krieken, Emile and Minervini, Pasquale},
+  booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)},
+  pages = {5069--5096}, year = {2025}, doi = {10.18653/v1/2025.naacl-long.262}}
+
+@inproceedings{northcutt2021pervasive,
+  title   = {Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks},
+  author  = {Northcutt, Curtis G. and Athalye, Anish and Mueller, Jonas},
+  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks}, year = {2021}, note = {{arXiv}:2103.14749}}
+
+
+% verified 2026-10-29, Crossref API (DOI, title, authors, venue, pages)
+@article{governatori2010changing,
+  title   = {Changing legal systems: legal abrogations and annulments in Defeasible Logic},
+  author  = {Governatori, Guido and Rotolo, Antonino},
+  journal = {Logic Journal of the IGPL},
+  volume  = {18},
+  number  = {1},
+  pages   = {157--194},
+  year    = {2010},
+  doi     = {10.1093/jigpal/jzp075}
+}
+@inproceedings{palmirani2011legalruleml,
+  title     = {{LegalRuleML}: {XML}-Based Rules and Norms},
+  author    = {Palmirani, Monica and Governatori, Guido and Rotolo, Antonino and Tabet, Said and Boley, Harold and Paschke, Adrian},
+  booktitle = {Rule-Based Modeling and Computing on the Semantic Web (RuleML 2011 America)},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7018},
+  pages     = {298--312},
+  publisher = {Springer},
+  year      = {2011},
+  doi       = {10.1007/978-3-642-24908-2_30}
+}
+@inproceedings{palmirani2006time,
+  title     = {Time Model for Managing the Dynamic of Normative System},
+  author    = {Palmirani, Monica and Brighi, Raffaella},
+  booktitle = {Electronic Government (EGOV 2006)},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {4084},
+  pages     = {207--218},
+  publisher = {Springer},
+  year      = {2006},
+  doi       = {10.1007/11823100_19}
+}
+@inproceedings{palmirani2002norma,
+  title     = {Norma-System: A Legal Document System for Managing Consolidated Acts},
+  author    = {Palmirani, Monica and Brighi, Raffaella},
+  booktitle = {Database and Expert Systems Applications (DEXA 2002)},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {2453},
+  pages     = {310--320},
+  publisher = {Springer},
+  year      = {2002},
+  doi       = {10.1007/3-540-46146-9_31}
+}
+
+@misc{rfcindex2026,
+  author       = {{RFC Editor}},
+  title        = {{RFC} Index ({XML})},
+  howpublished = {\url{https://www.rfc-editor.org/rfc-index.xml}},
+  note         = {Retrieved 29 October 2026; SHA-256 recorded in the repository},
+  year         = {2026}
+}
+
+% Added for paper_v5 (D52); each checked against its arXiv / ACL Anthology page on 2026-10-30.
+@inproceedings{tan2025judgebench,
+  title     = {{JudgeBench}: A Benchmark for Evaluating {LLM}-Based Judges},
+  author    = {Tan, Sijun and Zhuang, Siyuan and Montgomery, Kyle and Tang, William Y. and Cuadron, Alejandro and Wang, Chenguang and Popa, Raluca Ada and Stoica, Ion},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2410.12784}
+}
+
+@inproceedings{xu2025contextualjudgebench,
+  title     = {Does Context Matter? {ContextualJudgeBench} for Evaluating {LLM}-based Judges in Contextual Settings},
+  author    = {Xu, Austin and Bansal, Srijan and Ming, Yifei and Yavuz, Semih and Joty, Shafiq},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {9541--9564},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.acl-long.470},
+  url       = {https://aclanthology.org/2025.acl-long.470/}
+}
+
+@inproceedings{zhu2025evolvebench,
+  title     = {{EvolveBench}: A Comprehensive Benchmark for Assessing Temporal Awareness in {LLMs} on Evolving Knowledge},
+  author    = {Zhu, Zhiyuan and Liao, Yusheng and Chen, Zhe and Wang, Yuhao and Guan, Yunfeng and Wang, Yanfeng and Wang, Yu},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {16173--16188},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.acl-long.788}
+}
+
+@inproceedings{kapetanovic2026anchoring,
+  title     = {Anchoring Bias in {LLM}-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence},
+  author    = {Kapetanovic, Ante and Altwlkany, Kemal and Mercep, Andro and Duricic, Tomislav and Lacic, Emanuel},
+  booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM)},
+  year      = {2026},
+  note      = {To appear; arXiv:2608.25869}
+}
+
+@article{yang2026overreliance,
+  title   = {Agents' Overreliance on Unreliable Tools},
+  author  = {Yang, Hoyeol and Song, Woojung and Kim, Taewon and Song, Jonghyun and Park, Seoyeon and Jo, Yohan},
+  journal = {arXiv preprint},
+  note    = {{arXiv}:2609.05587},
+  year    = {2026}
+}
+
+@inproceedings{gardner2020contrast,
+  title     = {Evaluating Models' Local Decision Boundaries via Contrast Sets},
+  author    = {Gardner, Matt and Artzi, Yoav and Basmov, Victoria and others},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
+  pages     = {1307--1323},
+  year      = {2020},
+  doi       = {10.18653/v1/2020.findings-emnlp.117}
+}
+
+@inproceedings{mccoy2019right,
+  title     = {Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference},
+  author    = {McCoy, R. Thomas and Pavlick, Ellie and Linzen, Tal},
+  booktitle = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+  pages     = {3428--3448},
+  year      = {2019},
+  doi       = {10.18653/v1/P19-1334}
+}

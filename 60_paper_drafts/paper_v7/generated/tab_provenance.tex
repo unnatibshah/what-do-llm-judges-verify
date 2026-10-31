@@ -1,0 +1,21 @@
+\begin{table*}[t]\centering\small
+\caption{Primary contrasts (capable models; Holm over the family of ten). Per-clause differences in points, mean over clauses, 95\% bootstrap interval over clauses, two-sided sign-flip test. S1: without the cases whose checked correct answer was judged flawed; S2: under the original strict annotation rule (descriptive when it leaves fewer than ten clauses).}
+\label{tab:provenance}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrlrrr}
+\toprule
+Model & Contrast & Clauses & Diff. & 95\% CI & $p$ (Holm) & S1 & S2 \\
+\midrule
+Gemma 4 26B & Q1, intact: R4 $-$ R5 discrimination & 14 & $-$45 & [$-$69, $-$24] & 0.043 & $-$47 & $-$50 \\
+Gemma 4 26B & Q1, 50\% dropped & 14 & $-$38 & [$-$65, $-$11] & 0.178 & $-$38 & $-$50 \\
+Gemma 4 26B & Q1, 10\% spurious & 14 & $-$42 & [$-$66, $-$22] & 0.043 & $-$45 & $-$45 \\
+Gemma 4 26B & Q2: R2 $-$ R4-damage catch, dropped links & 9 & +1 & -- & 1.000 & +4 & -- \\
+Gemma 4 26B & R4n $-$ R4 catch, dropped links & 9 & +9 & -- & 1.000 & +20 & -- \\
+Qwen 14B & Q1, intact: R4 $-$ R5 discrimination & 14 & $-$11 & [$-$33, +9] & 1.000 & $-$12 & +17 \\
+Qwen 14B & Q1, 50\% dropped & 14 & $-$21 & [$-$38, $-$6] & 0.206 & $-$17 & +2 \\
+Qwen 14B & Q1, 10\% spurious & 14 & $-$10 & [$-$30, +10] & 1.000 & $-$11 & +17 \\
+Qwen 14B & Q2: R2 $-$ R4-damage catch, dropped links & 9 & +34 & -- & 1.000 & +33 & -- \\
+Qwen 14B & R4n $-$ R4 catch, dropped links & 9 & +9 & -- & 1.000 & +9 & -- \\
+\bottomrule
+\end{tabular}}
+\end{table*}

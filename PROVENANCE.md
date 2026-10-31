@@ -2,7 +2,8 @@
 
 This release is a snapshot of a private development repository. Its history is not included; the commits below
 (hash, time with UTC offset, message) record when the analysis plan, its amendments and each block of results were
-committed there. Every result block also carries its own model version and a hash of the harness code (13b235179f49).
+committed there. Every result block also carries its own model version and a hash of the harness code (13b235179f49 for
+the pilot and v2 blocks, ce56c13ca00e for v3).
 
 ## Analysis plan (`00_tracking/final/FINAL-EXECUTION-PLAN.md`)
 
@@ -10,7 +11,9 @@ committed there. Every result block also carries its own model version and a has
 - `2d3478cb` 2026-10-30T09:43:11-04:00 — Lock v2 approved with amendments A1-A6 (v1 kept); plan v2 (decoy balance, framing arms, essential vs optional); Kaggle notebook
 - `7e8119b9` 2026-10-30T14:25:23-04:00 — Plan amendment v3: damage seed 1 for H2a only, analysis fixed before any seed-1 call (seed-specific McNemar + Holm; overlap; pooled over unique links)
 
-## Final results (`50_analysis/results/evalkit_rfc_v2*/`), first commit of each block
+## Earlier final results (`50_analysis/results/evalkit_rfc_v2*/`, superseded by v3), first commit of each block
+
+- `caebc20b` 2026-10-30T12:18:24-04:00 — Gemma `status` and `status-damaged` (seed 0), first committed with an interim paper draft
 
 - `b664e09f` 2026-10-30T10:24:06-04:00 — E1-E3: Claude Opus 4.5 imported from Kaggle (6 contexts, 48 links + decoys, hash 13b235179f49, 0 invalid; archive kept); analysis script (rescoring check, H1/H
 - `300e24ee` 2026-10-30T11:16:30-04:00 — E1-E3: GPT-5.5 partial import (4 of 6 contexts; Kaggle quota ran out at caveat-damaged); Gemma both-texts block; analysis handles partial runs
@@ -22,6 +25,23 @@ committed there. Every result block also carries its own model version and a has
 - `baddba7e` 2026-10-30T20:28:52-04:00 — E2 + damage seed 1: GPT-5.5 lowauth-damaged and caveat-damaged (seed 0) and both-texts + status-damaged (seed 1) from Kaggle (code 13b235179f49; four earlier b
 - `c3005d13` 2026-10-30T21:40:50-04:00 — E1-E3: Gemini 3.1 Pro five of six seed-0 contexts and seed-1 both-texts from Kaggle (quota stopped the run; code 13b235179f49; 0 invalid). Gap faults: texts 22
 - `065236a1` 2026-10-30T23:09:31-04:00 — E2 + damage seed 1 complete: Gemini 3.1 Pro lowauth-damaged (seed 0) and status-damaged (seed 1) from Kaggle (code 13b235179f49; 0 invalid; earlier blocks byte
+
+## Damage seed 1 timing
+
+The amendment (`7e8119b9`, 14:25:23) precedes the first seed-1 block (`859f8b65`, 14:28:29) by 186 s. That block is
+Gemma's: its `both-texts` replies all came from the cache (identical prompts, 0 s of calls) and its `status-damaged`
+block records 150 s of calls, which fits inside that interval.
+
+## v3 results (`50_analysis/results/evalkit_rfc_v3*/`), 2026-10-31
+
+After the results above were first analysed, the authors decided to ask again every prompt whose v2 reply had come from
+the pilot's cache (most of those replies had used an earlier form of the proxy call), and to add one exploratory
+context, `conflict-damaged`, without a planned test. Every other v3 reply is the v2 reply to the identical prompt.
+Re-asking changed the score of 7, 8, 12 and 0 of 1,152 items (GPT-5.5, Gemini, Claude, Gemma).
+
+- `8a0a6d4b` 2026-10-31T12:58:48-04:00 — v3 runs: conflict-damaged context (record_conflict code), fresh_cache.py to re-ask pilot replies, RUNSET in run_final_e123.sh
+- `c4efecd1` 2026-10-31T15:11:36-04:00 — analyse_final_e123: conflict-damaged context and record_conflict counts (exploratory, no test)
+- `40b76fb8` 2026-10-31T15:25:02-04:00 — all v3 and v3 seed-1 blocks (Gemma run locally; GPT-5.5, Gemini and Claude imported from Kaggle archives whose SHA-256 are recorded in the development repository), analysis, paper_v7
 
 ## Changes made for this release
 
@@ -38,3 +58,6 @@ committed there. Every result block also carries its own model version and a has
 - Paper sources synced again from development commit `1c394260` (2026-10-31T01:56:07-04:00): corrections from a second cold-read review (framing, definitions, captions, layout). No number, table value or result changed.
 - Paper sources synced again from development commit `abb770df` (2026-10-31T02:13:47-04:00): three figures (drawn from existing number macros) and packaging. No number or result changed.
 - Paper sources synced again from development commit `05219779` (2026-10-31T11:15:51-04:00): corrections from a third cold-read review. No number or result changed.
+- Paper sources (`60_paper_drafts/paper_v7/`, the arXiv version after the co-author review and the v3 runs), the v3 results
+  (`evalkit_rfc_v3*/`, without reply caches or Kaggle archives) and the changed scripts synced from development commit
+  `40b76fb8` (2026-10-31T15:25:02-04:00). `paper_v6/` and the v2 results are kept unchanged.

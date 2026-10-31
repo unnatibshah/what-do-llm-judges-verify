@@ -1,0 +1,23 @@
+\section{Practical implications}
+\label{sec:guide}
+
+These suggestions come from four judges on one corpus. Each is cheap to check with one's own judge, since the harness
+runs a judge through the six contexts in about 1,200 calls.
+
+An evaluation in which the judge receives a correct record says little about the judge: with a correct record our
+judges' findings about currency nearly matched a lookup's. The more useful test removes links from the record and compares each judge with
+itself on the affected items. If its catches there fall to the lookup's level, the judge contributes nothing beyond
+the record on those items, and the completeness of the record becomes the real limit of the pipeline. That trade-off
+can still be worth accepting, since the same record also spared the judges false alarms on decoys.
+
+How the record is presented can matter, and not in the same way for every judge. For three of our judges a true
+warning that the record was incomplete restored most catches on its gaps, but it also brought back the false alarms on
+decoys that the record had removed, and the fourth judge recovered few. A builder considering such a warning should
+test it on their own judge and items, count false alarms as well as catches, and make sure the warning is true.
+
+Scoring should use reasons. Any-finding scoring inflates false alarms on correct answers and gives a judge that
+raises an irrelevant objection on a fault the same catch as one that names the replacement. Where the record lists both replacements and
+non-replacing updates, as the RFC index does, date controls and decoys come at no extra labelling cost.
+
+If the replacements in a target collection tend to look unlike the documents they replace, catches on such pairs
+should be measured separately, since our judges were weakest there.

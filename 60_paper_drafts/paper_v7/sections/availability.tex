@@ -1,0 +1,15 @@
+\section{Data and code availability}
+\label{sec:availability}
+The repository (\repourl) holds the harness (\texttt{evalkit.py}), the run and analysis scripts, the sampled links and
+decoys, every judge reply with its block metadata (model version, context, code hash), and the scripts that regenerate
+every number, table and figure of the RFC study from those replies: the analysis script (\texttt{analyse\_final\_e123.py}) rescores every reply
+from its raw text, checks the stored scores and regenerates the numbers and tables of \S\ref{sec:results} and Appendix~\ref{app:items}, from which
+\texttt{make\_figures\_v6.py} draws Figures~\ref{fig:gap} and~\ref{fig:decoy};
+\texttt{python -m suryabench.evalkit} (the harness, in the project's Python package) does the same for the pilot. The RFC Editor index is cited with its retrieval
+date and content hash \citep{rfcindex2026} and included unchanged. The hypotheses, tests and readings were committed to
+the project's development repository before the runs, and the amendment adding the second draw before any call on it.
+That repository is private; the release contains the plan with its amendments and a provenance file listing the commit
+and time at which the plan, each amendment and the blocks of results were first recorded. For the case study, the regulatory
+documents are released as source URLs with content hashes, and the cases, the fixed answers, the record before and
+after adjudication and the annotation sheets are released with the code. Code is under the Apache-2.0 licence; the
+judge replies, the analysis outputs and the case study's cases and labels are under CC~BY~4.0.

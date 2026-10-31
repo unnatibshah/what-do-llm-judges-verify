@@ -1,0 +1,27 @@
+% Pilot detail, from paper_v4 appendix_study2.tex.
+\paragraph{Runs.} Hosted models ran once through the Kaggle Benchmarks proxy, which sets temperature and seed itself;
+GPT-5.5's two damaged-record blocks ran after a change to the proxy call (an output cap, and the system and user text
+sent as two messages), with the prompt text unchanged. An accidental repeat of one block (Gemini~3.1~Pro, citation only;
+the first run is the one reported) differed by one catch. Every block records the model version, the context and the
+harness's code hash. A reply that cannot be parsed counts as a miss on a fault and a false alarm on a control; GPT-OSS
+had two to four such replies per block, the other reported judges at most two. Three further runs stopped before the
+two damaged-record contexts and are not analysed; their blocks are in the repository.
+
+\paragraph{Items.} Two of the 48 replacing RFCs name the old RFC in their title (RFC~7142, RFC~6082); titles are not
+filtered, so these two links are explicit wherever they appear: for Qwen~2.5~32B in the pilot, and for all four judges
+in the final runs, where both are gap faults (Table~\ref{tab:e123-items}). The sentence filter of
+\texttt{both-texts} also removes some sentences that mention updates in general.
+
+\paragraph{Links without a shared title.} On the 6 of the first 24 links whose successor has a different title, with
+both texts, GPT-5.5 caught \RfcTitleDifferentBothTextsGPTFiveFive, Gemini \RfcTitleDifferentBothTextsGeminiThreeOnePro,
+Claude \RfcTitleDifferentBothTextsClaudeOpusFourFive, GPT-OSS \RfcTitleDifferentBothTextsGPTOSSOneTwoZeroB{} and Gemma
+\RfcTitleDifferentBothTextsGemmaFourTwoSixB. Masking the document numbers changed little for the frontier judges
+(Gemini \RfcCatchBothMaskedGeminiThreeOnePro, Claude \RfcCatchBothMaskedClaudeOpusFourFive, GPT-5.5
+\RfcCatchBothMaskedGPTFiveFive) and cost GPT-OSS a few catches (\RfcCatchBothMaskedGPTOSSOneTwoZeroB).
+
+\paragraph{Controls citing the successor.} Table~\ref{tab:rfc-current} gives discrimination against controls that cite
+the replacing document. Given the documents, the frontier judges, GPT-OSS and Gemma rarely gave a validity reason on
+these controls; Qwen~2.5~32B gave one on \RfcFABothTextsQwenThreeTwoB. Other findings on them (``not applicable'',
+``unsupported'') are expected, because the question names the old document's title.
+
+\IfFileExists{generated/tab_rfc_disc_validity.tex}{\input{generated/tab_rfc_disc_validity.tex}}{}

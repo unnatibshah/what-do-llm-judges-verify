@@ -1,0 +1,19 @@
+\begin{table*}[t]\centering\small
+\caption{Where the record is silent. Left: right-reason catches on all faults with no record (\texttt{both-texts}), a correct record line (\texttt{status}) and a record with half its links dropped (\texttt{status-damaged}, seed 0); a lookup in the damaged record catches exactly half. Right: the faults whose link was dropped, with no record, with the damaged record (the line reads ``in force''), and with the line worded ``no replacement recorded''; same items in every column. Bare: damaged-record replies on these faults that pass the answer with no finding. Qwen~32B ran 48 links, the others 24.}
+\label{tab:rfc-deference}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l ccc cccc}
+\toprule
+ & \multicolumn{3}{c}{All faults} & \multicolumn{4}{c}{Faults whose link was dropped} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-8}
+Reviewer & No record & Correct & Damaged & No record & ``In force'' & ``No replacement'' & Bare \\
+\midrule
+Qwen 32B & 42/48 & 48/48 & 33/48 & 22/24 & 9/24 & 5/24 & 6 \\
+Gemma 4 26B & 16/24 & 24/24 & 12/24 & 10/12 & 0/12 & 0/12 & 12 \\
+GPT-OSS 120B & 16/24 & 18/24 & 15/24 & 8/12 & 6/12 & -- & 4 \\
+Gemini 3.1 Pro & 22/24 & 24/24 & 12/24 & 12/12 & 0/12 & 3/12 & 12 \\
+GPT-5.5 & 23/24 & -- & 16/24 & 11/12 & 4/12 & 6/12 & 8 \\
+Claude Opus 4.5 & 19/24 & 24/24 & 22/24 & 11/12 & 10/12 & 9/12 & 1 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

@@ -10,9 +10,10 @@ set -euo pipefail
 cd "$(dirname "$0")/../../.."
 ALIAS=$1 REAL=$2
 SEED=${DAMAGE_SEED:-0}  # a second draw of dropped links: DAMAGE_SEED=1 (own results folder; cache shared)
-OUT=50_analysis/results/evalkit_rfc_v2$([ "$SEED" = 0 ] || echo "_seed$SEED")
-CACHE=50_analysis/results/evalkit_rfc_v2/llm_cache  # shared: unchanged prompts are never asked twice
-PACK=${PACK:-/kaggle/working/final_e123_${ALIAS}$([ "$SEED" = 0 ] || echo "_seed$SEED").tgz}
+RUNSET=${RUNSET:-evalkit_rfc_v2}  # evalkit_rfc_v3: pilot replies re-asked (fresh_cache.py), plus conflict-damaged
+OUT=50_analysis/results/$RUNSET$([ "$SEED" = 0 ] || echo "_seed$SEED")
+CACHE=50_analysis/results/$RUNSET/llm_cache  # shared: unchanged prompts are never asked twice
+PACK=${PACK:-/kaggle/working/final_e123_${RUNSET}_${ALIAS}$([ "$SEED" = 0 ] || echo "_seed$SEED").tgz}
 export SURYABENCH_LLM_CACHE=$CACHE PYTHONPATH=30_code/src:30_code/scripts PYTHONUNBUFFERED=1 KBENCH_MODEL=$REAL
 CONTEXTS=${CONTEXTS:-both-texts status status-damaged norecord-damaged caveat-damaged lowauth-damaged}
 for ctx in $CONTEXTS; do

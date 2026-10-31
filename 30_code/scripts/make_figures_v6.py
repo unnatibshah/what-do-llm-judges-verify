@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 from suryabench.paths import ROOT  # noqa: E402
 
-GEN = ROOT / "60_paper_drafts" / "paper_v6" / "generated"
+GEN = ROOT / "60_paper_drafts" / "paper_v7" / "generated"
 BLUE, ORANGE, GRAY = "#2a78d6", "#eb6834", "#8c8b87"
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 JUDGES = [("Gemma", "Gemma 4 26B"), ("GPT", "GPT-5.5"), ("Gemini", "Gemini 3.1 Pro"), ("Opus", "Claude Opus 4.5")]  # table order

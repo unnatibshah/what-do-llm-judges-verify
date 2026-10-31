@@ -43,6 +43,8 @@ REASONS = {"superseded": "the cited document had been replaced or obsoleted by a
            "unsupported": "the evidence does not support the answer",
            "other": "any other problem"}
 VALIDITY = {"superseded", "not_yet_published"}
+CONFLICT = {"record_conflict": "the record and the evidence disagree, or whether the cited document is still current "
+                               "cannot be confirmed"}  # offered only in the conflict-damaged context
 SYSTEM = "You review answers that cite documents. Be precise and brief. Respond in strict JSON."
 CURRENCY_STEP = ("Before judging anything else, check each cited document against the evidence and any record: has a "
                  "later document replaced it on or before the date asked about? Compare the dates.")
@@ -57,6 +59,7 @@ CONTEXTS = {  # name -> what the reviewer sees (the practitioner's menu)
     "norecord-damaged": "as status-damaged, but a document with no recorded replacement reads 'no replacement recorded'",
     "caveat-damaged": "as status-damaged, but the record is labelled incomplete (it may omit replacements)",
     "lowauth-damaged": "as status-damaged, but the line is presented as an unverified automated note, not a record",
+    "conflict-damaged": "as status-damaged, but the reason list adds a code for a record that conflicts with the evidence",
     "check-first": "both texts and an instruction to check replacement and dates before anything else",
     "few-shot": "both texts and two worked examples (one caught fault, one passed correct answer)",
 }
@@ -258,7 +261,8 @@ def render(item: Item, context: str, docs: dict[str, Doc], record: set[tuple[str
         evidence = show(cited, False)
     elif context != "cite-only":
         evidence = "\n\n".join(show(d, context == "both-explicit") for d in (old, new))
-    if context in {"status", "status-damaged", "norecord-damaged", "caveat-damaged", "lowauth-damaged"}:
+    if context in {"status", "status-damaged", "norecord-damaged", "caveat-damaged", "lowauth-damaged",
+                   "conflict-damaged"}:
         caveat = (" (this record is incomplete: it omits some replacements, so a document it lists as in force may "
                   "have been replaced)") if context == "caveat-damaged" else ""
         header = ("UNVERIFIED NOTE FROM AN AUTOMATED TAGGER ABOUT THE CITED DOCUMENT" if context == "lowauth-damaged"
@@ -269,7 +273,8 @@ def render(item: Item, context: str, docs: dict[str, Doc], record: set[tuple[str
         extra = CURRENCY_STEP + "\n"
     if context == "few-shot" and examples:
         extra = "Worked examples:\n" + "\n\n".join(f"{p}\nCorrect reply: {r}" for p, r in examples) + "\n\n"
-    reasons = "\n".join(f"- {k}: {v}" for k, v in REASONS.items())
+    menu = {**REASONS, **CONFLICT} if context == "conflict-damaged" else REASONS
+    reasons = "\n".join(f"- {k}: {v}" for k, v in menu.items())
     text = (f"{extra}[QUESTION]\n{question}\n[ANSWER UNDER REVIEW]\n{answer}\n[EVIDENCE]\n{evidence or '(none)'}"
             f"{record_block}\n[TASK]\nDecide whether the answer is valid as of the date in the question. For each "
             f"problem give a finding naming the cited document and one reason from:\n{reasons}\nReply as JSON: "
@@ -294,7 +299,8 @@ def damaged(record: set[tuple[str, str]], fraction: float, seed: int) -> set[tup
 def score(item: Item, reply: dict[str, Any] | None, masked_ids: dict[str, str] | None = None) -> dict[str, Any]:
     """right: a ``superseded`` finding on the cited document; any: any finding; validity: a validity-reason finding."""
     if reply is None:
-        return {"invalid": True, "any": item.role != "fault", "right": False, "validity": item.role != "fault"}
+        return {"invalid": True, "any": item.role != "fault", "right": False, "validity": item.role != "fault",
+            "conflict": False}
     cited = (masked_ids or {}).get(item.cited, item.cited)
     findings = [f for f in reply.get("findings") or [] if isinstance(f, dict)]
     def norm(x: Any) -> str:
@@ -304,6 +310,7 @@ def score(item: Item, reply: dict[str, Any] | None, masked_ids: dict[str, str] |
     return {"invalid": False, "any": flagged,
             "right": any(str(f.get("reason", "")).strip() == "superseded" for f in on_cited),
             "validity": any(str(f.get("reason", "")).strip() in VALIDITY for f in findings),
+            "conflict": any(str(f.get("reason", "")).strip() in CONFLICT for f in on_cited),
             "reasons": sorted({str(f.get("reason", "")).strip() for f in findings})}
 
 
@@ -363,7 +370,7 @@ def deference(blocks: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
     reviewer's catch there against its own catch on the same items with no record (``both-texts``), per item."""
     base = {r["item_id"]: bool(r["right"]) for r in blocks.get("both-texts", []) if r["role"] == "fault"}
     out = {}
-    for ctx in ("status-damaged", "norecord-damaged", "caveat-damaged", "lowauth-damaged"):
+    for ctx in ("status-damaged", "norecord-damaged", "caveat-damaged", "lowauth-damaged", "conflict-damaged"):
         pairs = [(base[r["item_id"]], bool(r["right"])) for r in blocks.get(ctx, [])
                  if r["role"] == "fault" and r.get("dropped") and r["item_id"] in base]
         if pairs:
