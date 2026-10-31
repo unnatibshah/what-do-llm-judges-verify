@@ -42,5 +42,5 @@ case-study pipeline and need files not included here.
 ## Licences
 
 Code: Apache-2.0 (`LICENSE`). Data: see `LICENSE-DATA.md` (case-study cases, labels, annotation sheets, graph and
-record under CC BY 4.0; government documents listed by URL and hash, not redistributed; the RFC index included
+record, judge replies and analysis outputs under CC BY 4.0; government documents listed by URL and hash, not redistributed; the RFC index included
 unchanged as a third-party file).

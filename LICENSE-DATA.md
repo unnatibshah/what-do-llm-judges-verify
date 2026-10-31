@@ -9,4 +9,4 @@ section "Licences, per component").
 | Verbatim regulatory text inside those files (clause snippets, evidence quotes) | Short quotations with their source URL; not covered by CC BY |
 | Indian government documents | Not redistributed; listed by URL and SHA-256 in `40_data/corpus_r3/MANIFEST.json` |
 | RFC Editor index (`40_data/corpus_staging/rfc/rfc-index.xml`) | Third-party file from https://www.rfc-editor.org/, included unchanged for reproducibility; not covered by this repository's licences |
-| Model replies and analysis outputs (`50_analysis/results/`) | Released for verification and research. The data statement proposes CC BY 4.0 for run outputs; until the authors confirm it, no licence beyond that use is granted |
+| Model replies and analysis outputs (`50_analysis/results/`) | CC BY 4.0 (confirmed by the authors, 2026-10-31). The licence covers the authors' rights only; the model providers' terms continue to apply to their outputs |
