@@ -52,7 +52,10 @@ def main() -> None:
         raise SystemExit(f"author placeholders still printed in: {open_items}")
     with tempfile.TemporaryDirectory() as tmp:
         src = Path(tmp) / "src"
-        shutil.copytree(PAPER, src, ignore=shutil.ignore_patterns("*.pdf", "*.log", "*.blg", "*.aux", ".DS_Store", *SKIP))
+        skip = shutil.ignore_patterns("*.log", "*.blg", "*.aux", ".DS_Store", *SKIP)
+        # Build PDFs at the top level are not shipped; figure PDFs in generated/ are.
+        shutil.copytree(PAPER, src, ignore=lambda d, names: set(skip(d, names)) | (
+            {n for n in names if n.endswith(".pdf")} if Path(d) == PAPER else set()))
         shutil.copy(PAPER / "references.bib", src)
         for f in src.rglob("*.tex"):
             f.write_text(strip_comments(f.read_text(encoding="utf-8")), encoding="utf-8", newline="\n")

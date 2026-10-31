@@ -26,7 +26,7 @@ and Claude \EOpusCatchDamaged. The gap faults themselves are analysed next.
 \subsection{Gap faults}
 \label{sec:res-gaps}
 
-Table~\ref{tab:e123-gap} isolates the 24 gap faults; the items are the same in every column, so each comparison is
+Table~\ref{tab:e123-gap} and Figure~\ref{fig:gap} isolate the 24 gap faults; the items are the same in every column, so each comparison is
 within a judge. One qualification applies to all four judges. Their text-only replies to the items of the
 first 24 links, which include 11 of the gap faults, are the pilot's replies, reused because the prompts are identical
 (\S\ref{sec:studies}); for these items the comparison is a partial replication of the pilot, not an independent one.
@@ -35,6 +35,12 @@ On the other \EGPTFreshN{} gap faults, where every reply is new, the drop is of 
 to \EOpusFreshWithRecord, Gemma \EGemmaFreshOwn{} to \EGemmaFreshWithRecord.
 
 \IfFileExists{generated/tab_e123_gap.tex}{\input{generated/tab_e123_gap.tex}}{}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{generated/fig_gap.pdf}
+\caption{Catches on the 24 gap faults per judge (the values of Table~\ref{tab:e123-gap}): from both texts with no record, and with the damaged record in each of its four presentations. A lookup in the damaged record catches none of these faults.}
+\label{fig:gap}
+\end{figure}
 
 From the texts alone, Gemini caught \EGeminiGapTexts{} of the gap faults and, with the damaged record in its
 authoritative form, \EGeminiGapDamaged: \EGeminiHTwoaLost{} catches lost and \EGeminiHTwoaGained{} gained (H2a, Holm
@@ -109,7 +115,7 @@ Appendix~\ref{app:items} lists every gap fault.
 \subsection{Replacements, updates and surface similarity}
 \label{sec:res-shortcut}
 
-Table~\ref{tab:e123-decoy} reports the decoy test, with both texts and no record. Every judge caught more
+Table~\ref{tab:e123-decoy} and Figure~\ref{fig:decoy} report the decoy test, with both texts and no record. Every judge caught more
 faults than it flagged decoys (paired difference \EGPTHOne{} points for GPT-5.5, 95\% interval \EGPTHOneCI; Gemini
 \EGeminiHOne, \EGeminiHOneCI; Claude \EOpusHOne, \EOpusHOneCI; Gemma \EGemmaHOne, \EGemmaHOneCI), so H1 holds. H1 is a weak test,
 though: a judge that flagged every older document with a near-identical title would pass it as long as most
@@ -120,6 +126,12 @@ different-title pairs, no judge flagged a decoy, and catches differed widely (GP
 \EOpusDifferentCatch, Gemma \EGemmaDifferentCatch).
 
 \IfFileExists{generated/tab_e123_decoy.tex}{\input{generated/tab_e123_decoy.tex}}{}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{generated/fig_decoy.pdf}
+\caption{Faults caught and decoys flagged as replaced, with both texts and no record, by whether the two RFCs of a pair have near-identical titles (the values of Table~\ref{tab:e123-decoy}). No judge flagged a decoy whose titles differ.}
+\label{fig:decoy}
+\end{figure}
 
 Our plan read a positive H1 as evidence that text-only catches are not a title shortcut. The data call for a more
 qualified reading, and the analysis that supports it was not planned. Title similarity travels with abstract overlap:

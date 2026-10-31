@@ -5,10 +5,12 @@
 The test needs two inputs: a record of replacements that is correct wherever it is used as gold, and a short text for
 each document. It needs no labelled answers, because the record already says which citations are wrong on which dates.
 
+\input{sections/fig_design}
+
 \paragraph{Matched items.}
 Every item poses the same kind of question, ``As of date $D$, which document specifies $T$?'', where $T$ is the title
 of the older document, and supplies an answer that cites one document. For each link in the record (an old document and
-the document that replaced it) we write three items, and we pair each link with one decoy:
+the document that replaced it) we write three items, and we pair each link with one decoy (Figure~\ref{fig:design}):
 \begin{itemize}
   \item a \emph{fault} cites the old document, with $D$ after the replacement;
   \item a \emph{control} cites the replacing document, with the same $D$;
