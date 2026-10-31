@@ -1,0 +1,38 @@
+% Study 1 setting, from paper_v4 studies.tex (unchanged wording).
+\paragraph{Documents and record.}
+The corpus holds \NCorpusDocs{} regulatory instruments on rooftop solar from \NCorpusJurisdictions{} Indian
+jurisdictions, superseded ones included. No consolidated record exists, so an AI pipeline extracted one from the
+documents: \NLinksRegistry{} clause-level links, each from an old clause to the clause that changes it, with a relation
+and an effective date. Two authors checked a random sample of the links blind; \NLinksSampleNotALink{} of
+\NLinksSample{} were judged to be no change at all, and every link the test relies on was checked and corrected
+(Appendix~\ref{app:study1-data}). The record therefore asserts few wrong links, but nothing measures how many it
+misses, as in practice.
+
+\paragraph{Items.}
+A case is a synthetic solar application (a bill, an installer proposal and a utility record) with a date and a
+jurisdiction, labelled by rule functions whose parameters are quoted from the clauses. Its answer is an
+approve-or-reject decision with the clauses it rests on. A fault cites a replaced clause in place of its successor; its
+matched control is the correct decision citing the current clause. The case study has no date control, because each case has
+one date. People audited the answer key before the test set was sealed: the AI-built key reached a different outcome
+from the adjudicated one on \NDroppedDecision{} of \NCandidateCases{} candidate cases, which were dropped. The sealed
+set has \NTestCases{} cases on \NClauses{} distinct replaced clauses from \NStates{} jurisdictions; the record links
+\NRegistryFlagged{} of the \NClauses, so the other replaced clauses are gaps the record already has.
+
+\paragraph{What the reviewer sees.}
+The main conditions are three contexts of the framework: both versions of the clause (\rung{R2}, \texttt{both-texts}),
+both versions plus the record's status line for each cited clause (\rung{R4}, \texttt{status}), and the same line from
+a damaged record (\rung{R4}-damage, \texttt{status-damaged}; \rung{R4n}-damage, \texttt{norecord-damaged}). The record
+is damaged by dropping \DamageDropTwentyFive\% or \DamageDropFifty\% of its links, or adding \DamageSpuriousTen\%
+spurious ones, over \NDamageSeeds{} seeds. A deterministic lookup in the same record (\rung{R5}, no language model)
+flags exactly the clauses the record marks as replaced; it is the reference for what the record alone achieves.
+Further conditions (the old clause alone, source metadata, the amending instrument's words) are in
+Appendix~\ref{app:study1-conditions}.
+
+\paragraph{Reviewers and scoring.}
+Seven reviewers judged the same items: \texttt{llama3.1:8b}, \texttt{qwen2.5:7b}, \texttt{qwen2.5:14b},
+\texttt{gemma-4-26b-a4b-it}, \texttt{gemini-3.5-flash-lite} (on \rung{R0}, \rung{R2} and \rung{R4} only),
+\texttt{qwen2.5:32b} and Claude Opus~4.5, with greedy decoding. A fault is caught when a finding names the replaced
+clause with the reason ``not in force''. The unit of inference is the distinct replaced clause: rates are averaged within
+a clause, then over clauses. The questions, analyses and readings were fixed in a dated, version-controlled plan before
+any model saw a test item; the planned tests, all reported, are in Appendix~\ref{app:study1-planned}.
+

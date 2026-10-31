@@ -1,0 +1,16 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2Nzc2NzAyN182MTk5",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "statement of reasons (context only)",
+  "title": "Statement of Reasons, Fourth Amendment 2024",
+  "number": "n/a",
+  "printed_date": "2024-09-04 per landing page",
+  "file": "GERC-NetMetering-2024-4thAmend-SoR.pdf",
+  "fetched_at": "2026-10-01T16:43:47Z",
+  "http_status": 200,
+  "sha256": "8e6d8114d6b46a91c27444ff90360ecd05fcdea6c37e09eeca7e796f531e881b",
+  "pages": 39,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

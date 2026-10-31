@@ -1,0 +1,23 @@
+\begin{table*}[t]\centering\scriptsize
+\caption{Main results on S-both faults and their matched correct answers. TP: right-reason catches of the planted superseded clause; FN: faults not caught; FP: matched correct answers with any finding; TN: matched correct answers passed. Recall, specificity, precision and balanced accuracy (\%) pool items, which share clauses, so they are descriptive. FA$_C$: clean correct answers flagged. Disc.: discrimination (catch minus matched false alarm), clause-averaged, with a 95\% bootstrap interval over clauses (points). R5 recovers the registry's own links by construction and R4 (intact) is given the answer: reference rows.}
+\label{tab:mainother}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllrrrrrrrrrll}
+\toprule
+Model & Arm & Reviewer sees & TP & FN & FP & TN & Rec. & Spec. & Prec. & Bal. & FA$_C$ & Disc. [95\% CI] & Cl. \\
+\midrule
+Flash-Lite & R2 & both versions & 19 & 23 & 20 & 22 & 45 & 52 & 49 & 49 & 19/42 & $-$1 [$-$28, +27] & 14 \\
+Flash-Lite & R4 & status line & 33 & 9 & 19 & 23 & 79 & 55 & 63 & 67 & 18/42 & +38 [+11, +61] & 14 \\
+Llama 8B & R2 & both versions & 0 & 42 & 19 & 23 & 0 & 55 & 0 & 27 & 19/42 & $-$49 [$-$67, $-$32] & 14 \\
+Llama 8B & R4 & status line & 3 & 39 & 19 & 23 & 7 & 55 & 14 & 31 & 20/42 & $-$38 [$-$54, $-$24] & 14 \\
+Llama 8B & R4-drop50 & status, drop 50\% & 0 & 42 & 19 & 23 & 0 & 55 & 0 & 27 & 20/42 & $-$49 [$-$67, $-$32] & 14 \\
+Llama 8B & R4n-drop50 & no-record, drop 50\% & 1 & 41 & 19 & 23 & 2 & 55 & 5 & 29 & 20/42 & $-$46 [$-$65, $-$27] & 14 \\
+Llama 8B & R4-spurious10 & status, spur. 10\% & 3 & 39 & 19 & 23 & 7 & 55 & 14 & 31 & 20/42 & $-$38 [$-$54, $-$24] & 14 \\
+Qwen 7B & R2 & both versions & 5 & 37 & 7 & 35 & 12 & 83 & 42 & 48 & 5/42 & $-$1 [$-$14, +15] & 14 \\
+Qwen 7B & R4 & status line & 2 & 40 & 2 & 40 & 5 & 95 & 50 & 50 & 2/42 & +0 -- & 14 \\
+Qwen 7B & R4-drop50 & status, drop 50\% & 2 & 40 & 2 & 40 & 5 & 95 & 50 & 50 & 2/42 & +0 -- & 14 \\
+Qwen 7B & R4n-drop50 & no-record, drop 50\% & 4 & 38 & 3 & 39 & 10 & 93 & 57 & 51 & 1/42 & +5 [$-$4, +21] & 14 \\
+Qwen 7B & R4-spurious10 & status, spur. 10\% & 2 & 40 & 2 & 40 & 5 & 95 & 50 & 50 & 2/42 & +0 -- & 14 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

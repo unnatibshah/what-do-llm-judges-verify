@@ -1,0 +1,81 @@
+{
+  "corpus_version": "SuryaBench-Corpus-2026.11-fixture",
+  "created_at": "2026-09-21T12:00:00Z",
+  "documents": [
+    {
+      "doc_id": "IN-C1-001",
+      "title": "PM Surya Ghar: Muft Bijli Yojana Operational Guidelines",
+      "class": "C1",
+      "issuer": "Ministry of New and Renewable Energy (MNRE)",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "doc_number": "32/2024-RE",
+      "doc_date": "2024-02-13",
+      "effective_date": "2024-02-13",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "retrieved_url": "https://mnre.gov.in/schemes/pm-surya-ghar",
+      "retrieved_via": "site_search",
+      "retrieved_at": "2026-09-21T10:00:00Z",
+      "sha256": "aaa8a0641e26c836103caae05441ae175b088c97796d82310f500876b1f0b3f2",
+      "pages": 1,
+      "text_layer": "native",
+      "status": "presumed_current",
+      "discoverability": "nav",
+      "notes": "Central PM Surya Ghar operational subsidy guidelines"
+    },
+    {
+      "doc_id": "MH-C3-001",
+      "title": "MERC Grid Interactive Rooftop Renewable Energy Systems Regulations, 2019",
+      "class": "C3",
+      "issuer": "Maharashtra Electricity Regulatory Commission",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "doc_number": "MERC/2019/REG-001",
+      "doc_date": "2019-12-30",
+      "effective_date": "2019-12-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "retrieved_url": "https://merc.gov.in/regulations/2019/rooftop",
+      "retrieved_via": "site_search",
+      "retrieved_at": "2026-09-21T10:05:00Z",
+      "sha256": "e64df26fd8cd97ab5846ead1e46f970cdae21cda018d5d9e5f339e87e1fbc87f",
+      "pages": 1,
+      "text_layer": "native",
+      "status": "presumed_superseded",
+      "discoverability": "site_search",
+      "notes": "Principal 2019 rooftop regulation; clause 7.2 subsequently amended by MH-C3-002"
+    },
+    {
+      "doc_id": "MH-C3-002",
+      "title": "MERC First Amendment Regulations, 2024",
+      "class": "C3",
+      "issuer": "Maharashtra Electricity Regulatory Commission",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "doc_number": "MERC/2024/AMEND-004",
+      "doc_date": "2024-02-15",
+      "effective_date": "2024-03-01",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "high",
+      "retrieved_url": "https://merc.gov.in/regulations/2024/amendment-1",
+      "retrieved_via": "site_search",
+      "retrieved_at": "2026-09-21T10:10:00Z",
+      "sha256": "667f4d830eb75326c88b5062cd73f765dbe620750ebf2b4d3316b3047bcf2aef",
+      "pages": 1,
+      "text_layer": "native",
+      "status": "presumed_current",
+      "discoverability": "site_search",
+      "notes": "Amends Clause 7.2 of MH-C3-001, raising cap from 10 kW to 50 kW"
+    }
+  ]
+}

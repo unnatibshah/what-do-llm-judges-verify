@@ -1,0 +1,7 @@
+MAHARASHTRA ELECTRICITY REGULATORY COMMISSION (MERC)
+GRID INTERACTIVE ROOFTOP RENEWABLE ENERGY SYSTEMS REGULATIONS, 2019
+Order No. MERC/2019/REG-001
+Date: 30 December 2019
+
+Clause 7.2 Capacity Caps for Residential Rooftop Solar
+The capacity of grid interactive rooftop solar PV system to be installed at the premises of any eligible residential consumer shall not exceed the sanctioned load of the consumer and shall be subject to an upper ceiling of 10 kW under net metering arrangement. Any capacity beyond 10 kW shall only be eligible under net billing or gross metering arrangement.

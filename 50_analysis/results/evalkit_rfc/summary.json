@@ -1,0 +1,5160 @@
+{
+ "gemini-3.5-flash-lite": {
+  "cite-only": {
+   "fault": {
+    "right": {
+     "k": 17,
+     "n": 48
+    },
+    "any": {
+     "k": 22,
+     "n": 48
+    },
+    "validity": {
+     "k": 17,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 48
+    },
+    "any": {
+     "k": 15,
+     "n": 48
+    },
+    "validity": {
+     "k": 0,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 14,
+     "n": 48
+    },
+    "any": {
+     "k": 17,
+     "n": 48
+    },
+    "validity": {
+     "k": 14,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": 0.0417,
+    "ci95": [
+     -0.1458,
+     0.2292
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.3542,
+    "ci95": [
+     0.2292,
+     0.5
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": 0.0625,
+    "ci95": [
+     -0.0417,
+     0.1667
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": 0.0,
+    "ci95": [
+     -0.125,
+     0.125
+    ],
+    "links": 48
+   }
+  },
+  "_title_split": {
+   "cite-only": {
+    "same": {
+     "k": 10,
+     "n": 33
+    },
+    "different": {
+     "k": 7,
+     "n": 15
+    }
+   }
+  }
+ },
+ "gemma-4-26b-a4b-it": {
+  "both-masked": {
+   "fault": {
+    "right": {
+     "k": 15,
+     "n": 24
+    },
+    "any": {
+     "k": 15,
+     "n": 24
+    },
+    "validity": {
+     "k": 15,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 9,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.25,
+    "ci95": [
+     -0.0833,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.625,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.625,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.625,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   }
+  },
+  "both-texts": {
+   "fault": {
+    "right": {
+     "k": 16,
+     "n": 24
+    },
+    "any": {
+     "k": 16,
+     "n": 24
+    },
+    "validity": {
+     "k": 16,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 9,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.2917,
+    "ci95": [
+     -0.0417,
+     0.625
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   }
+  },
+  "check-first": {
+   "fault": {
+    "right": {
+     "k": 18,
+     "n": 24
+    },
+    "any": {
+     "k": 18,
+     "n": 24
+    },
+    "validity": {
+     "k": 18,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 8,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.4167,
+    "ci95": [
+     0.0833,
+     0.75
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   }
+  },
+  "cite-only": {
+   "fault": {
+    "right": {
+     "k": 3,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 3,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 23,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 17,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": -0.8333,
+    "ci95": [
+     -0.9583,
+     -0.6667
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.125,
+    "ci95": [
+     0.0,
+     0.25
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.125,
+    "ci95": [
+     0.0,
+     0.25
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": -0.5833,
+    "ci95": [
+     -0.8333,
+     -0.2917
+    ],
+    "links": 24
+   }
+  },
+  "norecord-damaged": {
+   "fault": {
+    "right": {
+     "k": 12,
+     "n": 24
+    },
+    "any": {
+     "k": 12,
+     "n": 24
+    },
+    "validity": {
+     "k": 12,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 9,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.125,
+    "ci95": [
+     -0.0833,
+     0.3333
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   }
+  },
+  "status-damaged": {
+   "fault": {
+    "right": {
+     "k": 12,
+     "n": 24
+    },
+    "any": {
+     "k": 12,
+     "n": 24
+    },
+    "validity": {
+     "k": 12,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 9,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.125,
+    "ci95": [
+     -0.0833,
+     0.3333
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   }
+  },
+  "status": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 9,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.625,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "_deference": {
+   "status-damaged": {
+    "items": 12,
+    "own": 10,
+    "with_record": 0,
+    "mcnemar_p": 0.002,
+    "kinds": {
+     "pass, no finding": 12
+    }
+   },
+   "norecord-damaged": {
+    "items": 12,
+    "own": 10,
+    "with_record": 0,
+    "mcnemar_p": 0.002,
+    "kinds": {
+     "pass, no finding": 12
+    }
+   }
+  },
+  "_title_split": {
+   "both-masked": {
+    "same": {
+     "k": 15,
+     "n": 18
+    },
+    "different": {
+     "k": 0,
+     "n": 6
+    }
+   },
+   "both-texts": {
+    "same": {
+     "k": 15,
+     "n": 18
+    },
+    "different": {
+     "k": 1,
+     "n": 6
+    }
+   },
+   "check-first": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 1,
+     "n": 6
+    }
+   },
+   "cite-only": {
+    "same": {
+     "k": 3,
+     "n": 18
+    },
+    "different": {
+     "k": 0,
+     "n": 6
+    }
+   },
+   "norecord-damaged": {
+    "same": {
+     "k": 7,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "status-damaged": {
+    "same": {
+     "k": 7,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "status": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   }
+  }
+ },
+ "kbench-claude-haiku-4-5": {
+  "both-explicit": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 10,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 14,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 23,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "links": 24
+   }
+  },
+  "both-masked": {
+   "fault": {
+    "right": {
+     "k": 19,
+     "n": 24
+    },
+    "any": {
+     "k": 20,
+     "n": 24
+    },
+    "validity": {
+     "k": 19,
+     "n": 24
+    },
+    "invalid": {
+     "k": 4,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 5,
+     "n": 24
+    },
+    "any": {
+     "k": 23,
+     "n": 24
+    },
+    "validity": {
+     "k": 17,
+     "n": 24
+    },
+    "invalid": {
+     "k": 11,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 23,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": -0.1667,
+    "ci95": [
+     -0.3333,
+     0.0
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.0833,
+    "ci95": [
+     -0.0833,
+     0.25
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": -0.2083,
+    "ci95": [
+     -0.375,
+     -0.0417
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": -0.2083,
+    "ci95": [
+     -0.375,
+     -0.0417
+    ],
+    "links": 24
+   }
+  },
+  "both-texts": {
+   "fault": {
+    "right": {
+     "k": 20,
+     "n": 24
+    },
+    "any": {
+     "k": 21,
+     "n": 24
+    },
+    "validity": {
+     "k": 20,
+     "n": 24
+    },
+    "invalid": {
+     "k": 3,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 5,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 15,
+     "n": 24
+    },
+    "invalid": {
+     "k": 8,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 3,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 21,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": -0.1667,
+    "ci95": [
+     -0.3333,
+     -0.0417
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.2083,
+    "ci95": [
+     0.0417,
+     0.375
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": -0.1667,
+    "ci95": [
+     -0.3333,
+     -0.0417
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": -0.1667,
+    "ci95": [
+     -0.3333,
+     -0.0417
+    ],
+    "links": 24
+   }
+  },
+  "_title_split": {
+   "both-explicit": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   },
+   "both-masked": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 2,
+     "n": 6
+    }
+   },
+   "both-texts": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 3,
+     "n": 6
+    }
+   }
+  }
+ },
+ "kbench-claude-opus-4-5": {
+  "both-explicit": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 9,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 2,
+     "n": 24
+    },
+    "validity": {
+     "k": 2,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.625,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "both-masked": {
+   "fault": {
+    "right": {
+     "k": 20,
+     "n": 24
+    },
+    "any": {
+     "k": 20,
+     "n": 24
+    },
+    "validity": {
+     "k": 20,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 2,
+     "n": 24
+    },
+    "any": {
+     "k": 12,
+     "n": 24
+    },
+    "validity": {
+     "k": 2,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 2,
+     "n": 24
+    },
+    "validity": {
+     "k": 2,
+     "n": 24
+    },
+    "invalid": {
+     "k": 2,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.3333,
+    "ci95": [
+     0.0417,
+     0.625
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   }
+  },
+  "both-texts": {
+   "fault": {
+    "right": {
+     "k": 19,
+     "n": 24
+    },
+    "any": {
+     "k": 20,
+     "n": 24
+    },
+    "validity": {
+     "k": 19,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 1,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 2,
+     "n": 24
+    },
+    "validity": {
+     "k": 2,
+     "n": 24
+    },
+    "invalid": {
+     "k": 2,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.375,
+    "ci95": [
+     0.0833,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.7083,
+    "ci95": [
+     0.5417,
+     0.875
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.7083,
+    "ci95": [
+     0.5417,
+     0.875
+    ],
+    "links": 24
+   }
+  },
+  "check-first": {
+   "fault": {
+    "right": {
+     "k": 21,
+     "n": 24
+    },
+    "any": {
+     "k": 21,
+     "n": 24
+    },
+    "validity": {
+     "k": 21,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 1,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.4583,
+    "ci95": [
+     0.1667,
+     0.7083
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.875,
+    "ci95": [
+     0.75,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.875,
+    "ci95": [
+     0.75,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   }
+  },
+  "cite-only": {
+   "fault": {
+    "right": {
+     "k": 8,
+     "n": 24
+    },
+    "any": {
+     "k": 11,
+     "n": 24
+    },
+    "validity": {
+     "k": 8,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 3,
+     "n": 24
+    },
+    "any": {
+     "k": 14,
+     "n": 24
+    },
+    "validity": {
+     "k": 3,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 2,
+     "n": 24
+    },
+    "any": {
+     "k": 5,
+     "n": 24
+    },
+    "validity": {
+     "k": 3,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": -0.25,
+    "ci95": [
+     -0.5,
+     0.0
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.2083,
+    "ci95": [
+     0.0,
+     0.4167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.2083,
+    "ci95": [
+     0.0,
+     0.4167
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.125,
+    "ci95": [
+     -0.125,
+     0.375
+    ],
+    "links": 24
+   }
+  },
+  "cited-text": {
+   "fault": {
+    "right": {
+     "k": 6,
+     "n": 24
+    },
+    "any": {
+     "k": 6,
+     "n": 24
+    },
+    "validity": {
+     "k": 6,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 7,
+     "n": 24
+    },
+    "validity": {
+     "k": 1,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": -0.0417,
+    "ci95": [
+     -0.2917,
+     0.2083
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.2083,
+    "ci95": [
+     0.0,
+     0.4167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.25,
+    "ci95": [
+     0.0833,
+     0.4167
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.25,
+    "ci95": [
+     0.0833,
+     0.4167
+    ],
+    "links": 24
+   }
+  },
+  "few-shot": {
+   "fault": {
+    "right": {
+     "k": 18,
+     "n": 24
+    },
+    "any": {
+     "k": 19,
+     "n": 24
+    },
+    "validity": {
+     "k": 18,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.3333,
+    "ci95": [
+     0.0,
+     0.625
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   }
+  },
+  "norecord-damaged": {
+   "fault": {
+    "right": {
+     "k": 21,
+     "n": 24
+    },
+    "any": {
+     "k": 22,
+     "n": 24
+    },
+    "validity": {
+     "k": 21,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 1,
+     "n": 24
+    },
+    "validity": {
+     "k": 1,
+     "n": 24
+    },
+    "invalid": {
+     "k": 1,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.4583,
+    "ci95": [
+     0.2083,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.875,
+    "ci95": [
+     0.7083,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   }
+  },
+  "status-damaged": {
+   "fault": {
+    "right": {
+     "k": 22,
+     "n": 24
+    },
+    "any": {
+     "k": 23,
+     "n": 24
+    },
+    "validity": {
+     "k": 22,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 1,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.5,
+    "ci95": [
+     0.25,
+     0.7083
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.875,
+    "ci95": [
+     0.749,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "status": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 1,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.5833,
+    "ci95": [
+     0.375,
+     0.7917
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.9583,
+    "ci95": [
+     0.875,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "_deference": {
+   "status-damaged": {
+    "items": 12,
+    "own": 11,
+    "with_record": 10,
+    "mcnemar_p": 1.0,
+    "kinds": {
+     "cites texts or dates": 10,
+     "cites the record": 1,
+     "pass, no finding": 1
+    }
+   },
+   "norecord-damaged": {
+    "items": 12,
+    "own": 11,
+    "with_record": 9,
+    "mcnemar_p": 0.5,
+    "kinds": {
+     "cites texts or dates": 3,
+     "cites the record": 7,
+     "pass, no finding": 2
+    }
+   }
+  },
+  "_title_split": {
+   "both-explicit": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   },
+   "both-masked": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 3,
+     "n": 6
+    }
+   },
+   "both-texts": {
+    "same": {
+     "k": 16,
+     "n": 18
+    },
+    "different": {
+     "k": 3,
+     "n": 6
+    }
+   },
+   "check-first": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 4,
+     "n": 6
+    }
+   },
+   "cite-only": {
+    "same": {
+     "k": 7,
+     "n": 18
+    },
+    "different": {
+     "k": 1,
+     "n": 6
+    }
+   },
+   "cited-text": {
+    "same": {
+     "k": 5,
+     "n": 18
+    },
+    "different": {
+     "k": 1,
+     "n": 6
+    }
+   },
+   "few-shot": {
+    "same": {
+     "k": 14,
+     "n": 18
+    },
+    "different": {
+     "k": 4,
+     "n": 6
+    }
+   },
+   "norecord-damaged": {
+    "same": {
+     "k": 16,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "status-damaged": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "status": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   }
+  }
+ },
+ "kbench-gemini-3-1-pro": {
+  "both-explicit": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 1,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.9583,
+    "ci95": [
+     0.875,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "both-masked": {
+   "fault": {
+    "right": {
+     "k": 20,
+     "n": 24
+    },
+    "any": {
+     "k": 20,
+     "n": 24
+    },
+    "validity": {
+     "k": 20,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 9,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.4583,
+    "ci95": [
+     0.125,
+     0.75
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   }
+  },
+  "both-texts": {
+   "fault": {
+    "right": {
+     "k": 22,
+     "n": 24
+    },
+    "any": {
+     "k": 22,
+     "n": 24
+    },
+    "validity": {
+     "k": 22,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.5,
+    "ci95": [
+     0.2083,
+     0.75
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "check-first": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 4,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "cite-only": {
+   "fault": {
+    "right": {
+     "k": 11,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 11,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": -0.5417,
+    "ci95": [
+     -0.75,
+     -0.3333
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.4583,
+    "ci95": [
+     0.25,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.4583,
+    "ci95": [
+     0.25,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": -0.5417,
+    "ci95": [
+     -0.75,
+     -0.3333
+    ],
+    "links": 24
+   }
+  },
+  "norecord-damaged": {
+   "fault": {
+    "right": {
+     "k": 15,
+     "n": 24
+    },
+    "any": {
+     "k": 16,
+     "n": 24
+    },
+    "validity": {
+     "k": 15,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.2083,
+    "ci95": [
+     -0.0417,
+     0.4583
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.625,
+    "ci95": [
+     0.4167,
+     0.7917
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.625,
+    "ci95": [
+     0.4167,
+     0.7917
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.625,
+    "ci95": [
+     0.4167,
+     0.7917
+    ],
+    "links": 24
+   }
+  },
+  "status-damaged": {
+   "fault": {
+    "right": {
+     "k": 12,
+     "n": 24
+    },
+    "any": {
+     "k": 12,
+     "n": 24
+    },
+    "validity": {
+     "k": 12,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.0833,
+    "ci95": [
+     -0.1667,
+     0.2917
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.6667
+    ],
+    "links": 24
+   }
+  },
+  "status": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.5833,
+    "ci95": [
+     0.375,
+     0.75
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "_deference": {
+   "status-damaged": {
+    "items": 12,
+    "own": 12,
+    "with_record": 0,
+    "mcnemar_p": 0.0005,
+    "kinds": {
+     "pass, no finding": 12
+    }
+   },
+   "norecord-damaged": {
+    "items": 12,
+    "own": 12,
+    "with_record": 3,
+    "mcnemar_p": 0.0039,
+    "kinds": {
+     "cites texts or dates": 4,
+     "pass, no finding": 8
+    }
+   }
+  },
+  "_title_split": {
+   "both-explicit": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   },
+   "both-masked": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 3,
+     "n": 6
+    }
+   },
+   "both-texts": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "check-first": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   },
+   "cite-only": {
+    "same": {
+     "k": 9,
+     "n": 18
+    },
+    "different": {
+     "k": 2,
+     "n": 6
+    }
+   },
+   "norecord-damaged": {
+    "same": {
+     "k": 10,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "status-damaged": {
+    "same": {
+     "k": 7,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "status": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   }
+  }
+ },
+ "kbench-gpt-5-5": {
+  "both-explicit": {
+   "fault": {
+    "right": {
+     "k": 24,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 24,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "both-masked": {
+   "fault": {
+    "right": {
+     "k": 22,
+     "n": 24
+    },
+    "any": {
+     "k": 22,
+     "n": 24
+    },
+    "validity": {
+     "k": 22,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 6,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4167,
+     0.875
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.9167,
+    "ci95": [
+     0.7917,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "both-texts": {
+   "fault": {
+    "right": {
+     "k": 23,
+     "n": 24
+    },
+    "any": {
+     "k": 24,
+     "n": 24
+    },
+    "validity": {
+     "k": 23,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 5,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.9583,
+    "ci95": [
+     0.875,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.9583,
+    "ci95": [
+     0.875,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.9583,
+    "ci95": [
+     0.875,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "norecord-damaged": {
+   "fault": {
+    "right": {
+     "k": 18,
+     "n": 24
+    },
+    "any": {
+     "k": 18,
+     "n": 24
+    },
+    "validity": {
+     "k": 18,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 5,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.5417,
+    "ci95": [
+     0.3333,
+     0.75
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   }
+  },
+  "status-damaged": {
+   "fault": {
+    "right": {
+     "k": 16,
+     "n": 24
+    },
+    "any": {
+     "k": 16,
+     "n": 24
+    },
+    "validity": {
+     "k": 16,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 4,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.7083
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   }
+  },
+  "_deference": {
+   "status-damaged": {
+    "items": 12,
+    "own": 11,
+    "with_record": 4,
+    "mcnemar_p": 0.0156,
+    "kinds": {
+     "cites texts or dates": 4,
+     "pass, no finding": 8
+    }
+   },
+   "norecord-damaged": {
+    "items": 12,
+    "own": 11,
+    "with_record": 6,
+    "mcnemar_p": 0.0625,
+    "kinds": {
+     "cites texts or dates": 6,
+     "pass, no finding": 6
+    }
+   }
+  },
+  "_title_split": {
+   "both-explicit": {
+    "same": {
+     "k": 18,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   },
+   "both-masked": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "both-texts": {
+    "same": {
+     "k": 17,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   },
+   "norecord-damaged": {
+    "same": {
+     "k": 13,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   },
+   "status-damaged": {
+    "same": {
+     "k": 11,
+     "n": 18
+    },
+    "different": {
+     "k": 5,
+     "n": 6
+    }
+   }
+  }
+ },
+ "kbench-gpt-oss-120b": {
+  "both-explicit": {
+   "fault": {
+    "right": {
+     "k": 21,
+     "n": 24
+    },
+    "any": {
+     "k": 21,
+     "n": 24
+    },
+    "validity": {
+     "k": 21,
+     "n": 24
+    },
+    "invalid": {
+     "k": 3,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 5,
+     "n": 24
+    },
+    "validity": {
+     "k": 1,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.8333,
+    "ci95": [
+     0.6667,
+     0.9583
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.875,
+    "ci95": [
+     0.75,
+     1.0
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.875,
+    "ci95": [
+     0.75,
+     1.0
+    ],
+    "links": 24
+   }
+  },
+  "both-masked": {
+   "fault": {
+    "right": {
+     "k": 13,
+     "n": 24
+    },
+    "any": {
+     "k": 14,
+     "n": 24
+    },
+    "validity": {
+     "k": 13,
+     "n": 24
+    },
+    "invalid": {
+     "k": 3,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 12,
+     "n": 24
+    },
+    "validity": {
+     "k": 1,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.0417,
+    "ci95": [
+     -0.25,
+     0.3333
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.5,
+    "ci95": [
+     0.2917,
+     0.7083
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.5417,
+    "ci95": [
+     0.374,
+     0.75
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.5417,
+    "ci95": [
+     0.374,
+     0.75
+    ],
+    "links": 24
+   }
+  },
+  "both-texts": {
+   "fault": {
+    "right": {
+     "k": 16,
+     "n": 24
+    },
+    "any": {
+     "k": 16,
+     "n": 24
+    },
+    "validity": {
+     "k": 16,
+     "n": 24
+    },
+    "invalid": {
+     "k": 2,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 1,
+     "n": 24
+    },
+    "any": {
+     "k": 10,
+     "n": 24
+    },
+    "validity": {
+     "k": 1,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 0,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.25,
+    "ci95": [
+     -0.0417,
+     0.5417
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.625,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.6667,
+    "ci95": [
+     0.4583,
+     0.8333
+    ],
+    "links": 24
+   }
+  },
+  "status-damaged": {
+   "fault": {
+    "right": {
+     "k": 15,
+     "n": 24
+    },
+    "any": {
+     "k": 15,
+     "n": 24
+    },
+    "validity": {
+     "k": 15,
+     "n": 24
+    },
+    "invalid": {
+     "k": 3,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 12,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 1,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.125,
+    "ci95": [
+     -0.2083,
+     0.4167
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.625,
+    "ci95": [
+     0.4167,
+     0.7917
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.625,
+    "ci95": [
+     0.4167,
+     0.7917
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.5833,
+    "ci95": [
+     0.375,
+     0.7917
+    ],
+    "links": 24
+   }
+  },
+  "status": {
+   "fault": {
+    "right": {
+     "k": 18,
+     "n": 24
+    },
+    "any": {
+     "k": 18,
+     "n": 24
+    },
+    "validity": {
+     "k": 18,
+     "n": 24
+    },
+    "invalid": {
+     "k": 3,
+     "n": 24
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 12,
+     "n": 24
+    },
+    "validity": {
+     "k": 0,
+     "n": 24
+    },
+    "invalid": {
+     "k": 0,
+     "n": 24
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 0,
+     "n": 24
+    },
+    "any": {
+     "k": 2,
+     "n": 24
+    },
+    "validity": {
+     "k": 1,
+     "n": 24
+    },
+    "invalid": {
+     "k": 1,
+     "n": 24
+    }
+   },
+   "disc_any": {
+    "mean": 0.25,
+    "ci95": [
+     0.0,
+     0.5
+    ],
+    "links": 24
+   },
+   "disc_validity": {
+    "mean": 0.75,
+    "ci95": [
+     0.5833,
+     0.9167
+    ],
+    "links": 24
+   },
+   "disc_date": {
+    "mean": 0.7083,
+    "ci95": [
+     0.5417,
+     0.875
+    ],
+    "links": 24
+   },
+   "disc_date_any": {
+    "mean": 0.6667,
+    "ci95": [
+     0.5,
+     0.8333
+    ],
+    "links": 24
+   }
+  },
+  "_deference": {
+   "status-damaged": {
+    "items": 12,
+    "own": 8,
+    "with_record": 6,
+    "mcnemar_p": 0.5,
+    "kinds": {
+     "cites texts or dates": 6,
+     "invalid": 2,
+     "pass, no finding": 4
+    }
+   }
+  },
+  "_title_split": {
+   "both-explicit": {
+    "same": {
+     "k": 15,
+     "n": 18
+    },
+    "different": {
+     "k": 6,
+     "n": 6
+    }
+   },
+   "both-masked": {
+    "same": {
+     "k": 12,
+     "n": 18
+    },
+    "different": {
+     "k": 1,
+     "n": 6
+    }
+   },
+   "both-texts": {
+    "same": {
+     "k": 14,
+     "n": 18
+    },
+    "different": {
+     "k": 2,
+     "n": 6
+    }
+   },
+   "status-damaged": {
+    "same": {
+     "k": 12,
+     "n": 18
+    },
+    "different": {
+     "k": 3,
+     "n": 6
+    }
+   },
+   "status": {
+    "same": {
+     "k": 15,
+     "n": 18
+    },
+    "different": {
+     "k": 3,
+     "n": 6
+    }
+   }
+  }
+ },
+ "qwen2.5:14b": {
+  "cite-only": {
+   "fault": {
+    "right": {
+     "k": 7,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 46,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 3,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 41,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 1,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 44,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": -0.8542,
+    "ci95": [
+     -0.9375,
+     -0.75
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": -0.7083,
+    "ci95": [
+     -0.8333,
+     -0.5833
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": -0.7708,
+    "ci95": [
+     -0.875,
+     -0.6458
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.8542,
+    "ci95": [
+     -0.9375,
+     -0.75
+    ],
+    "links": 48
+   }
+  },
+  "cited-text": {
+   "fault": {
+    "right": {
+     "k": 8,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 43,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 5,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 36,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 2,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 42,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": -0.8333,
+    "ci95": [
+     -0.9375,
+     -0.7292
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": -0.5833,
+    "ci95": [
+     -0.75,
+     -0.4167
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": -0.7083,
+    "ci95": [
+     -0.8333,
+     -0.5625
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.8333,
+    "ci95": [
+     -0.9375,
+     -0.7292
+    ],
+    "links": 48
+   }
+  },
+  "_title_split": {
+   "cite-only": {
+    "same": {
+     "k": 7,
+     "n": 33
+    },
+    "different": {
+     "k": 0,
+     "n": 15
+    }
+   },
+   "cited-text": {
+    "same": {
+     "k": 6,
+     "n": 33
+    },
+    "different": {
+     "k": 2,
+     "n": 15
+    }
+   }
+  }
+ },
+ "qwen2.5:32b": {
+  "both-explicit": {
+   "fault": {
+    "right": {
+     "k": 44,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 16,
+     "n": 48
+    },
+    "any": {
+     "k": 41,
+     "n": 48
+    },
+    "validity": {
+     "k": 22,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 34,
+     "n": 48
+    },
+    "any": {
+     "k": 46,
+     "n": 48
+    },
+    "validity": {
+     "k": 45,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": 0.0625,
+    "ci95": [
+     -0.0625,
+     0.2083
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.4583,
+    "ci95": [
+     0.2708,
+     0.625
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": -0.0208,
+    "ci95": [
+     -0.125,
+     0.0833
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.0417,
+    "ci95": [
+     -0.1458,
+     0.0625
+    ],
+    "links": 48
+   }
+  },
+  "both-masked": {
+   "fault": {
+    "right": {
+     "k": 39,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 14,
+     "n": 48
+    },
+    "any": {
+     "k": 44,
+     "n": 48
+    },
+    "validity": {
+     "k": 22,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 22,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": -0.1042,
+    "ci95": [
+     -0.25,
+     0.0417
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.3542,
+    "ci95": [
+     0.1667,
+     0.5417
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": -0.1875,
+    "ci95": [
+     -0.2917,
+     -0.0833
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.1875,
+    "ci95": [
+     -0.2917,
+     -0.0833
+    ],
+    "links": 48
+   }
+  },
+  "both-texts": {
+   "fault": {
+    "right": {
+     "k": 42,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 16,
+     "n": 48
+    },
+    "any": {
+     "k": 40,
+     "n": 48
+    },
+    "validity": {
+     "k": 23,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 26,
+     "n": 48
+    },
+    "any": {
+     "k": 46,
+     "n": 48
+    },
+    "validity": {
+     "k": 43,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": 0.0417,
+    "ci95": [
+     -0.1042,
+     0.1875
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.3958,
+    "ci95": [
+     0.2083,
+     0.5625
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": -0.0208,
+    "ci95": [
+     -0.1464,
+     0.125
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.0833,
+    "ci95": [
+     -0.1875,
+     0.0208
+    ],
+    "links": 48
+   }
+  },
+  "check-first": {
+   "fault": {
+    "right": {
+     "k": 48,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 5,
+     "n": 48
+    },
+    "any": {
+     "k": 46,
+     "n": 48
+    },
+    "validity": {
+     "k": 12,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 32,
+     "n": 48
+    },
+    "any": {
+     "k": 46,
+     "n": 48
+    },
+    "validity": {
+     "k": 37,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": 0.0417,
+    "ci95": [
+     0.0,
+     0.1042
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.75,
+    "ci95": [
+     0.625,
+     0.8542
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": 0.2292,
+    "ci95": [
+     0.1042,
+     0.3542
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": 0.0417,
+    "ci95": [
+     0.0,
+     0.1042
+    ],
+    "links": 48
+   }
+  },
+  "cite-only": {
+   "fault": {
+    "right": {
+     "k": 30,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 19,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 45,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 7,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": -0.375,
+    "ci95": [
+     -0.5208,
+     -0.25
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": -0.3125,
+    "ci95": [
+     -0.4792,
+     -0.1458
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": -0.375,
+    "ci95": [
+     -0.5208,
+     -0.25
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.375,
+    "ci95": [
+     -0.5208,
+     -0.25
+    ],
+    "links": 48
+   }
+  },
+  "cited-text": {
+   "fault": {
+    "right": {
+     "k": 12,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 5,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 45,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 5,
+     "n": 48
+    },
+    "any": {
+     "k": 47,
+     "n": 48
+    },
+    "validity": {
+     "k": 45,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": -0.75,
+    "ci95": [
+     -0.875,
+     -0.625
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": -0.6875,
+    "ci95": [
+     -0.8333,
+     -0.5417
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": -0.6875,
+    "ci95": [
+     -0.8125,
+     -0.5417
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.7292,
+    "ci95": [
+     -0.8542,
+     -0.6042
+    ],
+    "links": 48
+   }
+  },
+  "few-shot": {
+   "fault": {
+    "right": {
+     "k": 43,
+     "n": 48
+    },
+    "any": {
+     "k": 43,
+     "n": 48
+    },
+    "validity": {
+     "k": 43,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 1,
+     "n": 48
+    },
+    "any": {
+     "k": 17,
+     "n": 48
+    },
+    "validity": {
+     "k": 1,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 2,
+     "n": 48
+    },
+    "any": {
+     "k": 5,
+     "n": 48
+    },
+    "validity": {
+     "k": 5,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": 0.5417,
+    "ci95": [
+     0.3542,
+     0.7292
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.875,
+    "ci95": [
+     0.7708,
+     0.9583
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": 0.7917,
+    "ci95": [
+     0.6875,
+     0.8958
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": 0.7917,
+    "ci95": [
+     0.6875,
+     0.8958
+    ],
+    "links": 48
+   }
+  },
+  "norecord-damaged": {
+   "fault": {
+    "right": {
+     "k": 29,
+     "n": 48
+    },
+    "any": {
+     "k": 45,
+     "n": 48
+    },
+    "validity": {
+     "k": 36,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 48
+    },
+    "any": {
+     "k": 31,
+     "n": 48
+    },
+    "validity": {
+     "k": 0,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 1,
+     "n": 48
+    },
+    "any": {
+     "k": 46,
+     "n": 48
+    },
+    "validity": {
+     "k": 16,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": -0.0417,
+    "ci95": [
+     -0.25,
+     0.1667
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.6042,
+    "ci95": [
+     0.4583,
+     0.75
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": 0.2708,
+    "ci95": [
+     0.0833,
+     0.4583
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.3542,
+    "ci95": [
+     -0.5,
+     -0.2083
+    ],
+    "links": 48
+   }
+  },
+  "status-damaged": {
+   "fault": {
+    "right": {
+     "k": 33,
+     "n": 48
+    },
+    "any": {
+     "k": 42,
+     "n": 48
+    },
+    "validity": {
+     "k": 35,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 48
+    },
+    "any": {
+     "k": 26,
+     "n": 48
+    },
+    "validity": {
+     "k": 0,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 2,
+     "n": 48
+    },
+    "any": {
+     "k": 42,
+     "n": 48
+    },
+    "validity": {
+     "k": 11,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": 0.1458,
+    "ci95": [
+     -0.0625,
+     0.3333
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 0.6875,
+    "ci95": [
+     0.5625,
+     0.8125
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": 0.4583,
+    "ci95": [
+     0.2917,
+     0.625
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": -0.1875,
+    "ci95": [
+     -0.3542,
+     -0.0208
+    ],
+    "links": 48
+   }
+  },
+  "status": {
+   "fault": {
+    "right": {
+     "k": 48,
+     "n": 48
+    },
+    "any": {
+     "k": 48,
+     "n": 48
+    },
+    "validity": {
+     "k": 48,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "control": {
+    "right": {
+     "k": 0,
+     "n": 48
+    },
+    "any": {
+     "k": 26,
+     "n": 48
+    },
+    "validity": {
+     "k": 0,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "date-control": {
+    "right": {
+     "k": 2,
+     "n": 48
+    },
+    "any": {
+     "k": 42,
+     "n": 48
+    },
+    "validity": {
+     "k": 11,
+     "n": 48
+    },
+    "invalid": {
+     "k": 0,
+     "n": 48
+    }
+   },
+   "disc_any": {
+    "mean": 0.4583,
+    "ci95": [
+     0.3125,
+     0.6042
+    ],
+    "links": 48
+   },
+   "disc_validity": {
+    "mean": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "links": 48
+   },
+   "disc_date": {
+    "mean": 0.7708,
+    "ci95": [
+     0.6458,
+     0.8755
+    ],
+    "links": 48
+   },
+   "disc_date_any": {
+    "mean": 0.125,
+    "ci95": [
+     0.0417,
+     0.2292
+    ],
+    "links": 48
+   }
+  },
+  "_deference": {
+   "status-damaged": {
+    "items": 24,
+    "own": 22,
+    "with_record": 9,
+    "mcnemar_p": 0.0002,
+    "kinds": {
+     "cites texts or dates": 10,
+     "cites the record": 8,
+     "pass, no finding": 6
+    }
+   },
+   "norecord-damaged": {
+    "items": 24,
+    "own": 22,
+    "with_record": 5,
+    "mcnemar_p": 0.0,
+    "kinds": {
+     "cites texts or dates": 17,
+     "cites the record": 4,
+     "pass, no finding": 3
+    }
+   }
+  },
+  "_title_split": {
+   "both-explicit": {
+    "same": {
+     "k": 33,
+     "n": 33
+    },
+    "different": {
+     "k": 11,
+     "n": 15
+    }
+   },
+   "both-masked": {
+    "same": {
+     "k": 31,
+     "n": 33
+    },
+    "different": {
+     "k": 8,
+     "n": 15
+    }
+   },
+   "both-texts": {
+    "same": {
+     "k": 32,
+     "n": 33
+    },
+    "different": {
+     "k": 10,
+     "n": 15
+    }
+   },
+   "check-first": {
+    "same": {
+     "k": 33,
+     "n": 33
+    },
+    "different": {
+     "k": 15,
+     "n": 15
+    }
+   },
+   "cite-only": {
+    "same": {
+     "k": 22,
+     "n": 33
+    },
+    "different": {
+     "k": 8,
+     "n": 15
+    }
+   },
+   "cited-text": {
+    "same": {
+     "k": 8,
+     "n": 33
+    },
+    "different": {
+     "k": 4,
+     "n": 15
+    }
+   },
+   "few-shot": {
+    "same": {
+     "k": 33,
+     "n": 33
+    },
+    "different": {
+     "k": 10,
+     "n": 15
+    }
+   },
+   "norecord-damaged": {
+    "same": {
+     "k": 22,
+     "n": 33
+    },
+    "different": {
+     "k": 7,
+     "n": 15
+    }
+   },
+   "status-damaged": {
+    "same": {
+     "k": 25,
+     "n": 33
+    },
+    "different": {
+     "k": 8,
+     "n": 15
+    }
+   },
+   "status": {
+    "same": {
+     "k": 33,
+     "n": 33
+    },
+    "different": {
+     "k": 15,
+     "n": 15
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1381 @@
+{
+ "nodes": [
+  {
+   "node_id": "KA-C3-001#cl-b",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "b",
+   "topic": "eligibility; capacity limit (SRTPV up to 2000 kW); tariff applicability FY24 (scope)",
+   "snippet": "The tariff determined in this Order is applicable to all grid connected Solar Rooftop\nPhotovoltaic generators (SRTPV) upto 2000 kW including to 1kW to 10 kW SRTPV units,\nentering into power purchase agreements (PPA) with ESCOMs, on or after 01.04.2023\nand would remain in force until 31.03.2024.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-xiv(a)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(a)",
+   "topic": "capacity limit vs sanctioned load (SRTPV = sanctioned load, net/gross metering)",
+   "snippet": "The Commission, in this order decides to continue to allow all the\ndomestic and other consumers to install SRTPV units, with their own\ninvestment, with the capacity equivalent to the sanctioned load of the\nrespective consumer’s installation by allowing net metering or gross\nmetering arrangements.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-xiv(c)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(c)",
+   "topic": "multiple SRTPV units in a premises; tariff 90% for change in sanctioned load",
+   "snippet": "The Commission, after examining the suggestions, decides to continue\nthe existing scheme with the generic tariff of 90% as determined by the\nCommission. The existing system of charging 90% of tariff as per PPA or\nthe prevailing tariff, whichever is lower, for any change in sanction load/\ntariff of the consumer, would continue.\nThe Commission has also decided to allow net metering arrangement\nfor the multiple registered consumers/single registered consumer in the\nsame premises having an existing SRTPV plant and willing to enhance\nthe capacity of the plant within the sanctioned load or increase ",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-xiv(i)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(i)",
+   "topic": "connectivity/phase threshold: LT 3-ph up to 150 kW (decision preceding substitution of 2016 Reg 6)",
+   "snippet": "the Commission decides to permit SRTPV installations above 5KW and\nupto 150 KW at LT level, 400 volts 3ph and above 150KW and upto 2000\nKW at 11KV HT.\nIn order to implement the above change, the Commission, in exercise of\nthe powers conferred under Regulation (13) of the KERC\n(Implementation of Solar Rooftop Photovoltaic Power Plants)\nRegulations,2016 decides to substitute Regulations 6(a), (e)(f), (g) as\ndetailed below:",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-6(a)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "6(a)",
+   "topic": "metering/phase threshold: connectivity voltage levels (substituted 2016 Reg 6(a) via para xiv(i))",
+   "snippet": "6(a) The Solar rooftop PV Power plants shall be connected to the\ndistribution network at the connectivity level as specified below:\n\n| Sl No. | Installed Capacity of SRTPV | Voltage level |\n| --- | --- | --- |\n| 1. | Upto 5kW | 230V-Single Phase |\n| 2. | Above 5kW and upto 150kW | 400V- Three Phase |\n| 3. | Above 150kW and upto 2000kW | 11kV HT |",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-6(e)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "6(e)",
+   "topic": "DT hosting limit 80% for <150 kW (substituted 2016 Reg 6(e) via para xiv(i))",
+   "snippet": "6(e) Each SRTPV plant of less than 150kW capacity shall be connected\nonly to the existing distribution transformer through which the\neligible consumers are being supplied electricity. In such cases, the\ntotal capacity of the existing and proposed SRTPV plants on that\ndistribution transformer shall not exceed 80% of the rated capacity.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-6(f)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "6(f)",
+   "topic": "feeder hosting limit 80% for >150 kW (substituted 2016 Reg 6(f) via para xiv(i))",
+   "snippet": "6(f) Every SRTPV plant of more than 150kW shall be connected only to\nthe existing 11kV Distribution System. In such cases, the total\ncapacity of the existing and proposed SRTPV plants on that feeder\nshall not exceed 80% of the rated current carrying capacity of that\nline.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-6(g)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "6(g)",
+   "topic": "feasibility/technical study; system improvement by licensee (substituted 2016 Reg 6(g))",
+   "snippet": "6(g) The Distribution Licensee while evaluating the technical feasibility of\nany proposed SRTPV plant, shall ensure that the above said\nparameters are adhered to and any system improvement works\nbeyond interconnection point shall be taken up by the Distribution\nLicensee for the purpose of connecting the SRTPV plant with the\ngrid.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-xiv(j)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(j)",
+   "topic": "deemed approval of PPAs up to 1000 kW",
+   "snippet": "i. The PPAs of SRTPV plants with an installed capacity up to and inclusive\nof 1000 kW, executed as per the approved standard PPA format, shall\nbe considered as deemed to have been approved by the\nCommission and the ESCOMs are not required to obtain a separate\napproval thereon. The PPAs for a capacity above 1000 kW shall be\nsubmitted to the Commission for approval.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-xiv(k)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(k)",
+   "topic": "capacity limit vs sanctioned load (carport SRTPV for non-residential)",
+   "snippet": "decides to allows the Non-Residential consumers such as Educational\nInstitutes, Hospitals, IT parks, Industries to implement the SRTPV plant on\ntheir rooftops of the building and also on the roof of the carport, duly\nlimiting the capacity of the SRTPV plant to the sanctioned load of the\nconsumer.\nl)",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-xiv(l)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(l)",
+   "topic": "timelines; deemed approval (application = approval to commence, 1-10 kW domestic)",
+   "snippet": "| For 1kW-10kW(Domestic Consumers) |  |  |\n| Submission of Application which includes PPA. No separate PPA is required to be executed. The submission of application is deemed to be the approval to commence the work. | Consumer/ ESCOM | Zero Date |\n| Directions: ESCOMs are directed to provide facilities for submission of online application. The PPA and letter of approval to execute the work shall form part of the application. The application format shall be submitted to the Commission for approval within 7 days. The consumer will upload the work completion report within the timelines. |  |  |\n|",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-Order (i)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (i)",
+   "topic": "tariff FY24 (Rs.3.74 SRTPV; Rs.4.50/2.97 domestic 1-10 kW)",
+   "snippet": "(i) The determination and approval of the generic tariff is as follows:\na. For grid connected megawatt scale solar power projects the\napproved benchmark tariff is Rs.3.66 per unit;\nb. For grid connected solar Rooftop Photovoltaic projects of\n1 kW to 2000 kW (excluding 1 kW to 10 kW) the approved tariff is\nRs.3.74 per unit and\nc. For grid connected Solar Rooftop photovoltaic projects of\n1 kW to 10 kW for domestic consumers, the approved tariff is Rs. 4.50\nper unit, without capital subsidy and with capital subsidy the\napproved tariff is Rs. 2.97 per unit.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-001#cl-Order (ii)",
+   "doc_id": "KA-C3-001",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (ii)",
+   "topic": "tariff applicability: PPAs on/after 01.04.2023; in force FY24",
+   "snippet": "(ii) The above tariff shall be applicable to all the new solar power\nprojects for which PPAs are entered into on or after 01.04.2023.\n(iii) The tenure of the PPA, shall be for the life of the solar power projects\ni.e., twenty-five (25) years;\n(iv) All the other issues not covered under this order, shall be governed by\nthe respective Regulations and Orders issued by the Commission and\nPPAs/ other Agreements executed with the parties; and\n(v) This Order shall be in force with effect from 1st of April, 2023 and\napplicable to the control period FY 24.",
+   "effective_date": "2023-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-002#cl-12",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "12",
+   "topic": "eligibility; capacity up to sanctioned load; tariff applicability FY25 (scope; OCR run-together)",
+   "snippet": "12.Scope of thepresenf Tariff Determination:\ntherooftopuptothesanctioned load including1kwto10k WSRTPVunits,\nentering into power purchase agreements (PPA)with Distribution Licensees, on\nor affer 01.04.2024 and would remain in forceuntil31.03.2025.",
+   "effective_date": "2024-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C3-002#cl-xiv(f)",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(f)",
+   "topic": "metering/phase threshold: LT 3-ph up to 150 kW (OCR)",
+   "snippet": "f)The Commissionpermits SRTPV installationsabove5Kwand upto\n150KWat LT level,3phase,400voltsandabove150KWandupto\ninstallationsshallbeconnected tothesystem asdecidedinthe KERC\nRegulations on Conditions of Supply of Electricity of Distribution\nLicensees(cos).",
+   "effective_date": "2024-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C3-002#cl-xiv(g)",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "xiv(g)",
+   "topic": "deemed approval of PPAs/SPPAs (OCR drops capacity words)",
+   "snippet": "g)The PPAs/SPPAs of SRTPVplantswithaninstalled capacityuptoand\n16\n\n--- Page 17 ---\nPPA/s PPAformat, shall be considered asdeemed tohave been\napprovedbythe Commissionandthe ESCOMsarenotrequired to\nobtainaseparateapproval thereon.",
+   "effective_date": "2024-04-01",
+   "confidence": "low"
+  },
+  {
+   "node_id": "KA-C3-002#cl-7",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "7",
+   "topic": "eligibility: net or gross metering for all consumers irrespective of investment (third party)",
+   "snippet": "The Commission after hearing the public and taking note of the\nviews/suggestions/commentsfromthestakeholders, decidestoallow\n28\n\n--- Page 29 ---\nNet metering or Grossmetering to all consumers irrespective of type of\ninvestment.",
+   "effective_date": "2024-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C3-002#cl-9",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "9",
+   "topic": "timelines; deemed approval: online application without separate PPA for 1-150 kW (OCR)",
+   "snippet": "9.Facilitiesfor submissionofonline application/timelinesfor 1kwto15okw\nand 1k W touptosanctioned load, for Implementation of SRTPV:\napplicationforlk W to1okwforimplementation of SRTPV.For enabling\nsubmissionofonlineapplication/timelinesfor1k Wto15ok Wand1kwto\nActivity\nResponsibility\nTimeline\nFor1k W-150k W\nSubmission of Applicationwhich includes\nConsumer/\nZero Date\nPPA.No separate PPA isrequired to be\nDistribution\nexecuted.The submission of applicafionis\nLicensee\ndeemedtobetheapproval tocommence\nthe work.\nDirections: Distribution Liccnscesaredirectodtoprovidefacilitiesfor submissionofonlinc ap",
+   "effective_date": "2024-04-01",
+   "confidence": "low"
+  },
+  {
+   "node_id": "KA-C3-002#cl-10",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "10",
+   "topic": "capacity limit vs sanctioned load: removal of 2000 kW cap (OCR)",
+   "snippet": "10.Removal ofcapacityrestrictionof200ok W:\nThe Commissioninthediscussionpaperhadproposedtoremovethe\ncapacityrestrictionof200ok Wforinstalling the SRTPVplantbythe\nconsumerandfoallowthemtoinstalltheplantuptotheirsanctioned\nload.\n31\n\n--- Page 32 ---\nCommission's Decision:\nThe Commissionnotes that removing capacityrestrictions alignwith the\ndemonstrating a commitment to increasing theRenewable Energy\ncapacity.By focusing on these advantages and promotional strategies,\ncontributing to a sustainable and energy-secure future.Hence, the\nCommissiondecidestoremovethe capacityrestrictionof20ookwfor\nuptot",
+   "effective_date": "2024-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C3-002#cl-11",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "11",
+   "topic": "multiple/combined SRTPV in a premises; 90% tariff (OCR)",
+   "snippet": "11. Tariff and other operational procedures applicable in respect of\nMultiple/ combined SRTPVinstallations in a singlepremise.\nof multiple SRTPV units or a single SRTPV unit with the combined installed\ncapacityin a premise not exceeding the fotal sanctioned load of all\ntheconsumersinthafpremisesatatariffof90%ofthefariffas\nthe Commissionhad allowed netmetering arrangement forthemultiple\nhaving anexisting SRTPVplant andwilling to enhance the capacity of\ntheplantwifhin thesanctioned loadorincreasethesanctionedload to\nenhance the capacity of SRTPV plant, by executing a separate PPA\n32\n\n--- Page 33",
+   "effective_date": "2024-04-01",
+   "confidence": "low"
+  },
+  {
+   "node_id": "KA-C3-002#cl-Order (i)",
+   "doc_id": "KA-C3-002",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (i)",
+   "topic": "tariff FY25 (Rs.3.20 up to SL; Rs.3.79 domestic 1-10 kW; PM Surya Ghar 2.25/2.43/2.62)",
+   "snippet": "a.For grid connected megawatf scale solar power projects the\napproved benchmark tariff is Rs.3.04 per unit;\nb.For grid connected megawatt scale solarpower projects with BEss\nthe approvedbenchmark tariff is Rs.5.66per unit\nc.For grid connected solar Rooftop Photovoltaic projects of\n1 k W upto the sanctioned load (excluding domestic 1 k W to10 kw)\nthe approved tariff is Rs.3.20 per unit, without capital subsidy.\nd.For grid connected Solar Rooffop photovoltaic projects of\n1 k W to 10 kw for domestic consumers, the approved tariff is Rs.3.79\nperunit, without capital subsidy.\ne.For the grid connect",
+   "effective_date": "2024-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C3-003#cl-1.2",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "1.2",
+   "topic": "commencement; savings of earlier agreements",
+   "snippet": "1.2. These Regulations shall come into force from the date of notification in the Official\nGazette of Karnataka. The agreements signed before the notification of these Regulations\nshall be as per terms and conditions of the agreements entered.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-3.6",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "3.6",
+   "topic": "capacity limits in force until 3 GW cumulative (NM/VNM/GNM)",
+   "snippet": "3.6. The applicability of net metering to the consumer category as per Regulation 4.1.1 and\nthe net metering capacity limits as per Regulation 4.1.2 shall be in force until the\ncumulative total installed DSPV capacity of Net metering, Solar PV capacity of VNM\nand GNM all put together in the State reaches 3 GW.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-4.1.2",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "4.1.2",
+   "topic": "capacity limit vs sanctioned/contract load: net metering 1 kW to lower of SL/CD or 1000 kW",
+   "snippet": "4.1.2. The minimum capacity of DSPV system that can be set up under net metering\nmechanism shall be 1 kW, while the maximum capacity shall not exceed the sanctioned\nload / contracted demand of the consumer or 1000 kW, whichever is lower.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-4.2.3",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "4.2.3",
+   "topic": "capacity limit vs sanctioned/contract load: net billing up to SL/CD",
+   "snippet": "4.2.3. The maximum capacity of DSPV Plant that can be set up under net billing mechanism\nshall not exceed the sanctioned load / contracted demand of the consumer.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-4.3.2",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "4.3.2",
+   "topic": "capacity limit vs sanctioned/contract load: gross metering up to SL/CD",
+   "snippet": "4.3.2. The minimum capacity of DSPV Plant that can be set up under gross metering\nmechanism shall be 1 kW, while the maximum capacity shall not exceed the sanctioned\nload /contracted demand of the consumer.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-4.4.1",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "4.4.1",
+   "topic": "group/virtual net metering: GNM eligibility (all categories, same name & category)",
+   "snippet": "4.4.1. All consumer categories shall be eligible to establish Solar PV (SPV) Plant under group\nnet metering mechanism:\nProvided that the service connections of the prosumer installing SPV Plant under group\nnet metering mechanism should have same name and same category.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-4.4.2",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "4.4.2",
+   "topic": "group/virtual net metering: GNM capacity 5 kW to combined SL/CD",
+   "snippet": "4.4.2. The minimum capacity of SPV Plant that can be set up under group net metering\nmechanism shall be 5 kW, while the maximum capacity shall not exceed the combined\nsanctioned load / contracted demand of all the participating service connections of the\nconsumer.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-4.5.1",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "4.5.1",
+   "topic": "group/virtual net metering: VNM eligibility (domestic, apartments, govt etc.)",
+   "snippet": "4.5.1. Domestic Consumers including residential apartments (for common area consumption\nand for individual residents of the apartments), group housing societies, institutions run\nor managed by charitable Institutions/organizations, installations of government\nbodies/municipal bodies, government buildings including schools, buildings belonging\nto local authorities shall only be allowed to install Solar PV Plant under virtual net\nmetering mechanism.\nProvided that, the consumers installing Solar PV Plant under virtual net metering\nshould belong to same consumer category.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-4.5.2",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "4.5.2",
+   "topic": "group/virtual net metering: VNM capacity 5 kW to combined SL/CD",
+   "snippet": "4.5.2. The minimum capacity of Solar PV Plant that can be set up under virtual net metering\nmechanism shall be 5 kW, while the maximum capacity shall not exceed the combined\nsanctioned load / contracted demand of all the participating consumers.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-5.1.7",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "5.1.7",
+   "topic": "settlement/banking: net metering excess purchased at Commission tariff, monthly settlement",
+   "snippet": "5.1.7. Regardless of availability of excess electricity with the prosumer during any billing\ncycle, the consumer shall continue to pay all other charges such as fixed/demand\ncharges and government levy etc. The excess energy shall be purchased by Distribution\nLicensee at the tariff determined by the Commission and amount settled monthly.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-5.4.7",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "5.4.7",
+   "topic": "settlement/banking; group/virtual net metering: GNM surplus at 75% of generic DSPV tariff",
+   "snippet": "5.4.7. Where during any billing cycle, the export of units either in peak or off-peak hours\nexceeds the import of units by the electricity service connections, such surplus units\ninjected by the Consumer shall be purchased by the Distribution Licensee at 75% of the\ngeneric tariff applicable to Distributed Solar PV (DSPV) Plants, determined by the\nCommission and the amount settled to the Consumer at the end of a billing month.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-5.4.8",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "5.4.8",
+   "topic": "group/virtual net metering: GNM 20% self-consumption at source, else lapsed",
+   "snippet": "5.4.8. The service connection where Solar PV Plant is located, shall consume at least 20% of\ntotal energy generated by Solar PV system. The equivalent units (that is 20% of\ngenerated solar power), which are not consumed at source connections, shall be\nconsidered as lapsed energy.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-5.5.8",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "5.5.8",
+   "topic": "settlement/banking; group/virtual net metering: VNM surplus at 75% of generic DSPV tariff",
+   "snippet": "5.5.8. Where the units credited during any billing cycle of any participating Consumer exceeds\nthe import of units by that consumer, such surplus units remaining at the end of each\nmonth shall be purchased by the Distribution Licensee at 75% of generic tariff\napplicable to Distributed solar PV (DSPV) Plants as determined by the Commission\nand amount settled to the Consumers at the end of a billing month.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-7",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "7",
+   "topic": "CFA subsidy: as per MNRE/State notifications",
+   "snippet": "7. Subsidies\nThe eligible consumers are entitled to avail of the applicable subsidies as per MNRE’s as\nwell as State Government’s notifications/guidelines issued from time to time.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-8.1",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "8.1",
+   "topic": "DT hosting limit: cumulative capacity per Distribution Code/Grid Code/COS",
+   "snippet": "8.1. The cumulative capacity of DSPV Plant/Solar PV Plant allowed to be interconnected\nwith the distribution network (feeder/distribution transformer) shall not exceed the\ncapacity as specified in the KERC Distribution Code/KERC Grid Code/ Conditions of\nSupply of Electricity of Distribution Licensees in the State of Karnataka (COS) /the\nKERC Regulations relating to Supply of Electricity or relevant regulations as applicable.\nProvided that the feeder or transformer mentioned above, considered for the purpose of\ncalculating the hosting capacity, shall mean the feeder or transformer.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-8.2",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "8.2",
+   "topic": "DT hosting limit 80% for <150 kW on existing DT",
+   "snippet": "8.2. Each DSPV/SPVplant of less than 150kW capacity shall be connected only to the\nexisting distribution transformer through which the eligible consumers are being\nsupplied electricity. In such cases, the total capacity of the existing and proposed\nDSPV/SPV plants on that distribution transformer shall not exceed 80% of the rated\ncapacity.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-8.3",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "8.3",
+   "topic": "feasibility/technical study; system improvement by licensee",
+   "snippet": "8.3. The Distribution Licensee while evaluating the technical feasibility of any proposed\nDSPV plant/SPV plant, shall ensure that the above said parameters are adhered to and\nany system improvement works beyond interconnection point shall be taken up by the\nDistribution Licensee for the purpose of connecting the DSPV plant/Solar PV plant\nwith the grid.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-8.4",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "8.4",
+   "topic": "metering/phase threshold: connectivity level per Grid Code/Distribution Code/COS",
+   "snippet": "8.4. The Distributed Solar PV plants/Solar PV plants shall be connected to the network at\nthe connectivity level as specified in KERC Grid Code/ KERC Distribution Code/ COS\n/the KERC Regulations relating to Supply of Electricity / the relevant KERC\nRegulations.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-10.4",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "10.4",
+   "topic": "metering: smart bidirectional meters for NM/NB/GNM/GM/VNM",
+   "snippet": "10.4. The bi-directional meters under net metering, net billing, group net metering (on\nprosumer end and participating service connections end), gross metering and virtual net\nmetering (at generation end and participating consumers end) shall be Smart meters.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-12.1(i)",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "12.1(i)",
+   "topic": "PPA dispensed for LT consumers up to 150 kW",
+   "snippet": "i) The execution of separate PPA for LT Consumers upto and inclusive of 150 kW\nshall not be required. All terms and conditions specified in these Regulations\nshall be part of the application.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-12.1(iii)",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "12.1(iii)",
+   "topic": "timelines; deemed approval (1-150 kW: application deemed approval to commence work; delayed-commissioning tariff)",
+   "snippet": "| 1 | Submission of Online Application which includes terms and conditions of these Regulations. The submission of application is deemed be the approval to commence the work and agree to abide by the terms and conditions of these Regulations. | Consumer/ Distribution Licensee | Zero Date |\n| Note: The terms and conditions as per these Regulations and letter of approval to execute the work shall form part of the application. The consumer shall upload the work completion report within the timelines. |  |  |  |\n| 2 | Online uploading of Work Completion Report by the Consumer. | Consumer | 150 (on",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-12.1(iv)",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "12.1(iv)",
+   "topic": "timelines; feasibility/technical study (>150 kW: 3/10/5 working days, 150 days WCR)",
+   "snippet": "iv) The submission of online application/timelines for above 150 kW upto 1000 kW\nfor net metering and upto sanctioned load for Net billing and Gross metering is\nas detailed below:\n\n| SL. No. | Activity | Responsibility | Timeline |\n| --- | --- | --- | --- |\n| 1 | Submission of Application online. | Consumer | Zero Date. |\n| 2 | Acknowledgment of Application by Distribution Licensee. | Distribution Licensee | Within 03 (three) working days from zero date. |\n| 3 | Site verification/ Technical Feasibility & Issuance of Letter of Approval /Rejection of application. | Distribution Licensee | Within",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-13.1",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "13.1",
+   "topic": "group/virtual net metering: VNM/GNM procedure per BESCOM SOP approved by Commission",
+   "snippet": "13.1. Submission of online application, execution of VNM PPA/ GNM PPA, shall be as\nper Standard Operating Procedure (SOP) prepared by BESCOM and approved by\nthe Commission.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-15.1",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "15.1",
+   "topic": "capacity limit vs sanctioned load: 10% DC tolerance up to 10 kW, inverter AC <= SL",
+   "snippet": "15.1. The eligible consumers under net metering/ gross metering / net billing mechanism are\nallowed to install DSPV Plant up to and inclusive of 10 kW sanctioned load, a capacity\ntolerance of up to 10 percent for the applied system capacity (DC), subject to condition\nthat the AC capacity of the inverter shall not exceed the sanctioned load.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-15.3",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "15.3",
+   "topic": "capacity limit: multiple DSPV units within combined SL; 90% tariff",
+   "snippet": "15.3. The eligible consumer under net metering/gross metering/net billing is allowed for\ninstallation of multiple DSPV units or a single DSPV unit with the combined installed\ncapacity in a premises not exceeding the combined sanctioned load/ capacity limits for\nrespective metering mechanism, within his premises.\nProvided that the consumer of the existing DSPV Plant agrees to cancel the existing PPA\nand enters into a new PPA.\nProvided further that the tariff applicable shall be 90 percent of existing PPA tariff or the\nprevailing tariff as determined by the Commission, whichever is lower.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-15.7",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "15.7",
+   "topic": "deemed approval of standard-format PPAs (NM/NB/GM)",
+   "snippet": "15.7. The PPAs/SPPAs of DSPV Plants, under net metering/ net billing/ gross metering\narrangement executed as per the standard PPA/SPPA format, shall be considered as\ndeemed to have been approved by the Commission and the Distribution Licensees are not\nrequired to obtain a separate approval thereon.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-15.8",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "15.8",
+   "topic": "deemed approval; group/virtual net metering: VNM/GNM PPAs below 1000 kW",
+   "snippet": "15.8. The PPAs executed under VNM/GNM with Solar PV capacity below 1000 kW shall be\ndeemed to be approved by the Commission.\nProvided that, the Distribution Licensees shall obtain Commission’s approval for PPAs\nexecuted under VNM and GNM with SPV capacity of 1000 kW and above.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-24.1",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "24.1",
+   "topic": "repeal of KERC (Implementation of SRTPV) Regulations, 2016",
+   "snippet": "24.1. Save as otherwise provided in these regulations, the KERC (Implementation of Solar\nRooftop Photovoltaic Power Plants) Regulations, 2016 shall stand repealed from the date\nof coming into force of these regulations.",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-003#cl-24.3",
+   "doc_id": "KA-C3-003",
+   "jurisdiction": "KA",
+   "clause_ref": "24.3",
+   "topic": "savings: existing agreements continue; pending applications processed under 2026 Regs",
+   "snippet": "24.3. Consumers who have availed metering mechanism for their installed DSPV/Solar PV\nsystems in the State on the date of coming into force of these Regulations under an\nexisting Agreement/PPA or contract shall be deemed to have been continued under\nthese Regulations, to avail such metering mechanism to the DSPV plant/Solar PV plant\non the same terms and conditions as stipulated under such existing Agreement or\ncontract:\nProvided that the eligible Consumers who have applied for metering mechanism for\ninstallation of DSPV plant/Solar PV plant in the State under the repealed Regulations\nand whos",
+   "effective_date": "2026-08-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-004#cl-Order (i)",
+   "doc_id": "KA-C3-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (i)",
+   "topic": "tariff: validity of 09.07.2025 tariff order extended 01.07.2026-24.08.2026",
+   "snippet": "(i) The validity of the Commission’s Order dated 09.07.2025 in the matter of\ntariff and norms in respect of Solar Power Projects (including Distributed Solar\nPhotovoltaic (DSPV) Plants with net-metering/gross metering) is extended\nfrom 1st July 2026 to 24th August 2026.",
+   "effective_date": "2026-08-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-004#cl-Order (ii)(a)",
+   "doc_id": "KA-C3-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (ii)(a)",
+   "topic": "tariff: domestic 1-10 kW Rs.3.89 without subsidy (NM/GM/NB)",
+   "snippet": "a) For grid connected Distributed Solar PV Plants under net-metering/gross\nmetering/net billing of 1 kW to 10 kW for domestic consumers, the\napproved tariff is Rs. 3.89 per unit, without capital subsidy.",
+   "effective_date": "2026-08-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-004#cl-Order (ii)(b)",
+   "doc_id": "KA-C3-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (ii)(b)",
+   "topic": "tariff; CFA subsidy: PM Surya Ghar subsidised tariff 1.96/2.14/2.58",
+   "snippet": "b) For grid connected Distributed Solar PV projects under net-metering/gross\nmetering/Net billing under PM Surya Ghar Muft Bijali Yojana with capital\nsubsidy for the capacity 1 kW up to 2 kW the approved tariff is Rs. 1.96 per\nunit and for the capacity above 2 kW up to 3 kW, the approved tariff is\nRs. 2.14 per unit and for above 3 kW the approved tariff is Rs. 2.58 per unit.",
+   "effective_date": "2026-08-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-004#cl-Order (ii)(c)",
+   "doc_id": "KA-C3-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (ii)(c)",
+   "topic": "tariff; ALMM/DCR: Rs.3.11 DCR / Rs.2.34 non-DCR (NM up to 1000 kW; GM/NB up to SL)",
+   "snippet": "c) For grid connected Distributed Solar PV Plants/ Solar PV Plants under,\n15\n\n--- Page 16 ---\n• Net-metering from 1kW to 1000 kW (excluding domestic 1kW to 10\nkW);\n• Gross metering/Net billing from 1 kW up to the sanctioned load\n(excluding domestic 1kW to 10 kW);\nthe approved tariff is Rs. 3.11 per unit for DSPV of DCR Category (Solar\nmodules with DCR Solar Cells) and Rs. 2.34 per unit for DSPV of Non-DCR\nCategory (Solar modules with Non-DCR Cells);",
+   "effective_date": "2026-08-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-004#cl-Order (ii)(d)",
+   "doc_id": "KA-C3-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (ii)(d)",
+   "topic": "tariff; group/virtual net metering: VNM/GNM 75% of tariff in (c)",
+   "snippet": "d) For VNM/GNM, the approved tariff is 75% of tariff in (c).",
+   "effective_date": "2026-08-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-004#cl-Order (iii)",
+   "doc_id": "KA-C3-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (iii)",
+   "topic": "ALMM/DCR: DCR tariff upon inspection and certification by licensee",
+   "snippet": "(iii) The applicability of tariff for DSPV/SPV of DCR Category (Solar modules with\nDCR Solar Cells) shall be upon inspection and certification by the\nDistribution Licensee as per the uniform standard procedure across\nDistribution Licensees for identification of Solar Modules with DCR Solar Cells.",
+   "effective_date": "2026-08-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C3-004#cl-Order (iv)",
+   "doc_id": "KA-C3-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Order (iv)",
+   "topic": "tariff applicability: PPAs/applications and commissioning 25.08.2026-30.06.2029",
+   "snippet": "(iv) The above tariff shall be applicable to all new Distributed Solar PV projects/\nSolar PV projects for which PPAs are entered into /applications submitted\nand the projects are commissioned on or after 25.08.2026 up to 30.06.2029\nor until further Orders, whichever is earlier.",
+   "effective_date": "2026-08-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C4-001#cl-Preamble (a)",
+   "doc_id": "KA-C4-001",
+   "jurisdiction": "KA",
+   "clause_ref": "Preamble (a)",
+   "topic": "deemed approval: online application incl. PPA up to 150 kW deemed approval to commence installation (recital)",
+   "snippet": "a) The Commission has enabled the submission of online applications for implementation\nof SRTPV systems up to 150 kW, including the PPA forming part of the application. Such\napplications are deemed to constitute approval to commence installation work.",
+   "effective_date": "2024-12-05",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C4-001#cl-1",
+   "doc_id": "KA-C4-001",
+   "jurisdiction": "KA",
+   "clause_ref": "1",
+   "topic": "capacity limit vs sanctioned load: auto enhancement of SL up to 10 kW; DT/line augmentation by licensee",
+   "snippet": "1. If the sanctioned load of a consumer is less than the capacity of the SRTPV\nplant to be installed, the distribution licensee shall allow such consumer to install\nSRTPV plant of capacity upto and inclusive of 10kW and the sanctioned load\nof the consumer shall be enhanced automatically to match the required\ncapacity of SRTPV plant. In such cases, the distribution Licensee shall take\nnecessary action to augment the capacity of distribution Line /Transformers if\nrequired, as per the provisions of the relevant Regulations/Orders issued by the\nCommission.",
+   "effective_date": "2024-12-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C4-001#cl-2",
+   "doc_id": "KA-C4-001",
+   "jurisdiction": "KA",
+   "clause_ref": "2",
+   "topic": "eligibility: consumer pays charges/security, PSA for enhanced load before commissioning",
+   "snippet": "2. In case where the consumer's sanctioned load is increased as above, it is the\nresponsibility of the consumer to pay the applicable charges, deposit\nadditional security, enter into power supply agreement for the additional load,\netc., before commissioning of the SRTPV plant, in accordance with the\nprovisions of the Conditions of Supply of Electricity of Distribution Licensees in\nthe State of Karnataka (CoS) and other Regulations relating to supply of\nelectricity, issued by the Commission.",
+   "effective_date": "2024-12-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C4-001#cl-3",
+   "doc_id": "KA-C4-001",
+   "jurisdiction": "KA",
+   "clause_ref": "3",
+   "topic": "capacity limit vs sanctioned load: 10% DC tolerance up to 10 kW, inverter AC <= SL",
+   "snippet": "3. For installation of SRTPV system up to and inclusive of 10 kW sanctioned load, a\ncapacity tolerance of up to 10% shall be allowed for the applied system\ncapacity (DC), subject to condition that the AC capacity of the inverter shall\nnot exceed the sanctioned load.",
+   "effective_date": "2024-12-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-2",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "2",
+   "topic": "capacity limit: applications 1 kWp to 2000 kWp",
+   "snippet": "2. Applications can be submitted from 1kWp to upto 2000kWp.",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-5",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "5",
+   "topic": "eligibility; metering: gross/net metering by consumer category (table OCR garbled)",
+   "snippet": "5. Type of Metering:\n\n| Slno. | Slno. | Slno. | Type of Metering | Type of Metering | Type of Metering | Eligible Consumers | Eligible Consumers (Applicable for Domestic consumers, Hospital and) | Eligible Consumers |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  |  |  |  |  |  |  | Educational institutions consumers. (HT-4, HT-2(C), |  |\n|  | 1 |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  | LT2(a) & LT2(b)) |  |\n|  |  |  |  |  |  |  | Note: Commission vide order dated 19.09.2016 has |  |\n|  |  |  |  |  |  |  | allowed one time irrevocable option of either gross or net |  |\n|  |  |",
+   "effective_date": "2023-08-05",
+   "confidence": "low"
+  },
+  {
+   "node_id": "KA-C5-001#cl-8",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "8",
+   "topic": "deemed approval / e-sign PPA at application for 1-10 kW residential (clause number OCR '89..')",
+   "snippet": "Fo r 1kW to 10kWP SRTPV plants ( Residential consumers) : The consumer\nshall execute PPA through e-Sign at the time of submission of Application,\nhowever the details of Distribution transformer and feeder shall be updated\nin the SRTPV online portal by the BESCOM field officers at time of\ncommissioning.",
+   "effective_date": "2023-08-05",
+   "confidence": "low"
+  },
+  {
+   "node_id": "KA-C5-001#cl-9",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "9",
+   "topic": "deemed approval of PPAs up to 1000 kW",
+   "snippet": "9. The PPAs of SRTPV plants with an installed capacity upto and inclusive of\n1000kW executed as per the approved standard PPA format shall be\nconsidered as deemed to have been approved by the Commission. The PPAs\nfor a capacity above 1000 kW shall be submitted to the Commission for\napproval.",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-15",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "15",
+   "topic": "metering: check meter for >17.5 kW",
+   "snippet": "15. The check meter shall be provided for SRTPV systems capacity of more than\n17.5 kW.",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-22",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "22",
+   "topic": "metering/phase threshold: interconnection voltages (1-ph up to 5 kWp, 400 V up to 150 kWp)",
+   "snippet": "22. Interconnection voltages as per KERC Regulation-2016, sl. No. 6 (1)(a) shall\nbe as below:\n\n| Sl No. | Sl No. (1) | Sl No. | System Capacity | System Capacity (From 1kWp Upto & inclusive 5kWp) | System Capacity | Voltage level | Voltage level (230 Volts) | Voltage level |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 2 |  |  | Above 5 kWp & upto 150 kWp |  |  | 400 Volts |  |  |\n|  | 3 |  |  | Above 150 kWp & above upto 2000 kWp |  |  | 11 kV |",
+   "effective_date": "2023-08-05",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-001#cl-23",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "23",
+   "topic": "DT hosting limit 80% for <150 kW (citing substitution by KERC order 01.06.2023)",
+   "snippet": "23. Each SRTPV plant of less than 150kW capacity shall be connected only to\nthe existing distribution transformer through which the eligible consumers\nare being supplied electricity. IN such cases, the total capacity of the existing\nand proposed SRTPV plants on that distribution transformer shall not exceed\n80% of the rated capacity (The Clause 6(1)(e) of SRTPV Regulation 2016 is\nbeing substituted by KERC vide its order dated 01.06.2023)\nExample: If the rated capacity of the distribution transformer is 100 kVA, the\ntotal allowable capacity of the SRTPV plants to be connected shall be 68kWs\n(80",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-24",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "24",
+   "topic": "feeder hosting limit 80% for >150 kW",
+   "snippet": "24. Every SRTPV plant of more than 150kW shall be connected only to the\nexisting 11kV Distribution System. In such cases, the total capacity of the\nexisting and proposed SRTPV plants on that feeder shall not exceed 80% of\nthe rated current carrying capacity of that line. (Clause 6(1) (f) of SRTPV\nRegulation 2016 is being substituted by KERC vide its order dated\n01.06.2023).",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-26",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "26",
+   "topic": "feasibility/technical study by SDO; partial capacity feasibility",
+   "snippet": "26. The Sub-divisional officer (SDO) shall verify for Technical feasibility of the\ninstallation and if the application is technically feasible, shall issue the\nintimation letter for execution the Power Purchase Agreement (either for full\nor partial SRTPV capacity).\n.\nExample:\n Existing DTC capacity of 100kVA\n Already connected/ under progress (SRTPVs) is 60 KWs\n Newly proposed is 50 KWs capacity\n Then total Solar capacity on the DTC is 110kW ( > 80% of the DTC\ncapacity\n Hence, the application is technically feasible for partial capacity of\n8 kWs only (for total 80% ie 68 Kws/ 80 KVA) as a",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-30",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "30",
+   "topic": "timelines: work completion within 150 days of approval letter",
+   "snippet": "30. The consumer portion of work has to be completed and work completion\nreport has to be submitted within 150 days from the date of approval letter\nfor having entered into PPA.",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-001#cl-32",
+   "doc_id": "KA-C5-001",
+   "jurisdiction": "KA",
+   "clause_ref": "32",
+   "topic": "timelines: commissioning within 180 days of approval/deemed approval of PPA",
+   "snippet": "32. The SRTPV plant shall be commissioned within 180 Days from the date of\napproval or deemed approval of PPA, after ensuring that the SRTPV\napplicant has attended all the observation made by SDO/DO/MT staff, if\nany.",
+   "effective_date": "2023-08-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-002#cl-Step - 1",
+   "doc_id": "KA-C5-002",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 1",
+   "topic": "timelines; deemed approval: 1-10 kW domestic online application + e-sign PPA, auto approval letter (undated portal page)",
+   "snippet": "| Step - 1 | The Applicant shall submit On-line Application Only in the SRTPV portal. The Registration process is complete with below of 3 steps: 1. Entering Rooftop details such as Solar capacity, shadow free area, type of connection, Enter Email id and mobile no. etc. 2. Payment of fee such as Application, processing & e-Sign. 3. Verification of draft PPA and execute the PPA in Online mode through E- Signing. After successful Registration process an approval letter is auto generated for installation of SRTPV work. Note: If consumer submits the application, and not make payment or will make p",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-002#cl-Step - 2",
+   "doc_id": "KA-C5-002",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 2",
+   "topic": "timelines: work completion report within 150 days (undated portal page)",
+   "snippet": "| Step - 2 | Online uploading of Work Completion Report by the Consumer. | Consumer | 150 ( One hundred and fifty) days from the date of uploading/ submission of application. |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-002#cl-Step - 3",
+   "doc_id": "KA-C5-002",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 3",
+   "topic": "timelines: inspection/commissioning within 5 working days, Rs.1000/day penalty, deemed generation (undated)",
+   "snippet": "| Step - 3 | Inspection by Sub-divisional officer commissioning the project, after receipt of work completion report from the consumer. | - | Within 5 (five) working days from the receipt of work completion report, after ensuring satisfactory completion of work. If the plant is not commissioned within 5 days from the date of work completion report, the concerned officer shall be liable to pay penalty of Rs.1000 per day, till the date of commissioning, to the applicant. After five days of work completion, in case the plant is not commissioned, the consumers are entitled to deemed generation ben",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-002#cl-Step - 4",
+   "doc_id": "KA-C5-002",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 4",
+   "topic": "timelines: commissioning within six months; tariff per PPA if delayed (undated)",
+   "snippet": "| Step - 4 | Commissioning of Rooftop Solar System in case work completion is delayed by the Consumer |  | Within six months from the date of uploading the application. In case of delay of more than six months, the tariff payable will be as per the terms of PPA. |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-003#cl-Step - 2",
+   "doc_id": "KA-C5-003",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 2",
+   "topic": "feasibility/technical study by SDO (transformer/feeder), 1-500 kWp non-domestic (undated portal page)",
+   "snippet": "| Step - 2 | The SDO shall upload the signed copy of the Technical feasibility details such as Transformer details, feeder details and existing SRTPV details. a. If the Application is Technically feasible (Fully/ Partially): An Intimation letter is auto generated intimating Applicant for Execution of the Power Purchase Agreement (PPA). b. If the Application is not Technically feasible: The SDO shall cancel the Application. |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-003#cl-Step - 4",
+   "doc_id": "KA-C5-003",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 4",
+   "topic": "timelines: SDO executes PPA within 2 days; auto approval letter (undated)",
+   "snippet": "| Step - 4 | The SDO shall execute the PPA and upload in the Online SRTPV portal and an approval letter is auto generated for installation of SRTPV work. If the Applicant fails to submit the PPA within 3 days from the date of intimation letter, the SDO shall cancel the Application and intimate the same to the Applicant. | SDO of BESCOM | 2 days from the Date of submission of the PPA |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-003#cl-Step - 7",
+   "doc_id": "KA-C5-003",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 7",
+   "topic": "timelines; deemed approval: commissioning within 180 days of deemed approval of PPA (undated)",
+   "snippet": "| Step - 7 | Commissioning of Rooftop Solar System | SDO/ MT of BESCOM | Within 180 days from the date of deemed approval of PPA . |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-004#cl-Step - 4",
+   "doc_id": "KA-C5-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 4",
+   "topic": "timelines: DO executes PPA within 2 days; 500-1000 kWp PPAs to Corporate office (undated portal page)",
+   "snippet": "| Step - 4 | The Divisional officer(DO) shall execute the PPA and upload in the Online SRTPV portal and an approval letter is auto generated for installation of SRTPV work. If the Applicant fails to submit the PPA within 3 days from the date of intimation letter, the DO shall cancel the Application and intimate the same to the Applicant. Note: The PPAs above 500 to 1000kWP shall be submitted to Corporate office, BESCOM. | DO of BESCOM | 2 days from the Date of submission of the PPA |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-004#cl-Step - 8",
+   "doc_id": "KA-C5-004",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 8",
+   "topic": "timelines; deemed approval: commissioning within 180 days of deemed approval (date of PPA execution) (undated)",
+   "snippet": "| Step - 8 | Commissioning of Rooftop Solar System | DO/ MT of BESCOM | Within 180 days from the date of deemed approval of PPA i.e Date of execution of the PPA. |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-005#cl-Step - 4",
+   "doc_id": "KA-C5-005",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 4",
+   "topic": "1000-2000 kWp: PPA submitted via Corporate office for KERC approval (undated portal page)",
+   "snippet": "| Step - 4 | The Divisional officer (DO) shall execute the PPA, upload in the Online SRTPV portal and submit the same to Corporate office(CO), BESCOM for KERC approval to the PPA. If the Applicant fails to submit the PPA within 3 days from the date of intimation letter, the DO shall cancel the Application and intimate the same to the Applicant. | DO of BESCOM | 2 days from the Date of submission of the PPA |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-005#cl-Step - 8",
+   "doc_id": "KA-C5-005",
+   "jurisdiction": "KA",
+   "clause_ref": "Step - 8",
+   "topic": "timelines: commissioning within 180 days of deemed approval of PPA (undated)",
+   "snippet": "| Step - 8 | Commissioning of Rooftop Solar System | DO/MT of BESCOM | Within 180 days from the date of deemed approval of PPA i.e Date of execution of the PPA. |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-006#cl-1(c)",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "1(c)",
+   "topic": "capacity limit vs sanctioned load: min 1 kW DC, max sanctioned load",
+   "snippet": "c) Minimum and Maximum Capacity\nThe minimum permissible capacity of a DSPV plant shall be 1 kW (DC).\nThe maximum capacity shall be limited upto the sanctioned load of the\nconsumer’s installation.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-1(d)",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "1(d)",
+   "topic": "capacity limit vs sanctioned load: 10% DC tolerance up to 10 kW",
+   "snippet": "d) Tolerance in DC Capacity of PV Panels\nFor installation of SRTPV system up to and inclusive of 10 kW sanctioned\nload, a capacity tolerance of up to 10% shall be allowed for the\napplied system capacity (DC), subject to condition that the AC\ncapacity of the inverter shall not exceed the sanctioned load.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-1(e)",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "1(e)",
+   "topic": "capacity limit: kVA->kW 0.85 LT / 0.90 HT; HP 0.746",
+   "snippet": "e) Conversion of Sanctioned Load\n● Where the sanctioned load is expressed in KVA, it shall be converted to\nkW by applying a multiplication factor of 0.85 for LT installations & 0.90\nfor HT installations.\n● Where the sanctioned load is expressed in HP, it shall be converted to\nkW by applying a multiplication factor of 0.746.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-1(g)",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "1(g)",
+   "topic": "capacity limit vs sanctioned load: install beyond SL up to 10 kW with auto SL enhancement (Table 2)",
+   "snippet": "| Installation beyond sanctioned load (up to 10 kW DSPV) | Allow consumer to install SRTPV plant of capacity upto and inclusive of 10kW even if the sanctioned load is less than the solar proposed capacity and the sanctioned load of the consumer shall be enhanced automatically to match the required capacity of SRTPV plant | Shall Apply for the DSPV installation as per the prescribed format. |",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-3",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "3",
+   "topic": "eligibility; metering: gross/net for all categories; VNM/GNM separate SOP (Table 4)",
+   "snippet": "| 1 | Gross Metering / Net Metering | All category of consumers. | As per Commission’s Order dated 19.09.2016, consumers are allowed a one-time irrevocable option of either Gross or Net Metering at the time of signing of PPA/ at the time of providing consent, as the case may be. |\n|  |  |  | Consumers under Net Metering opting to procure power through Open Access shall be permitted, subject to the condition that ESCOMs shall not pay for net exported energy. In such cases, a Supplementary PPA (SPPA)shall be executed/consent shall be provided as the case may be. |\n| 2 | Virtual Net Metering (VNM",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-4",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "4",
+   "topic": "DT hosting limit 80% (<150 kW LT); deemed feasible up to 150 kW",
+   "snippet": "4. Feasibility for LT installations:\nEvery DSPV plant of less than 150 kW capacity shall be connected only to the\nexisting distribution transformer through which the eligible consumers are\nbeing supplied electricity. In such cases, the total capacity of the existing and\nproposed DSPV plants on that distribution transformer shall not exceed 80% of\nthe rated capacity.\nNote:\ni. This is applicable only for LT installations.\nii. The installations with solar proposed capacity upto 150kW are\nconsidered to be deemed feasible. There is no requirement of issuing\nfeasibility reports for such DSPV plants.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-5",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "5",
+   "topic": "feeder hosting limit 80% line current (>150 kW HT)",
+   "snippet": "5. Feasibility for HT installations:\nEvery DSPV plant of more than 150 kW capacity shall be connected only to\nthe existing 11 kV distribution system. In such cases, the total capacity of the\nexisting and proposed DSPV plants shall be limited so that line current does\nnot exceed 80 % of the rated current capacity of the line\nNote: This is applicable only for HT installations.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-8",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "8",
+   "topic": "PPA dispensed for LT domestic up to 150 kW (online application terms)",
+   "snippet": "8. Power Purchase Agreement:\nNo requirement of PPA to be executed between the Consumer and the\nESCOMs for the Distributed Solar PV Plant capacity with net/gross metering\narrangement for LT Domestic Consumers upto 150 kW. The online application\nformat covers all the terms and conditions for implementation of Distributed\nSolar PV Plants with net /gross metering.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-13",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "13",
+   "topic": "additional capacity: fresh PPA at 90%/prevailing tariff; SL enhancement conditions",
+   "snippet": "13. PPAs for additional capacity installation:\nIn the event a consumer seeks to install additional solar capacity beyond the\ncapacity already commissioned under the existing PPA, the existing PPA shall\nstand terminated. A fresh PPA shall thereafter be executed for a period of\ntwenty-five (25) years, at a tariff determined as ninety percent (90%) of the\nPPA tariff or the prevailing generic tariff determined by the Commission at\nthe time of execution, whichever is lower.\nIn the event that a consumer seeks enhancement of the sanctioned load,\nsuch enhancement shall be permitted, provided that the ",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-18",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "18",
+   "topic": "metering: check meter for >50 kWp",
+   "snippet": "18. Provision of Check Meter:\nThe check meter shall be provided for DSPV systems of capacity more than\n50kWp.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-21(vi)",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "21(vi)",
+   "topic": "deemed approval of PPAs/SPPAs up to 1000 kW",
+   "snippet": "vi. The PPAs/SPPAs of Distributed Solar PV plants, with an installed\ncapacity up to and inclusive of 1000 kW, executed as per the\napproved standard PPA/SPPA format, shall be considered as\ndeemed to have been approved by the Commission and the\nESCOMs are not required to obtain a separate approval thereon.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-21(ix)",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "21(ix)",
+   "topic": "capacity limit: 2000 kW cap removed, up to sanctioned load/contract demand",
+   "snippet": "ix. The Commission has removed the capacity restriction of 2000 kW for\ninstalling Distributed Solar PV projects and allowed to install the\nplants up to their sanctioned load/Contract demand.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-Stage-02 Category-I",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "Stage-02 Category-I",
+   "topic": "feasibility/technical study: deemed feasible up to 150 kW; feasibility report above",
+   "snippet": "Category-I:\nAll DSPV applications with proposed capacity upto 150kW are considered\ndeemed feasible and it is not required to provide feasibility for these\napplications.\nCategory-II:\na) Feasibility shall be provided by sub divisions for all DSPV applications of\ncapacity more than 150 kW.\nb) For providing the feasibility, the designated officer shall visit the proposed\nDSPV installation premises and verify technical details and shall issue\nfeasibility report.",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-Table No.8",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "Table No.8",
+   "topic": "metering/phase threshold: 1-ph or 3-ph smart meter up to 35 kW; CT meters above",
+   "snippet": "| 1 | 1kW to 35kW | 1 Phase or 3 phase | 1kWp to 35kWp | 1 Phase or 3 phase | 1 Phase or 3 phase |\n| 2 | More than 35 kW up to 50 Kwp | 3 phase CT PT Operat ed meter | More than 50 kWp | 3 phase LT CT Operated meter | 3 phase |",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-III Timelines 1-150kW",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "III Timelines 1-150kW",
+   "topic": "timelines; deemed approval: application deemed approval to commence work (1-150 kW)",
+   "snippet": "| Submission of Application which includes PPA(PPA not applicable for LT Domestic consumers up to 150kw). No separate PPA is required to be executed. The submission of application is deemed to be the approval to commence the work. | Consumer/ Distribution Licensee | Zero Date |\n| Online uploading of work Completion Report by the consumer. | Consumer | 150(one hundred and fifty) days from the date of uploading/submission of application. |\n| Inspection by ESCOM officials for commission the project, after receipt of work completion report from the consumer. | Distribution Licensee | Within 5(five",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-006#cl-III Timelines >150kW",
+   "doc_id": "KA-C5-006",
+   "jurisdiction": "KA",
+   "clause_ref": "III Timelines >150kW",
+   "topic": "timelines; feasibility/technical study (>150 kW up to SL: 3/10/5/7 working days, 150 days)",
+   "snippet": "| Acknowledgement of Application by distribution licensee ESCOM. | ESCOM | Within 3(three) working days from zero date. |\n| Site verification/ technical Feasibility &Issuance of Letter of Approval/Rejection of application | ESCOM | Within 10(ten) working days from the date of acknowledging the application. |\n| Execution of PPA (including countersignature by the controlling officer up to and inclusive of 1000kw DSPV projects). | ESCOM & CONSUMER | Within 5(five) working days from the date of issuance of Letter of Approval. |\n| Submission for Approval of the PPA to the ESCOM, less than 1000KW An",
+   "effective_date": "2025-12-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-VNM ii",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "VNM ii",
+   "topic": "group/virtual net metering: VNM eligible consumers",
+   "snippet": "ii. Eligible Consumers for VNM:\nDomestic Consumers, group housing societies, institutions run or\nmanaged by charitable Institutions/organisations, government\nbuildings including schools, buildings belonging to local authorities\nshall only be eligible to install Solar plants under virtual net metering\narrangements.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-VNM v",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "VNM v",
+   "topic": "group/virtual net metering: VNM plant size 5 kW to combined SL/CD",
+   "snippet": "v. Plant size:\nMinimum plant size is 5kW and the maximum size shall not exceed\nthe combined sanctioned load or contract demand of all the\nparticipating consumers.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-VNM vi",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "VNM vi",
+   "topic": "feasibility/technical study for VNM (by DT/feeder/substation scenario)",
+   "snippet": "vi. Technical Feasibility Analysis:\nTechnical Feasibility Analysis shall be carried out as detailed below\nwithin the time line as specified in the Common SOP for\nImplementation of DSPV scheme dated 01.12.2025",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-VNM vii",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "VNM vii",
+   "topic": "metering: smart meters at consumer and plant (VNM)",
+   "snippet": "vii. Metering arrangement:\n1. At the consumer/prosumer premises, a smart meter shall be\ninstalled for the purpose of measurement and accounting of\nenergy availed from the Distributed Solar PV (DSPV) plant.\n2. At the DSPV plant location, a smart meter shall be installed to\nfunction as the solar generation meter for measurement of total\nenergy generated by the DSPV plant.\n3. The metering arrangement for both the consumer/prosumer\npremises and the DSPV plant location shall be in strict\naccordance with the Standard Operating Procedure (SOP)\ndated 01.12.2025, as amended from time to time.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-VNM viii.8",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "VNM viii.8",
+   "topic": "settlement/banking; tariff: VNM net export at 75% of generic tariff",
+   "snippet": "8. Tariff for Net Exported Energy\nThe tariff applicable for such net exported energy shall be at 75%\nof the generic tariff applicable to ground mounted Solar Power\nProjects/ Distributed solar power projects as the case may be as\ndetermined by the Hon’ble Karnataka Electricity Regulatory\nCommission (KERC) for the relevant control period, or as\namended by KERC from time to time.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-VNM viii.9",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "VNM viii.9",
+   "topic": "group/virtual net metering: OA charges exempt within same DT/11kV feeder",
+   "snippet": "9. Open Access Charges:\nWhen the energy generated and consumed is within the same\ndistribution transformer/11kV feeder, the consumers are\nexempted from the Open Access charges. However, if energy\ngenerated and consumed by the participating consumers are\nat different 11kV feeder, ESCOMs will levy open access charges\nas per the relevant Regulations/Orders of the Commission issued\nfrom time to time.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-GNM ii",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "GNM ii",
+   "topic": "group/virtual net metering: GNM eligibility all categories",
+   "snippet": "ii. Eligible Consumers:\nConsumers of all categories shall be allowed to install Solar plant\nunder group net metering arrangement.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-GNM v",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "GNM v",
+   "topic": "group/virtual net metering: GNM plant size 5 kW to combined SL/CD",
+   "snippet": "v. Plant size:\nMinimum plant size for GNM is 5kW and the maximum size shall not\nexceed the combined sanctioned load or contract demand of the\nconsumer’s installations.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-007#cl-GNM vii.3(ii)",
+   "doc_id": "KA-C5-007",
+   "jurisdiction": "KA",
+   "clause_ref": "GNM vii.3(ii)",
+   "topic": "group/virtual net metering: 20% consumption at source connection else lapsed",
+   "snippet": "ii. The service connection where the solar plant is located\nshall consume at least 20% of the total energy generated\nby the solar plant in a billing month. The equivalent units\n(out of 20% of generated solar power), which are not\nconsumed at source connection, shall be considered as\nlapsed energy.",
+   "effective_date": "2026-05-12",
+   "confidence": "high"
+  },
+  {
+   "node_id": "KA-C5-008#cl-1",
+   "doc_id": "KA-C5-008",
+   "jurisdiction": "KA",
+   "clause_ref": "1",
+   "topic": "tariff: PPA clause 6.1(a) substituted - tariff per KERC order for control period from 01.07.2026 (OCR gaps)",
+   "snippet": "1. Clause 6.1(a) of the Standard Power Purchase Agreement shall be\nsubstituted with the following:\n6.1 (a) The ...ESCOM shall pay for the net energy/ gross energy (as the case\nmay be) at the tariff that may be determined by Hon'ble Karnataka Electricity\nGM(d Sm)\nScanned with OKENScanner\n\n--- Page 2 ---\n01.07.2026, as amended or modified from time to time, and the Parties shall\nbe bound by such tariff order and all conditions specified therein.\"",
+   "effective_date": "2026-07-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-008#cl-4(b)",
+   "doc_id": "KA-C5-008",
+   "jurisdiction": "KA",
+   "clause_ref": "4(b)",
+   "topic": "tariff: expired 09.07.2025 tariff not to be applied to applications on/after 01.07.2026",
+   "snippet": "b)Under no circumstances shall the expired tariff determined vide KERC\nOrder dated 09.07.2025 (valid only up to 30.06.2026) be applied to any\napplication registered on or after 01.07.2026.",
+   "effective_date": "2026-07-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-008#cl-4(c)",
+   "doc_id": "KA-C5-008",
+   "jurisdiction": "KA",
+   "clause_ref": "4(c)",
+   "topic": "tariff: PPAs/consents governed by forthcoming KERC order; supplementary agreements",
+   "snippet": "c) After the Hon'ble KERC issues the tariff order for the control period\ncommencing from 01.07.2026, all PPAs/Consents shall be governed by\nthe tariff and conditions specified therein. Wherever necessary,\nsupplementary agreements/endorsements shall be executed to bring\nthe existing PPAs/Consents in conformity with the KERC tariff order.",
+   "effective_date": "2026-07-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-009#cl-i",
+   "doc_id": "KA-C5-009",
+   "jurisdiction": "KA",
+   "clause_ref": "i",
+   "topic": "ALMM/DCR: commissioning with exemption of ALMM List II (cells) till 31.12.2026 (OCR spacing)",
+   "snippet": "All thegridconnected Ds PVprojectscannow commissionwithexemption\nof ALMM List II(forsolar PVcells)till31st December 2026.",
+   "effective_date": "2026-07-24",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-009#cl-Preamble 1",
+   "doc_id": "KA-C5-009",
+   "jurisdiction": "KA",
+   "clause_ref": "Preamble 1",
+   "topic": "ALMM/DCR: MNRE OM - net metering projects commissioned on/after 1 June 2026 must use ALMM List I modules and List II cells",
+   "snippet": "1.MNRE through its OM dated:09.12.2024 and its amendments had stated the“All\nNet Metering Projects and Open Access REpowerprojects tobe commissioned on\norafter1st June2026shallmandatorilysourcetheirsolar PVmodules from ALMM\nlist Iand theirsolar PVcells from ALMMlist II\".",
+   "effective_date": "2026-07-24",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-010#cl-1",
+   "doc_id": "KA-C5-010",
+   "jurisdiction": "KA",
+   "clause_ref": "1",
+   "topic": "tariff FY24 as implemented by BESCOM (Rs.4.50/2.97 domestic; Rs.3.74 1-2000 kW) (OCR table)",
+   "snippet": "1. The Hon'ble KERC has determined the tariff of grid connected Solar rooftop\nphotovoltaic plants as below:\nTariff Rs per unit\nS1 no.\nCapacity\nWithout\nWith\nRemarks\nCapital\nCapital\nsubsidy\nsubsidy\n1to10kw\n1\nDomestic\nRs.4.50/-\nRs.2.97/-\nconsumers\nThe EE of C, O & M division\n1k W to\nshall executive PPAs from\n2000k W\nRs.3.74/-",
+   "effective_date": "2023-06-30",
+   "confidence": "low"
+  },
+  {
+   "node_id": "KA-C5-010#cl-4",
+   "doc_id": "KA-C5-010",
+   "jurisdiction": "KA",
+   "clause_ref": "4",
+   "topic": "tariff applicability: in force 01.04.2023 to 31.03.2024",
+   "snippet": "4.This order shall be in force with effect from 1st April 2023 upto 31.03.2024 i.e.\napplicable forcontrolperiod FY24.",
+   "effective_date": "2023-06-30",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-010#cl-9",
+   "doc_id": "KA-C5-010",
+   "jurisdiction": "KA",
+   "clause_ref": "9",
+   "topic": "metering/phase threshold: grid connectivity voltage table (OCR)",
+   "snippet": "9. Grid Connectivity:\nS1No\nInstalled Capacity of SRTPV\nVoltage level\n1\n230V-single Phase\nUpto 5 k W\n2\nAbove5k Wandupto150kw\n400V-three Phase\n3\nAbove150k Wandupto20ookw\n11k V HT",
+   "effective_date": "2023-06-30",
+   "confidence": "low"
+  },
+  {
+   "node_id": "KA-C5-010#cl-11",
+   "doc_id": "KA-C5-010",
+   "jurisdiction": "KA",
+   "clause_ref": "11",
+   "topic": "deemed approval / PPA approval thresholds (500-1000 kW GM(DSM); >1000 kW KERC)",
+   "snippet": "11.The PPAs shall be executed as per the approved standard format of KERC.\n>The PPAsfor capacity from500k Wupto and inclusive of 100ok W shall be\napproved by GM(DSM) Section, BESCOM.\nThe PPAs for capacity above 10ook Wp shall be submitted to the\nCommission for the approval.\nApproval of the Commission shall be obtained in case there is any\ndeviationfrom thestandard approvedformat of PPA.",
+   "effective_date": "2023-06-30",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "KA-C5-010#cl-13",
+   "doc_id": "KA-C5-010",
+   "jurisdiction": "KA",
+   "clause_ref": "13",
+   "topic": "timelines (FY24 order as circulated; OCR table)",
+   "snippet": "13.The Commissionhas approved the timelinesforvariousactivities involved\ninimplementation of SRTPVplantas stated:\n3\n\n--- Page 4 ---\nFor 1k W to 1okw(Domestic Consumer)",
+   "effective_date": "2023-06-30",
+   "confidence": "low"
+  }
+ ],
+ "edges": [
+  {
+   "from_node": "KA-C3-001#cl-6(e)",
+   "to_node": "KA-C3-003#cl-8.2",
+   "type": "supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "24.1. Save as otherwise provided in these regulations, the KERC (Implementation of Solar\nRooftop Photovoltaic Power Plants) Regulations, 2016 shall stand repealed from the date\nof coming into force of these regulations.",
+   "confidence": "medium",
+   "note": "6(e) was substituted into the 2016 SRTPV Regulations by the 2023 order; the 2016 Regulations are expressly repealed by Reg 24.1 and the 80% DT rule is re-enacted as Reg 8.2."
+  },
+  {
+   "from_node": "KA-C3-001#cl-6(g)",
+   "to_node": "KA-C3-003#cl-8.3",
+   "type": "supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "24.1. Save as otherwise provided in these regulations, the KERC (Implementation of Solar\nRooftop Photovoltaic Power Plants) Regulations, 2016 shall stand repealed from the date\nof coming into force of these regulations.",
+   "confidence": "medium",
+   "note": "6(g) (substituted into 2016 Regs) repealed by Reg 24.1; re-enacted verbatim-in-substance as Reg 8.3."
+  },
+  {
+   "from_node": "KA-C3-001#cl-6(a)",
+   "to_node": "KA-C3-003#cl-8.4",
+   "type": "supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "24.1. Save as otherwise provided in these regulations, the KERC (Implementation of Solar\nRooftop Photovoltaic Power Plants) Regulations, 2016 shall stand repealed from the date\nof coming into force of these regulations.",
+   "confidence": "medium",
+   "note": "Connectivity voltage table of 2016 Reg 6(a) (as substituted) repealed by 24.1; Reg 8.4 now refers connectivity level to Grid Code/Distribution Code/COS."
+  },
+  {
+   "from_node": "KA-C3-001#cl-6(f)",
+   "to_node": "KA-C3-003#cl-8.1",
+   "type": "supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "24.1. Save as otherwise provided in these regulations, the KERC (Implementation of Solar\nRooftop Photovoltaic Power Plants) Regulations, 2016 shall stand repealed from the date\nof coming into force of these regulations.",
+   "confidence": "low",
+   "note": "2016 Reg 6(f) feeder 80% limit repealed by 24.1; 2026 Regs do not restate the feeder limit, 8.1 refers hosting capacity to Distribution Code/Grid Code/COS. Mapping to 8.1 is interpretive."
+  },
+  {
+   "from_node": "KA-C3-001#cl-Order (i)",
+   "to_node": "KA-C3-002#cl-Order (i)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "Since, thecontrol period of the Orderdated 01.06.2023of Generic Tariff\nof Solar Projects was valid upto 31.03.2024",
+   "confidence": "medium",
+   "note": "Successive control-period tariff: FY25 tariff applies to PPAs from 01.04.2024; PPAs under the FY24 order keep their tariff (prospective replacement, no repeal)."
+  },
+  {
+   "from_node": "KA-C3-001#cl-b",
+   "to_node": "KA-C3-002#cl-10",
+   "type": "partially_supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "Commissiondecidestoremovethe capacityrestrictionof20ookwfor",
+   "confidence": "medium",
+   "note": "FY25 order removes the 2000 kW ceiling in the FY24 scope; SRTPV allowed up to sanctioned load. Express decision, no textual amendment of the FY24 order."
+  },
+  {
+   "from_node": "KA-C3-001#cl-xiv(l)",
+   "to_node": "KA-C3-002#cl-9",
+   "type": "partially_supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "9.Facilitiesfor submissionofonline application/timelinesfor 1kwto15okw",
+   "confidence": "low",
+   "note": "FY25 order extends the 'application = approval, no separate PPA' track from 1-10 kW domestic to 1-150 kW; no express reference to the FY24 timeline table. OCR poor."
+  },
+  {
+   "from_node": "KA-C3-002#cl-10",
+   "to_node": "KA-C3-003#cl-4.1.2",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "4.1.2. The minimum capacity of DSPV system",
+   "confidence": "low",
+   "note": "Implicit: 2026 Regulations cap net metering at lower of sanctioned load/contract demand or 1000 kW, overriding the 'up to sanctioned load' rule of the FY25 order; no express reference to the order."
+  },
+  {
+   "from_node": "KA-C3-002#cl-10",
+   "to_node": "KA-C4-001#cl-1",
+   "type": "partially_supersedes",
+   "effective_date": "2024-12-05",
+   "evidence_quote": "1. If the sanctioned load of a consumer is less than the capacity of the SRTPV",
+   "confidence": "low",
+   "note": "Implicit: Dec-2024 order lets consumers up to 10 kW install beyond sanctioned load with automatic SL enhancement, relaxing the FY25 'up to sanctioned load' limit; no express amendment words."
+  },
+  {
+   "from_node": "KA-C4-001#cl-3",
+   "to_node": "KA-C3-003#cl-15.1",
+   "type": "supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "15.1. The eligible consumers under net metering/ gross metering / net billing mechanism are",
+   "confidence": "low",
+   "note": "Implicit: 10% DC tolerance of the 05.12.2024 order (issued under Reg 13 of the repealed 2016 Regs) is re-enacted in Reg 15.1; no express reference."
+  },
+  {
+   "from_node": "KA-C3-001#cl-xiv(j)",
+   "to_node": "KA-C3-003#cl-15.7",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "15.7. The PPAs/SPPAs of DSPV Plants",
+   "confidence": "low",
+   "note": "Implicit: deemed approval of standard-format PPAs no longer limited to 1000 kW for NM/NB/GM (VNM/GNM <1000 kW per 15.8); no express reference to the 2023 order."
+  },
+  {
+   "from_node": "KA-C3-002#cl-xiv(g)",
+   "to_node": "KA-C3-003#cl-15.7",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "15.7. The PPAs/SPPAs of DSPV Plants",
+   "confidence": "low",
+   "note": "Implicit: FY25 deemed-approval principle restated in Reg 15.7 without capacity ceiling; no express reference. FY25 text OCR drops the capacity figure."
+  },
+  {
+   "from_node": "KA-C3-002#cl-9",
+   "to_node": "KA-C3-003#cl-12.1(iii)",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "| 4 | Commissioning of Distributed Solar PV System in case work completion is delayed by the Consumer |",
+   "confidence": "low",
+   "note": "Implicit: 2026 Regs restate 1-150 kW timelines and change the delayed-commissioning tariff to the lowest of agreed/revised/90% tariff (FY25: 'as per terms of PPA'); no express reference."
+  },
+  {
+   "from_node": "KA-C3-002#cl-11",
+   "to_node": "KA-C3-003#cl-15.3",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-24",
+   "evidence_quote": "15.3. The eligible consumer under net metering/gross metering/net billing is allowed",
+   "confidence": "low",
+   "note": "Implicit: multiple/combined DSPV rule (90% or prevailing tariff) now in Regulation 15.3; no express reference to the FY25 order."
+  },
+  {
+   "from_node": "KA-C5-001#cl-15",
+   "to_node": "KA-C5-006#cl-18",
+   "type": "partially_supersedes",
+   "effective_date": "2025-12-01",
+   "evidence_quote": "18. Provision of Check Meter:",
+   "confidence": "low",
+   "note": "Implicit: 2025 Common SOP raises check-meter threshold from >17.5 kW to >50 kWp; SOP states it revises the 04.07.2024 SOP, not the 05.08.2023 guidelines."
+  },
+  {
+   "from_node": "KA-C5-001#cl-2",
+   "to_node": "KA-C5-006#cl-21(ix)",
+   "type": "partially_supersedes",
+   "effective_date": "2025-12-01",
+   "evidence_quote": "ix. The Commission has removed the capacity restriction of 2000 kW",
+   "confidence": "low",
+   "note": "Implicit: 2023 guidelines limited applications to 2000 kWp; SOP records KERC removal of the cap (FY25 order). No express reference to the 2023 guidelines."
+  },
+  {
+   "from_node": "KA-C5-003#cl-Step - 2",
+   "to_node": "KA-C5-006#cl-Stage-02 Category-I",
+   "type": "partially_supersedes",
+   "effective_date": "2025-12-01",
+   "evidence_quote": "Category-I:\nAll DSPV applications with proposed capacity upto 150kW",
+   "confidence": "low",
+   "note": "Implicit: undated portal page requires SDO feasibility for all 1-500 kWp non-domestic; SOP makes applications up to 150 kW deemed feasible. Portal page date unknown."
+  }
+ ],
+ "document_supersessions": [
+  {
+   "doc_from": "KERC (Implementation of Solar Rooftop Photovoltaic Power Plants) Regulations, 2016 [not in corpus]",
+   "doc_to": "KA-C3-003",
+   "type": "repeal",
+   "evidence_quote": "24.1. Save as otherwise provided in these regulations, the KERC (Implementation of Solar\nRooftop Photovoltaic Power Plants) Regulations, 2016 shall stand repealed from the date\nof coming into force of these regulations.",
+   "confidence": "high",
+   "note": "Express repeal with savings (24.2-24.3): existing PPAs continue; pending applications processed under 2026 Regs."
+  },
+  {
+   "doc_from": "KERC Generic Tariff Order dated 09.07.2025 (Solar incl. DSPV, control period 01.07.2025-30.06.2026) [not in corpus]",
+   "doc_to": "KA-C3-004",
+   "type": "prospective_replacement_no_repeal",
+   "evidence_quote": "(i) The validity of the Commission’s Order dated 09.07.2025 in the matter of\ntariff and norms in respect of Solar Power Projects (including Distributed Solar\nPhotovoltaic (DSPV) Plants with net-metering/gross metering) is extended\nfrom 1st July 2026 to 24th August 2026.",
+   "confidence": "high",
+   "note": "2025 order extended to 24.08.2026, new tariff from 25.08.2026 for new PPAs/applications; existing PPAs keep their tariff."
+  },
+  {
+   "doc_from": "KA-C3-001",
+   "doc_to": "KA-C3-002",
+   "type": "prospective_replacement_no_repeal",
+   "evidence_quote": "Since, thecontrol period of the Orderdated 01.06.2023of Generic Tariff\nof Solar Projects was valid upto 31.03.2024",
+   "confidence": "medium",
+   "note": "Control-period succession FY24 -> FY25; no repeal words; PPAs under FY24 order retain tariff."
+  },
+  {
+   "doc_from": "KERC Generic Tariff Order dated 18.08.2021 (FY22-FY23) [not in corpus]",
+   "doc_to": "KA-C3-001",
+   "type": "prospective_replacement_no_repeal",
+   "evidence_quote": "This Order was\nin force till 31.03.2023.",
+   "confidence": "medium",
+   "note": "Control-period succession; FY24 tariff for PPAs from 01.04.2023."
+  },
+  {
+   "doc_from": "BESCOM Common SOP for SRTPV, Circular BESCOM/BC-51/2024-25/CYS-23 dated 04.07.2024 [not in corpus]",
+   "doc_to": "KA-C5-006",
+   "type": "substitution",
+   "evidence_quote": "the existing\nCommon So P has been revised, updated, and aligned with the provisions of the\nsaid Tariff Order.",
+   "confidence": "medium",
+   "note": "Revised Common SOP replaces the 04.07.2024 SOP (express 'revised, updated'); no formal withdrawal words."
+  }
+ ]
+}

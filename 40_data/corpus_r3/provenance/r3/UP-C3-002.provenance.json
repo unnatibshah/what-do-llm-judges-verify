@@ -1,0 +1,94 @@
+{
+  "source_url": "https://www.uperc.org/App_File/NotifiedStatement_of_Reasons_and_RSPV_Regulations_2019Final-rar114201924054PM.rar",
+  "landing_page_url": "https://www.uperc.org/notified_user.aspx",
+  "fetched_at": "2026-10-01T16:51:28Z",
+  "sha256": "aec4af1269a9d4cc142d996982a45b6c30d77446b113598de088288174c3cf7c",
+  "archive_sha256": "fec804546fc9636f5e174d614cfaebbe162e6abb756995705d3460faf39d5eab",
+  "http_status": 200,
+  "note": "PDF extracted unmodified from the downloaded .rar archive (bsdtar); archive saved beside it. Scanned image PDF, no text layer; text via macOS Vision OCR.",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "printed_title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulations, 2019",
+  "number": "UPERC/Secretary/RSPV Regulations/434(A)",
+  "printed_date": "2019-01-04",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Reg. 6.2",
+      "verbatim_quote": "6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.",
+      "page": 7,
+      "topic": "DT limit 75% (2015: 15%)",
+      "numeric_values": {
+        "dt_limit_pct": 75
+      },
+      "amends_or_supersedes": {
+        "doc": "UP-RSPV-2015-regs",
+        "clause_ref": "Reg. 6.2",
+        "evidence_quote": "shall not exceed 15 % or any other percentage as may be fixed by the Commission of the rated capacity of such transformer(s).",
+        "evidence_page": 6
+      },
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    },
+    {
+      "clause_ref": "Reg. 5.1 and proviso",
+      "verbatim_quote": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.",
+      "page": 6,
+      "topic": "Cap 100% of contracted demand; min 1 kWp; max 2 MW (2015 had no 2 MW max)",
+      "numeric_values": {
+        "cap_pct_of_contracted_demand": 100,
+        "min_kWp": 1,
+        "max_MW": 2
+      },
+      "amends_or_supersedes": {
+        "doc": "UP-RSPV-2015-regs",
+        "clause_ref": "Reg. 5.1-5.2",
+        "evidence_quote": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed  100% of  the sanctioned connected load / contract demand of the consumer.",
+        "evidence_page": 5
+      },
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    },
+    {
+      "clause_ref": "Reg. 5.1 proviso",
+      "verbatim_quote": "shall not be less than 1 kWp and shall not exceed 2 MW.",
+      "page": 6,
+      "topic": "Max system size 2 MW",
+      "numeric_values": {
+        "min_kWp": 1,
+        "max_MW": 2
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    },
+    {
+      "clause_ref": "Reg. 6.2 second proviso",
+      "verbatim_quote": "up to total 10 kWp solar rooftop installation, the consumer would not pay any charge except to a one time charge computed at the rate of Rs 1000 per kWp on the capacity beyond 10 KWp, as cost of augmentation of system.",
+      "page": 7,
+      "topic": "Augmentation charge: nil up to 10 kWp, Rs 1000/kWp beyond",
+      "numeric_values": {
+        "free_up_to_kWp": 10,
+        "rate_Rs_per_kWp": 1000
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    },
+    {
+      "clause_ref": "Reg. 10.3(iii)/(iv) net-metering unadjusted credit rate",
+      "verbatim_quote": "any electricity credits, which remain unadjusted, shall be paid at a Net Metering Rate of Rs 2/kWh by the Distribution Licensee or as notified by the Commission from time to time.",
+      "page": 11,
+      "topic": "Unadjusted credits paid Rs 2/kWh (2015: Rs 0.50/kWh)",
+      "numeric_values": {
+        "rate_Rs_per_kWh": 2
+      },
+      "amends_or_supersedes": {
+        "doc": "UP-RSPV-2015-regs",
+        "clause_ref": "Reg. 10 (unadjusted credit)",
+        "evidence_quote": "remain unadjusted, shall be paid at a rate of Rs 0.50/kWh by the Distribution Licensee",
+        "evidence_page": 13
+      },
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    }
+  ]
+}

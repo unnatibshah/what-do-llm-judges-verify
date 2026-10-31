@@ -1,0 +1,1690 @@
+{
+ "generated_by": "Claude Opus (Claude Code agent), blind to gold graph, from corpus text r2",
+ "generated_at": "2026-10-01T16:48:10Z",
+ "nodes": [
+  {
+   "node_id": "MH-C3-001#cl-2.1(j)",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "2.1(j)",
+   "topic": "eligibility; capacity limit (1 MW net metering)",
+   "snippet": "(j) “Eligible Consumer” means a consumer of electricity in the area of supply of the\nDistribution Licensee who uses or intends to use a Renewable Energy Generating\nSystem having a capacity less than 1 MW, installed on a roof-top or any other\nmounting structure in his premises, to meet all or part or no part of his own electricity\nrequirement, and includes a Consumer catering to a common load such as a Housing\nSociety:\nProvided that such Generating System may be owned and/or operated by such\nConsumer, or by a Distribution Licensee or third party leasing such System to the\nConsumer:\nProvided fur",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-5.2",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "5.2",
+   "topic": "distribution transformer hosting limit (70%)",
+   "snippet": "5.2 The cumulative capacity of all Renewable Energy Generating Systems under Net Metering\nArrangements and/or Net Billing Arrangements connected to a particular Distribution\nTransformer/feeder of the Licensee shall not exceed 70% of its rated capacity:",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-6.1",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "6.1",
+   "topic": "minimum system size (1 kW)",
+   "snippet": "6.1 The minimum size of the Renewable Energy Generating System that can be set up under\nNet Metering Arrangement and Net Billing Arrangement would be 1 kW.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-6.2",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "6.2",
+   "topic": "capacity limit vs sanctioned load/contract demand",
+   "snippet": "6.2 The capacity of the Renewable Energy Generating System to be connected at the Eligible\nConsumer’s premises shall not exceed the Sanctioned load (in kW) or the Contract\nDemand (in kVA) of the Consumer, as applicable.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-6.3",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "6.3",
+   "topic": "capacity subject to DT cumulative capacity",
+   "snippet": "6.3 The maximum Renewable Energy Generating System capacity to be installed at an Eligible\nConsumer’s premises shall be subject to the cumulative capacity of the relevant\nDistribution Transformer, which has already been utilized, as specified in Regulation 5.2:\nProvided that a variation in the rated capacity of the System within a range of five percent\nshall be allowed.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-6.6",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "6.6",
+   "topic": "eligibility: consumers with arrears excluded",
+   "snippet": "6.6 Consumers with pending arrears with the Distribution Licensee shall not be eligible for\nNet Metering Arrangement or Net Billing Arrangement under these Regulations.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-8.3",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "8.3",
+   "topic": "metering: net meter at interconnection",
+   "snippet": "8.3 The Net Metering Arrangement shall include a single-phase or a three-phase Net Meter,\nas may be required, located at the point of inter-connection as ascertained by the\nDistribution Licensee.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-8.10",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "8.10",
+   "topic": "metering threshold: check meter above 20 kW",
+   "snippet": "8.10 In case of Renewable Energy Generating System with capacity above 20 kW set up under\nNet Metering Arrangement, a Check Meter of appropriate class shall be installed by the\nDistribution Licensee for the Renewable Energy Generation Meter:\nProvided that installation of Check Meter shall be optional for Renewable Energy\nGenerating System with capacity up to and including 20 kW.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-8.11",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "8.11",
+   "topic": "metering: check meter under net billing",
+   "snippet": "8.11 In case of Renewable Energy Generating System set up under Net Billing Arrangement,\nan additional Check Meter for the Renewable Energy Generation Meter of appropriate\nclass shall be installed by the Distribution Licensee.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-9.5",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "9.5",
+   "topic": "application procedure/timelines (Annexure 1)",
+   "snippet": "9.5 The procedure for application for connectivity of a Renewable Energy Generating System\nwith the Network of the Distribution Licensee is set out at Annexure 1 of these\nRegulations.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-9.7",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "9.7",
+   "topic": "rejection notice / DT capacity constraint",
+   "snippet": "9.7 Before rejecting any application for setting up a Renewable Energy Generating System at\na particular Distribution Transformer, the Distribution Licensee shall serve the applicant\nwith a notice to rectify the defects in the ambit of the consumer, within 15 days or such\nlonger period as may be necessary, the deficiencies:\nProvided that in case approval cannot be granted due to inadequate Distribution\nTransformer capacity or any other technical constraints, the consumer should be informed\nthrough written communication only, specifying the reasons of the rejection:\nProvided further that the ap",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-9.8",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "9.8",
+   "topic": "approval validity (6 months)",
+   "snippet": "9.8 The approval for connectivity from the Distribution Licensee shall indicate the maximum\npermissible capacity of the System, and shall be valid for a period of 6 months from the\ndate of approval, or such extended period as may be agreed to by the Distribution Licensee:",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-11.4(d)",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "11.4(d)",
+   "topic": "net metering ToD settlement",
+   "snippet": "d) In case the Eligible Consumer is within the ambit of Time of Day (ToD) tariff, the\nelectricity consumption in any time block, i.e. peak hours, off-peak hours, etc., shall\nbe first compensated with the quantum of electricity injected in the same time block;\nany excess injection over and above the consumption in any other time block in a\nBilling Cycle shall be accounted as if the excess injection had occurred during off-\npeak hours;",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-11.5",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "11.5",
+   "topic": "grid support charges; exemption up to 10 kW",
+   "snippet": "Provided that the consumers of all Categories having Sanctioned Load up to 10 kW shall\nbe exempted from payment of Grid Support Charges for Net Metering systems:",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-12.1",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "12.1",
+   "topic": "net billing arrangement definition/scope",
+   "snippet": "12.1 Net billing is the arrangement where the Renewable Energy Generating Station is:\na) Installed to serve a specific consumer,\nb) Connected on the Distribution Licensee side or consumer side of the consumer\nmeter,\nc) Selling entire power generated to a Distribution Licensee under Power Purchase\nAgreement:",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-Annexure-1.c",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "Annexure-1.c",
+   "topic": "technical feasibility study timeline (15 working days)",
+   "snippet": "c. The Distribution Licensee shall conduct a technical feasibility study within 15 working days\nfrom the registration of the Application, considering the following aspects:\ni) AC Voltage level at which connectivity is sought;\nii) Sanctioned Load / Contract Demand of the Applicant;\niii) Rated Output AC Voltage of the proposed Renewable Energy Generating System;\niv) Available cumulative capacity of relevant Distribution Transformer.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-Annexure-1.e",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "Annexure-1.e",
+   "topic": "approval timeline (7 working days) and validity",
+   "snippet": "e. If found technically feasible, the Distribution Licensee shall, within 7 working days of the\ncompletion of the feasibility study, convey its approval for installing the Renewable Energy\nGenerating System. The approval shall indicate the maximum permissible capacity of the\nSystem, and shall be valid for a period of 6 months from the date of approval, or such extended\nperiod as may be agreed to by the Distribution Licensee.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-Annexure-1.g",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "Annexure-1.g",
+   "topic": "commissioning timeline (10+10 working days)",
+   "snippet": "g. The Distribution Licensee shall complete the testing and commissioning of the System within\n10 working days from receipt of such request, and shall install the Net Metering equipment,\nif applicable, and synchronise the Renewable Energy Generating System within 10 working\ndays thereafter.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-Annexure-1.h",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "Annexure-1.h",
+   "topic": "connection agreement before synchronisation",
+   "snippet": "h. The Eligible Consumer and Distribution Licensee shall enter into a Net Metering Connection\nAgreement or the Net Billing Connection Agreement, as the case may be, in the prescribed\nformat after the Renewable Energy Generating System is installed but before it is\nsynchronized with the distribution network.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-001#cl-20",
+   "doc_id": "MH-C3-001",
+   "jurisdiction": "MH",
+   "clause_ref": "20",
+   "topic": "repeal and savings (MERC Net Metering Regs 2015)",
+   "snippet": "20 Repeal and Savings\nSave as otherwise provided in these Regulations, the Maharashtra Electricity Regulatory\nCommission (Net Metering for Rooftop Solar Photo Voltaic Systems) Regulations, 2015\nare hereby repealed:\nProvided that Renewable Energy Generating Systems covered under the Maharashtra\nElectricity Regulatory Commission (Net Metering for Rooftop Solar Photo Voltaic\nSystems) Regulations, 2015, shall continue to be governed by the aforesaid Regulations\ntill validity of the Agreement signed under the aforesaid Regulations.",
+   "effective_date": "2019-12-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-003#cl-2.1(j)",
+   "doc_id": "MH-C3-003",
+   "jurisdiction": "MH",
+   "clause_ref": "2.1(j)",
+   "topic": "eligibility; capacity limit (5 MW or CD/SL net metering)",
+   "snippet": "Provided further that in case of Net Metering Arrangement, the capacity of Renewable\nEnergy Generating System shall be limited to 5 MW or Contract Demand/Sanction Load\nof consumer, whichever is lower:\nProvided also that for all other arrangements, the capacity of Renewable Energy\nGenerating System shall be limited to Contract Demand/Sanctioned Load of consumer.”",
+   "effective_date": "2023-11-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-003#cl-8.3",
+   "doc_id": "MH-C3-003",
+   "jurisdiction": "MH",
+   "clause_ref": "8.3",
+   "topic": "metering: net meter (net metering or net billing)",
+   "snippet": "“8.3 The Net Metering Arrangement or Net Billing Arrangement shall include a\nsingle-phase or a three-phase Net Meter, as may be required, located at the point of inter-\nconnection as ascertained by the Distribution Licensee.”",
+   "effective_date": "2023-11-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-003#cl-8.11",
+   "doc_id": "MH-C3-003",
+   "jurisdiction": "MH",
+   "clause_ref": "8.11",
+   "topic": "metering: check meter under gross metering",
+   "snippet": "“8.11 In case of Renewable Energy Generating System set up under Gross Metering\nArrangement, an additional Check Meter for the Renewable Energy Generation Meter\nof appropriate class shall be installed by the Distribution Licensee.”",
+   "effective_date": "2023-11-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-003#cl-9.5",
+   "doc_id": "MH-C3-003",
+   "jurisdiction": "MH",
+   "clause_ref": "9.5",
+   "topic": "application timelines; Rs 500/day delay compensation",
+   "snippet": "“ 9.5 The procedure for application for connectivity of a Renewable Energy Generating\nSystem with the Network of the Distribution Licensee and timelines for performing various\nactivities are set out at Annexure-1 of these Regulations:\nProvided that in case of delay in performing any activity by Distribution Licensee, it\nshall compensate the concerned consumer at the rate of five hundred rupees per day of\ndelay in performing the activity.”",
+   "effective_date": "2023-11-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-003#cl-11.5",
+   "doc_id": "MH-C3-003",
+   "jurisdiction": "MH",
+   "clause_ref": "11.5",
+   "topic": "grid support charges not levied till 5000 MW (2nd proviso)",
+   "snippet": "“Provided further that the Grid Support Charges shall not be levied till installations\nunder rooftop arrangement in the State reach 5000 MW:\nProvided also that till the Grid Support Charges as envisaged in the Regulations stay\nexempted, Distribution Licensees may approach the Commission with specific Petition for\nrecovery of banking charges, and in case, the recovery of banking charges have already\nbeen approved by the Commission prior to notification of these Regulations, the same shall\ncontinue.”",
+   "effective_date": "2023-11-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-003#cl-12.1",
+   "doc_id": "MH-C3-003",
+   "jurisdiction": "MH",
+   "clause_ref": "12.1",
+   "topic": "gross metering arrangement (substituted Reg 12/12.1)",
+   "snippet": "“12. Gross Metering – Energy Accounting and Settlement\n12.1 Gross Metering is the arrangement where the Renewable Energy Generating\nSystem is setup for selling entire generated power to Distribution Licensee under Power\nPurchase Agreement :\nProvided that if Renewable Energy Generating System is connected on the consumer\nside of the consumer meter, then the consumer shall have to replace the consumer meter\nwith a Net Meter.”",
+   "effective_date": "2023-11-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-003#cl-Annexure-1.h",
+   "doc_id": "MH-C3-003",
+   "jurisdiction": "MH",
+   "clause_ref": "Annexure-1.h",
+   "topic": "connection agreement (incl. gross metering) before synchronisation",
+   "snippet": "“(h) The Eligible Consumer and Distribution Licensee shall enter into a Net Metering\nConnection Agreement or the Net Billing Connection Agreement or Gross Metering\nConnection Agreement, as the case may be, in the prescribed format after the Renewable\nEnergy Generating System is installed but before it is synchronized with the distribution\nnetwork.”",
+   "effective_date": "2023-11-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-002#cl-2.1(j)",
+   "doc_id": "MH-C3-002",
+   "jurisdiction": "MH",
+   "clause_ref": "2.1(j)",
+   "topic": "eligibility: virtual net metering provisos (4th/5th)",
+   "snippet": "“Provided also that Residential consumer in multi storied building can setup Renewable\nEnergy Generating System at any place located within same Distribution Licensee’s area of\nsupply and source renewable energy generated from such plant under Virtual Net-Metering\nArrangement:\nProvided also that multiple Residential consumers situated in multi storied building within\narea of operation of a housing society or an apartment owners association including their common\nconnection, can come together and set-up Renewable Energy Generating System at a common\nplace under Virtual Net Metering arrangement ",
+   "effective_date": "2024-08-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-002#cl-8.11",
+   "doc_id": "MH-C3-002",
+   "jurisdiction": "MH",
+   "clause_ref": "8.11",
+   "topic": "metering: check meter under gross and virtual net metering",
+   "snippet": "“8.11 In case of Renewable Energy Generating System set up under Gross Metering\nArrangement and Virtual Net Metering Arrangement, an additional Check Meter for the\nRenewable Energy Generation Meter of appropriate class shall be installed by the Distribution\nLicensee.”",
+   "effective_date": "2024-08-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-002#cl-9.7",
+   "doc_id": "MH-C3-002",
+   "jurisdiction": "MH",
+   "clause_ref": "9.7",
+   "topic": "rejection notice (15 days); seniority",
+   "snippet": "“9.7 Before rejecting any application for setting up a Renewable Energy Generating System\nat a particular Distribution Transformer, the Distribution Licensee shall serve the applicant\nwith a notice to rectify the defects in the ambit of the consumer, within (15) days or such longer\nperiod as may be necessary for removing the deficiencies:\nProvided that application may be considered in chronological order of seniority.”",
+   "effective_date": "2024-08-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-002#cl-9.7(a)",
+   "doc_id": "MH-C3-002",
+   "jurisdiction": "MH",
+   "clause_ref": "9.7(a)",
+   "topic": "DT/service-line upgradation by licensee; cost in ARR",
+   "snippet": "“ 9.7 (a) During the time period from the feasibility study or deemed acceptance of the\napplication till the completion of installation, in case, there is any requirement of upgradation of\ndistribution infrastructure like augmentation of service line, distribution transformer capacity,\nand the like for installation of the required capacity of roof top solar photo voltaic system, the\nsame shall be carried out by the Distribution Licensee in adherence to the timeline specified\nin Maharashtra Electricity Regulatory Commission (Electricity Supply Code and Standards Of\nPerformance for Distribution ",
+   "effective_date": "2024-08-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-002#cl-Annexure-1.c",
+   "doc_id": "MH-C3-002",
+   "jurisdiction": "MH",
+   "clause_ref": "Annexure-1.c",
+   "topic": "feasibility study 15 days, presumed feasible; deemed approval up to 10 kW",
+   "snippet": "“ c For installation of Renewable Energy Generating Systems, the technical feasibility\nstudy shall be completed within a period of (15) days and the outcome of the study shall be\nintimated to the applicant, failing which it shall be presumed that the proposal is technically\nfeasible:\nProvided that the applications for Renewable Energy Generating Systems upto 10 kW\ncapacity, complete in all respects shall be deemed to have been accepted without requiring\ntechnical feasibility study and any commensurate enhancement of the sanctioned load of the\nconsumer, as may be required, shall be carried out ",
+   "effective_date": "2024-08-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "MH-C3-004#cl-7.13.79",
+   "doc_id": "MH-C3-004",
+   "jurisdiction": "MH",
+   "clause_ref": "7.13.79",
+   "topic": "net metering ToD banking for LT-residential RTS",
+   "snippet": "7.13.79 Hence, the Commission further rules that in case of LT-Residential consumers\nwith RTS systems, the benefit of Net Metering or Group Net Metering or\nVirtual Net Metering shall continue to be available for all hours through out\nthe day for adjustment of surplus energy unit credit including during Peak\nHours (17:00 hrs to 24:00 hrs) even after installation of ToD meter/ Smart\nMeter by such consumer. The energy accounting, surplus energy credit\nadjustment and commercial settlement thereof for LT-Residential consumers\nwith RTS systems shall be undertaken in line with provisions specified un",
+   "effective_date": "2025-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C3-004#cl-7.1.34",
+   "doc_id": "MH-C3-004",
+   "jurisdiction": "MH",
+   "clause_ref": "7.1.34",
+   "topic": "grid support charges not approved (below 5000 MW)",
+   "snippet": "7.1.34 Based on MSEDCL’s own submission, the Commission observes that\ncumulative RTS capacity is unlikely to exceed 5000 MW prior to mid-term\nreview. Thus, the Commission has not approved levy of Grid support charges\nfor now under this Order. However, the Commission would review the same at\nthe time of MTR Petition. Further, the Commission grants liberty to MSEDCL\nto file a separate petition for determination of Grid Support Charges, only if\nthe cumulative Rooftop solar capacity crosses 5000 MW prior to filing of MTR\npetition, as necessary which can be decided through public consultation proce",
+   "effective_date": "2025-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-001#cl-2.1",
+   "doc_id": "MH-C5-001",
+   "jurisdiction": "MH",
+   "clause_ref": "2.1",
+   "topic": "eligibility (restates 2019 Reg 2.1(j), <1 MW)",
+   "snippet": "2.1\"Eligible Consumer\" means a consumer of electricity in the area of supply of the\nDistribution Licensee who uses or intends to use a Renewable Energy Generating\nSystem having a capacity less than 1MW, installed on a roof-top or any other\nPage 1of 11\n\n--- Page 2 ---\nmounting structure in his premises, to meet all or part or no part of his own\nelectricity requirement, and includes a Consumer catering to a common load such\nas a Housing Society:\nProvided that such Generating System may be owned and/or operated by such\nConsumer, or by a Distribution Licensee or third party leasing such System to ",
+   "effective_date": "2020-01-20",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-001#cl-5.2",
+   "doc_id": "MH-C5-001",
+   "jurisdiction": "MH",
+   "clause_ref": "5.2",
+   "topic": "capacity limit vs sanctioned load/contract demand",
+   "snippet": "5.2 The capacity of the Renewable Energy Generating System to be connected at the\nEligible Consumer's premises under any of the three arrangements shall not\nexceed the Sanctioned load (in kW) or the Contract Demand (in kVA) of the\nConsumer, as applicable.",
+   "effective_date": "2020-01-20",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-001#cl-5.3",
+   "doc_id": "MH-C5-001",
+   "jurisdiction": "MH",
+   "clause_ref": "5.3",
+   "topic": "DT hosting limit 70%",
+   "snippet": "5.3 The maximum Renewable Energy Generating System capacity to be installed at\nan Eligible Consumer's premises shall be subject to the cumulative capacity of all\nRenewable Energy Generating Systems under Net Metering Arrangements\nand/or Net Billing Arrangements connected to a particular Distribution\nTransformer/feeder of the Licensee shall not exceed 70% of its rated capacity.\nProvided that the variation in the rated capacity of the System within a range of\nfive percent shall be allowed.",
+   "effective_date": "2020-01-20",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-001#cl-5.6",
+   "doc_id": "MH-C5-001",
+   "jurisdiction": "MH",
+   "clause_ref": "5.6",
+   "topic": "eligibility: arrears excluded",
+   "snippet": "5.6 Consumers with pending arrears with the MSEDCL shall not be eligible for Net\nMetering Arrangement or Net Billing Arrangement under these Regulations.",
+   "effective_date": "2020-01-20",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-001#cl-8.9",
+   "doc_id": "MH-C5-001",
+   "jurisdiction": "MH",
+   "clause_ref": "8.9",
+   "topic": "metering threshold: check meter above 20 kW",
+   "snippet": "8.9 Check Meter of appropriate class to be installed by the MSEDCL for the\nRenewable Energy Generation Meter for REsystems with capacity above 20 kW.",
+   "effective_date": "2020-01-20",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-001#cl-9.8",
+   "doc_id": "MH-C5-001",
+   "jurisdiction": "MH",
+   "clause_ref": "9.8",
+   "topic": "approval validity 6 months",
+   "snippet": "9.8 The approval for connectivity from the MSEDCL shall indicate the maximum\npermissible capacity of the System, and shall be valid for a period of 6 months\nfrom the date of approval, or such extended period as may be agreed to by the\nMSEDCl. If the Consumer fails to set up the Renewable Energy Generating\nSystem within the above stated period, then the approval shall be deemed to be\ncancelled, and the Consumer shall have to apply afresh.",
+   "effective_date": "2020-01-20",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-005#cl-2",
+   "doc_id": "MH-C5-005",
+   "jurisdiction": "MH",
+   "clause_ref": "2",
+   "topic": "CFA eligibility (Phase-II, residential/GHS only)",
+   "snippet": "The program provides for Central Financial Assistance (CFA) for the household\nowner and Group Housing Societies to set up Rooftop Solar in their\nresidence/residential campus, Accordingly, Residential category consumers\n(lncluding Group Housing Society/ Residential Welfare Associations) only are eligible\nfor CFA under this program under Net-Metering Arrangement as per\nGIRREGS\nRegulations 20j.9.",
+   "effective_date": "2021-01-15",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-005#cl-3.2",
+   "doc_id": "MH-C5-005",
+   "jurisdiction": "MH",
+   "clause_ref": "3.2",
+   "topic": "CFA slab Phase-II (40% up to 3 kWp, 20% 3-10 kWp)",
+   "snippet": "3 3 . . 1 2 C C F F A A @ @ 4 4 0 0 % % fo fo r r c a c P a a p c a it c Y lt y u P o n to ly 3 f k o w r P th ' e first 3 kwp and for capacity above 3 kwp\nanO upto 10 l(wp, the CFA would be limited lo20%",
+   "effective_date": "2021-01-15",
+   "confidence": "low",
+   "note": "OCR of 3.1/3.2 is garbled (interleaved characters); slab reading corroborated by illustration at 3.15"
+  },
+  {
+   "node_id": "MH-C5-005#cl-3.3",
+   "doc_id": "MH-C5-005",
+   "jurisdiction": "MH",
+   "clause_ref": "3.3",
+   "topic": "CFA slab Phase-II GHS/RWA 20%",
+   "snippet": "3.3 CFA@20%forGHS/RWAcapacityupto500Kwp(limitedtolOkwpperhouse\nand total uPto 500 kwP)'",
+   "effective_date": "2021-01-15",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-005#cl-3.7",
+   "doc_id": "MH-C5-005",
+   "jurisdiction": "MH",
+   "clause_ref": "3.7",
+   "topic": "DCR: indigenous cells and modules for CFA",
+   "snippet": "3.7 oNLYlNDlGENoUSLYmanufacturedsolarmoduleswithlNDlGENoUSLY\nmanufactured Solar cell and Module shall be eligible for cFA'",
+   "effective_date": "2021-01-15",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-006#cl-3",
+   "doc_id": "MH-C5-006",
+   "jurisdiction": "MH",
+   "clause_ref": "3",
+   "topic": "arrears no bar to processing (PMSG)",
+   "snippet": "3. In cases, where RTS application received with pending arrears, will be auto\napproved and processed further in New Connection System.",
+   "effective_date": "2024-07-24",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-006#cl-4",
+   "doc_id": "MH-C5-006",
+   "jurisdiction": "MH",
+   "clause_ref": "4",
+   "topic": "deemed/auto feasibility up to 10 kW; auto load enhancement",
+   "snippet": "4. In cases where applied PV capacity is higher than Sanction load or Contract\nDemand, auto creation of additional load application alongwith RTS application\nimplemented in New Connection System. The technical feasibility in all cases i.e.\nadditional load and RTS applications where applied PV capacity is upto 10 KW,\nwill be auto approved alongwith system generated estimate and application will\nbe automatically processed upto meter installation stage in New Connection\nSystem.",
+   "effective_date": "2024-07-24",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C5-006#cl-5",
+   "doc_id": "MH-C5-006",
+   "jurisdiction": "MH",
+   "clause_ref": "5",
+   "topic": "feasibility above 10 kW auto-approved after 15 days",
+   "snippet": "5. The technical feasibility of RTS PV capacity above 10 KW will be approved in\nauto mode if no action taken within 15 days.",
+   "effective_date": "2024-07-24",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "MH-C6-001#cl-GCR-2",
+   "doc_id": "MH-C6-001",
+   "jurisdiction": "MH",
+   "clause_ref": "GCR-2",
+   "topic": "CFA slab (MEDA FAQ, Phase-II era)",
+   "snippet": "2. How much is the subsidy?\n> Residential (maximum up to 3 kW capacity): 40% subsidy of benchmark cost.\n> Residential sector (above 3 kW capacity and up to 10 kW capacity): 40% subsidy for up to 3 kW Plus 20% for RTS system capacity above 3 kW and up to 10 kW.\n> Group Housing Societies / Residential Welfare Associations (GHS/RWA): 20% subsidy of benchmark cost.",
+   "effective_date": null,
+   "confidence": "low",
+   "note": "Undated FAQ, machine-translated from Marathi; FAQ numbering under 'Grid Connected Rooftop' heading"
+  },
+  {
+   "node_id": "RJ-C3-001#cl-2",
+   "doc_id": "RJ-C3-001",
+   "jurisdiction": "RJ",
+   "clause_ref": "2",
+   "topic": "DT hosting limit 30%",
+   "snippet": "The cumulative capacity to be allowed at a particular distribution transformer shall not exceed 30% of the capacity of the distribution transformer.  The distribution licensee shall update distribution transformer level capacity available for connecting Rooftop PV Solar Power Plants under net metering arrangement on yearly basis and shall provide the information on its website as well as to the Commission.",
+   "effective_date": "2015-02-26",
+   "confidence": "medium",
+   "note": "Source is an RERC summary table of the 2015 Regulations 'with amendment Dated: March, 2019'; clause_ref is the table Sl. No., not the regulation number"
+  },
+  {
+   "node_id": "RJ-C3-001#cl-3",
+   "doc_id": "RJ-C3-001",
+   "jurisdiction": "RJ",
+   "clause_ref": "3",
+   "topic": "capacity limit 80% of sanctioned load; 1 kWp-1 MWp",
+   "snippet": "1. The maximum Rooftop PV Solar Power Plant capacity to be installed at any Eligible Consumer premises shall not be more than 80% of the sanctioned connected load/contract demand of the consumer. 2. The capacity of Rooftop PV Solar Power Plant to be installed at the Premises of any Eligible Consumer shall be more than 1 kWp minimum and shall not be more than 1 MWp (1000 kWp). |",
+   "effective_date": "2015-02-26",
+   "confidence": "medium",
+   "note": "Source is an RERC summary table of the 2015 Regulations 'with amendment Dated: March, 2019'; clause_ref is the table Sl. No., not the regulation number"
+  },
+  {
+   "node_id": "RJ-C3-001#cl-6",
+   "doc_id": "RJ-C3-001",
+   "jurisdiction": "RJ",
+   "clause_ref": "6",
+   "topic": "net metering settlement (Rs 3.14/unit)",
+   "snippet": "2. The electricity injected by a domestic category consumer exceeds the electricity consumed during the billing period, such excess injected electricity above 100 units shall be paid by the Distribution Licensee at Rs 3.14/unit where a capping of average generation of 4.8 units per kW of the approved installed capacity per day of the rooftop solar PV system shall be applicable.",
+   "effective_date": "2015-02-26",
+   "confidence": "medium",
+   "note": "Source is an RERC summary table of the 2015 Regulations 'with amendment Dated: March, 2019'; clause_ref is the table Sl. No., not the regulation number"
+  },
+  {
+   "node_id": "RJ-C3-001#cl-10",
+   "doc_id": "RJ-C3-001",
+   "jurisdiction": "RJ",
+   "clause_ref": "10",
+   "topic": "metering threshold: check meter above 250 kW",
+   "snippet": "Check meters shall be mandatory for rooftop solar systems having capacity more than 250 kW. For installations size of less than and equal to 250 kW, the solar check meters would be optional.",
+   "effective_date": "2015-02-26",
+   "confidence": "medium",
+   "note": "Source is an RERC summary table of the 2015 Regulations 'with amendment Dated: March, 2019'; clause_ref is the table Sl. No., not the regulation number"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-1.4",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "1.4",
+   "topic": "coexistence with 2015 Regulations; grandfathering",
+   "snippet": "1.4 These Regulations shall remain in force along with the Rajasthan Electricity Regulatory\nCommission (Connectivity and Net Metering for Rooftop and Small Solar Grid Interactive\nSystems) Regulations, 2015 and subsequent amendments thereof:\nProvided that, Rooftop and Small Solar Grid Interactive Systems commissioned under\nNet Metering agreements up to 30th June 2021 shall be governed as per the Rajasthan\nElectricity Regulatory Commission (Connectivity and Net Metering for Rooftop and\nSmall Solar Grid Interactive Systems) Regulations, 2015 and subsequent amendments\nthereof.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-3.2",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "3.2",
+   "topic": "eligibility for net metering per ROC Rules 2020",
+   "snippet": "3.2 These Regulations shall apply to:\n(a) Net Metering arrangements;\n(b) Net Billing arrangements;\n(c) Grid Interactive Distributed Renewable Energy generating systems connected behind\nthe meter and operating in parallel with Distribution Licensees’ grid and who have\nnot opted either for Net Metering arrangement or Net Billing arrangement:\nProvided that, the eligibility for Net Metering arrangement shall be as stipulated under\nthe Electricity (Rights of Consumers) Rules, 2020, as amended from time to time:\nProvided further that, for the purpose of implementation of the Electricity (Rights of\nC",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-3.4",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "3.4",
+   "topic": "applicability: systems commissioned on/after 1 July 2021",
+   "snippet": "3.4 These Regulations shall be applicable to all Grid interactive Distributed Renewable\nEnergy generating systems that are commissioned on or after 1st July 2021:\nProvided that, Rooftop and Small Solar Grid Interactive Systems commissioned under\nNet Metering agreements up to 30th June 2021, shall continue to operate under the Net\nMetering arrangement till the period of Connection Agreement, as per the provisions of\nthe Rajasthan Electricity Regulatory Commission (Connectivity and Net Metering for\nRooftop and Small Solar Grid Interactive Systems) Regulations, 2015 and subsequent\namendments ther",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-4.2",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "4.2",
+   "topic": "eligibility: arrears excluded",
+   "snippet": "4.2 Consumers having pending arrears with the Distribution Licensee shall not be eligible for\nNet Billing arrangement or Net Metering arrangement under these Regulations:\nProvided that, where there is a dispute between the Distribution Licensee and the\nconsumer, relating to any charge for electricity, such consumers shall be allowed Net\nMetering or Net Billing arrangement pending such resolution of such dispute upon\ndeposit of the disputed amount with the Distribution Licensee in accordance with Section\n56 of the Act.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-6.1",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "6.1",
+   "topic": "DT hosting limit 50%",
+   "snippet": "6.1 The cumulative capacity of Renewable Energy generating system to be allowed at a\nparticular distribution transformer shall not exceed 50% of the capacity of such\ndistribution transformer or such limit as may be stipulated by the Commission from time\nto time:\nProvided that, in case of HT consumers where the distribution transformer has been\ninstalled by the consumer, the limit of 50% of distribution transformer capacity shall not\nbe applicable. The total allowable solar installation capacity for such consumers shall be\nas per Regulation 7.2 of these Regulations.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-7.2",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "7.2",
+   "topic": "capacity limit 100% of sanctioned load/contract demand",
+   "snippet": "7.2 The maximum Renewable Energy generating system capacity to be installed at any\nEligible Consumer’s premises shall not exceed 100% of the Sanctioned Load/Contract\nDemand of the consumer:\nProvided that, the capacity of the Renewable Energy generating system shall be in\nconformity with the provisions relating to the Sanctioned Load or Contract Demand\npermissible under the Rajasthan Electricity Regulatory Commission (Electricity Supply\nCode and Connected Matters) Regulations, 2021 and subsequent amendments thereto.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-7.3",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "7.3",
+   "topic": "capacity >1 kW and up to 1 MW",
+   "snippet": "7.3 The capacity of Renewable Energy generating system to be installed at the premises of\nany Eligible Consumer shall be more than one kilo watt under Net Billing arrangement\nor Net Metering arrangement subject to the condition as specified in Regulation 7.2:\n\n--- Page 7 ---\n892 Rajasthan Gazette,June15,2021  Part 7\nProvided that, the capacity of Renewable Energy generating system to be installed at the\npremises of any Eligible Consumer shall be up to one mega-watt under Net Metering\narrangement or Net Billing arrangement:\nProvided further that, in case the Eligible Consumer intends to install",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-8.8",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "8.8",
+   "topic": "technical feasibility within 20 days",
+   "snippet": "8.8 Within twenty (20) days from the issuance of acknowledgement of the application, the\nconcerned officer of the respective Sub-divisional office of the Distribution Licensee\nshall check the technical feasibility of the Renewable Energy generating system.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-8.9",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "8.9",
+   "topic": "letter of approval within 30 days",
+   "snippet": "8.9 If technical feasibility is found satisfactory, the Distribution Licensee shall approve the\napplication and intimate the same to the applicant by providing a Letter of Approval\n(LoA) via email/SMS/post, within thirty (30) days from the issuance of\nacknowledgement of the application.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-8.12",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "8.12",
+   "topic": "commissioning within 30 days of installation certificate",
+   "snippet": "8.12 After installation of Renewable Energy generating system, the consumer shall submit the\ninstallation certificate to the Distribution Licensee. The Distribution Licensee shall\ncomplete signing of connection agreement, installation of meter and successful\ncommissioning of the Renewable Energy generating system within the timelines\nspecified by the Commission, which shall not be more than thirty days from the date of\nsubmission of the installation certificate. Formats of contract agreement and installation\ncertificate shall be placed on web-portal of the Distribution Licensee.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-10.14.3",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "10.14.3",
+   "topic": "behind-the-meter energy cap (CUF+5%)",
+   "snippet": "10.14.3 The maximum permissible energy that can be consumed from Renewable\nEnergy generating system installed behind Consumer’s meter shall be limited to the\nenergy corresponding to the minimum Capacity Utilisation Factor/Plant Load Factor in\npercent as applicable for respective technology as specified in the Rajasthan Electricity\nRegulatory Commission (Terms and Conditions for Tariff determination from\nRenewable Energy Sources) Regulations, 2020 plus 5 percent.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-11.10",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "11.10",
+   "topic": "metering: consumer-installed check meter",
+   "snippet": "11.10 A consumer, at his own cost, shall also install a Check Meter of appropriate class for the\nRE Generation Meter:\nProvided that, such Check meter shall be used for billing and commercial settlement, in\nthe absence of readings from RE Generation meter on account of defective/failure/burnt\ncondition.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-12.5.2",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.5.2",
+   "topic": "net billing tariff (bid tariff +25%)",
+   "snippet": "12.5.2 The Distribution Licensee shall enter into Connection Agreement at the weighted\naverage tariff discovered through Competitive Bidding for respective technology in\nprevious Financial Year and adopted by the Commission, plus an incentive of 25%. In\ncase no bidding is done in previous Financial Year, then the latest tariff discovered\nthrough competitive bidding plus an incentive of 25% shall be applicable:\nProvided that, in case no bidding is done for respective technology, the latest weighted average\ntariff of large-scale solar projects of 5 MW and more, discovered through Competitive Bid",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-12.5.6",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.5.6",
+   "topic": "net billing energy cap (CUF+5%)",
+   "snippet": "12.5.6 The maximum permissible energy that can be generated from Renewable Energy\ngenerating system installed under the Net Billing Arrangement shall be limited to the\nenergy corresponding to the minimum Capacity Utilisation Factor/Plant Load Factor in\npercent as applicable for respective technology as specified in the Rajasthan Electricity\nRegulatory Commission (Terms and Conditions for Tariff determination from\nRenewable Energy Sources) Regulations, 2020 plus 5 percent.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-12.6.1(a)",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.6.1(a)",
+   "topic": "net metering surplus purchase (domestic)",
+   "snippet": "a) If the quantum of electricity exported by a domestic category consumer exceeds the\nquantum imported during the Billing Period, the excess quantum exported by such\ndomestic consumer shall be purchased by the Distribution Licensee at the weighted\naverage tariff of large-scale solar projects of 5 MW and more, discovered through\nCompetitive Bidding in last Financial Year, and adopted by the Commission. In\ncase no bidding is done in previous Financial Year, then the latest tariff discovered\nthrough competitive bidding shall be applicable. The total amount arrived for\nexcess energy injected by su",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-12.6.1(b)",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.6.1(b)",
+   "topic": "net metering billing at highest slab (first proviso)",
+   "snippet": "Provided that, for Net Metered consumers the Net imported energy (Total\nConsumption from all sources – Allowable Solar Generation) from the grid shall be\nbilled according to the highest slab corresponding to the total consumption from all\nsources.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-12.6.1(d)",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.6.1(d)",
+   "topic": "net metering energy cap (CUF+5%)",
+   "snippet": "d) The maximum permissible energy that can be consumed from Renewable Energy\ngenerating system installed under the Net Metering Arrangement shall be limited to\nthe energy corresponding to the minimum Capacity Utilisation Factor/Plant Load\nFactor in percent as applicable for respective technology as specified in the\nRajasthan Electricity Regulatory Commission (Terms and Conditions for Tariff\ndetermination from Renewable Energy Sources) Regulations, 2020 plus 5 percent.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-002#cl-15.2",
+   "doc_id": "RJ-C3-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "15.2",
+   "topic": "charges exemption for RESCO net metering",
+   "snippet": "15.2 The quantum of electricity generated from the RESCO-owned Renewable Energy\ngenerating system under Net Metering arrangement, if installed on Eligible Consumer\npremises, shall be exempted from banking charges and wheeling charges:\nProvided that, cross subsidy surcharge and additional surcharge shall be applicable for\nsuch RESCO-owned Renewable Energy generating system under Net Metering\narrangement, except in case of LT domestic category consumers, at the rate of 50% of\ncross subsidy surcharge and additional surcharge applicable for open access consumers.",
+   "effective_date": "2021-06-15",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-6.1",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "6.1",
+   "topic": "DT hosting limit 80%; augmentation at licensee cost",
+   "snippet": "\"6.1 The cumulative capacity of Renewable Energy generating system to be allowed\nat a particular distribution transformer shall not exceed 80% of the capacity of\nsuch distribution transformer or such limit as may be stipulated by the\nCommission from time to time:\nProvided that in case augmentation of transformer installed by the Distribution\nLicensee is required the same shall be done by the Distribution Licensee at its\nown cost.\nProvided further that, in case of HT consumers where the distribution\ntransformer has been installed by the consumer, the limit of 80% of distribution\ntransformer cap",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-10.14.3",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "10.14.3",
+   "topic": "behind-the-meter peak AC capacity cap",
+   "snippet": "\"The peak AC capacity (inverter capacity on AC side) of the Renewable Energy\ngenerating station installed behind Consumer’s meter shall not exceed the\ncapacity permissible under regulation 10.14.2 above. In case during any time\nblock, if the peak AC capacity exceeds the above permissible capacity the\ncorresponding excess generation of 15-Minute or 30-Minute block, as\napplicable shall be treated as deemed drawl from the Discom.\"",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-12.5.2",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.5.2",
+   "topic": "net billing tariff (bid tariff +40%)",
+   "snippet": "\"12.5.2 The Distribution Licensee shall enter into Connection Agreement at the\nweighted average tariff discovered through Competitive Bidding for\nrespective technology in previous Financial Year and adopted by the\nCommission plus an incentive of 40%. In case no bidding is done in\nprevious Financial Year, then the latest tariff discovered through\ncompetitive bidding plus an incentive of 40% shall be applicable:\nProvided that, in case no bidding is done for respective technology, the\nlatest weighted average tariff of large-scale solar projects of 5 MW and\nmore, discovered through Competitive Bid",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-12.5.6",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.5.6",
+   "topic": "net billing peak AC capacity cap",
+   "snippet": "“12.5.6 The peak AC capacity (inverter capacity on AC side) of the Renewable\nEnergy generating station installed under the Net Billing arrangement shall\nnot exceed the contracted AC capacity. In case during any time block, if the\npeak AC capacity exceeds the contracted AC capacity the corresponding\nexcess generation of 15-Minute or 30-Minute block, as applicable shall\nlapse.",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-12.6.1(a)",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.6.1(a)",
+   "topic": "net metering surplus purchase (+25%)",
+   "snippet": "“a) If the quantum of electricity exported by a domestic category consumer exceeds\nthe quantum imported during the Billing Period, the excess quantum exported\nby such domestic consumer shall be purchased by the Distribution Licensee at\nthe weighted average tariff of large-scale solar projects of 5 MW and more,\ndiscovered through Competitive Bidding in last Financial Year, and adopted by\nthe Commission plus 25%. In case no bidding is done in previous Financial\nYear, then the latest tariff discovered through competitive bidding plus 25%\nshall be applicable. The total amount arrived for excess en",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-12.6.1(b)",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.6.1(b)",
+   "topic": "net metering billing at applicable slab (first proviso)",
+   "snippet": "“Provided that, for Net Metering consumers the Net imported energy (Total\nConsumption from all sources- Allowable Solar Generation) from the grid shall\nbe billed according to the applicable slab corresponding to the total consumption\nfrom all sources.”",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-12.6.1(d)",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.6.1(d)",
+   "topic": "net metering peak AC capacity cap",
+   "snippet": "“d) The peak AC capacity (inverter capacity on AC side) of the Renewable Energy\ngenerating station installed under the Net Metering arrangement shall not\nexceed the contracted AC capacity. In case during any time block, if the peak\nAC capacity exceeds the contracted AC capacity the corresponding excess",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-003#cl-15.2",
+   "doc_id": "RJ-C3-003",
+   "jurisdiction": "RJ",
+   "clause_ref": "15.2",
+   "topic": "no CSS/AS for RESCO net metering for domestic/govt (3rd proviso)",
+   "snippet": "“Provided also that no cross-subsidy surcharge and additional surcharge shall be\napplicable for RESCO-owned Renewable energy generating system under Net-\nMetering arrangement setup for domestic category consumers, State Govt.\nbuildings, local bodies and public undertakings of the State Govt.”",
+   "effective_date": "2023-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-004#cl-12",
+   "doc_id": "RJ-C3-004",
+   "jurisdiction": "RJ",
+   "clause_ref": "12",
+   "topic": "net metering allowed up to 1 MW or sanctioned load/CD",
+   "snippet": "12. In view of above, the Commission under its power conferred under\nregulation 19 of the RERC DREGS Regulation 2021 “Power to give\ndirections”, orders that henceforth net metering arrangement shall be\napplicable for loads upto one megawatt (01 MW) or upto the\nsanctioned load/contract demand, whichever is lower, for all\ncategories of the consumers.",
+   "effective_date": "2024-02-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-005#cl-8.8",
+   "doc_id": "RJ-C3-005",
+   "jurisdiction": "RJ",
+   "clause_ref": "8.8",
+   "topic": "feasibility 15 days, presumed feasible; deemed approval up to 10 kW",
+   "snippet": "“For installation of Renewable Energy Generating systems, the technical feasibility\nstudy shall be completed within a period of fifteen days and the outcome of the study\nshall be intimated to the applicant, failing which it shall be presumed that the\nproposal is technically feasible.\nProvided that the applications for Renewable Energy Generating systems upto 10 kW\ncapacity complete in all respects shall be deemed to have been accepted without\nrequiring technical feasibility study and any commensurate enhancement of the\nsanctioned load of the consumer, as may be required, shall be carried out b",
+   "effective_date": "2024-08-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-005#cl-8.12",
+   "doc_id": "RJ-C3-005",
+   "jurisdiction": "RJ",
+   "clause_ref": "8.12",
+   "topic": "commissioning within 15 days of installation certificate",
+   "snippet": "“After installation of Renewable Energy Generating system, the consumer shall\nsubmit the installation certificate to the Distribution Licensee and such Distribution\nLicensee shall complete signing of connection agreement, installation of meter and\nsuccessful commissioning of the Renewable Energy Generating system within fifteen\ndays from the date of submission of the installation certificate. Formats of contract\nagreement and installation certificate shall be placed on web-portal of the\nDistribution Licensee.”",
+   "effective_date": "2024-08-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C3-005#cl-12.6.1(a)",
+   "doc_id": "RJ-C3-005",
+   "jurisdiction": "RJ",
+   "clause_ref": "12.6.1(a)",
+   "topic": "educational institutions may opt net billing two months (3rd proviso)",
+   "snippet": "“Provided also that suchEducational Institutions,recognized by GoI/ GoR,which have\nopted for Net-Metering arrangement, may opt Net Billing for a period of any two\nmonths during a financial year, for which they have to intimate the distribution\nlicensee before the commencement of such period.”",
+   "effective_date": "2024-08-30",
+   "confidence": "high"
+  },
+  {
+   "node_id": "RJ-C5-002#cl-4.1",
+   "doc_id": "RJ-C5-002",
+   "jurisdiction": "RJ",
+   "clause_ref": "4.1",
+   "topic": "JVVNL procedure: DT hosting limit 80%",
+   "snippet": "'Thc cumulativc capacity of Rencwable Encrgy gencrating system to be allowed at a particular\ndistribution transformcr shall not excced 80% of the capacityof such distributiontransformer orsuch\nlimit asmaybe stipulated by the Commissionfrom time to time: .\nProvided that in case augmentation of transformer installed by the Nigam is required the same\nshall bc donc by the Nigam at itsown cost.\nProvidcd further that, in case of HT consumers wherethe distribution transformer has been\ninstallcdbytheconsumer, thelimit of 8o% of distribution transformer capacityshall not be\napplicable.\nT'he total allow",
+   "effective_date": "2023-10-19",
+   "confidence": "medium",
+   "note": "Amends clause 4.1 of JVVNL order JPR5-1073 (21.09.2021), which is not in the corpus"
+  },
+  {
+   "node_id": "RJ-C5-001#cl-p3",
+   "doc_id": "RJ-C5-001",
+   "jurisdiction": "RJ",
+   "clause_ref": "p3",
+   "topic": "solar application doubles as load extension (capacity > sanctioned load)",
+   "snippet": "If the applied SPV plant capacity is more than the sanctioned load no separate\napplications for load extension should be insisted on rather solar applications\nshould be considered as load extension application also, Further, Load extension/\nSingle phase to three phase conversion shall be executed at the time of\ncommissioning and installation of Net and Solar meter. No separate file will be",
+   "effective_date": "2024-11-11",
+   "confidence": "medium",
+   "note": "Unnumbered paragraph (third operative paragraph) of the JVVNL SOP"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(2)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(2)",
+   "topic": "RE capacity limit as specified by Commission",
+   "snippet": "(2) Renewable Energy (RE) generation unit may also be set up on other part of the premises of the\nprosumers, apart from the roof, however the total generation capacity of the RE unit shall not exceed\nthe limit as specified by the Commission.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(4)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(4)",
+   "topic": "metering threshold: net metering up to 10 kW, gross above",
+   "snippet": "(4) The regulations on Grid Interactive Roof top Solar PV system and its related matters shall provide for\nnet metering for loads up to ten kW and for gross metering for loads above ten kW.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(7)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(7)",
+   "topic": "technical feasibility within 20 days",
+   "snippet": "(7) The technical feasibility study shall be completed within the time period specified by the\nCommission, not exceeding twenty days and the outcome of the study shall be intimated to the\napplicant.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(8)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(8)",
+   "topic": "infrastructure upgradation by licensee or consumer",
+   "snippet": "(8) During the time period from the feasibility study till the completion of installation, in case, there\nis any requirement of upgradation of distribution infrastructure like augmentation of service line,\ndistribution transformer capacity, etc., for installation of the required capacity of solar PV\nsystem, the same shall be carried out by the distribution licensee or consumer, as the case may\nbe.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(9)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(9)",
+   "topic": "commissioning within 30 days of installation certificate",
+   "snippet": "(9) After installation of solar PV system, the consumer shall submit the installation certificate to the\ndistribution licensee. The licensee shall complete signing of connection agreement, installation\nof meter and successful commissioning of the solar PV system within the timelines specified by\nthe Commission which shall not be more than thirty days from the date of submission of the\ninstallation certificate. Formats of contract agreement and installation certificate shall be placed\non web-portal of the distribution licensee.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(7)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(7)",
+   "topic": "technical feasibility 15 days, presumed feasible",
+   "snippet": "“(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a\nperiod of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be\npresumed that the proposal is technically feasible.",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(7A)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(7A)",
+   "topic": "deemed approval up to 10 kW; load enhancement by licensee",
+   "snippet": "(7A) The applications for roof top solar photo voltaic systems upto 10 kW capacity, complete in all respects shall be\ndeemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of\nthe sanctioned load of the consumer, as may be required, shall be carried out by the distribution licensee.”",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(8)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(8)",
+   "topic": "infrastructure upgradation; cost in ARR up to 5 kW",
+   "snippet": "Provided that the cost of strengthening the distribution infrastructure, including distribution transformer, as\nnecessary, to facilitate the installation of roof top solar photovoltaic systemsup to a capacity of 5 kW or a higher\ncapacity as prescribed by the State Commission, shall be included in the revenue requirement of the distribution\nlicensee.",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(9)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(9)",
+   "topic": "commissioning within 15 days of installation certificate",
+   "snippet": "“(9) After installation of roof top solar photovoltaic system, the consumer shall submit the installation certificate to\nsuch distribution licensee and such distribution licensee shall complete signing of connection agreement, installation\nof meter and successful commissioning of the roof top solar photovoltaic system within fifteendays from the date of\nsubmission of the installation certificate.",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-002#cl-2",
+   "doc_id": "IN-C1-002",
+   "jurisdiction": "IN",
+   "clause_ref": "2",
+   "topic": "CFA slab Phase-II (40% up to 3 kW, 20% 3-10 kW)",
+   "snippet": "2, Accordingly, it is clarified that subsidy for individual residential household under Phase\n— II of Grid Connected Rooftop Solar Programme will be available to all eligible households\nfor installation of rooftop solar plant as per regulations of respective SERCs and provisions of\nprogramme implementation Guidelines, in the following manner:\nS. Total capacity of rooftop solar | Applicable subsidy in terms of Benchmark cost or\nNo. | installations cost arrived through tender, whichever is lower.\nI Up to 3 kW 40%\n2. Above 3 kW and up to 10 kW | 40% for first 3 kW and 20% for balance capacity.\n3.",
+   "effective_date": "2019-09-03",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-009#cl-2.iii",
+   "doc_id": "IN-C1-009",
+   "jurisdiction": "IN",
+   "clause_ref": "2.iii",
+   "topic": "technical feasibility within 15 working days (national portal)",
+   "snippet": "Theapplicationwillbeforwardedonlinetotheconcerned DISCOMforissuanceof\ntechnical feasibilityapprovalwithinnext15workingdays.",
+   "effective_date": "2022-02-02",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-009#cl-2.iv",
+   "doc_id": "IN-C1-009",
+   "jurisdiction": "IN",
+   "clause_ref": "2.iv",
+   "topic": "DCR and ALMM modules required",
+   "snippet": "After obtainingtechnical feasibility, thebeneficiarywill install the RTSplantfrom any\nvendor of his choice by selecting solar modulesfulfilling the conditions of DCR and\nenlistment under ALMMandinverterswhicharecertifiedby BIS.",
+   "effective_date": "2022-02-02",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-003#cl-1",
+   "doc_id": "IN-C1-003",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "Phase-II deemed subsumed in PMSG from 13.02.2024",
+   "snippet": "The sanction of the President of India is hereby granted for the PM -Surya Ghar: Muft Bijli Yojana,\naimed at installing rooftop solar plants in one crore households, with a total financial outlay of Rs.\n75,021 crore, including all scheme sub-components.The Schemewas launched by the Government of\nIndia on13.02.2024.The previous scheme of Phase-II of the Grid Connected Rooftop Solar\nprogramme will be deemed subsumed under this scheme, along with the remaining financial outlay\nand liabilities, effective from the launch ofthe PM-Surya Ghar: Muft Bijli Yojana, i.e.,13.02.2024.",
+   "effective_date": "2024-02-13",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-003#cl-3",
+   "doc_id": "IN-C1-003",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "CFA slab PMSG (60% first 2 kW, 40% next 1 kW; Rs 30,000/18,000)",
+   "snippet": "Thesubsidy/CFAunder the PM-Surya Ghar: Muft Bijli Yojanawouldbeapplicable to all\napplications submitted on theportal on or after13.02.2024.The CFA under theschemewould be as\nfollows:\nS. No.\nType of Residential Segment\nCFA\n1.\nResidential Sector(first 2k W of RTS capacity or\n60%ofbenchmark\npart thereof)\ncostof2k W\n2.\nResidential Sector(with additional RTScapacityof\n40%ofbenchmark\n1 k Worpart thereof)\ncostofadditionalk W",
+   "effective_date": "2024-02-13",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-001#cl-4(a)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "4(a)",
+   "topic": "Phase-II scheme subsumed",
+   "snippet": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "effective_date": "2024-06-07",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(b)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(b)",
+   "topic": "CFA eligibility: residential RTS incl. GNM/VNM",
+   "snippet": "b) Eligibility: For the purpose of CFA, residential RTS plant would be the grid connected\nsolar power system tagged to a particular residential power connection of the local\nDISCOM and will only include installations on a roof/terrace/balcony or on top of\nelevated structures. Special RTS installations such as Building Integrated PV (BiPV)\nsystems shall also be considered eligible for CFA support. To clarify, installations under\nmetering mechanisms such as Group Net Metering and Virtual Net Metering shall be\neligible for CFA if the installations are on any roof/terrace/balcony or on top of elev",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(d)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(d)",
+   "topic": "no CFA to non-residential",
+   "snippet": "d) No CFA will be provided to non-residential segments of consumers (including\ngovernment segment, commercial and industrial segment etc.).",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(e)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(e)",
+   "topic": "CFA slab PMSG (60%/40%/none beyond 3 kWp; GHS/RWA)",
+   "snippet": "e) CFA Structure: The Central Financial Assistance for the residential sector shall be as per\nthe following table:\n\n| S. No. | Type of Residential Segment | CFA |\n| --- | --- | --- |\n| 1. | Residential Sector (first 2 kWp of RTS capacity or part thereof) | 60% of benchmark cost of 2 kWp |\n| 2. | Residential Sector (with additional RTS capacity of 1 kWp or part thereof) | 40% of benchmark cost of additional kWp |\n| 3. | Residential Sector (additional RTS capacity beyond 3 kWp) | No additional CFA |\n| 4. | Group Housing Societies/ Residential Welfare Associations (GHS/RWA) etc, for common facili",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(f)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(f)",
+   "topic": "GHS/RWA connection for common facilities only",
+   "snippet": "f) The GHS/RWA connection eligible under the scheme shall be dedicated only for common\nfacilities and should not be utilized for providing electricity supply to residential\nconsumers within the GHS/RWA.\ni) The CFA support will generally be provided to entities created by residents for overall\nmaintenance and that are responsible for upkeep of common facilities and these may\nbe known by alternative terminologies such as Apartment Owner Associations\n(AOAs), Cooperative Housing Societies etc.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(h)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(h)",
+   "topic": "effective CFA Rs 30,000/18,000 per kWp",
+   "snippet": "h) Effective CFA: The CFA for the scheme with effect from date of initiation, i.e., 13th\nFebruary, 2024 is as follows:-\n\n| S. No. | Type of Residential Segment | CFA | CFA (Special Category States) |\n| --- | --- | --- | --- |\n| 1. | Residential Sector (first 2 kW of RTS capacity p or part thereof) | Rs 30,000/kWp | Rs 33,000/kWp |\n| 2. | Residential Sector (with additional RTS capacity of 1 kW or part thereof) p | Rs 18,000/kWp | Rs 19,800/kWp |\n| 3. | Residential Sector (additional RTS capacity beyond 3 kW ) p | No additional CFA | No additional CFA |\n| 4. | Group Housing Societies/ Residenti",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(i)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(i)",
+   "topic": "additional state subsidy",
+   "snippet": "i) Additional State Subsidy: The State/UT governments may supplement the CFA provided\nby the central government for the residential sector with an additional subsidy for RTS;\nhowever, this shall be subject to adherence to all scheme guidelines by the State. The\nframework of such support by the State/UT governments shall be in alignment with the\nsupport provided under the scheme. The process for disbursement of state subsidy\ncomponent shall be integrated with the National Portal.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(m)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(m)",
+   "topic": "DCR mandate for CFA",
+   "snippet": "m) Domestic Content Requirement: Solar modules used in the installation must satisfy the\nDomestic Content Requirement condition i.e., domestically manufactured modules\nmanufactured from domestically manufactured cells. This is an essential condition for\nthe installation to be eligible for the CFA. Use of non-DCR modules in any form in the\ninstallation shall render the installation ineligible for CFA.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(n)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(n)",
+   "topic": "pre-existing RTS: CFA for balance capacity up to 3 kW",
+   "snippet": "n) Pre-existing RTS: A rooftop solar installation by residential consumers/RWAs that has\navailed CFA under a prior/current scheme for rooftop solar by Ministry of New and\nRenewable Energy and has subsequently increased the RTS installation size shall be\neligible for additional CFA under the current scheme only for the balance capacity up to\n3 kW of overall RTS plant size.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-6(f)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "6(f)",
+   "topic": "minimum technical specifications",
+   "snippet": "f) Minimum Technical Specifications: The Ministry shall identify the minimum technical\nspecifications to be adhered to by all vendors for RTS systems installed under the\nscheme. It will be the responsibility of the vendors to ensure that the system meets the\nminimum technical specifications as detailed in Annexure 3. This will also be checked by\nthe DISCOMs at the time of inspection.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-6(h)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "6(h)",
+   "topic": "feasibility: deemed approval up to 10 kW per ROC Rules",
+   "snippet": "h) Feasibility Approval: As per the provisions of the Electricity (Rights of Consumers) Rules,\n2020 and subsequent amendments, applications for rooftop solar systems up to 10 kW\ncapacity shall be deemed to have been accepted without requiring approval of technical\nfeasibility by the DISCOMs. Till the operationalization of this provision by respective\nRegulatory Commissions/DISCOMs, the consumer shall upload the necessary documents\nfor seeking feasibility approval, wherever required as per extant state regulations.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-6(l)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "6(l)",
+   "topic": "metering arrangements covered",
+   "snippet": "l) Meter Installation and Agreement: The meter shall be installed by DISCOM after rooftop\ninstallation is complete and the DISCOM and the consumer will sign the appropriate\nmetering agreement as per state regulations. The net meter will be provided by the\nDISCOM or the consumer may procure the net meters from enlisted meter vendors. A\nmodel net metering agreement is shown at Annexure 4. However, the actual agreement\nmay vary. All metering arrangements (net metering, gross metering, net billing, virtual\nnet metering, group net metering etc.) approved by the respective Electricity Regulatory\nCom",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-6(m)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "6(m)",
+   "topic": "metering: smart net meters via AMISP",
+   "snippet": "m) Metering in AMISP Areas: For the purpose of net metering, in the areas where the Smart\nMetering works have already been awarded under Revamped Distribution Sector\nScheme (RDSS), DISCOMs/PDs (Power Departments) should mandatorily get the Smart\nMeters installed through the AMISP (Advance Metering Infrastructure Service Provider).",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-Annexure-1",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "Annexure-1",
+   "topic": "Phase-II claims cut-off (October 2024) and rates",
+   "snippet": "| Note: all applications received prior to launch of PM - Surya Ghar : Muft Bijli Yojana (before 13th Feb 2024 will be covered under the Phase II rooftop solar programme) and will be eligible for the CFA as indicate above. All applications submitted under the Phase II of rooftop solar programme will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained. |",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-Amendment-i",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "Amendment-i",
+   "topic": "additional state subsidy (amended 5(i))",
+   "snippet": "Additional State/UTsubsidyshouldbe\nprovided under the scheme.The\nupdated on the National portal.",
+   "effective_date": "2025-07-07",
+   "confidence": "low",
+   "note": "Para-wise amendment OM F.no.318/140/2024 dated 07.07.2025 bundled at the front of this file; clause_ref is its Sl. No.; two-column OCR interleaves existing and amended text"
+  },
+  {
+   "node_id": "IN-C1-001#cl-Amendment-ii",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "Amendment-ii",
+   "topic": "Phase-II claims cut-off extended to 31.12.2025",
+   "snippet": "submitted under the Phase IIofrooftop\ninspected/installed stage under the Phase I\nsolarprogramme will be admissible for\nofRooftop Solar programmewillbe\nCFAiftheclaimisreceived till October\nadmissible for CFA.if claim is received till\n2024.Theclaimsreceivedafter\n31.12.2025.However, to clarify.all such\nOctober2024willnotbeentertained.\napplications will be admissible for CFA as\nper the respective RTS phase II programme\nguidelines.\nApplications submitted butnot installed as\non 01.04.2025 shall be ineligible for CFA\nand shall be deleted from the database.Such\nconsumers.whose applications are so\ndel",
+   "effective_date": "2025-07-07",
+   "confidence": "low",
+   "note": "Para-wise amendment OM F.no.318/140/2024 dated 07.07.2025 bundled at the front of this file; clause_ref is its Sl. No.; two-column OCR interleaves existing and amended text"
+  },
+  {
+   "node_id": "IN-C1-001#cl-Amendment-iii",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "Amendment-iii",
+   "topic": "technical specifications amendable prospectively",
+   "snippet": "6(f): The Ministry shall identify the\nThe Ministry shall identify the minimum\nminimum technical specifications to be\ntechnical specifications to be adhercd toby\nadheredto byall vendors for RTS\nallvendors for RTS systems installed under\nsystems installed under the scheme.It\nthe scheme. The Ministry may amend the\nwill betheresponsibilityofthevendors\ntechnical\nspecifications\nas\nrequired\nto ensure that the system meets the\nprospectively. with the approval of the\nminimum technical specifications as\nSecretary,\nMNRE.\n1\nwill\nbe\nthe\ndetailed in Annexure 3.This will also\nresponsibility of thevendors to ",
+   "effective_date": "2025-07-07",
+   "confidence": "low",
+   "note": "Para-wise amendment OM F.no.318/140/2024 dated 07.07.2025 bundled at the front of this file; clause_ref is its Sl. No.; two-column OCR interleaves existing and amended text"
+  },
+  {
+   "node_id": "IN-C1-005#cl-3",
+   "doc_id": "IN-C1-005",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "CFA to developers/promoters for GHS/RWA common areas",
+   "snippet": "3.\nRepresentations have been received regarding the subsidy disbursal for rooftop\ninstallations on residential projects, where common areas are being serviced directly by real\nestatepromoters/developersinabsenceofanyconstituted RWA/GHS.Itisclarified that CFA\nsupportunder the Group Housing/RWAsegment canbeprovidedto such\ndevelopers/promoters directly, subject to the submission of an undertaking that the rooftop\nsolar asset supported under PMSG: MBY will behanded over to the GHS/RWA/AOAs/\nCooperative Housing Society or any other collective created by residents for overall\nmaintenance, whenever s",
+   "effective_date": "2024-11-19",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-004#cl-1.5.1",
+   "doc_id": "IN-C2-004",
+   "jurisdiction": "IN",
+   "clause_ref": "1.5.1",
+   "topic": "ALMM minimum module efficiency (rooftop 19.5%)",
+   "snippet": "1.5.1Onlysuchmodelsof Solar PVModule Manufacturers, willbeeligibleforenlistment under ALMM, whichcomplieswiththe Bi SStandardsandarehavingthefollowingminimum\nmoduleefficiency:\nCategory\nApplication/ Use\nMinimum Module\nEfficiency required to be\neligibleforenlistment\nunder ALMM\nCategoryl\nUtility/Grid Scale Power Plants\n20.0%\nCategoryll\nRooftop and Solar Pumping\n19.5%\nCategory Ill\nSolar Lighting\n19.0%",
+   "effective_date": "2023-05-10",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-004#cl-1.6",
+   "doc_id": "IN-C2-004",
+   "jurisdiction": "IN",
+   "clause_ref": "1.6",
+   "topic": "ALMM Order in abeyance FY 2023-24",
+   "snippet": "1.6.It is reiterated that the ALMM Order is in abeyance for one financialyear, i.e.FY2023-\n24.",
+   "effective_date": "2023-05-10",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-003#cl-1",
+   "doc_id": "IN-C2-003",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "ALMM: 09.02.2024 OM held in abeyance",
+   "snippet": "The undersigned is directed to convey that the O.M. of even no. dated 9th February, 2024\n(copy enclosed) on the subject issue, is hereby held in abeyance till further orders.",
+   "effective_date": "2024-02-15",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-003#cl-encl.a-b",
+   "doc_id": "IN-C2-003",
+   "jurisdiction": "IN",
+   "clause_ref": "encl.a-b",
+   "topic": "ALMM re-imposed 1.4.2024; applies to subsidised rooftops only (09.02.2024 OM)",
+   "snippet": "a) The ALMM [Approved List of Models & Manufacturers] for Solar PV Modules, is being\nre-imposed with effect from 1 st April, 2024.\nb) The ALMM will apply as per the Law, onIY to those projects which are sponsored/\nsubsidized by the Government. ALMM will appIY to Government or ItS agencles\nprocuring power for its own consumption or for distribution to the people through\nDistribution Companies. ALMM will apply to Solar PV RooftoPS and PM KUSUM;\nwhich are subsidized. The ALMM will not apply to projects set UP under open access\nor as captive by private parties. In other words, ALMM will not be app",
+   "effective_date": "2024-02-09",
+   "confidence": "medium",
+   "note": "Enclosed OM dated 09.02.2024 (page 2 of the file); paragraph letters a) and b)"
+  },
+  {
+   "node_id": "IN-C2-002#cl-1",
+   "doc_id": "IN-C2-002",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "ALMM for modules effective 1 April 2024",
+   "snippet": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and\nManufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration)\nOrder, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is\nclarified that the ALMM[Approved List of Models&Manufacturers]for Solar PVModules,\nshallaccordinglycomeintoeffectfrom1st April, 2024.",
+   "effective_date": "2024-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-007#cl-4",
+   "doc_id": "IN-C2-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4",
+   "topic": "ALMM efficiency thresholds amended (rooftop 19.50% unchanged; off-grid <200 Wp 18%)",
+   "snippet": "Accordingly, it has been decided to amend the aforesaid module efficiency thresholds\nfor ALMM enlistmentasfollows:\nMinimum\nModule\nEfficiency\nrequired to be eligible for enlistment\nin ALMM for solar PV modules\nCategory\nApplication/Use\nFor\nc-Si\nFor\nCd Te\nthin\ntechnology\nfilm\ntechnology\nbased solar PV\nbased solar PV\nmodules\nmodules\nCategory-l\nUtility/Grid Scale Power Plants\n20.00%\n19.00%\nCategory-ll\nRooftop and Solar Pumping\n19.50%\n18.50%\nCategory-Ill!\nOff-grid\nprojects/applications\n18.00%\n18.00%\nlike solar lamps, solar lights,\nsolar street lights, solar fans,\n(not to be included in main ALMM Lis",
+   "effective_date": "2025-05-06",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-006#cl-8",
+   "doc_id": "IN-C2-006",
+   "jurisdiction": "IN",
+   "clause_ref": "8",
+   "topic": "ALMM List-II cells for net-metering projects commissioned on/after 1 June 2026",
+   "snippet": "These Net_Metering and Open\nAccess RE Power Projects which are mandated to use ALMM enlisted modules, will stand\nexempted from the requirement of using solar PV cells from ALMM List-II if such projects get\ncommissioned prior tO lst June 2026. All the Net-Metering Projects and Open Access RE\nPower Projects which get commissioned on or after 1 =t June 2026, shall have to mandatorily\nsource their solar PV modules from ALMM List-1 and solar PV cells from ALMM List-II.",
+   "effective_date": "2026-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-005#cl-2(b)",
+   "doc_id": "IN-C2-005",
+   "jurisdiction": "IN",
+   "clause_ref": "2(b)",
+   "topic": "DCR verification via portal mandatory for PMSG from 1.12.2024",
+   "snippet": "b) From 1 st December 2024 onwards, any solar PV module, whose DCR credentials\ncannot be verified through the aforesaid DCR verification portal, shall not be\naccepted under MNRE’s CPSU Scheme Phase-II, PM SurYaghar: Muft Bijli Yojana\nand PM-KUSUM.",
+   "effective_date": "2024-12-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-001#cl-2",
+   "doc_id": "IN-C2-001",
+   "jurisdiction": "IN",
+   "clause_ref": "2",
+   "topic": "ALMM List-I enlistment efficiency criteria (restated)",
+   "snippet": "2. This Ministry vide its o.M. No. 283/22/2023-GRID SOLAR/Pt dated 10.05.2023 and O.M. of even no.\ndated 22.03.2024 inter-alia directed that only such models of Solar PV Module ManufactuFers will be enlisted undeF\nALMM, which comply with the BIS Standards and are having the following minimum module efficlencY:",
+   "effective_date": "2024-10-14",
+   "confidence": "low",
+   "note": "OCR of threshold table illegible"
+  }
+ ],
+ "edges": [
+  {
+   "from_node": "MH-C3-001#cl-2.1(j)",
+   "to_node": "MH-C3-003#cl-2.1(j)",
+   "type": "supersedes",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Substitution of Regulation 2.1 (j) of the Principal Regulations:—",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-8.3",
+   "to_node": "MH-C3-003#cl-8.3",
+   "type": "supersedes",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Substitution of Regulation 8.3 of the Principal Regulations:—\n“8.3 The Net Metering Arrangement or Net Billing Arrangement shall include a\nsingle-phase or a three-phase Net Meter, as may be required, located at the point of inter-\nconnection as ascertained by the Distribution Licensee.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-8.11",
+   "to_node": "MH-C3-003#cl-8.11",
+   "type": "supersedes",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Substitution of Regulation 8.11 of the Principal Regulations:—\n“8.11 In case of Renewable Energy Generating System set up under Gross Metering\nArrangement, an additional Check Meter for the Renewable Energy Generation Meter\nof appropriate class shall be installed by the Distribution Licensee.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-9.5",
+   "to_node": "MH-C3-003#cl-9.5",
+   "type": "supersedes",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Substitution of Regulation 9.5 of the Principal Regulations:—\n“ 9.5 The procedure for application for connectivity of a Renewable Energy Generating\nSystem with the Network of the Distribution Licensee and timelines for performing various\nactivities are set out at Annexure-1 of these Regulations:\nProvided that in case of delay in performing any activity by Distribution Licensee, it\nshall compensate the concerned consumer at the rate of five hundred rupees per day of\ndelay in performing the activity.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-11.5",
+   "to_node": "MH-C3-003#cl-11.5",
+   "type": "amends",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Introduction of 2nd Proviso to Regulation 11.5 of the Principal Regulations:—\n“Provided further that the Grid Support Charges shall not be levied till installations\nunder rooftop arrangement in the State reach 5000 MW:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-12.1",
+   "to_node": "MH-C3-003#cl-12.1",
+   "type": "supersedes",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Substitution of Regulation 12 and 12.1 of the Principal Regulations:—\n“12. Gross Metering – Energy Accounting and Settlement\n12.1 Gross Metering is the arrangement where the Renewable Energy Generating\nSystem is setup for selling entire generated power to Distribution Licensee under Power\nPurchase Agreement :",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-Annexure-1.h",
+   "to_node": "MH-C3-003#cl-Annexure-1.h",
+   "type": "supersedes",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Substitution of Clause 1(h) of Annexure-1 of the Principal Regulations:—\n“(h) The Eligible Consumer and Distribution Licensee shall enter into a Net Metering\nConnection Agreement or the Net Billing Connection Agreement or Gross Metering\nConnection Agreement, as the case may be, in the prescribed format after the Renewable\nEnergy Generating System is installed but before it is synchronized with the distribution\nnetwork.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-003#cl-2.1(j)",
+   "to_node": "MH-C3-002#cl-2.1(j)",
+   "type": "amends",
+   "effective_date": "2024-08-29",
+   "evidence_quote": "Introduction of 4th and 5th proviso to Regulation 2.1 (j) of the Principal Regulations :—\n“Provided also that Residential consumer in multi storied building can setup Renewable\nEnergy Generating System at any place located within same Distribution Licensee’s area of\nsupply and source renewable energy generated from such plant under Virtual Net-Metering\nArrangement:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-003#cl-8.11",
+   "to_node": "MH-C3-002#cl-8.11",
+   "type": "supersedes",
+   "effective_date": "2024-08-29",
+   "evidence_quote": "Substitution of Regulation 8.11 of the Amendment Regulations :—\n“8.11 In case of Renewable Energy Generating System set up under Gross Metering\nArrangement and Virtual Net Metering Arrangement, an additional Check Meter for the\nRenewable Energy Generation Meter of appropriate class shall be installed by the Distribution\nLicensee.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-9.7",
+   "to_node": "MH-C3-002#cl-9.7",
+   "type": "supersedes",
+   "effective_date": "2024-08-29",
+   "evidence_quote": "Substitution of Regulation 9.7 of the Principal Regulations : —\n“9.7 Before rejecting any application for setting up a Renewable Energy Generating System\nat a particular Distribution Transformer, the Distribution Licensee shall serve the applicant\nwith a notice to rectify the defects in the ambit of the consumer, within (15) days or such longer\nperiod as may be necessary for removing the deficiencies:\nProvided that application may be considered in chronological order of seniority.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-Annexure-1.c",
+   "to_node": "MH-C3-002#cl-Annexure-1.c",
+   "type": "supersedes",
+   "effective_date": "2024-08-29",
+   "evidence_quote": "Substitution of Clause C of Annexure-1 of the Principal Regulations :—\n“ c For installation of Renewable Energy Generating Systems, the technical feasibility\nstudy shall be completed within a period of (15) days and the outcome of the study shall be\nintimated to the applicant, failing which it shall be presumed that the proposal is technically\nfeasible:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "MH-C3-001#cl-11.4(d)",
+   "to_node": "MH-C3-004#cl-7.13.79",
+   "type": "partially_supersedes",
+   "effective_date": "2025-04-01",
+   "evidence_quote": "7.13.79 Hence, the Commission further rules that in case of LT-Residential consumers\nwith RTS systems, the benefit of Net Metering or Group Net Metering or\nVirtual Net Metering shall continue to be available for all hours through out\nthe day for adjustment of surplus energy unit credit including during Peak\nHours (17:00 hrs to 24:00 hrs) even after installation of ToD meter/ Smart\nMeter by such consumer. The energy accounting, surplus energy credit\nadjustment and commercial settlement thereof for LT-Residential consumers\nwith RTS systems shall be undertaken in line with provisions specified un",
+   "confidence": "low",
+   "reason": "Tariff order (not a regulation amendment) directs that for LT-residential RTS consumers net-metering credits apply across all hours without ToD-slot-wise banking, displacing the off-peak treatment of Reg 11.4(d) for that class during the 5th Control Period; no substitution language."
+  },
+  {
+   "from_node": "MH-C5-001#cl-2.1",
+   "to_node": "MH-C3-003#cl-2.1(j)",
+   "type": "supersedes",
+   "effective_date": "2023-11-16",
+   "evidence_quote": "Substitution of Regulation 2.1 (j) of the Principal Regulations:—",
+   "confidence": "low",
+   "reason": "CC/322 restates the 2019 definition (<1 MW); the regulation it restates was substituted in 2023. No MSEDCL circular in the corpus withdraws CC/322 clause 2.1."
+  },
+  {
+   "from_node": "MH-C5-001#cl-5.6",
+   "to_node": "MH-C5-006#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2024-07-24",
+   "evidence_quote": "3. In cases, where RTS application received with pending arrears, will be auto\napproved and processed further in New Connection System.",
+   "confidence": "low",
+   "reason": "2024 MSEDCL letter lets PMSG applications with arrears be auto-processed (arrears still recovered before net meter issue, p.2); no express withdrawal of CC/322 5.6, and the underlying MERC Reg 6.6 is not amended in the corpus."
+  },
+  {
+   "from_node": "MH-C5-005#cl-3.2",
+   "to_node": "IN-C1-001#cl-5(e)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "low",
+   "reason": "Central Phase-II CFA slab (as implemented by MSEDCL CC/331) displaced for new applications by PMSG CFA; MNRE text subsumes Phase-II, MSEDCL text never withdrawn."
+  },
+  {
+   "from_node": "MH-C6-001#cl-GCR-2",
+   "to_node": "IN-C1-001#cl-5(e)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "low",
+   "reason": "Undated MEDA FAQ states Phase-II 40%/20% subsidy; superseded in substance by PMSG CFA, not by any MEDA text."
+  },
+  {
+   "from_node": "RJ-C3-001#cl-2",
+   "to_node": "RJ-C3-002#cl-6.1",
+   "type": "partially_supersedes",
+   "effective_date": "2021-06-15",
+   "evidence_quote": "3.4 These Regulations shall be applicable to all Grid interactive Distributed Renewable\nEnergy generating systems that are commissioned on or after 1st July 2021:\nProvided that, Rooftop and Small Solar Grid Interactive Systems commissioned under\nNet Metering agreements up to 30th June 2021, shall continue to operate under the Net\nMetering arrangement till the period of Connection Agreement, as per the provisions of\nthe Rajasthan Electricity Regulatory Commission (Connectivity and Net Metering for\nRooftop and Small Solar Grid Interactive Systems) Regulations, 2015 and subsequent\namendments ther",
+   "confidence": "medium",
+   "reason": "2021 Regulations apply to systems commissioned on/after 1 July 2021 and coexist with the 2015 Regulations (Reg 1.4); no repeal clause. DT limit 30% -> 50% for new systems."
+  },
+  {
+   "from_node": "RJ-C3-001#cl-3",
+   "to_node": "RJ-C3-002#cl-7.2",
+   "type": "partially_supersedes",
+   "effective_date": "2021-06-15",
+   "evidence_quote": "3.4 These Regulations shall be applicable to all Grid interactive Distributed Renewable\nEnergy generating systems that are commissioned on or after 1st July 2021:\nProvided that, Rooftop and Small Solar Grid Interactive Systems commissioned under\nNet Metering agreements up to 30th June 2021, shall continue to operate under the Net\nMetering arrangement till the period of Connection Agreement, as per the provisions of\nthe Rajasthan Electricity Regulatory Commission (Connectivity and Net Metering for\nRooftop and Small Solar Grid Interactive Systems) Regulations, 2015 and subsequent\namendments ther",
+   "confidence": "medium",
+   "reason": "Capacity cap 80% -> 100% of sanctioned load/CD for systems commissioned on/after 1 July 2021; 2015 Regulations continue for earlier systems."
+  },
+  {
+   "from_node": "RJ-C3-001#cl-6",
+   "to_node": "RJ-C3-002#cl-12.6.1(a)",
+   "type": "partially_supersedes",
+   "effective_date": "2021-06-15",
+   "evidence_quote": "Provided that, even in case of Domestic consumers having existing Net Metering\ninstallations governed as per the Rajasthan Electricity Regulatory Commission\n(Connectivity and Net Metering for Rooftop and Small Solar Grid Interactive\nSystems) Regulations, 2015 and subsequent amendments thereof, the excess\nquantum exported shall be purchased by the Distribution Licensee at the weighted\naverage tariff of large scale solar projects of 5 MW and more, discovered through\nCompetitive Bidding in last Financial Year, and adopted by the Commission. In\ncase no bidding is done in previous Financial Year, t",
+   "confidence": "medium",
+   "reason": "2021 Reg 12.6.1(a) proviso expressly extends the new surplus-purchase rate to domestic installations governed by the 2015 Regulations."
+  },
+  {
+   "from_node": "RJ-C3-001#cl-10",
+   "to_node": "RJ-C3-002#cl-11.10",
+   "type": "partially_supersedes",
+   "effective_date": "2021-06-15",
+   "evidence_quote": "3.4 These Regulations shall be applicable to all Grid interactive Distributed Renewable\nEnergy generating systems that are commissioned on or after 1st July 2021:\nProvided that, Rooftop and Small Solar Grid Interactive Systems commissioned under\nNet Metering agreements up to 30th June 2021, shall continue to operate under the Net\nMetering arrangement till the period of Connection Agreement, as per the provisions of\nthe Rajasthan Electricity Regulatory Commission (Connectivity and Net Metering for\nRooftop and Small Solar Grid Interactive Systems) Regulations, 2015 and subsequent\namendments ther",
+   "confidence": "low",
+   "reason": "Check meter optional up to 250 kW (2015) vs consumer-installed check meter (2021) for new systems; inferred from applicability clause only."
+  },
+  {
+   "from_node": "RJ-C3-002#cl-6.1",
+   "to_node": "RJ-C3-003#cl-6.1",
+   "type": "supersedes",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "The existing sub-regulation 6.1 shall be substituted with the following:\n\"6.1 The cumulative capacity of Renewable Energy generating system to be allowed\nat a particular distribution transformer shall not exceed 80% of the capacity of\nsuch distribution transformer",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-10.14.3",
+   "to_node": "RJ-C3-003#cl-10.14.3",
+   "type": "supersedes",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "The existing sub-regulation 10.14.3 shall be substituted with the following:\n\"The peak AC capacity (inverter capacity on AC side) of the Renewable Energy\ngenerating station installed behind Consumer’s meter shall not exceed the\ncapacity permissible under regulation 10.14.2 above.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-12.5.2",
+   "to_node": "RJ-C3-003#cl-12.5.2",
+   "type": "supersedes",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "(1) The existing main provision and first proviso of sub-regulation 12.5.2 shall be\nsubstituted with the following:\n\"12.5.2 The Distribution Licensee shall enter into Connection Agreement at the\nweighted average tariff discovered through Competitive Bidding for\nrespective technology in previous Financial Year and adopted by the\nCommission plus an incentive of 40%.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-12.5.6",
+   "to_node": "RJ-C3-003#cl-12.5.6",
+   "type": "supersedes",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "(2) The existing provision of sub-regulation 12.5.6 shall be substituted with the\n\n--- Page 6 ---\nPart 7 Rajasthan Gazette, October 06, 2023 [Page 297]\nfollowing:\n“12.5.6 The peak AC capacity (inverter capacity on AC side) of the Renewable\nEnergy generating station installed under the Net Billing arrangement shall\nnot exceed the contracted AC capacity.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-12.6.1(a)",
+   "to_node": "RJ-C3-003#cl-12.6.1(a)",
+   "type": "supersedes",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "(3) The existing main provisions and first proviso of sub-regulation 12.6.1 (a) and the\nexisting main provision of 12.6.1 (d) shall be substituted with the following:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-12.6.1(d)",
+   "to_node": "RJ-C3-003#cl-12.6.1(d)",
+   "type": "supersedes",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "(3) The existing main provisions and first proviso of sub-regulation 12.6.1 (a) and the\nexisting main provision of 12.6.1 (d) shall be substituted with the following:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-12.6.1(b)",
+   "to_node": "RJ-C3-003#cl-12.6.1(b)",
+   "type": "supersedes",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "(4) The existing First Proviso to sub-regulation 12.6.1 (b) shall be substituted with the\n\n--- Page 7 ---\nPart 7 Rajasthan Gazette, October 06, 2023 [Page 298]\nfollowing:\n“Provided that, for Net Metering consumers the Net imported energy (Total\nConsumption from all sources- Allowable Solar Generation) from the grid shall\nbe billed according to the applicable slab corresponding to the total consumption\nfrom all sources.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-15.2",
+   "to_node": "RJ-C3-003#cl-15.2",
+   "type": "amends",
+   "effective_date": "2023-10-06",
+   "evidence_quote": "A new Third proviso shall be added below the existing main sub-regulation 15.2 as\nunder:\n“Provided also that no cross-subsidy surcharge and additional surcharge shall be\napplicable for RESCO-owned Renewable energy generating system under Net-\nMetering arrangement setup for domestic category consumers, State Govt.\nbuildings, local bodies and public undertakings of the State Govt.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-3.2",
+   "to_node": "RJ-C3-004#cl-12",
+   "type": "amends",
+   "effective_date": "2024-02-07",
+   "evidence_quote": "12. In view of above, the Commission under its power conferred under\nregulation 19 of the RERC DREGS Regulation 2021 “Power to give\ndirections”, orders that henceforth net metering arrangement shall be\napplicable for loads upto one megawatt (01 MW) or upto the\nsanctioned load/contract demand, whichever is lower, for all\ncategories of the consumers.",
+   "confidence": "medium",
+   "reason": "Suo-motu direction under Reg 19 (power to give directions), implementing Reg 3.2 proviso; it raises the net-metering limit from the 500 kW set by an earlier 07.09.2021 order that is not in the corpus."
+  },
+  {
+   "from_node": "RJ-C3-002#cl-8.8",
+   "to_node": "RJ-C3-005#cl-8.8",
+   "type": "supersedes",
+   "effective_date": "2024-08-30",
+   "evidence_quote": "(1) The existing sub regulation 8.8 shall be substituted with the following:\n“For installation of Renewable Energy Generating systems, the technical feasibility\nstudy shall be completed within a period of fifteen days and the outcome of the study\nshall be intimated to the applicant, failing which it shall be presumed that the\nproposal is technically feasible.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-002#cl-8.12",
+   "to_node": "RJ-C3-005#cl-8.12",
+   "type": "supersedes",
+   "effective_date": "2024-08-30",
+   "evidence_quote": "(2) The existing sub regulation 8.12 shall be substituted with the following:\n“After installation of Renewable Energy Generating system, the consumer shall\nsubmit the installation certificate to the Distribution Licensee and such Distribution\nLicensee shall complete signing of connection agreement, installation of meter and\nsuccessful commissioning of the Renewable Energy Generating system within fifteen\ndays from the date of submission of the installation certificate.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "RJ-C3-003#cl-12.6.1(a)",
+   "to_node": "RJ-C3-005#cl-12.6.1(a)",
+   "type": "amends",
+   "effective_date": "2024-08-30",
+   "evidence_quote": "A new Third Proviso shall be added below the existing Second Proviso to the sub-regulation\n12.6.1(a)of the main sub regulation 12.6 as under:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(7)",
+   "to_node": "IN-C3-001#cl-11(7)",
+   "type": "supersedes",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(i) for sub-rule (7), the following sub-rule shall be substituted, namely:-\n“(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a\nperiod of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be\npresumed that the proposal is technically feasible.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(7)",
+   "to_node": "IN-C3-001#cl-11(7A)",
+   "type": "supersedes",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(i) for sub-rule (7), the following sub-rule shall be substituted, namely:-\n“(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a\nperiod of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be\npresumed that the proposal is technically feasible.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(8)",
+   "to_node": "IN-C3-001#cl-11(8)",
+   "type": "supersedes",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(ii) for sub-rule (8), the following sub-rule shall be substituted, namely:-\n(8) subject to sub-rule (7A)",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(9)",
+   "to_node": "IN-C3-001#cl-11(9)",
+   "type": "supersedes",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(iii) for sub-rule (9), the following sub-rule shall be substituted, namely:-\n“(9) After installation of roof top solar photovoltaic system, the consumer shall submit the installation certificate to\nsuch distribution licensee and such distribution licensee shall complete signing of connection agreement, installation\nof meter and successful commissioning of the roof top solar photovoltaic system within fifteendays from the date of\nsubmission of the installation certificate.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C1-002#cl-2",
+   "to_node": "IN-C1-003#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2024-02-13",
+   "evidence_quote": "The previous scheme of Phase-II of the Grid Connected Rooftop Solar\nprogramme will be deemed subsumed under this scheme, along with the remaining financial outlay\nand liabilities, effective from the launch ofthe PM-Surya Ghar: Muft Bijli Yojana, i.e.,13.02.2024.",
+   "confidence": "medium",
+   "reason": "Phase-II deemed subsumed from 13.02.2024; applications received before that date stay on Phase-II CFA (Annexure I), so displacement is prospective, not a repeal of the 2019 OM."
+  },
+  {
+   "from_node": "IN-C1-002#cl-2",
+   "to_node": "IN-C1-001#cl-5(e)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "medium",
+   "reason": "Same subsumption, stated in the PMSG operational guidelines; Phase-II claims governed by Phase-II guidelines (para 4(d))."
+  },
+  {
+   "from_node": "IN-C1-009#cl-2.iii",
+   "to_node": "IN-C1-001#cl-6(h)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "h) Feasibility Approval: As per the provisions of the Electricity (Rights of Consumers) Rules,\n2020 and subsequent amendments, applications for rooftop solar systems up to 10 kW\ncapacity shall be deemed to have been accepted without requiring approval of technical\nfeasibility by the DISCOMs. Till the operationalization of this provision by respective\nRegulatory Commissions/DISCOMs, the consumer shall upload the necessary documents\nfor seeking feasibility approval, wherever required as per extant state regulations.",
+   "confidence": "low",
+   "reason": "Phase-II national-portal procedure (15 working-day feasibility) replaced in substance by PMSG deemed approval up to 10 kW; no express reference to the 2022 OM."
+  },
+  {
+   "from_node": "IN-C1-001#cl-5(f)",
+   "to_node": "IN-C1-005#cl-3",
+   "type": "amends",
+   "effective_date": "2024-11-19",
+   "evidence_quote": "The clause 5(f) of the above-mentioned guidelines states that “The GHS/RWA\nconnection eligibleunder theschemeshall bededicatedonlyforcommonfacilitiesand should\nnot be utilized for providing electricity supply to residential consumerswithin the GHS/RWA.\nThe CFA support will generally be provided to entities created by residents for overall\nmaintenance and that areresponsibleforupkeep of commonfacilities and thesemaybe known\nby alternative terminologies such as Apartment Owner Associations (AOAs), Cooperative\nHousing Societies etc.\"\n3.\nRepresentations have been received regarding the subsidy dis",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C1-001#cl-5(i)",
+   "to_node": "IN-C1-001#cl-Amendment-i",
+   "type": "amends",
+   "effective_date": "2025-07-07",
+   "evidence_quote": "Considering the feedback from the implementing agencies on the operational issues\nbeing faced duringthe implementation of the said scheme across the states/UTs, amendments\nin theaforementioned Guidelines asper attached Annexure is issued.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C1-001#cl-Annexure-1",
+   "to_node": "IN-C1-001#cl-Amendment-ii",
+   "type": "supersedes",
+   "effective_date": "2025-07-07",
+   "evidence_quote": "Considering the feedback from the implementing agencies on the operational issues\nbeing faced duringthe implementation of the said scheme across the states/UTs, amendments\nin theaforementioned Guidelines asper attached Annexure is issued.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C1-001#cl-6(f)",
+   "to_node": "IN-C1-001#cl-Amendment-iii",
+   "type": "amends",
+   "effective_date": "2025-07-07",
+   "evidence_quote": "Considering the feedback from the implementing agencies on the operational issues\nbeing faced duringthe implementation of the said scheme across the states/UTs, amendments\nin theaforementioned Guidelines asper attached Annexure is issued.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C2-004#cl-1.5.1",
+   "to_node": "IN-C2-007#cl-4",
+   "type": "amends",
+   "effective_date": "2025-05-06",
+   "evidence_quote": "Accordingly, it has been decided to amend the aforesaid module efficiency thresholds\nfor ALMM enlistmentasfollows:",
+   "confidence": "high",
+   "reason": "Only Category-III changes (off-grid <200 Wp, 18%); rooftop Category-II stays 19.5%. An intermediate amendment OM of 22.03.2024 (adds CdTe thresholds) is cited but not in the corpus."
+  },
+  {
+   "from_node": "IN-C2-003#cl-encl.a-b",
+   "to_node": "IN-C2-003#cl-1",
+   "type": "supersedes",
+   "effective_date": "2024-02-15",
+   "evidence_quote": "The undersigned is directed to convey that the O.M. of even no. dated 9th February, 2024\n(copy enclosed) on the subject issue, is hereby held in abeyance till further orders.",
+   "confidence": "medium",
+   "reason": "Suspension ('held in abeyance till further orders'), not repeal."
+  },
+  {
+   "from_node": "IN-C2-004#cl-1.6",
+   "to_node": "IN-C2-002#cl-1",
+   "type": "supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and\nManufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration)\nOrder, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is\nclarified that the ALMM[Approved List of Models&Manufacturers]for Solar PVModules,\nshallaccordinglycomeintoeffectfrom1st April, 2024.",
+   "confidence": "medium",
+   "reason": "Abeyance for FY 2023-24 ends; ALMM for modules in effect from 1 April 2024 (the abeyance was time-limited by its own terms)."
+  },
+  {
+   "from_node": "IN-C2-003#cl-1",
+   "to_node": "IN-C2-002#cl-1",
+   "type": "partially_supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and\nManufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration)\nOrder, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is\nclarified that the ALMM[Approved List of Models&Manufacturers]for Solar PVModules,\nshallaccordinglycomeintoeffectfrom1st April, 2024.",
+   "confidence": "low",
+   "reason": "29.03.2024 OM confirms ALMM effective 1.4.2024 despite the 15.02.2024 abeyance of the 09.02.2024 OM; it does not mention either February OM."
+  }
+ ],
+ "document_supersessions": [
+  {
+   "doc_from": "MERC (Net Metering for Rooftop Solar Photo Voltaic Systems) Regulations, 2015 [not in corpus]",
+   "doc_to": "MH-C3-001",
+   "type": "repeal",
+   "evidence_quote": "Save as otherwise provided in these Regulations, the Maharashtra Electricity Regulatory\nCommission (Net Metering for Rooftop Solar Photo Voltaic Systems) Regulations, 2015\nare hereby repealed:",
+   "confidence": "high",
+   "note": "Saving: systems under the 2015 Regulations continue under them for the validity of their agreements. Corpus MSEDCL circulars MH-C5-003 (2016) and MH-C5-004 (CC/310, 2018) implement the repealed 2015 Regulations via CC/258; no express withdrawal of those circulars is in the corpus."
+  },
+  {
+   "doc_from": "RJ-C3-001",
+   "doc_to": "RJ-C3-002",
+   "type": "prospective_replacement_no_repeal",
+   "evidence_quote": "1.4 These Regulations shall remain in force along with the Rajasthan Electricity Regulatory\nCommission (Connectivity and Net Metering for Rooftop and Small Solar Grid Interactive\nSystems) Regulations, 2015 and subsequent amendments thereof:\nProvided that, Rooftop and Small Solar Grid Interactive Systems commissioned under\nNet Metering agreements up to 30th June 2021 shall be governed as per the Rajasthan\nElectricity Regulatory Commission (Connectivity and Net Metering for Rooftop and\nSmall Solar Grid Interactive Systems) Regulations, 2015 and subsequent amendments\nthereof.",
+   "confidence": "medium",
+   "note": "No repeal clause: the 2021 Regulations coexist with the 2015 Regulations, which keep governing systems commissioned up to 30.06.2021 (Reg 1.4, 3.4); some 2021 settlement provisions expressly extend to 2015-era installations."
+  },
+  {
+   "doc_from": "IN-C1-002",
+   "doc_to": "IN-C1-003",
+   "type": "scheme_subsumption",
+   "evidence_quote": "The previous scheme of Phase-II of the Grid Connected Rooftop Solar\nprogramme will be deemed subsumed under this scheme, along with the remaining financial outlay\nand liabilities, effective from the launch ofthe PM-Surya Ghar: Muft Bijli Yojana, i.e.,13.02.2024.",
+   "confidence": "medium",
+   "note": "Phase-II programme (incl. IN-C1-002 CFA OM and IN-C1-009 procedure OM) subsumed into PMSG from 13.02.2024; Phase-II applications before that date keep Phase-II CFA. Not a repeal."
+  }
+ ]
+}

@@ -1,0 +1,438 @@
+check_id,planted_clause,fault_class,right_reason,also_names_it,reply,label,note
+SC01,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{""verdict"": ""FLAG"", ""risk"": 0.8, ""findings"": [{""clause_id"": ""MH-C3-001#cl-2.1j"", ""reason"": ""content_or_arithmetic"", ""rationale"": ""The decision contradicts the rule's capacity limit.""}]}",WRONG_REASON,
+SC02,IN-C1-002#cl-2,F3,not_in_force,"any clause or chunk of document IN-C1-002 (this reply saw document IN-C1-002 as SRC-306761, so SRC-306761#... names the same clause)","{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.7,
+  ""findings"": [
+    {
+      ""clause_id"": ""SRC-306761#cl-2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The subsidy calculation does not match the 40% subsidy rate for up to 3 kW installations as per the cited clause.""
+    },
+    {
+      ""clause_id"": ""SRC-4C45B9#cl-5.1m"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The clause does not specify the origin of cells and wafers, which is a requirement for subsidy eligibility.""
+    }
+  ]
+}",WRONG_REASON,
+SC03,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"{""verdict"": ""PASS"", ""risk"": 0, ""findings"": []}",NO_FLAG,
+SC04,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,"{
+  ""verdict"": ""PASS"",
+  ""risk"": 0,
+  ""findings"": []
+}",NO_FLAG,
+SC05,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"[
+  {
+    ""verdict"": ""FLAG"",
+    ""risk"": 1.0,
+    ""findings"": [
+      {
+        ""clause_id"": ""MH-C3-001#cl-6.2"",
+        ""reason"": ""content_or_arithmetic"",
+        ""rationale"": ""The proposed 130 kWp capacity exceeds the sanctioned load of 130.0 kW if any margin is required, but more critically, the generator failed to verify compliance with capacity limits.""
+      },
+      {
+        ""clause_id"": ""MH-C3-001#cl-6.2"",
+        ""reason"": ""missing_rule"",
+        ""rationale"": ""The generator failed to evaluate if the cumulative transformer capacity limit is exceeded under clause 6.3.""
+      }
+    ]
+  }
+]",WRONG_CLAUSE,
+SC06,IN-C1-002#cl-2,F3,not_in_force,"any clause or chunk of document IN-C1-002 (this reply saw document IN-C1-002 as SRC-4DD2EB, so SRC-4DD2EB#... names the same clause)","[
+  {
+    ""verdict"": ""FLAG"",
+    ""risk"": 1.0,
+    ""findings"": [
+      {
+        ""clause_id"": ""SRC-958F4C#cl-4.1"",
+        ""reason"": ""content_or_arithmetic"",
+        ""rationale"": ""The subsidy for capacity beyond 3 kW is zero per PM Surya Ghar guidelines, making the Rs 94,822 claim incorrect for a 39 kWp system.""
+      }
+    ]
+  }
+]",WRONG_CLAUSE,
+SC07,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,Gemini returned no text for gemma-4-26b-a4b-it (finish: MAX_TOKENS),INVALID,
+SC08,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,Gemini returned no text for gemma-4-26b-a4b-it (finish: MAX_TOKENS),INVALID,
+SC09,MH-C3-001#cl-2.1j,F5,not_applicable,"MH-C3-001#chk-0005; MH-C3-001#chk-0006 (this reply saw document MH-C3-001 as SRC-64CFE6, so SRC-64CFE6#... names the same clause)","{
+  ""verdict"": ""PASS"",
+  ""risk"": 0.0,
+  ""findings"": []
+}",NO_FLAG,
+SC10,RJ-C3-002#cl-6.1,F3,not_in_force,"any clause or chunk of document RJ-C3-002 (this reply saw document RJ-C3-002 as SRC-AC9874, so SRC-AC9874#... names the same clause)","{""verdict"": ""PASS"", ""risk"": 0.0, ""findings"": []}",NO_FLAG,
+SC11,RJ-C3-002#cl-6.1,F3,not_in_force,"any clause or chunk of document RJ-C3-002 (this reply saw document RJ-C3-002 as SRC-F9592D, so SRC-F9592D#... names the same clause)","{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.9,
+  ""findings"": [
+    {
+      ""clause_id"": ""SRC-F9592D#cl-6.1"",
+      ""reason"": ""not_in_force"",
+      ""rationale"": ""The regulation cited is superseded by an amendment increasing the limit to 80%.""
+    }
+  ]
+}",WRONG_REASON,
+SC12,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{""verdict"": ""FLAG"", ""risk"": 0.8, ""findings"": [{""clause_id"": ""MH-C3-001#cl-6.2"", ""reason"": ""content_or_arithmetic"", ""rationale"": ""System capacity exceeds sanctioned limit.""}]}",WRONG_CLAUSE,
+SC13,RJ-C3-002#cl-6.1,F3,not_in_force,"any clause or chunk of document RJ-C3-002 (this reply saw document RJ-C3-002 as SRC-6747A8, so SRC-6747A8#... names the same clause)","{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""SRC-6747A8#cl-6.1"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The cumulative capacity of 840.0 kW exceeds 50% of the distribution transformer capacity of 1260 kVA, but the regulation allows up to 80% of the capacity, which is not considered.""
+    },
+    {
+      ""clause_id"": ""SRC-C7788C#cl-2"",
+      ""reason"": ""not_in_force"",
+      ""rationale"": ""The regulation amendment is not yet in force on the application date of 2024-12-21.""
+    }
+  ]
+}",WRONG_CLAUSE,
+SC14,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"{
+  ""verdict"": ""PASS"",
+  ""risk"": 0,
+  ""findings"": []
+}",NO_FLAG,
+SC15,RJ-C3-002#cl-6.1,F3,not_in_force,any clause or chunk of document RJ-C3-002,"[
+  {
+    ""verdict"": ""PASS"",
+    ""risk"": 0,
+    ""findings"": []
+  }
+]",NO_FLAG,
+SC16,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1.0,
+  ""findings"": [
+    {
+      ""clause_id"": ""RJ-C3-003#cl-2-proviso"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The consumer is an LT-I Residential category, not an HT consumer, so the proviso regarding consumer-installed transformers does not apply.""
+    }
+  ]
+}",RIGHT_CATCH,
+SC17,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""RJ-C3-003#cl-2-proviso"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The application is for an LT consumer, not an HT consumer who installed their own transformer.""
+    }
+  ]
+}",RIGHT_CATCH,
+SC18,RJ-C3-003#cl-2-proviso,F5,not_applicable,"RJ-C3-003#chk-0003 (this reply saw document RJ-C3-003 as SRC-C7788C, so SRC-C7788C#... names the same clause)","Verifier reply has no PASS/FLAG verdict: {'verdict': 'REJECTED', 'risk': 0.9, 'findings': [{'clause_id': 'SRC-C7788C#cl-2-proviso', 'reason': 'not_applicable', 'rationale': 'The application is for a LT-I Residential consumer, but the clause applies only to HT consumers.'}]}",INVALID,
+SC19,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed DC capacity of 119.00 kWp exceeds the Sanctioned Load of 102.0 kW, violating Regulation 6.2.""
+    }
+  ]
+}",WRONG_REASON,
+SC20,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""IN-C1-002#cl-2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The subsidy amount of Rs 35011.0 exceeds the maximum CFA of Rs 30000/kWp for the first 2 kW of RTS capacity under PM Surya Ghar: Muft Bijli Yojana.""
+    }
+  ]
+}",WRONG_CLAUSE,
+SC21,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1.0,
+  ""findings"": [
+    {
+      ""clause_id"": ""IN-C1-002#cl-2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The cited clause defines subsidy eligibility but does not provide a basis for rejection; the application meets the residential criteria.""
+    }
+  ]
+}",WRONG_REASON,
+SC22,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{""verdict"": ""FLAG"", ""risk"": 0.8, ""findings"": [{""clause_id"": ""MH-C3-001#cl-6.2"", ""reason"": ""content_or_arithmetic"", ""rationale"": ""System capacity exceeds sanctioned limit.""}]}",WRONG_REASON,
+SC23,RJ-C3-003#cl-2-proviso,F5,not_applicable,"RJ-C3-003#chk-0003 (this reply saw document RJ-C3-003 as SRC-7595D3, so SRC-7595D3#... names the same clause)","{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""SRC-7595D3#cl-2-proviso"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The clause applies to HT consumers with distribution transformers installed by the consumer, but the application is for an LT consumer.""
+    }
+  ]
+}",RIGHT_CATCH,
+SC24,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""IN-C1-002#cl-2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The subsidy claim of Rs 96,000 under PM Surya Ghar: Muft Bijli Yojana exceeds the maximum CFA of Rs 30,000/kWp for the first 2 kW of RTS capacity.""
+    }
+  ]
+}",WRONG_REASON,
+SC25,IN-C1-002#cl-2,F3,not_in_force,"any clause or chunk of document IN-C1-002 (this reply saw document IN-C1-002 as SRC-4DD2EB, so SRC-4DD2EB#... names the same clause)","[
+  {
+    ""verdict"": ""FLAG"",
+    ""risk"": 1.0,
+    ""findings"": [
+      {
+        ""clause_id"": ""SRC-958F4C#cl-4.1"",
+        ""reason"": ""content_or_arithmetic"",
+        ""rationale"": ""The generator cited a clause about eligibility instead of the actual CFA calculation rule which limits subsidy for capacity beyond 3 kW.""
+      },
+      {
+        ""clause_id"": ""SRC-958F4C#cl-4.1"",
+        ""reason"": ""content_or_arithmetic"",
+        ""rationale"": ""For an 8 kWp system, the maximum CFA is Rs 68,400 (30k + 18k + 18k + 2k), not the Rs 80,234 or Rs 96,000 mentioned.""
+      }
+    ]
+  }
+]",WRONG_CLAUSE,
+SC26,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1.0,
+  ""findings"": [
+    {
+      ""clause_id"": ""IN-C1-002#cl-2"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""This clause describes general eligibility but does not provide grounds for rejection of a 1.5 kWp system.""
+    },
+    {
+      ""clause_id"": ""IN-C1-001#cl-4.1"",
+      ""reason"": ""missing_rule"",
+      ""rationale"": ""The generator failed to apply the PM Surya Ghar guidelines which support a subsidy for a 1.5 kWp installation.""
+    },
+    {
+      ""clause_id"": ""subsidy_amount"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The calculated subsidy of Rs 21882.0 contradicts the PM Surya Ghar CFA of Rs 30,000/kWp for the first 2 kWp.""
+    }
+  ]
+}",WRONG_CLAUSE,
+SC27,IN-C1-002#cl-2,F3,not_in_force,"any clause or chunk of document IN-C1-002 (this reply saw document IN-C1-002 as SRC-4DD2EB, so SRC-4DD2EB#... names the same clause)","{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.9,
+  ""findings"": [
+    {
+      ""clause_id"": ""SRC-4DD2EB#cl-2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The subsidy clause specifies 40% for up to 3 kW, but the application is for 50 kW, which exceeds the residential subsidy threshold.""
+    }
+  ]
+}",WRONG_REASON,
+SC28,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-2.1j"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The clause defines an Eligible Consumer but does not address the capacity limit issue.""
+    },
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed system capacity of 12 kW exceeds the sanctioned load of 10 kW, but the decision does not consider the cumulative transformer capacity limit.""
+    }
+  ]
+}",WRONG_REASON,
+SC29,IN-C1-002#cl-2,F3,not_in_force,"any clause or chunk of document IN-C1-002 (this reply saw document IN-C1-002 as SRC-306761, so SRC-306761#... names the same clause)","{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""SRC-306761#cl-2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The cited clause specifies subsidy for up to 3 kW installations, but the application is for an 8 kW system.""
+    }
+  ]
+}",WRONG_REASON,
+SC30,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"{""verdict"": ""PASS"", ""risk"": 0, ""findings"": []}",NO_FLAG,
+SC31,IN-C1-002#cl-2,F3,not_in_force,"any clause or chunk of document IN-C1-002 (this reply saw document IN-C1-002 as SRC-0A2624, so SRC-0A2624#... names the same clause)","{
+  ""verdict"": ""PASS"",
+  ""risk"": 0.0,
+  ""findings"": []
+}",NO_FLAG,
+SC32,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,"{""verdict"": ""FLAG"", ""risk"": 0.8, ""findings"": [{""clause_id"": ""IN-C1-001#cl-5.1m"", ""reason"": ""missing_rule"", ""rationale"": ""The inverter compliance requirement is not addressed in the decision.""}]}",WRONG_REASON,
+SC33,MH-C3-001#cl-2.1j,F5,not_applicable,"MH-C3-001#chk-0005; MH-C3-001#chk-0006 (this reply saw document MH-C3-001 as SRC-FF0134, so SRC-FF0134#... names the same clause)",Gemini returned no text for gemma-4-26b-a4b-it (finish: MAX_TOKENS),INVALID,
+SC34,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-2.1j"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed DC capacity of 126.00 kWp exceeds the regulatory limit of less than 1 MW for an Eligible Consumer.""
+    }
+  ]
+}",WRONG_REASON,
+SC35,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1.0,
+  ""findings"": [
+    {
+      ""clause_id"": ""RJ-C3-003#cl-2-proviso"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The cited proviso applies exclusively to HT consumers, but the applicant is categorized as an LT-I Residential consumer.""
+    }
+  ]
+}",RIGHT_CATCH,
+SC36,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1.0,
+  ""findings"": [
+    {
+      ""clause_id"": ""IN-C1-001#cl-4.1"",
+      ""reason"": ""missing_rule"",
+      ""rationale"": ""The generator ignored the 3 kW capacity limit for additional CFA specified in IN-C1-001#cl-4.1.""
+    }
+  ]
+}",WRONG_CLAUSE,
+SC37,MH-C3-001#cl-2.1j,F5,not_applicable,"MH-C3-001#chk-0005; MH-C3-001#chk-0006 (this reply saw document MH-C3-001 as SRC-64CFE6, so SRC-64CFE6#... names the same clause)","{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""SRC-64CFE6#cl-6.2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed DC capacity of 408.00 kWp exceeds the Sanctioned Load of 340.0 kW, violating Regulation 6.2.""
+    }
+  ]
+}",WRONG_REASON,
+SC38,RJ-C3-002#cl-6.1,F3,not_in_force,any clause or chunk of document RJ-C3-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1,
+  ""findings"": [
+    {
+      ""clause_id"": ""RJ-C3-002#cl-6.1"",
+      ""reason"": ""not_in_force"",
+      ""rationale"": ""The clause is superseded by a newer regulation.""
+    }
+  ]
+}",RIGHT_CATCH,
+SC39,RJ-C3-002#cl-6.1,F3,not_in_force,any clause or chunk of document RJ-C3-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""RJ-C3-002#cl-6.1"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The cumulative capacity of 560.0 kW exceeds the 50% limit of the distribution transformer capacity of 1000 kVA, but the cited clause RJ-C3-002#cl-6.1 is superseded by RJ-C3-003#cl-2 which allows up to 80% capacity.""
+    }
+  ]
+}",WRONG_REASON,
+SC40,RJ-C3-002#cl-6.1,F3,not_in_force,any clause or chunk of document RJ-C3-002,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""RJ-C3-002#cl-6.1"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The cumulative capacity of 150.0 kW exceeds the 50% limit of the distribution transformer's capacity of 200 kVA, but the cited clause RJ-C3-002#cl-6.1 is superseded by RJ-C3-003#cl-2, which allows up to 80% capacity.""
+    }
+  ]
+}",WRONG_REASON,
+SC41,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed 14.00 kWp capacity exceeds the sanctioned load of 16.0 kW if considering AC/DC limits, but more importantly, the generator failed to check the capacity limit against sanctioned load.""
+    },
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.2"",
+      ""reason"": ""missing_rule"",
+      ""rationale"": ""The generator failed to apply clause 6.2 which limits system capacity to the consumer's sanctioned load.""
+    }
+  ]
+}",WRONG_REASON,
+SC42,RJ-C3-003#cl-2-proviso,F5,not_applicable,"RJ-C3-003#chk-0003 (this reply saw document RJ-C3-003 as SRC-7595D3, so SRC-7595D3#... names the same clause)","{
+  ""verdict"": ""PASS"",
+  ""risk"": 0,
+  ""findings"": []
+}",NO_FLAG,
+SC43,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-2.1j"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The proposed system capacity exceeds the 1 MW limit for Eligible Consumers.""
+    },
+    {
+      ""clause_id"": ""MH-C3-001#cl-5.2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed system capacity exceeds the cumulative capacity limit of the Distribution Transformer.""
+    }
+  ]
+}",RIGHT_CATCH,
+SC44,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1.0,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed 126.00 kWp capacity exceeds the sanctioned load of 126.0 kW if any margin is required, but more critically, the generator ignored the capacity limit rule.""
+    },
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.3"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The generator failed to verify if the cumulative solar capacity (966.0 kW) on the transformer violates transformer capacity limits under clause 6.3.""
+    }
+  ]
+}",WRONG_REASON,
+SC45,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 1.0,
+  ""findings"": [
+    {
+      ""clause_id"": ""RJ-C3-003#cl-2-proviso"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The cited proviso applies specifically to HT consumers, but this application is for an LT-I Residential consumer.""
+    }
+  ]
+}",RIGHT_CATCH,
+SC46,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-2.1j"",
+      ""reason"": ""not_applicable"",
+      ""rationale"": ""The proposed system capacity exceeds the 1 MW limit specified for an Eligible Consumer.""
+    },
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.2"",
+      ""reason"": ""content_or_arithmetic"",
+      ""rationale"": ""The proposed system capacity of 119 kW exceeds the sanctioned load of 102 kW.""
+    }
+  ]
+}",WRONG_REASON,
+SC47,RJ-C3-003#cl-2-proviso,F5,not_applicable,RJ-C3-003#chk-0003,"Verifier reply has no PASS/FLAG verdict: {'verdict': 'REJECTED', 'risk': 0.8, 'findings': [{'clause_id': 'RJ-C3-003#cl-2-proviso', 'reason': 'content_or_arithmetic', 'rationale': 'The application is rejected due to exceeding 80% of distribution transformer capacity, but the consumer has installed the transformer, making the limit inapplica",NO_FLAG,
+SC48,IN-C1-002#cl-2,F3,not_in_force,any clause or chunk of document IN-C1-002,Gemini returned no text for gemma-4-26b-a4b-it (finish: MAX_TOKENS),NO_FLAG,
+SC49,MH-C3-001#cl-2.1j,F5,not_applicable,MH-C3-001#chk-0005; MH-C3-001#chk-0006,"{
+  ""verdict"": ""FLAG"",
+  ""risk"": 0.8,
+  ""findings"": [
+    {
+      ""clause_id"": ""MH-C3-001#cl-6.2"",
+      ""reason"": ""missing_rule"",
+      ""rationale"": ""The generator failed to verify the solar capacity against the sanctioned load using clause 6.2.""
+    }
+  ]
+}",WRONG_REASON,
+SC50,RJ-C3-003#cl-2-proviso,F5,not_applicable,"RJ-C3-003#chk-0003 (this reply saw document RJ-C3-003 as SRC-780988, so SRC-780988#... names the same clause)","{""verdict"": ""PASS"", ""risk"": 0, ""findings"": []}",NO_FLAG,

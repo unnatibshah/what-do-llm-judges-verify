@@ -1,0 +1,295 @@
+{
+ "file": "test_cases_v3_CANDIDATE.json",
+ "sha256": "028bc75b47e642b43a3ba91c6c8bdc3c297681d9b49447fe926e38f17abc4519",
+ "sealed": false,
+ "n_cases": 60,
+ "distinct_replaced_clauses": 15,
+ "states": {
+  "DL": 4,
+  "GJ": 4,
+  "IN": 2,
+  "KA": 2,
+  "TN": 1,
+  "UP": 2
+ },
+ "explicit_implicit": {
+  "EXPLICIT": 11,
+  "IMPLICIT": 2,
+  "NONE": 2
+ },
+ "pairs_per_clause_target": 4,
+ "pairs_per_clause_cap": 6,
+ "max_pairs_one_clause_one_condition": 4,
+ "fault_items_by_condition": {
+  "J": 32,
+  "S-both": 60,
+  "S-swap": 56
+ },
+ "control_items_by_condition": {
+  "J": 32,
+  "S-both": 60,
+  "S-swap": 9
+ },
+ "clean_correct_answers_C": 60,
+ "distinct_planted_clauses_by_condition": {
+  "S-both": 15,
+  "S-swap": 14,
+  "J": 7,
+  "A": 0
+ },
+ "replaced_clauses": [
+  {
+   "clause": "DL-C3-004#cl-3.8",
+   "state": "DL",
+   "successor": "DL-C3-009#cl-3.8",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "11/11",
+   "cases": [
+    "SB-4249ea2e",
+    "SB-4e00a3c4",
+    "SB-c9fe09fd",
+    "SB-db11efe7"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "DL-C3-004#cl-9.2b",
+   "state": "DL",
+   "successor": "DL-C3-015#cl-9.2b",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "10/10",
+   "cases": [
+    "SB-12e1399b",
+    "SB-509700a5",
+    "SB-65c5c39f",
+    "SB-e4475169"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "DL-C3-006#cl-3.2",
+   "state": "DL",
+   "successor": "DL-C3-015#cl-3.2",
+   "explicit_implicit": "IMPLICIT",
+   "registry_flags_superseded": "10/10",
+   "cases": [
+    "SB-3831cee8",
+    "SB-940e925b",
+    "SB-a011df1f",
+    "SB-f9773ee1"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "DL-C3-009#cl-3.6",
+   "state": "DL",
+   "successor": "DL-C3-015#cl-3.6",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "11/11",
+   "cases": [
+    "SB-1595d3ab",
+    "SB-3e914362",
+    "SB-4683a697",
+    "SB-8b99a646"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "GJ-C3-001#cl-13.5-check",
+   "state": "GJ",
+   "successor": "GJ-C3-003#cl-13.5-check",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "11/11",
+   "cases": [
+    "SB-3c0568a1",
+    "SB-7fcce033",
+    "SB-a86540a6",
+    "SB-c6303ba7"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "GJ-C3-001#cl-13.5-class",
+   "state": "GJ",
+   "successor": "GJ-C3-003#cl-13.5-class",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "11/11",
+   "cases": [
+    "SB-3951f18b",
+    "SB-55bff1e2",
+    "SB-632b2212",
+    "SB-d79bec1f"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "GJ-C3-001#cl-5-proviso",
+   "state": "GJ",
+   "successor": "GJ-C3-003#cl-5-proviso",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "11/11",
+   "cases": [
+    "SB-0a1272aa",
+    "SB-8bbbbb5f",
+    "SB-d9152b85",
+    "SB-e8347f30"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 2,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 2
+  },
+  {
+   "clause": "GJ-C3-003#cl-6.2",
+   "state": "GJ",
+   "successor": "GJ-C3-004#cl-6.2a",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "10/10",
+   "cases": [
+    "SB-61a6573c",
+    "SB-6f0e9c5f",
+    "SB-b457a31c",
+    "SB-dee78131"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 2,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 2
+  },
+  {
+   "clause": "IN-C1-011#cl-annex-phase2-claims",
+   "state": "IN",
+   "successor": "IN-C1-001#cl-annex1-ii-amended",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "8/8",
+   "cases": [
+    "SB-06dccf10",
+    "SB-088d295a",
+    "SB-770a372c",
+    "SB-b926248c"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "IN-C3-002#cl-11.7",
+   "state": "IN",
+   "successor": "IN-C3-001#cl-11.7",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "11/11",
+   "cases": [
+    "SB-0e1aff33",
+    "SB-9d0c1db7",
+    "SB-ae138ae0",
+    "SB-d500cb79"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "KA-C5-001#cl-15",
+   "state": "KA",
+   "successor": "KA-C5-006#cl-18",
+   "explicit_implicit": "IMPLICIT",
+   "registry_flags_superseded": "0/11",
+   "cases": [
+    "SB-09416de5",
+    "SB-4337c49d",
+    "SB-8a026028",
+    "SB-e851ca36"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 0
+  },
+  {
+   "clause": "KA-C5-001#cl-26",
+   "state": "KA",
+   "successor": "KA-C5-006#cl-4-note-ii",
+   "explicit_implicit": "NONE",
+   "registry_flags_superseded": "0/6",
+   "cases": [
+    "SB-54aaaca3",
+    "SB-5c2f1b69",
+    "SB-fa9742da",
+    "SB-fe4dc242"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 0
+  },
+  {
+   "clause": "TN-C5-001#cl-2",
+   "state": "TN",
+   "successor": "TN-C5-002#cl-I.2",
+   "explicit_implicit": "NONE",
+   "registry_flags_superseded": "0/11",
+   "cases": [
+    "SB-3fae633b",
+    "SB-78994120",
+    "SB-9f927b9d",
+    "SB-b0b563e1"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 1,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 1
+  },
+  {
+   "clause": "UP-C3-001#cl-5.1",
+   "state": "UP",
+   "successor": "UP-C3-002#cl-5.1",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "10/10",
+   "cases": [
+    "SB-1873dafe",
+    "SB-47f4827f",
+    "SB-bea538fe",
+    "SB-e6ca17a9"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 2,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 2
+  },
+  {
+   "clause": "UP-C3-001#cl-6.2",
+   "state": "UP",
+   "successor": "UP-C3-002#cl-6.2",
+   "explicit_implicit": "EXPLICIT",
+   "registry_flags_superseded": "11/11",
+   "cases": [
+    "SB-032d9870",
+    "SB-2741cfc2",
+    "SB-41d678b1",
+    "SB-4976c4bf"
+   ],
+   "S-both": 4,
+   "S-both:outcome_changing": 2,
+   "S-swap": 4,
+   "S-swap:outcome_changing": 2
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "n": 50,
+ "agree": 50,
+ "agreement": 1.0,
+ "confusion": {
+  "INVALID -> INVALID": 6,
+  "NO_FLAG -> NO_FLAG": 10,
+  "RIGHT_CATCH -> RIGHT_CATCH": 10,
+  "WRONG_CLAUSE -> WRONG_CLAUSE": 12,
+  "WRONG_REASON -> WRONG_REASON": 12
+ },
+ "disagreements": []
+}

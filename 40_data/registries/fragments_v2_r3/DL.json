@@ -1,0 +1,1188 @@
+{
+ "nodes": [
+  {
+   "node_id": "DL-C3-001#cl-4(1)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "4(1)",
+   "topic": "eligibility: consumers of distribution licensee",
+   "snippet": "(1) These Regulations shall apply to such consumers who are a buyer of\nenergy/electricity from the distribution licensee in its area of supply and the\ndistribution licensee.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-5(1)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "5(1)",
+   "topic": "DT hosting limit: connectivity first-come-first-serve; DT capacity not less than limits specified by Commission",
+   "snippet": "(1) The Distribution Licensee shall allow connectivity to the Renewable Energy System,\non first come first serve basis, subject to operational constraints\nProvided that the available capacity at a particular distribution transformer, to be\nallowed for connectivity under these Regulations, shall not be less than the limits as\nspecified by the Commission from time to time",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-5(2)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "5(2)",
+   "topic": "DT hosting limit: DISCOM to publish DT-level available capacity; timelines",
+   "snippet": "(2) The Distribution Licensee shall provide information regarding distribution\n3\n\n--- Page 4 ---\ntransformer level capacity available for connecting Renewable Energy System under\nnet metering arrangement within 1 (one) month from the date of notification of\nthese regulations on its website and shall update the same within 7 working days of\nthe subsequent financial year under intimation to the Commission.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-5(3)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "5(3)",
+   "topic": "capacity limit vs sanctioned/contract load; feasibility/technical study",
+   "snippet": "(3) The capacity of Renewable Energy System to be installed at any premises shall be\nsubject to;\n(i) the feasibility of interconnection with the grid;\n(ii) the available capacity of the service line connection of the consumers of the\npremises; and\n(iii) the sanctioned load of the Consumer of the premises;",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-5(4)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "5(4)",
+   "topic": "capacity limit vs sanctioned/contract load: RE above sanctioned load allowed on payment of differential SLD charges",
+   "snippet": "(4) Subject to Regulation 5(3)(i) & 5(3)(ii), if a Renewable Energy Generator has already\ninstalled or intends to install a Renewable Energy System of capacity higher than the\nsanctioned load of the consumer of the premises, and requires to connect it with\nthe distribution licensee’s system, then such Consumer of premises shall pay\nService Line cum Development (SLD) charges at the time of registration of\nRenewable Energy System, equal to the differential amount of SLD charges between\nthe capacity of the Renewable Energy System and the existing sanctioned load on\nthe lines of enhancement of san",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-5(5)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "5(5)",
+   "topic": "capacity limit: minimum 1 kWp",
+   "snippet": "(5) The capacity of Renewable Energy system to be installed at the Premises of any\nconsumer shall not be less than one kilo watt peak.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-6(1)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "6(1)",
+   "topic": "feasibility/technical study; timelines: application procedure delegated to Commission guidelines",
+   "snippet": "(1) The Commission may issue guidelines and directions from time to time in respect of\nsubmission and processing of the application and applicable fee there-off for\nconnectivity of Renewable Energy System with the distribution system under these\nRegulations which the Distribution Licensee, consumer of the premises and the\nRenewable Energy Generator shall abide by.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-8(2)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "8(2)",
+   "topic": "metering/phase threshold: net meter single or three phase as per requirement",
+   "snippet": "(2) The Net Meter shall be, as per single phase or three phase requirement. All the\nmeters to be installed for net metering shall be of the same or better Accuracy Class\nIndex than the existing meter installed at its Premises.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-8(5)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "8(5)",
+   "topic": "metering: cost of RE meter by DISCOM, net meter by consumer",
+   "snippet": "(5) The cost of Renewable Energy Meter shall be borne by the distribution licensee and\nthe cost of Net Meter shall be borne by the consumer of the premises. The\nconsumer of the premises or the distribution licensee, who so ever if desires, may\ninstall check meter at their own cost.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-9(4)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "9(4)",
+   "topic": "settlement/banking: surplus carried forward within settlement period",
+   "snippet": "(4) If during any billing period, the export of units exceeds the import of units\nconsumed, such surplus units injected by the consumer shall be carried forward to\nthe next billing period as energy credit and shown as energy exported by the\nconsumer for adjustment against the energy consumed in subsequent billing\nperiods within the settlement period.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-9(7)",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "9(7)",
+   "topic": "settlement/banking: unadjusted credits paid at end of FY at Commission rates",
+   "snippet": "(7) At the end of the each Financial Year, any net energy credits, which remain\nunadjusted, shall be paid for by the distribution licensee to the consumers as per\nthe rates notified by the Commission from time to time.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-001#cl-10",
+   "doc_id": "DL-C3-001",
+   "jurisdiction": "DL",
+   "clause_ref": "10",
+   "topic": "tariff: exemption from wheeling/banking/CSS for five years",
+   "snippet": "10. Applicability of other charges\nThe Renewable Energy system under net metering arrangement shall be exempted from\nwheeling, banking, cross subsidy and other charges for a period of Five years, unless\nextended thereafter.",
+   "effective_date": "2014-09-02",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Regulation 5(3)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Regulation 5(3)",
+   "topic": "capacity limit vs sanctioned/contract load (bundled copy of Regulations, identical to DL-C3-001 Reg 5(3))",
+   "snippet": "(3) The capacity of Renewable Energy System to be installed at any premises shall be\nsubject to;\n(i) the feasibility of interconnection with the grid;\n(ii) the available capacity of the service line connection of the consumers of the\npremises; and\n(iii) the sanctioned load of the Consumer of the premises;",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 1(1)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 1(1)",
+   "topic": "DT hosting limit: not less than 20% of DT rated capacity",
+   "snippet": "(1) Distribution Transformer level capacity to be offered for Connecting Renewable\nEnergySystem for Net Metering by the Distribution Licensee shall not be less than\n20% (Twenty percent) of the rated capacity of respective distribution transformer.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 2",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 2",
+   "topic": "capacity limit vs sanctioned/contract load: line capacity enhancement only for SLD, no additional fixed charges",
+   "snippet": "Subject to the Regulation 30 of DERC (Supply code and Performance Standards\nRegulations), 2007 and subsequent clarification issued/amended by the Commission from\ntime to time , enhancement of line capacity in terms of Regulation 5(4) of the Net Metering\nRegulations,2014 for already installed or intention for installation of a Renewable\nEnergySystem of Capacity higher than the sanctioned load of the consumer of the\npremises, the enhancement of such line capacity shall be used only for calculation of\nService Line cum Development (SLD) charges and not for levying corresponding additional\nfixed ch",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3",
+   "topic": "feasibility/technical study: three-tier procedure (feasibility, registration, connection agreement)",
+   "snippet": "The procedure for connectivity of Renewable EnergySystem under Regulation 6 of Net\nMetering Regulations, 2014 is a three tier process, which is as follows;\ni) Feasiblity Analysis,\nii) Registration\niii) Connection Agreement.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(1)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(1)",
+   "topic": "feasibility/technical study: application fee Rs 500",
+   "snippet": "(1) The consumer shall submit an application, seeking connectivity under the Net\nMetering Regulations, 2014 in the specified format as per Annexure – I along with an\napplication fee of Rs. 500/- (Rupees Five Hundred) only to the concerned Distribution\nLicensee for feasibility analysis.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(3)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(3)",
+   "topic": "feasibility/technical study; timelines: 30 days",
+   "snippet": "(3) In order of priority, the Distribution Licensee shall complete the feasibility analysis\nfor connecting the Renewable EnergySystem to the distribution system within thirty\n(30) days from the date of receipt of the application..",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(5)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(5)",
+   "topic": "feasibility/technical study: prior Commission approval for refusal/reduced capacity",
+   "snippet": "(5) The Distribution Licensee shall seek prior approval of the Commission for not\nproviding connectivity or offering connectivity for a reduced capacity.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(7)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(7)",
+   "topic": "timelines: registration within 30 days; registration charges by capacity slab",
+   "snippet": "(7) The applicant, within thirty (30) days from the date of receipt of the intimation\nregarding feasibility and capacity under clause 3(6) of these guidelines, shall apply for\nregistration of his scheme for installation of the Renewable EnergySystem in the\nformat specified in Annexure-II (Registration Form) along with requisite documents\nand the Registration Charges as stipulated below and other applicable charges:-\n\n| Sl. No. | Capacity (kW) | Charges (Rs) |\n| --- | --- | --- |\n| 1 | 1 to ≤ 10 | 1000/- |\n| 2 | > 10 to ≤ 50 | 3000/- |\n| 3 | > 50 to ≤ 100 | 6000/- |\n| 4 | > 100 to ≤ 300 | 9000/",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(9)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(9)",
+   "topic": "timelines: registration scrutiny 45 days",
+   "snippet": "(9) The Distribution Licensee shall scrutinize the Registration Form within forty five (45)\ndays from the date of its receipt, and shall either\n(a) allot a Registration Number to the applicant, if Registration Form is found\ncomplete and in order, or\n(b) intimate the applicant about the deficiencies observed in the submitted\nRegistration Form, if any, along with the instructions to cure such deficiencies.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(13)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(13)",
+   "topic": "timelines: connection agreement within 30 days of registration",
+   "snippet": "(13) Within thirty (30) days from the date of registration, the Distribution Licensee and\nthe Consumer shall execute a Connection Agreement. The Connection Agreement\nshall include clauses relating to interconnectivity, billing and settlement, dispute\nresolution and Standards as per Net Metering Regulations, 2014, relevant Guidelines,\nOrders thereof, as amended from time to time.\nIn case the applicant fails to execute the Connection Agreement for reasons assigned\nto him, the registration shall be treated as cancelled.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(16)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(16)",
+   "topic": "timelines; metering: net meter installed within 15 days of installation",
+   "snippet": "(16) The Distribution Licensee, within fifteen (15)days from the date of installation of the\nRenewable Energy System shall procure, test and install the Net Meter. In case the\nNet Meter is procured by the applicant, the Distribution Licensee, within fifteen (15)\ndays from the intimation from the applicant regarding procurement of the Net\nMeter, shall test and install the Net Meter so procured.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 3(17)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 3(17)",
+   "topic": "timelines: testing and connectivity within 15 days",
+   "snippet": "(17) The Distribution Licensee shall, within fifteen (15) days of receipt of the intimation\nunder Regulation 8(2) of the Net Metering Regulations, 2014 test the Renewable\nEnergy System in the presence of the applicant as per the provisions of the Central\nElectricity Authority (Technical Standards for Connectivity of Distributed Generation\nResources) Regulations, 2013 and shall provide the connectivity with the distribution\nsystem.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 5(1)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 5(1)",
+   "topic": "metering: differential net meter cost borne by consumer",
+   "snippet": "(1) Cost of the Net Meter, which is capable of recording both import and export of\nelectricity, shall mean the differential cost between existing consumer meter, if\nremoved and such a new Net Meter is installed to be borne by the consumer.\nIn case net metering is done with the help of two unidirectional meters, the cost of\nadditional meter, other than the existing consumer meter shall be borne by the\nconsumer.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 6(2)(a)",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 6(2)(a)",
+   "topic": "settlement/banking: ToD time-block netting; surplus treated as off-peak",
+   "snippet": "a) The electricity consumption in any time block (e.g., peak hours, off-peak hours, etc.)\nshall be first compensated with the electricity generation in the similar time blocks in\nthe same billing cycle. For the purpose of carry forward of surplus or set off of energy\ncredits, the energy units shall be moderated as per the relevant rebate/surcharge\npercentage of ToD tariff applicable for the relevant year. Any surplus generation over\nconsumption in any time block in a billing cycle shall be accounted as if the surplus\ngeneration/ Energy Credits occurred during the off-peak time block. For the p",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-002#cl-Guideline 7",
+   "doc_id": "DL-C3-002",
+   "jurisdiction": "DL",
+   "clause_ref": "Guideline 7",
+   "topic": "settlement/banking; tariff: year-end surplus paid at APPC",
+   "snippet": "The Consumer shall be paid for net energy credits which remain unadjusted at the end of\nthe financial year at the rate of Average Power Purchase Cost (APPC) of the Distribution\nLicensee for the respective year on provisional basis. Subsequently after true up of the\npower purchase cost of the Distribution Licensee, by the Commission, adjustment amount\nbetween provisional rate and trued up rate of average power purchase cost shall be\ncredited/debited to the account of consumer in the next billing cycle after issuance of the\ntrue up order of the relevant year by the Commission.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-2(7)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "2(7)",
+   "topic": "timelines: definition of complete application",
+   "snippet": "(7) “Application” means an application complete in all respects in\nthe appropriate format along with all requisite documents;",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-2(42)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "2(42)",
+   "topic": "metering: definition of net meter",
+   "snippet": "(42) “Net meter” means an appropriate meter capable of recording\nboth import & export of electricity or a pair of meters one each\nfor recording the net import and net export of electricity as the\ncase may be;",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-2(47)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "2(47)",
+   "topic": "capacity limit vs sanctioned/contract load: definition of sanctioned load",
+   "snippet": "(47) “Sanctioned load” means the load in kW or kVA (kilo Watt or\nKilo Volt Amp) which the Licensee has agreed to supply from\ntime to time as per the governing terms and conditions and\nshall be subject to relevant orders of the Commission, as may\nbe issued from time to time;",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-2(51)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "2(51)",
+   "topic": "definition of urban areas (timeline category)",
+   "snippet": "(51) “Urban areas” means all areas other than rural areas;",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-11(4)(i)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "11(4)(i)",
+   "topic": "timelines: energisation of connection from existing system (1/9 days after payment)",
+   "snippet": "(4) Energisation of Connection:-\n(i) Where connection is to be provided from existing\ndistribution system in electrified areas:-\na. In cases where road cutting permission or right of way\nis not required, the Licensee shall energize the\nconnection within 1(one) day from the date of receipt\nof full payment.\nb. In cases where road cutting permission or right of way\nis required, the Licensee shall energize the connection\nwithin 9(nine) days from the date of receipt of full\npayment:\nProvided that if delay in road cutting permission or\nright of way is beyond 2(two) days from the date of\nsubmission o",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-11(4)(ii)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "11(4)(ii)",
+   "topic": "DT hosting limit (load): no denial of connection up to 90% DT loading; augmentation at 70%",
+   "snippet": "(ii) Connection where system augmentation is required in\nelectrified areas:-\na. The Licensee shall not deny new connection as long as\nthe peak load including the load capacity of the new\nconnection on the applicable distribution transformer\nfalls within and up to 90% of the rated capacity of the\ntransformer.\nb. The Licensee shall take appropriate action for\naugmentation of the capacity, as soon as the peak load\non the existing applicable distribution transformer(s)\nreaches about 70% of its rated capacity.",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-17(7)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "17(7)",
+   "topic": "metering/phase threshold: single to three phase conversion; differential SLD on load increase",
+   "snippet": "(7) Conversion from single phase to three phase LT and from\nLT to HT; and vice-versa:\n(i) All applications for change from single phase to three phase\nLow Tension and from Low Tension to High Tension; and\nvice-versa, as the case may be, shall be dealt as per the\nprocedure laid down at Regulation 11.\n(ii) The consumer shall, in case of increase in load, pay the\ndifferential security deposit and Service Line cum\nDevelopment charges at the prevailing rates, and the\nLicensee shall, in case of decrease in load, refund the\nexcess security deposit.",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-21(2)",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "21(2)",
+   "topic": "capacity limit vs sanctioned/contract load: SLD charges, differential SLD on load enhancement",
+   "snippet": "(2) In case the area is electrified or to be electrified by the Licensee,\nthe new connection shall be released on payment of applicable\ncost upto the point of supply towards EHT system, HT system,\nLT system, civil work, service line, road restoration charges, and\nsupervision charges as specified in the Commission‟s Orders, by\nthe applicant except those covered under areas developed by a\ndeveloper under sub-regulation (1) above:\nProvided that the service line cum development charges shall\nneither be charged nor be refunded in case of load reduction:\nProvided further that if service line is actu",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-81",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "81",
+   "topic": "eligibility: net-metering applicants governed by Supply Code notwithstanding NM Regulations",
+   "snippet": "81. Applicants/Consumers covered under Delhi Electricity\nRegulatory Commission (Net Metering for Renewable Energy)\nRegulations, 2014:-\nNotwithstanding anything to the contrary contained in Delhi Electricity\nRegulatory Commission (Net Metering for Renewable Energy)\nRegulations, 2014 and amendments thereof, the applicant/consumer\nshall be governed by the provisions of Delhi Electricity Regulatory\nPage 103 of 121\n\n--- Page 104 ---\nDERC (Supply Code and Performance Standards) Regulations, 2017\nCommission (Supply Code and Performance Standards) Regulations,\n2017.",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-003#cl-88",
+   "doc_id": "DL-C3-003",
+   "jurisdiction": "DL",
+   "clause_ref": "88",
+   "topic": "repeal of Supply Code 2007",
+   "snippet": "88. Repeal and Savings\n(1) Save as otherwise provided in these Regulations, the following\nRegulations issued by the Commission are hereby repealed:\n(i) Delhi Electricity Supply Code & Performance Standards\nRegulations, 2007.",
+   "effective_date": "2017-09-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-2(1)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "2(1)",
+   "topic": "group/virtual net metering: GNM definition",
+   "snippet": "(1) “Group Net Metering” means an arrangement whereby surplus energy\ngenerated/injected from a Renewable Energy System or Battery Energy Storage\nSystem (BESS) charged through Renewable Energy System is exported to the\ngrid through Net Meter and the exported energy is adjusted in more than one\nelectricity service connection(s) of the same consumer located within the same\ndistribution licensee’s area of supply;",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-2(2)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "2(2)",
+   "topic": "group/virtual net metering: VNM definition",
+   "snippet": "(2) “Virtual Net Metering” means an arrangement whereby entire energy\ngenerated/injected from a Renewable Energy System or Battery Energy Storage\nSystem (BESS) charged through Renewable Energy System is exported to the\ngrid from renewable energy meter/ gross meter and the energy exported is\nadjusted in more than one electricity service connection(s) of participating\nconsumers located within the same distribution licensee’s area of supply;",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-3(1)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "3(1)",
+   "topic": "eligibility; group/virtual net metering: GNM for all consumers",
+   "snippet": "(1) Group Net Metering Framework shall be applicable for all consumers of NCT of\nDelhi.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-3(2)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "3(2)",
+   "topic": "eligibility; group/virtual net metering: VNM for residential, GHS, Govt offices, MMKABY generators",
+   "snippet": "(2) Virtual Net Metering Framework shall be applicable for residential consumers,\nGroup housing societies, offices of Government /Local Authorities and\nRenewable Energy Generators registered under Mukhya Mantri Kisaan Aay\nBadhotari Yojna.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-3(4)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "3(4)",
+   "topic": "capacity limit vs sanctioned/contract load: line capacity enhancement only for SLD",
+   "snippet": "(4) The enhancement of line capacity in terms of Regulation 5(4) of the Net Metering\nRegulations, 2014 for Renewable Energy System of capacity higher than the\nsanctioned load of the consumer shall be used only for calculation of Service\nLine cum Development (SLD) charges and not for levying corresponding\nadditional fixed charges.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-3(6)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "3(6)",
+   "topic": "group/virtual net metering: DISCOM bears SLD/augmentation for MMKABY projects till 31.03.2022",
+   "snippet": "(6) The distribution licensee shall facilitate and bear the capital expenditure on\naccount of Service Line cum Development (SLD) and network augmentation\ntowards Renewable Energy projects registered under Mukhya Mantri Kisaan Aay\nBadhotari Yojna and the same shall be pass through in Aggregate Revenue\nRequirement (ARR) for the schemes implemented upto 31st March 2022 subject\nto prudence check by the Commission.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-3(8)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "3(8)",
+   "topic": "capacity limit: GNM/VNM 5 kW to 5000 kW",
+   "snippet": "(8) The capacity of the Renewable Energy System under Group Net Metering or\nVirtual Net Metering framework to be installed by any Renewable Energy\nGenerator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-3(9)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "3(9)",
+   "topic": "feasibility/technical study: DISCOM system impact study within four months",
+   "snippet": "(9) The Distribution licensee shall carry out detailed technical study for impact of\nrenewable energy system installed under DERC (Net Metering for Renewable\nEnergy) Regulations 2014 on distribution system in respect of grid voltage &\nfrequency imbalance, harmonics and technical losses etc. in its area of supply\nand submit the report to the Commission within four months from the date of\nissue of these guidelines.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-4",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "4",
+   "topic": "DT hosting limit: as per clause (1) of Net Metering Guidelines 2014",
+   "snippet": "Distribution Transformer level capacity to be offered for connecting Renewable\nEnergy System for Group Net Metering or Virtual Net Metering shall be as per\nclause (1) of Net Metering Guidelines, 2014.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-5(1)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "5(1)",
+   "topic": "feasibility/technical study: GNM/VNM application fee Rs 1000",
+   "snippet": "(1) The consumer(s)/ applicant(s) shall submit an application for Group Net\nMetering or Virtual Net Metering in the format prescribed by the Distribution\nLicensee along with a non refundable fee of Rs.1000/- (Rupees one Thousand)\nto the concerned Distribution Licensee for feasibility analysis. The consumer can\ndownload the application form from the website of the distribution licensee.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-5(2)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "5(2)",
+   "topic": "feasibility/technical study: GNM/VNM three-tier process",
+   "snippet": "(2) The Distribution Licensees shall allow connectivity of Renewable Energy\nSystem with the distribution system and process the application under Group\nNet metering or Virtual Net Metering as per the provisions laid down under\nRegulation 5 and Regulation 6 of DERC (Net Metering for Renewable Energy)\nRegulations, 2014 and the procedure for connectivity of Renewable Energy\nSystem for Group Net Metering and Virtual Net Metering shall be three tier\nprocess, which is as follows:\ni) Feasibility Analysis,\nii) Registration\niii) Connection Agreement.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-8(2)(c)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "8(2)(c)",
+   "topic": "settlement/banking (GNM): surplus treated as off-peak for ToD consumers",
+   "snippet": "c. The electricity consumption in any time block (e.g., peak hours, off-peak\nhours, etc.) shall be first compensated with the electricity generation in the\nsimilar time blocks in the same billing cycle of the consumer where the\nRenewable Energy System is located and any surplus units injected shall be\nadjusted against the energy consumed in the monthly bill of service\nconnection(s) in a sequence indicated in the priority list provided by the\nconsumer as if the surplus generation/ Energy Credits occurred during the off\npeak time block for Time of Day (ToD) consumers and normal time block for\nNo",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-8(2)(e)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "8(2)(e)",
+   "topic": "settlement/banking (GNM): moderation; surplus treated as off-peak for ToD",
+   "snippet": "e. For the purpose of carry forward of surplus or set off of energy credits, the\nenergy units shall be moderated as per the relevant rebate/surcharge\npercentage of ToD tariff applicable for the relevant year. Any surplus\ngeneration over consumption in any time block in a billing cycle shall be\naccounted as if the surplus generation/ Energy Credits occurred during the\noff-peak time block for ToD consumers and normal time block for Non ToD\nconsumer.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-9(2)(b)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "9(2)(b)",
+   "topic": "group/virtual net metering (VNM): change of credit share once a year",
+   "snippet": "b. The consumer(s) shall have the option to change the share of credit of electricity\nfrom Renewable Energy System subject to the ratio of procurement from\nRenewable Energy System indicated under the agreement/ MoU entered by the\nconsumer(s) once in the financial year with an advance notice of two months",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-9(2)(d)",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "9(2)(d)",
+   "topic": "settlement/banking (VNM): surplus treated as off-peak",
+   "snippet": "d. The electricity consumption in any time block (e.g., peak hours, off-peak hours,\netc.) shall be first compensated with the electricity generation in the similar time\nblocks in the same billing cycle of the participating consumer(s). Any surplus\ngeneration over consumption in any time block in a billing cycle shall be\naccounted as if the surplus generation/ Energy Credits occurred during the off-\npeak time block.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-004#cl-13",
+   "doc_id": "DL-C3-004",
+   "jurisdiction": "DL",
+   "clause_ref": "13",
+   "topic": "tariff: exemption from wheeling/banking/CSS for systems commissioned till 31.03.2022",
+   "snippet": "The Renewable Energy System commissioned till 31st march 2022 under DERC\n(Net Metering for Renewable Energy) Regulations, 2014, shall be exempted during\nits useful life from payment of wheeling charge, banking charge, cross subsidy\ncharge and any other charge(s), as decided by the Commission by an order.",
+   "effective_date": "2019-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-005#cl-3(2)",
+   "doc_id": "DL-C3-005",
+   "jurisdiction": "DL",
+   "clause_ref": "3(2)",
+   "topic": "eligibility; group/virtual net metering: VNM for domestic + charitable institutions + MMKABY (First Amendment para 2.0)",
+   "snippet": "\"(2) Virtual Net Metering Framework shall be applicable for consumers under\ndomestic category and also consumers like Hospitals, Colleges, Schools, other\nInstitutions run or managed by Charitable Institutions, non-profit\nOrganisations/Trust, which are not covered under the category of domestic\nconsumers and Renewable Energy Generators registered under Mukhya Mantri\nKisaan Aay Badhotari Yojna.”",
+   "effective_date": "2020-10-19",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-006#cl-3(2)",
+   "doc_id": "DL-C3-006",
+   "jurisdiction": "DL",
+   "clause_ref": "3(2)",
+   "topic": "eligibility; group/virtual net metering: adds Govt/Local Authority offices to VNM (Second Amendment para 2.0, amends First Amendment)",
+   "snippet": "\"(2) Virtual Net Metering Framework shall be applicable for consumers under\ndomestic category, consumers like Hospitals, Colleges, Schools, other Institutions\nrun or managed by Charitable Institutions, non-profit Organisations/Trust, which\nare not covered under the category of domestic consumers, offices of Government\n/Local Authorities and Renewable Energy Generators registered under Mukhya\nMantri Kisaan Aay Badhotari Yojna.”",
+   "effective_date": "2020-12-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-007#cl-3(6)",
+   "doc_id": "DL-C3-007",
+   "jurisdiction": "DL",
+   "clause_ref": "3(6)",
+   "topic": "group/virtual net metering: SLD/augmentation waiver capped 75/50/30/10 MW (Third Amendment para 2.0)",
+   "snippet": "“3 (6) The Distribution Licensees shall facilitate and bear the capital expenditure\non account of Service Line cum Development (SLD) and network augmentation\ntowards Renewable Energy projects and the same shall be pass through in\nAggregate Revenue Requirement (ARR) for the schemes under VNM and GNM mode.\nProvided that such waiver of SLD will be effective till additional capacity doesn’t\nexceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC\nrespectively for projects under Virtual Net Metering and Group Net Metering in each\nDistribution Licensee.\nProvided further that Distribution ",
+   "effective_date": "2021-09-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-008#cl-13",
+   "doc_id": "DL-C3-008",
+   "jurisdiction": "DL",
+   "clause_ref": "13",
+   "topic": "tariff: charges exemption till 31.03.2024 or 75/50/30/10 MW (Fourth Amendment para 2.0)",
+   "snippet": "“13. Applicability of other charges\nThe Renewable Energy System commissioned under DERC (Net Metering for\nRenewable Energy) Regulations, 2014, shall be exempted during its useful life\nfrom payment of Wheeling Charge, Banking Charge, Cross Subsidy Surcharge\nand any other charge(s), as decided by the Commission by an order.\nProvided that exemption of applicability of such charges shall be valid till\ncommissioning of Renewable Energy System by 31st March 2024 or till additional\ncapacity reaches upto 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL,\nBYPL and NDMC respectively for projects under Virtu",
+   "effective_date": "2022-02-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-009#cl-2(1)",
+   "doc_id": "DL-C3-009",
+   "jurisdiction": "DL",
+   "clause_ref": "2(1)",
+   "topic": "group/virtual net metering: GNM definition, single or multiple locations (Fifth Amendment para 2.0)",
+   "snippet": "(1) “Group Net Metering” means an arrangement whereby surplus energy\ngenerated/injected from a Renewable Energy System situated in single or\nmultiple locations or Battery Energy Storage System (BESS) charged through\nRenewable Energy System is exported to the grid through Net Meter and the\nexported energy is adjusted in more than one electricity service connection(s) of\nthe same consumer located within the same distribution licensee’s area of\nsupply;",
+   "effective_date": "2024-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-009#cl-2(2)",
+   "doc_id": "DL-C3-009",
+   "jurisdiction": "DL",
+   "clause_ref": "2(2)",
+   "topic": "group/virtual net metering: VNM definition, single or multiple locations (Fifth Amendment para 2.0)",
+   "snippet": "(2) “Virtual Net Metering” means an arrangement whereby entire energy\ngenerated/injected from a Renewable Energy System situated in single or\nmultiple locations or Battery Energy Storage System (BESS) charged through\nRenewable Energy System is exported to the grid from renewable energy meter/\ngross meter and the energy exported is adjusted in more than one electricity\nservice connection(s) of participating consumers located within the same\ndistribution licensee’s area of supply;”",
+   "effective_date": "2024-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-009#cl-3(6)",
+   "doc_id": "DL-C3-009",
+   "jurisdiction": "DL",
+   "clause_ref": "3(6)",
+   "topic": "group/virtual net metering: SLD waiver only 11kV and below; cumulative 75/50/30/10 MW (Fifth Amendment para 3.0)",
+   "snippet": "“(6) The Distribution Licensees shall facilitate and bear the capital expenditure\non account of Service Line cum Development (SLD) and network augmentation\ntowards Renewable Energy projects and the same shall be pass through in\nAggregate Revenue Requirement (ARR) for the schemes under VNM and GNM\nmode.\n\n--- Page 2 ---\nProvided that such waiver of SLD will be applicable on 11kV and\nbelow Network only.\nProvided also that such waiver of SLD will be effective till cumulative\ncapacity doesn’t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL,\nBYPL and NDMC respectively for projects under Virtual",
+   "effective_date": "2024-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-009#cl-3(8)",
+   "doc_id": "DL-C3-009",
+   "jurisdiction": "DL",
+   "clause_ref": "3(8)",
+   "topic": "capacity limit vs sanctioned/contract load: ground-mounted up to 5x sanctioned load max 10 MW; no cap on rooftop (Fifth Amendment para 4.0)",
+   "snippet": "“(8) Capacity of the Ground Mounted RE System under GNM or VNM framework\nshall be upto 5 times of Sanctioned Load of participating consumer who have\nopted for VNM/GNM with maximum of 10 MW.\nHowever, there is no capping on capacity of Rooftop Solar Renewable Energy\nSystem under VNM or GNM framework.”",
+   "effective_date": "2024-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-009#cl-13",
+   "doc_id": "DL-C3-009",
+   "jurisdiction": "DL",
+   "clause_ref": "13",
+   "topic": "tariff: 100% exemption till 31.03.2027; 25% steps for projects till 31.03.2030 (Fifth Amendment para 5.0)",
+   "snippet": "“13. Applicability of other charges\nThe Renewable Energy System commissioned till 31/03/2027 shall be\nexempted, till useful life, from 100% payment of Wheeling Charge, Banking\nCharge, Cross Subsidy Surcharge and any other charge(s).\nThereafter, Projects commissioned till 31/03/2030, 25% of above mentioned\ncharges / surcharge shall be levied till useful life which shall be gradually\nincreased in steps of 25% after every 3rd Year to reach 100% of such charges.\nFurther, Distribution Licensee shall display the available capacity under\nVNM/GNM Guidelines on their website, updated on quarterly basis",
+   "effective_date": "2024-04-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-014#cl-8(2)(c)",
+   "doc_id": "DL-C3-014",
+   "jurisdiction": "DL",
+   "clause_ref": "8(2)(c)",
+   "topic": "settlement/banking (GNM): surplus treated as normal time block for ToD (Sixth Amendment para 2.0)",
+   "snippet": "In Guideline 8 of the Principal Guidelines, in Sub-clause (c) of Clause (2), words\n‘occurred during the off peak time block for Time of Day (ToD) consumers and\nnormal time block for Non-ToD Consumer’, shall be substituted by words\n‘“occurred during the normal time block for Time of Day (ToD) consumers and\nnormal time block for Non-ToD consumers.”",
+   "effective_date": "2025-06-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-014#cl-8(2)(e)",
+   "doc_id": "DL-C3-014",
+   "jurisdiction": "DL",
+   "clause_ref": "8(2)(e)",
+   "topic": "settlement/banking (GNM): surplus treated as normal time block for ToD (Sixth Amendment para 3.0)",
+   "snippet": "In Guideline 8 of the Principal Guidelines, in Sub-clause (e) of Clause (2), words\n‘occurred during the off peak time block for Time of Day (ToD) consumers and\nnormal time block for Non-ToD Consumer’, shall be substituted by words\n‘“occurred during the normal time block for Time of Day (ToD) consumers and\nnormal time block for Non-ToD consumers.”",
+   "effective_date": "2025-06-05",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-015#cl-3(2)",
+   "doc_id": "DL-C3-015",
+   "jurisdiction": "DL",
+   "clause_ref": "3(2)",
+   "topic": "eligibility; group/virtual net metering: VNM for all consumers incl. single point supply (Seventh Amendment para 2.0; printed as '(3)')",
+   "snippet": "In Guideline 3(2) (Applicability of VNM), the following shall be substituted as: -\n(3) “Virtual Net Metering Framework shall be applicable for all consumers of\nNCT of Delhi including consumers of single point of supply.”",
+   "effective_date": "2026-01-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-015#cl-9(2)(b)",
+   "doc_id": "DL-C3-015",
+   "jurisdiction": "DL",
+   "clause_ref": "9(2)(b)",
+   "topic": "group/virtual net metering (VNM): change credit share/add connections twice a year (Seventh Amendment para 3.0)",
+   "snippet": "“b. The consumer(s) shall have the option to change the share of credit of\nelectricity from Renewable Energy System subject to the ratio of procurement or\nto add new participating service connections to the existing VNM arrangement\nunder the agreement/MoU entered into by the consumer(s) twice in the financial\nyear with an advance notice of two months”",
+   "effective_date": "2026-01-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-015#cl-9(2)(d)",
+   "doc_id": "DL-C3-015",
+   "jurisdiction": "DL",
+   "clause_ref": "9(2)(d)",
+   "topic": "settlement/banking (VNM): surplus treated as normal time block (Seventh Amendment para 4.0)",
+   "snippet": "In Guideline 9 of the Principal Guidelines, in Sub-clause (d) of Clause (2), words\n‘occurred during the off peak time block, shall be substituted by words\n‘“occurred during the normal time block.”",
+   "effective_date": "2026-01-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-015#cl-3(6)",
+   "doc_id": "DL-C3-015",
+   "jurisdiction": "DL",
+   "clause_ref": "3(6)",
+   "topic": "group/virtual net metering: SLD+augmentation waiver incl. new connections, 11kV and below, 110/100/30/10 MW (Seventh Amendment para 5.0)",
+   "snippet": "“(6) The Distribution Licensees shall facilitate and bear the capital expenditure\non account of Service Line cum Development (SLD) and network augmentation\ntowards Renewable Energy projects, including new connections thereof, and\nthe same shall be pass through in Aggregate Revenue Requirement (ARR) for\nthe schemes under VNM and GNM mode.\nProvided that such waiver of SLD and network augmentation will be applicable\non 11kV and below Network only.\nProvided also that such waiver of SLD and network augmentation will be\neffective till cumulative capacity doesn’t exceed 110 MW, 100 MW, 30 MW\nand 10 M",
+   "effective_date": "2026-01-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-5(1)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "5(1)",
+   "topic": "eligibility: P2P for prosumers except ground-mounted",
+   "snippet": "(1) These Guidelines shall apply to the Prosumers, except Ground Mounted Projects, and\nConsumers who opt to transact energy among themselves through an online Platform of\nService Provider(s) or through Distribution Licensee within its area of supply.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-5(2)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "5(2)",
+   "topic": "eligibility; capacity limit vs sanctioned/contract load: sanctioned load <= 200 kW",
+   "snippet": "(2) Sanctioned Load/ Contract Demand of Prosumer & consumer under Peer to Peer\nMetering Arrangement shall be less than or equal to 200 kW or equivalent kVA.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-5(3)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "5(3)",
+   "topic": "capacity limit vs sanctioned/contract load: RE capped at 500% of sanctioned load",
+   "snippet": "(3) The Capacity of Renewable Energy System installed or proposed to be installed at\nProsumer’s end for P2P Transaction shall be capped at 500% of its Sanctioned Load.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-5(4)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "5(4)",
+   "topic": "group/virtual net metering: only one of VNM/GNM/P2P at a time; switching once a year",
+   "snippet": "(4) Consumer and Prosumer shall avail benefits of any one of the Virtual Net Metering,\nGroup Net Metering and P2P Metering Arrangement at any point of time.\nProvided that Eligible consumer and Prosumer can switch from Virtual Net Metering or\nGroup Net Metering to P2P Energy Transaction arrangement or vice-versa once in every\nfinancial year.\nProvided further that Consumer opting for P2P Transactions shall deemed to have\nterminated their Virtual Net Metering or Group Net Metering Connectivity Agreement, if\napplicable.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-6(1)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "6(1)",
+   "topic": "metering: ToD/smart meter required",
+   "snippet": "(1) To avail P2P Transaction services, Prosumer and Consumer shall have Time of Day (ToD)\ncompliant Energy meter or Smart Meter installed in their premises. If ToD compliant\nenergy meter / Smart Meter, as the case may be, is not installed in their premises, then\nProsumer or Consumer shall install ToD compliant Energy meter or Smart Meter for\nenabling P2P Transaction. The procedure & charges for Metering under Peer to Peer\n\n--- Page 4 ---\nEnergy Transaction shall be as per DERC (Supply Code and Performance Standards)\nRegulations, 2017 & subsequent Amendment thereof.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-7(3)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "7(3)",
+   "topic": "feasibility/technical study; timelines: network compatibility within 15 days",
+   "snippet": "(3) Within 15 days of submission of registration form, Distribution Licensee shall check\nNetwork compatibility for connectivity of Prosumer with its Network.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-7(7)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "7(7)",
+   "topic": "deemed approval: RTS up to 10 kW deemed accepted without technical feasibility",
+   "snippet": "(7) The applications for roof top solar photo voltaic systems upto 10 kW capacity, complete\nin all respects shall be deemed to have been accepted without requiring technical\nfeasibility study and any commensurate enhancement of the sanctioned load of the\nconsumer, as may be required, shall be carried out by the distribution licensee.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-8(1)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "8(1)",
+   "topic": "settlement/banking: scheduling; P2P cap 20% CUF/day",
+   "snippet": "(1) For P2P Transactions, participant shall submit schedule atleast 8 time blocks before the\ncommencement of supply. Rescheduling shall be restricted during the 8 time block\npreceding the commencement of actual supply.\n\n--- Page 5 ---\nProvided that P2P Prosumer shall not transact energy more than 20% CUF of installed\nCapacity of Renewable Energy System per day.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-12(1)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "12(1)",
+   "topic": "tariff: P2P exempted from wheeling/banking/CSS till 31.03.2027",
+   "snippet": "(1) The Renewable Energy system under Peer-to-Peer Transaction shall be exempted from\nwheeling, banking, cross subsidy and other charges till 31st March 2027, or as decided\nby the commission by an order, as may be applicable.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-010#cl-12(2)",
+   "doc_id": "DL-C3-010",
+   "jurisdiction": "DL",
+   "clause_ref": "12(2)",
+   "topic": "DISCOM bears SLD/augmentation for P2P till 31.03.2027",
+   "snippet": "(2) The Distribution Licensee shall facilitate and bear the capital expenditure on\naccount of Service Line cum Development (SLD) and network augmentation\ntowards Renewable Energy System registered under P2P Transactions and the same\nshall be pass through in Aggregate Revenue Requirement (ARR) for the schemes\nimplemented upto 31st March 2027 subject to prudence check by the Commission.",
+   "effective_date": "2024-06-24",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-011#cl-2(7)",
+   "doc_id": "DL-C3-011",
+   "jurisdiction": "DL",
+   "clause_ref": "2(7)",
+   "topic": "timelines: complete application definition, received up to 1500hrs (Fifth Amendment para 2.1)",
+   "snippet": "(7) “Application” means an application complete in all respects in the appropriate\nformat, as required by the distribution licensee, along with all requisite documents\nincluding payment of necessary charges and other compliances received up to\n1500hrs;",
+   "effective_date": "2024-07-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-011#cl-2(42)(a)",
+   "doc_id": "DL-C3-011",
+   "jurisdiction": "DL",
+   "clause_ref": "2(42)(a)",
+   "topic": "definition of Metropolitan Area inserted (Fifth Amendment para 2.2; printed as '42(a)')",
+   "snippet": "42(a) “Metropolitan Area” means an area having a population of 10 lakh or 1 million\nor more, comprised in one or more districts and consisting of two or more\nmunicipalities or panchayats or other contiguous areas, specified by the Lt. Governor\nby public notification to be a metropolitan area;",
+   "effective_date": "2024-07-16",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "DL-C3-011#cl-2(51)",
+   "doc_id": "DL-C3-011",
+   "jurisdiction": "DL",
+   "clause_ref": "2(51)",
+   "topic": "definition of urban areas excluding metropolitan (Fifth Amendment para 2.3)",
+   "snippet": "(51) “Urban areas” means all areas other than rural areas and Metropolitan Areas;",
+   "effective_date": "2024-07-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-011#cl-11(4)(i)",
+   "doc_id": "DL-C3-011",
+   "jurisdiction": "DL",
+   "clause_ref": "11(4)(i)",
+   "topic": "timelines: energisation within 3/7/15 days metro/urban/rural (Fifth Amendment para 3.0)",
+   "snippet": "(4) Energisation of Connection: -\n(i) Where connection is to be provided from existing distribution system in\nelectrified areas: -\n\n--- Page 2 ---\na. In cases where road cutting permission or right of way is not required, the\nmaximum time period, after acceptance of application, rectification of the\ndefects and payment of applicable charges, not exceeding three days (3)\nin metropolitan areas, seven days (7) in urban areas and fifteen days (15)\nin rural areas,",
+   "effective_date": "2024-07-16",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "DL-C3-012#cl-5(3)",
+   "doc_id": "DL-C3-012",
+   "jurisdiction": "DL",
+   "clause_ref": "5(3)",
+   "topic": "feasibility/technical study; deemed approval; DT hosting limit; timelines: up to 10 kW exempt from feasibility, DISCOM enhances load and DT; >10 kW feasibility in 15 days (provisos added)",
+   "snippet": "“ Provided that the Technical feasibility of Renewable Energy System upto 10 kW\nis exempted from technical feasibility studies on the same supply type (Voltage level-\n1ph,3ph, etc.) and any commensurate enhancement of Sanctioned Load of the\nconsumer, as may be required, shall be carried out by Distribution Licensee.\nProvided further that any upgradation in Distribution Infrastructure\nincluding DT capacity to facilitate the installation of Renewable Energy System upto\n10 kW shall be carried out by Distribution Licensee and shall be allowed as pass\nthrough in Aggregate Revenue Requirement (ARR) ",
+   "effective_date": "2024-07-26",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-013#cl-3(1)",
+   "doc_id": "DL-C3-013",
+   "jurisdiction": "DL",
+   "clause_ref": "3(1)",
+   "topic": "feasibility/technical study: no application fee for domestic RTS up to 10 kW under PM Surya Ghar (proviso added, First Amendment para 2.0)",
+   "snippet": "“Provided that no such Application Fee for feasibility analysis shall be\npayable in case of domestic consumers for Rooftop Solar Connections up to\n10 KW under PM Surya Ghar: Muft Bijli Yojana.”",
+   "effective_date": "2025-05-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-013#cl-3(7)",
+   "doc_id": "DL-C3-013",
+   "jurisdiction": "DL",
+   "clause_ref": "3(7)",
+   "topic": "no registration charges for domestic RTS up to 10 kW under PM Surya Ghar (proviso added, First Amendment para 3.0)",
+   "snippet": "“Provided that no Registration Charges shall be payable in case of domestic\nconsumers for Rooftop Solar Connections up to 10 KW under PM Surya\nGhar: Muft Bijli Yojana”",
+   "effective_date": "2025-05-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-016#cl-3",
+   "doc_id": "DL-C3-016",
+   "jurisdiction": "DL",
+   "clause_ref": "3",
+   "topic": "feasibility/technical study; deemed approval; timelines: two-stage process, 15-day feasibility, deemed feasibility, 10-day Stage II, 25/10-day cap (Second Amendment para 2.0)",
+   "snippet": "In Guideline 3 (Procedure for Application and Registration) of the Principal\nGuidelines, for the words “is a three tier process, which is as follows: i) Feasibility\nAnalysis, ii) Registration, iii) Connection Agreement.”, the following shall be\nsubstituted, namely:—\n“shall be a two-stage process, comprising Stage I – Technical Feasibility\nAnalysis, and Stage II – Integrated Document Verification, Inspection and Net\nMeter Installation, and shall be undertaken through either of the following\nroutes:\n(a) Route A – a domestic consumer seeking a Rooftop Solar Connection\nunder the PM Surya Ghar: Muf",
+   "effective_date": "2026-07-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-016#cl-3(1)",
+   "doc_id": "DL-C3-016",
+   "jurisdiction": "DL",
+   "clause_ref": "3(1)",
+   "topic": "feasibility/technical study: no application fee for all domestic RTS up to 10 kW irrespective of PM Surya Ghar (proviso substituted, para 3.0)",
+   "snippet": "For the proviso to Guideline 3(1) inserted by the First Amendment Guidelines, 2025,\nthe following shall be substituted, namely:—\n“Provided that no Application Fee for feasibility analysis shall be payable in the\ncase of domestic consumers for Rooftop Solar Connections up to 10 kW,\nirrespective of whether or not such consumers avail benefits under the PM Surya\nGhar: Muft Bijli Yojana.”",
+   "effective_date": "2026-07-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-016#cl-3(7)",
+   "doc_id": "DL-C3-016",
+   "jurisdiction": "DL",
+   "clause_ref": "3(7)",
+   "topic": "no registration charges for all domestic RTS up to 10 kW (proviso substituted, para 4.0)",
+   "snippet": "For the proviso to Guideline 3(7) inserted by the First Amendment Guidelines, 2025,\nthe following shall be substituted, namely:—\n“Provided that no Registration Charges shall be payable in the case of domestic\nconsumers for Rooftop Solar Connections up to 10 kW, irrespective of whether\nor not such consumers avail benefits under the PM Surya Ghar: Muft Bijli\nYojana.”",
+   "effective_date": "2026-07-16",
+   "confidence": "high"
+  },
+  {
+   "node_id": "DL-C3-016#cl-3(13)",
+   "doc_id": "DL-C3-016",
+   "jurisdiction": "DL",
+   "clause_ref": "3(13)",
+   "topic": "timelines: digital connection agreement at Stage II (para 5.0)",
+   "snippet": "For Guideline 3(13) of the Principal Guidelines, the following shall be substituted,\nnamely:—\n“(13) The Connection Agreement between the Distribution Licensee and the\nconsumer shall be executed digitally on the applicable online portal at the time\nof submission under Stage II, and no separate physical Connection Agreement\nshall be required. Such digital execution shall be mandatory for all consumers,\nirrespective of consumer category or capacity of the Renewable Energy System,\nand no connectivity shall be granted unless the Connection Agreement has been\nso executed:\n(a) in the case of domestic",
+   "effective_date": "2026-07-16",
+   "confidence": "high"
+  }
+ ],
+ "edges": [
+  {
+   "from_node": "DL-C3-004#cl-3(2)",
+   "to_node": "DL-C3-005#cl-3(2)",
+   "type": "supersedes",
+   "effective_date": "2020-10-19",
+   "evidence_quote": "In Guideline 3 (2) (Applicability of VNM), the following shall be substituted as: -",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-005#cl-3(2)",
+   "to_node": "DL-C3-006#cl-3(2)",
+   "type": "amends",
+   "effective_date": "2020-12-24",
+   "evidence_quote": "The phrase “offices of Government /Local Authorities” is added in Guideline\n3 (2) (Applicability of VNM)",
+   "confidence": "high",
+   "note": "Second Amendment expressly amends the First Amendment's 3(2) by adding a phrase."
+  },
+  {
+   "from_node": "DL-C3-006#cl-3(2)",
+   "to_node": "DL-C3-015#cl-3(2)",
+   "type": "supersedes",
+   "effective_date": "2026-01-20",
+   "evidence_quote": "In Guideline 3(2) (Applicability of VNM), the following shall be substituted as: -",
+   "confidence": "medium",
+   "note": "Seventh Amendment substitutes Guideline 3(2) of the Principal Guidelines (as amended by 1st/2nd); substituted text is mis-numbered '(3)' in print."
+  },
+  {
+   "from_node": "DL-C3-004#cl-3(6)",
+   "to_node": "DL-C3-007#cl-3(6)",
+   "type": "supersedes",
+   "effective_date": "2021-09-28",
+   "evidence_quote": "In Guidelines 3(6) (Applicability of VNM), the following shall be substituted as:-",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-007#cl-3(6)",
+   "to_node": "DL-C3-009#cl-3(6)",
+   "type": "supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "In Guidelines 3(6) (Applicability of VNM), the following shall be substituted\nas:-",
+   "confidence": "high",
+   "note": "Fifth Amendment re-substitutes 3(6) already substituted by Third Amendment."
+  },
+  {
+   "from_node": "DL-C3-009#cl-3(6)",
+   "to_node": "DL-C3-015#cl-3(6)",
+   "type": "supersedes",
+   "effective_date": "2026-01-20",
+   "evidence_quote": "In Guidelines 3(6) (General & Applicability), the following shall be substituted",
+   "confidence": "high",
+   "note": "Seventh Amendment re-substitutes 3(6); caps raised to 110/100/30/10 MW."
+  },
+  {
+   "from_node": "DL-C3-004#cl-3(8)",
+   "to_node": "DL-C3-009#cl-3(8)",
+   "type": "supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "In Guidelines 3(8), the following shall be substituted as:-",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-004#cl-2(1)",
+   "to_node": "DL-C3-009#cl-2(1)",
+   "type": "supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "In Guideline-2, (Definition), the following shall be substituted as:-",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-004#cl-2(2)",
+   "to_node": "DL-C3-009#cl-2(2)",
+   "type": "supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "In Guideline-2, (Definition), the following shall be substituted as:-",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-004#cl-13",
+   "to_node": "DL-C3-008#cl-13",
+   "type": "supersedes",
+   "effective_date": "2022-02-24",
+   "evidence_quote": "In Guideline 13 (Applicability of Other Charges), the following shall be\nsubstituted as:-",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-008#cl-13",
+   "to_node": "DL-C3-009#cl-13",
+   "type": "supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "In Guidelines 13 (Applicability of other Charges), the following shall be\nsubstituted as:-",
+   "confidence": "high",
+   "note": "Fifth Amendment re-substitutes Guideline 13 already substituted by Fourth Amendment."
+  },
+  {
+   "from_node": "DL-C3-004#cl-8(2)(c)",
+   "to_node": "DL-C3-014#cl-8(2)(c)",
+   "type": "amends",
+   "effective_date": "2025-06-05",
+   "evidence_quote": "In Guideline 8 of the Principal Guidelines, in Sub-clause (c) of Clause (2), words",
+   "confidence": "high",
+   "note": "word substitution only (off peak -> normal time block)."
+  },
+  {
+   "from_node": "DL-C3-004#cl-8(2)(e)",
+   "to_node": "DL-C3-014#cl-8(2)(e)",
+   "type": "amends",
+   "effective_date": "2025-06-05",
+   "evidence_quote": "In Guideline 8 of the Principal Guidelines, in Sub-clause (e) of Clause (2), words",
+   "confidence": "high",
+   "note": "word substitution; quoted 'old words' differ slightly from 2019 text of 8(2)(e)."
+  },
+  {
+   "from_node": "DL-C3-004#cl-9(2)(b)",
+   "to_node": "DL-C3-015#cl-9(2)(b)",
+   "type": "supersedes",
+   "effective_date": "2026-01-20",
+   "evidence_quote": "In Guideline 9(2)(b), the following shall be substituted as: -",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-004#cl-9(2)(d)",
+   "to_node": "DL-C3-015#cl-9(2)(d)",
+   "type": "amends",
+   "effective_date": "2026-01-20",
+   "evidence_quote": "In Guideline 9 of the Principal Guidelines, in Sub-clause (d) of Clause (2), words",
+   "confidence": "high",
+   "note": "word substitution only."
+  },
+  {
+   "from_node": "DL-C3-001#cl-5(3)",
+   "to_node": "DL-C3-012#cl-5(3)",
+   "type": "amends",
+   "effective_date": "2024-07-26",
+   "evidence_quote": "2.1 New provisos added to Sub-regulation (3) of Regulation 5 of the Principal\nRegulations as under:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(3)",
+   "to_node": "DL-C3-012#cl-5(3)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-07-26",
+   "evidence_quote": "Provided also that Technical feasibility of Renewable Energy System above\n10 kW shall be completed by Distribution Licensee within fifteen (15) days",
+   "confidence": "medium",
+   "note": "Regulation proviso (15 days; <=10 kW exempt) overrides 30-day feasibility timeline in the 2014 Guidelines without textually amending them."
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(1)",
+   "to_node": "DL-C3-013#cl-3(1)",
+   "type": "amends",
+   "effective_date": "2025-05-01",
+   "evidence_quote": "New proviso shall be added to Guideline 3(1)- Feasibility Analysis of the Principal\nGuidelines as under :",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(7)",
+   "to_node": "DL-C3-013#cl-3(7)",
+   "type": "amends",
+   "effective_date": "2025-05-01",
+   "evidence_quote": "New proviso shall be added to Guideline 3(7)- Registration: of the Principal\nGuidelines as under :",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-013#cl-3(1)",
+   "to_node": "DL-C3-016#cl-3(1)",
+   "type": "supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "For the proviso to Guideline 3(1) inserted by the First Amendment Guidelines, 2025,\nthe following shall be substituted, namely:—",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-013#cl-3(7)",
+   "to_node": "DL-C3-016#cl-3(7)",
+   "type": "supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "For the proviso to Guideline 3(7) inserted by the First Amendment Guidelines, 2025,\nthe following shall be substituted, namely:—",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3",
+   "to_node": "DL-C3-016#cl-3",
+   "type": "amends",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "for the words “is a three tier process, which is as follows: i) Feasibility\nAnalysis, ii) Registration, iii) Connection Agreement.”, the following shall be\nsubstituted, namely:—",
+   "confidence": "high",
+   "note": "words in Guideline 3 opening substituted by a two-stage process; operative text replaced."
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(3)",
+   "to_node": "DL-C3-016#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "(i) Stage I: The Distribution Licensee shall complete the technical\nfeasibility analysis within fifteen (15) days",
+   "confidence": "medium",
+   "note": "Stage I 15-day timeline + deemed feasibility overrides 30-day timeline of Guideline 3(3), which is not expressly substituted."
+  },
+  {
+   "from_node": "DL-C3-012#cl-5(3)",
+   "to_node": "DL-C3-016#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "Provided further that where the Distribution Licensee fails to\ncommunicate the outcome of the feasibility analysis within the\nsaid period, the feasibility shall be deemed to have been granted;",
+   "confidence": "low",
+   "note": "Guideline adds deemed-grant of feasibility and cumulative caps on top of Reg 5(3) provisos; it implements rather than amends the Regulation (a guideline cannot amend a regulation). Implicit."
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(9)",
+   "to_node": "DL-C3-016#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "within ten (10) days from the date\nof electronic acknowledgement of such submission",
+   "confidence": "medium",
+   "note": "Guideline 3(7)-3(12),3(16),3(17) activities folded into integrated Stage II with 10-day timeline, replacing 45/15-day steps."
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(16)",
+   "to_node": "DL-C3-016#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "The activities specified in Guidelines 3(7) to 3(12), 3(16) and 3(17) of the\nPrincipal Guidelines shall be undertaken as part of the said integrated stage,",
+   "confidence": "medium",
+   "note": "15-day net meter step folded into 10-day Stage II."
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(17)",
+   "to_node": "DL-C3-016#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "The activities specified in Guidelines 3(7) to 3(12), 3(16) and 3(17) of the\nPrincipal Guidelines shall be undertaken as part of the said integrated stage,",
+   "confidence": "medium",
+   "note": "15-day testing/connectivity step folded into 10-day Stage II."
+  },
+  {
+   "from_node": "DL-C3-002#cl-Guideline 3(13)",
+   "to_node": "DL-C3-016#cl-3(13)",
+   "type": "supersedes",
+   "effective_date": "2026-07-16",
+   "evidence_quote": "For Guideline 3(13) of the Principal Guidelines, the following shall be substituted,\nnamely:—",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-003#cl-2(7)",
+   "to_node": "DL-C3-011#cl-2(7)",
+   "type": "supersedes",
+   "effective_date": "2024-07-16",
+   "evidence_quote": "2.1 In Regulation 2(7) of Principal Regulations, the following shall be substituted\nnamely: -",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-003#cl-2(51)",
+   "to_node": "DL-C3-011#cl-2(51)",
+   "type": "supersedes",
+   "effective_date": "2024-07-16",
+   "evidence_quote": "2.3 In Regulation 2(51) of Principal Regulations, the following shall be substituted\nnamely: -",
+   "confidence": "high"
+  },
+  {
+   "from_node": "DL-C3-003#cl-11(4)(i)",
+   "to_node": "DL-C3-011#cl-11(4)(i)",
+   "type": "supersedes",
+   "effective_date": "2024-07-16",
+   "evidence_quote": "In regulation 11(4)(i) of Principal Regulations, the following shall be substituted\nnamely: -",
+   "confidence": "medium",
+   "note": "substituted table text partly garbled (sub-clause c missing; d references 11(4)(i)(c))."
+  },
+  {
+   "from_node": "DL-C3-001#cl-5(4)",
+   "to_node": "DL-C3-003#cl-81",
+   "type": "partially_supersedes",
+   "effective_date": "2017-09-01",
+   "evidence_quote": "Notwithstanding anything to the contrary contained in Delhi Electricity\nRegulatory Commission (Net Metering for Renewable Energy)\nRegulations, 2014 and amendments thereof, the applicant/consumer\nshall be governed by the provisions",
+   "confidence": "low",
+   "note": "Reg 81 is a general non-obstante override of the NM Regulations by the Supply Code 2017, not clause-specific; linked to 5(4) because it applies SLD per the (repealed) 2007 Supply Code."
+  },
+  {
+   "from_node": "DL-C3-001#cl-10",
+   "to_node": "DL-C3-004#cl-13",
+   "type": "partially_supersedes",
+   "effective_date": "2019-05-31",
+   "evidence_quote": "The Renewable Energy System commissioned till 31st march 2022 under DERC\n(Net Metering for Renewable Energy) Regulations, 2014, shall be exempted during\nits useful life",
+   "confidence": "low",
+   "note": "Implicit: GNM/VNM Guideline 13 sets lifetime exemption for systems under the NM Regulations, overriding the five-year limit of Reg 10 without express amendment."
+  }
+ ],
+ "document_supersessions": [
+  {
+   "doc_from": "Delhi Electricity Supply Code & Performance Standards Regulations, 2007 [not in corpus]",
+   "doc_to": "DL-C3-003",
+   "type": "repeal",
+   "evidence_quote": "(1) Save as otherwise provided in these Regulations, the following\nRegulations issued by the Commission are hereby repealed:\n(i) Delhi Electricity Supply Code & Performance Standards\nRegulations, 2007.",
+   "confidence": "high",
+   "note": "Supply Code 2017 repeals Supply Code 2007 (with savings, Reg 88(2)); NM Regs 2014 refer to the 2007 Code."
+  }
+ ]
+}

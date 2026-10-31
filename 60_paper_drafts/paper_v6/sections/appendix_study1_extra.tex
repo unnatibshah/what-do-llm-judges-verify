@@ -1,0 +1,131 @@
+% Study 1 appendix sections carried over unchanged from paper_v4 (D52: Study 1 is a descriptive case study).
+\section{Case study: readings fixed in advance}
+\label{app:interpretations}
+% Source: PREREGISTRATION_v3 section 7, PREREGISTRATION_v3_AMENDMENT_1 section 4 (D48) and
+% PREREGISTRATION_v3_AMENDMENT_2 sections 3 and 5b (D49). Keep the wording; it was planned.
+Each rule was planned with the sentence we report when it applies. Readings 1--5 are from amendment 1, readings
+6--8 from amendment 2, and the rest from the original registration, where they now apply to the reference ladder.
+\begin{enumerate}
+  \item \rung{R4}$-$\rung{R5} not positive after Holm at any registry state, for a capable model: ``For this
+  model, the reviewer did not discriminate better than a lookup in the registry it was given, even when the
+  registry was damaged.''
+  \item \rung{R4}$-$\rung{R5} positive after Holm at a damaged state but not with the registry intact: ``The
+  reviewer added value over the registry only once the registry was damaged, from [the first such state].''
+  \item \rung{R4}$-$\rung{R5} negative after Holm with the registry intact: ``Adding the reviewer to a correct
+  registry made review worse than the registry alone.''
+  \item Deference positive after Holm: ``A wrong `in force' line removed catches this reviewer makes without
+  any registry: it followed the registry over the text.'' Not significant: ``We found no evidence of
+  deference''; never ``the reviewer does not defer''.
+  \item Any-finding catch above right-reason catch by more than \InterpPoints{} points for a capable model at
+  \rung{R0} to \rung{R2}: ``Scoring by flags alone would have credited this reviewer with [the gap] points of
+  catches it made for the wrong reason.''
+  \item NoRec positive after Holm and the false-alarm cost small: ``Telling the reviewer that no amendment is
+  recorded, instead of that the clause is in force, recovers catches the damaged record loses.'' Not significant:
+  ``We found no evidence that the wording matters''; never that it does not.
+  \item NoRec positive but the false-alarm cost larger than the gain: ``The wording trades catches for false alarms''
+  (both numbers reported).
+  \item A primary result that keeps its sign under S1: ``It does not depend on the flawed correct answers.'' One that
+  changes sign: ``It depends on them.''
+  \item Fewer than \MinClauses{} distinct replaced clauses in the sealed test: no primary claim. ``With
+  this many distinct clauses the test cannot support a population claim; we report per-clause results
+  descriptively.''
+  \item \rung{R2} at least as high as \rung{R4} for the capable models: ``The bottleneck is retrieval,
+  not representation: given both versions, reviewers catch the replaced rule as well as when told its
+  status.''
+  \item \rung{R4}$-$\rung{R2} not significant (uncorrected, secondary since D48): no ladder claim. ``Telling the reviewer the
+  registry status did not reliably raise catches for these models.''
+  \item The weak model at \rung{R4} within \InterpPoints{} points of its \rung{R2}: ``Below a capability
+  threshold, the information does not help.'' Reported as a limit of the claim.
+  \item The secondary model's \rung{R2} within \InterpPoints{} points of its \rung{R4}: ``For a stronger
+  model, seeing both versions is enough; the ladder result is limited to the local panel.'' Reported in
+  the abstract.
+  \item ``Can't confirm'' never used by a model: ``The option was available and unused.''
+\end{enumerate}
+``Seeing both versions is not enough'' means that \rung{R2}$-$\rung{R0} is not significant and that
+\rung{R2}'s catch is below half of \rung{R4}'s.
+
+\section{Case study: prompts}
+\label{app:prompts}
+The exact prompt of every rung, rendered for one dev item by \texttt{render\_prereg\_prompts.py}, is filed with
+the analysis plan (\texttt{PREREGISTRATION\_v3\_PROMPTS.md}) and released with the code; we do not retype it here.
+\rung{R4n} is \rung{R4}'s prompt with one change: in the registry lookup block, a status value
+\texttt{in\_force} reads \texttt{no\_amendment\_recorded}. A unit test checks that the two prompts differ in that word
+only, with the registry intact and damaged.
+
+\section{Case study: per-clause results}
+\label{app:perclause}
+\IfFileExists{generated/tab_perclause.tex}{\input{generated/tab_perclause.tex}}{}
+Every clause-level rate in the paper is built from these cells; the released \texttt{ladder\_per\_clause.csv} has
+them for every model and rung, with controls, control alarms, can't-confirm, misnamed and invalid counts.
+
+\section{Case study: annotation agreement}
+\label{app:agreement}
+On the seeded shared subset (\NAgreeItemsLinks{} links, \NAgreeItemsCases{} cases) labelled by both annotators:
+
+\begin{center}\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrr}
+\toprule
+Sheet & Field & Agreement & $\kappa$ & PABAK \\
+\midrule
+Links & relation & \AgreeLinksRelation & \KappaLinksRelation & \PabakLinksRelation \\
+Links & effective date & \AgreeLinksEffectiveDate & \KappaLinksEffectiveDate & \PabakLinksEffectiveDate \\
+Links & wording & \AgreeLinksWording & \KappaLinksWording & \PabakLinksWording \\
+Links & new clause id & \AgreeLinksNewClauseId & \KappaLinksNewClauseId & \PabakLinksNewClauseId \\
+Cases & decision & \AgreeCasesDecision & \KappaCasesDecision & \PabakCasesDecision \\
+Cases & blocking stage & \AgreeCasesBlockingStage & \KappaCasesBlockingStage & \PabakCasesBlockingStage \\
+Cases & deciding clauses & \AgreeCasesDecidingClauses & \KappaCasesDecidingClauses & \PabakCasesDecidingClauses \\
+\bottomrule
+\end{tabular}
+\end{center}
+The new-clause-id field is low mostly because one annotator wrote sub-clauses with a dot (\texttt{cl-4.2}) where the
+registry writes brackets (\texttt{cl-4(2)}); the adjudicator resolved these.
+
+\section{Case study: deviations from the analysis plan}
+\label{app:deviations}
+% Source: DECISIONS.md D48, D49 and the dated notes of 2026-10-29. Add any deviation found after the run.
+All of the following were recorded before any model saw a test item, except the last paragraph.
+\paragraph{Amendment 1 (D48).} After the dev pilot, the damaged-registry comparisons (Q1, Q2) replaced the ladder
+contrasts (\rung{R4}$-$\rung{R2}, \rung{R2}$-$\rung{R0}) as the primary family; the capable models run all
+\NDamageSeedsCapable{} damage seeds; discrimination, deference and the looser scoring rules (E5) were added.
+\paragraph{Amendment 2 (D49), after the human audit.}
+\begin{itemize}
+  \item Annotation keeps a case whose adjudicated outcome (decision, and blocking stage for a rejection) matches the key;
+  cases whose deciding clauses alone differ are kept and listed. The planned rule dropped them too and would have
+  kept \NStrictKept{} of \NCandidateCases{} cases.
+  \item The correct-answer gate (\ControlsGatePct\% judged correct) and the scorer gate (\ScorerCheckPct\% agreement)
+  were replaced by reporting: \PctControlsCorrect{} and \ScorerCheckPctObserved{} were observed. The scorer was not
+  changed.
+  \item Added: the \rung{R4n} arm and the NoRec contrast (primary family of \NPrimaryTestsVFive{}), sensitivity sets S1 and
+  S2, the confusion-count and reference-row reporting rules, descriptive splits, and the registry audit on the random
+  link sample.
+  \item The annotators' meeting before adjudication was dropped; the adjudicator decided every disagreement.
+  \item The analysis cutoff became 24 hours after the local run started, with blocks run in priority order.
+  \item The lead author approved the amendment and stated the co-authors' agreement; not every author signed it.
+\end{itemize}
+\paragraph{After the run.}
+Dated in the decision log. (1) The local models moved from the lead author's laptop to Kaggle GPU notebooks
+(\texttt{qwen2.5:14b}) and back to the laptop for the two smaller models, for speed; each model ran on one machine,
+and a 30-minute partial start on the laptop that finished no block is kept and unused. Model files were checked
+against the pre-specified digests on every machine. (2) The analysis cutoff was fixed as a wall-clock time before any
+test result was read. (3) The laptop's model server crashed once mid-request; the run raised, recorded no reply, and
+resumed from its cache. (4) Additions after the plan was fixed, outside every planned test: \texttt{qwen2.5:32b} (damage seeds 0--2) and Claude
+Opus~4.5 through a Kaggle-hosted proxy (seed 0) on the main arms, and a same-machine repeat of three blocks to measure
+determinism. Every planned block finished for the planned models.
+
+\section{Case study: data statement}
+\label{app:datastatement}
+\paragraph{Curation rationale.} Instruments on rooftop solar (net metering, capacity limits,
+connection procedures, central subsidy) were collected, including superseded ones, because the study
+is about replaced rules that remain available.
+\paragraph{Language.} English. Six of the 111 documents also contain Hindi passages. A local open model
+machine-translated these passages into English for retrieval only; the translations are poor in places, and no label
+depends on them.
+\paragraph{Source.} Official publications of central ministries, state electricity regulatory
+commissions and distribution companies in India, retrieved from their portals. Each document is
+released as a URL and a hash.
+\paragraph{Cases.} Synthetic applications generated from rule functions. No personal data.
+\paragraph{Annotators.} Two authors with backgrounds in computing (one an AI engineer with degrees in
+artificial intelligence and computer science), neither with training in law or energy policy, and a third author
+adjudicating (\S\ref{sec:annotation}).
+\paragraph{Licences.} Code under Apache-2.0; cases and labels under CC BY 4.0; documents as URLs and
+hashes.

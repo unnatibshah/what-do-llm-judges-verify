@@ -1,0 +1,117 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc4Mzk0MjMxN18xODky",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "principal regulation",
+  "title": "Regulations for Net Metering Rooftop Solar PV Grid Interactive Systems",
+  "number": "Notification No. 5/2016",
+  "printed_date": "June 2016 (landing page lists 17-06-2016)",
+  "status_in_force": "amended 2017, 2020, 2022, 2024, 2025; draft 2026 would repeal",
+  "file": "GERC-NetMetering-2016-Reg.pdf",
+  "fetched_at": "2026-10-01T16:42:27Z",
+  "http_status": 200,
+  "sha256": "8cc62abff76bf158a9d0d9959a1bad4a7b9c4de311074bf0dc98dbde58dc85f2",
+  "pages": 50,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Reg 5, proviso (DT hosting limit)",
+      "verbatim_quote": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;",
+      "page": 9,
+      "topic": "DT hosting capacity",
+      "numeric_values": {
+        "dt_limit_pct_of_peak_capacity": 65
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 5.1 proviso (augmentation cost)",
+      "verbatim_quote": "Provided that if augmentation of transformer/distribution network is required, the cost of such augmentation shall be borne by the consumer.",
+      "page": 9,
+      "topic": "DT augmentation cost",
+      "numeric_values": {},
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 6.2 (capacity cap vs sanctioned load)",
+      "verbatim_quote": "The maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s premises shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand;",
+      "page": 10,
+      "topic": "capacity cap % of sanctioned load",
+      "numeric_values": {
+        "cap_pct_sanctioned_load": 50
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 6.2 first proviso (kW bounds)",
+      "verbatim_quote": "Provided that the installed capacity shall not be less than 1 kW and shall not exceed 1 MW;",
+      "page": 10,
+      "topic": "kW ceiling",
+      "numeric_values": {
+        "min_kw": 1,
+        "max_kw": 1000
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 7 row 4 (TFR request timeline)",
+      "verbatim_quote": "On Registration with Distribution Licensee, letter to concerned Circle/Division for TFR and informing applicant regarding specifications of CTPT, meter. 5 days from receipt of duly completed application",
+      "page": 11,
+      "topic": "feasibility timeline",
+      "numeric_values": {
+        "days": 5
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 7 row 6 (post-TFR consent timeline)",
+      "verbatim_quote": "5 days from receipt of TFR from field office",
+      "page": 12,
+      "topic": "feasibility timeline",
+      "numeric_values": {
+        "days": 5
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 8(2) connectivity table",
+      "verbatim_quote": "1. Upto 6 kW 240 V- single phase 2. Above 6 kW and upto 18.65 kW 415 V-Three phase",
+      "page": 15,
+      "topic": "meter/phase threshold",
+      "numeric_values": {
+        "single_phase_max_kw": 6,
+        "three_phase_from_kw": 6
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 13.5 (solar meter class; check meters)",
+      "verbatim_quote": "The main Solar Meters shall be of 0.2s class accura cy",
+      "page": 25,
+      "topic": "meter accuracy class",
+      "numeric_values": {
+        "main_solar_meter_class": "0.2s"
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 13.5 (check meter threshold)",
+      "verbatim_quote": "Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.",
+      "page": 25,
+      "topic": "meter threshold",
+      "numeric_values": {
+        "check_meter_mandatory_above_kw": 20
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

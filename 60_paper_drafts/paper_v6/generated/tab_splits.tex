@@ -1,0 +1,21 @@
+\begin{table*}[t]\centering\small
+\caption{Descriptive splits, no test: right-reason catches k/n (clauses) on S-both faults by how the amendment is worded and whether the fault changes the decision; mean prompt tokens and seconds per call.}
+\label{tab:splits}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllllrr}
+\toprule
+Model & Arm & Explicit & Implicit & Outcome-changing & Basis-only & Tokens & s/call \\
+\midrule
+Gemma 4 26B & R4n-drop50 & 81/140 (10) & 15/35 (2) & 7/20 (3) & 89/190 (14) & 1450.14 & 1.36 \\
+Gemma 4 26B & R4n & 23/28 (10) & 3/7 (2) & 2/4 (3) & 24/38 (14) & 1465.4 & 28.39 \\
+Gemma 4 26B & R4-drop50 & 74/140 (10) & 15/35 (2) & 7/20 (3) & 82/190 (14) & 1452.16 & 1.14 \\
+Gemma 4 26B & R4 & 22/28 (10) & 3/7 (2) & 2/4 (3) & 23/38 (14) & 1451.7 & 34.74 \\
+Gemma 4 26B & R2 & 6/28 (10) & 3/7 (2) & 0/4 (3) & 9/38 (14) & 1430.74 & 70.28 \\
+Qwen 14B & R4n-drop50 & 81/140 (10) & 14/35 (2) & 7/20 (3) & 88/190 (14) & 1452.57 & 0.31 \\
+Qwen 14B & R4n & 25/28 (10) & 6/7 (2) & 2/4 (3) & 29/38 (14) & 1451.88 & 5.15 \\
+Qwen 14B & R4-drop50 & 72/140 (10) & 16/35 (2) & 7/20 (3) & 81/190 (14) & 1448.12 & 0.35 \\
+Qwen 14B & R4 & 25/28 (10) & 7/7 (2) & 2/4 (3) & 30/38 (14) & 1448.12 & 6.4 \\
+Qwen 14B & R2 & 11/28 (10) & 2/7 (2) & 1/4 (3) & 12/38 (14) & 1422.18 & 8.53 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

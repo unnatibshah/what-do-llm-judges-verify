@@ -1,0 +1,50 @@
+\section{Introduction}
+\label{sec:intro}
+
+Contracts are amended by later agreements, regulations by later notifications, and technical standards by later
+standards. An answer drawn from such a collection can quote a provision correctly and still be wrong, because the
+document it quotes was replaced before the date the question is about. Systems that use language models
+for this increasingly add a second model, an LLM judge, to check the answers before they reach a user. The judge is
+often given help: an amendment record listing which document replaced which, and from when.
+
+Our starting point is a practical worry about that arrangement. Amendment records are seldom complete. Consolidated
+versions lag behind new notifications; pipelines that extract links from documents miss some; registers cover only the
+instruments they were built from. Wherever a record is silent about a replacement, it effectively reports a replaced
+document as current. If the judge reads the documents in front of it, such gaps cost little. If it relies on the record,
+it will pass exactly the answers the record cannot catch, and it adds little beyond what a lookup in the record would do.
+
+Existing evaluations of LLM judges do not tell a builder which of these to expect. Benchmarks give the judge correct
+context or none \citep{tan2025judgebench,xu2025contextualjudgebench}, and most report whether the judge flagged an
+answer, not why. A judge that flags every older citation would score well on detection, and so would one that flags
+any older document that sits next to a newer one on the same subject. Neither is checking currency.
+
+We therefore built a test aimed at one error, citing a replaced document, and at the question of what the judge relies
+on when the record and the documents disagree. The test starts from any table of replacements. For each replacement it
+writes an answer citing the replaced document (a fault) and three answers that are correct: one citing the successor,
+one citing the replaced document at a date before the replacement existed (a date control), and one citing an older
+document that a newer one updated without replacing (a decoy). It then removes half the links from the record, presents
+the damaged record in several ways that carry the same information, and counts a fault as caught only when the judge
+says the cited document was replaced.
+
+We applied the test to \ENLinks{} replacements recorded by the IETF's RFC Editor, with four judges (Gemini~3.1~Pro,
+GPT-5.5, Claude Opus~4.5 and the open-weight Gemma~4~26B). The hypotheses, tests and the way we would read each outcome
+were committed to the project repository after a smaller pilot on 24 of the links and before these runs.
+
+With a correct record line, the judges caught every replaced citation or nearly so, which a lookup in the record
+also does. On the faults whose link we removed, every judge caught fewer with the record present than from the texts
+alone, on each of two random choices of which links to remove, and most of the missed answers were passed without
+any finding. The drop also occurred when the line said only that no replacement was recorded, a statement that is
+true. Presenting the record as an unverified note, or warning that it was incomplete, moved Gemini, GPT-5.5 and
+Claude most of the way back to their text-only behaviour, in their false alarms as well as their catches; the change is
+significant after correction for Gemini and GPT-5.5, while Claude, which had fewer catches to recover, did not reach
+significance, and Gemma recovered at most 5 of the 13 it had lost (\S\ref{sec:res-gaps}). Given both texts and no record, the judges
+caught many more replacements than they flagged updates, but every update they flagged had a near-identical title,
+and an unplanned analysis suggests that they treat the resemblance between two documents as evidence of replacement.
+Date controls, which the judges here nearly all passed, exposed in the pilot a 32B open model that flagged almost every old
+citation whatever its date.
+
+The paper's contribution is the test, released as a small harness, together with this evidence about four judges on
+one corpus. We do not claim that LLM judges in general defer to records, and we cannot say why the judges we tested
+did. A second setting, Indian rooftop-solar regulation with an amendment record extracted by an AI pipeline, is
+reported as a descriptive case study in the appendix: its answer key did not pass our own quality checks, and nothing
+in the main results rests on it.

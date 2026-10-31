@@ -1,0 +1,14 @@
+{
+  "source_url": "https://www.uperc.org/App_File/NotifiedStatement_of_Reasons_and_RSPV_Regulations_2019Final-rar114201924054PM.rar",
+  "landing_page_url": "https://www.uperc.org/notified_user.aspx",
+  "fetched_at": "2026-10-01T16:51:28Z",
+  "sha256": "904a507d9abb1c9130230d1e8b05ce57ebcdb92b1412c139b7b4b70c09bba2d4",
+  "archive_sha256": "fec804546fc9636f5e174d614cfaebbe162e6abb756995705d3460faf39d5eab",
+  "http_status": 200,
+  "note": "PDF extracted unmodified from the downloaded .rar archive (bsdtar); archive saved beside it. Scanned image PDF, no text layer; text via macOS Vision OCR.",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "printed_title": "Statement of Reasons - UPERC RSPV Regulations, 2019",
+  "number": "",
+  "printed_date": "",
+  "candidate_clauses": []
+}

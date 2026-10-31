@@ -1,0 +1,61 @@
+case_id,decision,blocking_stage,deciding_clauses,decided_by,adjudication_note,a_decision,a_blocking_stage,a_deciding_clauses,b_decision,b_blocking_stage,b_deciding_clauses
+SB-032d9870,REJECTED,technical_feasibility,UP-C3-002#cl-6.2,B,,,,,,,
+SB-06dccf10,REJECTED,subsidy_approval,IN-C1-001#cl-Annexure-1,A,,,,,,,
+SB-088d295a,REJECTED,subsidy_approval,IN-C1-011#cl-Annexure-1,Unnati,"A relies on a claim-extension deadline that is not substantiated in the supplied evidence, while B identifies a specific eligibility cutoff. Before finalizing, verify whether an official extension beyond October 2024 exists; if one does, the decision may change.",APPROVED,,IN-C1-001#cl-Annexure-1,REJECTED,subsidy_approval,IN-C1-011#cl-Annexure-1
+SB-09416de5,REJECTED,equipment_verification,KA-C5-006#cl-18,A+B,,,,,,,
+SB-0a1272aa,APPROVED,,GJ-C3-003#cl-5;GJ-C3-004#cl-6.2,Unnati,"Both annotators reach the same decision, but B cites the transformer-capacity rule and the relevant capacity provisions more comprehensively.",APPROVED,,GJ-C3-004#cl-6.2(c)(i);GJ-C3-005#cl-4,APPROVED,,GJ-C3-003#cl-5;GJ-C3-004#cl-6.2
+SB-0e1aff33,REJECTED,metering_mode_selection,UP-C3-004#cl-2(k)(iii),A+B,,,,,,,
+SB-12e1399b,ABSTAIN,,,Unnati,,ABSTAIN,,,APPROVED,,DL-C3-015#cl-9(2)(b)
+SB-1595d3ab,APPROVED,,DL-C3-001#cl-5(4);DL-C3-009#cl-4.0,A,,,,,,,
+SB-1873dafe,REJECTED,technical_feasibility,UP-C3-002#cl-5.1,A,,,,,,,
+SB-2741cfc2,REJECTED,metering_mode_selection,UP-C3-003#cl-2.k,Unnati,B identifies the governing eligibility provision and explains why the proposal fails despite satisfying the transformer-capacity and sanctioned-load limits.,REJECTED,metering_mode_selection,UP-C3-003#cl-2(k)(iii),REJECTED,metering_mode_selection,UP-C3-003#cl-2.k
+SB-3831cee8,REJECTED,metering_mode_selection,DL-C3-009#cl-3(8),B,,,,,,,
+SB-3951f18b,APPROVED,,GJ-C3-003#cl-8,A,,,,,,,
+SB-3c0568a1,APPROVED,,GJ-C3-003#cl-8;GJ-C3-004#cl-6.2(c)(i),A,,,,,,,
+SB-3e914362,REJECTED,portal_registration,DL-C3-001#cl-5(4);DL-C3-009#cl-3.0;DL-C3-015#cl-5.0,A,,,,,,,
+SB-3fae633b,REJECTED,technical_feasibility,TN-C5-002#cl-VII.2;TN-C5-002#cl-I.2,B,,,,,,,
+SB-41d678b1,REJECTED,technical_feasibility,UP-C3-002#cl-6.2;UP-C3-003#cl-2.k,B,,,,,,,
+SB-4249ea2e,REJECTED,metering_mode_selection,DL-C3-009#cl-3(8),Unnati,"Both annotators reach the correct rejection, but B cites the exact amended clause and documents the applicable effective date and ground-mounted distinction.",REJECTED,metering_mode_selection,DL-C3-009#cl-4.0,REJECTED,metering_mode_selection,DL-C3-009#cl-3(8)
+SB-4337c49d,APPROVED,,KA-C5-006#cl-18,B,,,,,,,
+SB-4683a697,REJECTED,portal_registration,DL-C3-015#cl-3(6),Unnati,B cites the specific amended provision governing the SLD waiver and correctly distinguishes the voltage restriction from the cumulative-capacity cap.,REJECTED,portal_registration,DL-C3-001#cl-5(4);DL-C3-009#cl-3.0;DL-C3-015#cl-5.0,REJECTED,portal_registration,DL-C3-015#cl-3(6)
+SB-47f4827f,REJECTED,metering_mode_selection,UP-C3-003#cl-2.k,Unnati,B provides the more precise clause reference and documents both the eligibility restriction and the capacity checks.,REJECTED,metering_mode_selection,UP-C3-003#cl-2(k)(iii),REJECTED,metering_mode_selection,UP-C3-003#cl-2.k
+SB-4976c4bf,REJECTED,metering_mode_selection,UP-C3-004#cl-2(k)(iii),A,,,,,,,
+SB-4e00a3c4,REJECTED,metering_mode_selection,DL-C3-009#cl-3(8),Unnati,"Both annotators reach the correct rejection, but B cites the exact clause identifier and clearly states why the absolute 10 MW limit overrides the load-based calculation.",REJECTED,metering_mode_selection,DL-C3-009#cl-4.0,REJECTED,metering_mode_selection,DL-C3-009#cl-3(8)
+SB-509700a5,REJECTED,metering_mode_selection,DL-C3-015#cl-9(2)(b),B,,,,,,,
+SB-54aaaca3,APPROVED,,KA-C5-006#cl-4,A,,,,,,,
+SB-55bff1e2,APPROVED,,GJ-C3-003#cl-13.5;GJ-C3-004#cl-6.2,Unnati,"B cites the specific metering-accuracy provision and the residential capacity exemption, supporting both the meter installation and system eligibility decisions.",APPROVED,,GJ-C3-003#cl-8;GJ-C3-004#cl-6.2(c)(i),APPROVED,,GJ-C3-003#cl-13.5;GJ-C3-004#cl-6.2
+SB-5c2f1b69,APPROVED,,IN-C3-001#cl-5(i);KA-C4-001#cl-1,A,,,,,,,
+SB-61a6573c,REJECTED,technical_feasibility,GJ-C3-004#cl-6.2(c)(ii),Unnati,,REJECTED,technical_feasibility,GJ-C3-004#cl-6.2(c)(ii),REJECTED,metering_mode_selection,GJ-C3-004#cl-6.2
+SB-632b2212,REJECTED,equipment_verification,GJ-C3-003#cl-13.5,Unnati,B cites the specific provision governing check-meter requirements and confirms that the other stated capacity and metering conditions are satisfied.,REJECTED,equipment_verification,GJ-C3-003#cl-8,REJECTED,equipment_verification,GJ-C3-003#cl-13.5
+SB-65c5c39f,REJECTED,metering_mode_selection,DL-C3-015#cl-9(2)(b),Unnati,B cites the exact amended clause governing the twice-per-financial-year limit and clearly distinguishes the satisfied notice and capacity conditions from the blocking issue.,REJECTED,metering_mode_selection,DL-C3-004#cl-9(2)(b);DL-C3-015#cl-3.0,REJECTED,metering_mode_selection,DL-C3-015#cl-9(2)(b)
+SB-6f0e9c5f,APPROVED,,GJ-C3-004#cl-6.2;GJ-C3-004#cl-9.2.3,B,,,,,,,
+SB-770a372c,REJECTED,subsidy_approval,IN-C1-011#cl-Annexure-1,B,,,,,,,
+SB-78994120,APPROVED,,TN-C5-002#cl-I.2,B,,,,,,,
+SB-7fcce033,REJECTED,equipment_verification,GJ-C3-003#cl-8,A,,,,,,,
+SB-8a026028,REJECTED,technical_feasibility,KA-C5-006#cl-4,B,,,,,,,
+SB-8b99a646,APPROVED,,DL-C3-015#cl-3(6),B,,,,,,,
+SB-8bbbbb5f,APPROVED,,GJ-C3-003#cl-5;GJ-C3-004#cl-6.2,B,,,,,,,
+SB-940e925b,APPROVED,,DL-C3-015#cl-3(2);DL-C3-009#cl-3(8),B,,,,,,,
+SB-9d0c1db7,REJECTED,metering_mode_selection,UP-C3-004#cl-2(k)(iii),B,,,,,,,
+SB-9f927b9d,REJECTED,technical_feasibility,TN-C5-002#cl-VII.2;TN-C5-002#cl-I.2,B,,,,,,,
+SB-a011df1f,ABSTAIN,,,A,,,,,,,
+SB-a86540a6,REJECTED,equipment_verification,GJ-C3-003#cl-13.5,Unnati,B cites the specific regulation governing the check-meter requirement and documents why capacity is not the reason for rejection.,REJECTED,equipment_verification,GJ-C3-003#cl-8,REJECTED,equipment_verification,GJ-C3-003#cl-13.5
+SB-ae138ae0,REJECTED,metering_mode_selection,UP-C3-004#cl-2(k)(iii),A,,,,,,,
+SB-b0b563e1,REJECTED,metering_mode_selection,TN-C5-002#cl-I.2,A,,,,,,,
+SB-b457a31c,REJECTED,metering_mode_selection,GJ-C3-004#cl-6.2,B,,,,,,,
+SB-b926248c,REJECTED,subsidy_approval,IN-C1-001#cl-Annexure-1,A,,,,,,,
+SB-bea538fe,APPROVED,,UP-C3-002#cl-5.1;UP-C3-003#cl-2.k,B,,,,,,,
+SB-c6303ba7,APPROVED,,GJ-C3-003#cl-8,A,,,,,,,
+SB-c9fe09fd,APPROVED,,DL-C3-009#cl-3(8),B,,,,,,,
+SB-d500cb79,REJECTED,metering_mode_selection,UP-C3-004#cl-2(k)(iii),A+B,,,,,,,
+SB-d79bec1f,ABSTAIN,,,Unnati,"The stated conflict between the regulation and its referenced table is material to the rejection, and the supplied evidence does not resolve which accuracy requirement controls. B asserts rejection without addressing that conflict.",ABSTAIN,,,REJECTED,equipment_verification,GJ-C3-003#cl-13.5
+SB-d9152b85,APPROVED,,GJ-C3-003#cl-4;GJ-C3-004#cl-6.2(c)(i);GJ-C3-005#cl-4,A,,,,,,,
+SB-db11efe7,APPROVED,,DL-C3-004#cl-3(1);DL-C3-009#cl-4.0,A,,,,,,,
+SB-dee78131,APPROVED,,GJ-C3-004#cl-6.2;GJ-C3-004#cl-9.2.3,Unnati,"B cites both the general net-metering eligibility rule and the specific captive-consumer limit, while correctly applying only amendments in force on the 2024-11-20 submission date.",APPROVED,,GJ-C3-004#cl-6.2(c)(ii),APPROVED,,GJ-C3-004#cl-6.2;GJ-C3-004#cl-9.2.3
+SB-e4475169,ABSTAIN,,,Unnati,"B’s approval depends on the Seventh Amendment being in force for this application; because its commencement is not established in the supplied evidence, approval is not yet adequately supported.",ABSTAIN,,,APPROVED,,DL-C3-015#cl-9(2)(b)
+SB-e6ca17a9,REJECTED,metering_mode_selection,UP-C3-003#cl-2(k)(iii);UP-C3-002#cl-5.1,A,,,,,,,
+SB-e8347f30,ABSTAIN,,,A,,,,,,,
+SB-e851ca36,APPROVED,,KA-C5-006#cl-18,B,,,,,,,
+SB-f9773ee1,REJECTED,metering_mode_selection,DL-C3-009#cl-3(8),B,,,,,,,
+SB-fa9742da,APPROVED,,KA-C5-006#cl-4;IN-C3-001#cl-11(7),Unnati,"B provides a more complete, stage-specific rationale, including the deemed-feasibility rule, the 15-day deadline, and the separate check-meter requirement.",APPROVED,,KA-C5-006#cl-4,APPROVED,,KA-C5-006#cl-4;IN-C3-001#cl-11(7)
+SB-fe4dc242,APPROVED,,IN-C3-001#cl-5(i);KA-C4-001#cl-1,A,,,,,,,

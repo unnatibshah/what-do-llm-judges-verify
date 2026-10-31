@@ -1,0 +1,3255 @@
+{
+ "decoy_balance": {
+  "same_area": "37/48",
+  "title_ratio": {
+   "links": 0.81,
+   "decoys": 0.76,
+   "smd": -0.22
+  },
+  "old_year": {
+   "links": 2006.7,
+   "decoys": 2006.97,
+   "smd": 0.04
+  },
+  "new_year": {
+   "links": 2014.76,
+   "decoys": 2014.89,
+   "smd": 0.02
+  },
+  "gap_years": {
+   "links": 8.06,
+   "decoys": 7.91,
+   "smd": -0.02
+  },
+  "old_words": {
+   "links": 69.38,
+   "decoys": 62.4,
+   "smd": -0.19
+  },
+  "new_words": {
+   "links": 89.9,
+   "decoys": 70.88,
+   "smd": -0.55
+  }
+ },
+ "models": {
+  "gemma-4-26b-a4b-it": {
+   "contexts": {
+    "lowauth-damaged": {
+     "fault_right": {
+      "k": 26,
+      "n": 48,
+      "ci": [
+       0.403,
+       0.674
+      ]
+     },
+     "fault_any": {
+      "k": 26,
+      "n": 48,
+      "ci": [
+       0.403,
+       0.674
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 18,
+      "n": 48,
+      "ci": [
+       0.252,
+       0.516
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "decoy_any": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "invalid": 0
+    },
+    "both-texts": {
+     "fault_right": {
+      "k": 31,
+      "n": 48,
+      "ci": [
+       0.504,
+       0.766
+      ]
+     },
+     "fault_any": {
+      "k": 31,
+      "n": 48,
+      "ci": [
+       0.504,
+       0.766
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 19,
+      "n": 48,
+      "ci": [
+       0.27,
+       0.537
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 6,
+      "n": 48,
+      "ci": [
+       0.059,
+       0.247
+      ]
+     },
+     "decoy_any": {
+      "k": 6,
+      "n": 48,
+      "ci": [
+       0.059,
+       0.247
+      ]
+     },
+     "invalid": 0
+    },
+    "caveat-damaged": {
+     "fault_right": {
+      "k": 29,
+      "n": 48,
+      "ci": [
+       0.463,
+       0.73
+      ]
+     },
+     "fault_any": {
+      "k": 29,
+      "n": 48,
+      "ci": [
+       0.463,
+       0.73
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 18,
+      "n": 48,
+      "ci": [
+       0.252,
+       0.516
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "decoy_any": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "invalid": 0
+    },
+    "status-damaged": {
+     "fault_right": {
+      "k": 23,
+      "n": 48,
+      "ci": [
+       0.345,
+       0.617
+      ]
+     },
+     "fault_any": {
+      "k": 23,
+      "n": 48,
+      "ci": [
+       0.345,
+       0.617
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    },
+    "norecord-damaged": {
+     "fault_right": {
+      "k": 23,
+      "n": 48,
+      "ci": [
+       0.345,
+       0.617
+      ]
+     },
+     "fault_any": {
+      "k": 23,
+      "n": 48,
+      "ci": [
+       0.345,
+       0.617
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    },
+    "status": {
+     "fault_right": {
+      "k": 47,
+      "n": 48,
+      "ci": [
+       0.891,
+       0.996
+      ]
+     },
+     "fault_any": {
+      "k": 47,
+      "n": 48,
+      "ci": [
+       0.891,
+       0.996
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    }
+   },
+   "code_hash": [
+    "13b235179f49"
+   ],
+   "abstract_overlap": {
+    "same_title_decoy_fa": {
+     "high": "2/7",
+     "low": "4/26"
+    },
+    "diff_title_fault_catch": {
+     "high": "2/6",
+     "low": "0/9"
+    }
+   },
+   "H1": {
+    "disc_mean": 0.5208,
+    "ci95": [
+     0.3542,
+     0.6875
+    ],
+    "by_title": {
+     "same": {
+      "fault_right": 29,
+      "decoy_validity": 6,
+      "n": 33
+     },
+     "different": {
+      "fault_right": 2,
+      "decoy_validity": 0,
+      "n": 15
+     }
+    }
+   },
+   "H2a": {
+    "items": 24,
+    "first": 13,
+    "second": 0,
+    "lost": 13,
+    "gained": 0,
+    "p": 0.000244
+   },
+   "H2b": {
+    "norecord-damaged": {
+     "items": 24,
+     "first": 0,
+     "second": 0,
+     "lost": 0,
+     "gained": 0,
+     "p": 1.0,
+     "vs_own": {
+      "items": 24,
+      "first": 13,
+      "second": 0,
+      "lost": 13,
+      "gained": 0,
+      "p": 0.000244
+     }
+    },
+    "lowauth-damaged": {
+     "items": 24,
+     "first": 0,
+     "second": 2,
+     "lost": 0,
+     "gained": 2,
+     "p": 0.5,
+     "vs_own": {
+      "items": 24,
+      "first": 13,
+      "second": 2,
+      "lost": 11,
+      "gained": 0,
+      "p": 0.000977
+     }
+    },
+    "caveat-damaged": {
+     "items": 24,
+     "first": 0,
+     "second": 5,
+     "lost": 0,
+     "gained": 5,
+     "p": 0.0625,
+     "vs_own": {
+      "items": 24,
+      "first": 13,
+      "second": 5,
+      "lost": 8,
+      "gained": 0,
+      "p": 0.007812
+     }
+    }
+   },
+   "bare_pass": {
+    "lowauth-damaged": 22,
+    "both-texts": 11,
+    "caveat-damaged": 19,
+    "status-damaged": 24,
+    "norecord-damaged": 24
+   },
+   "dropped_catch": {
+    "lowauth-damaged": {
+     "k": 2,
+     "n": 24,
+     "ci": [
+      0.023,
+      0.258
+     ]
+    },
+    "both-texts": {
+     "k": 13,
+     "n": 24,
+     "ci": [
+      0.351,
+      0.721
+     ]
+    },
+    "caveat-damaged": {
+     "k": 5,
+     "n": 24,
+     "ci": [
+      0.092,
+      0.405
+     ]
+    },
+    "status-damaged": {
+     "k": 0,
+     "n": 24,
+     "ci": [
+      0.0,
+      0.138
+     ]
+    },
+    "norecord-damaged": {
+     "k": 0,
+     "n": 24,
+     "ci": [
+      0.0,
+      0.138
+     ]
+    }
+   },
+   "fresh_gap": {
+    "n": 13,
+    "own": 8,
+    "with_record": 0
+   },
+   "pilot_overlap": {
+    "pilot_items": 12,
+    "shared": 5,
+    "shared_same_reply": 5,
+    "shared_caught": 0,
+    "pilot_only": 7,
+    "pilot_only_caught": 0
+   }
+  },
+  "kbench-claude-opus-4-5": {
+   "contexts": {
+    "lowauth-damaged": {
+     "fault_right": {
+      "k": 41,
+      "n": 48,
+      "ci": [
+       0.728,
+       0.928
+      ]
+     },
+     "fault_any": {
+      "k": 42,
+      "n": 48,
+      "ci": [
+       0.753,
+       0.941
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "decoy_validity": {
+      "k": 9,
+      "n": 48,
+      "ci": [
+       0.102,
+       0.319
+      ]
+     },
+     "decoy_any": {
+      "k": 9,
+      "n": 48,
+      "ci": [
+       0.102,
+       0.319
+      ]
+     },
+     "invalid": 0
+    },
+    "both-texts": {
+     "fault_right": {
+      "k": 38,
+      "n": 48,
+      "ci": [
+       0.657,
+       0.883
+      ]
+     },
+     "fault_any": {
+      "k": 39,
+      "n": 48,
+      "ci": [
+       0.681,
+       0.898
+      ]
+     },
+     "control_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "control_any": {
+      "k": 19,
+      "n": 48,
+      "ci": [
+       0.27,
+       0.537
+      ]
+     },
+     "date_validity": {
+      "k": 2,
+      "n": 48,
+      "ci": [
+       0.012,
+       0.14
+      ]
+     },
+     "decoy_validity": {
+      "k": 9,
+      "n": 48,
+      "ci": [
+       0.102,
+       0.319
+      ]
+     },
+     "decoy_any": {
+      "k": 9,
+      "n": 48,
+      "ci": [
+       0.102,
+       0.319
+      ]
+     },
+     "invalid": 0
+    },
+    "caveat-damaged": {
+     "fault_right": {
+      "k": 41,
+      "n": 48,
+      "ci": [
+       0.728,
+       0.928
+      ]
+     },
+     "fault_any": {
+      "k": 42,
+      "n": 48,
+      "ci": [
+       0.753,
+       0.941
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "decoy_validity": {
+      "k": 7,
+      "n": 48,
+      "ci": [
+       0.072,
+       0.272
+      ]
+     },
+     "decoy_any": {
+      "k": 7,
+      "n": 48,
+      "ci": [
+       0.072,
+       0.272
+      ]
+     },
+     "invalid": 0
+    },
+    "status-damaged": {
+     "fault_right": {
+      "k": 34,
+      "n": 48,
+      "ci": [
+       0.568,
+       0.818
+      ]
+     },
+     "fault_any": {
+      "k": 36,
+      "n": 48,
+      "ci": [
+       0.612,
+       0.851
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 21,
+      "n": 48,
+      "ci": [
+       0.307,
+       0.577
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 4,
+      "n": 48,
+      "ci": [
+       0.033,
+       0.196
+      ]
+     },
+     "decoy_any": {
+      "k": 4,
+      "n": 48,
+      "ci": [
+       0.033,
+       0.196
+      ]
+     },
+     "invalid": 0
+    },
+    "norecord-damaged": {
+     "fault_right": {
+      "k": 35,
+      "n": 48,
+      "ci": [
+       0.59,
+       0.834
+      ]
+     },
+     "fault_any": {
+      "k": 36,
+      "n": 48,
+      "ci": [
+       0.612,
+       0.851
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 5,
+      "n": 48,
+      "ci": [
+       0.045,
+       0.222
+      ]
+     },
+     "decoy_any": {
+      "k": 5,
+      "n": 48,
+      "ci": [
+       0.045,
+       0.222
+      ]
+     },
+     "invalid": 0
+    },
+    "status": {
+     "fault_right": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "fault_any": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 21,
+      "n": 48,
+      "ci": [
+       0.307,
+       0.577
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 4,
+      "n": 48,
+      "ci": [
+       0.033,
+       0.196
+      ]
+     },
+     "decoy_any": {
+      "k": 4,
+      "n": 48,
+      "ci": [
+       0.033,
+       0.196
+      ]
+     },
+     "invalid": 0
+    }
+   },
+   "code_hash": [
+    "13b235179f49"
+   ],
+   "abstract_overlap": {
+    "same_title_decoy_fa": {
+     "high": "3/7",
+     "low": "6/26"
+    },
+    "diff_title_fault_catch": {
+     "high": "5/6",
+     "low": "3/9"
+    }
+   },
+   "H1": {
+    "disc_mean": 0.6042,
+    "ci95": [
+     0.4375,
+     0.75
+    ],
+    "by_title": {
+     "same": {
+      "fault_right": 30,
+      "decoy_validity": 9,
+      "n": 33
+     },
+     "different": {
+      "fault_right": 8,
+      "decoy_validity": 0,
+      "n": 15
+     }
+    }
+   },
+   "H2a": {
+    "items": 24,
+    "first": 18,
+    "second": 10,
+    "lost": 8,
+    "gained": 0,
+    "p": 0.007812
+   },
+   "H2b": {
+    "norecord-damaged": {
+     "items": 24,
+     "first": 10,
+     "second": 11,
+     "lost": 2,
+     "gained": 3,
+     "p": 1.0,
+     "vs_own": {
+      "items": 24,
+      "first": 18,
+      "second": 11,
+      "lost": 7,
+      "gained": 0,
+      "p": 0.015625
+     }
+    },
+    "lowauth-damaged": {
+     "items": 24,
+     "first": 10,
+     "second": 17,
+     "lost": 0,
+     "gained": 7,
+     "p": 0.015625,
+     "vs_own": {
+      "items": 24,
+      "first": 18,
+      "second": 17,
+      "lost": 2,
+      "gained": 1,
+      "p": 1.0
+     }
+    },
+    "caveat-damaged": {
+     "items": 24,
+     "first": 10,
+     "second": 17,
+     "lost": 0,
+     "gained": 7,
+     "p": 0.015625,
+     "vs_own": {
+      "items": 24,
+      "first": 18,
+      "second": 17,
+      "lost": 2,
+      "gained": 1,
+      "p": 1.0
+     }
+    }
+   },
+   "bare_pass": {
+    "lowauth-damaged": 6,
+    "both-texts": 5,
+    "caveat-damaged": 6,
+    "status-damaged": 12,
+    "norecord-damaged": 12
+   },
+   "dropped_catch": {
+    "lowauth-damaged": {
+     "k": 17,
+     "n": 24,
+     "ci": [
+      0.508,
+      0.851
+     ]
+    },
+    "both-texts": {
+     "k": 18,
+     "n": 24,
+     "ci": [
+      0.551,
+      0.88
+     ]
+    },
+    "caveat-damaged": {
+     "k": 17,
+     "n": 24,
+     "ci": [
+      0.508,
+      0.851
+     ]
+    },
+    "status-damaged": {
+     "k": 10,
+     "n": 24,
+     "ci": [
+      0.245,
+      0.612
+     ]
+    },
+    "norecord-damaged": {
+     "k": 11,
+     "n": 24,
+     "ci": [
+      0.279,
+      0.649
+     ]
+    }
+   },
+   "fresh_gap": {
+    "n": 13,
+    "own": 11,
+    "with_record": 6
+   },
+   "pilot_overlap": {
+    "pilot_items": 12,
+    "shared": 5,
+    "shared_same_reply": 5,
+    "shared_caught": 3,
+    "pilot_only": 7,
+    "pilot_only_caught": 7
+   }
+  },
+  "kbench-gemini-3-1-pro": {
+   "contexts": {
+    "lowauth-damaged": {
+     "fault_right": {
+      "k": 42,
+      "n": 48,
+      "ci": [
+       0.753,
+       0.941
+      ]
+     },
+     "fault_any": {
+      "k": 42,
+      "n": 48,
+      "ci": [
+       0.753,
+       0.941
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 19,
+      "n": 48,
+      "ci": [
+       0.27,
+       0.537
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 4,
+      "n": 48,
+      "ci": [
+       0.033,
+       0.196
+      ]
+     },
+     "decoy_any": {
+      "k": 4,
+      "n": 48,
+      "ci": [
+       0.033,
+       0.196
+      ]
+     },
+     "invalid": 0
+    },
+    "both-texts": {
+     "fault_right": {
+      "k": 42,
+      "n": 48,
+      "ci": [
+       0.753,
+       0.941
+      ]
+     },
+     "fault_any": {
+      "k": 42,
+      "n": 48,
+      "ci": [
+       0.753,
+       0.941
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 21,
+      "n": 48,
+      "ci": [
+       0.307,
+       0.577
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 6,
+      "n": 48,
+      "ci": [
+       0.059,
+       0.247
+      ]
+     },
+     "decoy_any": {
+      "k": 6,
+      "n": 48,
+      "ci": [
+       0.059,
+       0.247
+      ]
+     },
+     "invalid": 0
+    },
+    "caveat-damaged": {
+     "fault_right": {
+      "k": 46,
+      "n": 48,
+      "ci": [
+       0.86,
+       0.988
+      ]
+     },
+     "fault_any": {
+      "k": 46,
+      "n": 48,
+      "ci": [
+       0.86,
+       0.988
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 6,
+      "n": 48,
+      "ci": [
+       0.059,
+       0.247
+      ]
+     },
+     "decoy_any": {
+      "k": 6,
+      "n": 48,
+      "ci": [
+       0.059,
+       0.247
+      ]
+     },
+     "invalid": 0
+    },
+    "status-damaged": {
+     "fault_right": {
+      "k": 25,
+      "n": 48,
+      "ci": [
+       0.383,
+       0.655
+      ]
+     },
+     "fault_any": {
+      "k": 25,
+      "n": 48,
+      "ci": [
+       0.383,
+       0.655
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    },
+    "norecord-damaged": {
+     "fault_right": {
+      "k": 28,
+      "n": 48,
+      "ci": [
+       0.443,
+       0.712
+      ]
+     },
+     "fault_any": {
+      "k": 29,
+      "n": 48,
+      "ci": [
+       0.463,
+       0.73
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 19,
+      "n": 48,
+      "ci": [
+       0.27,
+       0.537
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    },
+    "status": {
+     "fault_right": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "fault_any": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 20,
+      "n": 48,
+      "ci": [
+       0.288,
+       0.557
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    }
+   },
+   "code_hash": [
+    "13b235179f49"
+   ],
+   "abstract_overlap": {
+    "same_title_decoy_fa": {
+     "high": "2/7",
+     "low": "4/26"
+    },
+    "diff_title_fault_catch": {
+     "high": "6/6",
+     "low": "5/9"
+    }
+   },
+   "H1": {
+    "disc_mean": 0.75,
+    "ci95": [
+     0.6042,
+     0.875
+    ],
+    "by_title": {
+     "same": {
+      "fault_right": 31,
+      "decoy_validity": 6,
+      "n": 33
+     },
+     "different": {
+      "fault_right": 11,
+      "decoy_validity": 0,
+      "n": 15
+     }
+    }
+   },
+   "H2a": {
+    "items": 24,
+    "first": 22,
+    "second": 1,
+    "lost": 21,
+    "gained": 0,
+    "p": 1e-06
+   },
+   "H2b": {
+    "norecord-damaged": {
+     "items": 24,
+     "first": 1,
+     "second": 4,
+     "lost": 0,
+     "gained": 3,
+     "p": 0.25,
+     "vs_own": {
+      "items": 24,
+      "first": 22,
+      "second": 4,
+      "lost": 18,
+      "gained": 0,
+      "p": 8e-06
+     }
+    },
+    "lowauth-damaged": {
+     "items": 24,
+     "first": 1,
+     "second": 18,
+     "lost": 0,
+     "gained": 17,
+     "p": 1.5e-05,
+     "vs_own": {
+      "items": 24,
+      "first": 22,
+      "second": 18,
+      "lost": 4,
+      "gained": 0,
+      "p": 0.125
+     }
+    },
+    "caveat-damaged": {
+     "items": 24,
+     "first": 1,
+     "second": 22,
+     "lost": 0,
+     "gained": 21,
+     "p": 1e-06,
+     "vs_own": {
+      "items": 24,
+      "first": 22,
+      "second": 22,
+      "lost": 0,
+      "gained": 0,
+      "p": 1.0
+     }
+    }
+   },
+   "bare_pass": {
+    "lowauth-damaged": 6,
+    "both-texts": 2,
+    "caveat-damaged": 2,
+    "status-damaged": 23,
+    "norecord-damaged": 19
+   },
+   "dropped_catch": {
+    "lowauth-damaged": {
+     "k": 18,
+     "n": 24,
+     "ci": [
+      0.551,
+      0.88
+     ]
+    },
+    "both-texts": {
+     "k": 22,
+     "n": 24,
+     "ci": [
+      0.742,
+      0.977
+     ]
+    },
+    "caveat-damaged": {
+     "k": 22,
+     "n": 24,
+     "ci": [
+      0.742,
+      0.977
+     ]
+    },
+    "status-damaged": {
+     "k": 1,
+     "n": 24,
+     "ci": [
+      0.007,
+      0.202
+     ]
+    },
+    "norecord-damaged": {
+     "k": 4,
+     "n": 24,
+     "ci": [
+      0.067,
+      0.359
+     ]
+    }
+   },
+   "fresh_gap": {
+    "n": 13,
+    "own": 12,
+    "with_record": 1
+   },
+   "pilot_overlap": {
+    "pilot_items": 12,
+    "shared": 5,
+    "shared_same_reply": 5,
+    "shared_caught": 0,
+    "pilot_only": 7,
+    "pilot_only_caught": 0
+   }
+  },
+  "kbench-gpt-5-5": {
+   "contexts": {
+    "lowauth-damaged": {
+     "fault_right": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "fault_any": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "control_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "control_any": {
+      "k": 11,
+      "n": 48,
+      "ci": [
+       0.133,
+       0.365
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 10,
+      "n": 48,
+      "ci": [
+       0.117,
+       0.343
+      ]
+     },
+     "decoy_any": {
+      "k": 10,
+      "n": 48,
+      "ci": [
+       0.117,
+       0.343
+      ]
+     },
+     "invalid": 0
+    },
+    "both-texts": {
+     "fault_right": {
+      "k": 45,
+      "n": 48,
+      "ci": [
+       0.832,
+       0.979
+      ]
+     },
+     "fault_any": {
+      "k": 46,
+      "n": 48,
+      "ci": [
+       0.86,
+       0.988
+      ]
+     },
+     "control_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "control_any": {
+      "k": 12,
+      "n": 48,
+      "ci": [
+       0.149,
+       0.388
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 8,
+      "n": 48,
+      "ci": [
+       0.087,
+       0.296
+      ]
+     },
+     "decoy_any": {
+      "k": 8,
+      "n": 48,
+      "ci": [
+       0.087,
+       0.296
+      ]
+     },
+     "invalid": 0
+    },
+    "caveat-damaged": {
+     "fault_right": {
+      "k": 47,
+      "n": 48,
+      "ci": [
+       0.891,
+       0.996
+      ]
+     },
+     "fault_any": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "control_validity": {
+      "k": 1,
+      "n": 48,
+      "ci": [
+       0.004,
+       0.109
+      ]
+     },
+     "control_any": {
+      "k": 9,
+      "n": 48,
+      "ci": [
+       0.102,
+       0.319
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 8,
+      "n": 48,
+      "ci": [
+       0.087,
+       0.296
+      ]
+     },
+     "decoy_any": {
+      "k": 8,
+      "n": 48,
+      "ci": [
+       0.087,
+       0.296
+      ]
+     },
+     "invalid": 0
+    },
+    "status-damaged": {
+     "fault_right": {
+      "k": 31,
+      "n": 48,
+      "ci": [
+       0.504,
+       0.766
+      ]
+     },
+     "fault_any": {
+      "k": 31,
+      "n": 48,
+      "ci": [
+       0.504,
+       0.766
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 13,
+      "n": 48,
+      "ci": [
+       0.166,
+       0.41
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    },
+    "norecord-damaged": {
+     "fault_right": {
+      "k": 34,
+      "n": 48,
+      "ci": [
+       0.568,
+       0.818
+      ]
+     },
+     "fault_any": {
+      "k": 34,
+      "n": 48,
+      "ci": [
+       0.568,
+       0.818
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 10,
+      "n": 48,
+      "ci": [
+       0.117,
+       0.343
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    },
+    "status": {
+     "fault_right": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "fault_any": {
+      "k": 48,
+      "n": 48,
+      "ci": [
+       0.926,
+       1.0
+      ]
+     },
+     "control_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "control_any": {
+      "k": 13,
+      "n": 48,
+      "ci": [
+       0.166,
+       0.41
+      ]
+     },
+     "date_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_validity": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "decoy_any": {
+      "k": 0,
+      "n": 48,
+      "ci": [
+       0.0,
+       0.074
+      ]
+     },
+     "invalid": 0
+    }
+   },
+   "code_hash": [
+    "13b235179f49"
+   ],
+   "abstract_overlap": {
+    "same_title_decoy_fa": {
+     "high": "3/7",
+     "low": "5/26"
+    },
+    "diff_title_fault_catch": {
+     "high": "6/6",
+     "low": "7/9"
+    }
+   },
+   "H1": {
+    "disc_mean": 0.7708,
+    "ci95": [
+     0.6458,
+     0.875
+    ],
+    "by_title": {
+     "same": {
+      "fault_right": 32,
+      "decoy_validity": 8,
+      "n": 33
+     },
+     "different": {
+      "fault_right": 13,
+      "decoy_validity": 0,
+      "n": 15
+     }
+    }
+   },
+   "H2a": {
+    "items": 24,
+    "first": 22,
+    "second": 7,
+    "lost": 15,
+    "gained": 0,
+    "p": 6.1e-05
+   },
+   "H2b": {
+    "norecord-damaged": {
+     "items": 24,
+     "first": 7,
+     "second": 10,
+     "lost": 0,
+     "gained": 3,
+     "p": 0.25,
+     "vs_own": {
+      "items": 24,
+      "first": 22,
+      "second": 10,
+      "lost": 12,
+      "gained": 0,
+      "p": 0.000488
+     }
+    },
+    "lowauth-damaged": {
+     "items": 24,
+     "first": 7,
+     "second": 24,
+     "lost": 0,
+     "gained": 17,
+     "p": 1.5e-05,
+     "vs_own": {
+      "items": 24,
+      "first": 22,
+      "second": 24,
+      "lost": 0,
+      "gained": 2,
+      "p": 0.5
+     }
+    },
+    "caveat-damaged": {
+     "items": 24,
+     "first": 7,
+     "second": 23,
+     "lost": 0,
+     "gained": 16,
+     "p": 3.1e-05,
+     "vs_own": {
+      "items": 24,
+      "first": 22,
+      "second": 23,
+      "lost": 0,
+      "gained": 1,
+      "p": 1.0
+     }
+    }
+   },
+   "bare_pass": {
+    "lowauth-damaged": 0,
+    "both-texts": 1,
+    "caveat-damaged": 0,
+    "status-damaged": 17,
+    "norecord-damaged": 14
+   },
+   "dropped_catch": {
+    "lowauth-damaged": {
+     "k": 24,
+     "n": 24,
+     "ci": [
+      0.862,
+      1.0
+     ]
+    },
+    "both-texts": {
+     "k": 22,
+     "n": 24,
+     "ci": [
+      0.742,
+      0.977
+     ]
+    },
+    "caveat-damaged": {
+     "k": 23,
+     "n": 24,
+     "ci": [
+      0.798,
+      0.993
+     ]
+    },
+    "status-damaged": {
+     "k": 7,
+     "n": 24,
+     "ci": [
+      0.149,
+      0.492
+     ]
+    },
+    "norecord-damaged": {
+     "k": 10,
+     "n": 24,
+     "ci": [
+      0.245,
+      0.612
+     ]
+    }
+   },
+   "fresh_gap": {
+    "n": 13,
+    "own": 12,
+    "with_record": 5
+   },
+   "pilot_overlap": {
+    "pilot_items": 12,
+    "shared": 5,
+    "shared_same_reply": 5,
+    "shared_caught": 1,
+    "pilot_only": 7,
+    "pilot_only_caught": 3
+   }
+  }
+ },
+ "abstract_overlap_median": {
+  "links_same": 0.8,
+  "links_different": 0.15,
+  "decoys_same": 0.17,
+  "decoys_different": 0.1
+ },
+ "holm_H2a": {
+  "kbench-gemini-3-1-pro": 4e-06,
+  "kbench-gpt-5-5": 0.000183,
+  "gemma-4-26b-a4b-it": 0.000488,
+  "kbench-claude-opus-4-5": 0.007812
+ },
+ "holm_H2b": {
+  "kbench-gemini-3-1-pro|caveat-damaged": 1.2e-05,
+  "kbench-gemini-3-1-pro|lowauth-damaged": 0.000165,
+  "kbench-gpt-5-5|lowauth-damaged": 0.000165,
+  "kbench-gpt-5-5|caveat-damaged": 0.000279,
+  "kbench-claude-opus-4-5|lowauth-damaged": 0.125,
+  "kbench-claude-opus-4-5|caveat-damaged": 0.125,
+  "gemma-4-26b-a4b-it|caveat-damaged": 0.375,
+  "kbench-gemini-3-1-pro|norecord-damaged": 1.0,
+  "kbench-gpt-5-5|norecord-damaged": 1.0,
+  "gemma-4-26b-a4b-it|lowauth-damaged": 1.0,
+  "gemma-4-26b-a4b-it|norecord-damaged": 1.0,
+  "kbench-claude-opus-4-5|norecord-damaged": 1.0
+ },
+ "seed1": {
+  "models": {
+   "gemma-4-26b-a4b-it": {
+    "seed1": {
+     "items": 24,
+     "first": 17,
+     "second": 0,
+     "lost": 17,
+     "gained": 0,
+     "p": 1.5e-05
+    },
+    "seed0": {
+     "items": 24,
+     "first": 13,
+     "second": 0,
+     "lost": 13,
+     "gained": 0,
+     "p": 0.000244
+    },
+    "shared": 12,
+    "shared_same_reply": 12,
+    "only0": 12,
+    "only1": 12,
+    "pooled": {
+     "links": 36,
+     "mean": 0.6111,
+     "ci95": [
+      0.4444,
+      0.7778
+     ],
+     "lost": 22,
+     "gained": 0,
+     "sign_p": 0.0
+    }
+   },
+   "kbench-claude-opus-4-5": {
+    "seed1": {
+     "items": 24,
+     "first": 20,
+     "second": 13,
+     "lost": 7,
+     "gained": 0,
+     "p": 0.015625
+    },
+    "seed0": {
+     "items": 24,
+     "first": 18,
+     "second": 10,
+     "lost": 8,
+     "gained": 0,
+     "p": 0.007812
+    },
+    "shared": 12,
+    "shared_same_reply": 12,
+    "only0": 12,
+    "only1": 12,
+    "pooled": {
+     "links": 36,
+     "mean": 0.3056,
+     "ci95": [
+      0.1667,
+      0.4444
+     ],
+     "lost": 11,
+     "gained": 0,
+     "sign_p": 0.000977
+    }
+   },
+   "kbench-gemini-3-1-pro": {
+    "seed1": {
+     "items": 24,
+     "first": 21,
+     "second": 3,
+     "lost": 18,
+     "gained": 0,
+     "p": 8e-06
+    },
+    "seed0": {
+     "items": 24,
+     "first": 22,
+     "second": 1,
+     "lost": 21,
+     "gained": 0,
+     "p": 1e-06
+    },
+    "shared": 12,
+    "shared_same_reply": 12,
+    "only0": 12,
+    "only1": 12,
+    "pooled": {
+     "links": 36,
+     "mean": 0.8056,
+     "ci95": [
+      0.6667,
+      0.9167
+     ],
+     "lost": 29,
+     "gained": 0,
+     "sign_p": 0.0
+    }
+   },
+   "kbench-gpt-5-5": {
+    "seed1": {
+     "items": 24,
+     "first": 24,
+     "second": 8,
+     "lost": 16,
+     "gained": 0,
+     "p": 3.1e-05
+    },
+    "seed0": {
+     "items": 24,
+     "first": 22,
+     "second": 7,
+     "lost": 15,
+     "gained": 0,
+     "p": 6.1e-05
+    },
+    "shared": 12,
+    "shared_same_reply": 12,
+    "only0": 12,
+    "only1": 12,
+    "pooled": {
+     "links": 36,
+     "mean": 0.6389,
+     "ci95": [
+      0.4722,
+      0.7778
+     ],
+     "lost": 23,
+     "gained": 0,
+     "sign_p": 0.0
+    }
+   }
+  },
+  "holm_seed1": {
+   "kbench-gemini-3-1-pro": 3.2e-05,
+   "gemma-4-26b-a4b-it": 4.5e-05,
+   "kbench-gpt-5-5": 6.2e-05,
+   "kbench-claude-opus-4-5": 0.015625
+  },
+  "link_rows": [
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC1142>RFC7142#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC1657>RFC4273#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2204>RFC5024#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2478>RFC4178#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2482>RFC6082#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2621>RFC4671#fault",
+    "seeds": "0+1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2767>RFC6535#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2821>RFC5321#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2837>RFC4044#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2858>RFC4760#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC2910>RFC8010#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC3205>RFC9205#fault",
+    "seeds": "0+1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC3230>RFC9530#fault",
+    "seeds": "0+1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC3662>RFC8622#fault",
+    "seeds": "1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC3941>RFC5401#fault",
+    "seeds": "1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC3984>RFC6184#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC4244>RFC7044#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC4310>RFC5910#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC4402>RFC7802#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC4813>RFC5613#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC5046>RFC7145#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC5157>RFC7707#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC5205>RFC8005#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC5377>RFC8721#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC5430>RFC6460#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC5787>RFC6827#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC5953>RFC6353#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC6312>RFC6342#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC6548>RFC8730#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC6723>RFC8077#fault",
+    "seeds": "1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC7321>RFC8221#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC7613>RFC8265#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC8407>RFC9907#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC8773>RFC9973#fault",
+    "seeds": "0+1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC8843>RFC9143#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "gemma-4-26b-a4b-it",
+    "item_id": "RFC8941>RFC9651#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC1142>RFC7142#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC1657>RFC4273#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2204>RFC5024#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2478>RFC4178#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2482>RFC6082#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2621>RFC4671#fault",
+    "seeds": "0+1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2767>RFC6535#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2821>RFC5321#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2837>RFC4044#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2858>RFC4760#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC2910>RFC8010#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC3205>RFC9205#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC3230>RFC9530#fault",
+    "seeds": "0+1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC3662>RFC8622#fault",
+    "seeds": "1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC3941>RFC5401#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC3984>RFC6184#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC4244>RFC7044#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC4310>RFC5910#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC4402>RFC7802#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC4813>RFC5613#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC5046>RFC7145#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC5157>RFC7707#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC5205>RFC8005#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC5377>RFC8721#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC5430>RFC6460#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC5787>RFC6827#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC5953>RFC6353#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC6312>RFC6342#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC6548>RFC8730#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC6723>RFC8077#fault",
+    "seeds": "1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC7321>RFC8221#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC7613>RFC8265#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC8407>RFC9907#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC8773>RFC9973#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC8843>RFC9143#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-claude-opus-4-5",
+    "item_id": "RFC8941>RFC9651#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC1142>RFC7142#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC1657>RFC4273#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2204>RFC5024#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2478>RFC4178#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2482>RFC6082#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2621>RFC4671#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2767>RFC6535#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2821>RFC5321#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2837>RFC4044#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2858>RFC4760#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC2910>RFC8010#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC3205>RFC9205#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC3230>RFC9530#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC3662>RFC8622#fault",
+    "seeds": "1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC3941>RFC5401#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC3984>RFC6184#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC4244>RFC7044#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC4310>RFC5910#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC4402>RFC7802#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC4813>RFC5613#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC5046>RFC7145#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC5157>RFC7707#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC5205>RFC8005#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC5377>RFC8721#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC5430>RFC6460#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC5787>RFC6827#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC5953>RFC6353#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC6312>RFC6342#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC6548>RFC8730#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC6723>RFC8077#fault",
+    "seeds": "1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC7321>RFC8221#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC7613>RFC8265#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC8407>RFC9907#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC8773>RFC9973#fault",
+    "seeds": "0+1",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC8843>RFC9143#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gemini-3-1-pro",
+    "item_id": "RFC8941>RFC9651#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC1142>RFC7142#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC1657>RFC4273#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2204>RFC5024#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2478>RFC4178#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2482>RFC6082#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2621>RFC4671#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2767>RFC6535#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2821>RFC5321#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2837>RFC4044#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2858>RFC4760#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC2910>RFC8010#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC3205>RFC9205#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC3230>RFC9530#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC3662>RFC8622#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC3941>RFC5401#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC3984>RFC6184#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC4244>RFC7044#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC4310>RFC5910#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC4402>RFC7802#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC4813>RFC5613#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC5046>RFC7145#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC5157>RFC7707#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC5205>RFC8005#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC5377>RFC8721#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC5430>RFC6460#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC5787>RFC6827#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC5953>RFC6353#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC6312>RFC6342#fault",
+    "seeds": "0",
+    "own": 0,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC6548>RFC8730#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC6723>RFC8077#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC7321>RFC8221#fault",
+    "seeds": "1",
+    "own": 1,
+    "with_record": 1
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC7613>RFC8265#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC8407>RFC9907#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC8773>RFC9973#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC8843>RFC9143#fault",
+    "seeds": "0+1",
+    "own": 1,
+    "with_record": 0
+   },
+   {
+    "model": "kbench-gpt-5-5",
+    "item_id": "RFC8941>RFC9651#fault",
+    "seeds": "0",
+    "own": 1,
+    "with_record": 1
+   }
+  ]
+ }
+}

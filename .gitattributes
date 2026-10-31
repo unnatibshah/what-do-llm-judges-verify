@@ -1,0 +1,3 @@
+# Hashed data: never let git rewrite line endings (see CLAUDE.md, Windows).
+40_data/** -text
+*.sha256 -text

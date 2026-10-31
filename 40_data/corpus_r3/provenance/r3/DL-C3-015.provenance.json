@@ -1,0 +1,67 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/Final%20DERC%20%28Group%20Net%20Metering%20and%20Virtual%20Net%20Metering%20for%20Renewable%20Energy%29%20%28Seventh%20Amendment%29%20Guidelines%2C%202025_1.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:55Z",
+  "sha256": "586bd96a7589b6dbd54ba7de49fc887630c1badca60a202c4ef58a2c68c9b150",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "DERC (GNM and VNM for Renewable Energy) (Seventh Amendment) Guidelines, 2025",
+  "number": "F.17(44)/Engg./DERC/2023-24/8071",
+  "printed_date": "2026-01-20",
+  "file_type": "PDF document, version 1.7, 2 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Guideline 3(6) (substituted, dated 20.01.2026)",
+      "verbatim_quote": "Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn’t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively",
+      "page": 2,
+      "topic": "SLD/network-augmentation waiver MW caps raised",
+      "numeric_values": {
+        "MW_caps": {
+          "BRPL": 110,
+          "TPDDL": 100,
+          "BYPL": 30,
+          "NDMC": 10
+        },
+        "voltage": "11kV and below"
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-GNMVNM-2024-fifth-amend",
+        "clause_ref": "Guideline 3(6) second proviso",
+        "evidence_quote": "Provided also that such waiver of SLD will be effective till cumulative  capacity doesn’t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively",
+        "evidence_page": 2
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guideline 9(2)(b) (substituted)",
+      "verbatim_quote": "to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year with an advance notice of two months",
+      "page": 1,
+      "topic": "VNM share-change frequency once -> twice a year; notice 2 months",
+      "numeric_values": {
+        "changes_per_FY": 2,
+        "notice_months": 2
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-GNMVNM-2019-guidelines",
+        "clause_ref": "Guideline 9(2)(b)",
+        "evidence_quote": "once in the financial year with an advance notice of two months",
+        "evidence_page": 6
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guideline 3(2) (substituted)",
+      "verbatim_quote": "Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.",
+      "page": 1,
+      "topic": "VNM eligibility widened to all consumers",
+      "numeric_values": {},
+      "amends_or_supersedes": {
+        "doc": "DL-GNMVNM-2020-second-amend",
+        "clause_ref": "Guideline 3(2)",
+        "evidence_quote": "Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, offices of Government /Local Authorities and Renewable Energy Generators registered under Mukhya Mantri Kisaan Aay Badhotari Yojna.",
+        "evidence_page": 1
+      },
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

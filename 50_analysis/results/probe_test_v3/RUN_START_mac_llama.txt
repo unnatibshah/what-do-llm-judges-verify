@@ -1,0 +1,6 @@
+2026-10-29T18:26:09Z
+ae08e45f38bf5d89072899be80649a64d99b5569
+Darwin <host> 24.6.0 Darwin Kernel Version 24.6.0: Wed Nov  5 21:34:00 PST 2025; root:xnu-11417.140.69.705.2~1/RELEASE_ARM64_T8132 arm64
+llama3.1:8b on Mac
+restart 2026-10-29T19:17:09Z b7ae4bed76e5514096bf08d98f9cc23ca6d54ab2
+restart 2026-10-29T21:10:04Z after Ollama crash

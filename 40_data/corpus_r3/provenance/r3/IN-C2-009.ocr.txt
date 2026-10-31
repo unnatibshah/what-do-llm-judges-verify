@@ -1,0 +1,41 @@
+DERIVED FILE: macOS Vision OCR of IN-ALMM-2025-07-28-clarification-OM-283-76-2023.pdf; not the document. Verify against the PDF image.
+
+=====PAGE 1=====
+F. No. 283/76/2023-GRID SOLAR
+/ Government of India
+Ministry of New & Renewable Energy (MNRE)
+Atal Akshay Urja Bhawan,
+Lodhi Road, New Delhi
+Date: 28th July, 2025
+OFFICE MEMORANDUM
+Sub: Approved List of Models and Manufacturers (ALMM): Clarification - reg.
+With respect to MNRE's O.M.s regarding Approved List of Models and Manufacturers (ALMM),
+following two queries have been posed to MNRE:
+i. If a private sector enterprise installs a solar plant solely to charge the BESS, as
+stated above, will this solar project be exempted from the ALMM requirement in
+view of O.M. No. 283/54/2018-GRID SOLAR-Part(5) dated 07.10.2022 and O.M.
+No. 283/59/2024-GRID SOLAR dated 09.12.2024, issued by MNRE?
+ii. Whether the solar project installed solely to charge the BESS will be considered
+as Behind the Meter solar project as per O.M. No. 283/54/2018-GRID SOLAR-
+Part(5) dated 07.10.2022 issued by MNRE?
+2. The aforesaid queries have been examined in MNRE, and following is hereby clarified:
+a) If a solar power plant is feeding power to an Energy Storage System/ charging an
+Energy Storage System, which is directly or indirectly supplying electricity to the
+grid, then such solar power plant does not fall under the category of "behind-the-
+meter solar power plants solely used for captive consumption by a consumer or
+group of consumers" and accordingly, is not eligible for exemption from ALMM for
+solar PV modules as per provisions of MNRE's O.M. No. 283/54/2018-GRID
+SOLAR-Part(5) dated 07.10.2022 (which inter-alia state that the amendment issued
+vide MNRE's O.M. dated 13.01.2022 read with O.M. dated 28.03.2022, shall not be
+applicable to behind-the-meter solar power plants solely used for captive consumption by
+a consumer or group of consumers).
+b) Further, the applicability / exemption, w.r.t. ALMM for solar PV cells on such solar
+Storage System' project is exempted from ALMM for solar PV cells, the solar
+power plant exclusively feeding/ charging such 'Energy Storage System' project
+will also be exempt from ALMM for solar PV cells, and vice-versa.
+3. This issues with the approval of Secretary, MNRE.
+(Sanjay G. Karndhar)
+Scientist-E
+E-mail: karndhar.sg@nic.in
+To: All concerned
+Copy to: Director (Technical), NIC, MNRE, for uploading on MNRE's website.

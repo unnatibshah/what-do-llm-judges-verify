@@ -1,0 +1,32 @@
+{
+  "source_url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/07/202607181895863474.pdf",
+  "landing_page_url": "https://mnre.gov.in/en/notice/almm-list-ii-for-solar-pv-cells-no-blanket-extension-subject-to-limited-window-till-31-12-2026-for-commissioning-net-metering-and-open-access-re-power-projects/",
+  "fetched_at": "2026-10-01T16:51:03Z",
+  "sha256": "8b03a400bd9d88224241c7e8379571617386e98f7286fa8eedfb233eab1cd7ea",
+  "http_status": 200,
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "printed_title": "ALMM - No blanket extension of ALMM List-II (for solar PV cells) subject to limited window to Net-Metering / Open Access projects till 31st December 2026",
+  "number": "283/53/2026-GRID SOLAR",
+  "printed_date": "2026-07-18",
+  "file_type": "PDF document, version 1.4, 1 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Para 3",
+      "verbatim_quote": "Earlier this dispensation for Net-metering projects and Open Access renewable power projects was available till 31st May 2026. Net- metering projects and Open Access renewable power projects commissioned after 31st December, 2026, will be required to comply with the ALMM List-ll provisions.",
+      "page": 1,
+      "topic": "Net-metering/OA exemption from List-II extended 31.05.2026 -> 31.12.2026; supersedes OM 25.05.2026 and four June 2026 OMs",
+      "numeric_values": {
+        "old_date": "2026-05-31",
+        "new_date": "2026-12-31"
+      },
+      "amends_or_supersedes": {
+        "doc": "IN-ALMM-2026-05-25-OM-283-63-2025",
+        "clause_ref": "entire OM (superseded)",
+        "evidence_quote": "no blanket extension of the ALMM deadline, i.e., 1st June 2026, will be given.",
+        "evidence_page": 2
+      },
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    }
+  ]
+}

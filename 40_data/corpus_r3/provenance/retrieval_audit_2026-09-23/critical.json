@@ -1,0 +1,251 @@
+[
+  {
+    "doc_id": "IN-C3-001",
+    "outcome": "corrected",
+    "local_path": "<development repository>/scratch/corpus_rebuild/critical/IN-C3-001.pdf",
+    "source_url": "https://upadhi.cea.gov.in/assets/documents/ERCAR2024.pdf",
+    "retrieved_via": "web_search",
+    "actual_title": "Electricity (Rights of Consumers) Amendment Rules, 2024",
+    "actual_doc_number": "G.S.R. 125(E) [F. No. 23/05/2020-R&R]; Gazette of India Extraordinary No. 114, Part II Sec 3(i)",
+    "actual_doc_date": "2024-02-22",
+    "effective_date": "2024-02-22",
+    "effective_date_basis_note": "Rule 1(2): \"They shall come into force on the date of their publication in the Official Gazette.\" Gazette dated Thursday, February 22, 2024.",
+    "pages": 6,
+    "text_layer": "native",
+    "sha256": "98b7ad109a12b59815ad974f290bd9b106f5faf3fb98b9eafe0068bc99a20314",
+    "rule_checks": [
+      {
+        "node_id": "IN-C3-001#cl-11.1",
+        "stated_in_authentic_text": true,
+        "verbatim_excerpt": "(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a period of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be presumed that the proposal is technically feasible. (7A) The applications for roof top solar photo voltaic systems upto 10 kW capacity, complete in all respects shall be deemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of the sanctioned load of the consumer, as may be required, shall be carried out by the distribution licensee.”;",
+        "page": 5,
+        "substitute_doc_id_or_url": null,
+        "notes": "Substance of the claimed rule is stated (no feasibility study up to 10 kW; deemed accepted; licensee enhances sanctioned load) but NOT verbatim: real text says \"deemed to have been accepted\", no mention of \"portal\" or \"conveying of technical feasibility shall be deemed\". Real clause numbering is rule 11(7A) (and 11(7): 15-day study for all RTS with presumed feasibility), not rule 11(1)/(2). Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "Claimed number G.S.R. 132(E) is wrong; gazette copy reads G.S.R. 125(E).",
+      "Spec edge evidence quote \"in rule 11, for sub-rules (1) and (2), the following sub-rules shall be substituted\" is FALSE: the real amendment substitutes rule 11 sub-rules (7), (8) and (9) and inserts (7A) and (9A).",
+      "Fabricated 11(2) \"exceeding 10 kW ... fifteen days ... deemed approved\": real 11(7) applies the 15-day/presumed-feasible rule to ALL rooftop solar installations, not only >10 kW.",
+      "Mirror: hosted on CEA (upadhi.cea.gov.in), an official GoI domain; it is the Government of India Press gazette print. powermin.gov.in URLs now 404 after site migration. Hindi half of the PDF has a garbled text layer; English half is clean."
+    ]
+  },
+  {
+    "doc_id": "IN-C3-002",
+    "outcome": "exact",
+    "local_path": "<development repository>/scratch/corpus_rebuild/critical/IN-C3-002.pdf",
+    "source_url": "https://web.archive.org/web/20211129232349id_/https://powermin.gov.in/sites/default/files/webform/notices/Consumers_Rules_2020.pdf",
+    "retrieved_via": "web_search",
+    "actual_title": "Electricity (Rights of Consumers) Rules, 2020",
+    "actual_doc_number": "G.S.R. 818(E)",
+    "actual_doc_date": "2020-12-31",
+    "effective_date": "2020-12-31",
+    "effective_date_basis_note": "Rule 1(2): come into force on the date of publication in the Official Gazette (notification dated 31 Dec 2020).",
+    "pages": 10,
+    "text_layer": "native",
+    "sha256": "e4bab2817cd85d05a5d8431a81d5e5f4a1ecff8bac7934cbb9fa2de2bfc1c091",
+    "rule_checks": [
+      {
+        "node_id": "IN-C3-002#cl-11",
+        "stated_in_authentic_text": false,
+        "verbatim_excerpt": "(7) The technical feasibility study shall be completed within the time period specified by the Commission, not exceeding twenty days and the outcome of the study shall be intimated to the applicant. || (4) The regulations on Grid Interactive Roof top Solar PV system and its related matters shall provide for net metering for loads up to ten kW and for gross metering for loads above ten kW.",
+        "page": "7 (rule 11(7)); 6 (rule 11(4))",
+        "substitute_doc_id_or_url": "RJ-C3-004 (authentic RERC order 07.02.2024, p.2, quotes the Electricity (Rights of Consumers) Amendment Rules, 2021 dated 28.06.2021 verbatim: \"net metering to the Prosumer for loads up to five hundred Kilowatt or upto the sanctioned load, whichever is lower\")",
+        "notes": "PARTIAL. Sentence 1 (20-day feasibility) is stated in rule 11(7) (page 7) as \"not exceeding twenty days\" within a Commission-specified period. Sentence 2 (net metering up to 500 kW or sanctioned load) is NOT in the 2020 Rules: original rule 11(4) (page 6) provides net metering for loads up to ten kW and gross metering above ten kW. The 500 kW limit came from the Electricity (Rights of Consumers) Amendment Rules, 2021 (28.06.2021), not downloaded here. Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "Local file is a Wayback Machine capture (2021-11-29) of the official powermin.gov.in PDF; live powermin.gov.in paths now return 404 (site migrated). Gazette print, pages numbered 13-22 of the Extraordinary issue.",
+      "Rule-number mismatch: the 20-day rule is 11(7), which the 2024 amendment substitutes; the fabricated text put it in 11(2).",
+      "Fabricated text claims \"Beyond 500 kW, gross metering shall apply\" and a 20-day non-feasibility notice; neither appears in the 2020 Rules."
+    ]
+  },
+  {
+    "doc_id": "IN-C2-003",
+    "outcome": "corrected",
+    "local_path": "<development repository>/scratch/corpus_rebuild/critical/IN-C2-003.pdf",
+    "source_url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/02/20240215186472061.pdf",
+    "retrieved_via": "orphan",
+    "actual_title": "Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019 - reg. (OM holding in abeyance the OM of 09.02.2024; the 09.02.2024 OM is enclosed as page 2)",
+    "actual_doc_number": "No. 283/16/2023-GRID SOLAR",
+    "actual_doc_date": "2024-02-15",
+    "effective_date": "2024-02-15",
+    "effective_date_basis_note": "No explicit effective date; OM operates from issue. Enclosed 09.02.2024 OM (same file no.) had re-imposed ALMM w.e.f. 01.04.2024; the 15.02.2024 OM suspended it \"till further orders\".",
+    "pages": 2,
+    "text_layer": "native (p.1); ocr (p.2, scanned enclosure)",
+    "sha256": "e2883d0fd0070592e24cdfa8c49f3d633d1ef5a833d45591c327c770843e2d1a",
+    "rule_checks": [
+      {
+        "node_id": "IN-C2-003#cl-1",
+        "stated_in_authentic_text": false,
+        "verbatim_excerpt": "The undersigned is directed to convey that the O.M. of even no. dated 9th February, 2024 (copy enclosed) on the subject issue, is hereby held in abeyance till further orders. || [p.2, OCR, enclosed OM dated 09.02.2024] VideMNRE's Order of evenno.dated 1othMarch2023,theApproved Models and ManufacturersofSolarPhotovoltaicModules(RequirementsforCompulsoryRegistration)Order, 2019 (ALMM Order) was held in abeyance for one financial year,i.e.FY 2023-24.Asper further decision on this issue, the undersigned is directed to convey that: a)The ALMM[Approved List of Models & Manufacturers] forSolar PV Modules, is being re-imposed with effect from1stApril,2024.",
+        "page": "1 (15.02.2024 OM); 2 (enclosed 09.02.2024 OM)",
+        "substitute_doc_id_or_url": "IN-C2-002 reimposition OM 29.03.2024 (critical/IN-C2-002-reimposition.pdf) for the actual end of abeyance",
+        "notes": "The claimed rule is INVERTED. No MNRE OM \"revoking the abeyance with immediate effect\" on 15.02.2024 was found. Real sequence: 10.03.2023 OM held ALMM in abeyance for FY 2023-24; 09.02.2024 OM re-imposed ALMM w.e.f. 01.04.2024 (not immediately), with relaxations; 15.02.2024 OM held the 09.02.2024 OM itself in abeyance; 29.03.2024 OM clarified ALMM comes into effect from 01.04.2024. The first sentence of the snippet (10.03.2023 abeyance for FY 2023-24) is true and appears in the 09.02.2024 enclosure. Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "Claimed file number 283/54/2018-GRID SOLAR (Pt.) is wrong; the real OMs carry No. 283/16/2023-GRID SOLAR.",
+      "Found as unlinked CDN path on MNRE's official S3WaaS host (file id cited in SolarQuarter article), hence retrieved_via=orphan.",
+      "Page-2 OCR text has lost word spacing; excerpt copied as extracted."
+    ]
+  },
+  {
+    "doc_id": "IN-C2-002",
+    "outcome": "corrected",
+    "local_path": "<development repository>/scratch/corpus_rebuild/critical/IN-C2-002-reimposition.pdf",
+    "source_url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/03/202403291958870986.pdf",
+    "retrieved_via": "nav",
+    "actual_title": "Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019 - reg. (MNRE notice \"ALMM Order - reg.\", 29.03.2024)",
+    "actual_doc_number": "No. 283/16/2023-GRID SOLAR",
+    "actual_doc_date": "2024-03-29",
+    "effective_date": "2024-04-01",
+    "effective_date_basis_note": "Para 1: ALMM for Solar PV Modules \"shall accordingly come into effect from 1st April, 2024\".",
+    "pages": 1,
+    "text_layer": "ocr",
+    "sha256": "d877742d309f051732080faa0430248745b6971efe6b9b0c2b983144dae64503",
+    "existing_file_metadata": {
+      "path": "<development repository>/corpus/raw/IN-C2-002.pdf",
+      "sha256": "601f8813dff52b493c1a6b425fbe13fe4b7e07b2733e6818c70ebb1f28c4c1c0",
+      "actual_title": "Amendment to ALMM Order regarding reduction of module efficiency thresholds for off-grid projects/ applications like solar lamps, solar lights, solar street lights, solar fans, etc. other than solar powered agricultural pumps and solar PV rooftops, requiring individual capacity of each solar PV module deployed, to be of less than 200 Watt peak.",
+      "actual_doc_number": "No. 32/33/2024-SPV Division (read from page image; OCR text layer dropped the number and kept only \"SPV Division\")",
+      "actual_doc_date": "2025-05-06",
+      "issuer": "MNRE SPV Division, signed Sanjay G. Karndhar, Scientist-E",
+      "note": "Not an ALMM re-imposition order; it states nothing about re-imposition w.e.f. 01.04.2024."
+    },
+    "rule_checks": [
+      {
+        "node_id": "IN-C2-002#cl-2",
+        "stated_in_authentic_text": false,
+        "verbatim_excerpt": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is clarified that theALMM[Approved List of Models&Manufacturers]forSolarPVModules, shallaccordinglycomeintoeffectfrom1stApril,2024.",
+        "page": 1,
+        "substitute_doc_id_or_url": null,
+        "notes": "PARTIAL. The authentic 29.03.2024 OM states ALMM (List-I, modules) comes into effect from 01.04.2024. It does NOT state the claimed operative detail: nothing about \"bid submission date falls on or after 01.04.2024\", Government Schemes, Rooftop Solar or PM-Surya Ghar. Para 2 adds only that projects whose modules reached site by 31.03.2024 but cannot commission would be examined separately. The 09.02.2024 OM (in IN-C2-003.pdf p.2) said ALMM applies to Government-sponsored/subsidised projects, Solar PV Rooftops and PM KUSUM, but that OM was held in abeyance on 15.02.2024. Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "Claimed number 283/54/2018-GRID SOLAR (Pt.) is wrong; real: No. 283/16/2023-GRID SOLAR.",
+      "Spec edge evidence quote (\"Reference is invited to this Ministry OM of even number dated 10.03.2023, 27.03.2023 and 15.02.2024 ... re-imposed with effect from 01.04.2024\") does NOT appear in the real OM.",
+      "Found via MNRE notice page https://mnre.gov.in/en/notice/almm-order/ (notice listing).",
+      "Scanned; OCR text has lost word spacing; excerpt copied as extracted."
+    ]
+  },
+  {
+    "doc_id": "MH-C5-007",
+    "outcome": "substitute",
+    "local_path": null,
+    "source_url": "https://www.mahadiscom.in/consumer/wp-content/uploads/2023/07/Circular-No.342-dt.10.07.2023-1.pdf",
+    "retrieved_via": "nav",
+    "actual_title": "(Real MSEDCL Commercial Circular No. 342) Corrigendum order dated 28/04/2023 in the matter of MTR Tariff Order in Case No. 226 of 2022 dated 31/03/2023",
+    "actual_doc_number": "COMMERCIAL CIRCULAR No. 342 (No. CE (Comm)/Tariff/MTR 23-25/...)",
+    "actual_doc_date": "2023-07-10",
+    "effective_date": null,
+    "effective_date_basis_note": "Not applicable: the real Circular 342 is a tariff corrigendum, unrelated to rooftop solar. No MSEDCL instrument with the claimed 3-working-day / deemed-on-4th-day rule was found.",
+    "pages": 10,
+    "text_layer": "native",
+    "sha256": null,
+    "rule_checks": [
+      {
+        "node_id": "MH-C5-007#cl-2",
+        "stated_in_authentic_text": false,
+        "verbatim_excerpt": "c For installation of Renewable Energy Generating Systems, the technical feasibility study shall be completed within a period of (15) days and the outcome of the study shall be intimated to the applicant, failing which it shall be presumed that the proposal is technically feasible: Provided that the applications for Renewable Energy Generating Systems upto 10 kW capacity, complete in all respects shall be deemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of the sanctioned load of the consumer, as may be required, shall be carried out by the Distribution Licensee.”",
+        "page": 8,
+        "substitute_doc_id_or_url": "MH-C3-002 (MERC Grid Interactive Rooftop RE Generating Systems (Second Amendment) Regulations, 2024, No. MERC/Tech/Regulation/0537, Maharashtra Gazette 29.08.2024) - already in corpus",
+        "notes": "The claimed 3-working-day automatic sanction with DEEMED APPROVAL on the 4th day, and the I-SMART/SDO mechanism, are not stated in any authentic document found. The closest authentic rule is MERC's: applications up to 10 kW complete in all respects are deemed accepted without a feasibility study (no day count), and above that a 15-day study failing which feasibility is presumed. The MSEDCL ED(Infra) letter No. 34837 dated 07.11.2024 \"Faceless and Paperless process\" (https://www.mahadiscom.in/ismart/media/FACELESS_PAPERLESS_GUIDELINES_07.11.24.pdf) was checked and does NOT contain any feasibility deadline or deemed-approval rule. Excerpt is from the corpus translated-from-Marathi text of MH-C3-002. Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "Circular 342 exists on mahadiscom.in (listed on https://www.mahadiscom.in/custom/commercial-circulars.php) but is a tariff corrigendum dated 10.07.2023, not a June 2024 RTS circular. Not saved as MH-C5-007 to avoid mislabelling.",
+      "The fabricated \"Executive Director (Commercial)\" signatory and 18.06.2024 date have no authentic counterpart found."
+    ]
+  },
+  {
+    "doc_id": "RJ-C3-004",
+    "outcome": "corrected",
+    "local_path": "<development repository>/scratch/corpus_rebuild/critical/RJ-C3-004.pdf",
+    "source_url": "https://rerc.rajasthan.gov.in/rerc-user-files/office-orders (ASP.NET postback download, row: Petition 2201/2024, Suo motu, dated 07/02/2024; served as Order.pdf)",
+    "retrieved_via": "nav",
+    "actual_title": "Suo-Motu order in the matter of Rajasthan Electricity Regulatory Commission (Grid Interactive Distributed Renewable Energy Generating Systems) Regulations, 2021 (net metering limit raised to 1 MW)",
+    "actual_doc_number": "Petition No. 2201/2024 (Suo motu) [petition number from RERC orders index; not printed on the order itself]",
+    "actual_doc_date": "2024-02-07",
+    "effective_date": "2024-02-07",
+    "effective_date_basis_note": "Para 12: \"henceforth\" - effective from date of order 07.02.2024.",
+    "pages": 6,
+    "text_layer": "native",
+    "sha256": "c2d4bbe53bbbb9a1c7dad37ca85bcc4d5f908e7ddb884918dfbd1cdfba82b8c1",
+    "rule_checks": [
+      {
+        "node_id": "RJ-C3-004#cl-2",
+        "stated_in_authentic_text": false,
+        "verbatim_excerpt": "decides to increase the capacity limit of net- metering arrangement from 500 Kw to one Mega-watt (01 MW) as specified in regulation 7 of the RERC DREGS Regulation 2021 . || orders that henceforth net metering arrangement shall be applicable for loads upto one megawatt (01 MW) or upto the sanctioned load/contract demand, whichever is lower, for all categories of the consumers.",
+        "page": "5 (para 10); 6 (para 12)",
+        "substitute_doc_id_or_url": null,
+        "notes": "PARTIAL, and the second half is CONTRADICTED. Increase of net-metering limit from 500 kW to 1 MW for all consumer categories: STATED (paras 10, 12). Removal of the 100% sanctioned-load/contract-demand cap: NOT stated; the operative para 12 expressly keeps it: \"upto one megawatt (01 MW) or upto the sanctioned load/contract demand, whichever is lower\". (Several trade-press articles misreport a cap removal.) No direction to DISCOMs to amend procedures within 15 days. Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "Claimed number \"Suo-Moto Petition No. RERC/2112/2024\" and date 23.02.2024 are wrong: real order dated 07.02.2024, RERC index petition no. 2201/2024.",
+      "Coram names in the fabricated text (Dr. B.N. Sharma, Hemant Kumar Jain, Dr. Rajesh Sharma) happen to match the real order.",
+      "Spec edge RJ-C3-002#cl-7.2 superseded_by RJ-C3-004 is wrong: reg 7.2 (100% cap) survives; only the 500 kW limit from suo-motu order 07.09.2021 is raised.",
+      "A byte-different copy of the same order exists at jmkresearch.com (DOC-20240207-WA0041.pdf); text identical."
+    ]
+  },
+  {
+    "doc_id": "RJ-C5-005",
+    "outcome": "substitute",
+    "local_path": "<development repository>/scratch/corpus_rebuild/critical/RJ-C5-005-substitute.pdf",
+    "source_url": "https://environment.rajasthan.gov.in/content/dam/raj/energy/jaipurdiscom/PDF2022/Oct/National_Portal_JVVNL_Order.pdf",
+    "retrieved_via": "web_search",
+    "actual_title": "(Substitute) JVVNL Order: Procedural guidelines for registration of vendors for processing applications under National Solar Portal of MNRE under Phase II of Grid Connected Rooftop Solar Programme (encloses RERC DREGS Regulations 2021 as Annexure-IV)",
+    "actual_doc_number": "No. JPD/SE(Regulation)/XEN(DSM)/F./D.681 (handwritten number read from page image)",
+    "actual_doc_date": "2022-10-07",
+    "effective_date": "2022-10-07",
+    "effective_date_basis_note": "Date of order; the feasibility/cap rules themselves are from RERC DREGS Regulations 2021 (No. RERC/Secy/Reg-144, 08.04.2021; applicable to systems commissioned on/after 01.07.2021 per reg 3.4).",
+    "pages": 127,
+    "text_layer": "ocr (pp.1-2 JVVNL cover order); native (annexures incl. RERC regulations)",
+    "sha256": "8f205336895c6bd7db405007aec4905ca4e5aca1282afe73eeb70eabaa5a14a4",
+    "rule_checks": [
+      {
+        "node_id": "RJ-C5-005#cl-2",
+        "stated_in_authentic_text": true,
+        "verbatim_excerpt": "8.8 Within twenty (20) days from the issuance of acknowledgement of the application, the concerned officer of the respective Sub-divisional office of the Distribution Licensee shall check the technical feasibility of the Renewable Energy generating system. 8.9 If technical feasibility is found satisfactory, the Distribution Licensee shall approve the application and intimate the same to the applicant by providing a Letter of Approval (LoA) via email/SMS/post, within thirty (30) days from the issuance of acknowledgement of the application. || [p.100] 7.2 The maximum Renewable Energy generating system capacity to be installed at any Eligible Consumer’s premises shall not exceed 100% of the Sanctioned Load/Contract Demand of the consumer:",
+        "page": "102 (regs 8.8-8.9); 100 (reg 7.2)",
+        "substitute_doc_id_or_url": "RJ-C3-002 (RERC DREGS Regulations 2021, already in corpus: regs 7.2, 8.8, 8.9); also Annexure-IV of this JVVNL order",
+        "notes": "Claimed JVVNL order \"JPR5-1022\" dated 15.09.2022 was NOT found. The rule is substantially stated in the RERC 2021 Regulations (enclosed by this authentic JVVNL 2022 order): feasibility check within 20 days and LoA within 30 days of acknowledgement; capacity not to exceed 100% of Sanctioned Load/Contract Demand. Differences: real cap is on SANCTIONED load (not \"connected load\"); 30 days runs from acknowledgement, with deficiencies notified within 20 working days (reg 8.10) rather than a \"formal rejection within 30 days\"; no \"physical site inspection within 15 days by JEN\" rule. Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "The JVVNL cover order itself is about vendor empanelment; it states the rule only through its enclosed RERC regulations. The primary rule source is RJ-C3-002.",
+      "Host environment.rajasthan.gov.in serves the Rajasthan energy dept AEM content-dam path (jaipurdiscom/PDF2022/Oct); the same path on energy.rajasthan.gov.in now returns an HTML shell.",
+      "JVVNL public order portal (energy.rajasthan.gov.in/webapi OrderPortal, DepartmentCode 188) lists only 21 staff orders; no commercial/solar orders are indexed there."
+    ]
+  },
+  {
+    "doc_id": "RJ-C5-006",
+    "outcome": "substitute",
+    "local_path": "<development repository>/scratch/corpus_rebuild/critical/RJ-C5-006-substitute.pdf",
+    "source_url": "https://rerc.rajasthan.gov.in/rerc-user-files/regulations (ASP.NET postback download, row: Reg No. 154, 25/07/2024; served as Reg154.pdf)",
+    "retrieved_via": "nav",
+    "actual_title": "(Substitute) Rajasthan Electricity Regulatory Commission (Grid Interactive Distributed Renewable Energy Generating Systems) (Second Amendment) Regulations, 2024",
+    "actual_doc_number": "No. RERC/Secy./Reg./154",
+    "actual_doc_date": "2024-07-25",
+    "effective_date": null,
+    "effective_date_basis_note": "Reg 1(2): in force from the date of publication in the Official Gazette; the gazette page header reads \"August 00, 2024\" (publication day not legible in text layer), notification dated 25.07.2024.",
+    "pages": 3,
+    "text_layer": "native",
+    "sha256": "f53f855bb4739ea882a9621396ae626c005db39e6758cd834a4bcf3eb3ecde5f",
+    "rule_checks": [
+      {
+        "node_id": "RJ-C5-006#cl-1",
+        "stated_in_authentic_text": true,
+        "verbatim_excerpt": "For installation of Renewable Energy Generating systems, the technical feasibility study shall be completed within a period of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be presumed that the proposal is technically feasible. Provided that the applications for Renewable Energy Generating systems upto 10 kW capacity complete in all respects shall be deemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of the sanctioned load of the consumer, as may be required, shall be carried out by the Distribution Licensee.”",
+        "page": 3,
+        "substitute_doc_id_or_url": "RERC Reg No. 154 (this file); also IN-C3-001 (MoP G.S.R. 125(E), rule 11(7A))",
+        "notes": "Claimed JVVNL circular No. JVVNL/TECH/SOLAR/2024/1102 dated 08.10.2024 was NOT found. The same rule (no feasibility study up to 10 kW, deemed accepted; >10 kW 15-day study else presumed feasible) is stated authentically for Rajasthan by RERC Reg 154 (substituted reg 8.8). Differences: wording is \"deemed to have been accepted\", not \"DEEMED APPROVED ... immediately upon submission ... on the PM-Surya Ghar National Portal\"; applies to all RE generating systems up to 10 kW, not only \"domestic\". Excerpts are copied from the extracted text with line breaks collapsed to single spaces; \" || \" separates non-contiguous excerpts."
+      }
+    ],
+    "caveats": [
+      "Edge RJ-C5-005 -> RJ-C5-006 (from 2024-10-08) should instead date from the RERC Second Amendment (July/Aug 2024 gazette) or the MoP rules (22.02.2024)."
+    ]
+  }
+]

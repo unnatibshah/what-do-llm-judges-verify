@@ -1,0 +1,1445 @@
+[
+ {
+  "doc_id": "DL-C3-001",
+  "title": "Delhi Electricity Regulatory Commission (Net Metering for Renewable Energy) Regulations, 2014",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F. 9(116)/DERC/Tariff/DS/2013-14/C.F 4110",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "DL-C3-002",
+  "title": "DERC (Net Metering for Renewable Energy) Regulations, 2014 with Guidelines under the Regulations",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F. 9(116)/DERC/Tariff/DS/2013-14/C.F 4110",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "DL-C3-003",
+  "title": "DERC (Supply Code and Performance Standards) Regulations, 2017",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "",
+  "doc_date": "2017-07-07",
+  "effective_date": "2017-07-07"
+ },
+ {
+  "doc_id": "DL-C3-004",
+  "title": "Delhi Electricity Regulatory Commission (Group Net Metering and Virtual Net Metering for Renewable Energy) Guidelines, 2019",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F9 (182)/DERC/DS/2016-17/484",
+  "doc_date": "2019-05-31",
+  "effective_date": "2019-05-31"
+ },
+ {
+  "doc_id": "DL-C3-005",
+  "title": "DERC (GNM and VNM for Renewable Energy) (First Amendment) Guidelines, 2020",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "doc_date": "2020-10-19",
+  "effective_date": "2020-10-19"
+ },
+ {
+  "doc_id": "DL-C3-006",
+  "title": "DERC (GNM and VNM for Renewable Energy) (Second Amendment) Guidelines, 2020",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.3(620)/Tariff-Engg./DERC/2020-21/6938/Pt.1",
+  "doc_date": "2020-12-24",
+  "effective_date": "2020-12-24"
+ },
+ {
+  "doc_id": "DL-C3-007",
+  "title": "DERC (GNM and VNM for Renewable Energy) (Third Amendment) Guidelines, 2021",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "doc_date": "2021-09-28",
+  "effective_date": "2021-09-28"
+ },
+ {
+  "doc_id": "DL-C3-008",
+  "title": "DERC (GNM and VNM for Renewable Energy) (Fourth Amendment) Guidelines, 2022",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "doc_date": "2022-02-24",
+  "effective_date": "2022-02-24"
+ },
+ {
+  "doc_id": "DL-C3-009",
+  "title": "DERC (GNM and VNM for Renewable Energy) (Fifth Amendment) Guidelines, 2024",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "doc_date": "2024-03-15",
+  "effective_date": "2024-04-01"
+ },
+ {
+  "doc_id": "DL-C3-010",
+  "title": "Delhi Electricity Regulatory Commission (Peer to Peer Energy Transaction) Guidelines, 2024",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "",
+  "doc_date": "2024-06-24",
+  "effective_date": "2024-06-24"
+ },
+ {
+  "doc_id": "DL-C3-011",
+  "title": "DERC (Supply Code and Performance Standards) (Fifth Amendment) Regulations, 2024",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.17(85)/DERC/Engg./2020-21/7022",
+  "doc_date": "2024-07-16",
+  "effective_date": "2024-07-16"
+ },
+ {
+  "doc_id": "DL-C3-012",
+  "title": "Delhi Electricity Regulatory Commission (Net Metering for Renewable Energy) (First Amendment) Regulations, 2024",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.3(629)/Tariff-Engg./DERC/2020-21/6910",
+  "doc_date": "2024-07-26",
+  "effective_date": "2024-07-26"
+ },
+ {
+  "doc_id": "DL-C3-013",
+  "title": "Delhi Electricity Regulatory Commission (Net Metering for Renewable Energy) (First Amendment) Guidelines, 2025",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.17(44)/Engg./DERC/2024-25/8208",
+  "doc_date": "2025-05-01",
+  "effective_date": "2025-05-01"
+ },
+ {
+  "doc_id": "DL-C3-014",
+  "title": "DERC (GNM and VNM for Renewable Energy) (Sixth Amendment) Guidelines, 2025",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "doc_date": "2025-06-05",
+  "effective_date": "2025-06-05"
+ },
+ {
+  "doc_id": "DL-C3-015",
+  "title": "DERC (GNM and VNM for Renewable Energy) (Seventh Amendment) Guidelines, 2025",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.17(44)/Engg./DERC/2023-24/8071",
+  "doc_date": "2026-01-20",
+  "effective_date": "2026-01-20"
+ },
+ {
+  "doc_id": "DL-C3-016",
+  "title": "Delhi Electricity Regulatory Commission (Net Metering for Renewable Energy) (Second Amendment) Guidelines, 2026",
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "DL",
+   "discom": null
+  },
+  "doc_number": "F.17(44)/Engg./DERC/2024-25/8208",
+  "doc_date": "2026-07-16",
+  "effective_date": "2026-07-16"
+ },
+ {
+  "doc_id": "GJ-C3-001",
+  "title": "Regulations for Net Metering Rooftop Solar PV Grid Interactive Systems",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "Notification No. 5/2016",
+  "doc_date": "2016-06-17",
+  "effective_date": "2016-06-17"
+ },
+ {
+  "doc_id": "GJ-C3-002",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (First Amendment) Regulations, 2017",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "Notification No. 2 of 2017",
+  "doc_date": "2017-10-06",
+  "effective_date": "2017-10-06"
+ },
+ {
+  "doc_id": "GJ-C3-003",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Second Amendment) Regulations, 2020",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "Notification No. 2 of 2020",
+  "doc_date": "2020-01-22",
+  "effective_date": "2020-01-22"
+ },
+ {
+  "doc_id": "GJ-C3-004",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Third Amendment) Regulations, 2022",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "Notification No. 2 of 2022",
+  "doc_date": "2022-05-31",
+  "effective_date": "2022-05-31"
+ },
+ {
+  "doc_id": "GJ-C3-005",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Fourth Amendment) Regulations, 2024",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "Notification No. 13 of 2024",
+  "doc_date": "2024-09-06",
+  "effective_date": "2024-09-06"
+ },
+ {
+  "doc_id": "GJ-C3-006",
+  "title": "Draft GERC (Net Metering Rooftop Solar PV Grid Interactive Systems) (Fifth Amendment) Regulations, 2025",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "draft",
+  "doc_date": "2025-10-14",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "GJ-C3-007",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Fifth Amendment) Regulations, 2025",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "Notification No. 10 of 2025",
+  "doc_date": "2025-11-03",
+  "effective_date": "2025-11-03"
+ },
+ {
+  "doc_id": "GJ-C3-008",
+  "title": "Draft Gujarat Electricity Regulatory Commission (Grid Interactive Distributed Renewable Energy Sources) Regulations, 2026",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "draft (landing page dated 15-05-2026)",
+  "doc_date": "2026-05-15",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "GJ-C4-001",
+  "title": "Statement of Reasons, Second Amendment 2020",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "n/a",
+  "doc_date": "2020-01-22",
+  "effective_date": "2020-01-22"
+ },
+ {
+  "doc_id": "GJ-C4-002",
+  "title": "Statement of Reasons, Third Amendment 2022",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "n/a",
+  "doc_date": "2022-05-31",
+  "effective_date": "2022-05-31"
+ },
+ {
+  "doc_id": "GJ-C4-003",
+  "title": "Statement of Reasons, Fourth Amendment 2024",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "n/a",
+  "doc_date": "2024-09-04",
+  "effective_date": "2024-09-04"
+ },
+ {
+  "doc_id": "GJ-C4-004",
+  "title": "Statement of Reasons, Fifth Amendment 2025",
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "GJ",
+   "discom": null
+  },
+  "doc_number": "n/a",
+  "doc_date": "2025-11-04",
+  "effective_date": "2025-11-04"
+ },
+ {
+  "doc_id": "IN-C1-001",
+  "title": "PM-Surya Ghar: Muft Bijli Yojana - Operational Guidelines for CFA to Residential Consumers",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-GCRT",
+  "doc_date": "2024-06-07",
+  "effective_date": "2024-06-07"
+ },
+ {
+  "doc_id": "IN-C1-002",
+  "title": "Clarification on Applicability of Subsidy for Individual Residential Households under Phase-II",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/331/2017-GCRT",
+  "doc_date": "2019-09-03",
+  "effective_date": "2019-09-03"
+ },
+ {
+  "doc_id": "IN-C1-003",
+  "title": "Order - Launch of the PM-Surya Ghar: Muft Bijli Yojana for installation of rooftop solar plants in one crore household with a total financial outlay of Rs. 75,021 crore (administrative approval / Presidential sanction)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-Grid Connected Rooftop",
+  "doc_date": "2024-03-16",
+  "effective_date": "2024-02-13"
+ },
+ {
+  "doc_id": "IN-C1-004",
+  "title": "Operational Guidelines for Implementation of Component \"Model Solar Village\" under PM-Surya Ghar: Muft Bijli Yojana",
+  "issuer": "Ministry of New and Renewable Energy (MNRE), Mission Directorate PM-Surya Ghar",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-Grid Connected Rooftop (Part-1)",
+  "doc_date": "2024-08-09",
+  "effective_date": "2024-08-09"
+ },
+ {
+  "doc_id": "IN-C1-005",
+  "title": "Clarification in Guidelines for Implementation of PM-Surya Ghar: Muft Bijli Yojana (PMSG: MBY) for the component \"CFA to Residential Consumers\" (MNRE listing title: Clarification regarding CFA to RWA/GHS cases under PM-Surya Ghar: Muft Bijli Yojana)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE), Mission Directorate PM-Surya Ghar",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-Grid Connected Rooftop Part (16)",
+  "doc_date": "2024-11-19",
+  "effective_date": "2024-11-19"
+ },
+ {
+  "doc_id": "IN-C1-006",
+  "title": "Operational Guidelines for Implementation of Component \"Incentives to Discoms\" under PM-Suryaghar: Muft Bijli Yojana",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-Grid Connected Rooftop (Part-10)",
+  "doc_date": "2024-07-18",
+  "effective_date": "2024-07-18"
+ },
+ {
+  "doc_id": "IN-C1-007",
+  "title": "Operational Guidelines for Implementation of \"Payment Security Mechanism\" Component and \"Central Financial Assistance\" Component for RESCO Models/ Utility Led Aggregation Models of PM-Surya Ghar: Muft Bijli Yojana",
+  "issuer": "Ministry of New and Renewable Energy (MNRE), Mission Directorate PM-Surya Ghar",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-Grid Connected Rooftop (Part-15)",
+  "doc_date": "2024-12-28",
+  "effective_date": "2024-12-28"
+ },
+ {
+  "doc_id": "IN-C1-008",
+  "title": "Operational Guidelines for Implementation of Component \"Incentives to Local Bodies\" under PM-Suryaghar: Muft Bijli Yojana",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-Grid Connected Rooftop (Part-6)",
+  "doc_date": "2024-07-18",
+  "effective_date": "2024-07-18"
+ },
+ {
+  "doc_id": "IN-C1-009",
+  "title": "Office Memorandum - Simplification of procedure - Rooftop Solar Programme Ph-II (national portal for applications with subsidy transferred directly to beneficiary bank account)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "F. No. 318/6/2022-Grid Connected Rooftop",
+  "doc_date": "2022-02-02",
+  "effective_date": "2022-02-02"
+ },
+ {
+  "doc_id": "IN-C1-010",
+  "title": "Simplification of Procedure - Rooftop Solar Programme Ph-II",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "F. No. 318/6/2022-GCRT",
+  "doc_date": "2022-06-10",
+  "effective_date": "2022-06-10"
+ },
+ {
+  "doc_id": "IN-C1-011",
+  "title": "Guidelines for PM-Surya Ghar: Muft Bijli Yojana - Central Financial Assistance to Residential Consumers (original, 2024)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/17/2024-GCRT",
+  "doc_date": "2024-06-07",
+  "effective_date": "2024-06-07"
+ },
+ {
+  "doc_id": "IN-C1-012",
+  "title": "Clarification in Guidelines for Implementation of PM-Surya Ghar: Muft Bijli Yojana (ground-mounted elevated installations allowed)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "318/140/2024-Grid Connected Rooftop Part (1)",
+  "doc_date": "2025-02-13",
+  "effective_date": "2025-02-13"
+ },
+ {
+  "doc_id": "IN-C2-001",
+  "title": "Approved Models and Manufacturers of Solar Photovoltaic Modules (List-I) Updation Order",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/41/2024-GRID SOLAR",
+  "doc_date": "2024-10-14",
+  "effective_date": "2024-10-14"
+ },
+ {
+  "doc_id": "IN-C2-002",
+  "title": "Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019 - reg. (MNRE notice \"ALMM Order - reg.\", 29.03.2024)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "No. 283/16/2023-GRID SOLAR",
+  "doc_date": "2024-03-29",
+  "effective_date": "2024-04-01"
+ },
+ {
+  "doc_id": "IN-C2-003",
+  "title": "Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019 - reg. (OM holding in abeyance the OM of 09.02.2024; the 09.02.2024 OM is enclosed as page 2)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "No. 283/16/2023-GRID SOLAR",
+  "doc_date": "2024-02-15",
+  "effective_date": "2024-02-15"
+ },
+ {
+  "doc_id": "IN-C2-004",
+  "title": "Office Memorandum - Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019: Amendment - reg. (ALMM reforms incl. clause 1.5 Minimum Module Efficiency Thresholds)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE), Grid Solar Power Division",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/22/2023-GRID SOLAR/Pt.",
+  "doc_date": "2023-05-10",
+  "effective_date": "2023-05-10"
+ },
+ {
+  "doc_id": "IN-C2-005",
+  "title": "Office Memorandum - Mandatory filling of past data (01.01.2024 onwards) on DCR Verification portal and non-acceptance of solar modules not verifiable through DCR portal, in MNRE's Scheme mandating Domestic Content Requirement (DCR) (MNRE listing title: Solar DCR Verification Portal - reg.)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE), Grid Solar Power Division",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/43/2024-GRID SOLAR",
+  "doc_date": "2024-11-11",
+  "effective_date": "2024-12-01"
+ },
+ {
+  "doc_id": "IN-C2-006",
+  "title": "Office Memorandum - Amendment to ALMM Order for Implementation of ALMM for Solar PV cells",
+  "issuer": "Ministry of New and Renewable Energy (MNRE), Grid Solar Power Division",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/59/2024-GRID SOLAR",
+  "doc_date": "2024-12-09",
+  "effective_date": "2026-06-01"
+ },
+ {
+  "doc_id": "IN-C2-007",
+  "title": "Amendment to ALMM Order regarding reduction of module efficiency thresholds for off-grid projects/applications requiring individual module capacity of less than 200 Wp",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "32/33/2024-SPV Division",
+  "doc_date": "2025-05-06",
+  "effective_date": "2025-05-06"
+ },
+ {
+  "doc_id": "IN-C2-008",
+  "title": "Amendment to O.M. No. 283/59/2024-GRID SOLAR dated 09.12.2024 for Implementation of ALMM for Solar PV cells",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/59/2024-GRID SOLAR",
+  "doc_date": "2025-07-28",
+  "effective_date": "2025-07-28"
+ },
+ {
+  "doc_id": "IN-C2-009",
+  "title": "Approved List of Models and Manufacturers (ALMM): Clarification - reg.",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "F. No. 283/76/2023-GRID SOLAR",
+  "doc_date": "2025-07-28",
+  "effective_date": "2025-07-28"
+ },
+ {
+  "doc_id": "IN-C2-010",
+  "title": "Publishing ALMM LIST-II (for Solar PV Cells)",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/51/2025-GRID SOLAR",
+  "doc_date": "2025-07-31",
+  "effective_date": "2025-07-31"
+ },
+ {
+  "doc_id": "IN-C2-011",
+  "title": "ALMM - No blanket extension of ALMM List-II beyond 01.06.2026 subject to Protection of Investments already made",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/63/2025-GRID SOLAR",
+  "doc_date": "2026-05-25",
+  "effective_date": "2026-05-25"
+ },
+ {
+  "doc_id": "IN-C2-012",
+  "title": "ALMM - No blanket extension of ALMM List-II (for solar PV cells) subject to limited window to Net-Metering / Open Access projects till 31st December 2026",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/53/2026-GRID SOLAR",
+  "doc_date": "2026-07-18",
+  "effective_date": "2026-07-18"
+ },
+ {
+  "doc_id": "IN-C2-013",
+  "title": "ALMM List-II for solar PV cells: Clarification",
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "283/54/2026-GRID SOLAR",
+  "doc_date": "2026-08-04",
+  "effective_date": "2026-08-04"
+ },
+ {
+  "doc_id": "IN-C3-001",
+  "title": "Electricity (Rights of Consumers) Amendment Rules, 2024",
+  "issuer": "Ministry of Power (MoP)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "G.S.R. 125(E) [F. No. 23/05/2020-R&R]; Gazette of India Extraordinary No. 114, Part II Sec 3(i)",
+  "doc_date": "2024-02-22",
+  "effective_date": "2024-02-22"
+ },
+ {
+  "doc_id": "IN-C3-002",
+  "title": "Electricity (Rights of Consumers) Rules, 2020",
+  "issuer": "Ministry of Power (MoP)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "G.S.R. 818(E)",
+  "doc_date": "2020-12-31",
+  "effective_date": "2020-12-31"
+ },
+ {
+  "doc_id": "IN-C3-003",
+  "title": "Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Amendment Regulations, 2019",
+  "issuer": "Central Electricity Authority (CEA)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "No.12/X/STD(CONN)/GM/CEA/2018 (Gazette of India Extraordinary Part III Sec 4, No. 53)",
+  "doc_date": "2019-02-06",
+  "effective_date": "2019-02-08"
+ },
+ {
+  "doc_id": "IN-C3-004",
+  "title": "Electricity (Rights of Consumers) Amendment Rules, 2021",
+  "issuer": "Ministry of Power (MoP)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "G.S.R. 448(E)",
+  "doc_date": "2021-06-28",
+  "effective_date": "2021-06-28"
+ },
+ {
+  "doc_id": "IN-C3-005",
+  "title": "Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2013",
+  "issuer": "Central Electricity Authority (CEA)",
+  "jurisdiction": {
+   "level": "central",
+   "code": "IN",
+   "discom": null
+  },
+  "doc_number": "",
+  "doc_date": "2013-09-30",
+  "effective_date": "2013-09-30"
+ },
+ {
+  "doc_id": "KA-C3-001",
+  "title": "Determination of Tariff and norms in respect of Solar Power Projects (including Solar Rooftop Photovoltaic Projects) for FY24",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": null
+  },
+  "doc_number": "not extracted (order dated 01.06.2023)",
+  "doc_date": "2023-06-01",
+  "effective_date": "2023-06-01"
+ },
+ {
+  "doc_id": "KA-C3-002",
+  "title": "KERC Tariff Order 11.06.2024 (portal label; SOP cites it as 'Determination of tariff for SRTPV plants for FY-2025')",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": null
+  },
+  "doc_number": "unknown",
+  "doc_date": "2024-06-11",
+  "effective_date": "2024-06-11"
+ },
+ {
+  "doc_id": "KA-C3-003",
+  "title": "Karnataka Electricity Regulatory Commission (Grid Interactive Distributed Solar Photovoltaic (DSPV) Plants) Regulations, 2026",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": null
+  },
+  "doc_number": "KERC/F-34/V-38/2026-27/2395",
+  "doc_date": "2026-08-19",
+  "effective_date": "2026-08-19"
+ },
+ {
+  "doc_id": "KA-C3-004",
+  "title": "Determination of tariff in respect of Distributed Solar Photovoltaic (DSPV) Plants/ Solar Photovoltaic (SPV) Plants, with different metering mechanism for the period from 25.08.2026 to 30.06.2029",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": null
+  },
+  "doc_number": "No. KERC/S/F-32/V-29/2407",
+  "doc_date": "2026-08-25",
+  "effective_date": "2026-08-25"
+ },
+ {
+  "doc_id": "KA-C4-001",
+  "title": "Enhancement of sanctioned load up to and inclusive of 10 kW for SRTPV Consumers and other related matters",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": null
+  },
+  "doc_number": "not extracted",
+  "doc_date": "2024-12-05",
+  "effective_date": "2024-12-05"
+ },
+ {
+  "doc_id": "KA-C5-001",
+  "title": "Guidelines for Grid connectivity of Solar Rooftop Photo Voltaic (SRTPV) systems installed as per the KERC (Implementation of Solar Rooftop Photovoltaic Power plants) Regulations, 2016",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "BESCOM/BC-51/2023-24/1317",
+  "doc_date": "2023-08-05",
+  "effective_date": "2023-08-05"
+ },
+ {
+  "doc_id": "KA-C5-002",
+  "title": "Procedure and Time Lines for Grid connected SRTPV plants - A. 1kW to 10kW domestic consumers",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "not printed",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "KA-C5-003",
+  "title": "Procedure and Time Lines for Grid connected SRTPV plants - B. 1kWp to 500kWp",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "not printed",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "KA-C5-004",
+  "title": "Procedure and Time Lines - 500kWp to 1000kWp",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "not printed",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "KA-C5-005",
+  "title": "Procedure and Time Lines - 1000kWp to 2000kWp",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "not printed",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "KA-C5-006",
+  "title": "Common Standard Operating Procedure for implementation of Distributed Solar Photovoltaic (DSPV) Plants in the State of Karnataka",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "BESCOM/BC-51/GM(DSM)/DSPV/SOP/CYS-48",
+  "doc_date": "2025-12-01",
+  "effective_date": "2025-12-01"
+ },
+ {
+  "doc_id": "KA-C5-007",
+  "title": "Common Standard Operating Procedure for BESCOM, HESCOM, GESCOM, CESC, MESCOM & HRECS for implementation of Virtual Net Metering(VNM) and Group Net Metering(GNM)",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "BESCOM/BC-51/2026-27/CYS-22",
+  "doc_date": "2026-05-12",
+  "effective_date": "2026-05-12"
+ },
+ {
+  "doc_id": "KA-C5-008",
+  "title": "Processing of DSPV applications and execution of Consent/PPA for applications registered on or after 01.07.2026 (portal label)",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "unknown",
+  "doc_date": "2026-07-01",
+  "effective_date": "2026-07-01"
+ },
+ {
+  "doc_id": "KA-C5-009",
+  "title": "Circular for limited window period for commissioning of DSPV plants (portal label)",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "CYS-46 (per portal label)",
+  "doc_date": "2026-07-24",
+  "effective_date": "2026-07-24"
+ },
+ {
+  "doc_id": "KA-C5-010",
+  "title": "BESCOM Tariff order & Timelines (portal label)",
+  "issuer": "BESCOM",
+  "jurisdiction": {
+   "level": "state",
+   "code": "KA",
+   "discom": "BESCOM"
+  },
+  "doc_number": "unknown",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "MH-C3-001",
+  "title": "MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) Regulations, 2019",
+  "issuer": "Maharashtra Electricity Regulatory Commission (MERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": null
+  },
+  "doc_number": "MERC/2019/REG-105",
+  "doc_date": "2019-12-30",
+  "effective_date": "2019-12-30"
+ },
+ {
+  "doc_id": "MH-C3-002",
+  "title": "MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) (Second Amendment) Regulations, 2024",
+  "issuer": "Maharashtra Electricity Regulatory Commission (MERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": null
+  },
+  "doc_number": "MERC/Tech/Regulation/0537",
+  "doc_date": "2024-08-29",
+  "effective_date": "2024-08-29"
+ },
+ {
+  "doc_id": "MH-C3-003",
+  "title": "Maharashtra Electricity Regulatory Commission (Grid Interactive Rooftop Renewable Energy Generating Systems) (First Amendment) Regulations, 2023",
+  "issuer": "Maharashtra Electricity Regulatory Commission (MERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": null
+  },
+  "doc_number": "MERC/Tech/Regulation/2023/0609 (read from the Marathi notification; the English text leaves the number blank as \"No. MERC/Tech/Regulation/___\")",
+  "doc_date": "2023-11-16",
+  "effective_date": "2023-11-16"
+ },
+ {
+  "doc_id": "MH-C3-004",
+  "title": "MERC Order in Case No. 217 of 2024: MSEDCL Truing-up of ARR for FY 2022-23 and FY 2023-24, Provisional Truing-up for FY 2024-25 and approval of ARR and Tariff for FY 2025-26 to FY 2029-30 (5th MYT Control Period)",
+  "issuer": "Maharashtra Electricity Regulatory Commission (MERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": null
+  },
+  "doc_number": "Case No. 217 of 2024",
+  "doc_date": "2025-03-28",
+  "effective_date": "2025-04-01"
+ },
+ {
+  "doc_id": "MH-C3-005",
+  "title": "MERC Order in Case No. 231 of 2023: Petition seeking clarifications on certain provisions in MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) (First Amendment) Regulations, 2023 and MERC (Distribution Open Access) (Second Amendment) Regulations, 2023",
+  "issuer": "Maharashtra Electricity Regulatory Commission (MERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": null
+  },
+  "doc_number": "Case No. 231 of 2023",
+  "doc_date": "2025-05-19",
+  "effective_date": "2025-05-19"
+ },
+ {
+  "doc_id": "MH-C5-001",
+  "title": "MSEDCL Commercial Circular No. 322: Implementation of Net Metering Regulations, 2019",
+  "issuer": "Maharashtra State Electricity Distribution Co. Ltd. (MSEDCL)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "CC/322",
+  "doc_date": "2020-01-20",
+  "effective_date": "2020-01-20"
+ },
+ {
+  "doc_id": "MH-C5-002",
+  "title": "MSEDCL Commercial Circular No. 292: RE Tariff Order Implementation",
+  "issuer": "MSEDCL",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "CC/292",
+  "doc_date": "2017-07-13",
+  "effective_date": "2018-01-15"
+ },
+ {
+  "doc_id": "MH-C5-003",
+  "title": "MSEDCL Technical and Safety Guidelines for Solar Rooftop Grid Connectivity",
+  "issuer": "MSEDCL",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "24615-03.08.16",
+  "doc_date": "2016-08-03",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "MH-C5-004",
+  "title": "MSEDCL Commercial Circular No. 310: Third Amendment to Commercial Circular No. 258",
+  "issuer": "MSEDCL",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "CC/310",
+  "doc_date": "2018-08-10",
+  "effective_date": "2018-08-10"
+ },
+ {
+  "doc_id": "MH-C5-005",
+  "title": "MSEDCL Commercial Circular No. 331: Implementation of MNRE Phase-II Grid Connected Rooftop Solar Program",
+  "issuer": "MSEDCL",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "CC/331",
+  "doc_date": "2021-01-15",
+  "effective_date": "2021-01-15"
+ },
+ {
+  "doc_id": "MH-C5-006",
+  "title": "Guidelines for installations of Roof Top Solar systems under PM SURYA GHAR: Muft Bijli Yojana",
+  "issuer": "MSEDCL, Office of the Executive Director (Dist-III/Infra)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "ED (Infra)/RTS/No. 22603",
+  "doc_date": "2024-07-24",
+  "effective_date": "2024-07-24"
+ },
+ {
+  "doc_id": "MH-C5-008",
+  "title": "Guidelines to install solar net meter by AMISP under PMSG: MBY",
+  "issuer": "MSEDCL, Office of the Executive Director (Dist-III/Infra)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "ED (Infra)/RTS/38699",
+  "doc_date": "2024-12-13",
+  "effective_date": "2024-12-13"
+ },
+ {
+  "doc_id": "MH-C5-010",
+  "title": "Bulk testing of Generation meters to be utilized for commissioning of RTS installation under PM Surya Ghar: Muft Bijli Yojana for accelerating progress under said scheme",
+  "issuer": "MSEDCL, Office of the Executive Director (Dist-III/Infra)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "ED (Infra)/RTS/No. 33590",
+  "doc_date": "2024-10-23",
+  "effective_date": "2024-10-23"
+ },
+ {
+  "doc_id": "MH-C5-011",
+  "title": "Commercial Circular No. 334: Guidelines in the matter of RE generators intending to connect their power plants \"Behind the meter\" as per the provisions of MERC (Grid Interactive Rooftop Renewable Energy Generating Systems) Regulations, 2019",
+  "issuer": "MSEDCL, Office of the Chief Engineer (Commercial)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "Commercial Circular No. 334; Ref. CE/Comm/GIRREGS Regulations 2019/06633",
+  "doc_date": "2022-03-17",
+  "effective_date": "2022-03-17"
+ },
+ {
+  "doc_id": "MH-C5-012",
+  "title": "Authorization of AE(QC) of Subdivision/Division Offices having meter testing facility to test Whole Current Meter and installation up to 20 KW under Roof Top Scheme (RTS), with enclosed Pre-commissioning Testing procedure for AE(QC)",
+  "issuer": "MSEDCL, Office of the Chief Engineer (Special Projects)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": "MSEDCL"
+  },
+  "doc_number": "CE/Sp.Proj./MNRE-Phase-II RTS/No. 21653",
+  "doc_date": "2022-08-18",
+  "effective_date": "2022-08-18"
+ },
+ {
+  "doc_id": "MH-C6-001",
+  "title": "MEDA Grid-Connected Rooftop Solar PV FAQ & Guidelines",
+  "issuer": "Maharashtra Energy Development Agency (MEDA)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "MH",
+   "discom": null
+  },
+  "doc_number": null,
+  "doc_date": "2022-01-01",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "RJ-C3-001",
+  "title": "RERC (Connectivity and Net Metering for Rooftop and Small Solar Grid Interactive Systems) Regulations, 2015",
+  "issuer": "Rajasthan Electricity Regulatory Commission (RERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": null
+  },
+  "doc_number": "RERC/Secy/Reg-108",
+  "doc_date": "2015-02-26",
+  "effective_date": "2015-02-26"
+ },
+ {
+  "doc_id": "RJ-C3-002",
+  "title": "RERC (Grid Interactive Distributed Renewable Energy Generating Systems) Regulations, 2021",
+  "issuer": "Rajasthan Electricity Regulatory Commission (RERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": null
+  },
+  "doc_number": "RERC/Secy/Reg-144",
+  "doc_date": "2021-04-08",
+  "effective_date": "2021-06-15"
+ },
+ {
+  "doc_id": "RJ-C3-003",
+  "title": "RERC (Grid Interactive Distributed Renewable Energy Generating Systems) (First Amendment) Regulations, 2023",
+  "issuer": "Rajasthan Electricity Regulatory Commission (RERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": null
+  },
+  "doc_number": "RERC/Secy./Reg./149",
+  "doc_date": "2023-08-28",
+  "effective_date": "2023-10-06"
+ },
+ {
+  "doc_id": "RJ-C3-004",
+  "title": "Suo-Motu order in the matter of Rajasthan Electricity Regulatory Commission (Grid Interactive Distributed Renewable Energy Generating Systems) Regulations, 2021 (net metering limit raised to 1 MW)",
+  "issuer": "Rajasthan Electricity Regulatory Commission (RERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": null
+  },
+  "doc_number": "Petition No. 2201/2024 (Suo motu) [petition number from RERC orders index; not printed on the order itself]",
+  "doc_date": "2024-02-07",
+  "effective_date": "2024-02-07"
+ },
+ {
+  "doc_id": "RJ-C3-005",
+  "title": "Rajasthan Electricity Regulatory Commission (Grid Interactive Distributed Renewable Energy Generating Systems) (Second Amendment) Regulations, 2024",
+  "issuer": "Rajasthan Electricity Regulatory Commission (RERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": null
+  },
+  "doc_number": "No. RERC/Secy/Reg./154 (Hindi: \u0930\u093e.\u0935\u093f.\u0935\u093f. \u0906\u092f\u094b\u0917/\u0938\u091a\u093f\u0935/\u0935\u093f\u0928\u093f\u092f\u092e/154)",
+  "doc_date": "2024-07-25",
+  "effective_date": "2024-08-30"
+ },
+ {
+  "doc_id": "RJ-C3-006",
+  "title": "Regarding tariff payable to consumers for Net Metering and Net Billing arrangement under RERC Grid Interactive Distributed Renewable Energy Generating Systems (JPR5-1214)",
+  "issuer": "Jaipur Vidyut Vitran Nigam Limited (JVVNL), Office of the Superintending Engineer (Comml.)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": null
+  },
+  "doc_number": "JPR5-1214 (No. JPD/SE(C)/XEN(OA)/F./D.__)",
+  "doc_date": "2025-10-27",
+  "effective_date": "2025-10-27"
+ },
+ {
+  "doc_id": "RJ-C5-001",
+  "title": "Standard operating procedure for release of Rooftop Solar Connections under PM Surya Ghar - Muft Bijli Yojana (Office Order)",
+  "issuer": "Jaipur Vidyut Vitran Nigam Limited (JVVNL), Office of the Addl. Chief Engineer (TS&QC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": "JVVNL"
+  },
+  "doc_number": "No. JVVNL/ACE(TSQC)/TA/F./D.302",
+  "doc_date": "2024-11-11",
+  "effective_date": "2024-11-11"
+ },
+ {
+  "doc_id": "RJ-C5-002",
+  "title": "Amendment in detailed guidelines & procedure regarding Grid Interactive Distributed Renewable Energy Generating Systems (JPR5-1153)",
+  "issuer": "Jaipur Vidyut Vitran Nigam Limited (JVVNL), Office of the Superintending Engineer (Comml.)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": "JVVNL"
+  },
+  "doc_number": "JPR5-1153 (No. JPD/SE(C)/XEN(OA)/F./D.1144)",
+  "doc_date": "2023-10-19",
+  "effective_date": "2023-10-19"
+ },
+ {
+  "doc_id": "RJ-C5-003",
+  "title": "Amendment in detailed guidelines & Procedure for Billing of Grid Interactive Distributed Renewable Energy Generating Systems (JPD6-567)",
+  "issuer": "Jaipur Vidyut Vitran Nigam Limited (JVVNL), Chief Accounts Officer (R&B)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": "JVVNL"
+  },
+  "doc_number": "JPD6-567 (No. JPD/CCOA-II/CAO(R&B)/F.Net Metering/D.__)",
+  "doc_date": "2023-10-20",
+  "effective_date": "2023-10-20"
+ },
+ {
+  "doc_id": "RJ-C5-004",
+  "title": "Standard Operating Procedures (SoP) for testing of Solar and Net Meters to be installed under PM Surya Ghar: Muft Bijali Yojana (Office Order)",
+  "issuer": "Jodhpur Vidyut Vitran Nigam Limited (JdVVNL), Office of Chief Engineer (CSS-S&T, DSM)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": "JdVVNL"
+  },
+  "doc_number": "No. JDVVNL/CE(S&T-CSS,DSM)/RE-DSM/F.PMSG/D.1101",
+  "doc_date": "2025-05-28",
+  "effective_date": "2025-05-28"
+ },
+ {
+  "doc_id": "RJ-C5-005",
+  "title": "(Substitute) JVVNL Order: Procedural guidelines for registration of vendors for processing applications under National Solar Portal of MNRE under Phase II of Grid Connected Rooftop Solar Programme (encloses RERC DREGS Regulations 2021 as Annexure-IV)",
+  "issuer": "JVVNL",
+  "jurisdiction": {
+   "level": "state",
+   "code": "RJ",
+   "discom": "JVVNL"
+  },
+  "doc_number": "No. JPD/SE(Regulation)/XEN(DSM)/F./D.681 (handwritten number read from page image)",
+  "doc_date": "2022-10-07",
+  "effective_date": "2022-10-07"
+ },
+ {
+  "doc_id": "TN-C5-001",
+  "title": "TANGEDCO \u2013 Tamil Nadu Solar Energy Policy -2019 \u2013 Order on Rooftop Solar Generation by the TNERC \u2013 Working instruction issued for implementation of Solar net feed-in connection",
+  "issuer": "TANGEDCO (Tamil Nadu Generation and Distribution Corporation)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "TN",
+   "discom": "TANGEDCO"
+  },
+  "doc_number": "Memo.No.CE/Comml/EE/R&C/AEE1/F.Solar NFI/D. 099 /19",
+  "doc_date": "2019-05-10",
+  "effective_date": "2019-05-10"
+ },
+ {
+  "doc_id": "TN-C5-002",
+  "title": "Salient features/Guidelines for the Hon\u2019ble TNERC\u2019s Generic Tariff Order for Grid Interactive PV Solar Energy Generating System (GISS) \u2013 Order No.8 / 2021, dated 22-10-2021",
+  "issuer": "TANGEDCO (Tamil Nadu Generation and Distribution Corporation)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "TN",
+   "discom": "TANGEDCO"
+  },
+  "doc_number": "TNERC Order No.8 of 2021 (memo number not printed on extracted text)",
+  "doc_date": "UNKNOWN",
+  "effective_date": "2021-10-22"
+ },
+ {
+  "doc_id": "TN-C5-003",
+  "title": "Roof top Solar: TANGEDCO is at present adopting Hon\u2019ble TNERC\u2019s Generic Tariff Order for GISS Order No.8 of 2021 dated 22/10/2021",
+  "issuer": "TANGEDCO (Tamil Nadu Generation and Distribution Corporation)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "TN",
+   "discom": "TANGEDCO"
+  },
+  "doc_number": "n/a",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "TN-C5-004",
+  "title": "PM Surya Ghar Muft Bijli Yojana notice (Tamil)",
+  "issuer": "TANGEDCO (Tamil Nadu Generation and Distribution Corporation)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "TN",
+   "discom": "TANGEDCO"
+  },
+  "doc_number": "n/a",
+  "doc_date": "2024-02-22",
+  "effective_date": "2024-02-22"
+ },
+ {
+  "doc_id": "TN-C5-005",
+  "title": "Scheme G.O. & Guidelines (per portal link label; title not machine-readable)",
+  "issuer": "TANGEDCO (Tamil Nadu Generation and Distribution Corporation)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "TN",
+   "discom": "TANGEDCO"
+  },
+  "doc_number": "unknown",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "UP-C3-001",
+  "title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulations, 2015",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "UP",
+   "discom": null
+  },
+  "doc_number": "UPERC/Secretary/RSPVRegulations/2015/2150",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ },
+ {
+  "doc_id": "UP-C3-002",
+  "title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulations, 2019",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "UP",
+   "discom": null
+  },
+  "doc_number": "UPERC/Secretary/RSPV Regulations/434(A)",
+  "doc_date": "2019-01-04",
+  "effective_date": "2019-01-04"
+ },
+ {
+  "doc_id": "UP-C3-003",
+  "title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulation, 2019 (First Amendment/Addendum)",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "UP",
+   "discom": null
+  },
+  "doc_number": "U.P.E.R.C/Secretary/RSPV Regulations/118",
+  "doc_date": "2022-06-01",
+  "effective_date": "2022-06-01"
+ },
+ {
+  "doc_id": "UP-C3-004",
+  "title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulation, 2019 (Second Amendment)",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "UP",
+   "discom": null
+  },
+  "doc_number": "UPERC/Secretary/RSPV Regulations/002",
+  "doc_date": "2023-11-17",
+  "effective_date": "2023-11-17"
+ },
+ {
+  "doc_id": "UP-C3-005",
+  "title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulation, 2019 (Third Amendment)",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "UP",
+   "discom": null
+  },
+  "doc_number": "UPERC/Secretary/RSPV Regulations-011",
+  "doc_date": "2025-06-03",
+  "effective_date": "2025-06-03"
+ },
+ {
+  "doc_id": "UP-C4-001",
+  "title": "Statement of Reasons - UPERC RSPV Regulations, 2019",
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "jurisdiction": {
+   "level": "state",
+   "code": "UP",
+   "discom": null
+  },
+  "doc_number": "",
+  "doc_date": "UNKNOWN",
+  "effective_date": "UNKNOWN"
+ }
+]

@@ -1,0 +1,37 @@
+\begin{table}[t]\centering\small
+\caption{Size comparison within one family. Rows marked ``no'' were added after the analysis plan was fixed and are exploratory; the planned sizes are shown beside them. The 32B model ran damage seeds 0--2 (the planned capable models ran 0--4). S-both right-reason catches, false alarms on matched correct answers (any finding) and any-finding catches, pooled k/n; discrimination clause-averaged (points), and the Q1 difference with a 95\% bootstrap interval over clauses. No test.}
+\label{tab:exploratory}
+\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllrrrl}
+\toprule
+Model & Planned & Arm & Catch & FA & Any & Disc. / diff. \\
+\midrule
+Qwen 7B & yes & R2 & 5/42 & 7/42 & 14/42 & $-$1 \\
+Qwen 7B & yes & R4 & 2/42 & 2/42 & 3/42 & +0 \\
+Qwen 7B & yes & R4-drop50 & 2/42 & 2/42 & 3/42 & +0 \\
+Qwen 7B & yes & R4$-$R5, intact & \multicolumn{3}{c}{} & $-$67 [$-$88, $-$43] \\
+Qwen 7B & yes & R4$-$R5, drop50 & \multicolumn{3}{c}{} & $-$42 [$-$60, $-$24] \\
+\addlinespace
+Qwen 14B & yes & R2 & 13/42 & 18/42 & 26/42 & $-$7 \\
+Qwen 14B & yes & R4 & 32/42 & 10/42 & 32/42 & +55 \\
+Qwen 14B & yes & R4n & 31/42 & 13/42 & 32/42 & +47 \\
+Qwen 14B & yes & R4-drop50 & 88/210 & 54/210 & 126/210 & +21 \\
+Qwen 14B & yes & R4$-$R5, intact & \multicolumn{3}{c}{} & $-$11 [$-$33, +9] \\
+Qwen 14B & yes & R4$-$R5, drop50 & \multicolumn{3}{c}{} & $-$21 [$-$38, $-$6] \\
+\addlinespace
+Qwen 32B & no & R2 & 4/42 & 25/42 & 35/42 & $-$48 \\
+Qwen 32B & no & R4 & 29/42 & 23/42 & 38/42 & +18 \\
+Qwen 32B & no & R4n & 26/42 & 24/42 & 38/42 & +11 \\
+Qwen 32B & no & R4-drop50 & 46/126 & 69/126 & 104/126 & $-$15 \\
+Qwen 32B & no & R4$-$R5, intact & \multicolumn{3}{c}{} & $-$48 [$-$68, $-$24] \\
+Qwen 32B & no & R4$-$R5, drop50 & \multicolumn{3}{c}{} & $-$57 [$-$76, $-$37] \\
+\addlinespace
+Claude Opus 4.5 & no & R2 & 34/42 & 40/42 & 42/42 & $-$11 \\
+Claude Opus 4.5 & no & R4 & 35/42 & 37/42 & 42/42 & $-$3 \\
+Claude Opus 4.5 & no & R4n & 35/42 & 42/42 & 42/42 & $-$14 \\
+Claude Opus 4.5 & no & R4-drop50 & 29/42 & 37/42 & 42/42 & $-$21 \\
+Claude Opus 4.5 & no & R4$-$R5, intact & \multicolumn{3}{c}{} & $-$70 [$-$89, $-$48] \\
+Claude Opus 4.5 & no & R4$-$R5, drop50 & \multicolumn{3}{c}{} & $-$63 [$-$85, $-$43] \\
+\bottomrule
+\end{tabular}
+\end{table}

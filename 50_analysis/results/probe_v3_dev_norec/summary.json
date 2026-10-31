@@ -1,0 +1,763 @@
+{
+  "note": "D33 verifier probe, dev split: engineering evidence only, not a result.",
+  "models": {
+    "gemma-4-26b-a4b-it": {
+      "reg-real": {
+        "invalid": {
+          "k": 0,
+          "n": 110,
+          "clusters": 3
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "clause": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "wrong": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "any": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "right_outcome_changing": {
+              "k": 15,
+              "n": 15,
+              "clusters": 2
+            },
+            "right_basis_only": {
+              "k": 13,
+              "n": 13,
+              "clusters": 2
+            },
+            "fpr": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "fpr_validity": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "discrimination": 1.0,
+            "pairs": 28
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 28,
+            "n": 28,
+            "clusters": 2
+          },
+          "clause": {
+            "k": 28,
+            "n": 28,
+            "clusters": 2
+          },
+          "wrong": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_controls": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_validity_controls": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_C": {
+            "k": 2,
+            "n": 54,
+            "clusters": 3
+          },
+          "fpr_validity_C": {
+            "k": 2,
+            "n": 54,
+            "clusters": 3
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 54,
+            "clusters": 3
+          }
+        }
+      },
+      "validity-regstatus": {
+        "invalid": {
+          "k": 10,
+          "n": 110,
+          "clusters": 3
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 27,
+              "n": 28,
+              "clusters": 2
+            },
+            "clause": {
+              "k": 27,
+              "n": 28,
+              "clusters": 2
+            },
+            "wrong": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "any": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "right_outcome_changing": {
+              "k": 15,
+              "n": 15,
+              "clusters": 2
+            },
+            "right_basis_only": {
+              "k": 12,
+              "n": 13,
+              "clusters": 2
+            },
+            "fpr": {
+              "k": 14,
+              "n": 28,
+              "clusters": 2
+            },
+            "fpr_validity": {
+              "k": 2,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "discrimination": 0.8929,
+            "pairs": 28
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 27,
+            "n": 28,
+            "clusters": 2
+          },
+          "clause": {
+            "k": 27,
+            "n": 28,
+            "clusters": 2
+          },
+          "wrong": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_controls": {
+            "k": 14,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_validity_controls": {
+            "k": 2,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_C": {
+            "k": 31,
+            "n": 54,
+            "clusters": 3
+          },
+          "fpr_validity_C": {
+            "k": 3,
+            "n": 54,
+            "clusters": 3
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 54,
+            "clusters": 3
+          }
+        }
+      },
+      "reg-drop50-s0": {
+        "invalid": {
+          "k": 0,
+          "n": 110,
+          "clusters": 3
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 12,
+              "n": 28,
+              "clusters": 2
+            },
+            "clause": {
+              "k": 12,
+              "n": 28,
+              "clusters": 2
+            },
+            "wrong": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "any": {
+              "k": 12,
+              "n": 28,
+              "clusters": 2
+            },
+            "right_outcome_changing": {
+              "k": 7,
+              "n": 15,
+              "clusters": 2
+            },
+            "right_basis_only": {
+              "k": 5,
+              "n": 13,
+              "clusters": 2
+            },
+            "fpr": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "fpr_validity": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "discrimination": 0.4286,
+            "pairs": 28
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 12,
+            "n": 28,
+            "clusters": 2
+          },
+          "clause": {
+            "k": 12,
+            "n": 28,
+            "clusters": 2
+          },
+          "wrong": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_controls": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_validity_controls": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_C": {
+            "k": 2,
+            "n": 54,
+            "clusters": 3
+          },
+          "fpr_validity_C": {
+            "k": 2,
+            "n": 54,
+            "clusters": 3
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 54,
+            "clusters": 3
+          }
+        }
+      },
+      "validity-regstatus-drop50-s0": {
+        "invalid": {
+          "k": 9,
+          "n": 110,
+          "clusters": 3
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 22,
+              "n": 28,
+              "clusters": 2
+            },
+            "clause": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "wrong": {
+              "k": 6,
+              "n": 28,
+              "clusters": 2
+            },
+            "any": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "right_outcome_changing": {
+              "k": 11,
+              "n": 15,
+              "clusters": 2
+            },
+            "right_basis_only": {
+              "k": 11,
+              "n": 13,
+              "clusters": 2
+            },
+            "fpr": {
+              "k": 14,
+              "n": 28,
+              "clusters": 2
+            },
+            "fpr_validity": {
+              "k": 2,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "discrimination": 0.7143,
+            "pairs": 28
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 22,
+            "n": 28,
+            "clusters": 2
+          },
+          "clause": {
+            "k": 28,
+            "n": 28,
+            "clusters": 2
+          },
+          "wrong": {
+            "k": 6,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_controls": {
+            "k": 14,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_validity_controls": {
+            "k": 2,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_C": {
+            "k": 31,
+            "n": 54,
+            "clusters": 3
+          },
+          "fpr_validity_C": {
+            "k": 3,
+            "n": 54,
+            "clusters": 3
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 54,
+            "clusters": 3
+          }
+        }
+      },
+      "validity-regnorec": {
+        "invalid": {
+          "k": 10,
+          "n": 110,
+          "clusters": 3
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 27,
+              "n": 28,
+              "clusters": 2
+            },
+            "clause": {
+              "k": 27,
+              "n": 28,
+              "clusters": 2
+            },
+            "wrong": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "any": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "right_outcome_changing": {
+              "k": 15,
+              "n": 15,
+              "clusters": 2
+            },
+            "right_basis_only": {
+              "k": 12,
+              "n": 13,
+              "clusters": 2
+            },
+            "fpr": {
+              "k": 14,
+              "n": 28,
+              "clusters": 2
+            },
+            "fpr_validity": {
+              "k": 2,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "discrimination": 0.8929,
+            "pairs": 28
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 27,
+            "n": 28,
+            "clusters": 2
+          },
+          "clause": {
+            "k": 27,
+            "n": 28,
+            "clusters": 2
+          },
+          "wrong": {
+            "k": 0,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_controls": {
+            "k": 14,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_validity_controls": {
+            "k": 2,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_C": {
+            "k": 28,
+            "n": 54,
+            "clusters": 3
+          },
+          "fpr_validity_C": {
+            "k": 3,
+            "n": 54,
+            "clusters": 3
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 54,
+            "clusters": 3
+          }
+        }
+      },
+      "validity-regnorec-drop50-s0": {
+        "invalid": {
+          "k": 10,
+          "n": 110,
+          "clusters": 3
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 21,
+              "n": 28,
+              "clusters": 2
+            },
+            "clause": {
+              "k": 27,
+              "n": 28,
+              "clusters": 2
+            },
+            "wrong": {
+              "k": 6,
+              "n": 28,
+              "clusters": 2
+            },
+            "any": {
+              "k": 28,
+              "n": 28,
+              "clusters": 2
+            },
+            "right_outcome_changing": {
+              "k": 11,
+              "n": 15,
+              "clusters": 2
+            },
+            "right_basis_only": {
+              "k": 10,
+              "n": 13,
+              "clusters": 2
+            },
+            "fpr": {
+              "k": 14,
+              "n": 28,
+              "clusters": 2
+            },
+            "fpr_validity": {
+              "k": 2,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 28,
+              "clusters": 2
+            },
+            "discrimination": 0.6786,
+            "pairs": 28
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 21,
+            "n": 28,
+            "clusters": 2
+          },
+          "clause": {
+            "k": 27,
+            "n": 28,
+            "clusters": 2
+          },
+          "wrong": {
+            "k": 6,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_controls": {
+            "k": 14,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_validity_controls": {
+            "k": 2,
+            "n": 28,
+            "clusters": 2
+          },
+          "fpr_C": {
+            "k": 28,
+            "n": 54,
+            "clusters": 3
+          },
+          "fpr_validity_C": {
+            "k": 3,
+            "n": 54,
+            "clusters": 3
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 54,
+            "clusters": 3
+          }
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "pooled": {
+      "P2 validity - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P3 meta on - off (support)": {
+        "n_items": 0,
+        "p": null
+      },
+      "P4 100-neutral - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P5 reg-real - support": {
+        "n_items": 0,
+        "p": null
+      }
+    },
+    "gemma-4-26b-a4b-it": {
+      "P2 validity - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P3 meta on - off (support)": {
+        "n_items": 0,
+        "p": null
+      },
+      "P4 100-neutral - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P5 reg-real - support": {
+        "n_items": 0,
+        "p": null
+      }
+    }
+  },
+  "timings": {
+    "gemma-4-26b-a4b-it": {
+      "reg-real__S-both": {
+        "items": 56,
+        "calls": 0,
+        "seconds": 0.0,
+        "workers": 4,
+        "calls_per_min": null
+      },
+      "reg-real__C": {
+        "items": 54,
+        "calls": 0,
+        "seconds": 0.0,
+        "workers": 4,
+        "calls_per_min": null
+      },
+      "validity-regstatus__S-both": {
+        "items": 56,
+        "calls": 56,
+        "seconds": 799.5,
+        "workers": 4,
+        "calls_per_min": 4.2
+      },
+      "validity-regstatus__C": {
+        "items": 54,
+        "calls": 54,
+        "seconds": 894.0,
+        "workers": 4,
+        "calls_per_min": 3.62
+      },
+      "reg-drop50-s0__S-both": {
+        "items": 56,
+        "calls": 0,
+        "seconds": 0.0,
+        "workers": 4,
+        "calls_per_min": null
+      },
+      "reg-drop50-s0__C": {
+        "items": 54,
+        "calls": 0,
+        "seconds": 0.0,
+        "workers": 4,
+        "calls_per_min": null
+      },
+      "validity-regstatus-drop50-s0__S-both": {
+        "items": 56,
+        "calls": 56,
+        "seconds": 1065.3,
+        "workers": 4,
+        "calls_per_min": 3.15
+      },
+      "validity-regstatus-drop50-s0__C": {
+        "items": 54,
+        "calls": 54,
+        "seconds": 113.4,
+        "workers": 4,
+        "calls_per_min": 28.57
+      },
+      "validity-regnorec__S-both": {
+        "items": 56,
+        "calls": 56,
+        "seconds": 757.3,
+        "workers": 4,
+        "calls_per_min": 4.44
+      },
+      "validity-regnorec__C": {
+        "items": 54,
+        "calls": 54,
+        "seconds": 520.0,
+        "workers": 4,
+        "calls_per_min": 6.23
+      },
+      "validity-regnorec-drop50-s0__S-both": {
+        "items": 56,
+        "calls": 56,
+        "seconds": 421.6,
+        "workers": 4,
+        "calls_per_min": 7.97
+      },
+      "validity-regnorec-drop50-s0__C": {
+        "items": 54,
+        "calls": 54,
+        "seconds": 106.5,
+        "workers": 4,
+        "calls_per_min": 30.42
+      }
+    }
+  }
+}

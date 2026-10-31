@@ -1,0 +1,36 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/Delhi%20Electricity%20Regulatory%20Commission%20%28Group%20Net%20Metering%20and%20Virtual%20Net%20Metering%20for%20Renewable%20Energy%29%20%28Fourth%20Amendment%29%20Guidelines%2C%202022_0.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:45Z",
+  "sha256": "a8098c0b087f78ea45a783da46fcb8db86029fd9c9e54d8e638e688b2602fc38",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "DERC (GNM and VNM for Renewable Energy) (Fourth Amendment) Guidelines, 2022",
+  "number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "printed_date": "2022-02-24",
+  "file_type": "PDF document, version 1.5, 1 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Guideline 13 (substituted 24.02.2022)",
+      "verbatim_quote": "Provided that exemption of applicability of such charges shall be valid till commissioning of Renewable Energy System by 31 st March 2024 or till additional capacity reaches upto 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL , BYPL and NDMC respectively",
+      "page": 1,
+      "topic": "Charges exemption: commissioning by 31.03.2024 or DISCOM-wise MW cap",
+      "numeric_values": {
+        "commissioning_deadline": "2024-03-31",
+        "MW_caps": {
+          "BRPL": 75,
+          "TPDDL": 50,
+          "BYPL": 30,
+          "NDMC": 10
+        }
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-GNMVNM-2019-guidelines",
+        "clause_ref": "Guideline 13",
+        "evidence_quote": "The Renewable Energy System commissioned till 31 st march 2022 under DERC (Net Metering for Renewable Energy) Regulations, 2014, shall be exempted  during its useful life",
+        "evidence_page": 7
+      },
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

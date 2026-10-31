@@ -1,0 +1,86 @@
+{
+  "reg-real__S-both": {
+    "items": 56,
+    "calls": 0,
+    "seconds": 0.0,
+    "workers": 4,
+    "calls_per_min": null
+  },
+  "reg-real__C": {
+    "items": 54,
+    "calls": 0,
+    "seconds": 0.0,
+    "workers": 4,
+    "calls_per_min": null
+  },
+  "validity-regstatus__S-both": {
+    "items": 56,
+    "calls": 56,
+    "seconds": 799.5,
+    "workers": 4,
+    "calls_per_min": 4.2
+  },
+  "validity-regstatus__C": {
+    "items": 54,
+    "calls": 54,
+    "seconds": 894.0,
+    "workers": 4,
+    "calls_per_min": 3.62
+  },
+  "reg-drop50-s0__S-both": {
+    "items": 56,
+    "calls": 0,
+    "seconds": 0.0,
+    "workers": 4,
+    "calls_per_min": null
+  },
+  "reg-drop50-s0__C": {
+    "items": 54,
+    "calls": 0,
+    "seconds": 0.0,
+    "workers": 4,
+    "calls_per_min": null
+  },
+  "validity-regstatus-drop50-s0__S-both": {
+    "items": 56,
+    "calls": 56,
+    "seconds": 1065.3,
+    "workers": 4,
+    "calls_per_min": 3.15
+  },
+  "validity-regstatus-drop50-s0__C": {
+    "items": 54,
+    "calls": 54,
+    "seconds": 113.4,
+    "workers": 4,
+    "calls_per_min": 28.57
+  },
+  "validity-regnorec__S-both": {
+    "items": 56,
+    "calls": 56,
+    "seconds": 757.3,
+    "workers": 4,
+    "calls_per_min": 4.44
+  },
+  "validity-regnorec__C": {
+    "items": 54,
+    "calls": 54,
+    "seconds": 520.0,
+    "workers": 4,
+    "calls_per_min": 6.23
+  },
+  "validity-regnorec-drop50-s0__S-both": {
+    "items": 56,
+    "calls": 56,
+    "seconds": 421.6,
+    "workers": 4,
+    "calls_per_min": 7.97
+  },
+  "validity-regnorec-drop50-s0__C": {
+    "items": 54,
+    "calls": 54,
+    "seconds": 106.5,
+    "workers": 4,
+    "calls_per_min": 30.42
+  }
+}

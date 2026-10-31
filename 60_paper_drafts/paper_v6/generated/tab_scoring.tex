@@ -1,0 +1,22 @@
+\begin{table}[t]\centering\small
+\caption{E5: the same replies under three scoring rules. Catch: any finding on the fault; a finding naming the planted clause; naming it with the reason ``not in force'' (the primary rule). False alarms on matched correct answers: any finding; a finding with a validity reason. Human check of the right-reason scorer on 50 dev replies: 35/50 agree (planned gate 95\%).}
+\label{tab:scoring}
+\begin{tabular}{llrrrrr}
+\toprule
+Model & Arm & Any & Clause & Right reason & FA any & FA validity \\
+\midrule
+Flash-Lite & R2 & 35/42 & 35/42 & 19/42 & 20/42 & 0/42 \\
+Flash-Lite & R4 & 38/42 & 37/42 & 33/42 & 19/42 & 3/42 \\
+Gemma 4 26B & R2 & 32/42 & 32/42 & 9/42 & 20/42 & 0/42 \\
+Gemma 4 26B & R4 & 33/42 & 33/42 & 25/42 & 20/42 & 2/42 \\
+Gemma 4 26B & R4n & 33/42 & 33/42 & 26/42 & 21/42 & 2/42 \\
+Llama 8B & R2 & 24/42 & 24/42 & 0/42 & 19/42 & 13/42 \\
+Llama 8B & R4 & 23/42 & 23/42 & 3/42 & 19/42 & 9/42 \\
+Qwen 14B & R2 & 26/42 & 26/42 & 13/42 & 18/42 & 11/42 \\
+Qwen 14B & R4 & 32/42 & 32/42 & 32/42 & 10/42 & 6/42 \\
+Qwen 14B & R4n & 32/42 & 32/42 & 31/42 & 13/42 & 5/42 \\
+Qwen 7B & R2 & 14/42 & 14/42 & 5/42 & 7/42 & 5/42 \\
+Qwen 7B & R4 & 3/42 & 3/42 & 2/42 & 2/42 & 2/42 \\
+\bottomrule
+\end{tabular}
+\end{table}

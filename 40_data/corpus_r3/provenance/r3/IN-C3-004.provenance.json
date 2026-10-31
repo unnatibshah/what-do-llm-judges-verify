@@ -1,0 +1,31 @@
+{
+  "source_url": "https://apserc.nic.in/pdf/The%20Electricity%20(Rights%20of%20Consumers)%20Amendment%20Rules%202021.pdf",
+  "landing_page_url": "https://apserc.nic.in/ (APERC-hosted copy of Gazette of India notification; original issuer Ministry of Power)",
+  "fetched_at": "2026-10-01T16:51:02Z",
+  "sha256": "cf6e12e34f10c24f300109b757fda11c065b04b0e3fde549d3cdf980b10297e4",
+  "http_status": 200,
+  "issuer": "Ministry of Power (MoP), Govt of India (copy hosted by APERC, apserc.nic.in)",
+  "printed_title": "Electricity (Rights of Consumers) Amendment Rules, 2021",
+  "number": "G.S.R. 448(E)",
+  "printed_date": "2021-06-28",
+  "file_type": "PDF document, version 1.6 (zip deflate encoded)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Rule 11(4) (substituted by G.S.R. 448(E), 28.06.2021)",
+      "verbatim_quote": "Provided that where the regulations does not provide for net -metering, net -billing or net feed -in, the Commission may allow net metering to the Prosumer for loads up to five hundred Kilowatt or upto the sanctioned load, whichever is lower",
+      "page": 3,
+      "topic": "Net metering up to 500 kW or sanctioned load whichever lower (where state regs silent)",
+      "numeric_values": {
+        "net_metering_kW": 500,
+        "or": "sanctioned load, whichever lower"
+      },
+      "amends_or_supersedes": {
+        "doc": "CORPUS:IN-C3-002",
+        "clause_ref": "Rule 11(4) ROC 2020",
+        "evidence_quote": "net metering for loads up to ten kW and for gross metering for loads above ten kW.",
+        "evidence_page": 1
+      },
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

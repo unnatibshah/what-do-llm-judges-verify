@@ -1,0 +1,40 @@
+{
+  "source_url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/08/20260804911824842.pdf",
+  "landing_page_url": "https://mnre.gov.in/en/notice-category/current-notices/",
+  "fetched_at": "2026-10-01T16:51:03Z",
+  "sha256": "007fdadcb405074d6cad80856e608b1895a6e67ba6d2efcbcae54406abd3e227",
+  "http_status": 200,
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "printed_title": "ALMM List-II for solar PV cells: Clarification",
+  "number": "283/54/2026-GRID SOLAR",
+  "printed_date": "2026-08-04",
+  "file_type": "PDF document, version 1.4",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Para 1(b)",
+      "verbatim_quote": "'Net-Metering' as referred herein shall be construed to cover all other forms of connection and interaction to grid, including but not limited to Gross Metering, Net Billing, Net Feed In, Virtual Net Metering, Group Net Metering, etc. but excluding Behind-The-Meter connections.",
+      "page": 1,
+      "topic": "Net-metering definition includes GNM/VNM etc.; Give-It-Up exemption till 31.03.2027",
+      "numeric_values": {
+        "exempt_until": "2026-12-31",
+        "give_it_up_until": "2027-03-31"
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image",
+      "note": "Directly interacts with DERC GNM/VNM guidelines (Delhi) and UPERC net billing: central ALMM exemption applies to state-regulated GNM/VNM projects."
+    },
+    {
+      "clause_ref": "Para 1(a)",
+      "verbatim_quote": "the cut off date of 31.08.2025 (the date falling after one month of the publication of initial ALMM List-II dated 31.07.2025)",
+      "page": 1,
+      "topic": "Bid cut-off 31.08.2025",
+      "numeric_values": {
+        "cutoff": "2025-08-31"
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    }
+  ]
+}

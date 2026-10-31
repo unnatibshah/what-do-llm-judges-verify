@@ -1,0 +1,42 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc4Mzk0Mzg3OF81OTQ2",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "amendment (Fifth)",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Fifth Amendment) Regulations, 2025",
+  "number": "Notification No. 10 of 2025",
+  "printed_date": "2025-11-03 (Gazette Extra No. 328)",
+  "file": "GERC-NetMetering-2025-5thAmend.pdf",
+  "fetched_at": "2026-10-01T16:42:59Z",
+  "http_status": 200,
+  "sha256": "68b5aa00a8ecf2eaa0dc363cb131b7397adae210cfee9ff33d9e6233d945bb02",
+  "pages": 2,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Substituted Reg 8(2) (connectivity level by Supply Code)",
+      "verbatim_quote": "The connectivity levels at which the Rooftop PV Solar System shall be connected with the grid shall be as per the supply voltage level provided under GERC (Electricity Supply Code and Related Matters) Regulations, 2015 as amended from time to time.",
+      "page": 2,
+      "topic": "meter/phase threshold",
+      "numeric_values": {
+        "previous": "Upto 6 kW 240 V single phase table"
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 8(2)",
+        "evidence_quote": "1. Upto 6 kW 240 V- single phase 2. Above 6 kW and upto 18.65 kW 415 V-Three phase",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg 7 new proviso (no separate agreement for PM Surya Ghar)",
+      "verbatim_quote": "Provided that there shall not be requirement for execution of separate written connectivity agreement",
+      "page": 2,
+      "topic": "procedure",
+      "numeric_values": {},
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

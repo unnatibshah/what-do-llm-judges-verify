@@ -1,0 +1,44 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc4MzkzNTcwOV84NTc2",
+  "landing_page_url": "https://gercin.org/regulations/draft_regulations",
+  "doc_type": "DRAFT regulation (not in force)",
+  "title": "Draft Gujarat Electricity Regulatory Commission (Grid Interactive Distributed Renewable Energy Sources) Regulations, 2026",
+  "number": "draft (landing page dated 15-05-2026)",
+  "printed_date": "2026-05-15 per landing page",
+  "file": "GERC-DRE-2026-Draft.pdf",
+  "fetched_at": "2026-10-01T16:43:18Z",
+  "http_status": 200,
+  "sha256": "69f495d415231281f9fdc2762783d24b2a3bcd8a7b6b80f0af08acf2f7bfbb06",
+  "pages": 119,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Draft Reg 1.4 (repeal)",
+      "verbatim_quote": "These Regulations shall repeal the Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) Regulations, 2016 and subsequent amendments.",
+      "page": 1,
+      "topic": "supersession (DRAFT only)",
+      "numeric_values": {},
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "whole regulation",
+        "evidence_quote": "Regulations for Net Metering Rooftop Solar PV Grid Interactive Systems",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check",
+      "note": "DRAFT: not in force as of 2026-10-01 per landing page; do not use as live supersession without confirming notification."
+    },
+    {
+      "clause_ref": "Draft Reg 6.2 (no feasibility study up to 10 kW)",
+      "verbatim_quote": "The applications for DRES up to 10 kW capacity, complete in all respects shall be deemed to have been accepted without requiring technical feasibility study",
+      "page": 9,
+      "topic": "feasibility study exemption",
+      "numeric_values": {
+        "kw": 10
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "note": "DRAFT"
+    }
+  ]
+}

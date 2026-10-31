@@ -1,0 +1,44 @@
+{
+  "validity-metaoff__C": {
+    "items": 42,
+    "calls": 42,
+    "seconds": 169.2,
+    "workers": 4,
+    "calls_per_min": 14.89
+  },
+  "validity-metaoff__S-swap": {
+    "items": 45,
+    "calls": 45,
+    "seconds": 184.4,
+    "workers": 4,
+    "calls_per_min": 14.64
+  },
+  "validity__S-both": {
+    "items": 84,
+    "calls": 84,
+    "seconds": 413.9,
+    "workers": 4,
+    "calls_per_min": 12.18
+  },
+  "validity__C": {
+    "items": 42,
+    "calls": 42,
+    "seconds": 183.3,
+    "workers": 4,
+    "calls_per_min": 13.75
+  },
+  "validity-regstatus__S-both": {
+    "items": 84,
+    "calls": 84,
+    "seconds": 352.8,
+    "workers": 4,
+    "calls_per_min": 14.29
+  },
+  "validity-regstatus__C": {
+    "items": 42,
+    "calls": 42,
+    "seconds": 192.8,
+    "workers": 4,
+    "calls_per_min": 13.07
+  }
+}

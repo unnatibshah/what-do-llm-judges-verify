@@ -1,0 +1,352 @@
+[
+ {
+  "check_id": "SC01",
+  "item_id": "SB-2b19802e#A#fault",
+  "model": "qwen2.5:7b",
+  "config": "reflect",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC02",
+  "item_id": "SB-b18a65c5#S-swap#fault",
+  "model": "qwen2.5:14b",
+  "config": "validity-metaoff",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC03",
+  "item_id": "SB-6948c8a8#A#fault",
+  "model": "qwen2.5:7b",
+  "config": "validity",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC04",
+  "item_id": "SB-468ba66f#S-swap#fault",
+  "model": "qwen2.5:14b",
+  "config": "validity",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC05",
+  "item_id": "SB-32b1949f#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "validity",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC06",
+  "item_id": "SB-468ba66f#S-both#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "support-metaoff",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC07",
+  "item_id": "SB-457f5af0#S-both#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "reflect",
+  "code_label": "INVALID"
+ },
+ {
+  "check_id": "SC08",
+  "item_id": "SB-3bc520cc#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "support",
+  "code_label": "INVALID"
+ },
+ {
+  "check_id": "SC09",
+  "item_id": "SB-3bc520cc#A#fault",
+  "model": "llama3.1:8b",
+  "config": "validity-metaoff",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC10",
+  "item_id": "SB-124772e1#S-both#fault",
+  "model": "qwen2.5:7b",
+  "config": "support-metaoff",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC11",
+  "item_id": "SB-359a0d1b#S-both#fault",
+  "model": "qwen2.5:14b",
+  "config": "support-metaoff",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC12",
+  "item_id": "SB-78b2290b#A#fault",
+  "model": "qwen2.5:7b",
+  "config": "reflect",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC13",
+  "item_id": "SB-0f72497f#S-both#fault",
+  "model": "llama3.1:8b",
+  "config": "validity-metaoff",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC14",
+  "item_id": "SB-8dc1cbde#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "validity",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC15",
+  "item_id": "SB-6948c8a8#S-swap#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "validity",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC16",
+  "item_id": "SB-124772e1#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "reg-real-llm",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC17",
+  "item_id": "SB-8dc1cbde#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "support",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC18",
+  "item_id": "SB-10bbc68c#A#fault",
+  "model": "llama3.1:8b",
+  "config": "validity-metaoff",
+  "code_label": "INVALID"
+ },
+ {
+  "check_id": "SC19",
+  "item_id": "SB-ca940ea3#A#fault",
+  "model": "llama3.1:8b",
+  "config": "support",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC20",
+  "item_id": "SB-e7de4356#S-both#fault",
+  "model": "llama3.1:8b",
+  "config": "support",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC21",
+  "item_id": "SB-080f3e8c#S-swap#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "validity",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC22",
+  "item_id": "SB-3bc520cc#A#fault",
+  "model": "qwen2.5:7b",
+  "config": "reflect",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC23",
+  "item_id": "SB-e515fb00#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "support-metaoff",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC24",
+  "item_id": "SB-cb60bcb8#S-both#fault",
+  "model": "llama3.1:8b",
+  "config": "support",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC25",
+  "item_id": "SB-cb60bcb8#S-both#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "support-metaoff",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC26",
+  "item_id": "SB-adb89bfe#S-both#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "validity",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC27",
+  "item_id": "SB-457f5af0#S-swap#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "support-metaoff",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC28",
+  "item_id": "SB-2b19802e#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "validity",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC29",
+  "item_id": "SB-cb60bcb8#S-swap#fault",
+  "model": "qwen2.5:14b",
+  "config": "support-metaoff",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC30",
+  "item_id": "SB-10bbc68c#A#fault",
+  "model": "qwen2.5:7b",
+  "config": "reflect",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC31",
+  "item_id": "SB-1559b897#S-both#fault",
+  "model": "llama3.1:8b",
+  "config": "validity-metaoff",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC32",
+  "item_id": "SB-b18a65c5#S-swap#fault",
+  "model": "qwen2.5:7b",
+  "config": "reflect",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC33",
+  "item_id": "SB-7f4026ce#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "support-metaoff",
+  "code_label": "INVALID"
+ },
+ {
+  "check_id": "SC34",
+  "item_id": "SB-be70d3cd#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "support",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC35",
+  "item_id": "SB-e0dc411f#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "reflect",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC36",
+  "item_id": "SB-4f382ccc#S-both#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "reflect",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC37",
+  "item_id": "SB-133bedc0#A#fault",
+  "model": "llama3.1:8b",
+  "config": "support-metaoff",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC38",
+  "item_id": "SB-359a0d1b#S-both#fault",
+  "model": "qwen2.5:14b",
+  "config": "reg-real-llm",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC39",
+  "item_id": "SB-e85976bc#S-both#fault",
+  "model": "llama3.1:8b",
+  "config": "support",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC40",
+  "item_id": "SB-124772e1#S-both#fault",
+  "model": "llama3.1:8b",
+  "config": "reg-real-llm",
+  "code_label": "WRONG_REASON"
+ },
+ {
+  "check_id": "SC41",
+  "item_id": "SB-3bc520cc#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "validity",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC42",
+  "item_id": "SB-359a0d1b#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "validity-metaoff",
+  "code_label": "NO_FLAG"
+ },
+ {
+  "check_id": "SC43",
+  "item_id": "SB-0e0723ac#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "validity",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC44",
+  "item_id": "SB-be70d3cd#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "support",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC45",
+  "item_id": "SB-5962be1d#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "reflect",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC46",
+  "item_id": "SB-ca940ea3#A#fault",
+  "model": "qwen2.5:14b",
+  "config": "validity",
+  "code_label": "RIGHT_CATCH"
+ },
+ {
+  "check_id": "SC47",
+  "item_id": "SB-8846f830#A#fault",
+  "model": "llama3.1:8b",
+  "config": "validity",
+  "code_label": "INVALID"
+ },
+ {
+  "check_id": "SC48",
+  "item_id": "SB-fa63ca89#S-swap#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "reflect",
+  "code_label": "INVALID"
+ },
+ {
+  "check_id": "SC49",
+  "item_id": "SB-7f4026ce#A#fault",
+  "model": "gemma-4-26b-a4b-it",
+  "config": "reflect",
+  "code_label": "WRONG_CLAUSE"
+ },
+ {
+  "check_id": "SC50",
+  "item_id": "SB-cb278238#A#fault",
+  "model": "qwen2.5:7b",
+  "config": "validity-metaoff",
+  "code_label": "NO_FLAG"
+ }
+]

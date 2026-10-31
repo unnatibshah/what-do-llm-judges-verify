@@ -1,0 +1,80 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2Nzc2Njc5M181OTY3",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "amendment (Second)",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Second Amendment) Regulations, 2020",
+  "number": "Notification No. 2 of 2020",
+  "printed_date": "2020-01-22 per landing page (document body prints no date on extracted text)",
+  "file": "GERC-NetMetering-2020-2ndAmend.pdf",
+  "fetched_at": "2026-10-01T16:42:37Z",
+  "http_status": 200,
+  "sha256": "adf4f6f7e13e84ebf63c9f6b7372e5e9a88546e4eb2921ad0dae74bc356c5a1c",
+  "pages": 14,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Amended Reg 5 proviso (DT limit)",
+      "verbatim_quote": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;",
+      "page": 3,
+      "topic": "DT hosting capacity",
+      "numeric_values": {
+        "dt_limit_pct": 100,
+        "previous_pct_of_peak_capacity": 65
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 5 proviso",
+        "evidence_quote": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 6.2 (residential and MSME exempt from cap)",
+      "verbatim_quote": "and MSME (Manufacturing) Enterprise shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand; whereas in case of Residential Consumers",
+      "page": 3,
+      "topic": "capacity cap % of sanctioned load",
+      "numeric_values": {
+        "cap_pct_sanctioned_load_other": 50,
+        "exempt": "residential, MSME (Manufacturing)"
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2017-1stAmend",
+        "clause_ref": "Reg 6.2 (as amended 2017)",
+        "evidence_quote": "whereas in case of Residential Consumers, the Rooftop Solar PV System capacity shall be irrespective of their sanctioned load/contract demand.",
+        "evidence_in_file": "GERC-NetMetering-2017-1stAmend.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 13.5 (meter class)",
+      "verbatim_quote": "The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy",
+      "page": 9,
+      "topic": "meter accuracy class",
+      "numeric_values": {
+        "main_solar_meter_class": "1.0",
+        "net_meter_class": "0.5S",
+        "previous_main_solar_meter_class": "0.2s"
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 13.5",
+        "evidence_quote": "The main Solar Meters shall be of 0.2s class accura cy",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 7 item 11.5 (no-volt relay above 10 kW)",
+      "verbatim_quote": "second line of protection such as no volt relay (for Solar PV system above 10 Kw)",
+      "page": 4,
+      "topic": "threshold kW",
+      "numeric_values": {
+        "no_volt_relay_above_kw": 10
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

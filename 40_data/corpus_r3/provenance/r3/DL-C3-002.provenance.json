@@ -1,0 +1,58 @@
+{
+  "source_url": "https://sws.delhi.gov.in/swsdelhistoreapi/api/SiteDocuments/getanydocs/5071226653832002_1/3/2",
+  "landing_page_url": "https://sws.delhi.gov.in/ (Delhi Single Window System documents)",
+  "fetched_at": "2026-10-01T16:41:25Z",
+  "sha256": "23338d47d19bb84b3c352f46877d89c2e652e53e0903cd233b6cebbcd7e9391d",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC); hosted by Govt of NCT Delhi SWS",
+  "printed_title": "DERC (Net Metering for Renewable Energy) Regulations, 2014 with Guidelines under the Regulations",
+  "number": "F. 9(116)/DERC/Tariff/DS/2013-14/C.F 4110",
+  "printed_date": "2014",
+  "file_type": "PDF document, version 1.6, 20 pages (zip deflate encoded)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Guidelines under DERC NM Regs 2014, cl. 1(1)",
+      "verbatim_quote": "Distribution Tran sformer level capacity to be offered for Connecting Renewable EnergySystem for Net Metering by the Distribution Licensee shall not be less than 20% (Twenty percent) of the rated capacity of respective distribution transformer.",
+      "page": 9,
+      "topic": "DT capacity offered for net metering (floor)",
+      "numeric_values": {
+        "dt_capacity_min_pct": 20
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guidelines under DERC NM Regs 2014, cl. 3(3)",
+      "verbatim_quote": "the Distribution Licensee shall complete the feasibility analysis for connecting the Renewable EnergySystem to the distribution system within thirty (30) days from the date of receipt of the application..",
+      "page": 10,
+      "topic": "Feasibility analysis timeline",
+      "numeric_values": {
+        "feasibility_days": 30
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guidelines cl. 3(13)",
+      "verbatim_quote": "Within thirt y (30) days from the date of registration, the Distribution Licensee and the Consumer shall execute a Con nection Agreement .",
+      "page": 13,
+      "topic": "Connection agreement timeline",
+      "numeric_values": {
+        "agreement_days": 30
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guidelines cl. 3(16)",
+      "verbatim_quote": "The Distribution Licensee, within  fifteen (15)days from the date of installation of the Renewable Energy System shall procure, test and install the Net Meter.",
+      "page": 13,
+      "topic": "Net meter installation timeline",
+      "numeric_values": {
+        "net_meter_install_days": 15
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

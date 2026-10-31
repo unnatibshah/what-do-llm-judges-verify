@@ -1,0 +1,982 @@
+{
+ "nodes": [
+  {
+   "node_id": "TN-C5-001#cl-1",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "1",
+   "topic": "eligibility (net feed-in for new LT applicants except hut/agriculture from 25.03.2019; existing net metering continues under Order 3/2013)",
+   "snippet": "1. The new scheme of rooftop solar generation, namely, solar net feed in-\nconsumer category is applicable to all new applicants of Low Tension category except\nHut and Agricultural category of tariff with effect from 25.03.2019. The existing\nconsumers under the net metering scheme shall continue to be governed by the\nprovisions in the TNERC Order No. 03 of 2013, dt.13.11.2013 cited under reference (ii)\nabove.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-2",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "2",
+   "topic": "capacity limit vs sanctioned/contract load (100% of sanctioned/contracted demand)",
+   "snippet": "2. Consumer can install a maximum capacity of rooftop solar net feed-in plant\nupto 100% of his sanctioned/contracted demand.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-3",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "3",
+   "topic": "metering/phase threshold (up to 4 kW single phase 240 V or three phase; 4-112 kW 415 V three phase)",
+   "snippet": "3. The maximum capacity for interconnection with the grid at a specific voltage\nlevel shall be governed by the Supply/Distribution Code as amended from time to time.\nFor upto 4 kW, the interconnecting voltage level is single phase 240 V or three phase\n\n--- Page 2 ---\n415 V at the option of the consumer. For load exceeding 4 kW upto 112 KW, the\nvoltage level is 415V, three phase.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-4",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "4",
+   "topic": "capacity limit vs sanctioned/contract load (not to exceed service connection sanctioned load; enhancement application)",
+   "snippet": "4. The solar PV capacity shall not exceed the service connection capacity/\nsanctioned load. If a consumer proposes to install a solar PV system with the capacity\nthat exceeds the service connection sanctioned load, a service connection enhancement\napplication shall be submitted by the consumer in addition to the solar net feed-in\nconnection application. Service connection enhancement applications shall be processed\nas per the existing standard procedures.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-5",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "5",
+   "topic": "DT hosting limit (90% of distribution transformer capacity, first come first served)",
+   "snippet": "5. At the local distribution level, connectivity to rooftop solar systems shall be\nrestricted to 90% of the distribution transformer capacity on the basis of first come first\nserved. The TANGEDCO shall update the status of cumulative rooftop solar capacity\nconnected to each Distribution transformer in their website.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-6",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "6",
+   "topic": "feasibility/technical study; timelines (registration fee Rs 100; feasibility/approval within 3 working days)",
+   "snippet": "6. The concerned Executive Engineer/O&M is the Nodal Officer for effecting the\nsolar net meter services. The application for Rooftop Solar net feed-in connection\napplication shall be submitted to the Executive Engineer /O&M. After remittance of the\nregistration fee of Rs 100/- at the section office concerned, the concerned Executive\nEngineer (O&M)/TANGEDCO will acknowledge the receipt of the application. The\nconcerned Assistant Executive Engineer/ O&M will carry out the inspection/ feasibility\nanalysis of the Distribution Transformer Capacity. The feasibility intimation letter/\napproval should",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-7",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "7",
+   "topic": "timelines (grid connection within three weeks of registration where no extension work)",
+   "snippet": "7. When the consumer has installed the Solar PV system, the consumer shall\nintimate his readiness by post/by email or in person at the Section Office. The Section\nOfficer shall acknowledge the readiness intimation immediately. After ensuring the\nsafety inspection, Solar PV system shall be commissioned as per the interconnection\nschematic diagram in Annexure–I and as per the guidelines outlined in the working\ninstructions. After obtaining Safety Certificate and the signed Solar Net Feed in\nConnection Agreement, the Solar PV System shall be connected to the grid by the\nSection Officer within thr",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-8",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "8",
+   "topic": "metering (solar generation meter + bi-directional meter; generation meter not insisted for domestic)",
+   "snippet": "8. The consumers under the solar net feed-in scheme will have to install two\nmeters, one is for measuring solar power generation and the other is to measure\nimport and export of energy. However the installation of solar generation meter may\nnot be insisted in respect of domestic category consumers until further instruction.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-12",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "12",
+   "topic": "settlement/banking (net feed-in: export credited at Commission tariff, import at retail tariff, annual settlement by cheque)",
+   "snippet": "12. The electricity generated by the solar rooftop power plant shall be utilized for\nself consumption by the consumer. The surplus/excess energy generated that is\nunutilized and that flows to the grid and recorded in the export register of the meter\nshall at the end of the billing period be calculated at a tariff fixed by the Hon’ble\nCommission and credited to the consumer’s account. The energy that is imported from\nthe grid by the consumer shall be calculated at the appropriate retail tariff and the\nmonetary value of imported energy debited from the available credit on account of\nexported ene",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-13",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "13",
+   "topic": "tariff (net feed-in purchase price Rs 2.33/unit 2018-19, Rs 2.28/unit 2019-20, fixed for 25 years)",
+   "snippet": "13. The price of purchase of energy exported to the grid by the Solar Power\nGenerators commissioned under the Solar net feed-in scheme is of Rs.2.33 per unit for\nthe year 2018-2019 (for the period from 25.03.2019 to 31.03.2019) and Rs.2.28 per\n\n--- Page 5 ---\nunit for the year 2019-2020. The rate of purchase thus fixed for every financial year is\napplicable to the solar power generators commissioned in the relevant financial year for\nthe entire life period of the plant which is 25 years.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-001#cl-15",
+   "doc_id": "TN-C5-001",
+   "jurisdiction": "TN",
+   "clause_ref": "15",
+   "topic": "timelines (safety inspection within 5 working days; certificate within 3 working days; inspection authority AEE below 10 kW)",
+   "snippet": "15. Safety inspections may be carried out by the inspection authority within 5\n(five) working days from the date of readiness intimation by the consumer. Safety\nCertificates shall be issued within 3 (three) working days from the date of inspection or\nrectification of defects, if any. The Nodal Officer shall ensure that the inspection of\nSolar PV System of 10 KW and above are done within the above specified time\nschedule.",
+   "effective_date": "2019-05-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-I",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "I",
+   "topic": "applicability (order effective 22.10.2021)",
+   "snippet": "I. Applicability of this order:\nThis Order shall take effect from 22.10.2021.",
+   "effective_date": "2021-10-22",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "TN-C5-002#cl-I.1(a)",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "I.1(a)",
+   "topic": "eligibility; capacity limit vs sanctioned/contract load (net metering for new domestic consumers up to sanctioned load)",
+   "snippet": "a. All the new domestic consumers registered after 22.10.2021 are\neligible for net metering mechanism up to the level of sanctioned\nload/ contracted demand.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-I.1(c)",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "I.1(c)",
+   "topic": "eligibility (domestic net feed-in consumers under TNERC Order 3/2019 may migrate to net metering)",
+   "snippet": "c. Domestic consumers who have been provided with the solar net-\nfeed-in facility as per TNERC Order No.3 of 2019 shall have option\nto migrate to the solar energy net metering mechanism as provided\nfor in this order to avoid discrimination within the same category of\nconsumers.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-I.2",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "I.2",
+   "topic": "eligibility; capacity limit vs sanctioned/contract load (net billing/net feed-in all categories except hut/agriculture, up to sanctioned load, max 999 kW)",
+   "snippet": "2. Net billing or net feed-in:\nAll electricity consumer categories (except hut and agriculture) irrespective\nof tariff and voltage levels up to the level of sanctioned load/contracted\ndemand up to a maximum capacity of 999 KW are eligible for solar energy\nnet billing or net feed-in mechanism.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-I.3(a)",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "I.3(a)",
+   "topic": "eligibility; capacity limit (gross metering non-domestic consumers/generators, 151 kWp to 999 kW; LT not eligible)",
+   "snippet": "3. Gross Metering:\na. The existing and new consumers of all categories except domestic\ncategory and also the generators are eligible for gross metering\nmechanism irrespective of tariff. The minimum size of the Solar System\n\n--- Page 2 ---\nthat can be set up under Gross Metering mechanism shall be 151 kWp up\nto a maximum capacity of 999 kW.\nb. LT consumers are not eligible for gross metering.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-II.1(i)",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "II.1(i)",
+   "topic": "settlement/banking (net metering: units carried forward; surplus lapses at end of settlement period 31 March)",
+   "snippet": "(i) The solar energy exported to the Grid from grid connected solar\nphotovoltaic system is deducted from energy imported from the grid in\nunits to arrive at the net imported or exported energy. If the generated\nenergy is more than the consumption in a given billing cycle, such surplus\n3\n\n--- Page 4 ---\nenergy generated / exported shall be carried over to the next billing cycle\nfor credit and adjustment. This process shall continue until the end of the\nsettlement period i.e., 31st March. At the end of the settlement period,\nthe credit i.e., the net units of surplus generation available, if any,",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-II.2",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "II.2",
+   "topic": "settlement/banking (net billing/net feed-in: export credited at feed-in tariff; option of payment or carry-over at 31 March)",
+   "snippet": "2. Net billing or Net feed-in:\nThe monetary value of the imported energy is debited based on the\napplicable retail tariff; The monetary value of the exported energy is credited\nbased on the feed-in tariff determined by the Commission. The monetary\nvalue of the exported energy is deducted from the monetary value of\nimported energy to arrive at the net amount to be billed. If the cumulative\ncredit amount exceeds the debit amount during any billing cycle, the net\ncredit is carried over to the next billing cycle. At the end of settlement period",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-III",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "III",
+   "topic": "tariff (levelised feed-in tariff Rs 3.61 / 3.37 / 3.10 per kWh by capacity band; ToD +20%)",
+   "snippet": "III. Levelised Tariffs and Time of Day (ToD) tariffs:\nThe Time of Day tariffs has been determined by adding 20% higher than the\nlevelised tariff and shall apply for the energy supplied during the evening\npeak hours i.e., 18.00 hrs to 21.00 hrs.\n\n| Capacity Range | Levelised Tariff |\n| --- | --- |\n| 1-10 kW | Rs.3.61 per kWh |\n| 11-150 kW | Rs.3.37 per kWh |\n| 151-999 kW | Rs.3.10 per kWh |",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-IV(e)",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "IV(e)",
+   "topic": "tariff (network charges: 20% for domestic up to 10 kW, 75% above 10 kW)",
+   "snippet": "e. To encourage the growth of solar power in domestic sector, the Commission\nproposes to levy 20% of network charges for domestic consumers of up to\n10KW and 75% of network charges for the domestic consumers of above\n10KW.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-VII.2",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "VII.2",
+   "topic": "capacity limit vs sanctioned/contract load (not to exceed sanctioned load/contracted demand)",
+   "snippet": "2. The solar plant capacity shall not exceed the sanctioned load / contracted\ndemand.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-VII.3",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "VII.3",
+   "topic": "DT hosting limit (90% of DT capacity for net metering/net billing)",
+   "snippet": "3. The cumulative capacity of all Solar PV systems under net metering or net\nbilling put together connected to a distribution transformer shall not\nexceed 90% of the distribution transformer capacity.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-VII.4",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "VII.4",
+   "topic": "DT hosting limit (gross metering HT: 70% of power transformer capacity)",
+   "snippet": "4. The cumulative capacity of all solar generating systems under Gross\nmetering mechanism in case of HT connected to a Power Transformer\nshall not exceed 70% of the Power Transformer capacity.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-VIII.5",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "VIII.5",
+   "topic": "metering (check meter mandatory above 20 kW; optional up to 20 kW)",
+   "snippet": "5. lncase of Renewable Energy Generating System with capacity above 20\nkW a Check Meter of appropriate class shall be installed by TANGEDCO\nfor the Renewable Energy Generation Meter.\nProvided that installation of Check Meter shall be optional for Renewable\nEnergy Generating System with capacity up to and including 20 kW.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-IX",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "IX",
+   "topic": "operative control period (in force 22.10.2021; tariffs valid to 31.03.2023; 25 years for plants commissioned in period)",
+   "snippet": "IX. Operative Control Period:\n1. This shall come into force from 22.10.2021\n2. The tariffs determined shall be applicable for all consumer categories and is\napplicable for a control period up to 31.03.2023.\n3. The tariff determined shall be valid for 25 years for the GISS which are\ncommissioned during the said control period.",
+   "effective_date": "2021-10-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "TN-C5-002#cl-Annexure-I",
+   "doc_id": "TN-C5-002",
+   "jurisdiction": "TN",
+   "clause_ref": "Annexure-I",
+   "topic": "timelines; feasibility/technical study; CFA subsidy (suggestive DISCOM procedure for CFA scheme: feasibility/LOA 15 working days)",
+   "snippet": "Annexure - I\nSuggestive Operating Procedures for Installation and Metering\nConnection of Grid\nConnected Solar Rooftop PV Systems by DISCOMs\n\n| ACTIVITY | RESPONSIBILITY | TIMELINE (Max Working Days) |\n| --- | --- | --- |\n| Submission of Application | CONSUMER | Zero Date |\n| Acknowledgment of Application by DISCOM | DISCOM | 02 |\n| Site Verification / Technical Feasibility & issuance of Letter of Approval (LOA) / Termination [1] | DISCOM | 15 |\n| In-Principle Approval for CFA | DISCOM | 10 |",
+   "effective_date": "2021-10-22",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "TN-C5-003#cl-Para 1",
+   "doc_id": "TN-C5-003",
+   "jurisdiction": "TN",
+   "clause_ref": "Para 1",
+   "topic": "eligibility; metering (portal note: net metering for domestic, net feed-in for other LT, HT 1-999 kW net feed-in, >1 MW parallel operation) under Order 8/2021",
+   "snippet": "TANGEDCO is at present adopting Hon’ble TNERC’s Generic Tariff Order for Grid interactive PV\nSolar Energy Generating System (GISS) Order No.8 of 2021 dated 22/10/2021.As per the above\norder Net-metering is adopted for domestic consumers and Net-feeding is adopted for all other\ncategory of L.T Consumers. In respect of H.T consumers, solar capacities under 1 – 999 kw are\nunder net-feeding methodology and for solar capacities more than 1 MW, approvals are accorded\nfor operating the solar PV plants under parallel operation mode by providing reverse power relays.",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "TN-C5-003#cl-Highlights table",
+   "doc_id": "TN-C5-003",
+   "jurisdiction": "TN",
+   "clause_ref": "Highlights table",
+   "topic": "tariff (portal summary of feed-in tariffs and network charges; not an operative instrument)",
+   "snippet": "| DomesticL T Category | Up to sanctionedl oad |  |  | × | 20% of Rs1.53 ( up to 10 kW); 75% of Rs 1.48( above 10 kW) |  |  |  |\n| Other than domestic category in LT | Up to sanctionedl oad | × |  | × | Rs.1.53 per kWh on total generation | Rs.3.61 | Rs.3.37 |  |\n| Consumerso f more than 150 kW | 151-999 kW | × |  |  | Re.0.96 per kWh for Net Feed-in. No charges for Gross Metering |  |  | Rs.3.10 |",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "TN-C5-004#cl-Para 1",
+   "doc_id": "TN-C5-004",
+   "jurisdiction": "TN",
+   "clause_ref": "Para 1",
+   "topic": "CFA subsidy (PM Surya Ghar central subsidy: 1 kW Rs 30,000, 2 kW Rs 60,000, 3 kW and above Rs 78,000; Tamil text, untranslated)",
+   "snippet": "1 (cid:120)ேலாவா(cid:216) - (cid:196),30,000/-\n2 (cid:120)ேலாவா(cid:216) - (cid:196),60,000/-\n3 (cid:120)ேலாவா(cid:216) அத(cid:228)(cid:164) ேம(cid:224) - (cid:196),78,000/-",
+   "effective_date": "2024-02-22",
+   "confidence": "low"
+  },
+  {
+   "node_id": "TN-C5-005#cl-Para 2",
+   "doc_id": "TN-C5-005",
+   "jurisdiction": "TN",
+   "clause_ref": "Para 2",
+   "topic": "CFA subsidy (State top-up subsidy over and above PM Surya Ghar CFA: up to 1 kW Rs 5,000; up to 2 kW Rs 10,000; 3 kW and above Rs 22,000)",
+   "snippet": "until the benefit is availed by 1 lakh consumers. He has stated that this\nsubsidy will be an additional subsidy over and above the Central\nFinancial Assistance available under the Pradhan Mantri Surya Ghar:\nMuft Bijli Yojana and designed the structure of the proposed State\nsubsidyasfollows:\nSi. No.\nRooftop Solar\nProposed State\nCapacity\nSubsidy\n1\nUp to 1 k W\nRs.5,000\n2\nUp to 2 k W\nRs.10,000\n3\n3kwandabove\nRs.22,000",
+   "effective_date": "2026-09-19",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "TN-C5-005#cl-Para 6(i)",
+   "doc_id": "TN-C5-005",
+   "jurisdiction": "TN",
+   "clause_ref": "Para 6(i)",
+   "topic": "eligibility; CFA subsidy (sanction of State subsidy to 1 lakh domestic consumers registered from 05.08.2026 on PM Surya Ghar portal; Rs 50 crore)",
+   "snippet": "6. The Government after careful examination of the proposal of the\nChairman, Tamil Nadu Green Energy Corporation Limited have decided\nto accept the same and accord sanction for the following\n(i) Sanction and disbursement of State subsidy to 1 Lakh\nconsumers (Registered from 05.08.2026 in PM Surya Ghar portal),\non receipt of consumer data from Ministry of New and Renewable\nEnergy (MNRE).\n(ii)Sanction of Rs.50Crore (Rupees Fifty Crore Only)for\nimplementing the aforesaid scheme and release of funds based on\nactual subsidy requirement.",
+   "effective_date": "2026-09-19",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C3-001#cl-2(i)",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "2(i)",
+   "topic": "eligibility (any consumer in area of supply; self or third-party owned)",
+   "snippet": "i) “Eligible consumer” means a consumer of electricity in the area of supply of\nthe Distribution Licensee, who uses or intends to use a grid connected\nrooftop Solar PV system installed in the consumer premises given that\nsuch systems can be self-owned or third party owned;",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-3.3",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "3.3",
+   "topic": "capacity limit (projects 1 MWp and above via alternative mechanisms)",
+   "snippet": "3.3 These Regulations do not preclude the right of the State authorities to undertake\nrooftop solar projects of 1 MWp and above capacity through alternative\nmechanisms.",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-5.1",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "5.1",
+   "topic": "capacity limit vs sanctioned/contract load (100% of sanctioned connected load/contract demand)",
+   "snippet": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be\ninstalled by any eligible consumer shall not exceed 100% of the sanctioned\nconnected load / contract demand of the consumer.",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-5.2",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "5.2",
+   "topic": "capacity limit (minimum 1 kWp)",
+   "snippet": "5.2 The capacity of the grid connected rooftop solar PV system to be installed by any\neligible consumer or third party owner shall be more than one kilo watt peak\nminimum.",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-6.2",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "6.2",
+   "topic": "DT hosting limit (15% of transformer rated capacity)",
+   "snippet": "6.2 Provided that the capacity to be allowed in the area fed from the distribution\ntransformer or any other transformer from which power is fed to the eligible\nconsumer shall not exceed 15% or any other percentage as may be fixed by the\nCommission of the rated capacity of such transformer(s).",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-7.3",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "7.3",
+   "topic": "feasibility/technical study; timelines (30 days; 60 days if interconnection study)",
+   "snippet": "7.3 In order of priority, the Distribution Licensee shall complete the feasibility analysis\nfor connecting the rooftop solar PV system to the distribution system within thirty\nUttar Pradesh Electricity Regulatory Commission 6\n\n--- Page 7 ---\nUPERC RSPV Regulations, 2015\n(30) days from the date of receipt of the application. The feasibility shall be valid\nfor a period of one month unless extended by the Distribution Licensee. Provided\nthat if the Distribution Licensee determines that an interconnection study is\nnecessary, the Distribution Licensee shall intimate feasibility or otherwise within\n",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-7.5",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "7.5",
+   "topic": "timelines (approval within 10 days of documents)",
+   "snippet": "7.5 The Distribution Licensee shall on receipt of documents (if any) and removal of\ndefects (if any), submitted under Regulation 7.4, inform the approval within ten\n(10) days from the date of receipt.",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-8.2",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "8.2",
+   "topic": "metering/phase threshold (up to 5 kW single phase 230 V; 5-50 kW 3-phase 415 V; 50 kW-1 MW 11 kV)",
+   "snippet": "8.2 The connectivity levels at which the rooftop solar PV system shall be connected\nwith the distribution system are as specified below:\n\n| S.No. | Connected Load / Contract Demand of Eligible Consumer | Connectivity Level |\n| --- | --- | --- |\n| 1. | Up to 5 kW | Single phase at 230 V |\n| 2. | 5 kW and above up to 50 kW / 63 kVA | 3 Phase, 4 wire at 415 V |\n| 3. | Above 50 kW and up to 1 MW | 3 Phase at 11 kV |",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-10.3(ii)",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "10.3(ii)",
+   "topic": "tariff (gross metering Solar Injection Compensation based on Commission tariff for new solar projects)",
+   "snippet": "(ii) The Distribution Licensee shall reimburse the eligible consumer or the third\nparty owner as the case may be for the quantum of injected electricity by the\nUttar Pradesh Electricity Regulatory Commission 11\n\n--- Page 12 ---\nUPERC RSPV Regulations, 2015\nrooftop solar PV system during the billing period by way of ‘Solar Injection\nCompensation’.\nProvided that the Solar Injection Compensation to be paid by the Distribution\nLicensee to the eligible consumer or third party owner as the case may be\nshall be determined on the basis of tariff for new Solar Grid connected PV\nprojects approved by the",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-001#cl-10.4(iii)",
+   "doc_id": "UP-C3-001",
+   "jurisdiction": "UP",
+   "clause_ref": "10.4(iii)",
+   "topic": "settlement/banking (net metering credits; unadjusted credits paid at Rs 0.50/kWh at end of settlement period)",
+   "snippet": "Provided also at the end of each settlement period, any electricity credits, which\nremain unadjusted, shall be paid at a rate of Rs 0.50/kWh by the Distribution\nLicensee or as notified by the Commission from time to time.\nProvide further that at the beginning of each settlement period, cumulative\ncarried over electricity credits shall be reset to zero.",
+   "effective_date": "2015-03-20",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-1.3",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "1.3",
+   "topic": "supersession of RSPV Regulations 2015",
+   "snippet": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-2(k)",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "2(k)",
+   "topic": "eligibility (net metering only LMV-5 agriculture / LMV-1 domestic; gross metering any consumer)",
+   "snippet": "k) \"Eligible consumer\" for Net Metering Scheme means the consumers of a\nLicensee under agriculture (LMV-5) category or domestic consumers under\nLMV-1 category. while under Gross Metering Scheme means a consumer\nof electricity in the area of supply of the Distribution Licensee, who intends\nto set up a grid connected rooftop Solar PV system in the consumer's\npremises which can be self-owned or third party owned, with an intent to\nsell the entire electricity to the distribution licensee at the rate prescribed\nby the Commission.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-2(t)",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "2(t)",
+   "topic": "eligibility; definition of net metering (LMV-5 / LMV-1 premises)",
+   "snippet": "t) \"Net metering\" means an arrangement for measurement of energy in a\nsystem under which rooftop solar PV system installed at metered agriculture\n(under LMV-5 category) or metered residential/domestic consumer premises\n(under LMV-1 category) delivers surplus electricity, if any, to the Distribution\nLicensee after off-setting the electricity supplied by Distribution Licensee\nduring the applicable billing period.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-3.2",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "3.2",
+   "topic": "eligibility (gross or net metering; LMV-5 and LMV-1 for net metering)",
+   "snippet": "3.2\nThe eligible consumer may install the rooftop solar PV system under gross\nmetering arrangement or the Net Metering Arrangement. Metered Agricultural or\nmetered Residential/Domestic category under LMV-5 and LMV-1 category\nrespectively, can install rooftop solar PV system under net metering arrangement\nor the Gross Metring Arrangement which:\na) Shall be within the permissible rated capacity as defined under these\nRegulations;\nb) Shall be located in the premises of the consumer;\nc) Shall interconnect and operate safely with the distribution system of the\nLicensee.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-3.3",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "3.3",
+   "topic": "capacity limit (State authorities may undertake projects above 2 MW through alternative mechanism)",
+   "snippet": "3.3 These Regulations do not preclude the right of the State Authorities to undertake\nrooftop solar projects above 2 MW through alternative mechanism.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-4.1",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "4.1",
+   "topic": "group/virtual net metering (third-party owner for group of consumers on same DT, cumulative limits)",
+   "snippet": "Provided that third party owners who have entered into a lease or commercial\nagreement for the rooftop in the premises of a group of consumers, shall also be\nentitled to install rooftop solar PV system under Net metering arrangement with\nthe Distribution Licensee, for such capacity which shall be cumulative of the\nprescribed limits of rooftop solar PV capacity for each eligible consumer of the\ngroup whose rooftop has been leased by the third party owner connected with\nthe same Distribution Transformer (upto the limit of as defined under these\nRegulations of capacity of DT).",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-4.2",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "4.2",
+   "topic": "eligibility (gross metering consumer barred from net metering in same premises)",
+   "snippet": "4.2 Provided that the eligible consumer or third party owner as the case may be\navailing gross metering arrangement under these Regulations shall not be\nallowed to apply for net metering arrangement within the same premises.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-4.3",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "4.3",
+   "topic": "eligibility (net metering consumer barred from gross metering in same premises)",
+   "snippet": "4.3 Provided that the eligible consumer availing net metering arrangement under\nthese Regulations shall not be allowed to apply for gross metering arrangement\nwithin the same premises.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-5.1",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "5.1",
+   "topic": "capacity limit vs sanctioned/contract load (100% of connected/contracted demand; min 1 kWp, max 2 MW)",
+   "snippet": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be\ninstalled by any eligible consumer shall not exceed 100% of the connected\n/contracted demand of the consumer.\nProvided the capacity of the grid connected rooftop solar PV system to be\ninstalled by any eligible consumer or third party owner shall not be less than 1\nkWp and shall not exceed 2 MW.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-6.2",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "6.2",
+   "topic": "DT hosting limit (75% of DT; augmentation charge Rs 1000/kWp beyond 10 kWp)",
+   "snippet": "6.2 Provided that the capacity to be allowed in the area fed from a distribution\ntransformer (DT) or any other transformer from which power is fed to the eligible\nconsumer is not more than 75% of that DT or any other transformer.\nProvided that if augmentation of transformer/distribution network is required, then\nup to total 10 kWp solar rooftop installation, the consumer would not pay any\ncharge except to a one time charge computed at the rate of Rs 1000 per kWp on\nthe capacity beyond 10 KWp, as cost of augmentation of system. e.g. a\nconsumer willing to install a 15 kWp RPV Plant shall be payi",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-7.1",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "7.1",
+   "topic": "feasibility/application procedure (as prescribed by UPNEDA/State agency)",
+   "snippet": "7.1 The eligible consumer or third party owner hereinafter referred to as applicant\nwho intends to install grid interactive rooftop solar PV system in his/her premises\nwill apply for Roof Top Solar Connectivity, along with application fee as\nprescribed in annexure-l, as per the procedure prescribed by UPNEDA or any\nother agency specified by the State Government.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-8.1(v)",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "8.1(v)",
+   "topic": "interconnection agreements (gross III(A), net III(B))",
+   "snippet": "(v) In case of Gross Metering an inter Connection Agreement as per\nAnnexure ||(A) is signed between both the parties whereas in case of\nNet metering inter Connection Agreement as per Annexure IlI(B) is\nsigned between both the parties.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-9.4",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "9.4",
+   "topic": "metering (check meter mandatory above 50 kW)",
+   "snippet": "9.4 The installation of check meters shall be mandatory for rooftop solar PV system\nhaving rated capacity more than 50 kW. For installations having rated capacity\nup to 50 KW, the eligible consumer or the Distribution Licensee who so ever if\ndesires, may install check meter at their own cost. In any case, the Distribution\nLicensee shall own the check meter. The check meter shall be installed after the\ninverter of the solar rooftop system",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-10.3(ii)",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "10.3(ii)",
+   "topic": "tariff (gross metering Solar Injection Compensation = weighted average tariff of >=5 MW solar bids in last FY + 25%)",
+   "snippet": "(ii) The Distribution Licensee shall reimburse the eligible consumer or the third\nparty owner as the case may be for the quantum of injected electricity by the\nrooftop solar PV system during the billing period by way of 'Solar Injection\nCompensation'.\n9\n\n=====PAGE 10=====\nUPERC RSPV Regulations, 2019\nProvided that the rate at which the Solar Injection Compensation to be paid\nby the Distribution Licensee to the eligible consumer or third party owner as\nthe case may be, shall be the weighted average tariff of Large Scale Solar\nprojects of 5MW and more, discovered through Competitive Bidding in l",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-10.4(iii)",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "10.4(iii)",
+   "topic": "settlement/banking (net metering: unadjusted credits paid at Rs 2/kWh at end of settlement period)",
+   "snippet": "Provided also that in Net Metering arrangement, at the end of each settlement\nperiod, any electricity credits, which remain unadjusted, shall be paid at a Net\nMetering Rate of Rs 2/kWh by the Distribution Licensee or as notified by the\nCommission from time to time.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-002#cl-10.4(v)",
+   "doc_id": "UP-C3-002",
+   "jurisdiction": "UP",
+   "clause_ref": "10.4(v)",
+   "topic": "group/virtual net metering (settlement within group / third party)",
+   "snippet": "(v) In case of Group Net Metering, the settlement between the individual consumer\nin the group and the third party (if involved) will be the responsibility of the group\nor third party itself and shall be governed by the agreement between them. The\nthird party aggregator shall not be charged by DISCOM any fixed charges on\nthis account but shall be charged for imported energy as per prevailing Rules\nand Regulations.",
+   "effective_date": "2019-01-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-003#cl-2(k)",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "2(k)",
+   "topic": "eligibility (substituted: (i) gross metering any category prosumer; (ii) net billing/net feed-in any category; (iii) net metering LMV-5/LMV-1) [Amendment para 2]",
+   "snippet": "(ii) Net-billing / net feed-in scheme means\na prosumer of any category, in the area of\nsupply of the Distribution Licensee, who\nintends to/ has set up a grid connected\nrooftop solar PV system in his/ her premises,\nwhich can be self-owned or third party\nowned, where-in the energy imported from\nthe Grid and energy exported to the Grid\nInteractive rooftop Solar photovoltaic\nsystem of a Prosumer are measured through\na single bi-directional energy meter valued\nat two different Tariffs which are determined\nby the Commission.",
+   "effective_date": "2022-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C3-003#cl-2(k)(iii)",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "2(k)(iii)",
+   "topic": "eligibility (net metering scheme: LMV-5 agriculture and LMV-1 domestic) [Amendment para 2, substituted 2(k)]",
+   "snippet": "(iii) Net Metering Scheme means the\nmetered prosumers of a Licensee under\nagriculture (LMV-5) category or domestic\nconsumers under LMV-1 category, who\nintends to/ has set up a grid connected\nrooftop solar PV system in the consumer\npremises, which can be self-owned or third\nparty owned wherein the energy imported\nfrom the grid and the energy exported to the\ngrid interactive rooftop solar PV system are\nnetted out through single bi-directional\nenergy meter.",
+   "effective_date": "2022-06-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-003#cl-3.2",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "3.2",
+   "topic": "eligibility (gross, net metering or net billing/net feed-in as per eligibility) [Amendment para 2]; OCR two-column interleave",
+   "snippet": "3.2 The eligible consumer may install 3.2 The eligible consumer may install the\napplication the rooftop solar PV system under rooftop solar PV system under gross\ngross metering arrangement or net metering arrangement or net metering\nmetering arrangement. Metered arrangement or net billing / net feed-in\nAgricultural or metered Residential/ arrangement as per respective eligibility.",
+   "effective_date": "2022-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C3-003#cl-4.1",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "4.1",
+   "topic": "group/virtual net metering (group of consumers via third party: gross, net metering or net billing on same DT) [Amendment para 2]; OCR two-column interleave",
+   "snippet": "Provided that third party owners who Provided that third party owners who have\nhave entered into a lease or entered into a lease or commercial\ncommercial agreement for the rooftop agreement for the rooftop in the premises of\nin the premises of a group of a group of consumers, shall also be entitled\nconsumers, shall also be entitled to to install rooftop solar PV system under\ninstall rooftop solar PV system under gross metering or Net metering arrangement\nNet metering arrangement with the or net billing / net feed-in arrangement with\nDistribution Licensee, for such the Distribution Licensee, fo",
+   "effective_date": "2022-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C3-003#cl-4.2",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "4.2",
+   "topic": "eligibility (only one of gross/net metering/net billing per premises) [Amendment para 2]; OCR two-column interleave",
+   "snippet": "4.2 Provided that the eligible 4.2 Provided that the eligible consumer, as\nconsumer or third party owner as the the case may be, can only avail one type of\ncase may be availing gross metering rooftop solar PV grid interactive system out\narrangement under these Regulations of gross metering arrangement, net metering\nshall not be allowed to apply for net arrangement or net billing / net feed-in\nmetering arrangement within the arrangement within the same premises.",
+   "effective_date": "2022-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C3-003#cl-4.3",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "4.3",
+   "topic": "eligibility (4.3 deleted) [Amendment para 2]",
+   "snippet": "4.3 Provided that the eligible 4.3 deleted",
+   "effective_date": "2022-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C3-003#cl-8.1(v)",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "8.1(v)",
+   "topic": "interconnection agreements (gross III(A), net III(B), net billing III(C)) [Amendment para 2]; OCR two-column interleave",
+   "snippet": "8.1 (v) In case of Gross Metering an 8.1 (v) In case of Gross Metering, net\nwith the inter Connection Agreement as per metering & net billing / net feed-in\nDistribution Annexure III(A) is signed between arrangement the interconnection agreements\nSystem both the parties whereas in case of will be signed between the parties on\nNet metering inter Connection formats specified at Annexure III(A),\nAgreement as per Annexure III(B) is Annexure III(B) and Annexure III(C)\nsigned between both the parties. respectively.",
+   "effective_date": "2022-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C3-003#cl-2(ff)",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "2(ff)",
+   "topic": "settlement/banking; definition net billing/net feed-in (inserted) [Addendum para 3]",
+   "snippet": "(ff) “Net billing / Net feed-in”: means an arrangement using bi-directional energy meter at the\npoint of supply where-in the energy imported from the Grid and energy exported from the Grid Interactive\nrooftop Solar photovoltaic system are valued at two different Tariff.",
+   "effective_date": "2022-06-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-003#cl-2(gg)",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "2(gg)",
+   "topic": "tariff (net billing/net feed-in tariff = gross metering tariff; inserted) [Addendum para 3]",
+   "snippet": "(gg) “Net billing / Net feed-in Tariff”: means the tariff for electricity supplied to the distribution\nlicensee under the Net billing / Net feed-in arrangement, shall be same as that for the gross metering\narrangement, as decided by the Commission from time to time.",
+   "effective_date": "2022-06-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-003#cl-10.4(A)",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "10.4(A)",
+   "topic": "settlement/banking (net billing/net feed-in accounting; receivable carried forward, paid at FY end; inserted) [Addendum para 3]",
+   "snippet": "10.4 (A) The energy accounting and settlement procedure for eligible consumer / third party owners\ninstalling and operating rooftop solar PV system under net-billing / net feed-in shall be as per the following\nprocedure:\n(i) For each billing period, the licensee shall show the quantum of electricity injected by the\nrooftop solar PV system and electricity supplied by the Distribution Licensee in the billing period\nseparately.\n(ii) The monetary value of the imported energy shall be based on the applicable retail tariff.\nThe monetary value of the exported solar energy shall be based on Net billin",
+   "effective_date": "2022-06-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-003#cl-10.6",
+   "doc_id": "UP-C3-003",
+   "jurisdiction": "UP",
+   "clause_ref": "10.6",
+   "topic": "timelines; deemed approval not provided (UPNEDA to finalise approval procedure/timelines within 60 days; inserted) [Addendum para 3]",
+   "snippet": "10.6 the procedure and timelines for granting approval for gross metering arrangement or net\nmetering arrangement or net billing / net feed-in arrangement, as per respective eligibility, shall be finalized\nby UPNEDA/ state designated agency in consultation of the Discom within 60 days of notification of this\nRegulation and will be submitted before the Commission for its approval.",
+   "effective_date": "2022-06-01",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-004#cl-2(k)(iii)",
+   "doc_id": "UP-C3-004",
+   "jurisdiction": "UP",
+   "clause_ref": "2(k)(iii)",
+   "topic": "eligibility (net metering extended to public institutions LMV-4A, private research/educational LMV-4B and akin HV-1 institutions) [Second Amendment para 2]",
+   "snippet": "Net metering scheme shall also be available to following consumer categories mentioned in Rate Schedule for FY 2023-24 in Tariff Orders dated May 24, 2023 of Distribution Licensees (MVVNL, PVVNL, PuVVNL, DVVNL, KESCO & NPCL). (I) All Public Institutions covered under LMV-4A consumer category of the Rate Schedule except such consumers which are covered under LMV-4A(c) as provided in the Rate Schedule. (II) Private research institutes, and schools / colleges/educational institutes covered under Private Institutions under LMV-4B consumer category of the Rate Schedule. (III) Public Institutions ak",
+   "effective_date": "2023-11-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-004#cl-2(t)",
+   "doc_id": "UP-C3-004",
+   "jurisdiction": "UP",
+   "clause_ref": "2(t)",
+   "topic": "eligibility; definition of net metering (eligible consumer's premises as per 2(k)(iii)) [Second Amendment para 2]",
+   "snippet": "2 (t) “Net Metering” means an arrangement for measurement of energy in a system under which rooftop solar PV system installed at eligible consumer’s premises [as given at 2 (k) (iii)] delivers surplus electricity, if any, to the Distribution Licensee after off-setting the electricity supplied by Distribution License during the applicable billing period. |",
+   "effective_date": "2023-11-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "UP-C3-005#cl-10.3(ii)",
+   "doc_id": "UP-C3-005",
+   "jurisdiction": "UP",
+   "clause_ref": "10.3(ii)",
+   "topic": "tariff (gross metering Solar Injection Compensation = weighted average tariff of all >=5 MW solar bids by licensee or intermediary, adopted, last FY + 25%) [Third Amendment para 2]; OCR column interleave",
+   "snippet": "through Competitive bidding, either by the\nlicensee or by an Intermediary Agency for\nwhich has\napproved/adopted by the Commission,\napplicable, in the last financial year plus an\nincentive of 25%. In case no bidding is done\nin previous Financial Year, then the last\napplicable tariff for gross metering shall\ncontinue.",
+   "effective_date": "2025-06-03",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C4-001#cl-Preamble",
+   "doc_id": "UP-C4-001",
+   "jurisdiction": "UP",
+   "clause_ref": "Preamble",
+   "topic": "SoR explains RSPV Regulations 2019; regulations prevail on discrepancy (no supersession effect)",
+   "snippet": "This Statement of Reasons(SOR)is issued withthe intent to\nexplain the rationale and objective behind RSPV Regulations, 2019.In case of any\ndeviation/discrepancyinthe SORwithrespectto RSPVRegulations, 2019, theprovisions of RSPVRegulations, 2019shallbeapplicable.",
+   "effective_date": "2019-01-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C4-001#cl-Issue I",
+   "doc_id": "UP-C4-001",
+   "jurisdiction": "UP",
+   "clause_ref": "Issue I",
+   "topic": "capacity limit (rationale for raising cap from 1 MWp to 2 MWp); explanatory only",
+   "snippet": "Hence, takinginto considerationthe aforementioned factors, the Commissionfinds\nitappropriatetoallowinstallationupto2MWp(DC)Rooftop Solar PVplantunder\nthese Regulations.",
+   "effective_date": "2019-01-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C4-001#cl-Issue II",
+   "doc_id": "UP-C4-001",
+   "jurisdiction": "UP",
+   "clause_ref": "Issue II",
+   "topic": "DT hosting limit (rationale for 75% of DT capacity, up from 15%/25%); explanatory only",
+   "snippet": "Therefore, the Commissionopines that to contain the T&D\nlossesthroughpromotion of Solarpoweratlocallevel, availablelimiton DT\ncapacitytobekeptat75%（thricetheexistingprovisions)oftheratedcapacityof\nthat DT.\nIllustration: Iftheratedcapacityofa DTis100k VA, thenthetotalallowable\ncapacity of RSPVtobeconnectedto DTshallbe75k VA/67.5k Wp.",
+   "effective_date": "2019-01-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "UP-C4-001#cl-Issue III",
+   "doc_id": "UP-C4-001",
+   "jurisdiction": "UP",
+   "clause_ref": "Issue III",
+   "topic": "tariff (rationale: gross metering at weighted average >=5 MW bid tariff + 25%); explanatory only",
+   "snippet": "The Commissionclarifies thattariffundergrossmeteringwouldbetheweighted\naveragetariffof largescale Solarprojectsof5MWand abovediscoveredthrough\nCompetitive Biddinginlast Financial Yearand adoptedby the Commissionplus an\nincentiveof25%.E.g.For FY 2018-19weightedaveragetariffoflargescale Solar\nprojectsof5MWand abovediscovered through Competitive Biddingin FY 2017-18\nandadoptedbythe Commissionplusanincentiveof25%shallbea",
+   "effective_date": "2019-01-04",
+   "confidence": "low"
+  },
+  {
+   "node_id": "UP-C4-001#cl-Issue IV",
+   "doc_id": "UP-C4-001",
+   "jurisdiction": "UP",
+   "clause_ref": "Issue IV",
+   "topic": "settlement/banking; eligibility (rationale: net metering only LMV-1/LMV-5; settlement Rs 2/unit); explanatory only",
+   "snippet": "Hence, in view of above, the Commission finds it appropriate to keep the\nsettlementtariffundernetmeteringarrangementat Rs2/unit.",
+   "effective_date": "2019-01-04",
+   "confidence": "medium"
+  }
+ ],
+ "edges": [
+  {
+   "from_node": "TN-C5-001#cl-1",
+   "to_node": "TN-C5-002#cl-I.1(c)",
+   "type": "partially_supersedes",
+   "effective_date": "2021-10-22",
+   "evidence_quote": "c. Domestic consumers who have been provided with the solar net-\nfeed-in facility as per TNERC Order No.3 of 2019 shall have option\nto migrate to the solar energy net metering mechanism as provided\nfor in this order to avoid discrimination within the same category of\nconsumers.",
+   "confidence": "medium",
+   "note": "Different instrument (TANGEDCO guidelines on TNERC Order 8/2021): domestic consumers placed on net feed-in under Order 3/2019 (as implemented by TN-C5-001) may migrate to net metering; net feed-in remains for other LT categories."
+  },
+  {
+   "from_node": "TN-C5-001#cl-13",
+   "to_node": "TN-C5-002#cl-III",
+   "type": "partially_supersedes",
+   "effective_date": "2021-10-22",
+   "evidence_quote": "III. Levelised Tariffs and Time of Day (ToD) tariffs:\nThe Time of Day tariffs has been determined by adding 20% higher than the\nlevelised tariff and shall apply for the energy supplied during the evening\npeak hours i.e., 18.00 hrs to 21.00 hrs.\n\n| Capacity Range | Levelised Tariff |\n| --- | --- |\n| 1-10 kW | Rs.3.61 per kWh |\n| 11-150 kW | Rs.3.37 per kWh |\n| 151-999 kW | Rs.3.10 per kWh |",
+   "confidence": "low",
+   "note": "Implicit: no express words. New feed-in tariffs apply to plants commissioned in the Order 8/2021 control period; 2019 rates stay fixed for 25 years for plants commissioned in 2018-20."
+  },
+  {
+   "from_node": "TN-C5-001#cl-12",
+   "to_node": "TN-C5-002#cl-II.2",
+   "type": "partially_supersedes",
+   "effective_date": "2021-10-22",
+   "evidence_quote": "2. Net billing or Net feed-in:\nThe monetary value of the imported energy is debited based on the\napplicable retail tariff; The monetary value of the exported energy is credited\nbased on the feed-in tariff determined by the Commission. The monetary\nvalue of the exported energy is deducted from the monetary value of\nimported energy to arrive at the net amount to be billed. If the cumulative\ncredit amount exceeds the debit amount during any billing cycle, the net\ncredit is carried over to the next billing cycle. At the end of settlement period",
+   "confidence": "low",
+   "note": "Implicit: Order 8/2021 net feed-in settlement adds option to carry credit to next settlement period instead of year-end cheque payment; no express reference to the 2019 instruction."
+  },
+  {
+   "from_node": "UP-C3-001#cl-2(i)",
+   "to_node": "UP-C3-002#cl-2(k)",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "medium",
+   "note": "2019 Regulations expressly supersede the 2015 Regulations as a whole; clause correspondence by subject matter (eligibility definition renumbered 2(i)->2(k))."
+  },
+  {
+   "from_node": "UP-C3-001#cl-3.3",
+   "to_node": "UP-C3-002#cl-3.3",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "high",
+   "note": "2019 Regulations expressly supersede the 2015 Regulations as a whole; clause correspondence by subject matter."
+  },
+  {
+   "from_node": "UP-C3-001#cl-5.1",
+   "to_node": "UP-C3-002#cl-5.1",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "high",
+   "note": "2019 Regulations expressly supersede the 2015 Regulations as a whole; clause correspondence by subject matter."
+  },
+  {
+   "from_node": "UP-C3-001#cl-6.2",
+   "to_node": "UP-C3-002#cl-6.2",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "high",
+   "note": "2019 Regulations expressly supersede the 2015 Regulations as a whole; clause correspondence by subject matter."
+  },
+  {
+   "from_node": "UP-C3-001#cl-10.3(ii)",
+   "to_node": "UP-C3-002#cl-10.3(ii)",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "high",
+   "note": "2019 Regulations expressly supersede the 2015 Regulations as a whole; clause correspondence by subject matter."
+  },
+  {
+   "from_node": "UP-C3-001#cl-10.4(iii)",
+   "to_node": "UP-C3-002#cl-10.4(iii)",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "high",
+   "note": "2019 Regulations expressly supersede the 2015 Regulations as a whole; clause correspondence by subject matter."
+  },
+  {
+   "from_node": "UP-C3-001#cl-7.3",
+   "to_node": "UP-C3-002#cl-7.1",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "medium",
+   "note": "2015 licensee feasibility timelines (30/60 days) dropped; 2019 Reg 7.1-7.2 leave procedure to UPNEDA rules. Whole 2015 Regulations superseded."
+  },
+  {
+   "from_node": "UP-C3-001#cl-8.2",
+   "to_node": "UP-C3-002#cl-1.3",
+   "type": "supersedes",
+   "effective_date": "2019-01-04",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "low",
+   "note": "2015 connectivity-level table removed; 2019 Reg 8.2 refers to Supply Code instead (not separately noded). Edge points to the supersession clause."
+  },
+  {
+   "from_node": "UP-C3-002#cl-2(k)",
+   "to_node": "UP-C3-003#cl-2(k)",
+   "type": "supersedes",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "2. Amendments–\nRegulation no. Existing Regulation Amended Regulations\nDefinitions and (2.k) “Eligible Consumer” for Net (2.k) \"Eligible consumer\" for (i) Gross\nInterpretations Metering Scheme means the Metering Scheme means a prosumer of\nconsumers of a Licensee under electricity of any category in the area of\nagriculture (LMV-5) category or supply of the Distribution Licensee, who\ndomestic consumers under LMV-1 intends to/ has set up a grid connected\ncategory while under Gross Metering rooftop Solar PV system in his/ her premises\nScheme means a consumer of which can be self-owned or third part",
+   "confidence": "high",
+   "note": "2(k) replaced by three-limb definition (gross / net billing / net metering)."
+  },
+  {
+   "from_node": "UP-C3-002#cl-2(k)",
+   "to_node": "UP-C3-003#cl-2(k)(iii)",
+   "type": "supersedes",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "2. Amendments–\nRegulation no. Existing Regulation Amended Regulations\nDefinitions and (2.k) “Eligible Consumer” for Net (2.k) \"Eligible consumer\" for (i) Gross\nInterpretations Metering Scheme means the Metering Scheme means a prosumer of\nconsumers of a Licensee under electricity of any category in the area of\nagriculture (LMV-5) category or supply of the Distribution Licensee, who\ndomestic consumers under LMV-1 intends to/ has set up a grid connected\ncategory while under Gross Metering rooftop Solar PV system in his/ her premises\nScheme means a consumer of which can be self-owned or third part",
+   "confidence": "high",
+   "note": "Net-metering limb of substituted 2(k); keeps LMV-5/LMV-1 restriction."
+  },
+  {
+   "from_node": "UP-C3-002#cl-3.2",
+   "to_node": "UP-C3-003#cl-3.2",
+   "type": "supersedes",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "2. Amendments–\nRegulation no. Existing Regulation Amended Regulations\nDefinitions and (2.k) “Eligible Consumer” for Net (2.k) \"Eligible consumer\" for (i) Gross\nInterpretations Metering Scheme means the Metering Scheme means a prosumer of\nconsumers of a Licensee under electricity of any category in the area of\nagriculture (LMV-5) category or supply of the Distribution Licensee, who\ndomestic consumers under LMV-1 intends to/ has set up a grid connected\ncategory while under Gross Metering rooftop Solar PV system in his/ her premises\nScheme means a consumer of which can be self-owned or third part",
+   "confidence": "high",
+   "note": "Rewritten to add net billing/net feed-in; LMV-specific sentence and (a)-(c) conditions dropped from amended text."
+  },
+  {
+   "from_node": "UP-C3-002#cl-4.1",
+   "to_node": "UP-C3-003#cl-4.1",
+   "type": "amends",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "2. Amendments–\nRegulation no. Existing Regulation Amended Regulations\nDefinitions and (2.k) “Eligible Consumer” for Net (2.k) \"Eligible consumer\" for (i) Gross\nInterpretations Metering Scheme means the Metering Scheme means a prosumer of\nconsumers of a Licensee under electricity of any category in the area of\nagriculture (LMV-5) category or supply of the Distribution Licensee, who\ndomestic consumers under LMV-1 intends to/ has set up a grid connected\ncategory while under Gross Metering rooftop Solar PV system in his/ her premises\nScheme means a consumer of which can be self-owned or third part",
+   "confidence": "high",
+   "note": "Group proviso: words 'gross metering or' and 'or net billing / net feed-in' inserted."
+  },
+  {
+   "from_node": "UP-C3-002#cl-4.2",
+   "to_node": "UP-C3-003#cl-4.2",
+   "type": "supersedes",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "2. Amendments–\nRegulation no. Existing Regulation Amended Regulations\nDefinitions and (2.k) “Eligible Consumer” for Net (2.k) \"Eligible consumer\" for (i) Gross\nInterpretations Metering Scheme means the Metering Scheme means a prosumer of\nconsumers of a Licensee under electricity of any category in the area of\nagriculture (LMV-5) category or supply of the Distribution Licensee, who\ndomestic consumers under LMV-1 intends to/ has set up a grid connected\ncategory while under Gross Metering rooftop Solar PV system in his/ her premises\nScheme means a consumer of which can be self-owned or third part",
+   "confidence": "high",
+   "note": "Replaced: only one type of arrangement per premises."
+  },
+  {
+   "from_node": "UP-C3-002#cl-4.3",
+   "to_node": "UP-C3-003#cl-4.3",
+   "type": "supersedes",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "4.3 deleted\nconsumer availing net metering\narrangement under these Regulations\nshall not be allowed to apply for gross\nmetering arrangement within the\nsame premises.\n4.4 Provided that the Distribution 4.4 Provided that the Distribution Licensee\nLicensee shall, as per the eligibility shall, as per the eligibility condition as\ncondition as specified in these specified in these Regulations, allow the\nRegulations, allow the provision of provision of gross metering arrangement or\ngross metering arrangement or net net metering arrangement or net billing / net\nmetering arrangement to the feed-in arra",
+   "confidence": "high",
+   "note": "Deletion of 4.3."
+  },
+  {
+   "from_node": "UP-C3-002#cl-8.1(v)",
+   "to_node": "UP-C3-003#cl-8.1(v)",
+   "type": "amends",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "2. Amendments–\nRegulation no. Existing Regulation Amended Regulations\nDefinitions and (2.k) “Eligible Consumer” for Net (2.k) \"Eligible consumer\" for (i) Gross\nInterpretations Metering Scheme means the Metering Scheme means a prosumer of\nconsumers of a Licensee under electricity of any category in the area of\nagriculture (LMV-5) category or supply of the Distribution Licensee, who\ndomestic consumers under LMV-1 intends to/ has set up a grid connected\ncategory while under Gross Metering rooftop Solar PV system in his/ her premises\nScheme means a consumer of which can be self-owned or third part",
+   "confidence": "high",
+   "note": "Adds Annexure III(C) agreement for net billing."
+  },
+  {
+   "from_node": "UP-C3-002#cl-10.4(iii)",
+   "to_node": "UP-C3-003#cl-10.4(A)",
+   "type": "partially_supersedes",
+   "effective_date": "2022-06-01",
+   "evidence_quote": "Following addition is being made to Regulation 10. Energy Accounting and Settlement–\n10.4 (A) The energy accounting and settlement procedure for eligible consumer / third party owners\ninstalling and operating rooftop solar PV system under net-billing / net feed-in shall be as per the following\nprocedure:\n(i) For each billing period, the licensee shall show the quantum of electricity injected by the\nrooftop solar PV system and electricity supplied by the Distribution Licensee in the billing period\nseparately.\n(ii) The monetary value of the imported energy shall be based on the applicable retail",
+   "confidence": "low",
+   "note": "Insertion of a parallel net-billing settlement regime; 10.4(iii) itself is not textually amended and continues for net metering."
+  },
+  {
+   "from_node": "UP-C3-003#cl-2(k)(iii)",
+   "to_node": "UP-C3-004#cl-2(k)(iii)",
+   "type": "amends",
+   "effective_date": "2023-11-17",
+   "evidence_quote": "2. Amendments-\n\n| Regulation No. | Existing Regulation | Amended Regulations |\n| --- | --- | --- |\n| Definitions and Interpretations | 2 (k) (iii)Net Metering Scheme means the metered prosumers of a Licensee under agriculture (LMV-5) category or domestic consumers under LMV-1 category, who intends to/ has set up a grid connected rooftop solar PV system in the consumer premises, which can be self-owned or third party owned wherein the energy imported from the grid and the energy exported to the grid interactive rooftop solar PV system are netted out through single bi-directional energy meter. |",
+   "confidence": "high",
+   "note": "Chain 2019 2(k) -> 2022 2(k)(iii) -> 2023: sentence added extending net metering to LMV-4A/LMV-4B/HV-1 institutions."
+  },
+  {
+   "from_node": "UP-C3-002#cl-2(t)",
+   "to_node": "UP-C3-004#cl-2(t)",
+   "type": "supersedes",
+   "effective_date": "2023-11-17",
+   "evidence_quote": "2. Amendments-\n\n| Regulation No. | Existing Regulation | Amended Regulations |\n| --- | --- | --- |\n| Definitions and Interpretations | 2 (k) (iii)Net Metering Scheme means the metered prosumers of a Licensee under agriculture (LMV-5) category or domestic consumers under LMV-1 category, who intends to/ has set up a grid connected rooftop solar PV system in the consumer premises, which can be self-owned or third party owned wherein the energy imported from the grid and the energy exported to the grid interactive rooftop solar PV system are netted out through single bi-directional energy meter. |",
+   "confidence": "high",
+   "note": "2(t) Net Metering definition substituted: 'eligible consumer's premises [as given at 2 (k) (iii)]' replaces LMV-5/LMV-1 wording."
+  },
+  {
+   "from_node": "UP-C3-002#cl-10.3(ii)",
+   "to_node": "UP-C3-005#cl-10.3(ii)",
+   "type": "supersedes",
+   "effective_date": "2025-06-03",
+   "evidence_quote": "2. Amendments :\nRegulation\nNo.\nExisting Regulation\nAmended Regulation\nRegulation\nNo. 10.3(ii)\nThe\nDistribution\nLicense\nshall\nreimburse the eligible consumer or the\nthird-party owner as the case may be for\nthe quantum of injected electricity by the\nrooftop solar PV system during the billing\nperiod\nway of\n'Solar Injection\nCompensation':\nProvided that the rate at which the\nSolar Injection Compensation to be paid\nby the\nDistribution\nLicensee to\nthe\neligible consumer or third-party owner as\nthe case may be, shall be the weighted\naverage tariff of Large Scale Solar\nprojects of 5 MW and more, discove",
+   "confidence": "high",
+   "note": "10.3(ii) and proviso replaced: bids by licensee or intermediary agency, all >=5 MW projects; FY illustration dropped. Not amended by 1st/2nd amendments."
+  }
+ ],
+ "document_supersessions": [
+  {
+   "doc_from": "UP-C3-001",
+   "doc_to": "UP-C3-002",
+   "type": "repeal",
+   "evidence_quote": "3. These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive\nSystems Gross / Net Metering) Regulations, 2015\".",
+   "confidence": "high",
+   "note": "Text uses 'supersede' (whole-instrument replacement); no saving clause printed. SoR UP-C4-001 explains the 2019 Regulations and states the Regulations prevail over the SoR; it supersedes nothing."
+  },
+  {
+   "doc_from": "TNERC Order No.3 of 2019 (net feed-in) [not in corpus]",
+   "doc_to": "TN-C5-002",
+   "type": "prospective_replacement_no_repeal",
+   "evidence_quote": "c. Domestic consumers who have been provided with the solar net-\nfeed-in facility as per TNERC Order No.3 of 2019 shall have option\nto migrate to the solar energy net metering mechanism as provided\nfor in this order to avoid discrimination within the same category of\nconsumers.",
+   "confidence": "low",
+   "note": "Order 8/2021 takes effect from 22.10.2021 for new registrations; no express repeal of Order 3/2019 printed in these guidelines; existing domestic net feed-in users get a migration option. TN-C5-001 (implementing Order 3/2019) not expressly withdrawn."
+  }
+ ]
+}

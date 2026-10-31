@@ -1,0 +1,17 @@
+{
+  "issuer": "Government of Tamil Nadu / TNPDCL USRP portal",
+  "source_url": "https://www.tnebltd.gov.in/usrp/solargo.pdf",
+  "landing_page_url": "https://www.tnebltd.gov.in/usrp/documents.xhtml",
+  "doc_type": "scheme G.O. & guidelines (SCAN, no text layer)",
+  "title": "Scheme G.O. & Guidelines (per portal link label; title not machine-readable)",
+  "number": "unknown",
+  "printed_date": "unknown",
+  "note": "Scanned PDF, pypdf extracts zero text; needs OCR/human reading. No clauses extracted.",
+  "file": "TNEBLTD-usrp-solargo.pdf",
+  "fetched_at": "2026-10-01T16:54:28Z",
+  "http_status": 200,
+  "sha256": "fcdf8f3f87f8a331c84d6fb465ac8a1b2039acc72ccdec51acc5c545970886bc",
+  "pages": 6,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

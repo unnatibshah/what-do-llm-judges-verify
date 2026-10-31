@@ -1,0 +1,167 @@
+DERIVED FILE: macOS Vision OCR of IN-ALMM-2026-05-25-OM-283-63-2025.pdf; not the document. Verify against the PDF image.
+
+=====PAGE 1=====
+No. 283/63/2025-GRID SOLAR
+He / Government of India
+4! Ministry of New & Renewable Energy (MNRE)
+Atal Akshay Urja Bhawan,
+Lodhi Road, New Delhi
+Date: 25th May, 2026
+OFFICE MEMORANDUM
+Sub: Approved List of Models and Manufacturers (ALMM) - No blanket extension of ALMM List-
+Il beyond 01.06.2026 subject to Protection of Investments already made - reg.
+1. As per para 8 of MNRE's O.M. no. 283/59/2024-GRID SOLAR dated 09.12.2024, reiterated vide
+MNRE's O.M. no. 283/59/2024-GRID SOLAR dated 28.07.2025, all the Net-Metering projects and Open
+Access RE power projects, which get commissioned on or after 1st June 2026, shall have to mandatorily
+source their solar PV modules from ALMM List-I and solar PV cells from ALMM List-II.
+2. MNRE has received several representations on the issue of the aforementioned timeline of 1st June
+2026, with some representations seeking extension thereof and some representations seeking non-
+extension thereof.
+3. In several representations to MNRE, reference has been invited to O.M. No. 1/3/2026-PPD dated
+29.04.2026 issued by Procurement Policy Division, Department of Expenditure, Ministry of Finance, on
+the subject - 'Force Majeure Clause' wherein paras 3, 4 and 5 state as follows:
+3. While the term "War" is defined as an event triggering Force Majeure as stated above, for
+ample clarity, it is to reiterate that the ongoing West Asia situation should be treated as
+war. In cases where disruptions arising from the prevailing West Asia situation have
+directly affected, or consequentially impacted contractual obligations (for goods and services
+contracts, construction/works contracts with Government Agencies), the procuring entities
+may invoke Force Majeure.
+4. In such an event, the date for completion of contractual obligations which had to be
+completed on or after 28th February 2026 may be extended for a period of not less than
+two months and not more than four months without imposition of any cost or penalty
+on the contractor. The period of extension (between two and four months) may be decided
+by the procuring entity after due examination on a case-by-case basis, while determining the
+admissibility of such claims under the Force Majeure and following the due procedure
+stipulated above.
+5. It is clarified that the invocation of Force Majeure shall be considered valid only where the
+parties to the contract were not in default of their contractual obligations as on 27th Februan
+2026. It is further clarified that the invocation of Force Majeure does not absolve all non
+performances of a party, but only such non-performances as are directly attributable to
+disruptions caused by the prevailing West Asia situation. It may be noted that all contractual
+obligations shall revive upon completion of the period.
+4. MNRE had engaged with the industry representatives, including those from among the solar PV
+manufacturers as well as those from among the solar power developers, on the said subject matter.
+a. Overall, there is a broad consensus that policy stability shall be maintained to ensure long-term
+investor confidence in the solar PV manufacturing sector.
+In the same breadth, the actual investments already made by the RE power developers also
+needed protection, which was widely agreed upon by all, with the following framework.
+• Bonafide cases where solar modules have already arrived at the project sites, installation
+completed but not commissioned, or effective steps have been undertaken by the RE
+
+=====PAGE 2=====
+power developers towards grounding the projects, merit some protection of investment
+already made, on a case-by-case basis.
+• Accordingly, such cases may be considered for appropriate time extension on a case-
+by-case basis, in a transparent manner, after objective assessment of the supporting
+information/ documentary proofs provided by such developers.
+5. In view of the aforesaid background, the representations received in MNRE have been examined,
+and it was decided that no blanket extension of the ALMM deadline, i.e., 1st June 2026, will be
+given.
+6. However, such Net-Metering / Open Access, RE power projects, where (a) installation of solar
+modules is completed but not commissioned or (b) Effective steps have been undertaken by the RE
+power developers towards grounding the projects, to protect investments already made in such cases,
+in the larger public interest, such cases will be considered for appropriate time-extension on case-to
+case basis in respect of applicability of ALMM List-ll (for solar PV cells), after objective assessment of
+the supporting information/ documentary proofs provided by such developers, subject to them falling
+under either of the following two broad categories:
+Category I: Solar PV modules installed on the project site, but the project was not commissioned
+before 1st June 2026.
+Criteria to be met for availing exemption from ALMM List-ll under Category I:
+Criteria
+Document to be submitted in support of meeting the
+criteria
+Before 01.06.2026, 100% of all the solar
+Approval/certification obtained from the office of the
+PV modules required for the project
+Electrical Inspectorate to the concerned Government, on
+have been installed on the project site.
+the DC side installations, including the installation of solar
+PV modules, etc.
+Category Il: 'Effective Steps' have been taken for grounding the project, but the project was not
+commissioned prior to 1st June 2026.
+Criteria to be met for availing exemption from ALMM List-ll under Category II: The developer should
+meet ALL the following conditions:
+Criteria
+Document to be submitted in support of
+meeting the criteria
+PAoLa 01.06.2026, the RE power developer Self-attested copies of documents regarding:
+has clear possession of at least 75% of the Land registry and mutation, allotment ot
+land required for the project through
+Government land and physical handover thereof,
+registered ownership/ lease or government land lease agreements, right to use land, etc
+allotment letters.
+(B). Financial Closure:
+Prior to 01.06.2026, the RE power project
+Self-attested copies of documents in support of
+has achieved the Financial Closure.
+Financial Closure, which may include: Sanction
+Letters from Banks/Fls, Loan Agreement, Board
+Resolution, Equity Commitment Letter, Security
+Document, Guarantees /Undertakings, Escrow/
+Trust
+Account Agreements,
+Auditor/ CA
+Certificates, etc.
+(C). Connectivity:
+Prior to 01.06.2026, the RE power project
+Self-attested copy of document issued by the
+received an in-principle grant of
+connectivity granting entity, with clear mention of
+connectivity, with the start date of the start date of connectivity
+
+=====PAGE 3=====
+Criteria
+Document to be submitted in support of
+meeting the criteria
+connectivity as mentioned in the in-principle
+grant of connectivity, being before
+01.06.2026
+(D). Approval of Electrical Drawings:
+Prior to 01.05.2026, approval was obtained Self-attested copy of documents / certificates
+from the Office of Electrical Inspectorate to
+issued by the Office of Electrical Inspectorate to
+Drawings idding Single Line hiagram Call proval of tie rice Drawings i certing sinhe
+the project.
+Line Diagram) for the power project
+(E1). Solar PV modules arrived on project site (or)
+Prior to the date of notification of this OM, Self-attested copies of GST invoices, e-Way Bills.
+100% of all the solar PV modules required Lorry Receipts, etc
+for the project have arrived at the project
+site.
+(E2). Solar PV modules installed on project site
+Prior to 01.06.2026, more than 50% of all
+Self-Certification, duly supported by geo-tagged
+the solar PV modules required for the project
+and time-stamped photographs of the project site,
+have been installed on the project site.
+Invoices for payment made to the EPC contractor/
+installer in respect of solar PV module installation,
+approval/certification obtained from office of
+Electrical
+Inspectorate
+to
+the
+concerned
+Government, on the DC side installations, including
+installation of solar PV modules, etc.
+7. All claims /information as mentioned in para 5 above, shall be submitted by the interested RE power
+developers in the requisite format, on a portal developed by National Institute of Solar Energy (NISE)
+for this purpose, within 30.06.2026. No physical applications will be entertained. The access to the
+portal will be through a link in this regard, on the website: https://solardcrportal.nise.res.in/
+8. All claims submitted by the concerned RE power developers shall be examined by an Expert
+Committee to be constituted by MNRE to recommend project-wise, case-to-case claims, based on the
+information provided by the concerned RE power developer. Field inspections will be undertaken by the
+Committee or any other agency as per operational necessity. The process and procedures of
+examination of claims will be issued separately.
+Central Financial Assistance (CFA) under the "Give It Up" campaign of the scheme, so that the scheme
+benefits can reach a wider cross-section of consumers. This has been enabled by a "Give It Up" option
+on the PMSG: MBY National Portal as well. Residential Net-Metering consumers who opt for this "Give
+It Up" campaign shall continue to be governed by the PMSG: MBY Scheme Guidelines, till the end of
+the scheme, i.e., 31st March 2027. These residential net-metering consumers will mandatorily apply
+10. This issues with the approval of Hon'ble Minster (New & Renewable Energy).
+(Sanjay G. Karndhar)
+Scientist-E
+Tel: 011-20849047
+Email: karndhar.sg@nic.in
+To: All concerned
+Copy to: Director (Technical), NIC, MNRE, for uploading on MNRE's website.

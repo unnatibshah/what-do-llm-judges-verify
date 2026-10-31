@@ -1,0 +1,131 @@
+DERIVED FILE: macOS Vision OCR of UP-RSPV-2019-third-amend.pdf; not the document. Verify against the PDF image.
+
+=====PAGE 1=====
+LOPE DHA POLE LIONE
+
+=====PAGE 2=====
+175 73
+Than th th
+373-
+: Mam Kih
+Hae Palat
+10.3 (i)
+Haye
+Than Hi
+
+=====PAGE 3=====
+3
+No. UPERC/Secretary/RSPV Regulations-011
+Dated Lucknow, June 3, 2025
+IN exercise of the power conferred on it by Section 61, 66, 86(1)(e) and 181 of the Electricity
+Act, 2003 (36 of 2003) and all other powers enabling in its behalf, the Uttar Pradesh Electricity Regulatory
+Commission has made (Rooftop Solar PV Grid Interactive System Gross/ Net Metering) Regulation, 2019,
+which
+were published vide notification no. UPERC/Secretary/RSPV Regulations/434(A) dated
+January 4, 2019.
+AND, WHEREAS, UPERC (Rooftop Solar PV Grid Interactive System Gross/ Net Metering)
+Regulation, 2019 (First Amendment / Addendum) were published vide U.P.E.R.C/Secretary/ RSPV
+Regulations/118, dated June 1, 2022.
+AND, WHEREAS, UPERC (Rooftop Solar PV Grid Interactive System Gross/ Net Metering)
+Regulation, 2019 (Second Amendment) were published vide UPERC/Secretary/RSPV Regulations/002
+dated November 17, 2023.
+AND, WHEREAS, Uttar Pradesh Power Corporation Ltd. has filed a Petition No. 2149 of 2024
+submitting that Regulation 10.3(ii) of UPERC (Rooftop Solar PV Grid Interactive System Gross/ Net
+Metering) Regulation, 2019 providing a methodology for determination of the rate at which Solar Injection
+Compensation is to be paid by the Distribution Licensee. UPPCL further submitted that in the financial
+year 2022-23 and 2023-24 no competitive bidding for tariff discovery had taken place whereas, the solar
+tariff has progressively fallen during the recent competitive bidding conducted by SECI and SJVN due to
+market development and technology advancement. It has thus prayed the Commission to invoke the
+Regulation 16: Power to relax and Regulation 17: Power to amend Principal Regulation and also allow to
+consider the weighted average tariff of large-scale solar projects of 5 MW and above, to reflect the latest
+tariff discovered in central and state government solar power tenders in the last financial year as
+adopted/approved by the Commission, plus an incentive of 25% or such as may be approved by the
+Commission. In view of prayer made by Uttar Pradesh Power Corporation Ltd., Uttar Pradesh Electricity
+Regulatory Commission, now in exercise of its power conferred under section 61, 86 (1) (e) and 181 of
+Electricity Act, 2003 and clause 17 of the aforesaid Regulation i.e. Power to Amend and all other enabling
+powers hereby makes the following amendments, namely:-
+1- Short Title and Commencement:
+a. These Regulations shall be called UPERC (Rooftop Solar PV Grid Interactive System Gross/
+Net Metering) Regulation, 2019 (Third Amendment) hereinafter referred to as RSPV
+Regulation, 2019) (Third Amendment).
+b. These Regulations shall come into force from the date of their notification in the Official
+Gazette of the State.
+2. Amendments :
+Regulation
+No.
+Existing Regulation
+Amended Regulation
+Regulation
+No. 10.3(ii)
+The
+Distribution
+License
+shall
+reimburse the eligible consumer or the
+third-party owner as the case may be for
+the quantum of injected electricity by the
+rooftop solar PV system during the billing
+period
+way of
+'Solar Injection
+Compensation':
+Provided that the rate at which the
+Solar Injection Compensation to be paid
+by the
+Distribution
+Licensee to
+the
+eligible consumer or third-party owner as
+the case may be, shall be the weighted
+average tariff of Large Scale Solar
+projects of 5 MW and more, discovered
+The Distribution
+License
+shall
+reimburse the eligible consumer or the third-
+party owner as the case may be for the
+quantum of injected electricity by the
+rooftop solar PV system during the billing
+period
+by
+way of "Solar Injection
+Compensation':
+Provided that the rate at which the Solar
+Injection Compensation to be paid by the
+Distribution
+Licensee to the
+eligible
+consumer or third-party owner, as the case
+may be, shall be the weighted average tariff
+of all Large Scale Solar projects of 5 MW or
+above, tariff for which has been discovered
+155 RPH Urja-2020 Data 4e
+
+=====PAGE 4=====
+4
+through Competitive
+Bidding in
+Financial Year and adopted by the
+Commission plus an incentive of 25%.
+E.g. For FY 2018-19, weighted average
+tariff of large Solar projects of 5 MW and
+more discovered through Competitive
+Bidding in FY 2017-18 and adopted by
+the Commission plus an incentive of 25%
+shall be applicable. In case no bidding is
+done in previous Financial Year, then the
+last applicable tariff for gross metering
+shall continue.
+through Competitive bidding, either by the
+licensee or by an Intermediary Agency for
+which has
+approved/adopted by the Commission,
+applicable, in the last financial year plus an
+incentive of 25%. In case no bidding is done
+in previous Financial Year, then the last
+applicable tariff for gross metering shall
+continue.
+By the order of the Commission,
+SUMEET KUMAR AGARWAL,
+Sachiv.
+61 RPH 2025 [Urja (Niji Nivesh Prakoshth) Data 4e

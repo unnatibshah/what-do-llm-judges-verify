@@ -1,0 +1,70 @@
+{
+  "source_url": "https://srtpv.bescom.org/SRTPV/document/SOP.pdf",
+  "landing_page_url": "https://srtpv.bescom.org/SRTPV/",
+  "domain_note": "Hosted on BESCOM's own SRTPV portal srtpv.bescom.org (BESCOM is a wholly Government of Karnataka undertaking) - NOT a *.gov.in or kerc.karnataka.gov.in domain; kerc.karnataka.gov.in and bescom.karnataka.gov.in were unreachable from the collection host (see FAILURES.md). Authenticity vs the KERC-hosted original is unconfirmed (same-bytes check pending).",
+  "issuer": "Bangalore Electricity Supply Company Ltd (BESCOM), DSM Section (prepared for common use by Karnataka ESCOMs)",
+  "doc_type": "DISCOM standard operating procedure",
+  "title": "Common Standard Operating Procedure for implementation of Distributed Solar Photovoltaic (DSPV) Plants in the State of Karnataka",
+  "number": "BESCOM/BC-51/GM(DSM)/DSPV/SOP/CYS-48",
+  "printed_date": "01.12.2025",
+  "note": "First 4 pages are image-only (cover); text starts p5.",
+  "file": "BESCOM-SRTPV-Common-SOP-DSPV.pdf",
+  "fetched_at": "2026-10-01T16:56:10Z",
+  "http_status": 200,
+  "sha256": "e4375d82e9116dead953f7288234d3af1c6433e3ef35c5ef5bd842ed5ab5c5d9",
+  "pages": 84,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Item 18 (check meter threshold)",
+      "verbatim_quote": "The check meter shall be provided for DSPV systems of capacity more than 50kWp.",
+      "page": 17,
+      "topic": "meter threshold",
+      "numeric_values": {
+        "check_meter_above_kwp": 50,
+        "previous_kw": 17.5
+      },
+      "amends_or_supersedes": {
+        "doc": "BESCOM-SRTPV-Guidelines-2023-08-05",
+        "clause_ref": "Para 15",
+        "evidence_quote": "The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.",
+        "evidence_in_file": "BESCOM-SRTPV-Guidelines-2023-08-05.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Item 4 note ii (deemed feasible up to 150 kW)",
+      "verbatim_quote": "The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.",
+      "page": 13,
+      "topic": "feasibility study exemption",
+      "numeric_values": {
+        "deemed_feasible_up_to_kw": 150
+      },
+      "amends_or_supersedes": {
+        "doc": "BESCOM-SRTPV-Guidelines-2023-08-05",
+        "clause_ref": "Para 26",
+        "evidence_quote": "The Sub -divisional officer (SDO) shall verify for Technical feasibility of the installation",
+        "evidence_in_file": "BESCOM-SRTPV-Guidelines-2023-08-05.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Item 4 (DT hosting limit, LT)",
+      "verbatim_quote": "the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.",
+      "page": 13,
+      "topic": "DT hosting capacity",
+      "numeric_values": {
+        "dt_limit_pct": 80,
+        "previous_pct": 80
+      },
+      "amends_or_supersedes": {
+        "doc": "BESCOM-SRTPV-Guidelines-2023-08-05",
+        "clause_ref": "Para 23",
+        "evidence_quote": "the total capacity of the existing and proposed SRTPV plants on that distribution transformer sha ll not exceed 80% of the rated capacity",
+        "evidence_in_file": "BESCOM-SRTPV-Guidelines-2023-08-05.pdf"
+      },
+      "status": "UNVERIFIED — needs human check",
+      "note": "Unchanged from 2023 (reaffirmation); negative control."
+    }
+  ]
+}

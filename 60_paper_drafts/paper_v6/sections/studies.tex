@@ -1,0 +1,93 @@
+% Data, judges, runs, hypotheses and statistics (lock v2). Case study: appendix.
+\section{Data and setup}
+\label{sec:studies}
+\label{sec:study2}
+
+\paragraph{Replacements.}
+IETF Requests for Comments (RFCs) replace one another, and the RFC Editor's index \citep{rfcindex2026} records each
+replacement (``Obsoletes'' / ``Obsoleted by'') together with publication dates and abstracts. We kept the simplest
+cases: replacements in which the old RFC was replaced by exactly one RFC, the replacing RFC is itself current, was
+published in 2005 or later and replaces at most two RFCs, and both documents have abstracts. From these we drew
+\ENLinks{} links with a fixed seed. Because the record is the publisher's, the gold needs no annotation. Each document
+is represented by its title, publication date and abstract. In 33 of the \ENLinks{} links the two titles are
+near-identical (a normalised string-similarity ratio of at least 0.8), which matters for the shortcut analysis below.
+
+\paragraph{Decoys.}
+The index also records updates (``Updates'' / ``Updated by''), in which a newer RFC amends part of an older one without
+replacing it. A decoy is an update pair in which the older RFC was never replaced and the newer one is current, chosen
+under the same filters as the links and sharing no document with them. For each link we took the nearest unused update
+pair within the link's same-title group, by a distance that combines IETF area (our proxy for topic), title similarity,
+both publication dates and both abstract lengths. The matching is greedy in link order and deterministic. Balance on
+the matched features is good for dates (standardised mean differences \EBalOldYearSMD{} for the old date,
+\EBalNewYearSMD{} for the new date and \EBalGapYearsSMD{} for the gap) and acceptable for title similarity
+(\EBalTitleRatioSMD); \EBalArea{} decoys share their link's IETF area. Two imbalances remain. Updating RFCs have shorter
+abstracts than replacing ones (\EBalNewWordsSMD), a property of updates that we chose not to force away. More
+importantly, abstract overlap was not a matching feature. A replacing RFC usually repeats much of the abstract of the
+RFC it replaces (median similarity \EAbsSimLinksSame{} for same-title links), whereas an updating RFC does not (median
+\EAbsSimDecoysSame{} for same-title decoys). We found this only after the runs; its consequences are discussed in
+\S\ref{sec:res-shortcut}.
+
+\paragraph{Judges and runs.}
+Four judges are run on all six contexts with the same links and decoys: Gemini~3.1~Pro, GPT-5.5 and Claude
+Opus~4.5 through the Kaggle Benchmarks proxy, and Gemma~4~26B through Google's API at temperature 0. The proxy sets
+temperature and seed itself and does not report them, which limits exact reproduction of the hosted judges. New requests in these runs went through the proxy with an output cap of 4,000 tokens, sending the system and
+user text as two messages. Replies to prompts identical to those of the pilot were taken from the pilot's cache rather
+than requested again: all 72 shared \texttt{both-texts} replies of Gemma, GPT-5.5 and Gemini, and 70 of Claude's 72. For the
+hosted judges those replies had been obtained with the proxy's earlier call (one joined message, no cap). Reuse
+affects the \texttt{both-texts} items of the first 24 links, their \texttt{status} items (except for GPT-5.5, which
+had no pilot \texttt{status} block) and the damaged-record items whose
+prompt did not change. For Gemma, the client retries a request once without the API's JSON mode when the
+JSON-mode reply is cut off; the run log records that this happened, but not for which items. Every block of replies
+records the model version and a hash of the harness code. For this paper we rescored every reply from its raw text, and
+every stored score matched.
+
+\paragraph{Hypotheses and analysis.}
+The hypotheses below, with their tests and the reading we would give each outcome, were written after the pilot and
+committed to the project repository shortly before the runs. This is a timestamped internal record, not a public
+registration. Before any result existed, the plan was amended to add two presentation conditions (wording and
+authority, beside the warning) and to match decoys on more features; the amendment is part of the same history.
+\begin{description}
+  \item[H1] Given both texts, a judge's right-reason catch on faults exceeds its validity false alarms on the matched
+  decoys. Tested per judge as the mean paired difference over the \ENLinks{} link--decoy pairs, with a 2,000-resample
+  bootstrap interval over pairs.
+  \item[H2a] On the 24 gap faults, a judge catches fewer with the damaged record (authoritative form) than with no
+  record. Two-sided exact McNemar test on the paired items; Holm adjustment across judges.
+  \item[H2b] Each other presentation of the damaged record changes the catch on the gap faults relative to the
+  authoritative form. Two-sided exact McNemar tests; Holm adjustment across all \EHTwobTests{} presentation--judge
+  pairs.
+\end{description}
+The unit of analysis is the link, never the model call. With 24 pairs, a change in which every discordant item
+moves the same way needs at least six items to reach the 5\% level before adjustment (two-sided exact $p$ = .031), and
+more after the Holm adjustment; changes that do not reach it are reported as inconclusive. The plan also listed Wilson
+intervals for rates and an exploratory mixed-effects model pooled over judges; we report exact counts and paired tests
+instead, and did not fit the model, since no claim depends on it.
+
+\paragraph{A second draw of removed links.} Because the pilot had shown that the choice of removed links matters, we
+amended the plan, once seed-0 results existed for three judges and before any seed-1 call, to repeat H2a on a second
+random choice (damage seed~1) for the same four judges, with the tests fixed in advance: H2a per judge on seed~1 with Holm adjustment across judges, and a per-judge estimate over both seeds. The
+two draws drop 24 links each and share 12, so each adds 12 gap faults of its own. A shared link is the same item under
+both seeds, with an identical prompt and therefore the same reply, so the pooled estimate counts it once: it is the
+mean drop in catch over the 36 links in either gap set, with a 2,000-resample bootstrap interval over links and an exact
+sign test on the links that changed. Text-only prompts do not depend on the record, so seed~1 reuses the text-only
+replies; its damaged-record replies on the 12 new gap faults were new requests (eight per hosted judge) except where the
+pilot had asked the identical prompt. The second draw is a robustness check on the choice of removed links, not an independent replication: it shares half
+its gap faults and all text-only replies with the first. The hypotheses and thresholds were not changed. Everything else in
+\S\ref{sec:results}, including every comparison by title or abstract overlap, is exploratory.
+
+\paragraph{The pilot.}
+Before the final design, six judges (Qwen~2.5~32B, Gemma~4~26B, GPT-OSS~120B, Gemini~3.1~Pro, GPT-5.5 and Claude
+Opus~4.5) ran up to ten contexts on the first 24 links; Qwen~32B ran all \RfcSample. The pilot had no decoys and no
+presentation conditions, and its damaged record, built over 24 links rather than 48, dropped a different set of links.
+We use it for the date-control result and for the contexts not repeated here (Appendix~\ref{app:pilot}).
+
+\paragraph{The case study.}
+The test was first developed on Indian rooftop-solar regulation, with an amendment record extracted by an AI pipeline
+and seven judges. Its answer key failed the quality checks we had set for it, so it is reported only descriptively, in
+the final appendices (from Appendix~\ref{app:case}), and no result in \S\ref{sec:results} uses it.
+
+\paragraph{Use of AI assistants.}\label{sec:ai-use}
+An AI coding assistant (Claude, through Claude Code) wrote the harness, sampled the links and decoys, ran the local
+judge, analysed the replies and drafted the manuscript. In the case study it drafted the
+labels and extracted the amendment record, which two authors checked blind with a third adjudicating. The RFC gold is
+the publisher's. Claude Opus~4.5 is one of the judges; the model behind the assistant was not run as a judge. The
+authors are responsible for the content.

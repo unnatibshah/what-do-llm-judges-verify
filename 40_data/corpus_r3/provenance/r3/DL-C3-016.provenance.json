@@ -1,0 +1,66 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/Net%20Metering%20Second%20Amendment%20Final.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:30Z",
+  "sha256": "f3a6e7c934eff099c15b9b81fa7567f7b9323d9500200404b489a39073b1b861",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "Delhi Electricity Regulatory Commission (Net Metering for Renewable Energy) (Second Amendment) Guidelines, 2026",
+  "number": "F.17(44)/Engg./DERC/2024-25/8208",
+  "printed_date": "2026-07-16",
+  "file_type": "PDF document, version 1.5, 3 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Guideline 3 (substituted), Stage I",
+      "verbatim_quote": "The Distribution Licensee shall complete the technical feasibility analysis within fifteen (15) days from the date of receipt of the application complete in all aspects:",
+      "page": 1,
+      "topic": "Feasibility 15 days; deemed grant; <=10 kW no study",
+      "numeric_values": {
+        "stage1_days": 15,
+        "kW_ceiling": 10
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-NM-2014-regs-and-guidelines-sws",
+        "clause_ref": "Guidelines cl. 3(3)",
+        "evidence_quote": "the Distribution Licensee shall complete the feasibility analysis for connecting the Renewable EnergySystem to the distribution system within thirty (30) days from the date of receipt of the application..",
+        "evidence_page": 10
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guideline 3 (substituted), Stage II and cumulative cap",
+      "verbatim_quote": "the cumulative period to be observed by the Distribution Licensee, up to the grant of connectivity, shall not exceed —(a) twenty -five (25) days in the case of a Renewable Energy System above 10 kW, and (b) ten (10) days in the case of a Renewable Energy System up to 10 kW",
+      "page": 2,
+      "topic": "Cumulative days to connectivity 25 (>10 kW) / 10 (<=10 kW); single integrated stage 10 days",
+      "numeric_values": {
+        "cumulative_days_above_10kW": 25,
+        "cumulative_days_up_to_10kW": 10,
+        "stage2_days": 10,
+        "cure_days": 15
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-NM-2014-regs-and-guidelines-sws",
+        "clause_ref": "Guidelines cl. 3(9),(13),(16)",
+        "evidence_quote": "Within thirt y (30) days from the date of registration, the Distribution Licensee and the Consumer shall execute a Con nection Agreement .",
+        "evidence_page": 13
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guideline 3(1) proviso (substituted)",
+      "verbatim_quote": "Provided that no Application Fee for feasibility analysis shall be payable in the case of domestic consumers for Rooftop Solar Connections up to 10 kW, irrespective of whether or not such consumers avail benefits under the PM Surya Ghar: Muft Bijli Yojana.",
+      "page": 2,
+      "topic": "Fee waiver <=10 kW extended beyond PM Surya Ghar beneficiaries",
+      "numeric_values": {
+        "kW_ceiling": 10
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-NM-2025-first-amend-guidelines",
+        "clause_ref": "Guideline 3(1) proviso",
+        "evidence_quote": "Provided that no such Application Fee for feasibility analysis shall be payable in case of domestic consumers for Rooftop Solar Connections up to 10 KW under PM Surya Ghar: Muft Bijli Yojana.",
+        "evidence_page": 1
+      },
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2Nzc2NzIyOF83NTYx",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "statement of reasons (context only)",
+  "title": "Statement of Reasons, Fifth Amendment 2025",
+  "number": "n/a",
+  "printed_date": "2025-11-04 per landing page",
+  "file": "GERC-NetMetering-2025-5thAmend-SoR.pdf",
+  "fetched_at": "2026-10-01T16:43:53Z",
+  "http_status": 200,
+  "sha256": "954e7df67b4ebb537dea4072585dc1dab203e96fd8f3908ccdf0344987bde987",
+  "pages": 5,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

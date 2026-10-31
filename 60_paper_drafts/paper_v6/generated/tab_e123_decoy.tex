@@ -1,0 +1,17 @@
+\begin{table*}[t]\centering\footnotesize
+\caption{Shortcut test with both texts and no record. Faults and their matched decoys, split by whether the two RFCs of the pair share a (near-)identical title. Discrimination: catch minus decoy false alarm, paired by link, in points with a 95\% bootstrap interval over the 48 pairs.}
+\label{tab:e123-decoy}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+ & \multicolumn{2}{c}{Same title} & \multicolumn{2}{c}{Different title} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Judge & Fault catch & Decoy FA & Fault catch & Decoy FA & Discrimination \\
+\midrule
+Gemma 4 26B & \EGemmaSameCatch & \EGemmaSameDecoy & \EGemmaDifferentCatch & \EGemmaDifferentDecoy & \EGemmaHOne{} {\scriptsize \EGemmaHOneCI} \\
+GPT-5.5 & \EGPTSameCatch & \EGPTSameDecoy & \EGPTDifferentCatch & \EGPTDifferentDecoy & \EGPTHOne{} {\scriptsize \EGPTHOneCI} \\
+Gemini 3.1 Pro & \EGeminiSameCatch & \EGeminiSameDecoy & \EGeminiDifferentCatch & \EGeminiDifferentDecoy & \EGeminiHOne{} {\scriptsize \EGeminiHOneCI} \\
+Claude Opus 4.5 & \EOpusSameCatch & \EOpusSameDecoy & \EOpusDifferentCatch & \EOpusDifferentDecoy & \EOpusHOne{} {\scriptsize \EOpusHOneCI} \\
+\bottomrule
+\end{tabular}}
+\end{table*}

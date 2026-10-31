@@ -1,0 +1,18 @@
+{
+  "source_url": "https://srtpv.bescom.org/SRTPV/document/11.06.2024.pdf",
+  "landing_page_url": "https://srtpv.bescom.org/SRTPV/",
+  "domain_note": "Hosted on BESCOM's own SRTPV portal srtpv.bescom.org (BESCOM is a wholly Government of Karnataka undertaking) - NOT a *.gov.in or kerc.karnataka.gov.in domain; kerc.karnataka.gov.in and bescom.karnataka.gov.in were unreachable from the collection host (see FAILURES.md). Authenticity vs the KERC-hosted original is unconfirmed (same-bytes check pending).",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "doc_type": "SCAN - needs OCR/human reading",
+  "title": "KERC Tariff Order 11.06.2024 (portal label; SOP cites it as 'Determination of tariff for SRTPV plants for FY-2025')",
+  "number": "unknown",
+  "printed_date": "11.06.2024",
+  "note": "scan, no text layer (10 MB); no clauses extracted",
+  "file": "KERC-tariff-order-2024-06-11.pdf",
+  "fetched_at": "2026-10-01T16:56:10Z",
+  "http_status": 200,
+  "sha256": "9a2f20d9b3ae7f7024d14ba12596a7b7b0de2a6bf470a5c957a6a15d8e828e1d",
+  "pages": 39,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

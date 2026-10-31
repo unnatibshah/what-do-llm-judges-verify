@@ -1,0 +1,18 @@
+{
+  "source_url": "https://srtpv.bescom.org/SRTPV/document/2_BESCOM_SRTPV_tariff_OM.pdf",
+  "landing_page_url": "https://srtpv.bescom.org/SRTPV/",
+  "domain_note": "Hosted on BESCOM's own SRTPV portal srtpv.bescom.org (BESCOM is a wholly Government of Karnataka undertaking) - NOT a *.gov.in or kerc.karnataka.gov.in domain; kerc.karnataka.gov.in and bescom.karnataka.gov.in were unreachable from the collection host (see FAILURES.md). Authenticity vs the KERC-hosted original is unconfirmed (same-bytes check pending).",
+  "issuer": "Bangalore Electricity Supply Company Ltd (BESCOM), DSM Section",
+  "doc_type": "SCAN - needs OCR/human reading",
+  "title": "BESCOM Tariff order & Timelines (portal label)",
+  "number": "unknown",
+  "printed_date": "unknown",
+  "note": "scan, no text layer; no clauses extracted",
+  "file": "BESCOM-SRTPV-tariff-OM.pdf",
+  "fetched_at": "2026-10-01T16:56:10Z",
+  "http_status": 200,
+  "sha256": "160748264742a0fdd753b4ae7393aaea81bd3437185d29a09c35c1db6319ce64",
+  "pages": 6,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

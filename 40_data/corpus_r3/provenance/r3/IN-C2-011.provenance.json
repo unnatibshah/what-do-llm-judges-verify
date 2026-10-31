@@ -1,0 +1,32 @@
+{
+  "source_url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2026/05/202605251665091021.pdf",
+  "landing_page_url": "https://mnre.gov.in/en/notice/almm-no-blanket-extension-of-almm-list-ii-beyond-01-06-2026-subject-to-protection-of-investments-already-made/",
+  "fetched_at": "2026-10-01T16:51:03Z",
+  "sha256": "95a766e968071dee313a3c2f92ca3b74e2100253ee9276ad48d23e66ead8202c",
+  "http_status": 200,
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "printed_title": "ALMM - No blanket extension of ALMM List-II beyond 01.06.2026 subject to Protection of Investments already made",
+  "number": "283/63/2025-GRID SOLAR",
+  "printed_date": "2026-05-25",
+  "file_type": "PDF document, version 1.4",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Para 7 (SUPERSEDED 18.07.2026)",
+      "verbatim_quote": "within 30.06.2026. No physical applications will be entertained.",
+      "page": 3,
+      "topic": "Stale claim deadline 30.06.2026 on NISE portal",
+      "numeric_values": {
+        "claim_deadline": "2026-06-30"
+      },
+      "amends_or_supersedes": {
+        "doc": "IN-ALMM-2026-07-18-OM-283-53-2026",
+        "clause_ref": "Para 3 supersession",
+        "evidence_quote": "In supersession of MNRE's O.M. No. 283/63/2025-GRID SOLAR dated 25th May 2026,",
+        "evidence_page": 1
+      },
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image",
+      "note": "Reverse edge: this OM is superseded by the 18.07.2026 OM (the amends field points to the superseding doc). Trap candidate: stale but reachable."
+    }
+  ]
+}

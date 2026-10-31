@@ -1,0 +1,105 @@
+{
+  "issuer": "Tamil Nadu Generation and Distribution Corporation Ltd (TANGEDCO), Technical Branch, O/o the Chief Engineer/NCES (summary of TNERC Order No.8/2021)",
+  "source_url": "https://www.tnebltd.gov.in/usrp/Salientfeatures.pdf",
+  "landing_page_url": "https://www.tnebltd.gov.in/usrp/documents.xhtml",
+  "domain_note": "www.tnebltd.gov.in is a *.gov.in domain (TNPDCL/TANGEDCO USRP portal). The portal labels this link 'TNERC Tariff Order' but the PDF is TANGEDCO's own Salient features/Guidelines memo for TNERC Order No.8/2021 dt 22-10-2021, NOT the order itself. The TNERC order on tnerc.gov.in was unreachable (see FAILURES.md).",
+  "doc_type": "DISCOM salient-features memo for TNERC Generic Tariff Order for GISS",
+  "title": "Salient features/Guidelines for the Hon’ble TNERC’s Generic Tariff Order for Grid Interactive PV Solar Energy Generating System (GISS) – Order No.8 / 2021, dated 22-10-2021",
+  "number": "TNERC Order No.8 of 2021 (memo number not printed on extracted text)",
+  "printed_date": "Order dated 22-10-2021 (memo itself undated in extracted text)",
+  "file": "TNEBLTD-usrp-Salientfeatures.pdf",
+  "fetched_at": "2026-10-01T16:54:02Z",
+  "http_status": 200,
+  "sha256": "b36bfd434d0698fbc716af3ae5ba94a2432a05f65ab88a9c5e551b6d84666715",
+  "pages": 33,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "I.2 (net billing / net feed-in capacity)",
+      "verbatim_quote": "All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.",
+      "page": 1,
+      "topic": "capacity cap vs sanctioned load; kW ceiling",
+      "numeric_values": {
+        "cap": "sanctioned load/contracted demand",
+        "max_kw": 999
+      },
+      "amends_or_supersedes": {
+        "doc": "TANGEDCO-test1-soi-100519",
+        "clause_ref": "Para 2",
+        "evidence_quote": "Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.",
+        "evidence_in_file": "TANGEDCO-test1-soi-100519.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "VII.3 (DT hosting limit)",
+      "verbatim_quote": "The cumulative capacity of all Solar PV systems under net metering or net billing put together connected to a distribution transformer shall not exceed 90% of the distribution transformer capacity.",
+      "page": 9,
+      "topic": "DT hosting capacity",
+      "numeric_values": {
+        "dt_limit_pct": 90,
+        "previous_pct": 90
+      },
+      "amends_or_supersedes": {
+        "doc": "TANGEDCO-test1-soi-100519",
+        "clause_ref": "Para 5",
+        "evidence_quote": "connectivity to roo ftop solar systems shall be restricted to 90% of the distribution transformer capacity on the basis of first c ome first served.",
+        "evidence_in_file": "TANGEDCO-test1-soi-100519.pdf"
+      },
+      "status": "UNVERIFIED — needs human check",
+      "note": "Same 90% as 2019 memo: reaffirmation, NOT a numeric change (useful negative control for supersession edges)."
+    },
+    {
+      "clause_ref": "VII.4 (power transformer limit, HT gross metering)",
+      "verbatim_quote": "The cumulative capacity of all solar generating systems under Gross metering mechanism in case of HT connected to a Power Transformer shall not exceed 70% of the Power Transformer capacity.",
+      "page": 9,
+      "topic": "transformer hosting capacity",
+      "numeric_values": {
+        "pt_limit_pct": 70
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "I.3(a) (gross metering minimum size)",
+      "verbatim_quote": "that can be set up under Gross Metering mechanism shall be 151 kWp up to a maximum capacity of 999 kW.",
+      "page": 2,
+      "topic": "kW thresholds",
+      "numeric_values": {
+        "min_kwp": 151,
+        "max_kw": 999
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Check meter (optional up to 20 kW)",
+      "verbatim_quote": "Provided that installation of Check Meter shall be optional for Renewable Energy Generating System with capacity up to and including 20 kW.",
+      "page": 12,
+      "topic": "meter threshold",
+      "numeric_values": {
+        "check_meter_optional_up_to_kw": 20
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Annexure I timeline (site verification / technical feasibility)",
+      "verbatim_quote": "Site Verification / Technical Feasibility & issuance of Letter of Approval (LOA) / Termination [1] DISCOM 15",
+      "page": 32,
+      "topic": "feasibility timeline",
+      "numeric_values": {
+        "max_working_days": 15,
+        "previous_working_days": 3
+      },
+      "amends_or_supersedes": {
+        "doc": "TANGEDCO-test1-soi-100519",
+        "clause_ref": "Para 6",
+        "evidence_quote": "The feasibility intimation letter/ approval should be issued within 3 working days from the date of registration of application.",
+        "evidence_in_file": "TANGEDCO-test1-soi-100519.pdf"
+      },
+      "status": "UNVERIFIED — needs human check",
+      "note": "Annexure I is titled 'Suggestive Operating Procedures ... by DISCOMs' (appears to be appended MNRE-scheme procedure); whether it binds TANGEDCO net metering is unverified. Treat the 3 -> 15 working-day edge with caution."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+% Body only: main.tex passes it to \abstract{} (sn-jnl). Every number is a macro. Revision of 2026-10-30.
+LLM judges are often asked whether the documents an answer cites are still in force, with an amendment record to
+consult. Such records are rarely complete. From a table of replacements, our test generates matched answers citing a replaced document, its
+successor, the replaced document before its replacement, and an older document that a newer one updated without
+replacing; it removes links from the record and scores each finding by its stated reason. On \ENLinks{}
+replacements from the IETF RFC index, judges given a correct record caught nearly every replaced citation, as a lookup would. On the 24 faults whose link we removed, every judge caught fewer with the record
+than from the texts alone: Gemini~3.1~Pro \EGeminiGapTexts{} against \EGeminiGapDamaged, GPT-5.5
+\EGPTGapTexts{} against \EGPTGapDamaged, Claude Opus~4.5 \EOpusGapTexts{} against \EOpusGapDamaged{} and Gemma~4~26B
+\EGemmaGapTexts{} against \EGemmaGapDamaged. The drop recurred on a second random choice of removed links.
+Most misses carried no finding; rewording the gap as ``no replacement recorded'' did not restore
+the lost catches. Presenting the record as an unverified note, or warning that it was incomplete, restored most of them
+for Gemini, GPT-5.5 and Claude (significant after correction for the first two) but at most 5 of 13 for
+Gemma; where catches returned, so did false alarms on updates. With both texts, the judges mostly distinguished replacements from updates,
+and every update they flagged had a near-identical title. An appendix reports a descriptive case study on Indian rooftop-solar rules; we
+release the harness.

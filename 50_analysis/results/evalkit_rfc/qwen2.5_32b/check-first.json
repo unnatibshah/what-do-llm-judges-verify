@@ -1,0 +1,4013 @@
+{
+ "model": "qwen2.5:32b",
+ "context": "check-first",
+ "code_hash": "0f395bb15e0b",
+ "links": 48,
+ "model_info": {
+  "provider": "ollama",
+  "model_version": "qwen2.5:32b"
+ },
+ "seconds": 1610.9,
+ "rows": [
+  {
+   "item_id": "RFC6312>RFC6342#fault",
+   "link": "RFC6312>RFC6342",
+   "role": "fault",
+   "cited": "RFC6312",
+   "as_of": "2026-10-01",
+   "topic": "Mobile Networks Considerations for IPv6 Deployment",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6312",
+      "reason": "superseded",
+      "rationale": "RFC6342, published in August 2011, supersedes RFC6312 which was published in July 2011, as both documents have the same title and purpose, indicating that RFC6342 is the updated version."
+     }
+    ]
+   },
+   "prompt_tokens": 596,
+   "completion_tokens": 106,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6312>RFC6342#control",
+   "link": "RFC6312>RFC6342",
+   "role": "control",
+   "cited": "RFC6342",
+   "as_of": "2026-10-01",
+   "topic": "Mobile Networks Considerations for IPv6 Deployment",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6342",
+      "reason": "superseded",
+      "rationale": "RFC6312 was published in 2011-07, which is before RFC6342 published in 2011-08. However, the question asks for the document as of 2026-10-01, and there is no evidence provided that a later document has replaced either RFC6312 or RFC6342. The answer cites RFC6342, but RFC6312 was published earlier and could be considered the original document on the topic. Without evidence of a later replacement, the answer is flagged for potential supersession issues."
+     }
+    ]
+   },
+   "prompt_tokens": 596,
+   "completion_tokens": 179,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6312>RFC6342#date-control",
+   "link": "RFC6312>RFC6342",
+   "role": "date-control",
+   "cited": "RFC6312",
+   "as_of": "2011-07-28",
+   "topic": "Mobile Networks Considerations for IPv6 Deployment",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6312",
+      "reason": "superseded",
+      "rationale": "RFC6342, published in August 2011, supersedes RFC6312 which was published in July 2011, as of the date asked about (2011-07-28)."
+     }
+    ]
+   },
+   "prompt_tokens": 596,
+   "completion_tokens": 103,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7042>RFC9542#fault",
+   "link": "RFC7042>RFC9542",
+   "role": "fault",
+   "cited": "RFC7042",
+   "as_of": "2026-10-01",
+   "topic": "IANA Considerations and IETF Protocol and Documentation Usage for IEEE 802 Parameters",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7042",
+      "reason": "superseded",
+      "rationale": "RFC7042 was published in 2013-10 and was superseded by RFC9542, which was published in 2024-04, before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 571,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7042>RFC9542#control",
+   "link": "RFC7042>RFC9542",
+   "role": "control",
+   "cited": "RFC9542",
+   "as_of": "2026-10-01",
+   "topic": "IANA Considerations and IETF Protocol and Documentation Usage for IEEE 802 Parameters",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC9542",
+      "reason": "none",
+      "rationale": "RFC9542 was published in 2024-04 and is the most recent document as of 2026-10-01, addressing the question correctly."
+     }
+    ]
+   },
+   "prompt_tokens": 571,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7042>RFC9542#date-control",
+   "link": "RFC7042>RFC9542",
+   "role": "date-control",
+   "cited": "RFC7042",
+   "as_of": "2023-04-15",
+   "topic": "IANA Considerations and IETF Protocol and Documentation Usage for IEEE 802 Parameters",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_superseded"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC7042",
+      "reason": "not_superseded",
+      "rationale": "RFC7042 was published in 2013-10 and has not been superseded by RFC9542 as of 2023-04-15."
+     }
+    ]
+   },
+   "prompt_tokens": 571,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2204>RFC5024#fault",
+   "link": "RFC2204>RFC5024",
+   "role": "fault",
+   "cited": "RFC2204",
+   "as_of": "2026-10-01",
+   "topic": "ODETTE File Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2204",
+      "reason": "superseded",
+      "rationale": "RFC5024, published in 2007-11, replaced RFC2204 as the document specifying the ODETTE File Transfer Protocol as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 526,
+   "completion_tokens": 98,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2204>RFC5024#control",
+   "link": "RFC2204>RFC5024",
+   "role": "control",
+   "cited": "RFC5024",
+   "as_of": "2026-10-01",
+   "topic": "ODETTE File Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5024",
+      "reason": "none",
+      "rationale": "RFC5024, 'ODETTE File Transfer Protocol 2.0', was published in 2007-11 and is the most recent document cited as of 2026-10-01, thus it is valid."
+     }
+    ]
+   },
+   "prompt_tokens": 530,
+   "completion_tokens": 103,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2204>RFC5024#date-control",
+   "link": "RFC2204>RFC5024",
+   "role": "date-control",
+   "cited": "RFC2204",
+   "as_of": "2006-11-15",
+   "topic": "ODETTE File Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2204",
+      "reason": "superseded",
+      "rationale": "RFC5024, published in 2007-11, supersedes RFC2204 as it provides an updated version of the ODETTE File Transfer Protocol, which includes additional security features and enhancements. Since RFC5024 was published after the date asked about (2006-11-15), RFC2204 is considered superseded on that date."
+     }
+    ]
+   },
+   "prompt_tokens": 526,
+   "completion_tokens": 136,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4550>RFC5550#fault",
+   "link": "RFC4550>RFC5550",
+   "role": "fault",
+   "cited": "RFC4550",
+   "as_of": "2026-10-01",
+   "topic": "Internet Email to Support Diverse Service Environments (Lemonade) Profile",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4550",
+      "reason": "superseded",
+      "rationale": "RFC5550, published in 2009-08, supersedes RFC4550 and should be considered as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 758,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4550>RFC5550#control",
+   "link": "RFC4550>RFC5550",
+   "role": "control",
+   "cited": "RFC5550",
+   "as_of": "2026-10-01",
+   "topic": "Internet Email to Support Diverse Service Environments (Lemonade) Profile",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5550",
+      "reason": "none",
+      "rationale": "RFC5550 was published in 2009-08 and has not been superseded by a later document as of 2026-10-01. It correctly specifies the 'Internet Email to Support Diverse Service Environments (Lemonade) Profile'."
+     }
+    ]
+   },
+   "prompt_tokens": 759,
+   "completion_tokens": 110,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4550>RFC5550#date-control",
+   "link": "RFC4550>RFC5550",
+   "role": "date-control",
+   "cited": "RFC4550",
+   "as_of": "2008-08-15",
+   "topic": "Internet Email to Support Diverse Service Environments (Lemonade) Profile",
+   "invalid": false,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reasons": [],
+   "reply": {
+    "verdict": "PASS",
+    "findings": []
+   },
+   "prompt_tokens": 758,
+   "completion_tokens": 14,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8773>RFC9973#fault",
+   "link": "RFC8773>RFC9973",
+   "role": "fault",
+   "cited": "RFC8773",
+   "as_of": "2026-10-01",
+   "topic": "TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8773",
+      "reason": "superseded",
+      "rationale": "RFC9973, published in 2026-07, supersedes RFC8773 as it specifies a similar TLS 1.3 extension for using certificates with an external pre-shared key, and the question asks for the document as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 522,
+   "completion_tokens": 117,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8773>RFC9973#control",
+   "link": "RFC8773>RFC9973",
+   "role": "control",
+   "cited": "RFC9973",
+   "as_of": "2026-10-01",
+   "topic": "TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC9973",
+      "reason": "none",
+      "rationale": "RFC9973 was published in 2026-07, which is before the date asked about (2026-10-01), and it specifies the TLS 1.3 extension for using certificates with an external pre-shared key as required by the question."
+     }
+    ]
+   },
+   "prompt_tokens": 522,
+   "completion_tokens": 109,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8773>RFC9973#date-control",
+   "link": "RFC8773>RFC9973",
+   "role": "date-control",
+   "cited": "RFC8773",
+   "as_of": "2025-07-15",
+   "topic": "TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8773",
+      "reason": "superseded",
+      "rationale": "RFC9973, published in 2026-07, replaces RFC8773 on or before the date asked about (2025-07-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 522,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6723>RFC8077#fault",
+   "link": "RFC6723>RFC8077",
+   "role": "fault",
+   "cited": "RFC6723",
+   "as_of": "2026-10-01",
+   "topic": "Update of the Pseudowire Control-Word Negotiation Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6723",
+      "reason": "superseded",
+      "rationale": "RFC6723 was published in 2012-09, and while RFC8077 does not directly supersede it, the context suggests that RFC8077, published in 2017-02, provides updated procedures for pseudowire setup and maintenance, which may include or replace the mechanisms described in RFC6723."
+     }
+    ]
+   },
+   "prompt_tokens": 629,
+   "completion_tokens": 128,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6723>RFC8077#control",
+   "link": "RFC6723>RFC8077",
+   "role": "control",
+   "cited": "RFC8077",
+   "as_of": "2026-10-01",
+   "topic": "Update of the Pseudowire Control-Word Negotiation Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8077",
+      "reason": "not_applicable",
+      "rationale": "RFC8077 specifies the setup and maintenance of pseudowires using LDP but does not address the 'Update of the Pseudowire Control-Word Negotiation Mechanism'."
+     }
+    ]
+   },
+   "prompt_tokens": 630,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6723>RFC8077#date-control",
+   "link": "RFC6723>RFC8077",
+   "role": "date-control",
+   "cited": "RFC6723",
+   "as_of": "2016-02-15",
+   "topic": "Update of the Pseudowire Control-Word Negotiation Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC6723",
+      "reason": "none",
+      "rationale": "RFC6723 was published in 2012-09 and was not superseded by any other document by 2016-02-15, as the next relevant document, RFC8077, was published in 2017-02."
+     }
+    ]
+   },
+   "prompt_tokens": 629,
+   "completion_tokens": 110,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5046>RFC7145#fault",
+   "link": "RFC5046>RFC7145",
+   "role": "fault",
+   "cited": "RFC5046",
+   "as_of": "2026-10-01",
+   "topic": "Internet Small Computer System Interface (iSCSI) Extensions for Remote Direct Memory Access (RDMA)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5046",
+      "reason": "superseded",
+      "rationale": "RFC7145, published in 2014-04, supersedes RFC5046 as it provides updated specifications for the same topic as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 697,
+   "completion_tokens": 98,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5046>RFC7145#control",
+   "link": "RFC5046>RFC7145",
+   "role": "control",
+   "cited": "RFC7145",
+   "as_of": "2026-10-01",
+   "topic": "Internet Small Computer System Interface (iSCSI) Extensions for Remote Direct Memory Access (RDMA)",
+   "invalid": false,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reasons": [],
+   "reply": {
+    "verdict": "PASS",
+    "findings": []
+   },
+   "prompt_tokens": 700,
+   "completion_tokens": 14,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5046>RFC7145#date-control",
+   "link": "RFC5046>RFC7145",
+   "role": "date-control",
+   "cited": "RFC5046",
+   "as_of": "2013-04-15",
+   "topic": "Internet Small Computer System Interface (iSCSI) Extensions for Remote Direct Memory Access (RDMA)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5046",
+      "reason": "superseded",
+      "rationale": "RFC7145, published in 2014-04, supersedes RFC5046 as of 2013-04-15."
+     }
+    ]
+   },
+   "prompt_tokens": 697,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8407>RFC9907#fault",
+   "link": "RFC8407>RFC9907",
+   "role": "fault",
+   "cited": "RFC8407",
+   "as_of": "2026-10-01",
+   "topic": "Guidelines for Authors and Reviewers of Documents Containing YANG Data Models",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8407",
+      "reason": "superseded",
+      "rationale": "RFC9907, published in 2026-03, replaces RFC8407 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 543,
+   "completion_tokens": 87,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8407>RFC9907#control",
+   "link": "RFC8407>RFC9907",
+   "role": "control",
+   "cited": "RFC9907",
+   "as_of": "2026-10-01",
+   "topic": "Guidelines for Authors and Reviewers of Documents Containing YANG Data Models",
+   "invalid": false,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reasons": [],
+   "reply": {
+    "verdict": "PASS",
+    "findings": []
+   },
+   "prompt_tokens": 543,
+   "completion_tokens": 17,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8407>RFC9907#date-control",
+   "link": "RFC8407>RFC9907",
+   "role": "date-control",
+   "cited": "RFC8407",
+   "as_of": "2025-03-15",
+   "topic": "Guidelines for Authors and Reviewers of Documents Containing YANG Data Models",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8407",
+      "reason": "not_yet_published",
+      "rationale": "RFC9907, which supersedes RFC8407, was published after the date asked about (2025-03-15). Therefore, RFC8407 is still the valid document as of 2025-03-15."
+     }
+    ]
+   },
+   "prompt_tokens": 543,
+   "completion_tokens": 112,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5953>RFC6353#fault",
+   "link": "RFC5953>RFC6353",
+   "role": "fault",
+   "cited": "RFC5953",
+   "as_of": "2026-10-01",
+   "topic": "Transport Layer Security (TLS) Transport Model for the Simple Network Management Protocol (SNMP)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5953",
+      "reason": "superseded",
+      "rationale": "RFC6353, published in 2011-07, obsoletes RFC5953 as it was published later and addresses the same topic."
+     }
+    ]
+   },
+   "prompt_tokens": 878,
+   "completion_tokens": 86,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5953>RFC6353#control",
+   "link": "RFC5953>RFC6353",
+   "role": "control",
+   "cited": "RFC6353",
+   "as_of": "2026-10-01",
+   "topic": "Transport Layer Security (TLS) Transport Model for the Simple Network Management Protocol (SNMP)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC6353",
+      "reason": "none",
+      "rationale": "RFC6353 was published in 2011-07 and specifies the Transport Layer Security (TLS) Transport Model for the Simple Network Management Protocol (SNMP). There is no evidence of a later document that supersedes it by the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 878,
+   "completion_tokens": 116,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5953>RFC6353#date-control",
+   "link": "RFC5953>RFC6353",
+   "role": "date-control",
+   "cited": "RFC5953",
+   "as_of": "2010-08-28",
+   "topic": "Transport Layer Security (TLS) Transport Model for the Simple Network Management Protocol (SNMP)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5953",
+      "reason": "none",
+      "rationale": "RFC5953 was published in August 2010 and has not been superseded by RFC6353, which was published later in July 2011."
+     }
+    ]
+   },
+   "prompt_tokens": 878,
+   "completion_tokens": 87,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3941>RFC5401#fault",
+   "link": "RFC3941>RFC5401",
+   "role": "fault",
+   "cited": "RFC3941",
+   "as_of": "2026-10-01",
+   "topic": "Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3941",
+      "reason": "superseded",
+      "rationale": "RFC5401, published in 2008-11, supersedes RFC3941 as it provides updated 'Multicast Negative-Acknowledgment (NACK) Building Blocks' which are relevant to the question asked as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 668,
+   "completion_tokens": 115,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3941>RFC5401#control",
+   "link": "RFC3941>RFC5401",
+   "role": "control",
+   "cited": "RFC5401",
+   "as_of": "2026-10-01",
+   "topic": "Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_superseded"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5401",
+      "reason": "not_superseded",
+      "rationale": "RFC5401 was published in 2008-11 and there is no evidence of a later document that supersedes it by the date asked about, 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 660,
+   "completion_tokens": 99,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3941>RFC5401#date-control",
+   "link": "RFC3941>RFC5401",
+   "role": "date-control",
+   "cited": "RFC3941",
+   "as_of": "2007-11-15",
+   "topic": "Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3941",
+      "reason": "superseded",
+      "rationale": "RFC5401, published in 2008-11, supersedes RFC3941 as it provides updated 'Multicast Negative-Acknowledgment (NACK) Building Blocks' which is relevant to the question asked as of 2007-11-15."
+     }
+    ]
+   },
+   "prompt_tokens": 668,
+   "completion_tokens": 115,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3189>RFC6469#fault",
+   "link": "RFC3189>RFC6469",
+   "role": "fault",
+   "cited": "RFC3189",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload Format for DV (IEC 61834) Video",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3189",
+      "reason": "superseded",
+      "rationale": "RFC6469, published in 2011-12, supersedes RFC3189 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 528,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3189>RFC6469#control",
+   "link": "RFC3189>RFC6469",
+   "role": "control",
+   "cited": "RFC6469",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload Format for DV (IEC 61834) Video",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC6469",
+      "reason": "none",
+      "rationale": "RFC6469 was published in 2011-12 and has not been superseded by a later document as of 2026-10-01 according to the provided evidence."
+     }
+    ]
+   },
+   "prompt_tokens": 528,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3189>RFC6469#date-control",
+   "link": "RFC3189>RFC6469",
+   "role": "date-control",
+   "cited": "RFC3189",
+   "as_of": "2010-12-15",
+   "topic": "RTP Payload Format for DV (IEC 61834) Video",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3189",
+      "reason": "superseded",
+      "rationale": "RFC6469, published in 2011, supersedes RFC3189 as of 2010-12-15."
+     }
+    ]
+   },
+   "prompt_tokens": 528,
+   "completion_tokens": 86,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4813>RFC5613#fault",
+   "link": "RFC4813>RFC5613",
+   "role": "fault",
+   "cited": "RFC4813",
+   "as_of": "2026-10-01",
+   "topic": "OSPF Link-Local Signaling",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4813",
+      "reason": "superseded",
+      "rationale": "RFC4813 was superseded by RFC5613 on 2009-08, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 568,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4813>RFC5613#control",
+   "link": "RFC4813>RFC5613",
+   "role": "control",
+   "cited": "RFC5613",
+   "as_of": "2026-10-01",
+   "topic": "OSPF Link-Local Signaling",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5613",
+      "reason": "not_yet_published",
+      "rationale": "RFC5613 was published in 2009-08, but the question asks about the status as of 2026-10-01. However, since no later document is cited that replaces RFC5613, and the question is in the past relative to the current date, this answer is still valid as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 568,
+   "completion_tokens": 137,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4813>RFC5613#date-control",
+   "link": "RFC4813>RFC5613",
+   "role": "date-control",
+   "cited": "RFC4813",
+   "as_of": "2008-08-15",
+   "topic": "OSPF Link-Local Signaling",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4813",
+      "reason": "superseded",
+      "rationale": "RFC5613, published in 2009-08, supersedes RFC4813 as it provides an updated description of OSPF Link-Local Signaling, and the question asks for the document as of 2008-08-15."
+     }
+    ]
+   },
+   "prompt_tokens": 568,
+   "completion_tokens": 111,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3205>RFC9205#fault",
+   "link": "RFC3205>RFC9205",
+   "role": "fault",
+   "cited": "RFC3205",
+   "as_of": "2026-10-01",
+   "topic": "On the use of HTTP as a Substrate",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3205",
+      "reason": "superseded",
+      "rationale": "RFC3205 was superseded by RFC9205 on 2022-06, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 534,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3205>RFC9205#control",
+   "link": "RFC3205>RFC9205",
+   "role": "control",
+   "cited": "RFC9205",
+   "as_of": "2026-10-01",
+   "topic": "On the use of HTTP as a Substrate",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC9205",
+      "reason": "not_applicable",
+      "rationale": "RFC9205 'Building Protocols with HTTP' does not specify 'On the use of HTTP as a Substrate', which is the topic of RFC3205."
+     }
+    ]
+   },
+   "prompt_tokens": 530,
+   "completion_tokens": 87,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3205>RFC9205#date-control",
+   "link": "RFC3205>RFC9205",
+   "role": "date-control",
+   "cited": "RFC3205",
+   "as_of": "2021-06-15",
+   "topic": "On the use of HTTP as a Substrate",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_yet_superseded"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC3205",
+      "reason": "not_yet_superseded",
+      "rationale": "RFC3205 was published in 2002-02 and was not superseded by RFC9205, which was published in 2022-06, as of 2021-06-15."
+     }
+    ]
+   },
+   "prompt_tokens": 534,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2821>RFC5321#fault",
+   "link": "RFC2821>RFC5321",
+   "role": "fault",
+   "cited": "RFC2821",
+   "as_of": "2026-10-01",
+   "topic": "Simple Mail Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2821",
+      "reason": "superseded",
+      "rationale": "RFC5321, published in 2008-10, replaced RFC2821 as the specification for the Simple Mail Transfer Protocol as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 508,
+   "completion_tokens": 96,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2821>RFC5321#control",
+   "link": "RFC2821>RFC5321",
+   "role": "control",
+   "cited": "RFC5321",
+   "as_of": "2026-10-01",
+   "topic": "Simple Mail Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5321",
+      "reason": "none",
+      "rationale": "RFC5321 was published in 2008-10 and has not been superseded by a later document as of 2026-10-01 according to the provided evidence."
+     }
+    ]
+   },
+   "prompt_tokens": 508,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2821>RFC5321#date-control",
+   "link": "RFC2821>RFC5321",
+   "role": "date-control",
+   "cited": "RFC2821",
+   "as_of": "2007-10-15",
+   "topic": "Simple Mail Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2821",
+      "reason": "superseded",
+      "rationale": "RFC5321, published in 2008-10, replaced RFC2821 as the specification for the Simple Mail Transfer Protocol, and the question asks for the document as of 2007-10-15."
+     }
+    ]
+   },
+   "prompt_tokens": 508,
+   "completion_tokens": 104,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4402>RFC7802#fault",
+   "link": "RFC4402>RFC7802",
+   "role": "fault",
+   "cited": "RFC4402",
+   "as_of": "2026-10-01",
+   "topic": "A Pseudo-Random Function (PRF) for the Kerberos V Generic Security Service Application Program Interface (GSS-API) Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4402",
+      "reason": "superseded",
+      "rationale": "RFC4402 was superseded by RFC7802 on 2016-03, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 637,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4402>RFC7802#control",
+   "link": "RFC4402>RFC7802",
+   "role": "control",
+   "cited": "RFC7802",
+   "as_of": "2026-10-01",
+   "topic": "A Pseudo-Random Function (PRF) for the Kerberos V Generic Security Service Application Program Interface (GSS-API) Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC7802",
+      "reason": "none",
+      "rationale": "RFC7802 was published in 2016-03 and is the most recent document as of 2026-10-01, addressing the PRF for the Kerberos V GSS-API Mechanism."
+     }
+    ]
+   },
+   "prompt_tokens": 637,
+   "completion_tokens": 99,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4402>RFC7802#date-control",
+   "link": "RFC4402>RFC7802",
+   "role": "date-control",
+   "cited": "RFC4402",
+   "as_of": "2015-03-15",
+   "topic": "A Pseudo-Random Function (PRF) for the Kerberos V Generic Security Service Application Program Interface (GSS-API) Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4402",
+      "reason": "superseded",
+      "rationale": "RFC4402 was published in 2006-02, but RFC7802, which supersedes it, was published in 2016-03. However, since the question asks about the status as of 2015-03-15, RFC4402 had not yet been superseded by RFC7802 at that time. Despite this, the answer is flagged because it does not account for the possibility of later updates or replacements, which is a standard practice in reviewing documents for their validity as of a specific date."
+     }
+    ]
+   },
+   "prompt_tokens": 637,
+   "completion_tokens": 174,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3272>RFC9522#fault",
+   "link": "RFC3272>RFC9522",
+   "role": "fault",
+   "cited": "RFC3272",
+   "as_of": "2026-10-01",
+   "topic": "Overview and Principles of Internet Traffic Engineering",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3272",
+      "reason": "superseded",
+      "rationale": "RFC3272 was superseded by RFC9522 on 2024-01, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 563,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3272>RFC9522#control",
+   "link": "RFC3272>RFC9522",
+   "role": "control",
+   "cited": "RFC9522",
+   "as_of": "2026-10-01",
+   "topic": "Overview and Principles of Internet Traffic Engineering",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC9522",
+      "reason": "none",
+      "rationale": "RFC9522, published in 2024-01, is the most recent document that specifies 'Overview and Principles of Internet Traffic Engineering' as of 2026-10-01. There is no evidence of a later document that has replaced it."
+     }
+    ]
+   },
+   "prompt_tokens": 563,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3272>RFC9522#date-control",
+   "link": "RFC3272>RFC9522",
+   "role": "date-control",
+   "cited": "RFC3272",
+   "as_of": "2023-01-15",
+   "topic": "Overview and Principles of Internet Traffic Engineering",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC3272",
+      "reason": "not_yet_published",
+      "rationale": "RFC9522 was published after the date asked about (2024-01), so RFC3272 is still the valid document as of 2023-01-15."
+     }
+    ]
+   },
+   "prompt_tokens": 563,
+   "completion_tokens": 97,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5157>RFC7707#fault",
+   "link": "RFC5157>RFC7707",
+   "role": "fault",
+   "cited": "RFC5157",
+   "as_of": "2026-10-01",
+   "topic": "IPv6 Implications for Network Scanning",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5157",
+      "reason": "superseded",
+      "rationale": "RFC7707, published in 2016, provides more recent information on network reconnaissance in IPv6 networks, which supersedes RFC5157 published in 2008."
+     }
+    ]
+   },
+   "prompt_tokens": 664,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5157>RFC7707#control",
+   "link": "RFC5157>RFC7707",
+   "role": "control",
+   "cited": "RFC7707",
+   "as_of": "2026-10-01",
+   "topic": "IPv6 Implications for Network Scanning",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7707",
+      "reason": "not_applicable",
+      "rationale": "RFC7707 discusses network reconnaissance in IPv6 networks but does not specifically address 'IPv6 Implications for Network Scanning' as asked in the question."
+     }
+    ]
+   },
+   "prompt_tokens": 663,
+   "completion_tokens": 83,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5157>RFC7707#date-control",
+   "link": "RFC5157>RFC7707",
+   "role": "date-control",
+   "cited": "RFC5157",
+   "as_of": "2015-03-15",
+   "topic": "IPv6 Implications for Network Scanning",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5157",
+      "reason": "superseded",
+      "rationale": "RFC7707, published in 2016, addresses similar topics and could be considered a more recent reference on IPv6 implications for network scanning, thus RFC5157 is superseded by RFC7707 as of 2015-03-15."
+     }
+    ]
+   },
+   "prompt_tokens": 664,
+   "completion_tokens": 112,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2837>RFC4044#fault",
+   "link": "RFC2837>RFC4044",
+   "role": "fault",
+   "cited": "RFC2837",
+   "as_of": "2026-10-01",
+   "topic": "Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2837",
+      "reason": "superseded",
+      "rationale": "RFC4044, published in 2005-05, supersedes RFC2837 and provides updated definitions of managed objects for the Fibre Channel Standard, making RFC2837 outdated as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 526,
+   "completion_tokens": 110,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2837>RFC4044#control",
+   "link": "RFC2837>RFC4044",
+   "role": "control",
+   "cited": "RFC4044",
+   "as_of": "2026-10-01",
+   "topic": "Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4044",
+      "reason": "not_applicable",
+      "rationale": "RFC4044 describes managed objects for information related to the Fibre Channel but does not specifically address the Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard as asked in the question."
+     }
+    ]
+   },
+   "prompt_tokens": 519,
+   "completion_tokens": 91,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2837>RFC4044#date-control",
+   "link": "RFC2837>RFC4044",
+   "role": "date-control",
+   "cited": "RFC2837",
+   "as_of": "2004-05-15",
+   "topic": "Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2837",
+      "reason": "superseded",
+      "rationale": "RFC4044, published in 2005-05, supersedes RFC2837 as it provides updated managed objects for the Fibre Channel, and the question asks for the status as of 2004-05-15."
+     }
+    ]
+   },
+   "prompt_tokens": 526,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2621>RFC4671#fault",
+   "link": "RFC2621>RFC4671",
+   "role": "fault",
+   "cited": "RFC2621",
+   "as_of": "2026-10-01",
+   "topic": "RADIUS Accounting Server MIB",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2621",
+      "reason": "superseded",
+      "rationale": "RFC4671, published in 2006-08, supersedes RFC2621 as it provides updated specifications for RADIUS Accounting Server MIB, including extensions for IPv6, which is more relevant as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 505,
+   "completion_tokens": 112,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2621>RFC4671#control",
+   "link": "RFC2621>RFC4671",
+   "role": "control",
+   "cited": "RFC4671",
+   "as_of": "2026-10-01",
+   "topic": "RADIUS Accounting Server MIB",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC4671",
+      "reason": "none",
+      "rationale": "RFC4671 was published in 2006-08 and specifies the RADIUS Accounting Server MIB for IPv6, which is relevant to the question. There is no evidence of a later document that supersedes it by the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 508,
+   "completion_tokens": 115,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2621>RFC4671#date-control",
+   "link": "RFC2621>RFC4671",
+   "role": "date-control",
+   "cited": "RFC2621",
+   "as_of": "2005-08-15",
+   "topic": "RADIUS Accounting Server MIB",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2621",
+      "reason": "superseded",
+      "rationale": "RFC4671, published in 2006-08, supersedes RFC2621 as it provides updated specifications for RADIUS Accounting Server MIB, including extensions for IPv6, which were not available in RFC2621."
+     }
+    ]
+   },
+   "prompt_tokens": 505,
+   "completion_tokens": 105,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5377>RFC8721#fault",
+   "link": "RFC5377>RFC8721",
+   "role": "fault",
+   "cited": "RFC5377",
+   "as_of": "2026-10-01",
+   "topic": "Advice to the Trustees of the IETF Trust on Rights to Be Granted in IETF Documents",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5377",
+      "reason": "superseded",
+      "rationale": "RFC5377 was published in 2008-11 and was superseded by RFC8721, which was published in 2020-02, before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 673,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5377>RFC8721#control",
+   "link": "RFC5377>RFC8721",
+   "role": "control",
+   "cited": "RFC8721",
+   "as_of": "2026-10-01",
+   "topic": "Advice to the Trustees of the IETF Trust on Rights to Be Granted in IETF Documents",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8721",
+      "reason": "none",
+      "rationale": "RFC8721 was published in 2020-02 and there is no evidence of a later document that has replaced it by 2026-10-01. It directly addresses the question asked."
+     }
+    ]
+   },
+   "prompt_tokens": 673,
+   "completion_tokens": 97,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5377>RFC8721#date-control",
+   "link": "RFC5377>RFC8721",
+   "role": "date-control",
+   "cited": "RFC5377",
+   "as_of": "2019-02-15",
+   "topic": "Advice to the Trustees of the IETF Trust on Rights to Be Granted in IETF Documents",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5377",
+      "reason": "superseded",
+      "rationale": "RFC8721 replaced RFC5377 on 2020-02, which is after the date asked about (2019-02-15), but RFC5377 is still the valid document as of 2019-02-15."
+     }
+    ]
+   },
+   "prompt_tokens": 673,
+   "completion_tokens": 103,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8312>RFC9438#fault",
+   "link": "RFC8312>RFC9438",
+   "role": "fault",
+   "cited": "RFC8312",
+   "as_of": "2026-10-01",
+   "topic": "CUBIC for Fast Long-Distance Networks",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8312",
+      "reason": "superseded",
+      "rationale": "RFC9438, published in 2023-08, supersedes RFC8312 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 584,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8312>RFC9438#control",
+   "link": "RFC8312>RFC9438",
+   "role": "control",
+   "cited": "RFC9438",
+   "as_of": "2026-10-01",
+   "topic": "CUBIC for Fast Long-Distance Networks",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC9438",
+      "reason": "not_yet_published",
+      "rationale": "RFC9438 was published in 2023-08, which is after the date asked about (2026-10-01), but since the question is about the future date, this document is valid as it was the latest at the time of its publication and no later document is cited."
+     }
+    ]
+   },
+   "prompt_tokens": 585,
+   "completion_tokens": 119,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8312>RFC9438#date-control",
+   "link": "RFC8312>RFC9438",
+   "role": "date-control",
+   "cited": "RFC8312",
+   "as_of": "2022-08-15",
+   "topic": "CUBIC for Fast Long-Distance Networks",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8312",
+      "reason": "not_yet_published",
+      "rationale": "RFC9438 was published later, but RFC8312 was the most recent document as of 2022-08-15."
+     }
+    ]
+   },
+   "prompt_tokens": 584,
+   "completion_tokens": 85,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2858>RFC4760#fault",
+   "link": "RFC2858>RFC4760",
+   "role": "fault",
+   "cited": "RFC2858",
+   "as_of": "2026-10-01",
+   "topic": "Multiprotocol Extensions for BGP-4",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2858",
+      "reason": "superseded",
+      "rationale": "RFC4760 replaced RFC2858 on 2007-01, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 522,
+   "completion_tokens": 91,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2858>RFC4760#control",
+   "link": "RFC2858>RFC4760",
+   "role": "control",
+   "cited": "RFC4760",
+   "as_of": "2026-10-01",
+   "topic": "Multiprotocol Extensions for BGP-4",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC4760",
+      "reason": "none",
+      "rationale": "RFC4760 was published in 2007 and specifies 'Multiprotocol Extensions for BGP-4', which is relevant as of 2026-10-01. There is no evidence of a later document that has replaced it."
+     }
+    ]
+   },
+   "prompt_tokens": 522,
+   "completion_tokens": 104,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2858>RFC4760#date-control",
+   "link": "RFC2858>RFC4760",
+   "role": "date-control",
+   "cited": "RFC2858",
+   "as_of": "2006-01-15",
+   "topic": "Multiprotocol Extensions for BGP-4",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2858",
+      "reason": "superseded",
+      "rationale": "RFC4760, published in 2007, supersedes RFC2858 and should be considered as of 2006-01-15."
+     }
+    ]
+   },
+   "prompt_tokens": 522,
+   "completion_tokens": 90,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5787>RFC6827#fault",
+   "link": "RFC5787>RFC6827",
+   "role": "fault",
+   "cited": "RFC5787",
+   "as_of": "2026-10-01",
+   "topic": "OSPFv2 Routing Protocols Extensions for Automatically Switched Optical Network (ASON) Routing",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5787",
+      "reason": "superseded",
+      "rationale": "RFC6827, published in 2013, supersedes RFC5787 as it provides updated extensions to the OSPFv2 Link State Routing Protocol for ASON routing."
+     }
+    ]
+   },
+   "prompt_tokens": 910,
+   "completion_tokens": 92,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5787>RFC6827#control",
+   "link": "RFC5787>RFC6827",
+   "role": "control",
+   "cited": "RFC6827",
+   "as_of": "2026-10-01",
+   "topic": "OSPFv2 Routing Protocols Extensions for Automatically Switched Optical Network (ASON) Routing",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC6827",
+      "reason": "none",
+      "rationale": "RFC6827 was published in 2013 and has not been superseded by a later document as of 2026-10-01. It correctly specifies the OSPFv2 Routing Protocols Extensions for ASON Routing as asked in the question."
+     }
+    ]
+   },
+   "prompt_tokens": 909,
+   "completion_tokens": 107,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5787>RFC6827#date-control",
+   "link": "RFC5787>RFC6827",
+   "role": "date-control",
+   "cited": "RFC5787",
+   "as_of": "2012-01-15",
+   "topic": "OSPFv2 Routing Protocols Extensions for Automatically Switched Optical Network (ASON) Routing",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5787",
+      "reason": "superseded",
+      "rationale": "RFC6827, published in 2013, supersedes RFC5787 as of 2012-01-15."
+     }
+    ]
+   },
+   "prompt_tokens": 910,
+   "completion_tokens": 86,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7321>RFC8221#fault",
+   "link": "RFC7321>RFC8221",
+   "role": "fault",
+   "cited": "RFC7321",
+   "as_of": "2026-10-01",
+   "topic": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7321",
+      "reason": "superseded",
+      "rationale": "RFC8221, published in 2017-10, supersedes RFC7321 and should be considered as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 586,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7321>RFC8221#control",
+   "link": "RFC7321>RFC8221",
+   "role": "control",
+   "cited": "RFC8221",
+   "as_of": "2026-10-01",
+   "topic": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8221",
+      "reason": "none",
+      "rationale": "RFC8221 was published in 2017-10 and there is no evidence of a later document that supersedes it as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 586,
+   "completion_tokens": 92,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7321>RFC8221#date-control",
+   "link": "RFC7321>RFC8221",
+   "role": "date-control",
+   "cited": "RFC7321",
+   "as_of": "2016-10-15",
+   "topic": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+   "invalid": false,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reasons": [],
+   "reply": {
+    "verdict": "PASS",
+    "findings": []
+   },
+   "prompt_tokens": 586,
+   "completion_tokens": 14,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5205>RFC8005#fault",
+   "link": "RFC5205>RFC8005",
+   "role": "fault",
+   "cited": "RFC5205",
+   "as_of": "2026-10-01",
+   "topic": "Host Identity Protocol (HIP) Domain Name System (DNS) Extensions",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5205",
+      "reason": "superseded",
+      "rationale": "RFC5205 was superseded by RFC8005 on 2016-10, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 617,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5205>RFC8005#control",
+   "link": "RFC5205>RFC8005",
+   "role": "control",
+   "cited": "RFC8005",
+   "as_of": "2026-10-01",
+   "topic": "Host Identity Protocol (HIP) Domain Name System (DNS) Extensions",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8005",
+      "reason": "none",
+      "rationale": "RFC8005 was published in 2016-10 and has not been superseded by a later document as of 2026-10-01. It correctly specifies the Host Identity Protocol (HIP) Domain Name System (DNS) Extension."
+     }
+    ]
+   },
+   "prompt_tokens": 617,
+   "completion_tokens": 106,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5205>RFC8005#date-control",
+   "link": "RFC5205>RFC8005",
+   "role": "date-control",
+   "cited": "RFC5205",
+   "as_of": "2015-10-15",
+   "topic": "Host Identity Protocol (HIP) Domain Name System (DNS) Extensions",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5205",
+      "reason": "superseded",
+      "rationale": "RFC5205 was superseded by RFC8005, which was published in 2016-10, after the date asked about (2015-10-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 617,
+   "completion_tokens": 96,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3786>RFC5311#fault",
+   "link": "RFC3786>RFC5311",
+   "role": "fault",
+   "cited": "RFC3786",
+   "as_of": "2026-10-01",
+   "topic": "Extending the Number of Intermediate System to Intermediate System (IS-IS) Link State PDU (LSP) Fragments Beyond the 256 Limit",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3786",
+      "reason": "superseded",
+      "rationale": "RFC5311, published in 2009-02, provides a simplified method for extending the Link State PDU (LSP) space beyond the 256 LSP limit and thus supersedes RFC3786 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 604,
+   "completion_tokens": 116,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3786>RFC5311#control",
+   "link": "RFC3786>RFC5311",
+   "role": "control",
+   "cited": "RFC5311",
+   "as_of": "2026-10-01",
+   "topic": "Extending the Number of Intermediate System to Intermediate System (IS-IS) Link State PDU (LSP) Fragments Beyond the 256 Limit",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5311",
+      "reason": "superseded",
+      "rationale": "RFC5311, published in 2009-02, is a later document that simplifies the extension of LSP space for IS-IS. However, the question asks for the document that specifies extending the number of IS-IS LSP fragments beyond the 256 limit as of 2026-10-01. RFC3786, published in 2004-05, was the original document addressing this issue and has not been superseded by RFC5311 in terms of the specific requirement asked about."
+     }
+    ]
+   },
+   "prompt_tokens": 589,
+   "completion_tokens": 169,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3786>RFC5311#date-control",
+   "link": "RFC3786>RFC5311",
+   "role": "date-control",
+   "cited": "RFC3786",
+   "as_of": "2008-02-15",
+   "topic": "Extending the Number of Intermediate System to Intermediate System (IS-IS) Link State PDU (LSP) Fragments Beyond the 256 Limit",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3786",
+      "reason": "superseded",
+      "rationale": "RFC5311, published in 2009-02, provides a simplified method for extending the Link State PDU (LSP) space beyond the 256 LSP limit and could be considered as superseding RFC3786 for the date asked about (2008-02-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 604,
+   "completion_tokens": 122,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7539>RFC8439#fault",
+   "link": "RFC7539>RFC8439",
+   "role": "fault",
+   "cited": "RFC7539",
+   "as_of": "2026-10-01",
+   "topic": "ChaCha20 and Poly1305 for IETF Protocols",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7539",
+      "reason": "superseded",
+      "rationale": "RFC8439, published in 2018-06, supersedes RFC7539 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 587,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7539>RFC8439#control",
+   "link": "RFC7539>RFC8439",
+   "role": "control",
+   "cited": "RFC8439",
+   "as_of": "2026-10-01",
+   "topic": "ChaCha20 and Poly1305 for IETF Protocols",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8439",
+      "reason": "none",
+      "rationale": "RFC8439 was published in 2018-06 and specifies 'ChaCha20 and Poly1305 for IETF Protocols'. There is no evidence of a later document that has replaced it by 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 587,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7539>RFC8439#date-control",
+   "link": "RFC7539>RFC8439",
+   "role": "date-control",
+   "cited": "RFC7539",
+   "as_of": "2017-06-15",
+   "topic": "ChaCha20 and Poly1305 for IETF Protocols",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7539",
+      "reason": "superseded",
+      "rationale": "RFC8439, published in 2018-06, supersedes RFC7539. As of 2017-06-15, RFC7539 was the current document, but it was later replaced by RFC8439."
+     }
+    ]
+   },
+   "prompt_tokens": 587,
+   "completion_tokens": 112,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4551>RFC7162#fault",
+   "link": "RFC4551>RFC7162",
+   "role": "fault",
+   "cited": "RFC4551",
+   "as_of": "2026-10-01",
+   "topic": "IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4551",
+      "reason": "superseded",
+      "rationale": "RFC7162, published in 2014, supersedes RFC4551 and provides updated specifications for the IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization."
+     }
+    ]
+   },
+   "prompt_tokens": 646,
+   "completion_tokens": 92,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4551>RFC7162#control",
+   "link": "RFC4551>RFC7162",
+   "role": "control",
+   "cited": "RFC7162",
+   "as_of": "2026-10-01",
+   "topic": "IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC7162",
+      "reason": "not_yet_published",
+      "rationale": "RFC7162 was published in 2014-05, which is before the date asked about (2026-10-01), but it is the most recent document that addresses the question."
+     }
+    ]
+   },
+   "prompt_tokens": 656,
+   "completion_tokens": 99,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4551>RFC7162#date-control",
+   "link": "RFC4551>RFC7162",
+   "role": "date-control",
+   "cited": "RFC4551",
+   "as_of": "2013-05-15",
+   "topic": "IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC4551",
+      "reason": "none",
+      "rationale": "RFC4551 was published in 2006-06 and specifies the 'IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization'. There is no evidence of a later document that supersedes it by the date asked about (2013-05-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 646,
+   "completion_tokens": 113,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2478>RFC4178#fault",
+   "link": "RFC2478>RFC4178",
+   "role": "fault",
+   "cited": "RFC2478",
+   "as_of": "2026-10-01",
+   "topic": "The Simple and Protected GSS-API Negotiation Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2478",
+      "reason": "superseded",
+      "rationale": "RFC4178, published in 2005-10, supersedes RFC2478 and specifies the Simple and Protected GSS-API Negotiation Mechanism as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 547,
+   "completion_tokens": 102,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2478>RFC4178#control",
+   "link": "RFC2478>RFC4178",
+   "role": "control",
+   "cited": "RFC4178",
+   "as_of": "2026-10-01",
+   "topic": "The Simple and Protected GSS-API Negotiation Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC4178",
+      "reason": "none",
+      "rationale": "RFC4178 is the correct document as of 2026-10-01, and it was published in 2005-10, which is before the date asked about. There is no evidence of a later document that has replaced it."
+     }
+    ]
+   },
+   "prompt_tokens": 555,
+   "completion_tokens": 106,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2478>RFC4178#date-control",
+   "link": "RFC2478>RFC4178",
+   "role": "date-control",
+   "cited": "RFC2478",
+   "as_of": "2004-10-15",
+   "topic": "The Simple and Protected GSS-API Negotiation Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2478",
+      "reason": "superseded",
+      "rationale": "RFC4178, published in 2005-10, replaced RFC2478 as of 2004-10-15."
+     }
+    ]
+   },
+   "prompt_tokens": 547,
+   "completion_tokens": 87,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC1657>RFC4273#fault",
+   "link": "RFC1657>RFC4273",
+   "role": "fault",
+   "cited": "RFC1657",
+   "as_of": "2026-10-01",
+   "topic": "Definitions of Managed Objects for the Fourth Version of the Border Gateway Protocol (BGP-4) using SMIv2",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC1657",
+      "reason": "superseded",
+      "rationale": "RFC4273, published in 2006-01, supersedes RFC1657 and should be considered as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 630,
+   "completion_tokens": 93,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC1657>RFC4273#control",
+   "link": "RFC1657>RFC4273",
+   "role": "control",
+   "cited": "RFC4273",
+   "as_of": "2026-10-01",
+   "topic": "Definitions of Managed Objects for the Fourth Version of the Border Gateway Protocol (BGP-4) using SMIv2",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC4273",
+      "reason": "none",
+      "rationale": "RFC4273 was published in 2006-01 and is relevant as of 2026-10-01. It specifies the Definitions of Managed Objects for BGP-4 using SMIv2, as asked in the question."
+     }
+    ]
+   },
+   "prompt_tokens": 615,
+   "completion_tokens": 105,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC1657>RFC4273#date-control",
+   "link": "RFC1657>RFC4273",
+   "role": "date-control",
+   "cited": "RFC1657",
+   "as_of": "2005-01-15",
+   "topic": "Definitions of Managed Objects for the Fourth Version of the Border Gateway Protocol (BGP-4) using SMIv2",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC1657",
+      "reason": "superseded",
+      "rationale": "RFC4273, published in 2006, supersedes RFC1657 and corrects errors in the MIB module. As of 2005-01-15, RFC1657 had not yet been superseded, but the answer is flagged because RFC4273 is the more current and corrected document."
+     }
+    ]
+   },
+   "prompt_tokens": 630,
+   "completion_tokens": 127,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2793>RFC4103#fault",
+   "link": "RFC2793>RFC4103",
+   "role": "fault",
+   "cited": "RFC2793",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload for Text Conversation",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2793",
+      "reason": "superseded",
+      "rationale": "RFC4103, published in 2005-06, replaced RFC2793 as the document specifying the RTP Payload for Text Conversation."
+     }
+    ]
+   },
+   "prompt_tokens": 509,
+   "completion_tokens": 84,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2793>RFC4103#control",
+   "link": "RFC2793>RFC4103",
+   "role": "control",
+   "cited": "RFC4103",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload for Text Conversation",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC4103",
+      "reason": "none",
+      "rationale": "RFC4103, published in 2005-06, is the document that specifies 'RTP Payload for Text Conversation' and has not been superseded by a later document as of 2026-10-01 according to the provided evidence."
+     }
+    ]
+   },
+   "prompt_tokens": 509,
+   "completion_tokens": 107,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2793>RFC4103#date-control",
+   "link": "RFC2793>RFC4103",
+   "role": "date-control",
+   "cited": "RFC2793",
+   "as_of": "2004-06-15",
+   "topic": "RTP Payload for Text Conversation",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2793",
+      "reason": "superseded",
+      "rationale": "RFC4103, published in 2005-06, supersedes RFC2793. As of 2004-06-15, RFC2793 had not yet been superseded."
+     }
+    ]
+   },
+   "prompt_tokens": 509,
+   "completion_tokens": 102,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6548>RFC8730#fault",
+   "link": "RFC6548>RFC8730",
+   "role": "fault",
+   "cited": "RFC6548",
+   "as_of": "2026-10-01",
+   "topic": "Independent Submission Editor Model",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6548",
+      "reason": "superseded",
+      "rationale": "RFC8730 replaced RFC6548 on 2020-02, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 622,
+   "completion_tokens": 91,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6548>RFC8730#control",
+   "link": "RFC6548>RFC8730",
+   "role": "control",
+   "cited": "RFC8730",
+   "as_of": "2026-10-01",
+   "topic": "Independent Submission Editor Model",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8730",
+      "reason": "none",
+      "rationale": "RFC8730 was published in 2020-02 and specifies the 'Independent Submission Editor Model'. There is no evidence of a later document that supersedes it by the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 622,
+   "completion_tokens": 104,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6548>RFC8730#date-control",
+   "link": "RFC6548>RFC8730",
+   "role": "date-control",
+   "cited": "RFC6548",
+   "as_of": "2019-02-15",
+   "topic": "Independent Submission Editor Model",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6548",
+      "reason": "superseded",
+      "rationale": "RFC8730 replaced RFC6548 on 2020-02, which is after the date asked about (2019-02-15), but RFC6548 was the most recent document specifying the 'Independent Submission Editor Model' as of 2019-02-15."
+     }
+    ]
+   },
+   "prompt_tokens": 622,
+   "completion_tokens": 123,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC1142>RFC7142#fault",
+   "link": "RFC1142>RFC7142",
+   "role": "fault",
+   "cited": "RFC1142",
+   "as_of": "2026-10-01",
+   "topic": "OSI IS-IS Intra-domain Routing Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC1142",
+      "reason": "superseded",
+      "rationale": "RFC1142 was reclassified to Historic by RFC7142 in 2014-02, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 444,
+   "completion_tokens": 96,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC1142>RFC7142#control",
+   "link": "RFC1142>RFC7142",
+   "role": "control",
+   "cited": "RFC7142",
+   "as_of": "2026-10-01",
+   "topic": "OSI IS-IS Intra-domain Routing Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7142",
+      "reason": "superseded",
+      "rationale": "RFC7142 reclassified RFC1142 to Historic status, indicating that RFC1142 is no longer a current standard for specifying the OSI IS-IS Intra-domain Routing Protocol as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 446,
+   "completion_tokens": 104,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC1142>RFC7142#date-control",
+   "link": "RFC1142>RFC7142",
+   "role": "date-control",
+   "cited": "RFC1142",
+   "as_of": "2013-02-15",
+   "topic": "OSI IS-IS Intra-domain Routing Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC1142",
+      "reason": "superseded",
+      "rationale": "RFC1142 was reclassified to Historic by RFC7142, published in 2014, which is after the date asked about (2013-02-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 444,
+   "completion_tokens": 95,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8941>RFC9651#fault",
+   "link": "RFC8941>RFC9651",
+   "role": "fault",
+   "cited": "RFC8941",
+   "as_of": "2026-10-01",
+   "topic": "Structured Field Values for HTTP",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8941",
+      "reason": "superseded",
+      "rationale": "RFC8941 was superseded by RFC9651, which was published on 2024-09, before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 530,
+   "completion_tokens": 96,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8941>RFC9651#control",
+   "link": "RFC8941>RFC9651",
+   "role": "control",
+   "cited": "RFC9651",
+   "as_of": "2026-10-01",
+   "topic": "Structured Field Values for HTTP",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC9651",
+      "reason": "none",
+      "rationale": "RFC9651, published in 2024-09, is the document that specifies 'Structured Field Values for HTTP' as of 2026-10-01, and it has not been superseded by a later document according to the provided evidence."
+     }
+    ]
+   },
+   "prompt_tokens": 530,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8941>RFC9651#date-control",
+   "link": "RFC8941>RFC9651",
+   "role": "date-control",
+   "cited": "RFC8941",
+   "as_of": "2023-09-15",
+   "topic": "Structured Field Values for HTTP",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8941",
+      "reason": "not_yet_published",
+      "rationale": "RFC9651 was published later and does not supersede RFC8941 as of 2023-09-15."
+     }
+    ]
+   },
+   "prompt_tokens": 530,
+   "completion_tokens": 83,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5430>RFC6460#fault",
+   "link": "RFC5430>RFC6460",
+   "role": "fault",
+   "cited": "RFC5430",
+   "as_of": "2026-10-01",
+   "topic": "Suite B Profile for Transport Layer Security (TLS)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5430",
+      "reason": "superseded",
+      "rationale": "RFC6460, published in 2012-01, supersedes RFC5430 as it provides an updated profile for Suite B Cryptography for TLS, and the date asked about is 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 577,
+   "completion_tokens": 107,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5430>RFC6460#control",
+   "link": "RFC5430>RFC6460",
+   "role": "control",
+   "cited": "RFC6460",
+   "as_of": "2026-10-01",
+   "topic": "Suite B Profile for Transport Layer Security (TLS)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC6460",
+      "reason": "not_yet_published",
+      "rationale": "RFC6460 was published in 2012-01, which is before the date asked about (2026-10-01), but there is no evidence of a later document that has replaced it."
+     }
+    ]
+   },
+   "prompt_tokens": 577,
+   "completion_tokens": 101,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5430>RFC6460#date-control",
+   "link": "RFC5430>RFC6460",
+   "role": "date-control",
+   "cited": "RFC5430",
+   "as_of": "2011-01-15",
+   "topic": "Suite B Profile for Transport Layer Security (TLS)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5430",
+      "reason": "superseded",
+      "rationale": "RFC6460, published in 2012-01, supersedes RFC5430 as of 2011-01-15."
+     }
+    ]
+   },
+   "prompt_tokens": 577,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4310>RFC5910#fault",
+   "link": "RFC4310>RFC5910",
+   "role": "fault",
+   "cited": "RFC4310",
+   "as_of": "2026-10-01",
+   "topic": "Domain Name System (DNS) Security Extensions Mapping for the Extensible Provisioning Protocol (EPP)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4310",
+      "reason": "superseded",
+      "rationale": "RFC5910, published in 2010-05, supersedes RFC4310 as it provides an updated specification for the same topic as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 602,
+   "completion_tokens": 99,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4310>RFC5910#control",
+   "link": "RFC4310>RFC5910",
+   "role": "control",
+   "cited": "RFC5910",
+   "as_of": "2026-10-01",
+   "topic": "Domain Name System (DNS) Security Extensions Mapping for the Extensible Provisioning Protocol (EPP)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5910",
+      "reason": "none",
+      "rationale": "RFC5910 is the correct document as of 2026-10-01 and has not been superseded by a later document."
+     }
+    ]
+   },
+   "prompt_tokens": 602,
+   "completion_tokens": 81,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4310>RFC5910#date-control",
+   "link": "RFC4310>RFC5910",
+   "role": "date-control",
+   "cited": "RFC4310",
+   "as_of": "2009-05-15",
+   "topic": "Domain Name System (DNS) Security Extensions Mapping for the Extensible Provisioning Protocol (EPP)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4310",
+      "reason": "superseded",
+      "rationale": "RFC5910, published in 2010-05, supersedes RFC4310 as it addresses the same topic and was published after the date asked about (2009-05-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 602,
+   "completion_tokens": 102,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5306>RFC8706#fault",
+   "link": "RFC5306>RFC8706",
+   "role": "fault",
+   "cited": "RFC5306",
+   "as_of": "2026-10-01",
+   "topic": "Restart Signaling for IS-IS",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5306",
+      "reason": "superseded",
+      "rationale": "RFC5306 was superseded by RFC8706 on 2020-02, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 651,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5306>RFC8706#control",
+   "link": "RFC5306>RFC8706",
+   "role": "control",
+   "cited": "RFC8706",
+   "as_of": "2026-10-01",
+   "topic": "Restart Signaling for IS-IS",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8706",
+      "reason": "none",
+      "rationale": "RFC8706 was published in 2020-02 and specifies 'Restart Signaling for IS-IS'. There is no evidence of a later document that supersedes it by the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 651,
+   "completion_tokens": 105,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5306>RFC8706#date-control",
+   "link": "RFC5306>RFC8706",
+   "role": "date-control",
+   "cited": "RFC5306",
+   "as_of": "2019-02-15",
+   "topic": "Restart Signaling for IS-IS",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_yet_superseded"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5306",
+      "reason": "not_yet_superseded",
+      "rationale": "RFC5306 was published in 2008-10 and had not been superseded by RFC8706 as of 2019-02-15."
+     }
+    ]
+   },
+   "prompt_tokens": 651,
+   "completion_tokens": 95,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2482>RFC6082#fault",
+   "link": "RFC2482>RFC6082",
+   "role": "fault",
+   "cited": "RFC2482",
+   "as_of": "2026-10-01",
+   "topic": "Language Tagging in Unicode Plain Text",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2482",
+      "reason": "superseded",
+      "rationale": "RFC2482 was made historic by RFC6082, which was published in 2010-11, before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 465,
+   "completion_tokens": 96,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2482>RFC6082#control",
+   "link": "RFC2482>RFC6082",
+   "role": "control",
+   "cited": "RFC6082",
+   "as_of": "2026-10-01",
+   "topic": "Language Tagging in Unicode Plain Text",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6082",
+      "reason": "superseded",
+      "rationale": "RFC6082 deprecates RFC2482 and recommends against its use, indicating that RFC2482 is no longer the document specifying 'Language Tagging in Unicode Plain Text' as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 474,
+   "completion_tokens": 105,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2482>RFC6082#date-control",
+   "link": "RFC2482>RFC6082",
+   "role": "date-control",
+   "cited": "RFC2482",
+   "as_of": "2009-11-15",
+   "topic": "Language Tagging in Unicode Plain Text",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2482",
+      "reason": "superseded",
+      "rationale": "RFC2482 was made historic by RFC6082, which was published in 2010-11, after the date asked about (2009-11-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 465,
+   "completion_tokens": 96,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3662>RFC8622#fault",
+   "link": "RFC3662>RFC8622",
+   "role": "fault",
+   "cited": "RFC3662",
+   "as_of": "2026-10-01",
+   "topic": "A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3662",
+      "reason": "superseded",
+      "rationale": "RFC3662 was superseded by RFC8622 on 2019-06, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 734,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3662>RFC8622#control",
+   "link": "RFC3662>RFC8622",
+   "role": "control",
+   "cited": "RFC8622",
+   "as_of": "2026-10-01",
+   "topic": "A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8622",
+      "reason": "superseded",
+      "rationale": "RFC8622, published in 2019-06, specifies a Lower-Effort Per-Hop Behavior (LE PHB), but the question asks for a document that specifies a Lower Effort Per-Domain Behavior (PDB). RFC3662, published in 2003-12, is the document that specifies the PDB as asked in the question. Therefore, RFC8622 is not the correct document to cite for the question asked."
+     }
+    ]
+   },
+   "prompt_tokens": 736,
+   "completion_tokens": 153,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3662>RFC8622#date-control",
+   "link": "RFC3662>RFC8622",
+   "role": "date-control",
+   "cited": "RFC3662",
+   "as_of": "2018-06-15",
+   "topic": "A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3662",
+      "reason": "superseded",
+      "rationale": "RFC3662 was superseded by RFC8622, which was published in 2019-06, after the date asked about (2018-06-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 734,
+   "completion_tokens": 96,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3984>RFC6184#fault",
+   "link": "RFC3984>RFC6184",
+   "role": "fault",
+   "cited": "RFC3984",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload Format for H.264 Video",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3984",
+      "reason": "superseded",
+      "rationale": "RFC6184, published in 2011-05, supersedes RFC3984 and specifies the RTP Payload Format for H.264 Video as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 694,
+   "completion_tokens": 102,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3984>RFC6184#control",
+   "link": "RFC3984>RFC6184",
+   "role": "control",
+   "cited": "RFC6184",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload Format for H.264 Video",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC6184",
+      "reason": "none",
+      "rationale": "RFC6184 was published in 2011-05 and has not been superseded by a later document as of 2026-10-01. It correctly specifies the RTP Payload Format for H.264 Video."
+     }
+    ]
+   },
+   "prompt_tokens": 694,
+   "completion_tokens": 103,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3984>RFC6184#date-control",
+   "link": "RFC3984>RFC6184",
+   "role": "date-control",
+   "cited": "RFC3984",
+   "as_of": "2010-05-15",
+   "topic": "RTP Payload Format for H.264 Video",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC3984",
+      "reason": "not_yet_published",
+      "rationale": "RFC6184, published in 2011-05, replaced RFC3984 for the specification of the RTP Payload Format for H.264 Video after the date asked about (2010-05-15). However, RFC6184 was not published by the date asked about, making RFC3984 the most recent and applicable document as of 2010-05-15."
+     }
+    ]
+   },
+   "prompt_tokens": 694,
+   "completion_tokens": 148,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4244>RFC7044#fault",
+   "link": "RFC4244>RFC7044",
+   "role": "fault",
+   "cited": "RFC4244",
+   "as_of": "2026-10-01",
+   "topic": "An Extension to the Session Initiation Protocol (SIP) for Request History Information",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4244",
+      "reason": "superseded",
+      "rationale": "RFC7044 replaced RFC4244 on 2014-02, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 647,
+   "completion_tokens": 91,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4244>RFC7044#control",
+   "link": "RFC4244>RFC7044",
+   "role": "control",
+   "cited": "RFC7044",
+   "as_of": "2026-10-01",
+   "topic": "An Extension to the Session Initiation Protocol (SIP) for Request History Information",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC7044",
+      "reason": "none",
+      "rationale": "RFC7044 was published in 2014-02 and specifies 'An Extension to the Session Initiation Protocol (SIP) for Request History Information'. There is no evidence of a later document that supersedes it by the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 647,
+   "completion_tokens": 115,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4244>RFC7044#date-control",
+   "link": "RFC4244>RFC7044",
+   "role": "date-control",
+   "cited": "RFC4244",
+   "as_of": "2013-02-15",
+   "topic": "An Extension to the Session Initiation Protocol (SIP) for Request History Information",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC4244",
+      "reason": "superseded",
+      "rationale": "RFC7044 replaced RFC4244 on 2014-02, which is after the date asked about (2013-02-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 647,
+   "completion_tokens": 91,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3230>RFC9530#fault",
+   "link": "RFC3230>RFC9530",
+   "role": "fault",
+   "cited": "RFC3230",
+   "as_of": "2026-10-01",
+   "topic": "Instance Digests in HTTP",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3230",
+      "reason": "superseded",
+      "rationale": "RFC3230 was superseded by RFC9530 on 2024-02, which provides updated specifications for digest fields in HTTP, including the integrity of HTTP message content and representations, as of the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 607,
+   "completion_tokens": 113,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3230>RFC9530#control",
+   "link": "RFC3230>RFC9530",
+   "role": "control",
+   "cited": "RFC9530",
+   "as_of": "2026-10-01",
+   "topic": "Instance Digests in HTTP",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC9530",
+      "reason": "not_yet_published",
+      "rationale": "RFC9530 was published in 2024-02, which is before the date asked about (2026-10-01), but it is the most recent document that addresses the question."
+     }
+    ]
+   },
+   "prompt_tokens": 604,
+   "completion_tokens": 99,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3230>RFC9530#date-control",
+   "link": "RFC3230>RFC9530",
+   "role": "date-control",
+   "cited": "RFC3230",
+   "as_of": "2023-02-15",
+   "topic": "Instance Digests in HTTP",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC3230",
+      "reason": "superseded",
+      "rationale": "RFC3230 was superseded by RFC9530, which was published later but still before the date asked about (2023-02-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 607,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7613>RFC8265#fault",
+   "link": "RFC7613>RFC8265",
+   "role": "fault",
+   "cited": "RFC7613",
+   "as_of": "2026-10-01",
+   "topic": "Preparation, Enforcement, and Comparison of Internationalized Strings Representing Usernames and Passwords",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7613",
+      "reason": "superseded",
+      "rationale": "RFC8265, published in 2017-10, supersedes RFC7613 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 550,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7613>RFC8265#control",
+   "link": "RFC7613>RFC8265",
+   "role": "control",
+   "cited": "RFC8265",
+   "as_of": "2026-10-01",
+   "topic": "Preparation, Enforcement, and Comparison of Internationalized Strings Representing Usernames and Passwords",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8265",
+      "reason": "not_yet_published",
+      "rationale": "RFC8265 was published in 2017-10, but the question asks about the status as of 2026-10-01. However, since no later document is cited that replaces RFC8265, and the question is in the future, the answer is still valid as of the date asked about."
+     }
+    ]
+   },
+   "prompt_tokens": 550,
+   "completion_tokens": 125,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7613>RFC8265#date-control",
+   "link": "RFC7613>RFC8265",
+   "role": "date-control",
+   "cited": "RFC7613",
+   "as_of": "2016-10-15",
+   "topic": "Preparation, Enforcement, and Comparison of Internationalized Strings Representing Usernames and Passwords",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC7613",
+      "reason": "superseded",
+      "rationale": "RFC8265, published in 2017, supersedes RFC7613, and thus RFC7613 is not the most current document as of 2016-10-15."
+     }
+    ]
+   },
+   "prompt_tokens": 550,
+   "completion_tokens": 100,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2767>RFC6535#fault",
+   "link": "RFC2767>RFC6535",
+   "role": "fault",
+   "cited": "RFC2767",
+   "as_of": "2026-10-01",
+   "topic": "Dual Stack Hosts using the \"Bump-In-the-Stack\" Technique (BIS)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2767",
+      "reason": "superseded",
+      "rationale": "RFC2767 was superseded by RFC6535, which introduced a different technique (BIH) for dual-stack hosts. As of 2026-10-01, the more recent RFC6535 would be considered the current standard."
+     }
+    ]
+   },
+   "prompt_tokens": 584,
+   "completion_tokens": 108,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2767>RFC6535#control",
+   "link": "RFC2767>RFC6535",
+   "role": "control",
+   "cited": "RFC6535",
+   "as_of": "2026-10-01",
+   "topic": "Dual Stack Hosts using the \"Bump-In-the-Stack\" Technique (BIS)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6535",
+      "reason": "not_applicable",
+      "rationale": "RFC6535 discusses the 'Bump-in-the-Host' (BIH) technique, not the 'Bump-in-the-Stack' (BIS) technique as asked in the question."
+     }
+    ]
+   },
+   "prompt_tokens": 583,
+   "completion_tokens": 92,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2767>RFC6535#date-control",
+   "link": "RFC2767>RFC6535",
+   "role": "date-control",
+   "cited": "RFC2767",
+   "as_of": "2011-02-15",
+   "topic": "Dual Stack Hosts using the \"Bump-In-the-Stack\" Technique (BIS)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2767",
+      "reason": "superseded",
+      "rationale": "RFC6535, published in 2012, supersedes RFC2767 on the topic of dual-stack hosts using translation techniques, as of the date asked about (2011-02-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 584,
+   "completion_tokens": 102,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2673>RFC6891#fault",
+   "link": "RFC2673>RFC6891",
+   "role": "fault",
+   "cited": "RFC2673",
+   "as_of": "2026-10-01",
+   "topic": "Binary Labels in the Domain Name System",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2673",
+      "reason": "superseded",
+      "rationale": "RFC2673 was published in 1999-08, and while it does specify 'Binary Labels in the Domain Name System', it has been superseded by RFC6891, which was published in 2013-04. However, RFC6891 does not specifically replace the functionality of RFC2673 regarding binary labels. The question asks for the document as of 2026-10-01, and there is no evidence provided that a later document has replaced RFC2673 specifically for binary labels. Therefore, the answer is still valid as of the date asked about, but the superseded status is noted."
+     }
+    ]
+   },
+   "prompt_tokens": 520,
+   "completion_tokens": 193,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2673>RFC6891#control",
+   "link": "RFC2673>RFC6891",
+   "role": "control",
+   "cited": "RFC6891",
+   "as_of": "2026-10-01",
+   "topic": "Binary Labels in the Domain Name System",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC6891",
+      "reason": "not_applicable",
+      "rationale": "RFC6891 describes Extension Mechanisms for DNS (EDNS(0)) and does not specify 'Binary Labels in the Domain Name System'."
+     }
+    ]
+   },
+   "prompt_tokens": 524,
+   "completion_tokens": 81,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2673>RFC6891#date-control",
+   "link": "RFC2673>RFC6891",
+   "role": "date-control",
+   "cited": "RFC2673",
+   "as_of": "2012-04-15",
+   "topic": "Binary Labels in the Domain Name System",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC2673",
+      "reason": "none",
+      "rationale": "RFC2673 was published in 1999-08 and has not been superseded by a later document as of 2012-04-15. It correctly specifies 'Binary Labels in the Domain Name System'."
+     }
+    ]
+   },
+   "prompt_tokens": 520,
+   "completion_tokens": 101,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5268>RFC5568#fault",
+   "link": "RFC5268>RFC5568",
+   "role": "fault",
+   "cited": "RFC5268",
+   "as_of": "2026-10-01",
+   "topic": "Mobile IPv6 Fast Handovers",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC5268",
+      "reason": "superseded",
+      "rationale": "RFC5568, published in 2009-07, supersedes RFC5268 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 640,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5268>RFC5568#control",
+   "link": "RFC5268>RFC5568",
+   "role": "control",
+   "cited": "RFC5568",
+   "as_of": "2026-10-01",
+   "topic": "Mobile IPv6 Fast Handovers",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5568",
+      "reason": "none",
+      "rationale": "RFC5568 was published in 2009-07 and specifies Mobile IPv6 Fast Handovers. There is no evidence of a later document that supersedes it by the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 640,
+   "completion_tokens": 104,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5268>RFC5568#date-control",
+   "link": "RFC5268>RFC5568",
+   "role": "date-control",
+   "cited": "RFC5268",
+   "as_of": "2008-07-15",
+   "topic": "Mobile IPv6 Fast Handovers",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC5268",
+      "reason": "none",
+      "rationale": "RFC5268 was published in June 2008 and specifies Mobile IPv6 Fast Handovers, which is relevant as of 2008-07-15. RFC5568, published later in July 2009, does not supersede it for the date in question."
+     }
+    ]
+   },
+   "prompt_tokens": 640,
+   "completion_tokens": 115,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8843>RFC9143#fault",
+   "link": "RFC8843>RFC9143",
+   "role": "fault",
+   "cited": "RFC8843",
+   "as_of": "2026-10-01",
+   "topic": "Negotiating Media Multiplexing Using the Session Description Protocol (SDP)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC8843",
+      "reason": "superseded",
+      "rationale": "RFC9143, published in 2022-02, supersedes RFC8843 as of 2026-10-01."
+     }
+    ]
+   },
+   "prompt_tokens": 696,
+   "completion_tokens": 89,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8843>RFC9143#control",
+   "link": "RFC8843>RFC9143",
+   "role": "control",
+   "cited": "RFC9143",
+   "as_of": "2026-10-01",
+   "topic": "Negotiating Media Multiplexing Using the Session Description Protocol (SDP)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC9143",
+      "reason": "not_yet_published",
+      "rationale": "RFC9143 was published in 2022-02, which is after the date asked about (2026-10-01). However, since the question asks for the document as of 2026-10-01 and RFC9143 is the latest document available, it is considered valid."
+     }
+    ]
+   },
+   "prompt_tokens": 696,
+   "completion_tokens": 126,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8843>RFC9143#date-control",
+   "link": "RFC8843>RFC9143",
+   "role": "date-control",
+   "cited": "RFC8843",
+   "as_of": "2021-02-15",
+   "topic": "Negotiating Media Multiplexing Using the Session Description Protocol (SDP)",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_superseded"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8843",
+      "reason": "not_superseded",
+      "rationale": "RFC8843 was published in 2021-01 and was not superseded by RFC9143 as of 2021-02-15."
+     }
+    ]
+   },
+   "prompt_tokens": 696,
+   "completion_tokens": 92,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2910>RFC8010#fault",
+   "link": "RFC2910>RFC8010",
+   "role": "fault",
+   "cited": "RFC2910",
+   "as_of": "2026-10-01",
+   "topic": "Internet Printing Protocol/1.1: Encoding and Transport",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2910",
+      "reason": "superseded",
+      "rationale": "RFC2910 was superseded by RFC8010 on 2017-01, which is before the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 555,
+   "completion_tokens": 94,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2910>RFC8010#control",
+   "link": "RFC2910>RFC8010",
+   "role": "control",
+   "cited": "RFC8010",
+   "as_of": "2026-10-01",
+   "topic": "Internet Printing Protocol/1.1: Encoding and Transport",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "none"
+   ],
+   "reply": {
+    "verdict": "PASS",
+    "findings": [
+     {
+      "doc_id": "RFC8010",
+      "reason": "none",
+      "rationale": "RFC8010 was published in 2017-01 and specifies 'Internet Printing Protocol/1.1: Encoding and Transport'. There is no evidence of a later document that supersedes it by the date asked about (2026-10-01)."
+     }
+    ]
+   },
+   "prompt_tokens": 555,
+   "completion_tokens": 110,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2910>RFC8010#date-control",
+   "link": "RFC2910>RFC8010",
+   "role": "date-control",
+   "cited": "RFC2910",
+   "as_of": "2016-01-15",
+   "topic": "Internet Printing Protocol/1.1: Encoding and Transport",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "RFC2910",
+      "reason": "superseded",
+      "rationale": "RFC2910 was superseded by RFC8010 on 2017-01, which is after the date asked about (2016-01-15)."
+     }
+    ]
+   },
+   "prompt_tokens": 555,
+   "completion_tokens": 94,
+   "dropped": false
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+  "issuer": "Tamil Nadu Generation and Distribution Corporation Ltd (TANGEDCO), Technical Branch, O/o Chief Engineer/Commercial",
+  "source_url": "https://tneb.tnebnet.org/test1/soi(100519).pdf",
+  "landing_page_url": "https://tneb.tnebnet.org/",
+  "domain_note": "tneb.tnebnet.org is TANGEDCO's own domain (not *.gov.in); reached via web search hit, not via a landing-page link",
+  "doc_type": "DISCOM working instruction implementing TNERC Order No.03 of 2019 dt 25.03.2019",
+  "title": "TANGEDCO – Tamil Nadu Solar Energy Policy -2019 – Order on Rooftop Solar Generation by the TNERC – Working instruction issued for implementation of Solar net feed-in connection",
+  "number": "Memo.No.CE/Comml/EE/R&C/AEE1/F.Solar NFI/D. 099 /19",
+  "printed_date": "10.05.2019",
+  "file": "TANGEDCO-test1-soi-100519.pdf",
+  "fetched_at": "2026-10-01T16:53:32Z",
+  "http_status": 200,
+  "sha256": "1b94d3c2b792f82cdb8f9fb9a49c5924bacf698c94a73c867abf8f62da001ffd",
+  "pages": 21,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Para 2 (capacity cap vs sanctioned demand)",
+      "verbatim_quote": "Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.",
+      "page": 1,
+      "topic": "capacity cap % of sanctioned load",
+      "numeric_values": {
+        "cap_pct_sanctioned_load": 100
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Para 3 (voltage/phase thresholds)",
+      "verbatim_quote": "415 V at the option of the consumer. For load exceeding 4 kW upto 112 KW , the voltage level is 415V, three phase.",
+      "page": 2,
+      "topic": "meter/phase threshold",
+      "numeric_values": {
+        "single_phase_option_max_kw": 4,
+        "three_phase_415V_up_to_kw": 112
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Para 5 (DT hosting limit)",
+      "verbatim_quote": "connectivity to roo ftop solar systems shall be restricted to 90% of the distribution transformer capacity on the basis of first c ome first served.",
+      "page": 2,
+      "topic": "DT hosting capacity",
+      "numeric_values": {
+        "dt_limit_pct": 90
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Para 6 (feasibility timeline)",
+      "verbatim_quote": "The feasibility intimation letter/ approval should be issued within 3 working days from the date of registration of application.",
+      "page": 2,
+      "topic": "feasibility timeline",
+      "numeric_values": {
+        "working_days": 3
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Para 14 (inspection authority threshold)",
+      "verbatim_quote": "For Solar PV installations below 10 KW, the Assistant Executive Engineer/O&M concerned shall be the inspection authority.",
+      "page": 5,
+      "topic": "threshold kW",
+      "numeric_values": {
+        "kw": 10
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

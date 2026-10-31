@@ -1,0 +1,18 @@
+{
+  "source_url": "https://srtpv.bescom.org/SRTPV/document/Processing%20of%20DSPV%20applications%20registered%20on%20or%20after%2001%2007%202026.pdf",
+  "landing_page_url": "https://srtpv.bescom.org/SRTPV/",
+  "domain_note": "Hosted on BESCOM's own SRTPV portal srtpv.bescom.org (BESCOM is a wholly Government of Karnataka undertaking) - NOT a *.gov.in or kerc.karnataka.gov.in domain; kerc.karnataka.gov.in and bescom.karnataka.gov.in were unreachable from the collection host (see FAILURES.md). Authenticity vs the KERC-hosted original is unconfirmed (same-bytes check pending).",
+  "issuer": "Bangalore Electricity Supply Company Ltd (BESCOM), DSM Section",
+  "doc_type": "SCAN - needs OCR/human reading",
+  "title": "Processing of DSPV applications and execution of Consent/PPA for applications registered on or after 01.07.2026 (portal label)",
+  "number": "unknown",
+  "printed_date": "unknown",
+  "note": "scan, no text layer; no clauses extracted",
+  "file": "BESCOM-Processing-DSPV-applications-2026-07-01.pdf",
+  "fetched_at": "2026-10-01T16:56:10Z",
+  "http_status": 200,
+  "sha256": "afc4e17521684b4f6783477fb905d19238b146b509fe936613b2f97c85e18d0b",
+  "pages": 2,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

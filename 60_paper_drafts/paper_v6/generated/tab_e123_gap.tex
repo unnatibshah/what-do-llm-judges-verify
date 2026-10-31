@@ -1,0 +1,17 @@
+\begin{table*}[t]\centering\footnotesize
+\caption{The 24 gap faults per judge: faults whose link the damaged record dropped (half the 48 links, seed 0). Same items in every column. The four damaged-record presentations use the same damaged record. Bare: passes with no finding under the authoritative ``in force'' line. $p$: exact McNemar, Holm-adjusted; H2a compares the authoritative line with no record, H2b each other presentation with the authoritative line.}
+\label{tab:e123-gap}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccc c cccc}
+\toprule
+ & No record & \multicolumn{4}{c}{Damaged record, presented as} & & \multicolumn{4}{c}{Holm $p$} \\
+\cmidrule(lr){3-6}\cmidrule(lr){8-11}
+Judge & (texts) & record, ``in force'' & ``no replacement recorded'' & unverified note & record + warning & Bare & H2a & wording & authority & warning \\
+\midrule
+Gemma 4 26B & \EGemmaGapTexts & \EGemmaGapDamaged & \EGemmaGapNorecord & \EGemmaGapLowauth & \EGemmaGapCaveat & \EGemmaBareDamaged & \EGemmaHTwoaHolm & \EGemmaArmNorecordHolm & \EGemmaArmLowauthHolm & \EGemmaArmCaveatHolm \\
+GPT-5.5 & \EGPTGapTexts & \EGPTGapDamaged & \EGPTGapNorecord & \EGPTGapLowauth & \EGPTGapCaveat & \EGPTBareDamaged & \EGPTHTwoaHolm & \EGPTArmNorecordHolm & \EGPTArmLowauthHolm & \EGPTArmCaveatHolm \\
+Gemini 3.1 Pro & \EGeminiGapTexts & \EGeminiGapDamaged & \EGeminiGapNorecord & \EGeminiGapLowauth & \EGeminiGapCaveat & \EGeminiBareDamaged & \EGeminiHTwoaHolm & \EGeminiArmNorecordHolm & \EGeminiArmLowauthHolm & \EGeminiArmCaveatHolm \\
+Claude Opus 4.5 & \EOpusGapTexts & \EOpusGapDamaged & \EOpusGapNorecord & \EOpusGapLowauth & \EOpusGapCaveat & \EOpusBareDamaged & \EOpusHTwoaHolm & \EOpusArmNorecordHolm & \EOpusArmLowauthHolm & \EOpusArmCaveatHolm \\
+\bottomrule
+\end{tabular}}
+\end{table*}

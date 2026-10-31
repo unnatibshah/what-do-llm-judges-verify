@@ -1,0 +1,1217 @@
+{
+ "nodes": [
+  {
+   "node_id": "GJ-C3-001#cl-2.1(i)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(i)",
+   "topic": "definition: contracted/sanctioned load",
+   "snippet": "i) “Contracted load” or “Sanctioned load” or “Contracted demand” means\nthe maximum demand in kW, kVA or HP, agreed to be supplied by the\nlicensee and indicated in the agreement executed between the licensee and\nthe consumer;",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-2.1(l)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(l)",
+   "topic": "eligibility: eligible consumer (self-owned system)",
+   "snippet": "l) “Eligible Consumer” means a consumer of electricity in the area of supply\nof the distribution licensee, who intends to use a Rooftop Solar PV System,\ngiven that such system is self owned, to offset part or all of the consumer's\nown electrical requirements.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-2.1(p)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(p)",
+   "topic": "definition: net metering",
+   "snippet": "p) \"Net Metering\" means an arrangement under which Rooftop Solar PV System\ninstalled at Eligible Consumer’s premises delivers surplus electricity, if any,\nto the Distribution Licensee after off-setting the electricity supplied by the\ndistribution licensee to such Eligible Consumer during the applicable billing\nperiod.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-3.1",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "3.1",
+   "topic": "scope and application",
+   "snippet": "3.1 These Regulations shall apply to the distribution licensee and consumers of\nelectricity of distribution licensee availing supply from it in its area of supply in\nthe State of Gujarat, or consumers who are receiving electricity from its own\ngenerating source but situated in the distribution licensee area.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-3.3",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "3.3",
+   "topic": "capacity limit: projects above 1 MW outside net metering",
+   "snippet": "3.3 These Regulations do not preclude the right of relevant Distribution licensee or\nState Government Department/authorities to undertake Rooftop Solar PV\nprojects above 1 MW capacity through alternative mechanisms.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-4",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "4",
+   "topic": "general principles: net metering on first come first served basis",
+   "snippet": "The distribution licensee shall provide the net metering arrangement to the\neligible consumer, who intends to install grid connected Rooftop Solar PV\nSystem, in its area of supply on non-discriminatory and first come first served\nbasis.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-5",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "5",
+   "topic": "DT hosting limit (cumulative capacity <= 65% of DT peak capacity)",
+   "snippet": "5 Capacity Targets for Distribution Licensee\nThe Distribution Licensee shall provide net metering arrangement to Eligible\nConsumers.\nProvided that the cumulative capacity to be allowed at a particular distribution\ntransformer shall not exceed 65% of the peak capacity of the distribution\ntransformer;",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-5.1",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "5.1",
+   "topic": "DT capacity update yearly; augmentation cost borne by consumer; minimum 1 kW",
+   "snippet": "5.1 The distribution licensee shall update distribution transformer capacity available\nfor connecting Rooftop Solar PV Systems under net metering arrangement on\nyearly basis and shall provide the information to the Commission.\nProvided that if augmentation of transformer/distribution network is required,\nthe cost of such augmentation shall be borne by the consumer.\nThe capacity of Rooftop Solar PV System to be installed at the premises of any\nconsumer shall not be less than one Kilo Watt (1kW).",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-6.1",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.1",
+   "topic": "eligibility conditions (own/legal possession, consume at same premises)",
+   "snippet": "6.1 In addition to the general eligibility defined in Regulation 2.1(l) of these\nRegulations, the Eligible Consumer for the Rooftop Solar PV System with net\nmetering shall:\ni. be a consumer of the local distribution licensee;\nii. own or be in legal possession of the premises including the rooftop or\nterrace or building or infrastructure or open areas of the land or part or\ncombination thereof on which the Solar PV System is proposed to be\ninstalled;\niii. connect the proposed Rooftop Solar PV System to the Distribution System\nof the Licensee;\niv. consume all of the electricity generated from th",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-6.2",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.2",
+   "topic": "capacity limit vs sanctioned/contract load (50%; 1 kW to 1 MW)",
+   "snippet": "6.2 The maximum Rooftop Solar PV System capacity to be installed at any Eligible\nConsumer’s premises shall be upto a maximum of 50% of consumer’s sanctioned\nload/contract demand;\nProvided that the installed capacity shall not be less than 1 kW and shall not\nexceed 1 MW;\nProvided also that the installed capacity is aligned with the provisions for\npermitting consumer connections as stated in the Gujarat Electricity Regulatory\nCommission (Electricity Supply Code and Related Matters) Regulations, 2015 as\namended from time to time, read with the provisions of GERC (Terms and\nConditions of the Intra",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-7",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "7",
+   "topic": "timelines: application procedure activity chart (GEDA registration, TFR, connectivity); feasibility/technical study",
+   "snippet": "7 Procedure for Application\nVarious activities and different authorities are associated with the Solar Rooftop PV\nproject. It is necessary that the different entities carry out the works within\nprescribed time limit. Therefore, time frame prescribed in the table below shall be\nscrupulously followed by the concerned authorities.\n\n| Sr. No. | Activity | Sub Activity | Duration in day(s) |\n| --- | --- | --- | --- |\n| 1. | Registration at GEDA | GEDA shall issue Registration Certificate | 5 days from receipt of duty completed application |\n| 2. | Approval from Chief Electrical Inspector | CEI shal",
+   "effective_date": "2016-06-17",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-8(2)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "8(2)",
+   "topic": "metering/phase threshold: connectivity levels (240 V single phase up to 6 kW; 415 V three phase; HT above 100 kW)",
+   "snippet": "(2)The connectivity levels at which the Rooftop PV Solar System shall be connected\nwith the grid are as specified below:\n\n| Sr. No. | Connected load of Eligible Consumer | Connectivity level |\n| --- | --- | --- |\n| 1. | Upto 6 kW | 240 V- single phase |\n| 2. | Above 6 kW and upto 18.65 kW | 415 V-Three phase |\n| 3. | Above 18.65 kW and upto 100 kW/kVA | 415 V-Three phase |\n| 4. | Above 100 kW/kVA | HT level |",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-9",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "9",
+   "topic": "settlement/banking: energy accounting and settlement (inadvertent injection; billing details)",
+   "snippet": "9 Energy Accounting and Settlement\nAny energy injected prior to commissioning shall be deemed as inadvertent power.\nThe consumer/Solar PV owner is not eligible to receive any monetary compensation\nfor such inadvertent power.\n9.1 For each billing period, the licensee shall show the quantum of electricity\ninjected by Eligible Consumer/Solar PV system in the grid, electricity supplied by\nthe distribution licensee, net billed electricity for payment by the consumer and\nnet exported energy after adjustment against the consumption separately.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-9.2",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.2",
+   "topic": "settlement/banking: residential & government surplus purchased at APPC; banking within billing cycle",
+   "snippet": "(1) For Residential and Government consumers\n9.2 In the event the electricity supplied by the distribution licensee during any\nbilling period exceeds the electricity generated by the Eligible Consumer’s\nRooftop Solar PV System, the distribution licensee shall raise invoice for the net\nelectricity consumption at the consumer’s prevailing tariff;\n19\n\n--- Page 21 ---\nIn the event the electricity injected exceeds the electricity consumed during\nthe billing period, such excess injected electricity shall be purchased by the\nconcerned Distribution Licensee at the APPC rate determined by the Commissio",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-9.3",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.3",
+   "topic": "settlement/banking: industrial/commercial (no REC) surplus at APPC; banking within billing cycle",
+   "snippet": "9.3 In the event the electricity supplied by the distribution licensee during any\nbilling period exceeds the electricity generated by the Eligible Consumer’s\nRooftop Solar PV System, the distribution licensee shall raise invoice for the net\nelectricity consumption at the consumer’s prevailing tariff;\nIn the event the electricity injected exceeds the electricity consumed during\nthe billing period, such excess injected electricity after adjustment of\nconsumption shall be purchased by the concerned Distribution Licensee at the\nAPPC rate determined by the Commission for the year in which the Rooft",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-9.5",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.5",
+   "topic": "settlement/tariff: REC consumers surplus at 85% of APPC, 15-minute block",
+   "snippet": "9.5 In the event the electricity supplied by the distribution licensee during any\nbilling period exceeds the electricity generated by the Eligible Consumer’s\nRooftop Solar PV System, the distribution licensee shall raise invoice for the net\nelectricity consumption at the consumer’s prevailing tariff;\n21\n\n--- Page 23 ---\nIn the event the electricity injected exceeds the electricity consumed during\nthe billing period, such excess injected electricity after adjustment of\nconsumption in 15 minute time block shall be purchased by the concerned\nDistribution Licensee at the 85% of APPC rate determine",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-12.1",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "12.1",
+   "topic": "other charges: exemption from transmission/wheeling charges, CSS, AS",
+   "snippet": "12.1 The Rooftop Solar PV System under net metering arrangement, installed on the\nEligible Consumer’s premises, shall be exempted from Transmission Charge,\nTransmission Loss, Wheeling Charge, Wheeling Loss, Cross Subsidy Surcharge and\nAdditional Surcharge.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-13.2",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "13.2",
+   "topic": "metering: bi-directional meter or two meters, same accuracy class",
+   "snippet": "13.2 Bi-directional meter or alternately two separate meters for import and export of\nthe same accuracy class as the consumer’s meter existing before the\ncommissioning of the Rooftop Solar PV System shall be installed in replacement\nof existing meter. Such meters may be provided by the distribution licensee or\nconsumer. If the meter is installed by the distribution licensee in that case, cost\nof the same shall be recovered from the consumer.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-13.5",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "13.5",
+   "topic": "metering: solar meter 0.2s class; check meter mandatory above 20 kW",
+   "snippet": "13.5 The main Solar Meters shall be of 0.2s class accuracy and with facility for\nrecording meter readings using Meter Reading Instrument (MRI) or wireless\nequipment. Check meters shall be mandatory for Rooftop Solar PV Systems\nhaving capacity more than 20 kW. For installations size of less than or equal to\n20 kW, the Solar Check meters would be optional.\nProvided that the cost of new/additional meter (s) shall be borne by the Eligible\nConsumer such meter shall be tested and installed by the distribution licensee.\nThe meters installed shall be inspected, verified for the accuracy and sealed by",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-III",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-III",
+   "topic": "connectivity charges by system size",
+   "snippet": "Annexure-III\nConnectivity charges payable by the solar roof top consumer/Solar PV project\nowner\nConnectivity Charges applicable for Rooftop Solar PV System shall be as under:\n\n| System Size | Applicable fees per connection |\n| --- | --- |\n| From 1 kW up to 6 kW | INR 1,500 |\n| More than 6 kW up to 100 kW | INR 10,000 |\n| More than 100 kW up to 1 MW | INR 50,000 |\n\nThe Connectivity Charges for Rooftop Solar PV System shall be payable to the\nrespective Distribution Licensee.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-IV.1.3",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.1.3",
+   "topic": "capacity limit vs sanctioned/contract load in interconnection agreement (50% during initial 2 years)",
+   "snippet": "1.3 Consumer shall ensure capacity of Rooftop Solar not to exceed 50% of his contract\nload/demand/sanctioned load during initial 2 years of the connectivity\nagreement.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-IV.6",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.6",
+   "topic": "metering in interconnection agreement (bi-directional / ABT meter)",
+   "snippet": "6. Metering:\nMetering arrangement shall be as per Central Electricity Authority (Installation and\nOperation of Meters) Regulations, 2006 as amended from time to time.\n(a) In case of Residential and Government Buildings, Bi-directional meter shall be\ninstalled of same accuracy class as installed before setting up of Rooftop Solar PV\nSystem.\n35\n\n--- Page 37 ---\n(b) In case of Industrial, Commercial and other consumers-\n(i) Type-1 consumer (consumers not utilizing ‘Renewable’ attribute for RPO or\nREC)-Bi-directional meter shall be installed of same accuracy class as installed\nbefore setting up of",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-IV.7(A)(ii)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(A)(ii)",
+   "topic": "settlement/tariff: residential & govt net export at APPC (agreement)",
+   "snippet": "(ii) In case of net export of energy by the consumer to distribution grid during\nbilling cycle, Distribution Licensee shall purchase surplus power, after\ngiving set off against consumption during the billing period, at the Average\nPooled Power Purchase Cost (APPC) as determined by the Commission for\nthe year in which the Rooftop Solar PV System is commissioned over the\nlife of the system i.e. 25 years. Such surplus purchase shall be utilized for\n36\n\n--- Page 38 ---\nmeeting RPO of Distribution Licensee. However, fixed / demand charges,\nother charges, penalty etc shall be payable as applicable t",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-IV.7(B)(a)(ii)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(B)(a)(ii)",
+   "topic": "settlement/tariff: Type-1 industrial/commercial net export at APPC (agreement)",
+   "snippet": "(ii) In case of net export of energy by the consumer to distribution grid\nduring billing cycle, Distribution Licensee shall purchase surplus power,\nafter giving set off against consumption during the billing period, at the\nAverage Pooled Power Purchase Cost (APPC) determined by the\nCommission for the year in which Rooftop Solar PV System is\ncommissioned, over the life of the system i.e. 25 years. Such surplus\npurchase shall be utilized for meeting RPO of Distribution Licensee.\nHowever, fixed / demand charges, peak charges, other charges, penalty\netc shall be payable as applicable to the respec",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-IV.7(B)(b)(ii)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(B)(b)(ii)",
+   "topic": "settlement/tariff: Type-2(a) RPO consumers 15-min net export at APPC (agreement)",
+   "snippet": "(ii) In case of net export of power on 15 minutes basis after giving set\noff against consumption, Distribution Licensee shall purchase such\nsurplus power at the APPC determined by the Commission for the year\nin which the Rooftop Solar PV System is commissioned over the life of\nthe system i.e. 25 years. Such surplus purchase shall be utilized for\nmeeting RPO of Distribution Licensee. However, fixed / demand\ncharges, peak charges, other charges, penalty etc. shall be payable as\napplicable to the respective category of consumers.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-IV.7(B)(c)(ii)",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(B)(c)(ii)",
+   "topic": "settlement/tariff: Type-2(b) REC consumers net export at 85% APPC (agreement)",
+   "snippet": "(ii) In case of net export of power on 15 minutes basis after giving set\noff against consumption, Distribution Licensee shall purchase such\nsurplus power at the 85% of APPC determined by the Commission for\nthe year in which the Rooftop Solar PV System is commissioned over\nthe life of the system i.e. 25 years. However, fixed / demand\ncharges, peak charges, other charges, penalty etc shall be payable as\napplicable to the respective category of consumers.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-001#cl-Annexure-IV.8.1",
+   "doc_id": "GJ-C3-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.8.1",
+   "topic": "connection costs: consumer bears service line/transformer upgradation (agreement)",
+   "snippet": "8.1 The Consumer shall bear all costs related to setting up of Rooftop Solar\nPhotovoltaic System including metering and inter-connection. The Consumer\nagrees to pay the actual cost of modifications and upgrades to the service line,\ncost of up gradation of transformer to connect photovoltaic system to the grid in\ncase it is required.",
+   "effective_date": "2016-06-17",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-002#cl-6.2",
+   "doc_id": "GJ-C3-002",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.2",
+   "topic": "capacity limit vs sanctioned load: 50% for non-residential; residential irrespective of sanctioned load (First Amendment para 3)",
+   "snippet": "The maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s\npremises except Residential Consumers shall be upto a maximum of 50% of consumer’s\nsanctioned load/contract demand; whereas in case of Residential Consumers, the Rooftop\nSolar PV System capacity shall be irrespective of their sanctioned load/contract demand.",
+   "effective_date": "2017-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-002#cl-7",
+   "doc_id": "GJ-C3-002",
+   "jurisdiction": "GJ",
+   "clause_ref": "7",
+   "topic": "application procedure Sr 3: capacity subject to Regulation 6.2 (First Amendment para 4)",
+   "snippet": "4) Amendment in Regulation 7 of the Principal Regulations:\nFirst bullet point of Sub Activity (3) of Regulation 7 regarding the capacity of the Solar\nRooftop plant to be installed at Consumer’s premises stands amended as under:-\n\n| Sr. No. | Activity | Sub Activity | Duration in day(s) |\n| --- | --- | --- | --- |\n| 3. | Application to Distribution Licensee | Applicant shall submit application in the prescribed format along with following compliance and documents to Distribution Licensee • Capacity of Solar Rooftop to be installed (Subject to Regulation 6.2) |",
+   "effective_date": "2017-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-002#cl-Annexure-IV.1.3",
+   "doc_id": "GJ-C3-002",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.1.3",
+   "topic": "capacity limit in interconnection agreement: 50% non-residential; residential irrespective (First Amendment para 5)",
+   "snippet": "Consumer other than Residential Consumer shall ensure capacity of Rooftop Solar not to\nexceed 50% of his contract load/demand/sanctioned load during initial 2 years of the\nconnectivity agreement; whereas in case of Residential Consumers, the Rooftop Solar PV\nSystem capacity shall be irrespective of their sanctioned load/contract demand.",
+   "effective_date": "2017-10-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-2.1(oa)",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(oa)",
+   "topic": "eligibility: new definition MSME (Manufacturing) enterprise (Second Amendment para 3)",
+   "snippet": "(oa) “Micro, Small and Medium (Manufacturing) Enterprise or MSME\n(Manufacturing) Enterprise” shall mean a registered enterprise as per\nthe definition of Micro, Small and Medium Manufacturing Enterprises\nand in accordance with the provisions of the Micro, Small and Medium\nEnterprises Development (MSMED) Act, 2006 as amended from time\nto time.",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-5",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "5",
+   "topic": "DT hosting limit raised to full DT capacity (Second Amendment para 4, second para of Reg 5)",
+   "snippet": "4) Amendment in Regulation 5 of the Principal Regulation\nThe second para of Regulation 5 of the Principal Regulations shall stand\namended as under:\nProvided that the cumulative capacity to be allowed at a particular\ndistribution transformer shall not exceed capacity of the distribution\ntransformer;",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-6.2",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.2",
+   "topic": "capacity limit vs sanctioned load: 50% except residential (incl. common utilities) and MSME (Manufacturing) (Second Amendment para 5)",
+   "snippet": "The maximum Rooftop Solar PV System capacity to be installed at any\nEligible Consumer’s premises except Residential Consumers (including\nconnections for common utilities such as water works, elevators,\ncommon passage lights, street lights, garden, gym, swimming pool\netc. which are being charged residential tariff) and MSME\n(Manufacturing) Enterprise shall be upto a maximum of 50% of\nconsumer’s sanctioned load/contract demand; whereas in case of\nResidential Consumers (including connections for common utilities\nsuch as water works, elevators, common passage lights, street lights,\ngarden, gym, sw",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-7",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "7",
+   "topic": "application procedure: GEDA or designated agency; Sr 11 protection (Second Amendment para 6)",
+   "snippet": "6) Amendment in Regulation 7 of the Principal Regulations:\nPage 3\n\n--- Page 4 ---\nIn this Regulation wherever the word ‘GEDA’ appears, the same shall\nstand replaced by ‘GEDA or agency designated by the Government of\nGujarat’.\nIn table at Sr.No. 11 Subactivity no.5 shall stand replaced as under:\n“5. Installation of proper protection system (inverter shall have anti\nislanding feature) along with second line of protection such as no volt\nrelay (for Solar PV system above 10 Kw), applicant has to pay\nconnectivity charges and execute connectivity agreement with\nDistribution Licensee”",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-9",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "9",
+   "topic": "settlement/banking: Regulation 9 replaced (inadvertent power; billing details) (Second Amendment para 7)",
+   "snippet": "7) Amendment in Regulation 9 of the Principal Regulations:\nRegulation 9 “Energy Accounting and Settlement” of the Principal\nRegulations shall stand replaced as under:\n9) Energy Accounting and Settlement\nAny energy injected prior to commissioning shall be deemed as\ninadvertent power. The consumer/Solar PV owner is not eligible to\nreceive any monetary compensation for such inadvertent power.\nFor each billing period, the licensee shall show the quantum of\nelectricity injected by Eligible Consumer/Solar PV system in the grid,\nelectricity supplied by the distribution licensee, net billed electricit",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-9.1",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.1",
+   "topic": "settlement/banking: residential & govt surplus at Rs 2.25/unit SIC; banking within billing cycle",
+   "snippet": "9.1 For Residential and Government Consumers\nIn the event the electricity supplied by the distribution licensee\nPage 4\n\n--- Page 5 ---\nduring any billing period exceeds the electricity generated by the\nEligible Consumer’s Rooftop Solar PV System, the distribution\nlicensee shall raise an invoice for the net electricity consumption\nat the consumer’s prevailing tariff;\nIn the event the electricity injected exceeds the electricity\nconsumed during the billing period, such excess injected electricity\nshall be compensated by the concerned Distribution Licensee at\nthe rate of Rs. 2.25 per unit or the",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-9.2",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.2",
+   "topic": "settlement/banking: industrial (non-MSME)/commercial surplus at Rs 1.75/unit; banking within billing cycle",
+   "snippet": "9.2 For Industrial other than MSME (Manufacturing) Enterprise,\nCommercial and Other Consumers utilizing the ‘energy\nattribute’ of the generated solar energy from the Rooftop\nSolar PV System and not registered under REC mechanism\nIn the event the electricity supplied by the distribution licensee\nduring any billing period exceeds the electricity generated by the\nEligible Consumer’s Rooftop Solar PV System, the distribution\nlicensee shall raise an invoice for the net electricity consumption\nat the consumer’s prevailing tariff;\nIn the event the electricity injected exceeds the electricity\nconsumed",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-9.3",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.3",
+   "topic": "settlement: MSME (Manufacturing) 15-minute accounting, Rs 1.75/unit; within 50% governed by 9.2",
+   "snippet": "9.3 For MSME (Manufacturing) Enterprise Consumers utilizing\nthe ‘energy attribute’ of the generated solar energy from\nthe Rooftop Solar PV System and not registered under REC\nmechanism.\nThe energy accounting shall be carried out on 15 minutes time\nblock basis\nIn the event the electricity injected by the Rooftop Solar PV System\nexceeds the electricity consumed during any 15 minutes time block\nresulting in net energy injection in to the grid, such excess\ninjection after in to the grid shall be compensated by the concerned\nDistribution Licensee at the rate of Rs. 1.75 per unit or the rate, if\nany",
+   "effective_date": "2020-01-22",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-9.7",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.7",
+   "topic": "settlement: credit carried forward; paid at FY end if above Rs 100",
+   "snippet": "9.7 In the event of any amount payable by the concerned DISCOM at\nthe end of billing cycle, the same shall be shown as credit and to\nbe carried forward in the next billing cycle. At the end of Financial\nYear, if the credit amount for the consumer is more than Rs. 100/-\n, such credit amount shall be paid by the concerned DISCOM to\nthe consumer. In case the credit amount at the end of the Financial\nYear is less than Rs. 100/-, the same shall be carried forward in\nthe next billing cycle of the following Financial Year.",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-13.5",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "13.5",
+   "topic": "metering: solar meter 1.0 and net meter 0.5S class; check meter above 20 kW (Second Amendment para 8)",
+   "snippet": "“The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or\nbetter class accuracy as per Table (a) ‘Meter for Solar Generation\nMeasurements’ and Table (b) ‘Meter for Net Metering\nMeasurements’ respectively at Annexure VI and with facility for\nrecording meter readings using Meter Reading Instrument (MRI)\nor wireless equipment. Check Meters shall be mandatory for\nRooftop Solar PV Systems having capacity more than 20 kW. For\ninstallations size of less than or equal to 20 kW, the Solar Check\nPage 9\n\n--- Page 10 ---\nMeters would be optional.\nProvided that the cost of new/additional meter (s) sh",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-Annexure-IV.1.3",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.1.3",
+   "topic": "capacity limit in agreement: non-residential & non-MSME within 50% during currency of agreement (Second Amendment para 15)",
+   "snippet": "1.3 “Consumers other than Residential Consumers (Residential\nConsumers shall be including the connections for common utilities\nsuch as water works, elevators, common passage lights, street\nlights, garden, gym, swimming pool etc. which are being charged\nResidential Tariff) and MSME (Manufacturing Enterprise) shall\nensure capacity of Rooftop Solar not to exceed 50% of his contract\nload/demand/sanctioned load during the currency of the\nconnectivity agreement.",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-Annexure-IV.7(A)(ii)",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(A)(ii)",
+   "topic": "settlement/tariff: residential net export at Rs 2.25/unit SIC (agreement; Second Amendment para 10)",
+   "snippet": "(ii) “In case of net export (net injection) of energy by the consumer\nto distribution grid during billing cycle, the Distribution Licensee\nshall compensate for surplus power, after giving set off against\nPage 10\n\n--- Page 11 ---\nconsumption during the billing period, at the rate of Rs. 2.25 per\nunit or the rate, if any, specified by the Commission for Surplus\nInjection Compensation (SIC) from time to time , over the life of\nthe Rooftop Solar PV system i.e. 25 years. The entire Solar energy\ngeneration of such consumer shall be utilized for meeting the RPO\nof that Distribution Licensee. However,",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-Annexure-IV.7(B)(a)(ii)",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(B)(a)(ii)",
+   "topic": "settlement/tariff: Type-1 net export at Rs 1.75/unit SIC (agreement; Second Amendment para 11)",
+   "snippet": "(ii) “In case of net export (net injection) of energy by the consumer\nto distribution grid during billing cycle, the Distribution Licensee\nshall compensate for surplus power, after giving set off against\nconsumption during the billing period, at the rate of Rs. 1.75 per\nunit or the rate, if any, specified by the Commission for Surplus\nInjection Compensation (SIC) from time to time, over the life of\nthe Rooftop Solar PV system i.e. 25 years. The entire Solar energy\ngeneration of such consumer shall be utilized for meeting the RPO\nof that Distribution Licensee. However, fixed / demand charges,\np",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-Annexure-IV.7(B)(b)(ii)",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(B)(b)(ii)",
+   "topic": "settlement/tariff: Type-2(a) 15-min net export at Rs 1.75/unit (agreement; Second Amendment para 13)",
+   "snippet": "(ii) “In case of net export (net injection) of power on 15 minutes basis\nafter giving set off against consumption, the Distribution Licensee\nPage 12\n\n--- Page 13 ---\nshall compensate for such surplus power at the rate of Rs. 1.75\nper unit or the rate, if any, specified by the Commission for Surplus\nInjection Copmensation (SIC) from time to time, over the life of\nthe Rooftop Solar PV system i.e. 25 years. Such surplus energy\npurchased by the Distribution Licensee shall be utilized for meeting\nthe RPO of that Distribution Licensee. However, fixed / demand\ncharges, peak charges, other charges, pe",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-003#cl-Annexure-IV.7(B)(c)(ii)",
+   "doc_id": "GJ-C3-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.7(B)(c)(ii)",
+   "topic": "settlement/tariff: Type-2(b) REC 15-min net export at Rs 1.50/unit (agreement; Second Amendment para 14)",
+   "snippet": "(ii) “In case of net export (net injection) of power on 15 minutes\nbasis after giving set off against consumption, the Distribution\nLicensee shall compensate for such surplus power at the rate of\nRs. 1.50 per unit or the rate, if any, specified by the Commission\nfor Surplus Injection Compensation (SIC) from time to time, over\nthe life of the Rooftop Solar PV system i.e. 25 years. However,\nfixed / demand charges, peak charges, other charges, penalty,\netc. shall be payable as applicable to the respective category of\nconsumers.”",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-2.1(i)",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(i)",
+   "topic": "definition: contracted/sanctioned load (substituted)",
+   "snippet": "“Contracted load” or “Sanctioned load” or “Contracted demand” means\nthe maximum demand in kW, kVA or HP, agreed to be supplied by the\nDistribution Licensee and indicated in the agreement executed between\nthe Distribution Licensee and the Consumer and the expression “load”\nshall be construed accordingly;",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-2.1(l)",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(l)",
+   "topic": "eligibility: eligible consumer includes third party sale",
+   "snippet": "(b) In the definition 2.1 (l) “Eligible Consumer” the words “or Third Party\nSale” shall be inserted after the word “given that such system is self\nowned”.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-2.1(p)",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(p)",
+   "topic": "definition: net metering (single bidirectional meter; retail tariff)",
+   "snippet": "2(p) “net-metering” means a mechanism whereby solar energy\nexported to the Grid from Grid Interactive Rooftop Solar Photovoltaic\nSystem of a Prosumer is deducted from energy imported from the\nGrid in units (kWh) to arrive at the net imported or exported energy\nand the net energy import or export is billed or credited or carried-\nover by the distribution licensee on the basis of the applicable retail\ntariff by using a single bidirectional energy meter for net-metering at\nthe point of supply;’.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-2.1(mb)",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "2.1(mb)",
+   "topic": "definition: gross metering (new)",
+   "snippet": "(mb) “gross-metering” means a mechanism whereby the total solar energy\ngenerated from Grid Interactive Rooftop Solar Photovoltaic system of a\nProsumer and the total energy consumed by the Prosumer are accounted\nseparately through appropriate metering arrangements and for the billing\npurpose, the total energy consumed by the Prosumer is accounted at the\napplicable retail tariff and total solar power generated is accounted for at\nfeed-in-tariff determined by the Commission;",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-3.1",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "3.1",
+   "topic": "scope: third party and prosumer added",
+   "snippet": "4) Amendment in Regulation 3.1 of Regulation 3 (Scope and Application)\nof the Principal Regulation:\nThe words “or from solar power plant set up by third party” shall be added\nafter the words “who are receiving electricity from its own generating\nsource” and at the end of the said regulations, i.e. after the words “situated\n3 | Page\n\n--- Page 4 ---\nin Distribution Licensee area”, the sentence “or prosumer who consumes\nelectricity from the grid and injects electricity from its Solar Power System\ninto the grid for supply to Distribution Licensee using same point of supply”\nshall be added.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-5",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "5",
+   "topic": "Reg 5 first para: gross metering and prosumers added (Third Amendment para 6)",
+   "snippet": "6) Amendment in Regulation 5 (Capacity Targets for Distribution\nLicensee) of the Principal Regulation:\nThe word “/gross metering arrangement” shall be added in first para of the\nRegulation 5 of Principal Regulations after words “The Distribution\nLicensee shall provide the net metering arrangement” and the word\n“/prosumers” shall be added after the word “Eligible consumers”.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-6.1",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.1",
+   "topic": "eligibility: prosumer; rented premises; 6.1(iv) substituted, 6.1(v),(vi) inserted (Third Amendment para 8)",
+   "snippet": "The Regulation 6.1 (ii) shall be amended by inserting the word “or possess\non rental basis” between the words “be in legal possession” and the word\n“of the premises including the rooftop or terrace or building or\ninfrastructure or open areas of the land or part or combination thereof on\nwhich the Solar PV System is proposed to be installed.”\nThe Regulation 6.1 (iv) shall be substituted by following provisions\niv. consume all of the electricity generated from the Rooftop Solar PV\nSystem at the same premises. If the consumer/prosumer is not able to\nconsume all of generated electricity in the sam",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-6.2",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.2",
+   "topic": "capacity limit: net metering 1-1000 kW, gross metering >10-1000 kW; residential irrespective of sanctioned load; captive/third party up to sanctioned load (Third Amendment para 9)",
+   "snippet": "(a) Rooftop Solar PV System shall be permitted under net-metering\nprovision for projects having capacity of 1 kW and above and upto\n1000 kW.\n(b) Rooftop Solar PV System shall be permitted for gross-metering\nprovision for projects having capacity of above 10 kW and upto 1000\nkW.\nProvided that the installed capacity is aligned with the provisions for\npermitting consumer connections as stated in the Gujarat Electricity\nRegulatory Commission (Electricity Supply Code and Related\nMatters) Regulations, 2015 as amended from time to time, read with\nthe provisions of GERC (Terms and Conditions of the In",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-8(2)",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "8(2)",
+   "topic": "metering/phase threshold: connectivity level above 100 kW/kVA at 11 kV 3 phase (Third Amendment para 10)",
+   "snippet": "10) Amendment in title of Table and at Sr. No. (iv) provided in Regulation\n8(2) of the Principal Regulations are amended as under:\n\n| Sr. No. | Connected load of eligible consumer/prosumer | Connectivity level |\n| --- | --- | --- |\n| (iv) | Above 100 kW/kVA | 11 KV, 3 Phase, 50 Hz. |",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-9",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "9",
+   "topic": "settlement: Regulation 9 substituted (gross metering billing; legacy projects governed by earlier regulations) (Third Amendment para 11)",
+   "snippet": "9. Energy Accounting and Settlement\n(a) Any energy injected prior to commissioning of the solar project shall be\ndeemed as inadvertent power. The consumer/prosumer of Solar PV\nowner is not eligible to receive any monetary compensation for such\ninadvertent power.\n(b) For each billing period, the licensee shall show the (i) quantum of\nelectricity injected by Eligible Consumer from Solar PV System in the\ngrid, (ii) electricity supplied by the Distribution Licensee, (iii) net billed\nelectricity for payment by the consumer and (iv) net exported energy\nafter adjustment against the consumption separa",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-9(d)",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "9(d)",
+   "topic": "settlement: projects commissioned under earlier regulations continue under those regulations",
+   "snippet": "(d) The Solar Rooftop Power Projects commissioned under the provisions\nof earlier Notifications of Net Metering Regulations notified by the\nCommission, the energy accounting of such projects shall be governed\nby the provisions of Net Metering Regulations under which they were\ncommissioned. However, in case of any addition/reduction in Solar\nCapacity or Contracted / Sanctioned load, the earlier set-up Solar\n8 | Page\n\n--- Page 9 ---\nRooftop project arrangement shall be considered different and distinct\nand a fresh agreement under existing Regulations shall be signed for\nadditional capacity.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-9.1.3",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.1.3",
+   "topic": "settlement/tariff: residential surplus Rs 2.25 for 5 years then 75% of GUVNL tariff; third party 75%",
+   "snippet": "9.1.3 In case of Residential Consumers, the Energy Accounting shall be carried\nout on Billing Cycle basis.\n(i) In the event the electricity injected from the Rooftop Projects set up\nunder Net Metering provisions exceeds the electricity consumed during\nthe billing period, surplus energy generated from the solar project after\n9 | Page\n\n--- Page 10 ---\nset off on billing cycle basis shall be purchased by respective\nDistribution licensee at the following rates.\n(a) In case of self-owned systems and SURYA Gujarat scheme consumers:\nAt Rs.2.25 / unit for the first 5 years from commissioning of projec",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-9.1.5",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.1.5",
+   "topic": "settlement/banking: no banking charges for residential",
+   "snippet": "9.1.5 No Banking charges shall be applicable on solar power consumed by\nResidential Consumers.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-9.2.11",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.2.11",
+   "topic": "settlement/banking: banking charges Rs 1.50/unit (Rs 1.10 for some) for captive",
+   "snippet": "9.2.11 Banking charges of Rs.1.50 / unit shall be applicable on solar energy\nconsumed in the case of Demand based Consumers shall be applicable.\n13 | Page\n\n--- Page 14 ---\nIn case of MSME manufacturing units and other than Demand based\nConsumers, Banking Charges of Rs.1.10 per unit on Solar Energy\nconsumed shall be applicable. Banking Charges shall not be applicable\nto government buildings.",
+   "effective_date": "2022-05-31",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-12.1",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "12.1",
+   "topic": "other charges: Reg 12.1 limited to captive use; 12.2 wheeling, 12.3 CSS/AS inserted",
+   "snippet": "12) Amendment in Regulation-12 Applicability of other charges:\nAn amendment in Regulation 12.1 shall be made by adding the word “captive\nuse” between the words “Eligible Consumer’s premises” and “shall be\nexempted from transmission charge, transmission loss……”\nThe following new Regulation 12.2 on Wheeling and Transmission of\nelectricity and Regulation 12.3 on Cross Subsidy Surcharge and Additional\nSurcharge shall be added/inserted after Principal Regulation 12.1.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-13.7",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "13.7",
+   "topic": "metering: non-ABT meters allowed up to 1 MW contracted load (new 13.7)",
+   "snippet": "13.7 In case of consumers having contracted load / sanctioned demand not\nexceeding 1 MW, Distribution licensees may allow installation of non-ABT\nmeters at consumer level reprogrammed at consumer's cost as per the\nenergy accounting requirement.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-16.1",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "16.1",
+   "topic": "deemed approval: replacement of modules verified within 30 days else deemed approved (new 16.1)",
+   "snippet": "16.1 Replacement/Repairing of parts of the existing Solar Rooftop\nProjects\nIn case of existing Solar Rooftop Power Project whenever any Solar PV\nmodules/inverters or any part is damaged or not working, the Solar\n19 | Page\n\n--- Page 20 ---\nRooftop Power Project owner may replace such part of Solar Rooftop\nPower Plant. In case the Solar PV modules/inverters or other parts of the\nProject are not available of earlier capacity of such part when the plant\nwas commissioned and made operative, in such condition, the parts\nwhich are damaged or defective can be replaced with the parts which\nwill be avai",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-16.3",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "16.3",
+   "topic": "penalty: unauthorized installation/connection at twice tariff (new 16.3)",
+   "snippet": "16.3 Installation and connectivity of Solar Rooftop Project with the\nlicensee network without any approval/permission\nAny installation of new Solar Rooftop Project without approval of\nconcerned distribution licensee shall be qualified as unauthorized\nconnection/use and it shall attract penalty for utilization of generation\n20 | Page\n\n--- Page 21 ---\nfrom such plant at twice of the applicable tariff for such Solar\nDeveloper/Consumer for the period of such capacity and equipments of\nSolar Power Plant to the extent of unauthorized solar power plant\ncapacity connected without approval of licensee",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-Annexure-IV.1.3",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.1.3",
+   "topic": "capacity limit in model agreement: not to exceed limit specified in Regulations (re-issued Annexure IV)",
+   "snippet": "1.3 Consumer/Prosumer/SPS developer under third party sale shall ensure capacity of\nRooftop Solar not to exceed than the limit specified in the Regulations. If it is violated\nthen provisions of unauthorized use shall be applicable and\nconsumer/prosumer/SPS developer shall be penalized as per the provisions of\nthese Regulations.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-004#cl-Annexure-IV.8.1",
+   "doc_id": "GJ-C3-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.8.1",
+   "topic": "connection costs: consumer/prosumer bears service line/transformer upgradation (re-issued Annexure IV)",
+   "snippet": "8.1 The Consumer/ Prosumer/Solar Power System Developer under third party sale\nshall bear all costs related to setting up of Rooftop Solar Photovoltaic System\nincluding metering and inter-connection. The Consumer/Prosumer/Solar Power\nSystem Developer under third party sale agrees to pay the actual cost of\nmodifications and upgrades to the service line, cost of up gradation of transformer\nto connect photovoltaic system to the grid in case it is required.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-005#cl-5.1",
+   "doc_id": "GJ-C3-005",
+   "jurisdiction": "GJ",
+   "clause_ref": "5.1",
+   "topic": "DT capacity update; system strengthening cost up to 6 kW in ARR; above 6 kW per-kW/kVA charges (Fourth Amendment para 3)",
+   "snippet": "5.1 The distribution licensee shall update distribution transformer capacity available for connecting Rooftop\nSolar PV Systems under net metering arrangement on yearly basis and shall provide the information to the\nCommission.\nIV-C Ex.-98 98-1\n\n--- Page 2 ---\n98-2 GUJARAT GOVERNMENT GAZETTE EX., 06-09-2024 [ PART IV-C\nProvided that the cost of strengthening of distribution infrastructure, including distribution transformer, as\nnecessary, to facilitate the installation of Rooftop Solar PV System up to 6 KW including subsequent addition\naggregating up to 6 KW, shall be included in the Annual Rev",
+   "effective_date": "2024-09-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-005#cl-5.1 (last para)",
+   "doc_id": "GJ-C3-005",
+   "jurisdiction": "GJ",
+   "clause_ref": "5.1 (last para)",
+   "topic": "minimum capacity 1 kW (Fourth Amendment substituted 5.1, last para)",
+   "snippet": "The capacity of Rooftop Solar PV System to be installed at the premises of any consumer shall not be less\nthan one Kilo Watt (1 kW).",
+   "effective_date": "2024-09-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-005#cl-7",
+   "doc_id": "GJ-C3-005",
+   "jurisdiction": "GJ",
+   "clause_ref": "7",
+   "topic": "timelines: Regulation 7 activity chart substituted (TFR 3 days, system strengthening 15 days)",
+   "snippet": "4. Regulation 7 of the Principal Regulations shall be substituted as under:\nVarious activities and different authorities are associated with the Solar Rooftop PV project. It is necessary that\nthe different entities carry out the works within prescribed time limit. Therefore, time frame prescribed in the\ntable below shall be scrupulously followed by the concerned authorities.\n\n--- Page 3 ---\nPART IV-C ] GUJARAT GOVERNMENT GAZETTE EX., 06-09-2024 98-3\n\n| Sr. No. | Activity | Sub Activity | Duration in day(s) |\n| --- | --- | --- | --- |\n| 1 | Registration at GEDA or agency designated by the Gover",
+   "effective_date": "2024-09-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-005#cl-7 (first proviso)",
+   "doc_id": "GJ-C3-005",
+   "jurisdiction": "GJ",
+   "clause_ref": "7 (first proviso)",
+   "topic": "deemed approval: up to 10 kW deemed accepted without technical feasibility study; Rs 500/day compensation for delay",
+   "snippet": "Provided that the application for Rooftop Solar Photovoltaic systems upto 10 kW capacity, complete in all\nrespect shall be deemed to have been accepted without requiring technical feasibility study and any\ncommensurate enhancement of the sanction load of the consumer, as may be required, shall be carried out by the\nDistribution Licensee.\nProvided further that in case of any delay on the part of distribution licensee without any just cause, the Licensee\nshall be liable to pay compensation to the consumer at a rate which shall not be less than five hundred rupees per\nday for each day of default.",
+   "effective_date": "2024-09-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-005#cl-Annexure-IV.8.1",
+   "doc_id": "GJ-C3-005",
+   "jurisdiction": "GJ",
+   "clause_ref": "Annexure-IV.8.1",
+   "topic": "connection costs governed by Regulation 5.1 (Fourth Amendment para 5)",
+   "snippet": "5. Clause 8.1 of the Connectivity Agreement at ‘Annexure IV’ of Regulations shall be substituted as under:\n8.1. The recovery of cost from the Applicant for strengthening of distribution infrastructure, including\ndistribution transformer shall be governed as per Regulation 5.1.",
+   "effective_date": "2024-09-06",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-006#cl-7",
+   "doc_id": "GJ-C3-006",
+   "jurisdiction": "GJ",
+   "clause_ref": "7",
+   "topic": "PM Surya Ghar: no separate connectivity agreement, deemed bound (proposed proviso to Reg 7) (DRAFT, not in force)",
+   "snippet": "3. Amendment in Clause 7 of the Principal RegulaHons:\nFollowing proviso shall be incorporated aMer second proviso below the Ac=vity\nChart provided under Regula=on 7 of the Principal Regula=ons read with GERC\n(Net Metering RooMop Solar PV Grid Interac=ve Systems) (Fourth Amendment)\nRegula=ons, 2024:\n“7. ………………\n……………….\nProvided that there shall not be requirement for execu:on of separate wri=en\nconnec:vity agreement between the Distribu:on Licensee and the Consumer in case\nPage 1 of 2\n\n--- Page 2 ---\nof Solar RooEop PV Systems installed under PM Surya Ghar MuE Bijli Yojana and the\nConsumer shall",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-006#cl-8(2)",
+   "doc_id": "GJ-C3-006",
+   "jurisdiction": "GJ",
+   "clause_ref": "8(2)",
+   "topic": "metering/phase threshold: connectivity levels as per Supply Code (proposed substitution of 8(2)) (DRAFT, not in force)",
+   "snippet": "4. Amendment in Clause 8 (2) of the Principal RegulaHons:\nThe Regula=on 8 (2) shall be subs=tuted as under:\n“(2) The connec:vity levels at which the RooEop PV Solar System shall be connected\nwith the grid shall be as per the supply voltage level provided under GERC\n(Electricity Supply Code and Related Ma=ers) Regula:ons, 2015 as amended from\n:me to :me.”",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-007#cl-7 (third proviso)",
+   "doc_id": "GJ-C3-007",
+   "jurisdiction": "GJ",
+   "clause_ref": "7 (third proviso)",
+   "topic": "PM Surya Ghar: no separate connectivity agreement; consumer deemed bound; commencement = commissioning date (Fifth Amendment para 3)",
+   "snippet": "Provided that there shall not be requirement for execution of separate written connectivity agreement\nbetween the Distribution Licensee and the Consumer in case of Solar Rooftop PV Systems installed under\nPM Surya Ghar Muft Bijli Yojana and the Consumer shall be deemed to be bound by terms and conditions of\nthese Regulations in respect of Solar Rooftop PV Systems. In such case, the date of commencement of\nAgreement shall be the date of commissioning of Solar Rooftop PV Systems and in lieu of execution of formal\nconnectivity agreement, the concerned Discom shall communicate to the Applicant, un",
+   "effective_date": "2025-11-03",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-007#cl-8(2)",
+   "doc_id": "GJ-C3-007",
+   "jurisdiction": "GJ",
+   "clause_ref": "8(2)",
+   "topic": "metering/phase threshold: connectivity levels as per GERC Supply Code voltage levels (Fifth Amendment para 4)",
+   "snippet": "“(2) The connectivity levels at which the Rooftop PV Solar System shall be connected with the grid shall be\nas per the supply voltage level provided under GERC (Electricity Supply Code and Related Matters)\nRegulations, 2015 as amended from time to time.”",
+   "effective_date": "2025-11-03",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-1.4",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "1.4",
+   "topic": "proposed repeal of 2016 Net Metering Regulations and amendments (DRAFT, not in force)",
+   "snippet": "1.4. These Regulations shall repeal the Gujarat Electricity Regulatory Commission (Net\nMetering Rooftop Solar PV Grid Interactive Systems) Regulations, 2016 and\nsubsequent amendments.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-4.3",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "4.3",
+   "topic": "eligibility/capacity limit: all categories; NM/net billing 1 kW-1 MW; gross/VNM up to 4000 kW (DRAFT, not in force)",
+   "snippet": "4.3. The consumers of all categories shall be eligible to install the DRES under these\nRegulations under the Net Metering / Net Billing / Group Net Metering and Virtual Net\nMetering arrangement subject to provisions of these Regulations.\nProvided that the minimum size of DRES that can be set up under Net Metering / Net\nBilling arrangement shall be 1 KW (AC) and maximum capacity upto 1 MW (AC)\nThe voltage level for grid connectivity of DRES shall be aligned with the provisions\nfor permitting voltage level of consumer connections as stated in the Gujarat\nElectricity Regulatory Commission (Electr",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-4.9",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "4.9",
+   "topic": "capacity limit vs contract load: above contract demand (CD>100 kW) requires BESS for 50% of excess (DRAFT, not in force)",
+   "snippet": "4.9. In respect of prosumer having contract demand more than 100 KW and installing DRES\ncapacity in excess of its Contract Demand under Net Metering / Group Net Metering\narrangement/ Net Billing Arrangement, such DRES capacity in excess of Contract\nDemand shall be allowed subject to installation of BESS facility having provisions for\nat least 2 hours per charging / discharging cycles per day, for at least 50% of DRES\ncapacity which is in excess contract demand.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-6.2",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.2",
+   "topic": "deemed approval: DRES up to 10 kW deemed accepted without feasibility study (DRAFT, not in force)",
+   "snippet": "6.2. The applications for DRES up to 10 kW capacity, complete in all respects shall be\ndeemed to have been accepted without requiring technical feasibility study and any\ncommensurate enhancement of the sanctioned load of the consumer, as may be required,\nshall be carried out by the distribution licensee.",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-6.4",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.4",
+   "topic": "DT hosting/system strengthening: DT/feeder capacity update; 25% of per-kW charges above 6 kW (DRAFT, not in force)",
+   "snippet": "6.4. The distribution licensee shall update distribution transformer capacity / feeder capacity\navailable for connecting DRES under Gross Metering, Net Metering, Net Billing,\nGroup Net Metering, Virtual Net Metering arrangement on yearly basis and shall\nprovide the information on its website with intimation to the Commission.\nProvided that recovery of cost towards strengthening of distribution network to\nfacilitate installation of DRES for DRES system(s) above 6 KW capacity, shall be as\nper below stipulations:\n(a) For LT consumers installing DRES above 6 kW up to 100 kW in aggregate:\n(i) In re",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-7.2",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "7.2",
+   "topic": "timelines: activity chart (TFR 3 days; strengthening 15 days) (DRAFT, not in force)",
+   "snippet": "7.2. Various activities and different authorities are associated with the DRES project\nimplementation. It is necessary that the different entities carry out the works within\nprescribed time limit. Therefore, time frame prescribed in the table below shall be\nscrupulously followed by the concerned authorities.\n\n| Sr. No. | Activity | Sub Activity | Duration in day(s) |\n| --- | --- | --- | --- |\n| 1 | Registration with GEDA or agency designated by the | GEDA or Agency designated by the Government of Gujarat from time to time shall issue Registration Certificate for | 5 days from receipt of duty c",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-8.2",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "8.2",
+   "topic": "net metering capacity 1-1000 kW; excess of CD needs BESS; switching (DRAFT, not in force)",
+   "snippet": "8.2. Net Metering Arrangement\nConsumers of all categories shall be eligible to establish DRES under Net Metering\nArrangement.\nThe minimum size of DRES that can be set up under Net Metering arrangement shall\nbe 1 kW (AC), while the maximum size shall be limited to 1000 KW (AC).\nProvided that the prosumer /consumer having contract demand of above 100 KW and\ninstalling DRES capacity in excess of contract demand, such DRES capacity shall be\npermitted only if such DRES include BESS having provisions for at least 2 hours per\ncharging / discharging cycles per day, for at least 50% of DRES capacity wh",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-8.5",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "8.5",
+   "topic": "group/virtual net metering: group net metering 6-1000 kW, same name and tariff category (DRAFT, not in force)",
+   "snippet": "8.5. Group Net Metering Arrangement\nProsumer / Consumer of all categories shall be allowed to install DRES under Group\nNet Metering arrangement.\nProvided that service connection(s) of prosumer / consumer installing DRES under\nGroup Net Metering arrangement shall have same name, same tariff category and\nlocated in the supply area of the same distribution licensee.\nThe minimum size of DRES that can be set up under group net metering mechanism\nshall be 6 kW, while the maximum size shall be limited to 1000 KW (AC).\nProvided that the prosumer / consumer having contract demand of above 100 KW and\nin",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-8.6",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "8.6",
+   "topic": "group/virtual net metering: virtual net metering 100-4000 kW at 11/22 kV (DRAFT, not in force)",
+   "snippet": "8.6. Virtual Net Metering Arrangement\nConsumers of all categories shall be allowed to install DRES under Virtual Net\nMetering arrangement within the supply area of same distribution licensee.\nThe Participating Consumers shall be consumers of the same Distribution Licensee and\nshall belong to the same tariff category. The DRES may be installed at a location\ndifferent from the premises of the Participating Consumers, subject to the DRES owner\nhaving lawful possession / right to use such location.\nThe minimum aggregate capacity of DRES shall be 100 kW (AC) and the maximum\naggregate capacity shall",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-9.1.5",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "9.1.5",
+   "topic": "settlement/banking: non-residential adjustment capped at 30% of import with banking charges; residential surplus Rs 2.25 (DRAFT, not in force)",
+   "snippet": "9.1.5. The electricity exported or injected into the grid from the Distributed Renewable\nEnergy System (DRES), as recorded during a billing period, shall be adjusted\nagainst the electricity drawn or imported from the grid during the same billing\ncycle:\nProvided that in case of prosumer other than residential category, such adjustment\nshall be allowed upto thirty percent (30%) of the total energy drawn or imported\nby the prosumer from the Distribution Licensee during the relevant billing period\nsubject to payment of applicable banking charges as specified under the GERC\nGreen Energy Open Access",
+   "effective_date": "UNKNOWN",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C3-008#cl-12.2",
+   "doc_id": "GJ-C3-008",
+   "jurisdiction": "GJ",
+   "clause_ref": "12.2",
+   "topic": "metering: AMI facility for all meters (DRAFT, not in force)",
+   "snippet": "12.2. All meters shall have Advanced Metering Infrastructure (AMI) facility with RS 485\n(or higher) communication port or any other advance communication facility.",
+   "effective_date": "UNKNOWN",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "GJ-C4-001#cl-3.3",
+   "doc_id": "GJ-C4-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "3.3",
+   "topic": "SoR 2020: Commission decision to remove 65% DT cap, allow up to full DT capacity (explanatory)",
+   "snippet": "3.3. In order to utilize fullest capacity of a particular Distribution Transformer, it is\ndecided to remove cap of 65% of the capacity and allow installation of Solar\nRooftop PV systems upto full capacity of a particular Distribution Transformer.\nFurther, the capacity of a particular Distribution Transformer is required to be\ndesigned and decided by the Distribution Licensee in view of the sanctioned load/\ncontract demand of the consumers connected on downstream network.",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C4-001#cl-4.4",
+   "doc_id": "GJ-C4-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "4.4",
+   "topic": "SoR 2020: decision to keep 50% cap for others; MSME above 50% with 15-minute settlement (explanatory)",
+   "snippet": "4.4. Looking to the present status of Rooftop Solar PV installations under Net Metering\nRegulations and its impact on grid and other electricity consumers, the\nCommission decides to continue present arrangement of cap of 50% installation\nfor other consumers and in order to make exiting Regulation aligned to State\nGovernment Policy for MSME (Manufacturing) Enterprises, they are allowed to\ninstall Rooftop Solar PV system above 50% of its sanctioned load/ contract\ndemand subject to 15-minute settlement mechanism.",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C4-001#cl-6.22",
+   "doc_id": "GJ-C4-001",
+   "jurisdiction": "GJ",
+   "clause_ref": "6.22",
+   "topic": "SoR 2020: decision on credit payment at FY end above Rs 100 (explanatory)",
+   "snippet": "6.22. One stakeholder suggested to provide for payment of credit amount to\nconsumer by Distribution Licensee on monthly/ billing basis. However, looking to\nthe present arrangement, it is decided to keep provision of payment by\ndistribution licensee in this regard at the end of financial year and also limited to\ncredit amount above Rs. 100.",
+   "effective_date": "2020-01-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C4-002#cl-16",
+   "doc_id": "GJ-C4-002",
+   "jurisdiction": "GJ",
+   "clause_ref": "16",
+   "topic": "SoR 2022: decision on Regulation 6.2 capacity (NM 1-1000 kW; gross >10-1000 kW) (explanatory)",
+   "snippet": "Considering the above, we decide to amend Regulation 6.2 (a), (b) & (c) as under:\n(a) Rooftop Solar PV System shall be permitted under Net-Metering provisions\nfor projects having capacity of 1 kW and above and upto 1000 kW.\n(b) Rooftop Solar PV System shall be permitted for gross-metering provisions\nfor projects having capacity of above 10 kW and upto 1000 kW.",
+   "effective_date": "2022-05-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "GJ-C4-003#cl-3)",
+   "doc_id": "GJ-C4-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "3)",
+   "topic": "SoR 2024: decision that system strengthening charge not recovered up to 6 kW (single phase), per-kW/kVA above (explanatory)",
+   "snippet": "The Commission has considered the provisions of MoP\nrules and observed that as per the provisions of the GERC (Electricity\nSupply Code and Related Matters) Regulations, 2015 the consumers\nare eligible to get single phase supply upto 6 KW sanction load /\ncontracted capacity. Therefore, to provide the benefit of exemption\nin recovery of network strengthening charge to the consumers\nsetting up Solar Rooftop Power Project upto 6 KW i.e., small single\nphase consumers, the Commission has decided that the system\nstrengthening charge shall not be recovered from such individual\nconsumer setting up of S",
+   "effective_date": "2024-09-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "GJ-C4-003#cl-4)",
+   "doc_id": "GJ-C4-003",
+   "jurisdiction": "GJ",
+   "clause_ref": "4)",
+   "topic": "SoR 2024: decision on Reg 7 deemed acceptance up to 10 kW and Rs 500/day compensation (explanatory)",
+   "snippet": "Accordingly, it is decided to incorporate second proviso to the Regulation 7\nin the final Regulations as under:\n“Provided further that in case of any delay on the part of distribution licensee\nwithout any just cause, the Licensee shall be liable to pay compensation to the\nconsumer at a rate which shall not be less than five hundred rupees per day",
+   "effective_date": "2024-09-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "GJ-C4-004#cl-3",
+   "doc_id": "GJ-C4-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "3",
+   "topic": "SoR 2025: decision to add third proviso to Reg 7 (PM Surya Ghar, no agreement) (explanatory)",
+   "snippet": "Accordingly, the Commission has decided to incorporate third proviso after\nActivity Chart under Regulation 7 of the Principal Regulations read with its\nFourth Amendment, as under:",
+   "effective_date": "2025-11-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "GJ-C4-004#cl-4",
+   "doc_id": "GJ-C4-004",
+   "jurisdiction": "GJ",
+   "clause_ref": "4",
+   "topic": "SoR 2025: reason for substituting Reg 8(2) to align with Supply Code (LT up to 100/150 kVA) (explanatory)",
+   "snippet": "Thus, it is required to amend the connectivity voltage level for Solar Rooftop\nPV Systems under the GERC (Net Metering Rooftop Solar PV Grid Interactive\nSystems) Regulations to align with the connectivity voltage level provided\nunder the GERC Supply Code (Fourth Amendment) Regulations 2024.",
+   "effective_date": "2025-11-04",
+   "confidence": "medium"
+  }
+ ],
+ "edges": [
+  {
+   "from_node": "GJ-C3-001#cl-6.2",
+   "to_node": "GJ-C3-002#cl-6.2",
+   "type": "amends",
+   "effective_date": "2017-10-06",
+   "evidence_quote": "The first para of Regulation 6.2 shall stand amended as under:\nThe maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s\npremises except Residential Consumers shall be upto a maximum of 50% of consumer’s\nsanctioned load/contract demand; whereas in case of Residential Consumers, the Rooftop\nSolar PV System capacity shall be irrespective of their sanctioned load/contract demand.\n4) Amendment in Regulation 7 of the Principal Regulations:\nFirst bullet point of Sub Activity (3) of Regulation 7 regarding the capacity of the Solar\nRooftop plant to be installed at Consume",
+   "confidence": "high",
+   "note": "First para of 6.2 re-worded to exempt residential consumers from 50% cap; provisos (1 kW-1 MW) unchanged."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-7",
+   "to_node": "GJ-C3-002#cl-7",
+   "type": "amends",
+   "effective_date": "2017-10-06",
+   "evidence_quote": "First bullet point of Sub Activity (3) of Regulation 7 regarding the capacity of the Solar\nRooftop plant to be installed at Consumer’s premises stands amended as under:-",
+   "confidence": "high",
+   "note": "Only first bullet of Sr 3 changed (max 50% replaced by 'Subject to Regulation 6.2')."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-Annexure-IV.1.3",
+   "to_node": "GJ-C3-002#cl-Annexure-IV.1.3",
+   "type": "supersedes",
+   "effective_date": "2017-10-06",
+   "evidence_quote": "Clause 1.3 of Annexure – IV, Inter connection Agreement between\nDistribution Licensee and Solar Rooftop PV project owner, Net Metering Inter\nConnection Agreement of the Principal Regulations:\nClause 1.3 of Annexure – IV, Inter connection Agreement between Distribution Licensee\nand Solar Roof top PV project owner, Net Metering Inter Connection Agreement of the\nprincipal Regulations shall be amended as under:",
+   "confidence": "medium",
+   "note": "Whole clause 1.3 re-stated ('amended as under')."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-5",
+   "to_node": "GJ-C3-003#cl-5",
+   "type": "amends",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "The second para of Regulation 5 of the Principal Regulations shall stand\namended as under:\nProvided that the cumulative capacity to be allowed at a particular\ndistribution transformer shall not exceed capacity of the distribution\ntransformer;\n5) Amendment in Regulation 6.2 of the Principal Regulations read\nwith First Amendment:\n(a) The first para of Regulation 6.2 of the Principal Regulations as\nwell as the amended Regulations (First Amendment) shall\nstand amended as under:\nThe maximum Rooftop Solar PV System capacity to be installed at any\nEligible Consumer’s premises except Residential Consu",
+   "confidence": "high",
+   "note": "DT proviso: 65% of DT peak capacity replaced by full DT capacity; first para unchanged."
+  },
+  {
+   "from_node": "GJ-C3-002#cl-6.2",
+   "to_node": "GJ-C3-003#cl-6.2",
+   "type": "amends",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "The first para of Regulation 6.2 of the Principal Regulations as\nwell as the amended Regulations (First Amendment) shall\nstand amended as under:\nThe maximum Rooftop Solar PV System capacity to be installed at any\nEligible Consumer’s premises except Residential Consumers (including\nconnections for common utilities such as water works, elevators,\ncommon passage lights, street lights, garden, gym, swimming pool\netc. which are being charged residential tariff) and MSME\n(Manufacturing) Enterprise shall be upto a maximum of 50% of\nconsumer’s sanctioned load/contract demand; whereas in case of\nReside",
+   "confidence": "high",
+   "note": "Chain: first para as amended in 2017 re-worded to add MSME (Manufacturing) and common utilities."
+  },
+  {
+   "from_node": "GJ-C3-002#cl-7",
+   "to_node": "GJ-C3-003#cl-7",
+   "type": "amends",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "In this Regulation wherever the word ‘GEDA’ appears, the same shall\nstand replaced by ‘GEDA or agency designated by the Government of\nGujarat’.\nIn table at Sr.No. 11 Subactivity no.5 shall stand replaced as under:",
+   "confidence": "high",
+   "note": "Word substitution GEDA and Sr 11 sub-activity 5 replaced; rest of Reg 7 table unchanged."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-9",
+   "to_node": "GJ-C3-003#cl-9",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "Regulation 9 “Energy Accounting and Settlement” of the Principal\nRegulations shall stand replaced as under:\n9) Energy Accounting and Settlement\nAny energy injected prior to commissioning shall be deemed as\ninadvertent power. The consumer/Solar PV owner is not eligible to\nreceive any monetary compensation for such inadvertent power.\nFor each billing period, the licensee shall show the quantum of\nelectricity injected by Eligible Consumer/Solar PV system in the grid,\nelectricity supplied by the distribution licensee, net billed electricity for\npayment by the consumer and net exported energy after",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-9.2",
+   "to_node": "GJ-C3-003#cl-9.1",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "Regulation 9 “Energy Accounting and Settlement” of the Principal\nRegulations shall stand replaced as under:\n9) Energy Accounting and Settlement\nAny energy injected prior to commissioning shall be deemed as\ninadvertent power. The consumer/Solar PV owner is not eligible to\nreceive any monetary compensation for such inadvertent power.\nFor each billing period, the licensee shall show the quantum of\nelectricity injected by Eligible Consumer/Solar PV system in the grid,\nelectricity supplied by the distribution licensee, net billed electricity for\npayment by the consumer and net exported energy after",
+   "confidence": "medium",
+   "note": "Whole Reg 9 replaced; residential/government settlement moves from 9.2 (APPC) to new 9.1 (Rs 2.25 SIC)."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-9.3",
+   "to_node": "GJ-C3-003#cl-9.2",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "Regulation 9 “Energy Accounting and Settlement” of the Principal\nRegulations shall stand replaced as under:\n9) Energy Accounting and Settlement\nAny energy injected prior to commissioning shall be deemed as\ninadvertent power. The consumer/Solar PV owner is not eligible to\nreceive any monetary compensation for such inadvertent power.\nFor each billing period, the licensee shall show the quantum of\nelectricity injected by Eligible Consumer/Solar PV system in the grid,\nelectricity supplied by the distribution licensee, net billed electricity for\npayment by the consumer and net exported energy after",
+   "confidence": "medium",
+   "note": "Whole Reg 9 replaced; industrial/commercial non-REC settlement 9.3 (APPC) now 9.2 (Rs 1.75 SIC)."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-13.5",
+   "to_node": "GJ-C3-003#cl-13.5",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "Para 13.5 of the Principal Regulations, shall be replaced with the\nfollowing para:\n“The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or\nbetter class accuracy as per Table (a) ‘Meter for Solar Generation\nMeasurements’ and Table (b) ‘Meter for Net Metering\nMeasurements’ respectively at Annexure VI and with facility for\nrecording meter readings using Meter Reading Instrument (MRI)\nor wireless equipment. Check Meters shall be mandatory for\nRooftop Solar PV Systems having capacity more than 20 kW. For\ninstallations size of less than or equal to 20 kW, the Solar Check\nPage 9\n\n--- Page 10",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-002#cl-Annexure-IV.1.3",
+   "to_node": "GJ-C3-003#cl-Annexure-IV.1.3",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "The existing Clause 1.3 of Annexure IV to the Principal Regulations shall\nPage 13\n\n--- Page 14 ---\nstand replaced with the following clause:",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-Annexure-IV.7(A)(ii)",
+   "to_node": "GJ-C3-003#cl-Annexure-IV.7(A)(ii)",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "The above Clause of Annexure- IV to the Principal Regulations, shall\nstand replaced with the following para:\n(ii) “In case of net export (net injection) of energy by the consumer\nto distribution grid during billing cycle, the Distribution Licensee\nshall compensate for surplus power, after giving set off against\nPage 10\n\n--- Page 11 ---\nconsumption during the billing period, at the rate of Rs. 2.25 per\nunit or the rate, if any, specified by the Commission for Surplus\nInjection Compensation (SIC) from time to time , over the life of\nthe Rooftop Solar PV system i.e. 25 years. The entire Solar ene",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-Annexure-IV.7(B)(a)(ii)",
+   "to_node": "GJ-C3-003#cl-Annexure-IV.7(B)(a)(ii)",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "The above Clause of Annexure- IV to the Principal Regulations, shall\nbe replaced with the following para:\n(ii) “In case of net export (net injection) of energy by the consumer\nto distribution grid during billing cycle, the Distribution Licensee\nshall compensate for surplus power, after giving set off against\nconsumption during the billing period, at the rate of Rs. 1.75 per\nunit or the rate, if any, specified by the Commission for Surplus\nInjection Compensation (SIC) from time to time, over the life of\nthe Rooftop Solar PV system i.e. 25 years. The entire Solar energy\ngeneration of such consum",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-Annexure-IV.7(B)(b)(ii)",
+   "to_node": "GJ-C3-003#cl-Annexure-IV.7(B)(b)(ii)",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "The above Clause of Annexure- IV to the Principal Regulations, shall\nbe replaced with the following para:\n(ii) “In case of net export (net injection) of power on 15 minutes basis\nafter giving set off against consumption, the Distribution Licensee\nPage 12\n\n--- Page 13 ---\nshall compensate for such surplus power at the rate of Rs. 1.75\nper unit or the rate, if any, specified by the Commission for Surplus\nInjection Copmensation (SIC) from time to time, over the life of\nthe Rooftop Solar PV system i.e. 25 years. Such surplus energy\npurchased by the Distribution Licensee shall be utilized for meeti",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-Annexure-IV.7(B)(c)(ii)",
+   "to_node": "GJ-C3-003#cl-Annexure-IV.7(B)(c)(ii)",
+   "type": "supersedes",
+   "effective_date": "2020-01-22",
+   "evidence_quote": "The above Clause of Annexure- IV to the Principal Regulations, shall\nbe replaced with the following para:\n(ii) “In case of net export (net injection) of power on 15 minutes\nbasis after giving set off against consumption, the Distribution\nLicensee shall compensate for such surplus power at the rate of\nRs. 1.50 per unit or the rate, if any, specified by the Commission\nfor Surplus Injection Compensation (SIC) from time to time, over\nthe life of the Rooftop Solar PV system i.e. 25 years. However,\nfixed / demand charges, peak charges, other charges, penalty,\netc. shall be payable as applicable to t",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-2.1(i)",
+   "to_node": "GJ-C3-004#cl-2.1(i)",
+   "type": "supersedes",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "(a) The definition clause Regulation 2.1 (i) of the Principal Regulations shall\nbe substituted as under:\n1 | Page\n\n--- Page 2 ---\n“Contracted load” or “Sanctioned load” or “Contracted demand” means\nthe maximum demand in kW, kVA or HP, agreed to be supplied by the\nDistribution Licensee and indicated in the agreement executed between\nthe Distribution Licensee and the Consumer and the expression “load”\nshall be construed accordingly;\n(b) In the definition 2.1 (l) “Eligible Consumer” the words “or Third Party\nSale” shall be inserted after the word “given that such system is self\nowned”.\n(c) Additi",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-2.1(l)",
+   "to_node": "GJ-C3-004#cl-2.1(l)",
+   "type": "amends",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "In the definition 2.1 (l) “Eligible Consumer” the words “or Third Party\nSale” shall be inserted after the word “given that such system is self\nowned”.\n(c) Addition of New Definition clause “Gross Meter” and “Gross Metering” in\nRegulation 2.1 of the Principal Regulations:\nThe following new definition clauses shall stand inserted in Regulation 2.1\nafter existing Regulation 2.1(m) of the Principal Regulations as Regulation\n2.1 (ma) and (mb):\n(ma) “Gross Meter” means unidirectional energy meter installed at the\npoint at which the electricity generated by solar energy system of the\neligible consume",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-2.1(p)",
+   "to_node": "GJ-C3-004#cl-2.1(p)",
+   "type": "supersedes",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "The definition of “net-metering” 2(p) provided in the principal\nRegulations is substituted by following definitions:\n2 | Page\n\n--- Page 3 ---\n2(p) “net-metering” means a mechanism whereby solar energy\nexported to the Grid from Grid Interactive Rooftop Solar Photovoltaic\nSystem of a Prosumer is deducted from energy imported from the\nGrid in units (kWh) to arrive at the net imported or exported energy\nand the net energy import or export is billed or credited or carried-\nover by the distribution licensee on the basis of the applicable retail\ntariff by using a single bidirectional energy meter for",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-001#cl-3.1",
+   "to_node": "GJ-C3-004#cl-3.1",
+   "type": "amends",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "The words “or from solar power plant set up by third party” shall be added\nafter the words “who are receiving electricity from its own generating\nsource” and at the end of the said regulations, i.e. after the words “situated\n3 | Page\n\n--- Page 4 ---\nin Distribution Licensee area”, the sentence “or prosumer who consumes\nelectricity from the grid and injects electricity from its Solar Power System\ninto the grid for supply to Distribution Licensee using same point of supply”\nshall be added.\n5) Amendment in Regulation 4 (General Principles) of the Principal\nRegulation:\nThe word “/gross metering” s",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-003#cl-5",
+   "to_node": "GJ-C3-004#cl-5",
+   "type": "amends",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "The word “/gross metering arrangement” shall be added in first para of the\nRegulation 5 of Principal Regulations after words “The Distribution\nLicensee shall provide the net metering arrangement” and the word\n“/prosumers” shall be added after the word “Eligible consumers”.\n7) Amendment in Regulation 6 titled “Eligible Consumer and individual project\ncapacity” shall be substituted by the title “Eligible Consumer/Prosumer and\nindividual project capacity”.\n8) Amendment in Regulation 6.1 (Eligible Consumer and Individual\nproject capacity” of the Principal Regulations:\n4 | Page\n\n--- Page 5 ---\nFrom",
+   "confidence": "medium",
+   "note": "Chain on Reg 5: 2020 amended the DT proviso; 2022 amends the first para (adds gross metering, prosumers)."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-6.1",
+   "to_node": "GJ-C3-004#cl-6.1",
+   "type": "amends",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "The Regulation 6.1 (iv) shall be substituted by following provisions\niv. consume all of the electricity generated from the Rooftop Solar PV\nSystem at the same premises. If the consumer/prosumer is not able to\nconsume all of generated electricity in the same premises, it shall be\ngoverned by Regulation 9 of these Regulations.\nThe following new clauses shall be added after Principal Regulation 6.1\n(iv) of the Principal Regulations as Regulation 6.1 (v) and 6.1 (vi).\n6.1 (v) Inject all the electricity generated from the Rooftop Solar PV System\ninto the grid as sale to the licensee at the tariff d",
+   "confidence": "high",
+   "note": "Words deleted/inserted in 6.1 opening and 6.1(ii); 6.1(iv) substituted; 6.1(v),(vi) inserted."
+  },
+  {
+   "from_node": "GJ-C3-003#cl-6.2",
+   "to_node": "GJ-C3-004#cl-6.2",
+   "type": "supersedes",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "The first para of Regulation 6.2 of the Principal Regulations as well as the\namended Regulations (First Amendment) and (Second Amendment) shall\nstand amended and substituted by following clauses:\n(a) Rooftop Solar PV System shall be permitted under net-metering\nprovision for projects having capacity of 1 kW and above and upto\n1000 kW.\n(b) Rooftop Solar PV System shall be permitted for gross-metering\nprovision for projects having capacity of above 10 kW and upto 1000\nkW.\nProvided that the installed capacity is aligned with the provisions for\npermitting consumer connections as stated in the Guja",
+   "confidence": "high",
+   "note": "First para of 6.2 (as amended 2017, 2020) substituted by clauses (a)-(c); 50% cap for non-residential no longer stated."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-8(2)",
+   "to_node": "GJ-C3-004#cl-8(2)",
+   "type": "amends",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "10) Amendment in title of Table and at Sr. No. (iv) provided in Regulation\n8(2) of the Principal Regulations are amended as under:\n\n| Sr. No. | Connected load of eligible consumer/prosumer | Connectivity level |\n| --- | --- | --- |\n| (iv) | Above 100 kW/kVA | 11 KV, 3 Phase, 50 Hz. |\n\n11) Amendment in Regulation 9 of the Principal Regulations and its\nSecond Amendment:\n7 | Page\n\n--- Page 8 ---\nRegulation 9 “Energy Accounting and Settlement” of the Principal\nRegulations and its Second Amendment shall be substituted by following\nRsegulations:\n9. Energy Accounting and Settlement\n(a) Any energy inj",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-003#cl-9",
+   "to_node": "GJ-C3-004#cl-9",
+   "type": "supersedes",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "Regulation 9 “Energy Accounting and Settlement” of the Principal\nRegulations and its Second Amendment shall be substituted by following\nRsegulations:\n9. Energy Accounting and Settlement\n(a) Any energy injected prior to commissioning of the solar project shall be\ndeemed as inadvertent power. The consumer/prosumer of Solar PV\nowner is not eligible to receive any monetary compensation for such\ninadvertent power.\n(b) For each billing period, the licensee shall show the (i) quantum of\nelectricity injected by Eligible Consumer from Solar PV System in the\ngrid, (ii) electricity supplied by the Distri",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-003#cl-9.1",
+   "to_node": "GJ-C3-004#cl-9.1.3",
+   "type": "supersedes",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "Regulation 9 “Energy Accounting and Settlement” of the Principal\nRegulations and its Second Amendment shall be substituted by following\nRsegulations:\n9. Energy Accounting and Settlement\n(a) Any energy injected prior to commissioning of the solar project shall be\ndeemed as inadvertent power. The consumer/prosumer of Solar PV\nowner is not eligible to receive any monetary compensation for such\ninadvertent power.\n(b) For each billing period, the licensee shall show the (i) quantum of\nelectricity injected by Eligible Consumer from Solar PV System in the\ngrid, (ii) electricity supplied by the Distri",
+   "confidence": "medium",
+   "note": "Whole Reg 9 substituted; residential surplus rate now in 9.1.3 (Rs 2.25 for 5 years, then 75% of GUVNL discovered tariff)."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-12.1",
+   "to_node": "GJ-C3-004#cl-12.1",
+   "type": "amends",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "An amendment in Regulation 12.1 shall be made by adding the word “captive\nuse” between the words “Eligible Consumer’s premises” and “shall be\nexempted from transmission charge, transmission loss……”\nThe following new Regulation 12.2 on Wheeling and Transmission of\nelectricity and Regulation 12.3 on Cross Subsidy Surcharge and Additional\nSurcharge shall be added/inserted after Principal Regulation 12.1.\n12.2. WHEELING & TRANSMISSION OF ELECTRICITY:\n12.2.1 Whenever wheeling/transmission of power for captive consumption/ third\nparty sale shall be allowed with open access permission by the licensee",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-003#cl-Annexure-IV.1.3",
+   "to_node": "GJ-C3-004#cl-Annexure-IV.1.3",
+   "type": "partially_supersedes",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "Draft\nAgreement is provided herein at Annexure IV.\n9.1 For Residential and Government Consumers\n9.1.1 Solar Projects set up by residential consumers on their own rooftop /\npremises shall be allowed irrespective of consumer sanctioned load\nsubject to limitation of capacity provided in these Regulations. Incentives\nunder existing schemes can be availed by consumers as per the provisions\nof these Regulations.\n9.1.2 Solar Projects can also be set up by a developer on the rooftop / premises\nof a residential consumer for generation and sale of power to such\nconsumer/prosumer in the same premises und",
+   "confidence": "low",
+   "note": "Implicit: Third Amendment re-issues a full model Annexure IV whose clause 1.3 differs; no express substitution words for Annexure IV in the text."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-Annexure-IV.8.1",
+   "to_node": "GJ-C3-004#cl-Annexure-IV.8.1",
+   "type": "partially_supersedes",
+   "effective_date": "2022-05-31",
+   "evidence_quote": "Draft\nAgreement is provided herein at Annexure IV.\n9.1 For Residential and Government Consumers\n9.1.1 Solar Projects set up by residential consumers on their own rooftop /\npremises shall be allowed irrespective of consumer sanctioned load\nsubject to limitation of capacity provided in these Regulations. Incentives\nunder existing schemes can be availed by consumers as per the provisions\nof these Regulations.\n9.1.2 Solar Projects can also be set up by a developer on the rooftop / premises\nof a residential consumer for generation and sale of power to such\nconsumer/prosumer in the same premises und",
+   "confidence": "low",
+   "note": "Implicit: re-issued model Annexure IV with prosumer/third-party wording; no express substitution words."
+  },
+  {
+   "from_node": "GJ-C3-001#cl-5.1",
+   "to_node": "GJ-C3-005#cl-5.1",
+   "type": "supersedes",
+   "effective_date": "2024-09-06",
+   "evidence_quote": "The Regulation 5.1 shall be substituted as under:\n5.1 The distribution licensee shall update distribution transformer capacity available for connecting Rooftop\nSolar PV Systems under net metering arrangement on yearly basis and shall provide the information to the\nCommission.\nIV-C Ex.-98 98-1\n\n--- Page 2 ---\n98-2 GUJARAT GOVERNMENT GAZETTE EX., 06-09-2024 [ PART IV-C\nProvided that the cost of strengthening of distribution infrastructure, including distribution transformer, as\nnecessary, to facilitate the installation of Rooftop Solar PV System up to 6 KW including subsequent addition\naggregati",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-003#cl-7",
+   "to_node": "GJ-C3-005#cl-7",
+   "type": "supersedes",
+   "effective_date": "2024-09-06",
+   "evidence_quote": "4. Regulation 7 of the Principal Regulations shall be substituted as under:\nVarious activities and different authorities are associated with the Solar Rooftop PV project. It is necessary that\nthe different entities carry out the works within prescribed time limit. Therefore, time frame prescribed in the\ntable below shall be scrupulously followed by the concerned authorities.\n\n--- Page 3 ---\nPART IV-C ] GUJARAT GOVERNMENT GAZETTE EX., 06-09-2024 98-3\n\n| Sr. No. | Activity | Sub Activity | Duration in day(s) |\n| --- | --- | --- | --- |\n| 1 | Registration at GEDA or agency designated by the Gover",
+   "confidence": "high",
+   "note": "Whole Reg 7 (as amended 2017, 2020) substituted."
+  },
+  {
+   "from_node": "GJ-C3-004#cl-Annexure-IV.8.1",
+   "to_node": "GJ-C3-005#cl-Annexure-IV.8.1",
+   "type": "supersedes",
+   "effective_date": "2024-09-06",
+   "evidence_quote": "5. Clause 8.1 of the Connectivity Agreement at ‘Annexure IV’ of Regulations shall be substituted as under:\n8.1. The recovery of cost from the Applicant for strengthening of distribution infrastructure, including\ndistribution transformer shall be governed as per Regulation 5.1.\nRANJEETH KUMAR J. IAS,\nSecretary\nPlace: Gandhinagar Gujarat Electricity Regulatory Commission\nDate: 04/09/2024 Gandhinagar, Gujarat.\n------------\nGovernment Central Press, Gandhinagar.",
+   "confidence": "medium",
+   "note": "Predecessor taken as the 2022 re-issued Annexure IV 8.1 (chain); principal 8.1 if the 2022 re-issue is not treated as substituting."
+  },
+  {
+   "from_node": "GJ-C3-005#cl-7",
+   "to_node": "GJ-C3-007#cl-7 (third proviso)",
+   "type": "amends",
+   "effective_date": "2025-11-03",
+   "evidence_quote": "Following proviso shall be incorporated after second proviso below the Activity Chart provided under\nRegulation 7 of the Principal Regulations read with GERC (Net Metering Rooftop Solar PV Grid Interactive\nSystems) (Fourth Amendment) Regulations, 2024:\n“7. …………...\n……………..\nProvided that there shall not be requirement for execution of separate written connectivity agreement\nbetween the Distribution Licensee and the Consumer in case of Solar Rooftop PV Systems installed under\nPM Surya Ghar Muft Bijli Yojana and the Consumer shall be deemed to be bound by terms and conditions of\nthese Regulations",
+   "confidence": "high"
+  },
+  {
+   "from_node": "GJ-C3-004#cl-8(2)",
+   "to_node": "GJ-C3-007#cl-8(2)",
+   "type": "supersedes",
+   "effective_date": "2025-11-03",
+   "evidence_quote": "The Regulation 8 (2) shall be substituted as under:\n“(2) The connectivity levels at which the Rooftop PV Solar System shall be connected with the grid shall be\nas per the supply voltage level provided under GERC (Electricity Supply Code and Related Matters)\nRegulations, 2015 as amended from time to time.”\nPlace: Gandhinagar RANJEETH KUMAR J., IAS,\nDate: 03/11/2025 Secretary.\n-----------\nGovernment Central Press, Gandhinagar.",
+   "confidence": "high"
+  }
+ ],
+ "document_supersessions": []
+}

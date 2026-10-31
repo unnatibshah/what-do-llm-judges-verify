@@ -1,0 +1,17 @@
+{
+  "source_url": "https://srtpv.bescom.org/SRTPV/document/KERC%20Tariff%20Order%20from%2025.08.2026.pdf",
+  "landing_page_url": "https://srtpv.bescom.org/SRTPV/",
+  "domain_note": "Hosted on BESCOM's own SRTPV portal srtpv.bescom.org (BESCOM is a wholly Government of Karnataka undertaking) - NOT a *.gov.in or kerc.karnataka.gov.in domain; kerc.karnataka.gov.in and bescom.karnataka.gov.in were unreachable from the collection host (see FAILURES.md). Authenticity vs the KERC-hosted original is unconfirmed (same-bytes check pending).",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "doc_type": "tariff order (context)",
+  "title": "Determination of tariff in respect of Distributed Solar Photovoltaic (DSPV) Plants/ Solar Photovoltaic (SPV) Plants, with different metering mechanism for the period from 25.08.2026 to 30.06.2029",
+  "number": "No. KERC/S/F-32/V-29/2407",
+  "printed_date": "25.08.2026",
+  "file": "KERC-tariff-order-2026-08-25.pdf",
+  "fetched_at": "2026-10-01T16:56:10Z",
+  "http_status": 200,
+  "sha256": "4799995f52c9047adf7a679d1ef76e30b354268bae92a07b095b917c7e9bf855",
+  "pages": 18,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

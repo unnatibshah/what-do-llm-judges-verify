@@ -1,0 +1,52 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/Final%20DERC%20%28Group%20Net%20Metering%20and%20Virtual%20Net%20Metering%20for%20Renewable%20Energy%29%20%28Fifth%20Amendment%29%20Guidelines%2C%202024.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:48Z",
+  "sha256": "ad0901dca07f474f23f9c2e01aaa68ccb0dc6e66efdc19dc98dbea7d90b14d60",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "DERC (GNM and VNM for Renewable Energy) (Fifth Amendment) Guidelines, 2024",
+  "number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "printed_date": "2024-03-15",
+  "file_type": "PDF document, version 1.6 (zip deflate encoded)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+      "verbatim_quote": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times  of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.",
+      "page": 2,
+      "topic": "GNM/VNM capacity: 5x sanctioned load, max 10 MW ground-mounted; rooftop uncapped",
+      "numeric_values": {
+        "ground_mounted_cap_x_sanctioned_load": 5,
+        "max_MW": 10,
+        "rooftop_cap": "none"
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-GNMVNM-2019-guidelines",
+        "clause_ref": "Guideline 3(8)",
+        "evidence_quote": "The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.",
+        "evidence_page": 3
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Guideline 13 (substituted)",
+      "verbatim_quote": "The Renewable Energy System commissioned till 31/03/2027 shall be exempted, till useful life, from 100% payment of Wheeling Charge, Banking Charge, Cross Subsidy Surcharge and any other charge(s).",
+      "page": 2,
+      "topic": "Charges exemption: dated and tapered 100% -> 25% steps",
+      "numeric_values": {
+        "full_exemption_until": "2027-03-31",
+        "next_window_until": "2030-03-31",
+        "levy_pct_next": 25,
+        "step_pct": 25,
+        "step_every_years": 3
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-GNMVNM-2022-fourth-amend",
+        "clause_ref": "Guideline 13",
+        "evidence_quote": "Provided that exemption of applicability of such charges shall be valid till commissioning of Renewable Energy System by 31 st March 2024 or till additional capacity reaches upto 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL , BYPL and NDMC respectively",
+        "evidence_page": 1
+      },
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

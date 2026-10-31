@@ -1,0 +1,16 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2Nzc2Njk4NF82NzAw",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "statement of reasons (context only)",
+  "title": "Statement of Reasons, Third Amendment 2022",
+  "number": "n/a",
+  "printed_date": "2022-05-31 per landing page",
+  "file": "GERC-NetMetering-2022-3rdAmend-SoR.pdf",
+  "fetched_at": "2026-10-01T16:43:40Z",
+  "http_status": 200,
+  "sha256": "c95d16416547e0b22bca5b4cf8eb4e374765056d2af17fc180b7ff30b371fc11",
+  "pages": 78,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

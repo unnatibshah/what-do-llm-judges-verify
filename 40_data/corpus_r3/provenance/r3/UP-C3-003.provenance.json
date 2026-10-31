@@ -1,0 +1,25 @@
+{
+  "source_url": "https://www.uperc.org/App_File/NotifiedNetMetering-pdf817202233511PM.pdf",
+  "landing_page_url": "https://www.uperc.org/notified_user.aspx",
+  "fetched_at": "2026-10-01T16:40:17Z",
+  "sha256": "3581339e6489a703f0a327917ffadb8a420da322c84052cb87a045b8061b0e82",
+  "http_status": 200,
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "printed_title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulation, 2019 (First Amendment/Addendum)",
+  "number": "U.P.E.R.C/Secretary/RSPV Regulations/118",
+  "printed_date": "2022-06-01",
+  "file_type": "PDF document, version 1.7, 16 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Reg. 10.6 (added 01.06.2022)",
+      "verbatim_quote": "shall be finalized by UPNEDA/ state designated agency in consultation of the Discom within 60 days of notification of this Regulation",
+      "page": 14,
+      "topic": "Procedure/timelines for approval to be finalised within 60 days",
+      "numeric_values": {
+        "days": 60
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

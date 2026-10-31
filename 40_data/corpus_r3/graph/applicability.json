@@ -1,0 +1,903 @@
+[
+  {
+    "node_id": "IN-C1-001#cl-4.1",
+    "applies_when": {
+      "all": [
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "residential"
+        },
+        {
+          "field": "premises_type",
+          "op": "eq",
+          "value": "individual"
+        },
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "applicability_basis": "PM Surya Ghar residential slabs: individual residential consumers claiming CFA",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C1-001#cl-4.gh",
+    "applies_when": {
+      "all": [
+        {
+          "field": "premises_type",
+          "op": "in",
+          "value": [
+            "group_housing",
+            "rwa_common"
+          ]
+        },
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "applicability_basis": "PM Surya Ghar GHS/RWA row: common facilities of housing societies",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C1-001#cl-5.1m",
+    "applies_when": {
+      "all": [
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "applicability_basis": "DCR is an essential condition for CFA eligibility",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C2-002#cl-1",
+    "applies_when": {
+      "all": [
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "case_date",
+          "op": "gte",
+          "value": "2024-04-01"
+        }
+      ]
+    },
+    "applicability_basis": "ALMM List-I in effect from 01.04.2024 for subsidised rooftop projects",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-001#cl-5.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        }
+      ]
+    },
+    "applicability_basis": "MERC DT hosting limit: all net-metering / net-billing systems in Maharashtra",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-001#cl-6.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lt",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "MERC individual capacity limit (Eligible Consumer systems below 1 MW)",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-001#cl-2.1j",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gte",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "MERC Eligible Consumer definition: net-metering systems must be below 1 MW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-002#cl-annex1-c",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "MERC 2024 feasibility study: 15 days, presumed feasible if not intimated",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-002#cl-annex1-c-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "MERC 2024 proviso: up to 10 kW deemed accepted",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-002#cl-7.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "RERC individual capacity limit: 100% of sanctioned load / contract demand",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-004#cl-12",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "RERC 07.02.2024 order: net metering up to 1 MW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-003#cl-2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "consumer_category",
+          "op": "neq",
+          "value": "industrial"
+        }
+      ]
+    },
+    "applicability_basis": "RERC DT hosting limit 80% (not HT consumers with their own transformer)",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-003#cl-2-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "industrial"
+        }
+      ]
+    },
+    "applicability_basis": "RERC proviso: 80% DT limit not applicable to HT consumers' own transformers",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-005#cl-8.8",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "RERC 2024 feasibility study: 15 days, presumed feasible if not intimated",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-005#cl-8.8-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "RERC 2024 proviso: up to 10 kW deemed accepted",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "GJ-C3-004#cl-6.2c-i",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        },
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "residential"
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2022: residential rooftop projects allowed irrespective of sanctioned load",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "GJ-C3-004#cl-6.2c-iii",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        },
+        {
+          "field": "consumer_category",
+          "op": "in",
+          "value": [
+            "commercial",
+            "industrial"
+          ]
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2022: REC-mechanism captive / third-party projects capped at sanctioned load (REC participation is not a case fact; residential rooftop is never under it)",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "GJ-C3-004#cl-6.2a",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        },
+        {
+          "field": "metering_mode",
+          "op": "eq",
+          "value": "net"
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2022: net-metering rooftop systems of 1 kW up to 1000 kW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "GJ-C3-003#cl-5-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2020: cumulative capacity on a DT up to the DT capacity",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "GJ-C3-005#cl-7-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2024 proviso: applications up to 10 kW deemed accepted without a feasibility study",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "GJ-C3-005#cl-7-row4",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2024 timeline row 4: registration letter for the TFR (applications above 10 kW, which are not deemed accepted)",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "GJ-C3-003#cl-13.5-check",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2020: check meter mandatory above 20 kW (the threshold decides compliance, the clause governs every GJ rooftop meter installation)",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "GJ-C3-003#cl-13.5-class",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "GJ"
+        }
+      ]
+    },
+    "applicability_basis": "GERC 2020: accuracy class of the solar and net meters",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "KA-C3-001#cl-6a",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "KA"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 2000
+        }
+      ]
+    },
+    "applicability_basis": "KERC 2023: voltage level of interconnection by capacity, up to 2000 kW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "KA-C3-001#cl-6f",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "KA"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 150
+        }
+      ]
+    },
+    "applicability_basis": "KERC 2023: plants above 150 kW connect to the 11 kV system; 80% feeder limit",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "KA-C3-001#cl-l-feasibility",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "KA"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 150
+        }
+      ]
+    },
+    "applicability_basis": "KERC 2023 timeline: site verification / feasibility within 10 working days (plants above 150 kW, which are not deemed feasible)",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "KA-C4-001#cl-1",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "KA"
+        },
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "residential"
+        }
+      ]
+    },
+    "applicability_basis": "KERC 05.12.2024: domestic consumers may install up to 10 kW with automatic sanctioned-load enhancement (the 10 kW bound decides compliance)",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "KA-C5-006#cl-18",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "KA"
+        }
+      ]
+    },
+    "applicability_basis": "BESCOM 2025: check meter for DSPV systems above 50 kWp (threshold decides compliance)",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "KA-C5-006#cl-4",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "KA"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 150
+        }
+      ]
+    },
+    "applicability_basis": "BESCOM 2025: 80% DT limit, applicable only to LT plants up to 150 kW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "KA-C5-006#cl-4-note-ii",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "KA"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 150
+        }
+      ]
+    },
+    "applicability_basis": "BESCOM 2025: plants up to 150 kW deemed feasible",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "TN-C5-002#cl-I.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "TN"
+        },
+        {
+          "field": "consumer_category",
+          "op": "neq",
+          "value": "agricultural"
+        },
+        {
+          "field": "metering_mode",
+          "op": "in",
+          "value": [
+            "net",
+            "net_billing"
+          ]
+        }
+      ]
+    },
+    "applicability_basis": "TANGEDCO 2021: all categories except hut and agriculture, net billing / net feed-in, up to the sanctioned load and 999 kW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "TN-C5-002#cl-I.3a",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "TN"
+        },
+        {
+          "field": "metering_mode",
+          "op": "eq",
+          "value": "gross"
+        }
+      ]
+    },
+    "applicability_basis": "TANGEDCO 2021: gross metering mechanism, 151 kWp up to 999 kW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "TN-C5-002#cl-VII.3",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "TN"
+        },
+        {
+          "field": "metering_mode",
+          "op": "in",
+          "value": [
+            "net",
+            "net_billing"
+          ]
+        }
+      ]
+    },
+    "applicability_basis": "TANGEDCO 2021: 90% DT limit for net metering / net billing systems",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "TN-C5-002#cl-VII.4",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "TN"
+        },
+        {
+          "field": "metering_mode",
+          "op": "eq",
+          "value": "gross"
+        }
+      ]
+    },
+    "applicability_basis": "TANGEDCO 2021: 70% power-transformer limit for HT gross metering",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "DL-C3-016#cl-g3-stage1-deemed",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "DL"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "DERC 2026: no feasibility analysis up to 10 kW on the same supply type (supply type is not a case fact)",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "DL-C3-016#cl-g3-stage1-lapse",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "DL"
+        }
+      ]
+    },
+    "applicability_basis": "DERC 2026: feasibility deemed granted when the outcome is not communicated in time",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "DL-C3-009#cl-3.8",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "DL"
+        }
+      ]
+    },
+    "applicability_basis": "DERC GNM/VNM Fifth Amendment 2024: ground-mounted systems up to 5x sanctioned load, 10 MW (mounting type is not a case fact)",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "DL-C3-001#cl-5.4",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "DL"
+        }
+      ]
+    },
+    "applicability_basis": "DERC net metering: SLD differential charges when capacity exceeds the sanctioned load",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "UP-C3-002#cl-6.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "UP"
+        }
+      ]
+    },
+    "applicability_basis": "UPERC 2019: capacity on a DT up to 75% of the DT",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "UP-C3-002#cl-5.1",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "UP"
+        }
+      ]
+    },
+    "applicability_basis": "UPERC 2019: capacity up to 100% of connected / contracted demand",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "UP-C3-002#cl-6.2-proviso2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "UP"
+        }
+      ]
+    },
+    "applicability_basis": "UPERC 2019: augmentation charge Rs 1000/kWp beyond 10 kWp",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C3-001#cl-11.7A",
+    "applies_when": {
+      "all": [
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "Electricity (Rights of Consumers) Amendment 2024 rule 11(7A): up to 10 kW deemed accepted",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C3-004#cl-11.4",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "in",
+          "value": []
+        }
+      ]
+    },
+    "applicability_basis": "ROC 2021 rule 11(4) proviso: only where state regulations do not provide for net metering; every state in the corpus has such regulations",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "IN-C2-013#cl-1b",
+    "applies_when": {
+      "all": [
+        {
+          "field": "metering_mode",
+          "op": "in",
+          "value": [
+            "net",
+            "gross",
+            "net_billing"
+          ]
+        }
+      ]
+    },
+    "applicability_basis": "ALMM List-II order 2026: net-metering and open-access projects commissioned by 31.12.2026 exempt",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C2-013#cl-1b-giu",
+    "applies_when": {
+      "all": [
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "residential"
+        }
+      ]
+    },
+    "applicability_basis": "ALMM List-II order 2026: PM Surya Ghar 'Give It Up' residential cases exempt to 31.03.2027 (the scheme option is not a case fact)",
+    "basis_span": null,
+    "confidence": "medium"
+  },
+  {
+    "node_id": "IN-C2-013#cl-1e",
+    "applies_when": {
+      "all": [
+        {
+          "field": "metering_mode",
+          "op": "eq",
+          "value": null
+        }
+      ]
+    },
+    "applicability_basis": "ALMM order 2026: List-I/II do not apply to behind-the-meter captive plants (no grid metering mode)",
+    "basis_span": null,
+    "confidence": "low"
+  },
+  {
+    "node_id": "IN-C1-001#cl-annex1-ii-amended",
+    "applies_when": {
+      "all": [
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "residential"
+        }
+      ]
+    },
+    "applicability_basis": "PM Surya Ghar amended OM 07.07.2025: Phase-II CFA claim window",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C1-001#cl-phase2-pmsg-split",
+    "applies_when": {
+      "all": [
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "residential"
+        }
+      ]
+    },
+    "applicability_basis": "PM Surya Ghar: applications on or after 13.02.2024 fall under PMSG",
+    "basis_span": null,
+    "confidence": "high"
+  }
+]

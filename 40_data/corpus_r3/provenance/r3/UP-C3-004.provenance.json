@@ -1,0 +1,24 @@
+{
+  "source_url": "https://www.uperc.org/App_File/NotifiedRSPVSecondAmendment-pdf1128202342747AM.pdf",
+  "landing_page_url": "https://www.uperc.org/notified_user.aspx",
+  "fetched_at": "2026-10-01T16:40:15Z",
+  "sha256": "b87be1f4128c4e19fbb7ab609453e18dbb1999c28804bd47f72edebf8c11ae40",
+  "http_status": 200,
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "printed_title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulation, 2019 (Second Amendment)",
+  "number": "UPERC/Secretary/RSPV Regulations/002",
+  "printed_date": "2023-11-17",
+  "file_type": "PDF document, version 1.7, 4 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Reg. 2(k)(iii) Net Metering Scheme eligibility (17.11.2023)",
+      "verbatim_quote": "(I) All Public Institutions covered under LMV-4A consumer category of the Rate Schedule except such consumers which are covered under LMV-4A(c) as provided in the Rate Schedule.",
+      "page": 4,
+      "topic": "Net metering extended to LMV-4A/4B, HV-1 institutions",
+      "numeric_values": {},
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "note": "Eligibility scope; potential tension with ROC 2021 Rule 11(4) (net metering for prosumers up to 500 kW) only where state regs are silent."
+    }
+  ]
+}

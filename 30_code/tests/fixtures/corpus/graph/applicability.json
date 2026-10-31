@@ -1,0 +1,40 @@
+[
+  {
+    "node_id": "MH-C3-001#cl-7.2",
+    "applies_when": {
+      "all": [
+        {"field": "state", "op": "eq", "value": "MH"},
+        {"field": "consumer_category", "op": "eq", "value": "residential"},
+        {"field": "metering_mode", "op": "eq", "value": "net"}
+      ]
+    },
+    "applicability_basis": "Applies to residential net-metered consumers in Maharashtra under 2019 regulations",
+    "basis_span": [100, 300],
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-002#cl-3",
+    "applies_when": {
+      "all": [
+        {"field": "state", "op": "eq", "value": "MH"},
+        {"field": "consumer_category", "op": "eq", "value": "residential"},
+        {"field": "metering_mode", "op": "eq", "value": "net"}
+      ]
+    },
+    "applicability_basis": "Applies to residential net-metered consumers in Maharashtra under 2024 amendment",
+    "basis_span": [120, 350],
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C1-001#cl-4.1",
+    "applies_when": {
+      "all": [
+        {"field": "consumer_category", "op": "eq", "value": "residential"},
+        {"field": "subsidy_claimed", "op": "eq", "value": true}
+      ]
+    },
+    "applicability_basis": "Central subsidy guidelines for residential rooftop solar consumers claiming CFA",
+    "basis_span": [150, 400],
+    "confidence": "high"
+  }
+]

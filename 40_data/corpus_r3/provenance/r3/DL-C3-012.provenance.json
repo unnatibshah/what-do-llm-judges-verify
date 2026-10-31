@@ -1,0 +1,42 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/DERC%20Net%20Metering%20for%20Renewable%20Energy%29%20%28First%20Amendment%29%20Regulations%2C%202024.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:26Z",
+  "sha256": "73a0c62217d383b4ab0e3868639efb0dc8a38a7a5987467caee8a9cb7fd517c0",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "Delhi Electricity Regulatory Commission (Net Metering for Renewable Energy) (First Amendment) Regulations, 2024",
+  "number": "F.3(629)/Tariff-Engg./DERC/2020-21/6910",
+  "printed_date": "2024-07-26",
+  "file_type": "PDF document, version 1.5, 1 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Reg. 5(3) provisos (inserted 26.07.2024)",
+      "verbatim_quote": "Provided also that Technical feasibility of Renewable Energy System above 10 kW shall be completed by Distribution Licensee within fifteen (15) days from the date of receipt of application complete in all aspects.",
+      "page": 1,
+      "topic": "Feasibility for >10 kW cut from 30 to 15 days; <=10 kW exempt",
+      "numeric_values": {
+        "feasibility_days_above_10kW": 15,
+        "exempt_up_to_kW": 10
+      },
+      "amends_or_supersedes": {
+        "doc": "DL-NM-2014-regs-and-guidelines-sws",
+        "clause_ref": "Guidelines cl. 3(3)",
+        "evidence_quote": "the Distribution Licensee shall complete the feasibility analysis for connecting the Renewable EnergySystem to the distribution system within thirty (30) days from the date of receipt of the application..",
+        "evidence_page": 10
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Reg. 5(3) proviso 1",
+      "verbatim_quote": "Provided that the Technical feasibility of Renewable Energy System upto 10 kW is exempted from technical feasibility studies on the same supply type",
+      "page": 1,
+      "topic": "<=10 kW exempt from technical feasibility; sanctioned load enhanced by licensee",
+      "numeric_values": {
+        "kW_ceiling": 10
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

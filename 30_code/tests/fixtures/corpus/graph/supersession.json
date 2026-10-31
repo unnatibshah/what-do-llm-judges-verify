@@ -1,0 +1,69 @@
+{
+  "nodes": {
+    "MH-C3-001#cl-7.2": {
+      "node_id": "MH-C3-001#cl-7.2",
+      "doc_id": "MH-C3-001",
+      "clause_ref": "7.2",
+      "clause_text_snippet": "The capacity of grid interactive rooftop solar PV system to be installed at the premises of any eligible residential consumer shall not exceed the sanctioned load of the consumer and shall be subject to an upper ceiling of 10 kW under net metering arrangement.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2019-12-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1"
+    },
+    "MH-C3-002#cl-3": {
+      "node_id": "MH-C3-002#cl-3",
+      "doc_id": "MH-C3-002",
+      "clause_ref": "3",
+      "clause_text_snippet": "Clause 7.2 of the Maharashtra Electricity Regulatory Commission (Grid Interactive Rooftop Renewable Energy Systems) Regulations, 2019 is hereby substituted as follows: 'The capacity of grid interactive rooftop solar PV system for residential net metering shall not exceed the sanctioned load of the consumer, provided that the upper ceiling under net metering arrangement is enhanced from 10 kW to 50 kW for all low tension residential consumers.'",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2024-03-01",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "IN-C1-001#cl-4.1": {
+      "node_id": "IN-C1-001#cl-4.1",
+      "doc_id": "IN-C1-001",
+      "clause_ref": "4.1",
+      "clause_text_snippet": "Under PM Surya Ghar Muft Bijli Yojana, Central Financial Assistance (CFA) shall be provided for residential rooftop solar applications registered on the National Portal as follows: (a) For residential solar system capacity up to 2 kW: Rs. 30,000 per kW. (b) For residential solar system capacity beyond 2 kW and up to 3 kW: Rs. 60,000 plus Rs. 18,000 per kW for additional capacity beyond 2 kW. (c) For residential solar system capacity exceeding 3 kW: Total CFA is capped at Rs. 78,000.",
+      "subject": "subsidy_cfa_central_residential",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-02-13",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A3"
+    }
+  },
+  "edges": [
+    {
+      "from": "MH-C3-001#cl-7.2",
+      "to": "MH-C3-002#cl-3",
+      "relation": "superseded_by",
+      "from_date": "2024-03-01",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "Clause 7.2 of the Maharashtra Electricity Regulatory Commission (Grid Interactive Rooftop Renewable Energy Systems) Regulations, 2019 is hereby substituted as follows",
+        "doc_id": "MH-C3-002"
+      },
+      "confidence": "high"
+    }
+  ]
+}

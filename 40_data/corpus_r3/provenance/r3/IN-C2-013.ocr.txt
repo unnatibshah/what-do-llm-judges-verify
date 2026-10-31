@@ -1,0 +1,95 @@
+DERIVED FILE: macOS Vision OCR of IN-ALMM-2026-08-04-clarification-OM-283-54-2026.pdf; not the document. Verify against the PDF image.
+
+=====PAGE 1=====
+No. 283/54/2026-GRID SOLAR
+H{1K / Government of India
+Ministry of New & Renewable Energy (MNRE)
+Atal Akshay Urja Bhawan
+Lodi Road, New Delhi - 110003
+Dated: 4th August 2026
+OFFICE MEMORANDUM
+Sub: Approved List of Models & Manufacturers (ALMM) List-ll for solar PV cells: Clarification -
+reg.
+1. Several requests have been received in MNRE seeking clarifications w.r.t. applicability of ALMM List-
+Il (for solar PV cells), in light of MNRE's O.M. No. 283/53/2026-GRID SOLAR dated 18.07.2026 and its
+implications, if any, on MNRE's previous O.M.s reg. ALMM. The requests have been examined and
+following is hereby clarified:
+a) For projects awarded through bidding, if last date of bid submission is on or before the cut
+off date of 31.08.2025 (the date falling after one month of the publication of initial ALMM List-II
+dated 31.07.2025), the projects are exempt from ALMM List-I| (for solar cells), else not. The
+applicability of this provision is to bids which were live as on 28.07.2025.
+However, if the bid conditions in tenders where the last date of bid submission was between
+09.12.2024 (the date of issuance of MNRE's Office Memorandum No. 283/59/2024-GRID
+SOLAR dated 09.12.2024 for implementation of ALMM for solar PV cells)
+and
+28.07.2025 (the date of amendment to MNRE's aforesaid Office Memorandum dated
+09.12.2024, vide MNRE's Office Memorandum No. 283/59/2024-GRID SOLAR dated
+provided for usage of solar PV cells from ALMM List-II for solar PV cells, such conditions will
+remain valid, as MNRE's O.M. No. 283/59/2024-GRID SOLAR dated 28.07.2025, which modified
+the MNRE's O.M. No. 283/59/2024-GRID SOLAR dated 09.12.2024, and the issuance of first list
+of ALMM for solar PV cells on 31.07.2025, has effectively shifted the cut-off date for applicability
+of ALMM for solar PV cells on projects awarded through bidding, from 09.12.2024 to 31.08.2025
+and MNRE's O.M. of 28.07.2025 does NOT directly / automatically relax the bid conditions in
+tenders wherein the last date of bid submission was between 09.12.2024 and 28.07.2025.
+b) For Net-Metering & Open Access Projects, if commissioned by 31.12.2026, the projects are
+exempt from ALMM List-ll for solar cells, else not. The exemption is only for ALMM List-ll (for
+solar PV cells), and compliance to ALMM List-I (for solar PV modules) still needs to be followed
+as per extant provisions applicable to the concerned project. This exemption from ALMM List-ll
+(for solar PV cells) is irrespective of whether the project is initiated pre or post 18.07.2026, and
+without any need/ pre-requisite of any application on the portal [https://solardcrportal.nise.res.in/
+If any residential rooftop solar consumer or rooftop solar project for residential building, is availing
+Net Metering with the option of 'Give It UP Subsidy cases under PMSG:MBY', such cases shall
+be exempted from applicability of ALMM List-II (for solar PV cells) till the end of the scheme
+period, i.e., 31st March 2027, subject to the condition that such applications are made mandatorily
+through
+1 PMSG National Portal only, however, this exemption is only in respect of ALMM List-lI
+(for solar PV cells) and compliance to ALMM List-I (for solar PV modules), will still be required
+as the same is applicable for all net-metering projects.
+'Net-Metering' as referred herein shall be construed to cover all other forms of connection and
+interaction to grid, including but not limited to Gross Metering, Net Billing, Net Feed In, Virtual
+Net Metering, Group Net Metering, etc. but excluding Behind-The-Meter connections.
+c) For Rooftop Solar Projects on Government Buildings, which have been awarded
+through bidding:
+i. If the last date of bid submission was on or prior to 09.12.2024 - the projects will be
+exempt from ALMM List-II (for solar PV cells).
+
+=====PAGE 2=====
+ii. If the last date of bid submission was between 09.12.2024 to 28.07.2025 - w.r.t.
+applicability of ALMM List-II (for solar PV cells), the projects will be governed by the
+provisions in this regard in the tender documents.
+ill. If the last date of bid submission was from 28.07.2025 to 31.08.2025 - the projects will
+be exempt from ALMM List-II (for solar PV cells).
+iv. If the last date of bid submission was after 31.08.2025 - the projects will not be exempt
+from ALMM List-ll (for solar PV cells).
+d) For Rooftop Solar Projects (Net-Metering/ Open Access) on Government Buildings,
+which have not been awarded through bidding:
+i. If commissioned by 31.12.2026 - the projects will be exempt from ALMM List-ll (for
+solar PV cells).
+ii. If commissioned after 31.12.2026 - the projects will not be exempted from ALMM List-
+Il (for solar PV cells).
+e) Behind-The-Meter Projects:
+In line with harmonious reading of MNRE's O.M. No. 283/54/2018-GRID SOLAR-Part(5) dated
+07.10.2022, O.M. No. 283/106/2017-GRID SOLAR dated 16.05.2025, O.M. No. 283/106/2017-
+GRID SOLAR dated 10.07.2025, following is clarified:
+i. ALMM List-I (for solar PV modules) and ALMM List-II (for solar PV cells) shall not apply
+to behind-the-meter solar power plants solely used for captive consumption by a
+consumer or group of consumers, other than Government entities or Public Sector
+ii. Behind-the-Meter projects for captive consumption of Government entities or Public
+Sector Enterprises:
+• are mandated to use ALMM enlisted solar PV modules but are exempt from using
+ALMM enlisted solar PV cells, if commissioned by 31.12.2026; and
+• are mandated to use both ALMM enlisted solar PV modules and ALMM enlisted
+solar PV cells, if commissioned after 31.12.2026.
+f) ALMM O.M.s/ Orders have no impact on DCR provisions: The Domestic Content
+Requirement (DCR) provisions in respective Schemes are governed by the Scheme Guidelines
+of the respective Schemes including various clarifications/amendments issued thereto and not
+by the orders / O.M.s on ALMM and any order / O.M. of ALMM issued by MNRE, does not relax
+any provisions about usage of domestically manufactured solar
+PV modules and domestically manufactured solar PV cells in any of MNRE's Schemes.
+2. This is issued with the approval of the Secretary, MNRE.
+(Sanjay G. Karndhar)
+Scientist-E
+Email: karndhar.sg@nic.in
+Tel: 011-20849047
+To: All concerned
+Copy to: Director (Technical), NIC, MNRE, for uploading on MNRE's website

@@ -1,0 +1,763 @@
+{
+  "note": "D33 verifier probe, dev split: engineering evidence only, not a result.",
+  "models": {
+    "kbench-claude-opus-4-5": {
+      "validity": {
+        "invalid": {
+          "k": 0,
+          "n": 126,
+          "clusters": 14
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 34,
+              "n": 42,
+              "clusters": 14
+            },
+            "clause": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "wrong": {
+              "k": 8,
+              "n": 42,
+              "clusters": 14
+            },
+            "any": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "right_outcome_changing": {
+              "k": 4,
+              "n": 4,
+              "clusters": 3
+            },
+            "right_basis_only": {
+              "k": 30,
+              "n": 38,
+              "clusters": 14
+            },
+            "fpr": {
+              "k": 40,
+              "n": 42,
+              "clusters": 14
+            },
+            "fpr_validity": {
+              "k": 12,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "discrimination": 0.5238,
+            "pairs": 42
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 34,
+            "n": 42,
+            "clusters": 14
+          },
+          "clause": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "wrong": {
+            "k": 8,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_controls": {
+            "k": 40,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_controls": {
+            "k": 12,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_C": {
+            "k": 38,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_C": {
+            "k": 11,
+            "n": 42,
+            "clusters": 14
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 42,
+            "clusters": 14
+          }
+        }
+      },
+      "validity-regstatus": {
+        "invalid": {
+          "k": 1,
+          "n": 126,
+          "clusters": 14
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 35,
+              "n": 42,
+              "clusters": 14
+            },
+            "clause": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "wrong": {
+              "k": 7,
+              "n": 42,
+              "clusters": 14
+            },
+            "any": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "right_outcome_changing": {
+              "k": 4,
+              "n": 4,
+              "clusters": 3
+            },
+            "right_basis_only": {
+              "k": 31,
+              "n": 38,
+              "clusters": 14
+            },
+            "fpr": {
+              "k": 37,
+              "n": 42,
+              "clusters": 14
+            },
+            "fpr_validity": {
+              "k": 11,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "discrimination": 0.5714,
+            "pairs": 42
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 35,
+            "n": 42,
+            "clusters": 14
+          },
+          "clause": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "wrong": {
+            "k": 7,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_controls": {
+            "k": 37,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_controls": {
+            "k": 11,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_C": {
+            "k": 36,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_C": {
+            "k": 10,
+            "n": 42,
+            "clusters": 14
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 42,
+            "clusters": 14
+          }
+        }
+      },
+      "validity-regstatus-drop50-s0": {
+        "invalid": {
+          "k": 0,
+          "n": 126,
+          "clusters": 14
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 29,
+              "n": 42,
+              "clusters": 14
+            },
+            "clause": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "wrong": {
+              "k": 13,
+              "n": 42,
+              "clusters": 14
+            },
+            "any": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "right_outcome_changing": {
+              "k": 3,
+              "n": 4,
+              "clusters": 3
+            },
+            "right_basis_only": {
+              "k": 26,
+              "n": 38,
+              "clusters": 14
+            },
+            "fpr": {
+              "k": 37,
+              "n": 42,
+              "clusters": 14
+            },
+            "fpr_validity": {
+              "k": 11,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "discrimination": 0.4286,
+            "pairs": 42
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 29,
+            "n": 42,
+            "clusters": 14
+          },
+          "clause": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "wrong": {
+            "k": 13,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_controls": {
+            "k": 37,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_controls": {
+            "k": 11,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_C": {
+            "k": 36,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_C": {
+            "k": 10,
+            "n": 42,
+            "clusters": 14
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 42,
+            "clusters": 14
+          }
+        }
+      },
+      "validity-regstatus-spurious10-s0": {
+        "invalid": {
+          "k": 0,
+          "n": 126,
+          "clusters": 14
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 35,
+              "n": 42,
+              "clusters": 14
+            },
+            "clause": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "wrong": {
+              "k": 7,
+              "n": 42,
+              "clusters": 14
+            },
+            "any": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "right_outcome_changing": {
+              "k": 4,
+              "n": 4,
+              "clusters": 3
+            },
+            "right_basis_only": {
+              "k": 31,
+              "n": 38,
+              "clusters": 14
+            },
+            "fpr": {
+              "k": 37,
+              "n": 42,
+              "clusters": 14
+            },
+            "fpr_validity": {
+              "k": 11,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "discrimination": 0.5714,
+            "pairs": 42
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 35,
+            "n": 42,
+            "clusters": 14
+          },
+          "clause": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "wrong": {
+            "k": 7,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_controls": {
+            "k": 37,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_controls": {
+            "k": 11,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_C": {
+            "k": 36,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_C": {
+            "k": 10,
+            "n": 42,
+            "clusters": 14
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 42,
+            "clusters": 14
+          }
+        }
+      },
+      "validity-regnorec": {
+        "invalid": {
+          "k": 0,
+          "n": 126,
+          "clusters": 14
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 35,
+              "n": 42,
+              "clusters": 14
+            },
+            "clause": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "wrong": {
+              "k": 7,
+              "n": 42,
+              "clusters": 14
+            },
+            "any": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "right_outcome_changing": {
+              "k": 4,
+              "n": 4,
+              "clusters": 3
+            },
+            "right_basis_only": {
+              "k": 31,
+              "n": 38,
+              "clusters": 14
+            },
+            "fpr": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "fpr_validity": {
+              "k": 10,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "discrimination": 0.5952,
+            "pairs": 42
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 35,
+            "n": 42,
+            "clusters": 14
+          },
+          "clause": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "wrong": {
+            "k": 7,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_controls": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_controls": {
+            "k": 10,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_C": {
+            "k": 39,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_C": {
+            "k": 13,
+            "n": 42,
+            "clusters": 14
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 42,
+            "clusters": 14
+          }
+        }
+      },
+      "validity-regnorec-drop50-s0": {
+        "invalid": {
+          "k": 0,
+          "n": 126,
+          "clusters": 14
+        },
+        "conditions": {
+          "S-both": {
+            "right": {
+              "k": 30,
+              "n": 42,
+              "clusters": 14
+            },
+            "clause": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "wrong": {
+              "k": 12,
+              "n": 42,
+              "clusters": 14
+            },
+            "any": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "right_outcome_changing": {
+              "k": 3,
+              "n": 4,
+              "clusters": 3
+            },
+            "right_basis_only": {
+              "k": 27,
+              "n": 38,
+              "clusters": 14
+            },
+            "fpr": {
+              "k": 42,
+              "n": 42,
+              "clusters": 14
+            },
+            "fpr_validity": {
+              "k": 10,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_fault": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "cant_confirm_control": {
+              "k": 0,
+              "n": 42,
+              "clusters": 14
+            },
+            "discrimination": 0.4762,
+            "pairs": 42
+          }
+        },
+        "pooled": {
+          "right_primary": {
+            "k": 30,
+            "n": 42,
+            "clusters": 14
+          },
+          "clause": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "wrong": {
+            "k": 12,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_controls": {
+            "k": 42,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_controls": {
+            "k": 10,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_C": {
+            "k": 39,
+            "n": 42,
+            "clusters": 14
+          },
+          "fpr_validity_C": {
+            "k": 11,
+            "n": 42,
+            "clusters": 14
+          },
+          "cant_confirm_C": {
+            "k": 0,
+            "n": 42,
+            "clusters": 14
+          }
+        }
+      }
+    }
+  },
+  "contrasts": {
+    "pooled": {
+      "P2 validity - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P3 meta on - off (support)": {
+        "n_items": 0,
+        "p": null
+      },
+      "P4 100-neutral - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P5 reg-real - support": {
+        "n_items": 0,
+        "p": null
+      }
+    },
+    "kbench-claude-opus-4-5": {
+      "P2 validity - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P3 meta on - off (support)": {
+        "n_items": 0,
+        "p": null
+      },
+      "P4 100-neutral - support": {
+        "n_items": 0,
+        "p": null
+      },
+      "P5 reg-real - support": {
+        "n_items": 0,
+        "p": null
+      }
+    }
+  },
+  "timings": {
+    "kbench-claude-opus-4-5": {
+      "validity__S-both": {
+        "items": 84,
+        "calls": 84,
+        "seconds": 321.2,
+        "workers": 1,
+        "calls_per_min": 15.69
+      },
+      "validity__C": {
+        "items": 42,
+        "calls": 42,
+        "seconds": 130.1,
+        "workers": 1,
+        "calls_per_min": 19.37
+      },
+      "validity-regstatus__S-both": {
+        "items": 84,
+        "calls": 84,
+        "seconds": 278.5,
+        "workers": 1,
+        "calls_per_min": 18.1
+      },
+      "validity-regstatus__C": {
+        "items": 42,
+        "calls": 42,
+        "seconds": 125.7,
+        "workers": 1,
+        "calls_per_min": 20.05
+      },
+      "validity-regnorec__S-both": {
+        "items": 84,
+        "calls": 84,
+        "seconds": 231.1,
+        "workers": 1,
+        "calls_per_min": 21.81
+      },
+      "validity-regnorec__C": {
+        "items": 42,
+        "calls": 42,
+        "seconds": 128.9,
+        "workers": 1,
+        "calls_per_min": 19.55
+      },
+      "validity-regstatus-drop50-s0__S-both": {
+        "items": 84,
+        "calls": 84,
+        "seconds": 104.7,
+        "workers": 1,
+        "calls_per_min": 48.14
+      },
+      "validity-regstatus-drop50-s0__C": {
+        "items": 42,
+        "calls": 42,
+        "seconds": 23.0,
+        "workers": 1,
+        "calls_per_min": 109.57
+      },
+      "validity-regnorec-drop50-s0__S-both": {
+        "items": 84,
+        "calls": 84,
+        "seconds": 102.3,
+        "workers": 1,
+        "calls_per_min": 49.27
+      },
+      "validity-regnorec-drop50-s0__C": {
+        "items": 42,
+        "calls": 42,
+        "seconds": 20.4,
+        "workers": 1,
+        "calls_per_min": 123.53
+      },
+      "validity-regstatus-spurious10-s0__S-both": {
+        "items": 84,
+        "calls": 84,
+        "seconds": 0.1,
+        "workers": 1,
+        "calls_per_min": 50400.0
+      },
+      "validity-regstatus-spurious10-s0__C": {
+        "items": 42,
+        "calls": 42,
+        "seconds": 0.1,
+        "workers": 1,
+        "calls_per_min": 25200.0
+      }
+    }
+  }
+}

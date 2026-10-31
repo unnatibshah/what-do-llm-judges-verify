@@ -1,0 +1,16 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc4Mzk0MzY5N180MTY0",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "statement of reasons (context only)",
+  "title": "Statement of Reasons, Second Amendment 2020",
+  "number": "n/a",
+  "printed_date": "2020-01-22 per landing page",
+  "file": "GERC-NetMetering-2020-2ndAmend-SoR.pdf",
+  "fetched_at": "2026-10-01T16:43:51Z",
+  "http_status": 200,
+  "sha256": "733436ac186245680136f2b365fe1e7cdd2e70771d81f7facfe12ec7f82c5a46",
+  "pages": 13,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

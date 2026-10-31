@@ -1,0 +1,1976 @@
+{
+ "nodes": [
+  {
+   "node_id": "IN-C1-001#cl-2",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "2",
+   "topic": "amendment OM 07.07.2025 to PMSG CFA guidelines (paras 5(i), 6(f), Annexure-1)",
+   "snippet": "Considering the feedback from the implementing agencies on the operational issues\nbeing faced duringthe implementation of the said scheme across the states/UTs, amendments\nin theaforementioned Guidelines asper attached Annexure is issued.",
+   "effective_date": "2025-07-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-001#cl-5(i)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5(i)",
+   "topic": "additional state subsidy: amended 5(i) (amendment OM 07.07.2025, Annexure row i)",
+   "snippet": "Additional State/UTsubsidyshouldbe\nprovided under the scheme.The\nupdated on the National portal.",
+   "effective_date": "2025-07-07",
+   "confidence": "low",
+   "note": "Para-wise amendment OM F.no.318/140/2024 dated 07.07.2025 bundled at the front of this file; clause_ref is its Sl. No.; two-column OCR interleaves existing and amended text"
+  },
+  {
+   "node_id": "IN-C1-001#cl-6(f)",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "6(f)",
+   "topic": "minimum technical specifications amendable prospectively (amendment OM 07.07.2025, row iii)",
+   "snippet": "6(f): The Ministry shall identify the\nThe Ministry shall identify the minimum\nminimum technical specifications to be\ntechnical specifications to be adhercd toby\nadheredto byall vendors for RTS\nallvendors for RTS systems installed under\nsystems installed under the scheme.It\nthe scheme. The Ministry may amend the\nwill betheresponsibilityofthevendors\ntechnical\nspecifications\nas\nrequired\nto ensure that the system meets the\nprospectively. with the approval of the\nminimum technical specifications as\nSecretary,\nMNRE.\n1\nwill\nbe\nthe\ndetailed in Annexure 3.This will also\nresponsibility of thevendors to ",
+   "effective_date": "2025-07-07",
+   "confidence": "low",
+   "note": "Para-wise amendment OM F.no.318/140/2024 dated 07.07.2025 bundled at the front of this file; clause_ref is its Sl. No.; two-column OCR interleaves existing and amended text"
+  },
+  {
+   "node_id": "IN-C1-001#cl-Annexure-1",
+   "doc_id": "IN-C1-001",
+   "jurisdiction": "IN",
+   "clause_ref": "Annexure-1",
+   "topic": "Phase-II claims cut-off extended to 31.12.2025; un-installed applications as on 01.04.2025 deleted (amendment OM 07.07.2025, row ii)",
+   "snippet": "submitted under the Phase IIofrooftop\ninspected/installed stage under the Phase I\nsolarprogramme will be admissible for\nofRooftop Solar programmewillbe\nCFAiftheclaimisreceived till October\nadmissible for CFA.if claim is received till\n2024.Theclaimsreceivedafter\n31.12.2025.However, to clarify.all such\nOctober2024willnotbeentertained.\napplications will be admissible for CFA as\nper the respective RTS phase II programme\nguidelines.\nApplications submitted butnot installed as\non 01.04.2025 shall be ineligible for CFA\nand shall be deleted from the database.Such\nconsumers.whose applications are so\ndel",
+   "effective_date": "2025-07-07",
+   "confidence": "low",
+   "note": "Para-wise amendment OM F.no.318/140/2024 dated 07.07.2025 bundled at the front of this file; clause_ref is its Sl. No.; two-column OCR interleaves existing and amended text"
+  },
+  {
+   "node_id": "IN-C1-002#cl-2",
+   "doc_id": "IN-C1-002",
+   "jurisdiction": "IN",
+   "clause_ref": "2",
+   "topic": "CFA slab Phase-II (40% up to 3 kW, 20% 3-10 kW)",
+   "snippet": "2, Accordingly, it is clarified that subsidy for individual residential household under Phase\n— II of Grid Connected Rooftop Solar Programme will be available to all eligible households\nfor installation of rooftop solar plant as per regulations of respective SERCs and provisions of\nprogramme implementation Guidelines, in the following manner:\nS. Total capacity of rooftop solar | Applicable subsidy in terms of Benchmark cost or\nNo. | installations cost arrived through tender, whichever is lower.\nI Up to 3 kW 40%\n2. Above 3 kW and up to 10 kW | 40% for first 3 kW and 20% for balance capacity.\n3.",
+   "effective_date": "2019-09-03",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-003#cl-1",
+   "doc_id": "IN-C1-003",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "Phase-II deemed subsumed in PMSG from 13.02.2024",
+   "snippet": "The sanction of the President of India is hereby granted for the PM -Surya Ghar: Muft Bijli Yojana,\naimed at installing rooftop solar plants in one crore households, with a total financial outlay of Rs.\n75,021 crore, including all scheme sub-components.The Schemewas launched by the Government of\nIndia on13.02.2024.The previous scheme of Phase-II of the Grid Connected Rooftop Solar\nprogramme will be deemed subsumed under this scheme, along with the remaining financial outlay\nand liabilities, effective from the launch ofthe PM-Surya Ghar: Muft Bijli Yojana, i.e.,13.02.2024.",
+   "effective_date": "2024-02-13",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-003#cl-3",
+   "doc_id": "IN-C1-003",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "CFA slab PMSG (60% first 2 kW, 40% next 1 kW; Rs 30,000/18,000)",
+   "snippet": "Thesubsidy/CFAunder the PM-Surya Ghar: Muft Bijli Yojanawouldbeapplicable to all\napplications submitted on theportal on or after13.02.2024.The CFA under theschemewould be as\nfollows:\nS. No.\nType of Residential Segment\nCFA\n1.\nResidential Sector(first 2k W of RTS capacity or\n60%ofbenchmark\npart thereof)\ncostof2k W\n2.\nResidential Sector(with additional RTScapacityof\n40%ofbenchmark\n1 k Worpart thereof)\ncostofadditionalk W",
+   "effective_date": "2024-02-13",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-004#cl-3",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "CFA subsidy: outlay Rs 800 crore, Rs 1 crore per model village",
+   "snippet": "An amount of ₹ 800 crore has been allocated for this component with a provision of\ncentral financial assistance of ₹ 1 crore per model village.",
+   "effective_date": "2024-08-09",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-004#cl-4",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "4",
+   "topic": "eligibility: revenue village >5,000 population (>2,000 special category States)",
+   "snippet": "The village must be a revenue village with population size of more than 5,000 as per\nthe latest published Census. However, in case of special category States (States/UTs of\nUttarakhand, Himachal Pradesh, J&K, Ladakh, States in the North East including Sikkim,\nUTs of A&N and Lakshadweep), revenue villages with population size of more than\n2,000 as per the latest census would be eligible.",
+   "effective_date": "2024-08-09",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-004#cl-6.7",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "6.7",
+   "topic": "timelines: 6-month competition; distributed RE capacity counted (<10 MW per site)",
+   "snippet": "6.7 The competition period shall be considered to be 6 months after the declaration of the\npotential candidate villages by the DLC. After the competition period, the Agency will\nfinally carry out an assessment exercise to assess the overall distributed renewable\nenergy (RE) capacity deployed within the village boundary of each potential candidate\nvillage. Such distributed RE capacity would consist of rooftop solar installations, ground\nmounted small scale RE under PM KUSUM or standalone RE installations of capacity\nless than 10 MW at a single site.",
+   "effective_date": "2024-08-09",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-004#cl-6.8",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "6.8",
+   "topic": "eligibility: village with maximum RE capacity selected",
+   "snippet": "6.8 The village with the maximum overall RE capacity deployed within its revenue\nboundaries as per the assessment exercise, (achieved with or without Governmental\nscheme support), shall be selected as the Model Solar Village for the District.",
+   "effective_date": "2024-08-09",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-004#cl-7.1",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "7.1",
+   "topic": "CFA subsidy: Rs 1 crore grant per Model Solar Village",
+   "snippet": "7.1 Each Model Solar Village shall be eligible for a grant of Rs 1 crore",
+   "effective_date": "2024-08-09",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-004#cl-7.3",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "7.3",
+   "topic": "CFA subsidy: public projects up to 100%; collectives 10% contribution; no individual beneficiaries",
+   "snippet": "7.3 Public projects can be supported up to 100% of the project cost. However, in case the\nprojects are for supporting collectives (self-help groups, primary level cooperative\nsocieties (PACS, Dairy, Fishery etc) and others) in the village, a contribution from the\nbeneficiary collective of at least 10% shall be taken in order for the CFA benefits to be\nextended to them. No individual beneficiaries can be included for CFA support under the\nproject DPR for Model Solar Village.",
+   "effective_date": "2024-08-09",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-004#cl-7.8",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "7.8",
+   "topic": "settlement/banking: DPR to include settlement of net and gross metering with DISCOMs",
+   "snippet": "7.8 The DPR should include settlement mechanisms with the DISCOMs including power\npurchase agreements, settlement of net and gross metering based electricity\ngeneration, augmentation of distribution infrastructure and other possible components\nrequired to make the village a Model Solar Village.",
+   "effective_date": "2024-08-09",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-004#cl-8.2",
+   "doc_id": "IN-C1-004",
+   "jurisdiction": "IN",
+   "clause_ref": "8.2",
+   "topic": "CFA release 40/40/20",
+   "snippet": "8.2 The amount of CFA shall be released to the MSVIA are as follows:\na) 40% of CFA at time of award of all works in the DPR\nb) 40 % of CFA after completion of all works undertaken in the DPR and after certification\nto that effect by the DLC\nc) 20% of CFA after at least 6 months of operation of all works undertaken",
+   "effective_date": "2024-08-09",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-005#cl-3",
+   "doc_id": "IN-C1-005",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "CFA to developers/promoters for GHS/RWA common areas",
+   "snippet": "3.\nRepresentations have been received regarding the subsidy disbursal for rooftop\ninstallations on residential projects, where common areas are being serviced directly by real\nestatepromoters/developersinabsenceofanyconstituted RWA/GHS.Itisclarified that CFA\nsupportunder the Group Housing/RWAsegment canbeprovidedto such\ndevelopers/promoters directly, subject to the submission of an undertaking that the rooftop\nsolar asset supported under PMSG: MBY will behanded over to the GHS/RWA/AOAs/\nCooperative Housing Society or any other collective created by residents for overall\nmaintenance, whenever s",
+   "effective_date": "2024-11-19",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-006#cl-1(e)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "1(e)",
+   "topic": "Phase-II Component B subsumed; this component continues it (clause letter lost in OCR)",
+   "snippet": "Rooftop Solar (GCRT) Phase II Programme under which Incentives to DISCOMs were provided\nunder Component B. After the approval of PM Surya Ghar: Muft Bijli Yojana, the Phase II\nprogramme has been subsumed under the new scheme. This scheme component will operate\nin continuation of the Component B of GCRT Phase II programme.",
+   "effective_date": "2024-07-18",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-006#cl-3",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "DISCOM incentive criteria: 5% / 10% of benchmark above 10% / 15% of base capacity, first 18,000 MW",
+   "snippet": "Incentives to DISCOMs will be based on achievement in installation of additional grid-\nconnected rooftop solar capacity in all sectors over and above the base level (as per the data\navailable under the Grid Connected Rooftop Solar Phase II scheme), with the incentives being\nlimited to the first additional 18,000 MW of rooftop solar capacity in the country (since\nbeginning of operation of Phase II programme). This incentive is pegged at 5% of applicable\nbenchmark cost for capacity achieved above 10% and less than 15% of the installed base\ncapacity, and 10% of the applicable benchmark cost for c",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-006#cl-4(a)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "4(a)",
+   "topic": "DISCOM incentive slabs; benchmark Rs 50,000 (55,000 special category); base capacity at 31 March",
+   "snippet": "** Applicable Cost is the applicable benchmark cost of MNRE for the State/ UT for RTS capacity of\n1 kW, which is currently Rs 50,000 for general States and Rs 55,000 for special category States. In\ncase the benchmark cost is revised in the middle of the financial year, the incentive shall be\ncalculated on the basis of the weighted average benchmark rate for that financial year, weighted\nas per the number of days for which the benchmark rate was operational.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-006#cl-4(b)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "4(b)",
+   "topic": "DISCOM incentives limited to initial 18,000 MW after 31.03.2019",
+   "snippet": "b) The Incentives to the DISCOMs would be available only for the addition of initial 18,000\nMW RTS capacity in the country after 31st March 2019. In case, higher capacity is achieved\nby the DISCOMs leading to entitlement for higher incentive slab of 10%, the total\nincentives to the DISCOMs would be limited to the financial outlay available for incentive\nunder the programme, irrespective of the total capacity achieved under the programme\nby any particular DISCOM.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-006#cl-5(a)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "5(a)",
+   "topic": "outlay Rs 4,950 crore; Phase-II Component B outlay subsumed",
+   "snippet": "a) The total financial outlay for Incentives to DISCOM component of the scheme is Rs.\n4,950 crore. This outlay for GCRT Phase II scheme shall be subsumed into the scheme\ncomponent “Incentive to DISCOMs” under PMSG:MBY, and all expenditure incurred\nGuidelines for PM-Surya Ghar: Muft Bijli Yojana\nIncentives to DISCOMs\nPage 4 of 9\n\n--- Page 6 ---\nand liabilities arising under the GCRT Phase II Component B shall be covered under\nthe overall outlay.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-006#cl-5(b)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "5(b)",
+   "topic": "Phase-II Component B claims (FY 2022-23 and before) under Phase-II guidelines",
+   "snippet": "b) Claims arising under GCRT Phase II Scheme Component B: Incentive to DISCOMs (for\nincentive claims for FY 2022-23 and before) shall continue to be guided by the scheme\nguidelines issued for GCRT Phase II.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-006#cl-5(c)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "5(c)",
+   "topic": "PMSG claims FY 2024-25 onward under these guidelines",
+   "snippet": "c) Claims arising under PM Surya Ghar: Muft Bijli Yojana (for incentive claims for FY 2024-\n25 and after) shall be guided by current guidelines.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-006#cl-5(d)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "5(d)",
+   "topic": "FY 2023-24 claims: weighted benchmark (Rs 36,470 / 45,000 / 50,000)",
+   "snippet": "d) The claims for FY 2023-24 shall be calculated after taking a weighted average of the\napplicable benchmark costs, weighted as per the number of days for which the\nbenchmark was operational. Under GCRT Phase II, the national benchmark was Rs\n36,470/kW till December and later revised to Rs 45,000/kW in January. The\nbenchmark was pegged at Rs 50,000 under the PM Surya Ghar: Muft Bijli Yojana from\nthe date of the scheme launch, viz 13th February. The baseline date for calculation\nshall be 31st March, 2023.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-006#cl-6(e)",
+   "doc_id": "IN-C1-006",
+   "jurisdiction": "IN",
+   "clause_ref": "6(e)",
+   "topic": "tariff: incentives not part of ERC tariff determination",
+   "snippet": "e) As the incentives are proposed for specific expenditure mentioned above, the incentives\nmay not be a part of Tariff Determination & Tariff Rationalization process of respective\nElectricity Regulatory Commission.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-2.b",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "2.b",
+   "topic": "timelines: implementation till 31.03.2027",
+   "snippet": "b. The implementation period of the scheme shall be till 31st March, 2027.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.a",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.a",
+   "topic": "eligibility: residential RTS on roof/terrace/balcony/elevated, BiPV, GNM/VNM; ULA CFA only up to 3 kW per household",
+   "snippet": "Special RTS installations such as Building\nIntegrated PV (BiPV) systems shall also be considered eligible for CFA support. To\nclarify, installations under metering mechanisms such as Group Net Metering and\nVirtual Net Metering shall be eligible for CFA and if the metering arrangement is\napproved by the DISCOM.\n CFA for ULA proposals shall be released against those households for which\nthe capacity installed is up to 3 KW.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.b.i",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.b.i",
+   "topic": "eligibility: RESCO mode - third-party owned >=5 years",
+   "snippet": "i. The RESCO Mode is considered to be one wherein the consumer herself\ndoes not fund the initial investment into the rooftop solar system and is\nnot the owner of the asset for at least 5 years of operations. Instead, the\nsystem is procured, installed and maintained for a period not less than 5\nyears (project period) by a Renewable Energy Service Company (RESCO).",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.c.ModelII.iii",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.c.ModelII.iii",
+   "topic": "ULA consumer-owned: consumer share capped at 10% of benchmark (Rs 5,000/kW)",
+   "snippet": "iii. In such cases, the Utility is responsible for the payment against the\ncontracts to EPC vendors for the project period. The Utility may choose\nto collect some contribution from the consumer as the consumer share,\nwhich should not be higher than 10% of the benchmark cost, i.e. Rs\n5,000/ kW (As per current benchmark).",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.d",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.d",
+   "topic": "eligibility: no CFA to non-residential",
+   "snippet": "d. No CFA will be provided to non-residential segments of consumers (including\nGovernment segment, commercial and industrial segment etc.).",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.e",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.e",
+   "topic": "CFA subsidy: as per OM 07.06.2024 benchmark rates irrespective of ULA price discovery",
+   "snippet": "e. CFA Structure: The CFA structure for residential sector and RWAs/GHGs (for\ncommon facilities) shall be as per the provisions of the OM no. 318/17/2024-Grid\nConnected Rooftop dated 7th June, 2024. The CFA shall be fixed as per benchmark\nrates established under the scheme as per the above OM, irrespective of any\nprice/cost discovery undertaken by the state entities under ULA.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.g",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.g",
+   "topic": "ALMM/DCR: DCR modules mandatory; OEM declaration",
+   "snippet": "g. Domestic Content Requirement: Solar modules used in the installation must\nsatisfy the Domestic Content Requirement condition i.e., domestically\nmanufactured modules manufactured from domestically manufactured cells. This\nPM Surya Ghar: Muft Bijli Yojana\nRESCO, Utility Led Models and Payment Security Mechanism\n\n--- Page 8 ---\nis an essential condition for the installation to be eligible for the CFA. Use of non-\nDCR modules in any form in the installation shall render the installation ineligible\nfor CFA. RESCO will submit a declaration from the Original Equipment\nManufacturer (OEM) certifying",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.h",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.h",
+   "topic": "eligibility: pre-existing RTS households ineligible under RESCO/ULA",
+   "snippet": "h. Pre-existing RTS: Households with pre-existing rooftop solar shall not be\nconsidered eligible under RESCO and ULA Models.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.i",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.i",
+   "topic": "group/virtual net metering: NM, net billing, gross, GNM, VNM eligible for CFA",
+   "snippet": "i. Metering Arrangements: RESCO and ULA based installations under metering\nmechanisms such as Net Metering, Net Billing, Gross Metering, Group Net\nMetering or Virtual Net Metering shall be eligible for CFA, subject to their\ncompliance with the relevant regulations as established by the concerned\nElectricity Regulatory Commission.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-4.j",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4.j",
+   "topic": "eligibility: non-metered grid-connected systems eligible subject to ERC; off-grid not",
+   "snippet": "j. Non Metered Grid Connected Systems: Systems that are not feeding into the grid\nbut are connected to the grid (behind-the-meter systems, battery hybrid systems\netc.) shall be eligible for CFA under the scheme subject to approval by the\nrespective Electricity Regulatory Commissions. In such cases, the DISCOM will\ninspect the installation, ensure the functioning of the reverse power relay\nprotection and incorporate suitable remarks in the report. However, Off-grid\nconnected installations will not be eligible for CFA under the scheme.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-5.a.ii",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "5.a.ii",
+   "topic": "timelines: MNRE Technical Committee decides ULA proposal within 30 days",
+   "snippet": "ii. Thereafter, the proposal shall be vetted by a Technical Committee\nconstituted in MNRE, which shall approve, reject or approve with\nconditions within 30 days of submission of the proposal.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-5.b.i",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "5.b.i",
+   "topic": "RESCO vendor registration with Rs 25 lakh bank guarantee (national)",
+   "snippet": "i. The NPIA shall register RESCO Vendors through the National Portal. RESCO\nVendors shall have to submit a bank guarantee of Rs 25 lakh for\nregistration as RESCO vendors. This registration shall be valid for the entire\ncountry and no state specific RESCO vendor registration shall be required.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-6.a",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "6.a",
+   "topic": "payment security mechanism corpus Rs 100 crore",
+   "snippet": "a. There will be a corpus of Rs 100 crore for a Payment Security Mechanism that\nwould be managed and administered by the NPIA in an interest-bearing bank\naccount.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-6.c",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "6.c",
+   "topic": "PSM fee Rs 2000 per installation",
+   "snippet": "c. Under this arrangement, the ULA selected RESCO shall contribute to the PSM\nCorpus through a one-time PSM fee of Rs 2000/installation to be undertaken by it\nunder the ULA.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-007#cl-6.e",
+   "doc_id": "IN-C1-007",
+   "jurisdiction": "IN",
+   "clause_ref": "6.e",
+   "topic": "timelines: NPIA pays RESCO if utility fails within 15 days",
+   "snippet": "e. The Utility shall settle the claims of the RESCO partner; however, in case of failure\nto make payments within 15 days of raising of claims, the NPIA shall make the\nnecessary payments to the RESCO vendor as per the RESCO-Utility agreement.",
+   "effective_date": "2024-12-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-008#cl-3.a",
+   "doc_id": "IN-C1-008",
+   "jurisdiction": "IN",
+   "clause_ref": "3.a",
+   "topic": "outlay Rs 1000 crore for local bodies",
+   "snippet": "a. The scheme component “Incentive for Local Bodies” has an outlay of Rs 1000 crore.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-008#cl-4.b",
+   "doc_id": "IN-C1-008",
+   "jurisdiction": "IN",
+   "clause_ref": "4.b",
+   "topic": "eligibility: each residential PMSG installation with CFA transferred counts",
+   "snippet": "b. For the purpose of this component, every installation in the residential segment under PM\nSurya Ghar: Muft Bijli Yojana in the jurisdiction of the ULB or PRI, for which the Central\nFinancial Assistance has been transferred to the concerned consumer through the National\nPortal under the scheme guidelines shall be considered for calculating the incentive made\nout to the concerned ULB/PRI.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-008#cl-6.b",
+   "doc_id": "IN-C1-008",
+   "jurisdiction": "IN",
+   "clause_ref": "6.b",
+   "topic": "incentive Rs 1,000 per installation to ULB/Gram Panchayat",
+   "snippet": "b. Gram Panchayats or Urban Local Bodies (ULBs) in their respective areas shall be provided\nfinancial assistance in the form of direct financial support with an incentive of ₹ 1,000 per\ninstallation in their respective jurisdiction.",
+   "effective_date": "2024-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-009#cl-2.iii",
+   "doc_id": "IN-C1-009",
+   "jurisdiction": "IN",
+   "clause_ref": "2.iii",
+   "topic": "technical feasibility within 15 working days (national portal)",
+   "snippet": "Theapplicationwillbeforwardedonlinetotheconcerned DISCOMforissuanceof\ntechnical feasibilityapprovalwithinnext15workingdays.",
+   "effective_date": "2022-02-02",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-009#cl-2.iv",
+   "doc_id": "IN-C1-009",
+   "jurisdiction": "IN",
+   "clause_ref": "2.iv",
+   "topic": "DCR and ALMM modules required",
+   "snippet": "After obtainingtechnical feasibility, thebeneficiarywill install the RTSplantfrom any\nvendor of his choice by selecting solar modulesfulfilling the conditions of DCR and\nenlistment under ALMMandinverterswhicharecertifiedby BIS.",
+   "effective_date": "2022-02-02",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-009#cl-3",
+   "doc_id": "IN-C1-009",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "Phase-II: existing DISCOM procedure continues till national portal is live",
+   "snippet": "the national portal comes into operation, the existing procedure for availing subsidy for\ninstallationofRooftop Solarplantthrough DISCOMswill continue andwillbethe only\nauthorized procedure to avail subsidy from MNRE.After the National portal set up, the\nbeneficiarywill have the choice of installing RTS availing either of the options.",
+   "effective_date": "2022-02-02",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-010#cl-1",
+   "doc_id": "IN-C1-010",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "continuation of OM 02.02.2022 (simplified procedure)",
+   "snippet": "This is in continuation of this Ministry’s OM of even no. dated 02.02.2022, vide which\nsimplification of procedure for installation of residential grid connected rooftop solar plants\nwas conveyed.",
+   "effective_date": "2022-06-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-010#cl-3",
+   "doc_id": "IN-C1-010",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "eligibility: vendors must register/empanel with beneficiary's DISCOM; 5-year maintenance",
+   "snippet": "3. In order to protect the interests of beneficiaries and ensure that the vendors installing the\nrooftop solar plants have the requisite expertise, follow minimum specifications and standards\nspecified by the Ministry and maintain the plant for at least five years from the date of\ninstallation, it has been decided that such vendors have to register/empanel themselves with the\nbeneficiaries’ Distribution Utility (DISCOM).",
+   "effective_date": "2022-06-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-010#cl-4",
+   "doc_id": "IN-C1-010",
+   "jurisdiction": "IN",
+   "clause_ref": "4",
+   "topic": "vendor registration: PBG Rs 2,50,000 for 5 years; empanelment within 1 month",
+   "snippet": "4. The vendors currently empanelled with the beneficiaries’ DISCOM through tendering\nprocess under RTS Programme Ph-II will be considered as empanelled vendors for this\npurpose. Other vendors willing to register/empanel themselves in the Programme under\nsimplified procedure may get themselves registered with the consumers’ DISCOM by\nsubmitting an application along with declaration (as per Annexure) and depositing a PBG of\nRs. 2,50,000/- (Rupees Two Lakh Fifty Thousand only) valid for at least five years. The\nvendors can submit the application at the Division/Circle level and the name of the ve",
+   "effective_date": "2022-06-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-010#cl-7",
+   "doc_id": "IN-C1-010",
+   "jurisdiction": "IN",
+   "clause_ref": "7",
+   "topic": "CFA subsidy: uniform national rates notified per calendar year (national portal)",
+   "snippet": "7. The subsidy available under the simplified procedure will be the same for beneficiaries all\nover the country. The rates of subsidy will be notified for each calendar year and will be\napplicable for all beneficiaries who have registered their application on the national portal\nduring the calendar year.",
+   "effective_date": "2022-06-10",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-2(c)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "2(c)",
+   "topic": "eligibility: guidelines apply to applications from 13.02.2024",
+   "snippet": "c) These guidelines shall be applicable for all applications received on the National Portal\nfrom the date of the launch of the scheme, i.e. 13th February, 2024.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-2(d)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "2(d)",
+   "topic": "timelines: scheme implementation period till 31.03.2027",
+   "snippet": "d) The implementation period of the scheme shall be till 31st March, 2027.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-4(a)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "4(a)",
+   "topic": "Phase-II scheme subsumed in PMSG (clause letter a lost in OCR)",
+   "snippet": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "effective_date": "2024-06-07",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-011#cl-4(d)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "4(d)",
+   "topic": "Phase-II ongoing projects governed by Phase-II guidelines",
+   "snippet": "d) The CFA releases for ongoing projects against allocations made by MNRE to\nimplementation agencies under Phase II shall be governed by the guidelines issued under\nthe Phase II programme and shall not be covered under the PM – Surya Ghar Scheme\nCFA structure. However, the budgetary releases for phase II programme shall be met\nthrough the new scheme outlay.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(b)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(b)",
+   "topic": "CFA eligibility: residential RTS incl. GNM/VNM",
+   "snippet": "b) Eligibility: For the purpose of CFA, residential RTS plant would be the grid connected\nsolar power system tagged to a particular residential power connection of the local\nDISCOM and will only include installations on a roof/terrace/balcony or on top of\nelevated structures. Special RTS installations such as Building Integrated PV (BiPV)\nsystems shall also be considered eligible for CFA support. To clarify, installations under\nmetering mechanisms such as Group Net Metering and Virtual Net Metering shall be\neligible for CFA if the installations are on any roof/terrace/balcony or on top of elev",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(c)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(c)",
+   "topic": "eligibility: capex mode only; RESCO/ULA excluded (dealt separately)",
+   "snippet": "c) Capex Mode: The Capex mode is considered to be one wherein the consumer herself,\neither through her own capital or through borrowings from financial institutions or\notherwise, funds the initial investment into the rooftop solar system. To clarify, these\nguidelines do not cover RESCO models (where a third party entity other than the\nconsumer makes the initial investment) or Utility Led/State Led Aggregation Models\n(where a state entity invests on behalf of consumers on an aggregate basis). These modes\nwill be dealt separately in other guidelines.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(d)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(d)",
+   "topic": "no CFA to non-residential",
+   "snippet": "d) No CFA will be provided to non-residential segments of consumers (including\ngovernment segment, commercial and industrial segment etc.).",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(e)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(e)",
+   "topic": "CFA subsidy structure: 60% of benchmark first 2 kWp, 40% next 1 kWp, none beyond 3 kWp; GHS/RWA up to 500 kWp @3 kWp/house",
+   "snippet": "e) CFA Structure: The Central Financial Assistance for the residential sector shall be as per\nthe following table:\n\n| S. No. | Type of Residential Segment | CFA |\n| --- | --- | --- |\n| 1. | Residential Sector (first 2 kWp of RTS capacity or part thereof) | 60% of benchmark cost of 2 kWp |\n| 2. | Residential Sector (with additional RTS capacity of 1 kWp or part thereof) | 40% of benchmark cost of additional kWp |\n| 3. | Residential Sector (additional RTS capacity beyond 3 kWp) | No additional CFA |\n| 4. | Group Housing Societies/ Residential Welfare Associations (GHS/RWA) etc, for common facili",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(f)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(f)",
+   "topic": "GHS/RWA connection for common facilities only",
+   "snippet": "f) The GHS/RWA connection eligible under the scheme shall be dedicated only for common\nfacilities and should not be utilized for providing electricity supply to residential\nconsumers within the GHS/RWA.\ni) The CFA support will generally be provided to entities created by residents for overall\nmaintenance and that are responsible for upkeep of common facilities and these may\nbe known by alternative terminologies such as Apartment Owner Associations\n(AOAs), Cooperative Housing Societies etc.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(g)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(g)",
+   "topic": "CFA subsidy: benchmark cost Rs 50,000/kW first 2 kW, Rs 45,000 additional (special category 55,000/49,500)",
+   "snippet": "g) Benchmark Cost: The benchmark cost for 1 kW system is fixed at ₹ 50,000/kW for the\nfirst 2 kW of RTS capacity and ₹ 45,000 for the additional kW with effect from 13th\nFebruary, 2024. The benchmark for special category States (States/UTs of Uttarakhand,\nHimachal Pradesh, J&K, Ladakh, States in the North East including Sikkim, UTs of A&N\nand Lakshadweep) will be Rs 55,000 for first 2 kW of RTS capacity and Rs 49,500 for the\nadditional kW of RTS capacity.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(h)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(h)",
+   "topic": "CFA subsidy effective: Rs 30,000/kWp first 2 kW, Rs 18,000/kWp 3rd kW (special category Rs 33,000/19,800) w.e.f. 13.02.2024",
+   "snippet": "h) Effective CFA: The CFA for the scheme with effect from date of initiation, i.e., 13th\nFebruary, 2024 is as follows:-\n\n| S. No. | Type of Residential Segment | CFA | CFA (Special Category States) |\n| --- | --- | --- | --- |\n| 1. | Residential Sector (first 2 kW of RTS capacity p or part thereof) | Rs 30,000/kWp | Rs 33,000/kWp |\n| 2. | Residential Sector (with additional RTS capacity of 1 kW or part thereof) p | Rs 18,000/kWp | Rs 19,800/kWp |\n| 3. | Residential Sector (additional RTS capacity beyond 3 kW ) p | No additional CFA | No additional CFA |\n| 4. | Group Housing Societies/ Residenti",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(i)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(i)",
+   "topic": "additional state subsidy",
+   "snippet": "i) Additional State Subsidy: The State/UT governments may supplement the CFA provided\nby the central government for the residential sector with an additional subsidy for RTS;\nhowever, this shall be subject to adherence to all scheme guidelines by the State. The\nframework of such support by the State/UT governments shall be in alignment with the\nsupport provided under the scheme. The process for disbursement of state subsidy\ncomponent shall be integrated with the National Portal.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(j)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(j)",
+   "topic": "CFA subsidy: benchmark cost revision at midterm review",
+   "snippet": "j) Revision of Benchmark Cost: The benchmark cost will be revised at the time of midterm\nreview of the scheme to reflect changed market trends, if any, or earlier in case of\nsubstantial upward revision in module prices for unforeseen reasons. The benchmark will\nreflect changes in solar module supply prices, inverter costs and other systems costs as",
+   "effective_date": "2024-06-07",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(k)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(k)",
+   "topic": "CFA subsidy: CFA on rated DC module capacity, irrespective of inverter size",
+   "snippet": "k) Sizing of Inverter: The CFA shall be irrespective of the size of the inverter installed. If a\nconsumer installs a rooftop solar plant with a higher/lower rated inverter capacity than\nthe number of modules, the CFA provided will be as per the rated DC capacity of the\nmodule system (according to the CFA structure) and not as per the inverter capacity. The\ninverter should, however, meet the technical specification defined in the scheme.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(m)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(m)",
+   "topic": "ALMM/DCR: DCR modules with domestic cells mandatory for CFA",
+   "snippet": "m) Domestic Content Requirement: Solar modules used in the installation must satisfy the\nDomestic Content Requirement condition i.e., domestically manufactured modules\nmanufactured from domestically manufactured cells. This is an essential condition for\nthe installation to be eligible for the CFA. Use of non-DCR modules in any form in the\ninstallation shall render the installation ineligible for CFA.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(n)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(n)",
+   "topic": "pre-existing RTS: CFA for balance capacity up to 3 kW",
+   "snippet": "n) Pre-existing RTS: A rooftop solar installation by residential consumers/RWAs that has\navailed CFA under a prior/current scheme for rooftop solar by Ministry of New and\nRenewable Energy and has subsequently increased the RTS installation size shall be\neligible for additional CFA under the current scheme only for the balance capacity up to\n3 kW of overall RTS plant size.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(o)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(o)",
+   "topic": "eligibility: CFA only once; relocated systems ineligible",
+   "snippet": "o) A rooftop solar installation shall be eligible for CFA only once after installation. If an\nalready installed rooftop solar is shifted/relocated to a new location, such a system shall\nnot be eligible for CFA under the scheme.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-5(p)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5(p)",
+   "topic": "ALMM/DCR: Give It Up - consumers forgoing CFA need not use DCR modules",
+   "snippet": "p) Give It Up: Consumers will have the option to forgo the CFA under the scheme so that\nthe scheme benefits can reach a wider cross-section of consumers. This will be enabled\nby a “Give It Up” option on the National Portal. Consumers who opt for installing RTS\nwithout availing CFA under this scheme, including those who may wish to forgo the RTS\nCFA (under the “Give It Up” campaign or otherwise) shall be free to do so without using\ndomestically manufactured cells/modules (Domestic Content Requirement or DCR).",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(c)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(c)",
+   "topic": "vendor choice; no tendering / rate discovery as in Phase II",
+   "snippet": "c) Choice of Vendor: The consumer shall then choose a vendor who is registered on the\nNational Portal. The consumer shall be free to enter into arrangements with any such\nRTS vendor at mutually decided rates. There shall be no tendering or rate discovery by\nthe state DISCOMs/agencies under the scheme to empanel RTS vendors as was being\ncarried out in the Phase II program. The portal shall include a mechanism of vendor\ncomparison so that consumer can make a better decision in finalizing the vendor of\nchoice.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(f)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(f)",
+   "topic": "minimum technical specifications",
+   "snippet": "f) Minimum Technical Specifications: The Ministry shall identify the minimum technical\nspecifications to be adhered to by all vendors for RTS systems installed under the\nscheme. It will be the responsibility of the vendors to ensure that the system meets the\nminimum technical specifications as detailed in Annexure 3. This will also be checked by\nthe DISCOMs at the time of inspection.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(h)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(h)",
+   "topic": "deemed approval / feasibility: up to 10 kW deemed accepted per ROC Rules",
+   "snippet": "h) Feasibility Approval: As per the provisions of the Electricity (Rights of Consumers) Rules,\n2020 and subsequent amendments, applications for rooftop solar systems up to 10 kW\ncapacity shall be deemed to have been accepted without requiring approval of technical\nfeasibility by the DISCOMs. Till the operationalization of this provision by respective\nRegulatory Commissions/DISCOMs, the consumer shall upload the necessary documents\nfor seeking feasibility approval, wherever required as per extant state regulations.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(k)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(k)",
+   "topic": "DISCOM inspection before CFA release",
+   "snippet": "k) DISCOM Inspection: The concerned DISCOM shall conduct a physical inspection of the\nsystem, sign the appropriate agreements with the consumer (net meter agreement or\notherwise), conduct a checklist-based inspection as per the National Portal and approve\nthe application on the National Portal for release of CFA. Alternatively, the DISCOMs may\nsend back the application for corrections or reject the claim with adequate justification.\nThe CFA will be processed only after the DISCOM has physically verified the system and\ncompleted the process on the Portal.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(l)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(l)",
+   "topic": "metering: all SERC-approved arrangements (net, gross, net billing, VNM, GNM) covered",
+   "snippet": "l) Meter Installation and Agreement: The meter shall be installed by DISCOM after rooftop\ninstallation is complete and the DISCOM and the consumer will sign the appropriate\nmetering agreement as per state regulations. The net meter will be provided by the\nDISCOM or the consumer may procure the net meters from enlisted meter vendors. A\nmodel net metering agreement is shown at Annexure 4. However, the actual agreement\nmay vary. All metering arrangements (net metering, gross metering, net billing, virtual\nnet metering, group net metering etc.) approved by the respective Electricity Regulatory\nCom",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(m)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(m)",
+   "topic": "metering: smart net meters via AMISP",
+   "snippet": "m) Metering in AMISP Areas: For the purpose of net metering, in the areas where the Smart\nMetering works have already been awarded under Revamped Distribution Sector\nScheme (RDSS), DISCOMs/PDs (Power Departments) should mandatorily get the Smart\nMeters installed through the AMISP (Advance Metering Infrastructure Service Provider).",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(n)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(n)",
+   "topic": "metering: non-AMISP areas, net meters per CEA specs (preferably smart)",
+   "snippet": "n) Metering in Non-AMISP Areas: In case the Smart Metering works are yet to be awarded\nunder RDSS, the net meters should be installed (preferably Smart Meters with 4G Cellular\nNIC card) as per manufacturers empaneled list and technical specifications published by\nCentral Electricity Authority in its website.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(o)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(o)",
+   "topic": "eligibility: non-metered grid-connected (behind-the-meter) systems eligible subject to ERC approval; off-grid not",
+   "snippet": "o) Non Metered Grid Connected Systems: Systems that are not feeding into the grid but\nare connected to the grid (behind-the-meter systems, battery hybrid systems etc.) shall\nbe eligible for CFA under the scheme subject to approval by the respective Electricity\nRegulatory Commissions. In such cases, the DISCOM will inspect the installation, ensure\nthe functioning of the reverse power relay protection and incorporate suitable remarks\nin the report. However, Off-grid connected installations will not be eligible for CFA under\nthe scheme.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-6(t)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6(t)",
+   "topic": "timelines: CFA processed within 15 days of DISCOM approval",
+   "snippet": "t) Processing of Claims: The CFA will be processed within 15 days of approval by the\nconcerned DISCOM.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-7(a)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "7(a)",
+   "topic": "eligibility: only National Portal registered vendors",
+   "snippet": "a) Registration of Vendors: The scheme shall be implemented only through the vendors\nregistered on the National Portal i.e. a consumer has to choose a registered vendor for\navailing CFA under the scheme.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-8(c)",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "8(c)",
+   "topic": "eligibility: limit of 1 crore active applications",
+   "snippet": "c) Limit on Active Applications: As the scheme is fund limited, the receiving of applications\non the National Portal shall be limited to 1 crore active applications and only these\napplications shall be considered for release of CFA. Once this limit is reached, MNRE may\nspecify a time period for completion of installations so as to ensure achievement of\nscheme target of 1 crore installations.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-Annexure-1",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "Annexure-1",
+   "topic": "Phase-II claims cut-off (October 2024) and rates",
+   "snippet": "| Note: all applications received prior to launch of PM - Surya Ghar : Muft Bijli Yojana (before 13th Feb 2024 will be covered under the Phase II rooftop solar programme) and will be eligible for the CFA as indicate above. All applications submitted under the Phase II of rooftop solar programme will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained. |",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-011#cl-Annexure-1.tender-mode",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "Annexure-1.tender-mode",
+   "topic": "Phase-II tender-mode claims under Phase-II guidelines; no new tender-mode sanction on/after 12.2.2024",
+   "snippet": "The CFA claims from installations undertaken in tender mode by respective\nDISCOMs/implementation agencies under previous programmes for Rooftop Solar will be\nconsidered under the guidelines of the respective programmes and not PM Suryaghar. The CFA\ncalculation will also be as per the respective programme guidelines. No new/additional\ncapacity allocation by issuing any sanction under tender mode of GCRT phase II will be allowed\non or after 12.2.2024 to the DISCOMs.",
+   "effective_date": "2024-06-07",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C1-011#cl-Annexure-3.1.7",
+   "doc_id": "IN-C1-011",
+   "jurisdiction": "IN",
+   "clause_ref": "Annexure-3.1.7",
+   "topic": "ALMM/DCR: modules must be from ALMM (Order 2019, OM 10.03.2021)",
+   "snippet": "1.7. Solar PV modules capacity to be used should adhere to the Approved List of Models\nand Manufacturers (ALMM) of Solar Photovoltaic Modules (Requirement for\nCompulsory Registration) Order 2019 - Implementation issued vide OM NO.\n283/54/2018-GRID SOLAR -Part (I) Dated 10th March 2021 and subsequent\namendments.",
+   "effective_date": "2024-06-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C1-012#cl-3",
+   "doc_id": "IN-C1-012",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "eligibility: ground-mounted elevated installations allowed (capex and RESCO/ULA); clarifies 5(b)",
+   "snippet": "In view of the above, it is clarified that ground-mounted elevated installations,\nmeeting the technical specifications detailed in the guidelines are explicitly allowed in\nthe scheme. This clarification will apply both on capex mode as per OM mentioned\nabove as well as RESCO/Utility Led Mode of implementation under the PMSG: MBY as\nper OM issued vide file No. 318/17/2024-GCRT Part (15) dated 28.12.2024.",
+   "effective_date": "2025-02-13",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C2-001#cl-2",
+   "doc_id": "IN-C2-001",
+   "jurisdiction": "IN",
+   "clause_ref": "2",
+   "topic": "ALMM List-I enlistment efficiency criteria (restated)",
+   "snippet": "2. This Ministry vide its o.M. No. 283/22/2023-GRID SOLAR/Pt dated 10.05.2023 and O.M. of even no.\ndated 22.03.2024 inter-alia directed that only such models of Solar PV Module ManufactuFers will be enlisted undeF\nALMM, which comply with the BIS Standards and are having the following minimum module efficlencY:",
+   "effective_date": "2024-10-14",
+   "confidence": "low",
+   "note": "OCR of threshold table illegible"
+  },
+  {
+   "node_id": "IN-C2-001#cl-5",
+   "doc_id": "IN-C2-001",
+   "jurisdiction": "IN",
+   "clause_ref": "5",
+   "topic": "ALMM List-I revised (Revision XXIX) as on 14.10.2024",
+   "snippet": "5. The List _ 1 (Manufacturers and Models of Solar PV Modules) ofALMM Order, 2019 is hereby further\nrevised and the Revision_XXI>< of same is enclosed at Annexure-l.",
+   "effective_date": "2024-10-14",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-001#cl-6",
+   "doc_id": "IN-C2-001",
+   "jurisdiction": "IN",
+   "clause_ref": "6",
+   "topic": "ALMM enlistment validity subject to valid BIS registration",
+   "snippet": "6. The ALMM enlistment validity is subject to valid BIS Registration; else deemed to be delisted-",
+   "effective_date": "2024-10-14",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-002#cl-1",
+   "doc_id": "IN-C2-002",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "ALMM for modules in effect from 1 April 2024 (end of FY 2023-24 abeyance)",
+   "snippet": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and\nManufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration)\nOrder, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is\nclarified that the ALMM[Approved List of Models&Manufacturers]for Solar PVModules,\nshallaccordinglycomeintoeffectfrom1st April, 2024.",
+   "effective_date": "2024-04-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-002#cl-2",
+   "doc_id": "IN-C2-002",
+   "jurisdiction": "IN",
+   "clause_ref": "2",
+   "topic": "ALMM: modules received at site by 31.03.2024 but not commissioned examined separately",
+   "snippet": "Eachprojectwhere the solar PVmoduleshavebeenreceived at theprojectsite by\n31s March, 2024 and is unable to get commissioned by that day, on account of reasons\nbeyondthecontrol of therenewablepowerdeveloper, wouldbeexaminedseparately.",
+   "effective_date": "2024-03-29",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-003#cl-1",
+   "doc_id": "IN-C2-003",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "ALMM: 09.02.2024 OM held in abeyance",
+   "snippet": "The undersigned is directed to convey that the O.M. of even no. dated 9th February, 2024\n(copy enclosed) on the subject issue, is hereby held in abeyance till further orders.",
+   "effective_date": "2024-02-15",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-003#cl-encl.a-b",
+   "doc_id": "IN-C2-003",
+   "jurisdiction": "IN",
+   "clause_ref": "encl.a-b",
+   "topic": "ALMM re-imposed 1.4.2024; applies to subsidised rooftops only (09.02.2024 OM)",
+   "snippet": "a) The ALMM [Approved List of Models & Manufacturers] for Solar PV Modules, is being\nre-imposed with effect from 1 st April, 2024.\nb) The ALMM will apply as per the Law, onIY to those projects which are sponsored/\nsubsidized by the Government. ALMM will appIY to Government or ItS agencles\nprocuring power for its own consumption or for distribution to the people through\nDistribution Companies. ALMM will apply to Solar PV RooftoPS and PM KUSUM;\nwhich are subsidized. The ALMM will not apply to projects set UP under open access\nor as captive by private parties. In other words, ALMM will not be app",
+   "effective_date": "2024-02-09",
+   "confidence": "medium",
+   "note": "Enclosed OM dated 09.02.2024 (page 2 of the file); paragraph letters a) and b)"
+  },
+  {
+   "node_id": "IN-C2-003#cl-encl.c",
+   "doc_id": "IN-C2-003",
+   "jurisdiction": "IN",
+   "clause_ref": "encl.c",
+   "topic": "ALMM relaxation for advanced-stage projects with module orders before 31.03.2024 (09.02.2024 OM, held in abeyance)",
+   "snippet": "Aforesaid order of even no. dated 10th March 20231 inter-alial conveYed that projects\nC)\ncommissioned by 31 =t March 2024 will be exempted from the requirement of procurlng\nSolar PV modules from ALMM. However, now, it has been decided that the relaxatlon\nin ALMM shall apply to all cases where the projects are in advanced stage of\nconstruction and the order for the modules has been placed before 31 st March 2024-\nThat the plant is in advanced stages of construction and the irrevocable LC has been\nopened before 31 st March1 20241 Will be subject tO verification.",
+   "effective_date": "2024-02-09",
+   "confidence": "low",
+   "note": "OCR errors; the enclosed 09.02.2024 OM was held in abeyance on 15.02.2024"
+  },
+  {
+   "node_id": "IN-C2-004#cl-1.4.1",
+   "doc_id": "IN-C2-004",
+   "jurisdiction": "IN",
+   "clause_ref": "1.4.1",
+   "topic": "ALMM enlistment valid 4 years",
+   "snippet": "1.4.1Theenlistmentunder ALMMshallbevalidforaperiodoffouryearsfromthedateof\nenlistmentandcanberenewedthereafterfollowingtheprocedurelaiddownbythe\nGovernment.",
+   "effective_date": "2023-05-10",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-004#cl-1.5.1",
+   "doc_id": "IN-C2-004",
+   "jurisdiction": "IN",
+   "clause_ref": "1.5.1",
+   "topic": "ALMM minimum module efficiency (rooftop 19.5%)",
+   "snippet": "1.5.1Onlysuchmodelsof Solar PVModule Manufacturers, willbeeligibleforenlistment under ALMM, whichcomplieswiththe Bi SStandardsandarehavingthefollowingminimum\nmoduleefficiency:\nCategory\nApplication/ Use\nMinimum Module\nEfficiency required to be\neligibleforenlistment\nunder ALMM\nCategoryl\nUtility/Grid Scale Power Plants\n20.0%\nCategoryll\nRooftop and Solar Pumping\n19.5%\nCategory Ill\nSolar Lighting\n19.0%",
+   "effective_date": "2023-05-10",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-004#cl-1.5.2",
+   "doc_id": "IN-C2-004",
+   "jurisdiction": "IN",
+   "clause_ref": "1.5.2",
+   "topic": "ALMM: sub-threshold models delisted within 2 years",
+   "snippet": "1.5.2Suchmodelsof Solar PVModule Manufacturerswhicharealreadyenlisted under ALMM\nandarehavingefficiencieslessthantheaforesaidminimumthresholds, shallbedelisted\nfrom ALMMlistintwoyears（fromdateofissuanceofthis O.M.)ordateofexpiryof\nvalidityofsuchmodelin ALMM, whicheverisearlier.Further, suchdelistedmodelsshall\nnotbeeligibleforrenewal.",
+   "effective_date": "2023-05-10",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-004#cl-1.6",
+   "doc_id": "IN-C2-004",
+   "jurisdiction": "IN",
+   "clause_ref": "1.6",
+   "topic": "ALMM Order in abeyance FY 2023-24",
+   "snippet": "1.6.It is reiterated that the ALMM Order is in abeyance for one financialyear, i.e.FY2023-\n24.",
+   "effective_date": "2023-05-10",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-005#cl-2(a)",
+   "doc_id": "IN-C2-005",
+   "jurisdiction": "IN",
+   "clause_ref": "2(a)",
+   "topic": "ALMM/DCR: past DCR data from 01.01.2024 to be filled on DCR portal",
+   "snippet": "a) All concerned stakeholders to mandatorily fill all past data (from 1 st JanuarY 2024\nonwards) in respect of Domestic Content Requirement (DLR) compliant solar PV\nmodules1 on the DCR Verification portal operated by National Institute of Solar\nEnergy, at the link: https://solardcrportal.nise. res.in",
+   "effective_date": "2024-11-11",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-005#cl-2(b)",
+   "doc_id": "IN-C2-005",
+   "jurisdiction": "IN",
+   "clause_ref": "2(b)",
+   "topic": "DCR verification via portal mandatory for PMSG from 1.12.2024",
+   "snippet": "b) From 1 st December 2024 onwards, any solar PV module, whose DCR credentials\ncannot be verified through the aforesaid DCR verification portal, shall not be\naccepted under MNRE’s CPSU Scheme Phase-II, PM SurYaghar: Muft Bijli Yojana\nand PM-KUSUM.",
+   "effective_date": "2024-12-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-006#cl-3",
+   "doc_id": "IN-C2-006",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "ALMM/DCR: List-II (cells) effective 1 June 2026",
+   "snippet": "3. With installed capacity of solar PV cells in the country expected to increase substantially\nin next year, it has been proposed to issue List-II of solar PV cells under ALMM, which shall\nbe effective from 1 =t June 2026.",
+   "effective_date": "2026-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-006#cl-5",
+   "doc_id": "IN-C2-006",
+   "jurisdiction": "IN",
+   "clause_ref": "5",
+   "topic": "ALMM: bids on/before 09.12.2024 exempt from List-II",
+   "snippet": "5. For all projects (including the projects bid out following the Guidelines issued by the Central\nGovernment under Section 63 of Me Electricity Act 2003) which are mandated to use solar PV\nmodules from ALMIM List-1 (for solar PV modules), if the last date of bid submission is on or\nbefore the issuance of this order, such projects shall be mandated to use solar PV modules\nfrom ALMM List-1 (for solar PV modules) but will stand exempted from the requirement of using\nsolar PV cells from ALMM List-II (for solar PV cells), irrespective of their date of\ncommissioning, i.e. such projects will be exem",
+   "effective_date": "2024-12-09",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-006#cl-6",
+   "doc_id": "IN-C2-006",
+   "jurisdiction": "IN",
+   "clause_ref": "6",
+   "topic": "ALMM: bids after 09.12.2024 must use List-II cells regardless of commissioning date",
+   "snippet": "6. All projects (including the projects bid out following the Guidelines issued by the Central\nGovernment under Section 63 of the Electricity Act 2003) that are covered under ALMh/l and\nwhere the last date of bid submission is after the date of issuance of this order, shall have a\nclause in their tender documents / Request for Selection (RfS) documents that the solar PV\nmodules and solar PV cells used in such projects shall be from the models and manufacturers\nincluded in ALMM List-I (for solar PV modules) and ALMM List-II (for solar PV cells) and thi9\n\n--- Page 2 ---\ncondition will have to be",
+   "effective_date": "2024-12-09",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-006#cl-7",
+   "doc_id": "IN-C2-006",
+   "jurisdiction": "IN",
+   "clause_ref": "7",
+   "topic": "ALMM: from 1 June 2026 List-I modules must use List-II cells; List-I(a) for exempt projects",
+   "snippet": "7. From 1 st June, 2026 onwards, only such solar PV modules will remain in ALMM List-1 (for\nsolar PV modules) which are using solar PV cells from ALMM List-II (for solar PV cells) and\nsolar PV module manufacturers who fail to comply to this condition, will be liable to be delisted\nfrom ALMM List-1 (for solar PV modules). However, after 31=t May 20261 a separate ALMM\nList-1(a)",
+   "effective_date": "2026-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-006#cl-8",
+   "doc_id": "IN-C2-006",
+   "jurisdiction": "IN",
+   "clause_ref": "8",
+   "topic": "ALMM/DCR: List-II cells mandatory for net-metering/open-access projects commissioned on/after 1 June 2026",
+   "snippet": "These Net_Metering and Open\nAccess RE Power Projects which are mandated to use ALMM enlisted modules, will stand\nexempted from the requirement of using solar PV cells from ALMM List-II if such projects get\ncommissioned prior tO lst June 2026. All the Net-Metering Projects and Open Access RE\nPower Projects which get commissioned on or after 1 =t June 2026, shall have to mandatorily\nsource their solar PV modules from ALMM List-1 and solar PV cells from ALMM List-II.",
+   "effective_date": "2026-06-01",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-006#cl-9",
+   "doc_id": "IN-C2-006",
+   "jurisdiction": "IN",
+   "clause_ref": "9",
+   "topic": "ALMM: thin-film integrated modules deemed compliant with List-II",
+   "snippet": "9. Thin Film technology based Solar PV Modules enlisted in ALMM List-1 and manufactured\nin Integrated Solar PV Module Manufacturing units enlisted in ALMM List-1, shall be considered\nto be in deemed compliance to the requirement of using solar PV cells from ALMM List-II.",
+   "effective_date": "2024-12-09",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-007#cl-4",
+   "doc_id": "IN-C2-007",
+   "jurisdiction": "IN",
+   "clause_ref": "4",
+   "topic": "ALMM efficiency thresholds amended (rooftop 19.50% unchanged; off-grid <200 Wp 18%)",
+   "snippet": "Accordingly, it has been decided to amend the aforesaid module efficiency thresholds\nfor ALMM enlistmentasfollows:\nMinimum\nModule\nEfficiency\nrequired to be eligible for enlistment\nin ALMM for solar PV modules\nCategory\nApplication/Use\nFor\nc-Si\nFor\nCd Te\nthin\ntechnology\nfilm\ntechnology\nbased solar PV\nbased solar PV\nmodules\nmodules\nCategory-l\nUtility/Grid Scale Power Plants\n20.00%\n19.00%\nCategory-ll\nRooftop and Solar Pumping\n19.50%\n18.50%\nCategory-Ill!\nOff-grid\nprojects/applications\n18.00%\n18.00%\nlike solar lamps, solar lights,\nsolar street lights, solar fans,\n(not to be included in main ALMM Lis",
+   "effective_date": "2025-05-06",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-008#cl-3",
+   "doc_id": "IN-C2-008",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "ALMM List-II effective 1 June 2026 'subject to terms and conditions' (modified para 3)",
+   "snippet": "With installed capacity of solar PV cells in the\ncountry expected to increase substantially in next\nyear, it has been proposed to issue List-ll of solar\nPV cells under ALMM, which shall be effective\nfrom 1st June 2026.\n4\n5\nWith installed capacity of solar PV cells in the\ncountry expected to increase substantially in nex\nfew years, it has been proposed to issue List-ll o\nsolar PV cells under ALMM, which shall be\neffective from 1st June 2026, subject to terms\nand conditions as detailed out in following",
+   "effective_date": "2025-07-28",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-008#cl-5",
+   "doc_id": "IN-C2-008",
+   "jurisdiction": "IN",
+   "clause_ref": "5",
+   "topic": "ALMM: bid exemption from List-II tied to cut-off date (1 month after List-II publication); no DCR relaxation for PMSG (modified para 5)",
+   "snippet": "There shall be no relaxation in Domestic\nContent\nRequirement (DCR) provisions,\nwherever applicable in respect of MNRE's\nSchemes/ Programs like Components B&C of\nPM-KUSUM, PM Surya Ghar: Muft Bijli Yojana\nand CPSU Scheme Phase-ll.\nExplanation: \"Cut-off date\" for this purpose is\nthe date, which falls exactly after 1 month of\nthe publication of ALMM List-ll for solar PV\ncells. For instance, If the ALMM List for Solar\nCells is published on August 1st 2025, then the\ncut-off date shall be September 1st 2025.",
+   "effective_date": "2025-07-28",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-008#cl-6",
+   "doc_id": "IN-C2-008",
+   "jurisdiction": "IN",
+   "clause_ref": "6",
+   "topic": "ALMM: List-II mandatory where bid submission after cut-off date (modified para 6)",
+   "snippet": "of bid submission falls after the cut-off date as\nthis order (refers to OM dated 09.12.2024), shall\nmentioned above, shall have a clause in their",
+   "effective_date": "2025-07-28",
+   "confidence": "low",
+   "note": "two-column OCR interleaves existing and modified text; snippet is a fragment of the modified para 6"
+  },
+  {
+   "node_id": "IN-C2-008#cl-8",
+   "doc_id": "IN-C2-008",
+   "jurisdiction": "IN",
+   "clause_ref": "8",
+   "topic": "ALMM: para 8 (net-metering / open access List-II from 1 June 2026) unchanged",
+   "snippet": "get commissioned prior to 1st June 2026. All the\nNet-Metering Projects and Open Access RE\nPower Projects which get commissioned on or\nafter 1st June 2026, shall have to mandatorily\nsource their solar PV modules from ALMM List-l\nand solar PV cells from ALMM List-Il.",
+   "effective_date": "2025-07-28",
+   "confidence": "low",
+   "note": "OCR garbled; table marks para 8 'No change'"
+  },
+  {
+   "node_id": "IN-C2-009#cl-2(a)",
+   "doc_id": "IN-C2-009",
+   "jurisdiction": "IN",
+   "clause_ref": "2(a)",
+   "topic": "ALMM: solar charging grid-connected storage not behind-the-meter, not exempt from ALMM modules",
+   "snippet": "a) If a solar power plant is feeding power to an Energy Storage System/ charging an\nEnergy Storage System, which is directly or indirectly supplying electricity to the\ngrid, then such solar power plant does not fall under the category of \"behind-the-\nmeter solar power plants solely used for captive consumption by a consumer or\ngroup of consumers\" and accordingly, is not eligible for exemption from ALMM for\nsolar PV modules as per provisions of MNRE's O.M. No. 283/54/2018-GRID\nSOLAR-Part(5) dated 07.10.2022 (which inter-alia state that the amendment issued\nvide MNRE's O.M. dated 13.01.2022 read",
+   "effective_date": "2025-07-28",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C2-009#cl-2(b)",
+   "doc_id": "IN-C2-009",
+   "jurisdiction": "IN",
+   "clause_ref": "2(b)",
+   "topic": "ALMM List-II exemption of solar follows the storage project's exemption",
+   "snippet": "Storage System' project is exempted from ALMM for solar PV cells, the solar\npower plant exclusively feeding/ charging such 'Energy Storage System' project\nwill also be exempt from ALMM for solar PV cells, and vice-versa.",
+   "effective_date": "2025-07-28",
+   "confidence": "low",
+   "note": "text partly missing in OCR"
+  },
+  {
+   "node_id": "IN-C2-010#cl-1",
+   "doc_id": "IN-C2-010",
+   "jurisdiction": "IN",
+   "clause_ref": "1",
+   "topic": "ALMM List-II for cells first version issued 31.07.2025 (starts the 1-month cut-off)",
+   "snippet": "(MNRE), herebyissuesthefirstversionof the ALMM(Approved List of Models&\nManufacturers)List-ll for Solar PVCells, whichisat Annexure-l.",
+   "effective_date": "2025-07-31",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-011#cl-5",
+   "doc_id": "IN-C2-011",
+   "jurisdiction": "IN",
+   "clause_ref": "5",
+   "topic": "ALMM: no blanket extension of 1 June 2026 List-II deadline",
+   "snippet": "5. In view of the aforesaid background, the representations received in MNRE have been examined,\nand it was decided that no blanket extension of the ALMM deadline, i.e., 1st June 2026, will be\ngiven.",
+   "effective_date": "2026-05-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C2-011#cl-6",
+   "doc_id": "IN-C2-011",
+   "jurisdiction": "IN",
+   "clause_ref": "6",
+   "topic": "ALMM: case-by-case time extension for NM/OA projects (Category I modules installed, Category II effective steps)",
+   "snippet": "6. However, such Net-Metering / Open Access, RE power projects, where (a) installation of solar\nmodules is completed but not commissioned or (b) Effective steps have been undertaken by the RE\npower developers towards grounding the projects, to protect investments already made in such cases,\nin the larger public interest, such cases will be considered for appropriate time-extension on case-to\ncase basis in respect of applicability of ALMM List-ll (for solar PV cells), after objective assessment of\nthe supporting information/ documentary proofs provided by such developers, subject to them fallin",
+   "effective_date": "2026-05-25",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-011#cl-7",
+   "doc_id": "IN-C2-011",
+   "jurisdiction": "IN",
+   "clause_ref": "7",
+   "topic": "timelines: claims on NISE portal by 30.06.2026",
+   "snippet": "7. All claims /information as mentioned in para 5 above, shall be submitted by the interested RE power\ndevelopers in the requisite format, on a portal developed by National Institute of Solar Energy (NISE)\nfor this purpose, within 30.06.2026. No physical applications will be entertained.",
+   "effective_date": "2026-05-25",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C2-011#cl-9",
+   "doc_id": "IN-C2-011",
+   "jurisdiction": "IN",
+   "clause_ref": "9",
+   "topic": "ALMM: residential net-metering Give It Up consumers governed by PMSG guidelines till 31.03.2027",
+   "snippet": "Central Financial Assistance (CFA) under the \"Give It Up\" campaign of the scheme, so that the scheme\nbenefits can reach a wider cross-section of consumers. This has been enabled by a \"Give It Up\" option\non the PMSG: MBY National Portal as well. Residential Net-Metering consumers who opt for this \"Give\nIt Up\" campaign shall continue to be governed by the PMSG: MBY Scheme Guidelines, till the end of\nthe scheme, i.e., 31st March 2027. These residential net-metering consumers will mandatorily apply",
+   "effective_date": "2026-05-25",
+   "confidence": "low",
+   "note": "para 9 number and part of text missing in OCR"
+  },
+  {
+   "node_id": "IN-C2-012#cl-3",
+   "doc_id": "IN-C2-012",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "ALMM: NM/OA projects may commission without List-II cells till 31.12.2026; supersedes OM 25.05.2026 etc.",
+   "snippet": "it has been decided that while there will be no blanket extension\nin applicability of ALMM List-ll for solar power projects, however, a limited window\nis being provided for Net-metering projects and Open Access RE power projects,\nwhereby such projects can now commission with exemption of ALMM List-ll (for\nsolar PV cells), till 31st December 2026. Earlier this dispensation for Net-metering\nprojects and Open Access renewable power projects was available till 31st May 2026. Net-\nmetering projects and Open Access renewable power projects commissioned after 31st\nDecember, 2026, will be required to ",
+   "effective_date": "2026-07-18",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C2-013#cl-1(a)",
+   "doc_id": "IN-C2-013",
+   "jurisdiction": "IN",
+   "clause_ref": "1(a)",
+   "topic": "ALMM: bid cut-off date 31.08.2025 for List-II exemption",
+   "snippet": "a) For projects awarded through bidding, if last date of bid submission is on or before the cut\noff date of 31.08.2025 (the date falling after one month of the publication of initial ALMM List-II\ndated 31.07.2025), the projects are exempt from ALMM List-I| (for solar cells), else not. The\napplicability of this provision is to bids which were live as on 28.07.2025.",
+   "effective_date": "2026-08-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-013#cl-1(b)",
+   "doc_id": "IN-C2-013",
+   "jurisdiction": "IN",
+   "clause_ref": "1(b)",
+   "topic": "ALMM: NM/OA projects commissioned by 31.12.2026 exempt from List-II (List-I still applies)",
+   "snippet": "b) For Net-Metering & Open Access Projects, if commissioned by 31.12.2026, the projects are\nexempt from ALMM List-ll for solar cells, else not. The exemption is only for ALMM List-ll (for\nsolar PV cells), and compliance to ALMM List-I (for solar PV modules) still needs to be followed\nas per extant provisions applicable to the concerned project.",
+   "effective_date": "2026-08-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-013#cl-1(b)-GiveItUp",
+   "doc_id": "IN-C2-013",
+   "jurisdiction": "IN",
+   "clause_ref": "1(b)-GiveItUp",
+   "topic": "ALMM: residential Give It Up net-metering under PMSG exempt from List-II till 31.03.2027 (List-I still applies)",
+   "snippet": "If any residential rooftop solar consumer or rooftop solar project for residential building, is availing\nNet Metering with the option of 'Give It UP Subsidy cases under PMSG:MBY', such cases shall\nbe exempted from applicability of ALMM List-II (for solar PV cells) till the end of the scheme\nperiod, i.e., 31st March 2027, subject to the condition that such applications are made mandatorily\nthrough\n1 PMSG National Portal only, however, this exemption is only in respect of ALMM List-lI\n(for solar PV cells) and compliance to ALMM List-I (for solar PV modules), will still be required\nas the same is",
+   "effective_date": "2026-08-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-013#cl-1(d)",
+   "doc_id": "IN-C2-013",
+   "jurisdiction": "IN",
+   "clause_ref": "1(d)",
+   "topic": "ALMM: non-bid government rooftop NM/OA exempt from List-II if commissioned by 31.12.2026",
+   "snippet": "d) For Rooftop Solar Projects (Net-Metering/ Open Access) on Government Buildings,\nwhich have not been awarded through bidding:\ni. If commissioned by 31.12.2026 - the projects will be exempt from ALMM List-ll (for\nsolar PV cells).\nii. If commissioned after 31.12.2026 - the projects will not be exempted from ALMM List-\nIl (for solar PV cells).",
+   "effective_date": "2026-08-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C2-013#cl-1(e)",
+   "doc_id": "IN-C2-013",
+   "jurisdiction": "IN",
+   "clause_ref": "1(e)",
+   "topic": "ALMM: behind-the-meter captive (non-government) exempt from List-I and List-II",
+   "snippet": "i. ALMM List-I (for solar PV modules) and ALMM List-II (for solar PV cells) shall not apply\nto behind-the-meter solar power plants solely used for captive consumption by a\nconsumer or group of consumers, other than Government entities or Public Sector",
+   "effective_date": "2026-08-04",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C2-013#cl-1(f)",
+   "doc_id": "IN-C2-013",
+   "jurisdiction": "IN",
+   "clause_ref": "1(f)",
+   "topic": "ALMM/DCR: ALMM OMs do not relax DCR in MNRE schemes (PMSG)",
+   "snippet": "f) ALMM O.M.s/ Orders have no impact on DCR provisions: The Domestic Content\nRequirement (DCR) provisions in respective Schemes are governed by the Scheme Guidelines\nof the respective Schemes including various clarifications/amendments issued thereto and not\nby the orders / O.M.s on ALMM and any order / O.M. of ALMM issued by MNRE, does not relax\nany provisions about usage of domestically manufactured solar\nPV modules and domestically manufactured solar PV cells in any of MNRE's Schemes.",
+   "effective_date": "2026-08-04",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(7)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(7)",
+   "topic": "feasibility/technical study within 15 days, else presumed feasible",
+   "snippet": "“(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a\nperiod of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be\npresumed that the proposal is technically feasible.",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(7A)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(7A)",
+   "topic": "deemed approval up to 10 kW without feasibility study; sanctioned load enhancement by licensee",
+   "snippet": "(7A) The applications for roof top solar photo voltaic systems upto 10 kW capacity, complete in all respects shall be\ndeemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of\nthe sanctioned load of the consumer, as may be required, shall be carried out by the distribution licensee.”",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(8)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(8)",
+   "topic": "DT hosting / infrastructure upgradation subject to 7A; strengthening cost up to 5 kW in ARR",
+   "snippet": "Provided that the cost of strengthening the distribution infrastructure, including distribution transformer, as\nnecessary, to facilitate the installation of roof top solar photovoltaic systemsup to a capacity of 5 kW or a higher\ncapacity as prescribed by the State Commission, shall be included in the revenue requirement of the distribution\nlicensee.",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(9)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(9)",
+   "topic": "timelines: commissioning within 15 days of installation certificate",
+   "snippet": "“(9) After installation of roof top solar photovoltaic system, the consumer shall submit the installation certificate to\nsuch distribution licensee and such distribution licensee shall complete signing of connection agreement, installation\nof meter and successful commissioning of the roof top solar photovoltaic system within fifteendays from the date of\nsubmission of the installation certificate.",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-001#cl-11(9A)",
+   "doc_id": "IN-C3-001",
+   "jurisdiction": "IN",
+   "clause_ref": "11(9A)",
+   "topic": "connection agreement / installation certificate formats on licensee portal",
+   "snippet": "(9A)The Formats of connection agreement and installation certificate shall be placed on web-portal of the distribution\nlicensee.”",
+   "effective_date": "2024-02-22",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(12)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(12)",
+   "topic": "timelines: compensation >= Rs 500/day for licensee delay",
+   "snippet": "(12) In case of any delay on the part of distribution licensee without any just cause, the Licensee\nshall be liable to pay compensation to the consumer at a rate which shall not be less than\nfive hundred rupees per day for each day of default.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(13)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(13)",
+   "topic": "settlement/banking: energy adjusted per net or gross metering",
+   "snippet": "(13) The energy generated by prosumer shall be adjusted against energy consumed or the bill amount,\ndepending on whether net metering or gross metering is applicable.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(14)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(14)",
+   "topic": "CFA subsidy: licensee to pass on central/state incentives",
+   "snippet": "(14) The distribution licensee shall pass on the financial incentives to the prosumers, as may be\nprovided under various schemes and programmes of the Central and State Governments.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(2)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(2)",
+   "topic": "capacity limit: RE unit on premises not to exceed limit specified by Commission",
+   "snippet": "(2) Renewable Energy (RE) generation unit may also be set up on other part of the premises of the\nprosumers, apart from the roof, however the total generation capacity of the RE unit shall not exceed\nthe limit as specified by the Commission.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(3)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(3)",
+   "topic": "timelines: SERC rooftop regulations within 6 months",
+   "snippet": "(3) The Commission shall lay down regulations on Grid Interactive Roof top Solar PV system and its\nrelated matters with timelines of not exceeding six months from the date of notification of these rules,\nin case the same has not been notified.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(4)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(4)",
+   "topic": "metering/phase threshold: net metering for loads up to 10 kW, gross metering above 10 kW",
+   "snippet": "(4) The regulations on Grid Interactive Roof top Solar PV system and its related matters shall provide for\nnet metering for loads up to ten kW and for gross metering for loads above ten kW.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(7)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(7)",
+   "topic": "feasibility/technical study within Commission timeline, max 20 days",
+   "snippet": "(7) The technical feasibility study shall be completed within the time period specified by the\nCommission, not exceeding twenty days and the outcome of the study shall be intimated to the\napplicant.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(8)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(8)",
+   "topic": "DT hosting / infrastructure upgradation by licensee or consumer",
+   "snippet": "(8) During the time period from the feasibility study till the completion of installation, in case, there\nis any requirement of upgradation of distribution infrastructure like augmentation of service line,\ndistribution transformer capacity, etc., for installation of the required capacity of solar PV\nsystem, the same shall be carried out by the distribution licensee or consumer, as the case may\nbe.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-002#cl-11(9)",
+   "doc_id": "IN-C3-002",
+   "jurisdiction": "IN",
+   "clause_ref": "11(9)",
+   "topic": "timelines: connection agreement, meter, commissioning within 30 days of installation certificate (formats on portal)",
+   "snippet": "(9) After installation of solar PV system, the consumer shall submit the installation certificate to the\ndistribution licensee. The licensee shall complete signing of connection agreement, installation\nof meter and successful commissioning of the solar PV system within the timelines specified by\nthe Commission which shall not be more than thirty days from the date of submission of the\ninstallation certificate. Formats of contract agreement and installation certificate shall be placed\non web-portal of the distribution licensee.",
+   "effective_date": "2020-12-31",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-1(1)",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "1(1)",
+   "topic": "short title changed to 'Connectivity below 33 kilovolts' (amendment reg. 2)",
+   "snippet": "2. In the Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation\nResources) Regulations, 2013 (hereinafter referred to as the said Regulations), in regulation 1, in sub-\nregulation (1), for the words “Connectivity of the Distributed Generation Resources”, the words\n“Connectivity below 33 kilovolts” shall be substituted.",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-11",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "11",
+   "topic": "regulation 11 heading extended to prosumers acting as generator (amendment reg. 6)",
+   "snippet": "6. In regulation 11 of the said regulations, for the words “Standards for distributed generation resources”, the\nwords “Standards for distribution generation resources and prosumers, when acting as a generator”\nshall be substituted.",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-11A",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "11A",
+   "topic": "feasibility/technical study: licensee adequacy & stability study before connection; harmonics IEEE 519-2014 (amendment reg. 7)",
+   "snippet": "“11A. Standards for charging station, prosumer, or a person connected or seeking connectivity to\nthe electricity system. -\n(1) The applicant shall provide a reliable protection system to detect various faults and abnormal\nconditions and provide an appropriate means to isolate the faulty equipment or system\nautomatically.\n(2) The applicant shall ensure that fault of his equipment or system does not affect the grid\nadversely.\n(1) The appropriate licensee shall carry out adequacy and stability study of the network before\npermitting connection with its electricity system.\n(2) The limits of injecti",
+   "effective_date": "2019-02-08",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C3-003#cl-14",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "14",
+   "topic": "registration with CEA registry / unique registration number (amendment reg. 8)",
+   "snippet": "“14. Registration in Registry maintained by the Authority. - The user or the applicant, as the case may\nbe, shall get its generating unit and station of such capacity and with effect from such date as may be\nfixed by the Authority, registered and obtain an online generated Unique Registration Number from the\nAuthority:\nProvided that no generating unit or generating station shall be granted connectivity with the grid\nwithout the unique registration number with effect from such date as may be fixed by the Authority.",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-2(1)(b)",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "2(1)(b)",
+   "topic": "eligibility: applicant includes charging station, prosumer (amendment reg. 3(i))",
+   "snippet": "‘(b) “applicant” means a generating company, charging station, prosumer or a person seeking\nconnectivity to the electricity system at voltage level below 33 kV;’;",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-2(1)(ja)",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "2(1)(ja)",
+   "topic": "prosumer definition inserted (amendment reg. 3(iii))",
+   "snippet": "‘(ja) “prosumer” means a person, including energy storage system, which consumes electricity from\nthe grid and can also inject electricity into the grid, using same point of connection;’;",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-2(1)(n)",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "2(1)(n)",
+   "topic": "user includes charging station, prosumer (amendment reg. 3(iv))",
+   "snippet": "‘(n) “user” means a charging station, prosumer or a person who is connected to the electricity system or\na generating company whose distributed generation resource is connected to the electricity\nsystem;’;",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-3",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "applicability extended to prosumers/charging stations below 33 kV (amendment reg. 4)",
+   "snippet": "4. For regulation 3 of the said regulation, the following regulations shall be substituted, namely: -\n“3. Application of these regulations - These regulations shall apply to all generating companies or persons\nowning distributed generation resources, charging stations, prosumers or persons who are connected to or\nseeking connectivity with the electricity system below 33 kV voltage level:\nProvided that in case, a licensee owning the electricity system to which connection is to be made,\nalso owns the distributed generation resources, charging station or prosumers, these regulations shall apply\nm",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-003#cl-4(9)",
+   "doc_id": "IN-C3-003",
+   "jurisdiction": "IN",
+   "clause_ref": "4(9)",
+   "topic": "cyber security compliance inserted (amendment reg. 5)",
+   "snippet": "5. In regulation 4 of said regulations, after sub-regulation (8), the following sub-regulation shall be inserted,\nnamely:-\n“(9) The applicant and the user shall comply with the cyber security guidelines issued by the Central\nGovernment from time to time.”",
+   "effective_date": "2019-02-08",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-004#cl-11(13)",
+   "doc_id": "IN-C3-004",
+   "jurisdiction": "IN",
+   "clause_ref": "11(13)",
+   "topic": "settlement/banking: solar energy adjusted per Commission regulations",
+   "snippet": "“(13) The solar energy generated by prosumer shall be adjusted against energy consumed and bill amount as per\nregulations made by the Commission for Grid Interactive rooftop Solar Photovoltaic system.”",
+   "effective_date": "2021-06-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-004#cl-11(4)",
+   "doc_id": "IN-C3-004",
+   "jurisdiction": "IN",
+   "clause_ref": "11(4)",
+   "topic": "capacity limit vs sanctioned load / metering: SERC regulations govern; fallback net metering up to 500 kW or sanctioned load whichever lower, net billing/feed-in above; gross metering option",
+   "snippet": "“(4) The arrangements for net-metering, gross-metering, net-billing or net feed-in shall be in accordance with the\nregulations made by the State Commission, from time to time:\nProvided that where the regulations does not provide for net-metering, net-billing or net feed-in, the\nCommission may allow net metering to the Prosumer for loads up to five hundred Kilowatt or upto the sanctioned\nload, whichever is lower and net-billing or net feed-in for other loads:",
+   "effective_date": "2021-06-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-004#cl-2(1)(jb)",
+   "doc_id": "IN-C3-004",
+   "jurisdiction": "IN",
+   "clause_ref": "2(1)(jb)",
+   "topic": "net-metering definition inserted (also gross-metering 2(1)(ia), net-billing 2(1)(ja))",
+   "snippet": "(jb) “net-metering” means a mechanism whereby solar energy exported to the Grid from Grid Interactive\nrooftop Solar Photovoltaic system of a Prosumer is deducted from energy imported from the Grid in units\n(kWh) to arrive at the net imported or exported energy and the net energy import or export is billed or\ncredited or carried-over by the distribution licensee on the basis of the applicable retail tariff by using a\nsingle bidirectional energy meter for net-metering at the point of supply;’.",
+   "effective_date": "2021-06-29",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-005#cl-1(1)",
+   "doc_id": "IN-C3-005",
+   "jurisdiction": "IN",
+   "clause_ref": "1(1)",
+   "topic": "short title (CEA DG connectivity regulations 2013)",
+   "snippet": "1. Short title and commencement - (1) These Regulations may be called the Central Electricity\nAuthority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations,",
+   "effective_date": "2013-10-07",
+   "confidence": "medium"
+  },
+  {
+   "node_id": "IN-C3-005#cl-11",
+   "doc_id": "IN-C3-005",
+   "jurisdiction": "IN",
+   "clause_ref": "11",
+   "topic": "technical standards for DG resources (harmonics IEEE 519, DC injection 0.5%); reg. number lost in OCR",
+   "snippet": "Standards for distributed generation resources. - Harmonic current injections from a\ngenerating station shall not exceed the limits specified in lEEE 519.\nThe distributed generating resource shall not inject Direct Current greater than 0.5% of the\nfull rated output at the interconnection point.",
+   "effective_date": "2013-10-07",
+   "confidence": "low",
+   "note": "regulation number 11 not printed in OCR; inferred from amendment reg. 6"
+  },
+  {
+   "node_id": "IN-C3-005#cl-2(1)(b)",
+   "doc_id": "IN-C3-005",
+   "jurisdiction": "IN",
+   "clause_ref": "2(1)(b)",
+   "topic": "eligibility: applicant = generating company/person seeking connectivity below 33 kV",
+   "snippet": "(b) \"applicant\" means a generating company or a person seeking connectivity to the electricity\nsystem at voltage level below 33 kV for its distributed generation resource;",
+   "effective_date": "2013-10-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-005#cl-2(1)(n)",
+   "doc_id": "IN-C3-005",
+   "jurisdiction": "IN",
+   "clause_ref": "2(1)(n)",
+   "topic": "user = generating company with connected DG resource",
+   "snippet": "(n) \"user\" means a generating company whose distributed generation resource is connected to the\nelectricity system.",
+   "effective_date": "2013-10-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-005#cl-3",
+   "doc_id": "IN-C3-005",
+   "jurisdiction": "IN",
+   "clause_ref": "3",
+   "topic": "applicability to DG resources connected/seeking connectivity",
+   "snippet": "3. Applicability of the Regulations - These regulations shall be applicable to all the generating\ncompanies or persons owning distributed generation resource, which are connected to or seeking\nconnectivity with the electricity system:\nProvided that, in case a licensee owning the electricity system to which connection is to be made\nalso owns the distributed generation resource, these regulations shall be applicable mutatis mutandis.",
+   "effective_date": "2013-10-07",
+   "confidence": "high"
+  },
+  {
+   "node_id": "IN-C3-005#cl-4(6)",
+   "doc_id": "IN-C3-005",
+   "jurisdiction": "IN",
+   "clause_ref": "4(6)",
+   "topic": "feasibility/technical study: interconnection study incl. max DG capacity at location, single/three-phase",
+   "snippet": "(6) The appropriate licensee shall carry out the inter-connection study to determine:-\n(a) the point of inter-connection, required interconnection facilities and modifications\nrequired on\nthe existing electricity system, if any, to accommodate the\ninterconnection,\n(b)\nthe maximum net capacity of the distributed generation resource at a particular\nlocation for single-phase and three phase generators connected to a shared single-\nphase system\nor three phase system respectively, based on the capacity and\nconfiguration of the electricity system, and imbalance in the power flows that\ndistributed ge",
+   "effective_date": "2013-10-07",
+   "confidence": "medium"
+  }
+ ],
+ "edges": [
+  {
+   "from_node": "MH-C5-005#cl-3.2",
+   "to_node": "IN-C1-011#cl-5(e)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "low",
+   "note": "Central Phase-II CFA slab (as implemented by MSEDCL CC/331) displaced for new applications by PMSG CFA; MNRE text subsumes Phase-II, MSEDCL text never withdrawn."
+  },
+  {
+   "from_node": "MH-C6-001#cl-GCR-2",
+   "to_node": "IN-C1-011#cl-5(e)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "low",
+   "note": "Undated MEDA FAQ states Phase-II 40%/20% subsidy; superseded in substance by PMSG CFA, not by any MEDA text."
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(7)",
+   "to_node": "IN-C3-001#cl-11(7)",
+   "type": "supersedes",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(i) for sub-rule (7), the following sub-rule shall be substituted, namely:-\n“(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a\nperiod of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be\npresumed that the proposal is technically feasible.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(7)",
+   "to_node": "IN-C3-001#cl-11(7A)",
+   "type": "amends",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(i) for sub-rule (7), the following sub-rule shall be substituted, namely:-\n“(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a\nperiod of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be\npresumed that the proposal is technically feasible.",
+   "confidence": "high",
+   "note": "sub-rule (7A) inserted within the substitution of sub-rule (7); new deemed-approval rule for up to 10 kW"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(8)",
+   "to_node": "IN-C3-001#cl-11(8)",
+   "type": "supersedes",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(ii) for sub-rule (8), the following sub-rule shall be substituted, namely:-\n(8) subject to sub-rule (7A)",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(9)",
+   "to_node": "IN-C3-001#cl-11(9)",
+   "type": "supersedes",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(iii) for sub-rule (9), the following sub-rule shall be substituted, namely:-\n“(9) After installation of roof top solar photovoltaic system, the consumer shall submit the installation certificate to\nsuch distribution licensee and such distribution licensee shall complete signing of connection agreement, installation\nof meter and successful commissioning of the roof top solar photovoltaic system within fifteendays from the date of\nsubmission of the installation certificate.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C1-002#cl-2",
+   "to_node": "IN-C1-003#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2024-02-13",
+   "evidence_quote": "The previous scheme of Phase-II of the Grid Connected Rooftop Solar\nprogramme will be deemed subsumed under this scheme, along with the remaining financial outlay\nand liabilities, effective from the launch ofthe PM-Surya Ghar: Muft Bijli Yojana, i.e.,13.02.2024.",
+   "confidence": "medium",
+   "note": "Phase-II deemed subsumed from 13.02.2024; applications received before that date stay on Phase-II CFA (Annexure I), so displacement is prospective, not a repeal of the 2019 OM."
+  },
+  {
+   "from_node": "IN-C1-002#cl-2",
+   "to_node": "IN-C1-011#cl-5(e)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "medium",
+   "note": "Same subsumption, stated in the PMSG operational guidelines; Phase-II claims governed by Phase-II guidelines (para 4(d))."
+  },
+  {
+   "from_node": "IN-C1-009#cl-2.iii",
+   "to_node": "IN-C1-011#cl-6(h)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "h) Feasibility Approval: As per the provisions of the Electricity (Rights of Consumers) Rules,\n2020 and subsequent amendments, applications for rooftop solar systems up to 10 kW\ncapacity shall be deemed to have been accepted without requiring approval of technical\nfeasibility by the DISCOMs. Till the operationalization of this provision by respective\nRegulatory Commissions/DISCOMs, the consumer shall upload the necessary documents\nfor seeking feasibility approval, wherever required as per extant state regulations.",
+   "confidence": "low",
+   "note": "Phase-II national-portal procedure (15 working-day feasibility) replaced in substance by PMSG deemed approval up to 10 kW; no express reference to the 2022 OM."
+  },
+  {
+   "from_node": "IN-C1-011#cl-5(f)",
+   "to_node": "IN-C1-005#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2024-11-19",
+   "evidence_quote": "The clause 5(f) of the above-mentioned guidelines states that “The GHS/RWA\nconnection eligibleunder theschemeshall bededicatedonlyforcommonfacilitiesand should\nnot be utilized for providing electricity supply to residential consumerswithin the GHS/RWA.\nThe CFA support will generally be provided to entities created by residents for overall\nmaintenance and that areresponsibleforupkeep of commonfacilities and thesemaybe known\nby alternative terminologies such as Apartment Owner Associations (AOAs), Cooperative\nHousing Societies etc.\"\n3.\nRepresentations have been received regarding the subsidy dis",
+   "confidence": "medium",
+   "note": "clarification OM, no textual amendment: CFA for GHS/RWA segment may go to developers/promoters where no RWA exists"
+  },
+  {
+   "from_node": "IN-C1-011#cl-5(i)",
+   "to_node": "IN-C1-001#cl-5(i)",
+   "type": "amends",
+   "effective_date": "2025-07-07",
+   "evidence_quote": "Considering the feedback from the implementing agencies on the operational issues\nbeing faced duringthe implementation of the said scheme across the states/UTs, amendments\nin theaforementioned Guidelines asper attached Annexure is issued.",
+   "confidence": "high",
+   "note": "Annexure row i: last sentence of 5(i) replaced ('Additional State/UT subsidy should be updated on the National portal')"
+  },
+  {
+   "from_node": "IN-C1-011#cl-Annexure-1",
+   "to_node": "IN-C1-001#cl-Annexure-1",
+   "type": "supersedes",
+   "effective_date": "2025-07-07",
+   "evidence_quote": "Considering the feedback from the implementing agencies on the operational issues\nbeing faced duringthe implementation of the said scheme across the states/UTs, amendments\nin theaforementioned Guidelines asper attached Annexure is issued.",
+   "confidence": "high",
+   "note": "Annexure row ii: Phase-II claims deadline Oct 2024 replaced by 31.12.2025; applications not installed by 01.04.2025 deleted"
+  },
+  {
+   "from_node": "IN-C1-011#cl-6(f)",
+   "to_node": "IN-C1-001#cl-6(f)",
+   "type": "amends",
+   "effective_date": "2025-07-07",
+   "evidence_quote": "Considering the feedback from the implementing agencies on the operational issues\nbeing faced duringthe implementation of the said scheme across the states/UTs, amendments\nin theaforementioned Guidelines asper attached Annexure is issued.",
+   "confidence": "high",
+   "note": "Annexure row iii: sentence inserted allowing prospective amendment of technical specifications"
+  },
+  {
+   "from_node": "IN-C2-004#cl-1.5.1",
+   "to_node": "IN-C2-007#cl-4",
+   "type": "amends",
+   "effective_date": "2025-05-06",
+   "evidence_quote": "Accordingly, it has been decided to amend the aforesaid module efficiency thresholds\nfor ALMM enlistmentasfollows:",
+   "confidence": "high",
+   "note": "Only Category-III changes (off-grid <200 Wp, 18%); rooftop Category-II stays 19.5%. An intermediate amendment OM of 22.03.2024 (adds CdTe thresholds) is cited but not in the corpus."
+  },
+  {
+   "from_node": "IN-C2-003#cl-encl.a-b",
+   "to_node": "IN-C2-003#cl-1",
+   "type": "supersedes",
+   "effective_date": "2024-02-15",
+   "evidence_quote": "The undersigned is directed to convey that the O.M. of even no. dated 9th February, 2024\n(copy enclosed) on the subject issue, is hereby held in abeyance till further orders.",
+   "confidence": "medium",
+   "note": "Suspension ('held in abeyance till further orders'), not repeal."
+  },
+  {
+   "from_node": "IN-C2-004#cl-1.6",
+   "to_node": "IN-C2-002#cl-1",
+   "type": "supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and\nManufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration)\nOrder, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is\nclarified that the ALMM[Approved List of Models&Manufacturers]for Solar PVModules,\nshallaccordinglycomeintoeffectfrom1st April, 2024.",
+   "confidence": "medium",
+   "note": "Abeyance for FY 2023-24 ends; ALMM for modules in effect from 1 April 2024 (the abeyance was time-limited by its own terms)."
+  },
+  {
+   "from_node": "IN-C2-003#cl-1",
+   "to_node": "IN-C2-002#cl-1",
+   "type": "partially_supersedes",
+   "effective_date": "2024-04-01",
+   "evidence_quote": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and\nManufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration)\nOrder, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is\nclarified that the ALMM[Approved List of Models&Manufacturers]for Solar PVModules,\nshallaccordinglycomeintoeffectfrom1st April, 2024.",
+   "confidence": "low",
+   "note": "29.03.2024 OM confirms ALMM effective 1.4.2024 despite the 15.02.2024 abeyance of the 09.02.2024 OM; it does not mention either February OM."
+  },
+  {
+   "from_node": "IN-C1-011#cl-5(b)",
+   "to_node": "IN-C1-012#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2025-02-13",
+   "evidence_quote": "Currently, para 5 (b) of above scheme guidelines states that \"For the purpose of\nCFA, residential RTS plant would be the grid connected solar power system tagged to a\nparticular residential power connection of the local DISCOM and will only include\ninstallations on a roof/terrace/balcony or on top of elevated structures\". A number of\nrepresentations have been received stating that many roofs, especially in rural areas are\nnot suitable for rooftop solar therefore beneficiaries are not able to benefit from\nPMSG:MBY Scheme. It is also the intent of the scheme to allow apartment dwellers to\npartic",
+   "confidence": "high",
+   "note": "clarification OM expressly addressing para 5(b): ground-mounted elevated installations allowed; no textual substitution"
+  },
+  {
+   "from_node": "IN-C1-007#cl-4.a",
+   "to_node": "IN-C1-012#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2025-02-13",
+   "evidence_quote": "This clarification will apply both on capex mode as per OM mentioned\nabove as well as RESCO/Utility Led Mode of implementation under the PMSG: MBY as\nper OM issued vide file No. 318/17/2024-GCRT Part (15) dated 28.12.2024.",
+   "confidence": "medium",
+   "note": "same clarification extended to RESCO/ULA guidelines (OM 28.12.2024)"
+  },
+  {
+   "from_node": "IN-C1-009#cl-2.iv",
+   "to_node": "IN-C1-010#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2022-06-10",
+   "evidence_quote": "it has been decided that such vendors have to register/empanel themselves with the\nbeneficiaries’ Distribution Utility (DISCOM).",
+   "confidence": "medium",
+   "note": "'any vendor of his choice' under OM 02.02.2022 narrowed to DISCOM-registered vendors; OM issued 'in continuation'"
+  },
+  {
+   "from_node": "IN-C1-009#cl-2.iv",
+   "to_node": "IN-C1-011#cl-6(c)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "c) Choice of Vendor: The consumer shall then choose a vendor who is registered on the\nNational Portal. The consumer shall be free to enter into arrangements with any such\nRTS vendor at mutually decided rates. There shall be no tendering or rate discovery by\nthe state DISCOMs/agencies under the scheme to empanel RTS vendors as was being\ncarried out in the Phase II program.",
+   "confidence": "low",
+   "note": "implicit: PMSG vendor registration on National Portal replaces Phase-II DISCOM empanelment; Phase-II subsumed (4(a))"
+  },
+  {
+   "from_node": "IN-C1-010#cl-4",
+   "to_node": "IN-C1-011#cl-7(a)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "a) Registration of Vendors: The scheme shall be implemented only through the vendors\nregistered on the National Portal i.e. a consumer has to choose a registered vendor for\navailing CFA under the scheme.",
+   "confidence": "low",
+   "note": "implicit: Phase-II DISCOM vendor empanelment (PBG Rs 2.5 lakh) displaced by National Portal registration for PMSG applications; no express reference"
+  },
+  {
+   "from_node": "IN-C1-010#cl-7",
+   "to_node": "IN-C1-011#cl-5(h)",
+   "type": "partially_supersedes",
+   "effective_date": "2024-06-07",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "medium",
+   "note": "Phase-II calendar-year subsidy rates displaced for applications from 13.02.2024 by PMSG effective CFA; Phase-II subsumed"
+  },
+  {
+   "from_node": "IN-C2-006#cl-3",
+   "to_node": "IN-C2-008#cl-3",
+   "type": "amends",
+   "effective_date": "2025-07-28",
+   "evidence_quote": "Sub: Amendment to O.M. No. 283/59/2024-GRID SOLAR dated 09.12.2024 for Implementation of ALMM\nfor Solar PV cells - reg.",
+   "confidence": "high",
+   "note": "para 3 modified: words 'subject to terms and conditions' added"
+  },
+  {
+   "from_node": "IN-C2-006#cl-5",
+   "to_node": "IN-C2-008#cl-5",
+   "type": "amends",
+   "effective_date": "2025-07-28",
+   "evidence_quote": "There shall be no relaxation in Domestic\nContent\nRequirement (DCR) provisions,\nwherever applicable in respect of MNRE's\nSchemes/ Programs like Components B&C of\nPM-KUSUM, PM Surya Ghar: Muft Bijli Yojana\nand CPSU Scheme Phase-ll.\nExplanation: \"Cut-off date\" for this purpose is\nthe date, which falls exactly after 1 month of\nthe publication of ALMM List-ll for solar PV\ncells. For instance, If the ALMM List for Solar\nCells is published on August 1st 2025, then the\ncut-off date shall be September 1st 2025.",
+   "confidence": "high",
+   "note": "para 5 modified: 'issuance of this order' replaced by cut-off date (1 month after List-II publication); DCR proviso and explanation added"
+  },
+  {
+   "from_node": "IN-C2-006#cl-6",
+   "to_node": "IN-C2-008#cl-6",
+   "type": "amends",
+   "effective_date": "2025-07-28",
+   "evidence_quote": "of bid submission falls after the cut-off date as\nthis order (refers to OM dated 09.12.2024), shall\nmentioned above, shall have a clause in their",
+   "confidence": "medium",
+   "note": "para 6 modified: reference date changed to the cut-off date; OCR interleaved"
+  },
+  {
+   "from_node": "IN-C2-008#cl-5",
+   "to_node": "IN-C2-013#cl-1(a)",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-04",
+   "evidence_quote": "a) For projects awarded through bidding, if last date of bid submission is on or before the cut\noff date of 31.08.2025 (the date falling after one month of the publication of initial ALMM List-II\ndated 31.07.2025), the projects are exempt from ALMM List-I| (for solar cells), else not. The\napplicability of this provision is to bids which were live as on 28.07.2025.",
+   "confidence": "medium",
+   "note": "clarification fixing the cut-off date at 31.08.2025 and limiting it to bids live on 28.07.2025"
+  },
+  {
+   "from_node": "IN-C2-006#cl-8",
+   "to_node": "IN-C2-011#cl-6",
+   "type": "partially_supersedes",
+   "effective_date": "2026-05-25",
+   "evidence_quote": "6. However, such Net-Metering / Open Access, RE power projects, where (a) installation of solar\nmodules is completed but not commissioned or (b) Effective steps have been undertaken by the RE\npower developers towards grounding the projects, to protect investments already made in such cases,\nin the larger public interest, such cases will be considered for appropriate time-extension on case-to\ncase basis in respect of applicability of ALMM List-ll (for solar PV cells), after objective assessment of\nthe supporting information/ documentary proofs provided by such developers, subject to them fallin",
+   "confidence": "medium",
+   "note": "1 June 2026 List-II deadline kept (para 5) but case-by-case extension allowed"
+  },
+  {
+   "from_node": "IN-C2-011#cl-5",
+   "to_node": "IN-C2-012#cl-3",
+   "type": "supersedes",
+   "effective_date": "2026-07-18",
+   "evidence_quote": "In supersession of MNRE's O.M. No. 283/63/2025-GRID SOLAR dated 25th May 2026,\nand associated O.M.s namely - O.M. No. 283/63/2025-GRID SOLAR dated 8th June 2026,\nO.M. No. 318/84/2024-Grid Connected Rooftop-Part(3) dated 8th June 2026, O.M. No\n283/40/2026-GRID SOLAR dated 15th June 2026, O.M. No. 283/40/2026-GRID SOLAR\ndated 23' June 2026, it has been decided that while there will be no blanket extension",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C2-011#cl-6",
+   "to_node": "IN-C2-012#cl-3",
+   "type": "supersedes",
+   "effective_date": "2026-07-18",
+   "evidence_quote": "In supersession of MNRE's O.M. No. 283/63/2025-GRID SOLAR dated 25th May 2026,\nand associated O.M.s namely - O.M. No. 283/63/2025-GRID SOLAR dated 8th June 2026,\nO.M. No. 318/84/2024-Grid Connected Rooftop-Part(3) dated 8th June 2026, O.M. No\n283/40/2026-GRID SOLAR dated 15th June 2026, O.M. No. 283/40/2026-GRID SOLAR\ndated 23' June 2026, it has been decided that while there will be no blanket extension",
+   "confidence": "high",
+   "note": "case-by-case extension regime replaced by a blanket window to 31.12.2026 for NM/OA"
+  },
+  {
+   "from_node": "IN-C2-011#cl-7",
+   "to_node": "IN-C2-012#cl-3",
+   "type": "supersedes",
+   "effective_date": "2026-07-18",
+   "evidence_quote": "In supersession of MNRE's O.M. No. 283/63/2025-GRID SOLAR dated 25th May 2026,\nand associated O.M.s namely - O.M. No. 283/63/2025-GRID SOLAR dated 8th June 2026,\nO.M. No. 318/84/2024-Grid Connected Rooftop-Part(3) dated 8th June 2026, O.M. No\n283/40/2026-GRID SOLAR dated 15th June 2026, O.M. No. 283/40/2026-GRID SOLAR\ndated 23' June 2026, it has been decided that while there will be no blanket extension",
+   "confidence": "medium"
+  },
+  {
+   "from_node": "IN-C2-006#cl-8",
+   "to_node": "IN-C2-012#cl-3",
+   "type": "partially_supersedes",
+   "effective_date": "2026-07-18",
+   "evidence_quote": "whereby such projects can now commission with exemption of ALMM List-ll (for\nsolar PV cells), till 31st December 2026. Earlier this dispensation for Net-metering\nprojects and Open Access renewable power projects was available till 31st May 2026. Net-\nmetering projects and Open Access renewable power projects commissioned after 31st\nDecember, 2026, will be required to comply with the ALMM List-ll provisions.",
+   "confidence": "high",
+   "note": "NM/OA List-II exemption cut-off moved from 31.05.2026 (para 8 of OM 09.12.2024) to 31.12.2026"
+  },
+  {
+   "from_node": "IN-C2-012#cl-3",
+   "to_node": "IN-C2-013#cl-1(b)-GiveItUp",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-04",
+   "evidence_quote": "If any residential rooftop solar consumer or rooftop solar project for residential building, is availing\nNet Metering with the option of 'Give It UP Subsidy cases under PMSG:MBY', such cases shall\nbe exempted from applicability of ALMM List-II (for solar PV cells) till the end of the scheme\nperiod, i.e., 31st March 2027",
+   "confidence": "medium",
+   "note": "clarification: residential Give It Up net-metering cases under PMSG exempt from List-II till 31.03.2027, beyond the 31.12.2026 window"
+  },
+  {
+   "from_node": "IN-C2-011#cl-9",
+   "to_node": "IN-C2-013#cl-1(b)-GiveItUp",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-04",
+   "evidence_quote": "If any residential rooftop solar consumer or rooftop solar project for residential building, is availing\nNet Metering with the option of 'Give It UP Subsidy cases under PMSG:MBY', such cases shall\nbe exempted from applicability of ALMM List-II (for solar PV cells) till the end of the scheme\nperiod, i.e., 31st March 2027",
+   "confidence": "low",
+   "note": "Give It Up treatment of OM 25.05.2026 (superseded by OM 18.07.2026) restated as an express List-II exemption; relation inferred"
+  },
+  {
+   "from_node": "IN-C2-006#cl-6",
+   "to_node": "IN-C2-013#cl-1(a)",
+   "type": "partially_supersedes",
+   "effective_date": "2026-08-04",
+   "evidence_quote": "has effectively shifted the cut-off date for applicability\nof ALMM for solar PV cells on projects awarded through bidding, from 09.12.2024 to 31.08.2025",
+   "confidence": "medium",
+   "note": "states that the 28.07.2025 amendment and List-II publication shifted the bid cut-off from 09.12.2024 to 31.08.2025"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(4)",
+   "to_node": "IN-C3-004#cl-11(4)",
+   "type": "supersedes",
+   "effective_date": "2021-06-29",
+   "evidence_quote": "(a) for sub-rule (4), the following sub-rule shall be substituted, namely:-\n“(4) The arrangements for net-metering, gross-metering, net-billing or net feed-in shall be in accordance with the\nregulations made by the State Commission, from time to time:\nProvided that where the regulations does not provide for net-metering, net-billing or net feed-in, the\nCommission may allow net metering to the Prosumer for loads up to five hundred Kilowatt or upto the sanctioned\nload, whichever is lower and net-billing or net feed-in for other loads:",
+   "confidence": "high",
+   "note": "10 kW net / gross metering split replaced by SERC regulations with fallback net metering up to 500 kW or sanctioned load"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(13)",
+   "to_node": "IN-C3-004#cl-11(13)",
+   "type": "supersedes",
+   "effective_date": "2021-06-29",
+   "evidence_quote": "(b) for sub-rule (13), the following sub-rule shall be substituted namely:-\n“(13) The solar energy generated by prosumer shall be adjusted against energy consumed and bill amount as per\nregulations made by the Commission for Grid Interactive rooftop Solar Photovoltaic system.”",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-002#cl-11(9)",
+   "to_node": "IN-C3-001#cl-11(9A)",
+   "type": "amends",
+   "effective_date": "2024-02-22",
+   "evidence_quote": "(9A)The Formats of connection agreement and installation certificate shall be placed on web-portal of the distribution\nlicensee.”",
+   "confidence": "medium",
+   "note": "formats sentence of old sub-rule (9) re-enacted as new sub-rule (9A) within the substitution of (9)"
+  },
+  {
+   "from_node": "IN-C3-005#cl-1(1)",
+   "to_node": "IN-C3-003#cl-1(1)",
+   "type": "amends",
+   "effective_date": "2019-02-08",
+   "evidence_quote": "2. In the Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation\nResources) Regulations, 2013 (hereinafter referred to as the said Regulations), in regulation 1, in sub-\nregulation (1), for the words “Connectivity of the Distributed Generation Resources”, the words\n“Connectivity below 33 kilovolts” shall be substituted.",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-005#cl-2(1)(b)",
+   "to_node": "IN-C3-003#cl-2(1)(b)",
+   "type": "supersedes",
+   "effective_date": "2019-02-08",
+   "evidence_quote": "(i) for clause (b), the following clause shall be substituted, namely: -\n‘(b) “applicant” means a generating company, charging station, prosumer or a person seeking\nconnectivity to the electricity system at voltage level below 33 kV;’;",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-005#cl-2(1)(n)",
+   "to_node": "IN-C3-003#cl-2(1)(n)",
+   "type": "supersedes",
+   "effective_date": "2019-02-08",
+   "evidence_quote": "(iv) for clause (n), the following clause shall be substituted, namely: -\n‘(n) “user” means a charging station, prosumer or a person who is connected to the electricity system or\na generating company whose distributed generation resource is connected to the electricity\nsystem;’;",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-005#cl-3",
+   "to_node": "IN-C3-003#cl-3",
+   "type": "supersedes",
+   "effective_date": "2019-02-08",
+   "evidence_quote": "4. For regulation 3 of the said regulation, the following regulations shall be substituted, namely: -\n“3. Application of these regulations - These regulations shall apply to all generating companies or persons\nowning distributed generation resources, charging stations, prosumers or persons who are connected to or\nseeking connectivity with the electricity system below 33 kV voltage level:\nProvided that in case, a licensee owning the electricity system to which connection is to be made,\nalso owns the distributed generation resources, charging station or prosumers, these regulations shall apply\nm",
+   "confidence": "high"
+  },
+  {
+   "from_node": "IN-C3-005#cl-11",
+   "to_node": "IN-C3-003#cl-11",
+   "type": "amends",
+   "effective_date": "2019-02-08",
+   "evidence_quote": "6. In regulation 11 of the said regulations, for the words “Standards for distributed generation resources”, the\nwords “Standards for distribution generation resources and prosumers, when acting as a generator”\nshall be substituted.",
+   "confidence": "high",
+   "note": "heading words substituted; body of regulation 11 unchanged"
+  }
+ ],
+ "document_supersessions": [
+  {
+   "doc_from": "IN-C1-002",
+   "doc_to": "IN-C1-003",
+   "type": "scheme_subsumption",
+   "evidence_quote": "The previous scheme of Phase-II of the Grid Connected Rooftop Solar\nprogramme will be deemed subsumed under this scheme, along with the remaining financial outlay\nand liabilities, effective from the launch ofthe PM-Surya Ghar: Muft Bijli Yojana, i.e.,13.02.2024.",
+   "confidence": "medium",
+   "note": "Phase-II programme (incl. IN-C1-002 CFA OM and IN-C1-009 procedure OM) subsumed into PMSG from 13.02.2024; Phase-II applications before that date keep Phase-II CFA. Not a repeal."
+  },
+  {
+   "doc_from": "Grid Connected Rooftop Solar Programme Phase-II guidelines [not in corpus]",
+   "doc_to": "IN-C1-011",
+   "type": "scheme_subsumption",
+   "evidence_quote": "Rooftop Solar Phase II Programme since 2019, which was proposed to be implemented\ntill 2025-26 with a budgetary outlay of Rs 11,814 crores. This scheme stands subsumed\nwithin the PM Surya Ghar: Muft Bijli Yojana.",
+   "confidence": "high",
+   "note": "Phase-II subsumed in PMSG; Phase-II ongoing projects/claims still under Phase-II guidelines (4(d), Annexure 1)"
+  },
+  {
+   "doc_from": "GCRT Phase-II Component B (Incentives to DISCOMs) guidelines [not in corpus]",
+   "doc_to": "IN-C1-006",
+   "type": "scheme_subsumption",
+   "evidence_quote": "After the approval of PM Surya Ghar: Muft Bijli Yojana, the Phase II\nprogramme has been subsumed under the new scheme. This scheme component will operate\nin continuation of the Component B of GCRT Phase II programme.",
+   "confidence": "high",
+   "note": "claims for FY 2022-23 and before stay under Phase-II guidelines (5(b))"
+  },
+  {
+   "doc_from": "IN-C2-011",
+   "doc_to": "IN-C2-012",
+   "type": "supersession",
+   "evidence_quote": "In supersession of MNRE's O.M. No. 283/63/2025-GRID SOLAR dated 25th May 2026,\nand associated O.M.s namely - O.M. No. 283/63/2025-GRID SOLAR dated 8th June 2026,\nO.M. No. 318/84/2024-Grid Connected Rooftop-Part(3) dated 8th June 2026, O.M. No\n283/40/2026-GRID SOLAR dated 15th June 2026, O.M. No. 283/40/2026-GRID SOLAR\ndated 23' June 2026,",
+   "confidence": "high",
+   "note": "express supersession of the 25.05.2026 OM"
+  },
+  {
+   "doc_from": "MNRE O.M.s dated 08.06.2026 (283/63/2025 and 318/84/2024-GCRT-Part(3)), 15.06.2026 and 23.06.2026 on ALMM List-II [not in corpus]",
+   "doc_to": "IN-C2-012",
+   "type": "supersession",
+   "evidence_quote": "In supersession of MNRE's O.M. No. 283/63/2025-GRID SOLAR dated 25th May 2026,\nand associated O.M.s namely - O.M. No. 283/63/2025-GRID SOLAR dated 8th June 2026,\nO.M. No. 318/84/2024-Grid Connected Rooftop-Part(3) dated 8th June 2026, O.M. No\n283/40/2026-GRID SOLAR dated 15th June 2026, O.M. No. 283/40/2026-GRID SOLAR\ndated 23' June 2026,",
+   "confidence": "high",
+   "note": "associated OMs superseded together with OM 25.05.2026"
+  }
+ ]
+}

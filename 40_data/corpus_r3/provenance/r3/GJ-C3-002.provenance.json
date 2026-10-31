@@ -1,0 +1,34 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2Nzc2NjY2M18xNzY1",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "amendment (First)",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (First Amendment) Regulations, 2017",
+  "number": "Notification No. 2 of 2017",
+  "printed_date": "2017-10-06 (Gazette Extra No. 369)",
+  "file": "GERC-NetMetering-2017-1stAmend.pdf",
+  "fetched_at": "2026-10-01T16:42:35Z",
+  "http_status": 200,
+  "sha256": "d9c5341b1d33a27bcd6ac1f9402d03f7958de7d5afcde080c7b5920ec7585a67",
+  "pages": 2,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Amended Reg 6.2",
+      "verbatim_quote": "The maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s premises except Residential Consumers shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand; whereas in case of Residential Consumers, the Rooftop Solar PV System capacity shall be irrespective of their sanctioned load/contract demand.",
+      "page": 2,
+      "topic": "capacity cap % of sanctioned load",
+      "numeric_values": {
+        "cap_pct_sanctioned_load_nonresidential": 50,
+        "residential": "no cap (was 50%)"
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 6.2",
+        "evidence_quote": "The maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s premises shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand;",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

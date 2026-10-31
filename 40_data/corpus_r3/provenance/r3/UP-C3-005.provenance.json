@@ -1,0 +1,31 @@
+{
+  "source_url": "https://www.uperc.org/App_File/NotifiedRSPVREGULATIONS2019THIRDAMENDMENT-PDF619202523809PM.pdf",
+  "landing_page_url": "https://www.uperc.org/notified_user.aspx",
+  "fetched_at": "2026-10-01T16:40:12Z",
+  "sha256": "f5a9234cf59af3fd685123a3fa7d711a13af36182b9d824cf81339ab951bea84",
+  "http_status": 200,
+  "issuer": "Uttar Pradesh Electricity Regulatory Commission (UPERC)",
+  "printed_title": "UPERC (Rooftop Solar PV Grid Interactive System Gross/Net Metering) Regulation, 2019 (Third Amendment)",
+  "number": "UPERC/Secretary/RSPV Regulations-011",
+  "printed_date": "2025-06-03",
+  "file_type": "PDF document, version 1.4",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Reg. 10.3(ii) proviso (03.06.2025)",
+      "verbatim_quote": "plus an incentive of 25%. In case no bidding is done in previous Financial Year, then the last applicable tariff for gross metering shall continue.",
+      "page": 4,
+      "topic": "Solar Injection Compensation rate basis; +25% incentive unchanged",
+      "numeric_values": {
+        "incentive_pct": 25
+      },
+      "amends_or_supersedes": {
+        "doc": "UP-RSPV-2019-regs",
+        "clause_ref": "Reg. 10.3(ii) proviso",
+        "evidence_quote": "adopted by the Commission plus an incentive of 25%.",
+        "evidence_page": 10
+      },
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    }
+  ]
+}

@@ -1,0 +1,4098 @@
+{
+ "n_items": 223,
+ "skips": {
+  "SB-8a026028#A": "no A material for anchor KA-C5-006#cl-18",
+  "SB-c6303ba7#S-swap#control": "no control: GJ-C3-003#cl-13.5-check, the only decisive clause, is not in the evidence",
+  "SB-c6303ba7#A": "no A material for anchor GJ-C3-003#cl-13.5-check",
+  "SB-fa9742da#S-swap": "KA-C5-001#cl-26 states no figure where the anchor KA-C5-006#cl-4-note-ii does (not information-matched)",
+  "SB-fa9742da#A": "no A material for anchor KA-C5-006#cl-4-note-ii",
+  "SB-55bff1e2#S-swap#control": "no control: GJ-C3-003#cl-13.5-class, the only decisive clause, is not in the evidence",
+  "SB-55bff1e2#J": "no J material for anchor GJ-C3-003#cl-13.5-class",
+  "SB-55bff1e2#A": "no A material for anchor GJ-C3-003#cl-13.5-class",
+  "SB-4e00a3c4#S-swap#control": "no control: DL-C3-009#cl-3.8, the only decisive clause, is not in the evidence",
+  "SB-4e00a3c4#A": "no A material for anchor DL-C3-009#cl-3.8",
+  "SB-bea538fe#S-swap#control": "no control: UP-C3-002#cl-5.1, the only decisive clause, is not in the evidence",
+  "SB-bea538fe#A": "no A material for anchor UP-C3-002#cl-5.1",
+  "SB-a86540a6#S-swap#control": "no control: GJ-C3-003#cl-13.5-check, the only decisive clause, is not in the evidence",
+  "SB-a86540a6#A": "no A material for anchor GJ-C3-003#cl-13.5-check",
+  "SB-09416de5#S-swap#control": "no control: KA-C5-006#cl-18, the only decisive clause, is not in the evidence",
+  "SB-09416de5#A": "no A material for anchor KA-C5-006#cl-18",
+  "SB-7fcce033#A": "no A material for anchor GJ-C3-003#cl-13.5-check",
+  "SB-65c5c39f#S-swap#control": "no control: DL-C3-015#cl-9.2b, the only decisive clause, is not in the evidence",
+  "SB-65c5c39f#J": "no J material for anchor DL-C3-015#cl-9.2b",
+  "SB-65c5c39f#A": "no A material for anchor DL-C3-015#cl-9.2b",
+  "SB-c9fe09fd#S-swap#control": "no control: DL-C3-009#cl-3.8, the only decisive clause, is not in the evidence",
+  "SB-c9fe09fd#A": "no A material for anchor DL-C3-009#cl-3.8",
+  "SB-78994120#S-swap#control": "no control: TN-C5-002#cl-I.2, the only decisive clause, is not in the evidence",
+  "SB-78994120#A": "no A material for anchor TN-C5-002#cl-I.2",
+  "SB-4683a697#S-swap#control": "no control: DL-C3-015#cl-3.6, the only decisive clause, is not in the evidence",
+  "SB-4683a697#J": "no J material for anchor DL-C3-015#cl-3.6",
+  "SB-4683a697#A": "no A material for anchor DL-C3-015#cl-3.6",
+  "SB-3e914362#S-swap#control": "no control: DL-C3-015#cl-3.6, the only decisive clause, is not in the evidence",
+  "SB-3e914362#J": "no J material for anchor DL-C3-015#cl-3.6",
+  "SB-3e914362#A": "no A material for anchor DL-C3-015#cl-3.6",
+  "SB-41d678b1#S-swap#control": "no control: UP-C3-002#cl-6.2, the only decisive clause, is not in the evidence",
+  "SB-41d678b1#A": "no A material for anchor UP-C3-002#cl-6.2",
+  "SB-4249ea2e#S-swap#control": "no control: DL-C3-009#cl-3.8, the only decisive clause, is not in the evidence",
+  "SB-4249ea2e#A": "no A material for anchor DL-C3-009#cl-3.8",
+  "SB-db11efe7#S-swap#control": "no control: DL-C3-009#cl-3.8, the only decisive clause, is not in the evidence",
+  "SB-db11efe7#A": "no A material for anchor DL-C3-009#cl-3.8",
+  "SB-5c2f1b69#S-swap": "KA-C5-001#cl-26 states no figure where the anchor KA-C5-006#cl-4-note-ii does (not information-matched)",
+  "SB-5c2f1b69#A": "no A material for anchor KA-C5-006#cl-4-note-ii",
+  "SB-3831cee8#J": "no J material for anchor DL-C3-015#cl-3.2",
+  "SB-3831cee8#A": "no A material for anchor DL-C3-015#cl-3.2",
+  "SB-dee78131#J": "no J material for anchor GJ-C3-004#cl-6.2a",
+  "SB-dee78131#A": "no A material for anchor GJ-C3-004#cl-6.2a",
+  "SB-3c0568a1#S-swap#control": "no control: GJ-C3-003#cl-13.5-check, the only decisive clause, is not in the evidence",
+  "SB-3c0568a1#A": "no A material for anchor GJ-C3-003#cl-13.5-check",
+  "SB-4337c49d#S-swap#control": "no control: KA-C5-006#cl-18, the only decisive clause, is not in the evidence",
+  "SB-4337c49d#A": "no A material for anchor KA-C5-006#cl-18",
+  "SB-d9152b85#S-swap#control": "no control: GJ-C3-003#cl-5-proviso, the only decisive clause, is not in the evidence",
+  "SB-d9152b85#A": "no A material for anchor GJ-C3-003#cl-5-proviso",
+  "SB-0a1272aa#S-swap#control": "no control: GJ-C3-003#cl-5-proviso, the only decisive clause, is not in the evidence",
+  "SB-0a1272aa#A": "no A material for anchor GJ-C3-003#cl-5-proviso",
+  "SB-fe4dc242#S-swap": "KA-C5-001#cl-26 states no figure where the anchor KA-C5-006#cl-4-note-ii does (not information-matched)",
+  "SB-fe4dc242#A": "no A material for anchor KA-C5-006#cl-4-note-ii",
+  "SB-e851ca36#S-swap#control": "no control: KA-C5-006#cl-18, the only decisive clause, is not in the evidence",
+  "SB-e851ca36#A": "no A material for anchor KA-C5-006#cl-18",
+  "SB-632b2212#J": "no J material for anchor GJ-C3-003#cl-13.5-class",
+  "SB-632b2212#A": "no A material for anchor GJ-C3-003#cl-13.5-class",
+  "SB-9f927b9d#S-swap#control": "no control: TN-C5-002#cl-I.2, the only decisive clause, is not in the evidence",
+  "SB-9f927b9d#A": "no A material for anchor TN-C5-002#cl-I.2",
+  "SB-940e925b#S-swap#control": "no control: DL-C3-015#cl-3.2, the only decisive clause, is not in the evidence",
+  "SB-940e925b#J": "no J material for anchor DL-C3-015#cl-3.2",
+  "SB-940e925b#A": "no A material for anchor DL-C3-015#cl-3.2",
+  "SB-8bbbbb5f#S-swap#control": "no control: GJ-C3-003#cl-5-proviso, the only decisive clause, is not in the evidence",
+  "SB-8bbbbb5f#A": "no A material for anchor GJ-C3-003#cl-5-proviso",
+  "SB-1873dafe#S-swap#control": "no control: UP-C3-002#cl-5.1, the only decisive clause, is not in the evidence",
+  "SB-1873dafe#A": "no A material for anchor UP-C3-002#cl-5.1",
+  "SB-8b99a646#S-swap#control": "no control: DL-C3-015#cl-3.6, the only decisive clause, is not in the evidence",
+  "SB-8b99a646#J": "no J material for anchor DL-C3-015#cl-3.6",
+  "SB-8b99a646#A": "no A material for anchor DL-C3-015#cl-3.6",
+  "SB-6f0e9c5f#J": "no J material for anchor GJ-C3-004#cl-6.2a",
+  "SB-6f0e9c5f#A": "no A material for anchor GJ-C3-004#cl-6.2a",
+  "SB-3fae633b#S-swap#control": "no control: TN-C5-002#cl-I.2, the only decisive clause, is not in the evidence",
+  "SB-3fae633b#A": "no A material for anchor TN-C5-002#cl-I.2",
+  "SB-032d9870#S-swap#control": "no control: UP-C3-002#cl-6.2, the only decisive clause, is not in the evidence",
+  "SB-032d9870#A": "no A material for anchor UP-C3-002#cl-6.2",
+  "SB-509700a5#S-swap#control": "no control: DL-C3-015#cl-9.2b, the only decisive clause, is not in the evidence",
+  "SB-509700a5#J": "no J material for anchor DL-C3-015#cl-9.2b",
+  "SB-509700a5#A": "no A material for anchor DL-C3-015#cl-9.2b",
+  "SB-06dccf10#S-swap#control": "no control: IN-C1-001#cl-annex1-ii-amended, the only decisive clause, is not in the evidence",
+  "SB-06dccf10#J": "no J material for anchor IN-C1-001#cl-annex1-ii-amended",
+  "SB-06dccf10#A": "no A material for anchor IN-C1-001#cl-annex1-ii-amended",
+  "SB-1595d3ab#S-swap#control": "no control: DL-C3-015#cl-3.6, the only decisive clause, is not in the evidence",
+  "SB-1595d3ab#J": "no J material for anchor DL-C3-015#cl-3.6",
+  "SB-1595d3ab#A": "no A material for anchor DL-C3-015#cl-3.6",
+  "SB-3951f18b#S-swap#control": "no control: GJ-C3-003#cl-13.5-class, the only decisive clause, is not in the evidence",
+  "SB-3951f18b#J": "no J material for anchor GJ-C3-003#cl-13.5-class",
+  "SB-3951f18b#A": "no A material for anchor GJ-C3-003#cl-13.5-class",
+  "SB-54aaaca3#S-swap": "KA-C5-001#cl-26 states no figure where the anchor KA-C5-006#cl-4-note-ii does (not information-matched)",
+  "SB-54aaaca3#A": "no A material for anchor KA-C5-006#cl-4-note-ii",
+  "SB-b926248c#S-swap#control": "no control: IN-C1-001#cl-annex1-ii-amended, the only decisive clause, is not in the evidence",
+  "SB-b926248c#J": "no J material for anchor IN-C1-001#cl-annex1-ii-amended",
+  "SB-b926248c#A": "no A material for anchor IN-C1-001#cl-annex1-ii-amended",
+  "SB-f9773ee1#J": "no J material for anchor DL-C3-015#cl-3.2",
+  "SB-f9773ee1#A": "no A material for anchor DL-C3-015#cl-3.2"
+ },
+ "items": [
+  {
+   "item_id": "SB-8a026028#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "KA-C5-006#cl-18",
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-8a026028#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "KA-C5-001#cl-15",
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013",
+    "KA-C5-006#chk-0050",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-8a026028#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "KA-C5-006#cl-18",
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013",
+    "KA-C5-006#chk-0050",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-8a026028#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "KA-C5-001#cl-15",
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-8a026028#S-swap#control",
+   "role": "control",
+   "condition": "S-swap",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under KA-C5-006#cl-4, which provides: \"the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-8a026028#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check",
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "KA-C5-006#chk-0032",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-8a026028#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "KA-C5-006#cl-18",
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "KA-C5-006#chk-0032",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-c6303ba7#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-c6303ba7#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-c6303ba7#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-c6303ba7#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-c6303ba7#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-c6303ba7#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-fa9742da#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-fa9742da#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-26"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-26, which provides: \"The Sub -divisional officer (SDO) shall verify for Technical feasibility of the installation\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0020",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-fa9742da#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0020",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-fa9742da#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-005#cl-7-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-005#cl-7-proviso, which provides: \"Provided that the application for Rooftop Solar Photovoltaic systems upto 10 kW capacity, complete in all respect shall be deemed to have been accepted without requiring technical feasibility study\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-fa9742da#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-55bff1e2#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-class, which provides: \"The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-55bff1e2#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-class, which provides: \"The main Solar Meters shall be of 0.2s class accura cy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-55bff1e2#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-class, which provides: \"The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-55bff1e2#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-class, which provides: \"The main Solar Meters shall be of 0.2s class accura cy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-4e00a3c4#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-4e00a3c4#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-4e00a3c4#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-4e00a3c4#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-4e00a3c4#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-4e00a3c4#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-bea538fe#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is approved under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-bea538fe#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "UP-C3-001#cl-5.1",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the sanctioned connected load / contract demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0021",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-bea538fe#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "UP-C3-001#cl-5.1",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is approved under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0021",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-bea538fe#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "UP-C3-001#cl-5.1",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the sanctioned connected load / contract demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-bea538fe#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "TN-C5-002#cl-I.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is approved under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0027",
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-bea538fe#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "TN-C5-002#cl-I.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is approved under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0027",
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-a86540a6#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-a86540a6#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-001#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-a86540a6#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-a86540a6#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-001#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-a86540a6#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-a86540a6#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-09416de5#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-09416de5#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "KA-C5-001#cl-15"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "KA-C5-001#chk-0013"
+   ]
+  },
+  {
+   "item_id": "SB-09416de5#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "KA-C5-001#chk-0013"
+   ]
+  },
+  {
+   "item_id": "SB-09416de5#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "KA-C5-001#cl-15"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013"
+   ]
+  },
+  {
+   "item_id": "SB-09416de5#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-09416de5#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-7fcce033#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check",
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-7fcce033#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-001#cl-13.5-check",
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-7fcce033#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check",
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-7fcce033#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-001#cl-13.5-check",
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-7fcce033#S-swap#control",
+   "role": "control",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-class, which provides: \"The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-7fcce033#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "KA-C5-006#cl-18",
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-003#chk-0025",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-7fcce033#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check",
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-003#chk-0025",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-65c5c39f#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-9.2b, which provides: \"to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0003"
+   ]
+  },
+  {
+   "item_id": "SB-65c5c39f#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": "DL-C3-004#cl-9.2b",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-9.2b, which provides: \"once in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0003",
+    "DL-C3-004#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-65c5c39f#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": "DL-C3-004#cl-9.2b",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-9.2b, which provides: \"to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0003",
+    "DL-C3-004#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-65c5c39f#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": "DL-C3-004#cl-9.2b",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-9.2b, which provides: \"once in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-c9fe09fd#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-c9fe09fd#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-c9fe09fd#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-c9fe09fd#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-c9fe09fd#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is approved under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-c9fe09fd#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-78994120#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is approved under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-78994120#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "TN-C5-001#cl-2"
+   ],
+   "root_cause": "The application is approved under TN-C5-001#cl-2, which provides: \"Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.\"",
+   "evidence_ids": [
+    "TN-C5-001#chk-0002",
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-78994120#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is approved under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-001#chk-0002",
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-78994120#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "TN-C5-001#cl-2"
+   ],
+   "root_cause": "The application is approved under TN-C5-001#cl-2, which provides: \"Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.\"",
+   "evidence_ids": [
+    "TN-C5-001#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-78994120#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "GJ-C3-004#cl-6.2c-i",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2c-i"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2c-i, which provides: \"Solar Projects set up by residential consumers on their rooftop/premises shall be allowed irrespective of consumer sanctioned load.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-78994120#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "GJ-C3-004#cl-6.2c-i",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is approved under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-4683a697#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-4683a697#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005",
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-4683a697#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005",
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-4683a697#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-3e914362#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-3e914362#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005",
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-3e914362#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005",
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-3e914362#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "portal_registration",
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is rejected at the portal registration stage under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-41d678b1#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029"
+   ]
+  },
+  {
+   "item_id": "SB-41d678b1#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "UP-C3-001#cl-6.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from the distribution transformer or any other transformer from which power is fed to the eligible consumer shall not exceed 15 % or any other percentage as may be fixed by the Commission of the rated capacity of such transformer(s).\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029",
+    "UP-C3-001#chk-0023"
+   ]
+  },
+  {
+   "item_id": "SB-41d678b1#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "UP-C3-001#cl-6.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029",
+    "UP-C3-001#chk-0023"
+   ]
+  },
+  {
+   "item_id": "SB-41d678b1#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "UP-C3-001#cl-6.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from the distribution transformer or any other transformer from which power is fed to the eligible consumer shall not exceed 15 % or any other percentage as may be fixed by the Commission of the rated capacity of such transformer(s).\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0023"
+   ]
+  },
+  {
+   "item_id": "SB-41d678b1#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4, which provides: \"the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-41d678b1#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-4249ea2e#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-4249ea2e#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-4249ea2e#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-4249ea2e#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-4249ea2e#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-4249ea2e#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-db11efe7#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-db11efe7#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-db11efe7#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-db11efe7#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "DL-C3-004#cl-3.8",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-004#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-004#cl-3.8, which provides: \"The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0007"
+   ]
+  },
+  {
+   "item_id": "SB-db11efe7#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is approved under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-db11efe7#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "DL-C3-009#cl-3.8",
+   "planted": "UP-C3-002#cl-5.1",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0006",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-5c2f1b69#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-5c2f1b69#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-26"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-26, which provides: \"The Sub -divisional officer (SDO) shall verify for Technical feasibility of the installation\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "KA-C5-001#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-5c2f1b69#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "KA-C5-001#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-5c2f1b69#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-005#cl-7-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-005#cl-7-proviso, which provides: \"Provided that the application for Rooftop Solar Photovoltaic systems upto 10 kW capacity, complete in all respect shall be deemed to have been accepted without requiring technical feasibility study\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-5c2f1b69#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-3831cee8#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-3831cee8#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-006#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-006#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, ...\"",
+   "evidence_ids": [
+    "DL-C3-006#chk-0002",
+    "DL-C3-015#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-3831cee8#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.\"",
+   "evidence_ids": [
+    "DL-C3-006#chk-0002",
+    "DL-C3-015#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-3831cee8#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-006#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-006#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, ...\"",
+   "evidence_ids": [
+    "DL-C3-006#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-3831cee8#S-swap#control",
+   "role": "control",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-006#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-dee78131#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2a",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2a, which provides: \"Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-004#chk-0016",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-dee78131#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "GJ-C3-003#cl-6.2",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under GJ-C3-003#cl-6.2, which provides: \"and MSME (Manufacturing) Enterprise shall be upto a maximum of 50% of consumer\u2019s sanctioned load/contract demand; whereas in case of Residential Consumers\"",
+   "evidence_ids": [
+    "GJ-C3-004#chk-0016",
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-dee78131#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2a",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2a, which provides: \"Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-004#chk-0016",
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-dee78131#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "GJ-C3-003#cl-6.2",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under GJ-C3-003#cl-6.2, which provides: \"and MSME (Manufacturing) Enterprise shall be upto a maximum of 50% of consumer\u2019s sanctioned load/contract demand; whereas in case of Residential Consumers\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-dee78131#S-swap#control",
+   "role": "control",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2c-ii, which provides: \"No capacity restrictions upto sanctioned load/ contracted demand shall be applicable for the captive consumers and project set up under Third Party Sale within the permissible limit.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-3c0568a1#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-3c0568a1#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-3c0568a1#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-3c0568a1#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "GJ-C3-001#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-check, which provides: \"Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-3c0568a1#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-3c0568a1#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-13.5-check",
+   "planted": "KA-C5-006#cl-18",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0026",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-4337c49d#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-4337c49d#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-15"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "KA-C5-001#chk-0013"
+   ]
+  },
+  {
+   "item_id": "SB-4337c49d#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "KA-C5-001#chk-0013"
+   ]
+  },
+  {
+   "item_id": "SB-4337c49d#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-15"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013"
+   ]
+  },
+  {
+   "item_id": "SB-4337c49d#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-4337c49d#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-d9152b85#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-d9152b85#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "GJ-C3-001#cl-5-proviso"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under GJ-C3-001#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "GJ-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-d9152b85#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "GJ-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-d9152b85#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "GJ-C3-001#cl-5-proviso"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under GJ-C3-001#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-d9152b85#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under KA-C5-006#cl-4, which provides: \"the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-d9152b85#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-0a1272aa#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-0a1272aa#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "GJ-C3-001#cl-5-proviso"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under GJ-C3-001#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0021",
+    "GJ-C3-003#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-0a1272aa#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0021",
+    "GJ-C3-003#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-0a1272aa#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "GJ-C3-001#cl-5-proviso"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under GJ-C3-001#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-0a1272aa#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4, which provides: \"the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-0a1272aa#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-fe4dc242#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-fe4dc242#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-26"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-26, which provides: \"The Sub -divisional officer (SDO) shall verify for Technical feasibility of the installation\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0020",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-fe4dc242#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0020",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-fe4dc242#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-005#cl-7-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-005#cl-7-proviso, which provides: \"Provided that the application for Rooftop Solar Photovoltaic systems upto 10 kW capacity, complete in all respect shall be deemed to have been accepted without requiring technical feasibility study\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-fe4dc242#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-e851ca36#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-e851ca36#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-15"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-e851ca36#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013",
+    "KA-C5-006#chk-0050"
+   ]
+  },
+  {
+   "item_id": "SB-e851ca36#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "KA-C5-001#cl-15",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-15"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-15, which provides: \"The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.\"",
+   "evidence_ids": [
+    "KA-C5-001#chk-0013"
+   ]
+  },
+  {
+   "item_id": "SB-e851ca36#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-e851ca36#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-18",
+   "planted": "GJ-C3-003#cl-13.5-check",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-18"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-18, which provides: \"The check meter shall be provided for DSPV systems of capacity more than 50kWp.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0050",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-632b2212#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-class",
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-class, which provides: \"The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0025",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-632b2212#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-001#cl-13.5-class",
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-001#cl-13.5-class, which provides: \"The main Solar Meters shall be of 0.2s class accura cy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-632b2212#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-class",
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-class, which provides: \"The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0025",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-632b2212#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-001#cl-13.5-class",
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-001#cl-13.5-class, which provides: \"The main Solar Meters shall be of 0.2s class accura cy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-632b2212#S-swap#control",
+   "role": "control",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "equipment_verification",
+   "cited": [
+    "GJ-C3-003#cl-13.5-check"
+   ],
+   "root_cause": "The application is rejected at the equipment verification stage under GJ-C3-003#cl-13.5-check, which provides: \"Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074",
+    "GJ-C3-003#chk-0026"
+   ]
+  },
+  {
+   "item_id": "SB-9f927b9d#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-9f927b9d#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-001#cl-2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-001#cl-2, which provides: \"Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "TN-C5-001#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-9f927b9d#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "TN-C5-001#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-9f927b9d#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-001#cl-2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-001#cl-2, which provides: \"Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.\"",
+   "evidence_ids": [
+    "TN-C5-001#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-9f927b9d#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "GJ-C3-004#cl-6.2c-i",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2c-i"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2c-i, which provides: \"Solar Projects set up by residential consumers on their rooftop/premises shall be allowed irrespective of consumer sanctioned load.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-9f927b9d#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "GJ-C3-004#cl-6.2c-i",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-940e925b#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-015#cl-3.2"
+   ],
+   "root_cause": "The application is approved under DL-C3-015#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-940e925b#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-006#cl-3.2"
+   ],
+   "root_cause": "The application is approved under DL-C3-006#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, ...\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0002",
+    "DL-C3-006#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-940e925b#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-015#cl-3.2"
+   ],
+   "root_cause": "The application is approved under DL-C3-015#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0002",
+    "DL-C3-006#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-940e925b#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-006#cl-3.2"
+   ],
+   "root_cause": "The application is approved under DL-C3-006#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, ...\"",
+   "evidence_ids": [
+    "DL-C3-006#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-8bbbbb5f#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-8bbbbb5f#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "GJ-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-8bbbbb5f#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "GJ-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-8bbbbb5f#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "GJ-C3-001#cl-5-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-8bbbbb5f#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4, which provides: \"the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-8bbbbb5f#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "GJ-C3-003#cl-5-proviso",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-5-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-5-proviso, which provides: \"Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0005",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-1873dafe#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-1873dafe#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "UP-C3-001#cl-5.1",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the sanctioned connected load / contract demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0021",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-1873dafe#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "UP-C3-001#cl-5.1",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0021",
+    "UP-C3-002#chk-0027"
+   ]
+  },
+  {
+   "item_id": "SB-1873dafe#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "UP-C3-001#cl-5.1",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the sanctioned connected load / contract demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0021"
+   ]
+  },
+  {
+   "item_id": "SB-1873dafe#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "TN-C5-002#cl-I.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0027",
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-1873dafe#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-5.1",
+   "planted": "TN-C5-002#cl-I.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-5.1"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-5.1, which provides: \"5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0027",
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-8b99a646#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-8b99a646#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005",
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-8b99a646#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005",
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-8b99a646#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-6f0e9c5f#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2a",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2a, which provides: \"Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-004#chk-0016",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-6f0e9c5f#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-6.2",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-6.2, which provides: \"and MSME (Manufacturing) Enterprise shall be upto a maximum of 50% of consumer\u2019s sanctioned load/contract demand; whereas in case of Residential Consumers\"",
+   "evidence_ids": [
+    "GJ-C3-004#chk-0016",
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-6f0e9c5f#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2a",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2a, which provides: \"Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW.\"",
+   "evidence_ids": [
+    "GJ-C3-004#chk-0016",
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-6f0e9c5f#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-6.2",
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-6.2, which provides: \"and MSME (Manufacturing) Enterprise shall be upto a maximum of 50% of consumer\u2019s sanctioned load/contract demand; whereas in case of Residential Consumers\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-6f0e9c5f#S-swap#control",
+   "role": "control",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-004#cl-6.2a",
+   "planted": "GJ-C3-003#cl-6.2",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2c-ii"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2c-ii, which provides: \"No capacity restrictions upto sanctioned load/ contracted demand shall be applicable for the captive consumers and project set up under Third Party Sale within the permissible limit.\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0007",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-3fae633b#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001"
+   ]
+  },
+  {
+   "item_id": "SB-3fae633b#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-001#cl-2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-001#cl-2, which provides: \"Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "TN-C5-001#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-3fae633b#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "TN-C5-001#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-3fae633b#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "TN-C5-001#cl-2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-001#cl-2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-001#cl-2, which provides: \"Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.\"",
+   "evidence_ids": [
+    "TN-C5-001#chk-0002"
+   ]
+  },
+  {
+   "item_id": "SB-3fae633b#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "GJ-C3-004#cl-6.2c-i",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-004#cl-6.2c-i"
+   ],
+   "root_cause": "The application is approved under GJ-C3-004#cl-6.2c-i, which provides: \"Solar Projects set up by residential consumers on their rooftop/premises shall be allowed irrespective of consumer sanctioned load.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-3fae633b#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "TN-C5-002#cl-I.2",
+   "planted": "GJ-C3-004#cl-6.2c-i",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "TN-C5-002#cl-I.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under TN-C5-002#cl-I.2, which provides: \"All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.\"",
+   "evidence_ids": [
+    "TN-C5-002#chk-0001",
+    "GJ-C3-004#chk-0018"
+   ]
+  },
+  {
+   "item_id": "SB-032d9870#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029"
+   ]
+  },
+  {
+   "item_id": "SB-032d9870#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "UP-C3-001#cl-6.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from the distribution transformer or any other transformer from which power is fed to the eligible consumer shall not exceed 15 % or any other percentage as may be fixed by the Commission of the rated capacity of such transformer(s).\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0023",
+    "UP-C3-002#chk-0029"
+   ]
+  },
+  {
+   "item_id": "SB-032d9870#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "UP-C3-001#cl-6.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0023",
+    "UP-C3-002#chk-0029"
+   ]
+  },
+  {
+   "item_id": "SB-032d9870#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "UP-C3-001#cl-6.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-001#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-001#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from the distribution transformer or any other transformer from which power is fed to the eligible consumer shall not exceed 15 % or any other percentage as may be fixed by the Commission of the rated capacity of such transformer(s).\"",
+   "evidence_ids": [
+    "UP-C3-001#chk-0023"
+   ]
+  },
+  {
+   "item_id": "SB-032d9870#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": true,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4, which provides: \"the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-032d9870#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "UP-C3-002#cl-6.2",
+   "planted": "KA-C5-006#cl-4",
+   "outcome_changing": true,
+   "decision": "REJECTED",
+   "blocking_stage": "technical_feasibility",
+   "cited": [
+    "UP-C3-002#cl-6.2"
+   ],
+   "root_cause": "The application is rejected at the technical feasibility stage under UP-C3-002#cl-6.2, which provides: \"6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.\"",
+   "evidence_ids": [
+    "UP-C3-002#chk-0029",
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-509700a5#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-9.2b, which provides: \"to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0003"
+   ]
+  },
+  {
+   "item_id": "SB-509700a5#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": "DL-C3-004#cl-9.2b",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-9.2b, which provides: \"once in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0003",
+    "DL-C3-004#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-509700a5#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": "DL-C3-004#cl-9.2b",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-9.2b, which provides: \"to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0003",
+    "DL-C3-004#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-509700a5#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-9.2b",
+   "planted": "DL-C3-004#cl-9.2b",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-004#cl-9.2b"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-004#cl-9.2b, which provides: \"once in the financial year with an advance notice of two months\"",
+   "evidence_ids": [
+    "DL-C3-004#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-06dccf10#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-001#cl-annex1-ii-amended"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-001#cl-annex1-ii-amended, which provides: \"CFAiftheclaimisreceived till October admissible for CFA.if claim is received till 2024.Theclaimsreceivedafter 31.12.2025.\"",
+   "evidence_ids": [
+    "IN-C1-001#chk-0004"
+   ]
+  },
+  {
+   "item_id": "SB-06dccf10#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": "IN-C1-011#cl-annex-phase2-claims",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-011#cl-annex-phase2-claims"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-011#cl-annex-phase2-claims, which provides: \"will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained.\"",
+   "evidence_ids": [
+    "IN-C1-011#chk-0079",
+    "IN-C1-001#chk-0004"
+   ]
+  },
+  {
+   "item_id": "SB-06dccf10#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": "IN-C1-011#cl-annex-phase2-claims",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-001#cl-annex1-ii-amended"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-001#cl-annex1-ii-amended, which provides: \"CFAiftheclaimisreceived till October admissible for CFA.if claim is received till 2024.Theclaimsreceivedafter 31.12.2025.\"",
+   "evidence_ids": [
+    "IN-C1-011#chk-0079",
+    "IN-C1-001#chk-0004"
+   ]
+  },
+  {
+   "item_id": "SB-06dccf10#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": "IN-C1-011#cl-annex-phase2-claims",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-011#cl-annex-phase2-claims"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-011#cl-annex-phase2-claims, which provides: \"will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained.\"",
+   "evidence_ids": [
+    "IN-C1-011#chk-0079"
+   ]
+  },
+  {
+   "item_id": "SB-1595d3ab#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-1595d3ab#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005",
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-1595d3ab#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-015#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-015#cl-3.6, which provides: \"Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0005",
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-1595d3ab#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.6",
+   "planted": "DL-C3-009#cl-3.6",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "DL-C3-009#cl-3.6"
+   ],
+   "root_cause": "The application is approved under DL-C3-009#cl-3.6, which provides: \"Provided also that such waiver of SLD will be effective till cumulative capacity doesn\u2019t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively\"",
+   "evidence_ids": [
+    "DL-C3-009#chk-0005"
+   ]
+  },
+  {
+   "item_id": "SB-3951f18b#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-class, which provides: \"The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0025"
+   ]
+  },
+  {
+   "item_id": "SB-3951f18b#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-class, which provides: \"The main Solar Meters shall be of 0.2s class accura cy\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0025",
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-3951f18b#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-003#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-003#cl-13.5-class, which provides: \"The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy\"",
+   "evidence_ids": [
+    "GJ-C3-003#chk-0025",
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-3951f18b#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "GJ-C3-003#cl-13.5-class",
+   "planted": "GJ-C3-001#cl-13.5-class",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-001#cl-13.5-class"
+   ],
+   "root_cause": "The application is approved under GJ-C3-001#cl-13.5-class, which provides: \"The main Solar Meters shall be of 0.2s class accura cy\"",
+   "evidence_ids": [
+    "GJ-C3-001#chk-0074"
+   ]
+  },
+  {
+   "item_id": "SB-54aaaca3#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032"
+   ]
+  },
+  {
+   "item_id": "SB-54aaaca3#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-001#cl-26"
+   ],
+   "root_cause": "The application is approved under KA-C5-001#cl-26, which provides: \"The Sub -divisional officer (SDO) shall verify for Technical feasibility of the installation\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "KA-C5-001#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-54aaaca3#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "KA-C5-001#cl-26",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "KA-C5-001#chk-0020"
+   ]
+  },
+  {
+   "item_id": "SB-54aaaca3#J#fault",
+   "role": "fault",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "GJ-C3-005#cl-7-proviso"
+   ],
+   "root_cause": "The application is approved under GJ-C3-005#cl-7-proviso, which provides: \"Provided that the application for Rooftop Solar Photovoltaic systems upto 10 kW capacity, complete in all respect shall be deemed to have been accepted without requiring technical feasibility study\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-54aaaca3#J#control",
+   "role": "control",
+   "condition": "J",
+   "cluster": "KA-C5-006#cl-4-note-ii",
+   "planted": "GJ-C3-005#cl-7-proviso",
+   "outcome_changing": false,
+   "decision": "APPROVED",
+   "blocking_stage": null,
+   "cited": [
+    "KA-C5-006#cl-4-note-ii"
+   ],
+   "root_cause": "The application is approved under KA-C5-006#cl-4-note-ii, which provides: \"The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.\"",
+   "evidence_ids": [
+    "KA-C5-006#chk-0032",
+    "GJ-C3-005#chk-0024"
+   ]
+  },
+  {
+   "item_id": "SB-b926248c#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-001#cl-annex1-ii-amended"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-001#cl-annex1-ii-amended, which provides: \"CFAiftheclaimisreceived till October admissible for CFA.if claim is received till 2024.Theclaimsreceivedafter 31.12.2025.\"",
+   "evidence_ids": [
+    "IN-C1-001#chk-0004"
+   ]
+  },
+  {
+   "item_id": "SB-b926248c#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": "IN-C1-011#cl-annex-phase2-claims",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-011#cl-annex-phase2-claims"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-011#cl-annex-phase2-claims, which provides: \"will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained.\"",
+   "evidence_ids": [
+    "IN-C1-011#chk-0079",
+    "IN-C1-001#chk-0004"
+   ]
+  },
+  {
+   "item_id": "SB-b926248c#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": "IN-C1-011#cl-annex-phase2-claims",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-001#cl-annex1-ii-amended"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-001#cl-annex1-ii-amended, which provides: \"CFAiftheclaimisreceived till October admissible for CFA.if claim is received till 2024.Theclaimsreceivedafter 31.12.2025.\"",
+   "evidence_ids": [
+    "IN-C1-011#chk-0079",
+    "IN-C1-001#chk-0004"
+   ]
+  },
+  {
+   "item_id": "SB-b926248c#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "IN-C1-001#cl-annex1-ii-amended",
+   "planted": "IN-C1-011#cl-annex-phase2-claims",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "subsidy_approval",
+   "cited": [
+    "IN-C1-011#cl-annex-phase2-claims"
+   ],
+   "root_cause": "The application is rejected at the subsidy approval stage under IN-C1-011#cl-annex-phase2-claims, which provides: \"will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained.\"",
+   "evidence_ids": [
+    "IN-C1-011#chk-0079"
+   ]
+  },
+  {
+   "item_id": "SB-f9773ee1#C#c-control",
+   "role": "c-control",
+   "condition": "C",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": null,
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-f9773ee1#S-both#fault",
+   "role": "fault",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-006#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-006#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, ...\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0002",
+    "DL-C3-006#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-f9773ee1#S-both#control",
+   "role": "control",
+   "condition": "S-both",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-015#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-015#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.\"",
+   "evidence_ids": [
+    "DL-C3-015#chk-0002",
+    "DL-C3-006#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-f9773ee1#S-swap#fault",
+   "role": "fault",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-006#cl-3.2",
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-006#cl-3.2, which provides: \"Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, ...\"",
+   "evidence_ids": [
+    "DL-C3-006#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  },
+  {
+   "item_id": "SB-f9773ee1#S-swap#control",
+   "role": "control",
+   "condition": "S-swap",
+   "cluster": "DL-C3-015#cl-3.2",
+   "planted": "DL-C3-006#cl-3.2",
+   "outcome_changing": false,
+   "decision": "REJECTED",
+   "blocking_stage": "metering_mode_selection",
+   "cited": [
+    "DL-C3-009#cl-3.8"
+   ],
+   "root_cause": "The application is rejected at the metering mode selection stage under DL-C3-009#cl-3.8, which provides: \"Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.\"",
+   "evidence_ids": [
+    "DL-C3-006#chk-0002",
+    "DL-C3-009#chk-0006"
+   ]
+  }
+ ]
+}

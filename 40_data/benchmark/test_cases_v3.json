@@ -1,0 +1,3430 @@
+[
+  {
+    "case_id": "SB-8a026028",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-18",
+    "facts": {
+      "state": "KA",
+      "discom": "HESCOM",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 60.0,
+      "connected_load_kw": 60.0,
+      "proposed_capacity_kw": 45.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2026-05-04"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: HESCOM\nConsumer No / K-No: 3A8749F924F6\nBilling Name: Basavaraj Patil\nTariff Category: LT-3 Commercial\nSanctioned Load / Contract Demand: 60.0 kW\nConnected Load: 60.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-05-04)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Basavaraj Patil (Consumer ID: 3A8749F924F6)\nProposed DC Capacity: 45.00 kWp\nInverter Rating: 45.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)\nApplication Reference: RTS-KA-3A8749\nApplication Submission Date: 2026-05-04\nCurrent Workflow Stage: Meter Installation\nDistribution Transformer Rating: 100 kVA\nExisting Solar on Transformer: 50.0 kW\nResultant Cumulative Solar Capacity: 95.0 kW"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-18",
+        "clause": "Item 18 (check meter threshold)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The check meter shall be provided for DSPV systems of capacity more than 50kWp."
+      },
+      {
+        "rule_id": "KA-C5-006#cl-4",
+        "clause": "Item 4 (DT hosting limit, LT)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "technical_feasibility",
+      "root_cause": "dt_hosting_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "dt_capacity_kva": 100,
+          "cumulative_solar_kw": 95,
+          "saturation_pct": 95.0,
+          "permissible_kw": 80.0,
+          "excess_kw": 15.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-18,KA-C5-006#cl-4",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F4",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-8a026028#fe-1",
+        "case_id": "SB-8a026028",
+        "fault_class": "F4",
+        "fault_subtype": "F4-R",
+        "gold_trigger": "KA-C5-006#cl-4 (80% DT limit) also decides the case",
+        "gold_evidence": [
+          "KA-C5-006#cl-4"
+        ],
+        "expected_behavior": "Cite and apply the DT limit",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-8a026028#nfo-1",
+        "case_id": "SB-8a026028",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-18 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-8a026028#nfo-2",
+        "case_id": "SB-8a026028",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-18 governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-c6303ba7",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-13.5-check",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 25.0,
+      "connected_load_kw": 25.0,
+      "proposed_capacity_kw": 20.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2025-07-07"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 4406D707E469\nBilling Name: Hiral Patel\nTariff Category: LTMD Non-RGP Commercial\nSanctioned Load / Contract Demand: 25.0 kW\nConnected Load: 25.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-07-07)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Hiral Patel (Consumer ID: 4406D707E469)\nProposed DC Capacity: 20.00 kWp\nInverter Rating: 20.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-4406D7\nApplication Submission Date: 2025-07-07\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-check",
+        "clause": "Reg 13.5 (replaced 2020), check meters",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 20,
+          "check_meter_threshold_kw": 20.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-13.5-check",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-c6303ba7#nfo-1",
+        "case_id": "SB-c6303ba7",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-13.5-check is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-c6303ba7#nfo-2",
+        "case_id": "SB-c6303ba7",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-13.5-check governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-fa9742da",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-4-note-ii",
+    "facts": {
+      "state": "KA",
+      "discom": "BESCOM",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 80.0,
+      "connected_load_kw": 80.0,
+      "proposed_capacity_kw": 60.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2026-04-30"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BESCOM\nConsumer No / K-No: FD0E568603F3\nBilling Name: Lakshmi Hegde\nTariff Category: LT-3 Commercial\nSanctioned Load / Contract Demand: 80.0 kW\nConnected Load: 80.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-04-30)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Lakshmi Hegde (Consumer ID: FD0E568603F3)\nProposed DC Capacity: 60.00 kWp\nInverter Rating: 60.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BESCOM)\nApplication Reference: RTS-KA-FD0E56\nApplication Submission Date: 2026-04-30\nCurrent Workflow Stage: Technical Feasibility\nDays Elapsed Since Submission: 4\nDays Elapsed Since Registration/Acknowledgement: 4\nApplication Completeness: Complete in all respects\nTechnical Feasibility Outcome: Not communicated by the licensee"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-4-note-ii",
+        "clause": "Item 4 note ii (deemed feasible up to 150 kW)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 60,
+          "days_elapsed": 4
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-4-note-ii",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-fa9742da#fe-1",
+        "case_id": "SB-fa9742da",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded KA-C5-001#cl-26 applied to a 60 kW application",
+        "gold_evidence": [
+          "KA-C5-001#cl-26"
+        ],
+        "expected_behavior": "Apply KA-C5-006#cl-4-note-ii",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-fa9742da#nfo-1",
+        "case_id": "SB-fa9742da",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-4-note-ii is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-fa9742da#nfo-2",
+        "case_id": "SB-fa9742da",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-4-note-ii governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-55bff1e2",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-13.5-class",
+    "facts": {
+      "state": "GJ",
+      "discom": "UGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 5.0,
+      "connected_load_kw": 5.0,
+      "proposed_capacity_kw": 8.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2025-09-03"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: UGVCL\nConsumer No / K-No: 699D563A33A8\nBilling Name: Nayana Joshi\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 5.0 kW\nConnected Load: 5.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-09-03)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Nayana Joshi (Consumer ID: 699D563A33A8)\nProposed DC Capacity: 8.00 kWp\nInverter Rating: 8.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Generation Meter: accuracy class 0.2S\nNet Meter: accuracy class 0.2S",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)\nApplication Reference: RTS-GJ-699D56\nApplication Submission Date: 2025-09-03\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-class",
+        "clause": "Amended Reg 13.5 (meter class)",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "solar_meter_class": 0.2,
+          "net_meter_class": 0.2
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-13.5-class",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-55bff1e2#nfo-1",
+        "case_id": "SB-55bff1e2",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-13.5-class is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-55bff1e2#nfo-2",
+        "case_id": "SB-55bff1e2",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-13.5-class governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-4e00a3c4",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-009#cl-3.8",
+    "facts": {
+      "state": "DL",
+      "discom": "TPDDL",
+      "consumer_category": "industrial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 3000.0,
+      "connected_load_kw": 3000.0,
+      "proposed_capacity_kw": 12000.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "metering_arrangement_approval",
+      "install_before_feasibility": null,
+      "case_date": "2024-08-04"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TPDDL\nConsumer No / K-No: 601E3C77B10A\nBilling Name: Amit Kapoor\nTariff Category: Industrial (HT)\nSanctioned Load / Contract Demand: 3000.0 kW\nConnected Load: 3000.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2024-08-04)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Amit Kapoor (Consumer ID: 601E3C77B10A)\nProposed DC Capacity: 12000.00 kWp\nInverter Rating: 12000.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)\nApplication Reference: RTS-DL-601E3C\nApplication Submission Date: 2024-08-04\nCurrent Workflow Stage: Metering Arrangement Approval"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-009#cl-3.8",
+        "clause": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+        "effective_date": "2024-04-01",
+        "jurisdiction": "DL",
+        "applicability_basis": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GN"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "metering_mode_selection",
+      "root_cause": "capacity_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 3000,
+          "proposed_capacity_kw": 12000,
+          "max_permissible_kw": 10000.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-009#cl-3.8",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-4e00a3c4#nfo-1",
+        "case_id": "SB-4e00a3c4",
+        "target_property": "currency",
+        "claim_text": "DL-C3-009#cl-3.8 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-4e00a3c4#nfo-2",
+        "case_id": "SB-4e00a3c4",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-009#cl-3.8 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-bea538fe",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "UP-C3-002#cl-5.1",
+    "facts": {
+      "state": "UP",
+      "discom": "PVVNL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 2.0,
+      "connected_load_kw": 2.0,
+      "proposed_capacity_kw": 1.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2023-08-08"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: PVVNL\nConsumer No / K-No: F304C7CAD1CA\nBilling Name: Ramesh Yadav\nTariff Category: LMV-1 Domestic Light, Fan & Power\nSanctioned Load / Contract Demand: 2.0 kW\nConnected Load: 2.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2023-08-08)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Ramesh Yadav (Consumer ID: F304C7CAD1CA)\nProposed DC Capacity: 1.00 kWp\nInverter Rating: 1.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)\nApplication Reference: RTS-UP-F304C7\nApplication Submission Date: 2023-08-08\nCurrent Workflow Stage: Technical Feasibility"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "UP-C3-002#cl-5.1",
+        "clause": "Reg. 5.1 and proviso",
+        "effective_date": "2019-01-04",
+        "jurisdiction": "UP",
+        "applicability_basis": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /con"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 2,
+          "proposed_capacity_kw": 1.0,
+          "max_permissible_kw": 2
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:UP-C3-002#cl-5.1",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-bea538fe#fe-1",
+        "case_id": "SB-bea538fe",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded UP-C3-001#cl-5.1 applied to the capacity limit",
+        "gold_evidence": [
+          "UP-C3-001#cl-5.1"
+        ],
+        "expected_behavior": "Apply UP-C3-002#cl-5.1",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-bea538fe#nfo-1",
+        "case_id": "SB-bea538fe",
+        "target_property": "currency",
+        "claim_text": "UP-C3-002#cl-5.1 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-bea538fe#nfo-2",
+        "case_id": "SB-bea538fe",
+        "target_property": "jurisdiction",
+        "claim_text": "UP-C3-002#cl-5.1 governs UP applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-a86540a6",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-13.5-check",
+    "facts": {
+      "state": "GJ",
+      "discom": "UGVCL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 40.0,
+      "connected_load_kw": 40.0,
+      "proposed_capacity_kw": 30.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2025-01-03"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: UGVCL\nConsumer No / K-No: E2854D2624BF\nBilling Name: Kokila Shah\nTariff Category: LTMD Non-RGP Commercial\nSanctioned Load / Contract Demand: 40.0 kW\nConnected Load: 40.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-01-03)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Kokila Shah (Consumer ID: E2854D2624BF)\nProposed DC Capacity: 30.00 kWp\nInverter Rating: 30.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)\nApplication Reference: RTS-GJ-E2854D\nApplication Submission Date: 2025-01-03\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-check",
+        "clause": "Reg 13.5 (replaced 2020), check meters",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "equipment_verification",
+      "root_cause": "check_meter_missing",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 30,
+          "check_meter_threshold_kw": 20.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-13.5-check",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-a86540a6#nfo-1",
+        "case_id": "SB-a86540a6",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-13.5-check is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-a86540a6#nfo-2",
+        "case_id": "SB-a86540a6",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-13.5-check governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-09416de5",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-18",
+    "facts": {
+      "state": "KA",
+      "discom": "BESCOM",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 80.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2026-02-16"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BESCOM\nConsumer No / K-No: 28D1AAFC7F15\nBilling Name: Asha Kulkarni\nTariff Category: LT-3 Commercial\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-02-16)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Asha Kulkarni (Consumer ID: 28D1AAFC7F15)\nProposed DC Capacity: 80.00 kWp\nInverter Rating: 80.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BESCOM)\nApplication Reference: RTS-KA-28D1AA\nApplication Submission Date: 2026-02-16\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-18",
+        "clause": "Item 18 (check meter threshold)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The check meter shall be provided for DSPV systems of capacity more than 50kWp."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "equipment_verification",
+      "root_cause": "check_meter_missing",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 80,
+          "check_meter_threshold_kw": 50.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-18",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-09416de5#nfo-1",
+        "case_id": "SB-09416de5",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-18 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-09416de5#nfo-2",
+        "case_id": "SB-09416de5",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-18 governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-7fcce033",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-13.5-check",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 15.0,
+      "connected_load_kw": 15.0,
+      "proposed_capacity_kw": 12.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2025-12-02"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 5EC887E142E2\nBilling Name: Bhavesh Parmar\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 15.0 kW\nConnected Load: 15.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-12-02)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Bhavesh Parmar (Consumer ID: 5EC887E142E2)\nProposed DC Capacity: 12.00 kWp\nInverter Rating: 12.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided\nSolar Generation Meter: accuracy class 2.0\nNet Meter: accuracy class 0.5S",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-5EC887\nApplication Submission Date: 2025-12-02\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-check",
+        "clause": "Reg 13.5 (replaced 2020), check meters",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW."
+      },
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-class",
+        "clause": "Amended Reg 13.5 (meter class)",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "equipment_verification",
+      "root_cause": "meter_accuracy_class_not_compliant",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "solar_meter_class": 2.0,
+          "net_meter_class": 0.5
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-13.5-check,GJ-C3-003#cl-13.5-class",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F4",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-7fcce033#fe-1",
+        "case_id": "SB-7fcce033",
+        "fault_class": "F4",
+        "fault_subtype": "F4-R",
+        "gold_trigger": "GJ-C3-003#cl-13.5-class (meter accuracy class) also decides the case",
+        "gold_evidence": [
+          "GJ-C3-003#cl-13.5-class"
+        ],
+        "expected_behavior": "Cite and apply GJ-C3-003#cl-13.5-class",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-7fcce033#nfo-1",
+        "case_id": "SB-7fcce033",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-13.5-check is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-7fcce033#nfo-2",
+        "case_id": "SB-7fcce033",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-13.5-check governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-65c5c39f",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-9.2b",
+    "facts": {
+      "state": "DL",
+      "discom": "TPDDL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 50.0,
+      "connected_load_kw": 50.0,
+      "proposed_capacity_kw": 150.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "vnm_arrangement_modification",
+      "install_before_feasibility": null,
+      "case_date": "2026-05-08"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TPDDL\nConsumer No / K-No: 81E7DDBD9BE7\nBilling Name: Rohit Sehgal\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 50.0 kW\nConnected Load: 50.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-05-08)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Rohit Sehgal (Consumer ID: 81E7DDBD9BE7)\nProposed DC Capacity: 150.00 kWp\nInverter Rating: 150.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)\nApplication Reference: RTS-DL-81E7DD\nApplication Submission Date: 2026-05-08\nCurrent Workflow Stage: VNM Arrangement Modification\nRequest: add a participating service connection to the existing VNM arrangement (MoU on file)\nShare/Participant Changes Already Made This Financial Year: 2\nAdvance Notice Given: 3 months"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-9.2b",
+        "clause": "Guideline 9(2)(b) (substituted)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "metering_mode_selection",
+      "root_cause": "vnm_change_not_permitted",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "changes_already_this_fy": 2,
+          "notice_months": 3
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-9.2b",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-65c5c39f#nfo-1",
+        "case_id": "SB-65c5c39f",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-9.2b is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-65c5c39f#nfo-2",
+        "case_id": "SB-65c5c39f",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-9.2b governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-c9fe09fd",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-009#cl-3.8",
+    "facts": {
+      "state": "DL",
+      "discom": "TPDDL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 120.0,
+      "connected_load_kw": 120.0,
+      "proposed_capacity_kw": 90.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "metering_arrangement_approval",
+      "install_before_feasibility": null,
+      "case_date": "2025-03-14"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TPDDL\nConsumer No / K-No: 50A2A8B2BF2B\nBilling Name: Ritu Khanna\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 120.0 kW\nConnected Load: 120.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-03-14)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Ritu Khanna (Consumer ID: 50A2A8B2BF2B)\nProposed DC Capacity: 90.00 kWp\nInverter Rating: 90.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)\nApplication Reference: RTS-DL-50A2A8\nApplication Submission Date: 2025-03-14\nCurrent Workflow Stage: Metering Arrangement Approval"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-009#cl-3.8",
+        "clause": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+        "effective_date": "2024-04-01",
+        "jurisdiction": "DL",
+        "applicability_basis": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GN"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 120,
+          "proposed_capacity_kw": 90,
+          "max_permissible_kw": 600.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-009#cl-3.8",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-c9fe09fd#nfo-1",
+        "case_id": "SB-c9fe09fd",
+        "target_property": "currency",
+        "claim_text": "DL-C3-009#cl-3.8 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-c9fe09fd#nfo-2",
+        "case_id": "SB-c9fe09fd",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-009#cl-3.8 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-78994120",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "TN-C5-002#cl-I.2",
+    "facts": {
+      "state": "TN",
+      "discom": "TANGEDCO",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 150.0,
+      "connected_load_kw": 150.0,
+      "proposed_capacity_kw": 120.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2022-09-24"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TANGEDCO\nConsumer No / K-No: 9F875DF58F9D\nBilling Name: Karthik Raja\nTariff Category: LB-V Commercial\nSanctioned Load / Contract Demand: 150.0 kW\nConnected Load: 150.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2022-09-24)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Karthik Raja (Consumer ID: 9F875DF58F9D)\nProposed DC Capacity: 120.00 kWp\nInverter Rating: 120.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Feed-in",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TANGEDCO)\nApplication Reference: RTS-TN-9F875D\nApplication Submission Date: 2022-09-24\nCurrent Workflow Stage: Technical Feasibility"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "TN-C5-002#cl-I.2",
+        "clause": "I.2 (net billing / net feed-in capacity)",
+        "effective_date": "2021-10-22",
+        "jurisdiction": "TN",
+        "applicability_basis": "All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 150,
+          "proposed_capacity_kw": 120,
+          "max_permissible_kw": 150
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:TN-C5-002#cl-I.2",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F5",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-78994120#fe-1",
+        "case_id": "SB-78994120",
+        "fault_class": "F5",
+        "fault_subtype": null,
+        "gold_trigger": "gross-metering size band applied to a net feed-in request",
+        "gold_evidence": [
+          "TN-C5-002#cl-I.3a"
+        ],
+        "expected_behavior": "Apply TN-C5-002#cl-I.2",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-78994120#nfo-1",
+        "case_id": "SB-78994120",
+        "target_property": "currency",
+        "claim_text": "TN-C5-002#cl-I.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-78994120#nfo-2",
+        "case_id": "SB-78994120",
+        "target_property": "jurisdiction",
+        "claim_text": "TN-C5-002#cl-I.2 governs TN applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-4683a697",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-3.6",
+    "facts": {
+      "state": "DL",
+      "discom": "BRPL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 400.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "registration",
+      "install_before_feasibility": null,
+      "case_date": "2026-09-06"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BRPL\nConsumer No / K-No: D0B77C2F837A\nBilling Name: Pooja Bansal\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-09-06)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Pooja Bansal (Consumer ID: D0B77C2F837A)\nProposed DC Capacity: 400.00 kWp\nInverter Rating: 400.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)\nApplication Reference: RTS-DL-D0B77C\nApplication Submission Date: 2026-09-06\nCurrent Workflow Stage: Registration\nConnection Voltage of RE System: 33 kV\nCumulative VNM/GNM Capacity in BRPL incl. this project: 50 MW\nService Line cum Development (SLD) Charges: Not paid"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-3.6",
+        "clause": "Guideline 3(6) (substituted, dated 20.01.2026)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRP"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "portal_registration",
+      "root_cause": "sld_charges_unpaid",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "cumulative_vnm_gnm_mw": 50,
+          "sld_waived": false
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-3.6",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-4683a697#nfo-1",
+        "case_id": "SB-4683a697",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-3.6 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-4683a697#nfo-2",
+        "case_id": "SB-4683a697",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-3.6 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-3e914362",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-3.6",
+    "facts": {
+      "state": "DL",
+      "discom": "TPDDL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 400.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "registration",
+      "install_before_feasibility": null,
+      "case_date": "2026-04-28"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TPDDL\nConsumer No / K-No: D226C2E953C3\nBilling Name: Amit Kapoor\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-04-28)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Amit Kapoor (Consumer ID: D226C2E953C3)\nProposed DC Capacity: 400.00 kWp\nInverter Rating: 400.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)\nApplication Reference: RTS-DL-D226C2\nApplication Submission Date: 2026-04-28\nCurrent Workflow Stage: Registration\nConnection Voltage of RE System: 11 kV\nCumulative VNM/GNM Capacity in TPDDL incl. this project: 105 MW\nService Line cum Development (SLD) Charges: Not paid"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-3.6",
+        "clause": "Guideline 3(6) (substituted, dated 20.01.2026)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRP"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "portal_registration",
+      "root_cause": "sld_charges_unpaid",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "cumulative_vnm_gnm_mw": 105,
+          "sld_waived": false
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-3.6",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-3e914362#nfo-1",
+        "case_id": "SB-3e914362",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-3.6 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-3e914362#nfo-2",
+        "case_id": "SB-3e914362",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-3.6 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-41d678b1",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "UP-C3-002#cl-6.2",
+    "facts": {
+      "state": "UP",
+      "discom": "PVVNL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 20.0,
+      "connected_load_kw": 20.0,
+      "proposed_capacity_kw": 15.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2023-09-16"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: PVVNL\nConsumer No / K-No: F3D3D0393871\nBilling Name: Sunita Mishra\nTariff Category: LMV-2 Non-Domestic\nSanctioned Load / Contract Demand: 20.0 kW\nConnected Load: 20.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2023-09-16)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Sunita Mishra (Consumer ID: F3D3D0393871)\nProposed DC Capacity: 15.00 kWp\nInverter Rating: 15.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)\nApplication Reference: RTS-UP-F3D3D0\nApplication Submission Date: 2023-09-16\nCurrent Workflow Stage: Technical Feasibility\nDistribution Transformer Rating: 160 kVA\nExisting Solar on Transformer: 110.0 kW\nResultant Cumulative Solar Capacity: 125.0 kW"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "UP-C3-002#cl-6.2",
+        "clause": "Reg. 6.2",
+        "effective_date": "2019-01-04",
+        "jurisdiction": "UP",
+        "applicability_basis": "6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligib"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "technical_feasibility",
+      "root_cause": "dt_hosting_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "dt_capacity_kva": 160,
+          "cumulative_solar_kw": 125,
+          "saturation_pct": 78.12,
+          "permissible_kw": 120.0,
+          "excess_kw": 5.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:UP-C3-002#cl-6.2",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F2",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-41d678b1#fe-1",
+        "case_id": "SB-41d678b1",
+        "fault_class": "F2",
+        "fault_subtype": null,
+        "gold_trigger": "other-state TN-C5-002#cl-VII.3 applied to the hosting limit",
+        "gold_evidence": [
+          "TN-C5-002#cl-VII.3"
+        ],
+        "expected_behavior": "Apply UP-C3-002#cl-6.2",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-41d678b1#nfo-1",
+        "case_id": "SB-41d678b1",
+        "target_property": "currency",
+        "claim_text": "UP-C3-002#cl-6.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-41d678b1#nfo-2",
+        "case_id": "SB-41d678b1",
+        "target_property": "jurisdiction",
+        "claim_text": "UP-C3-002#cl-6.2 governs UP applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-4249ea2e",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-009#cl-3.8",
+    "facts": {
+      "state": "DL",
+      "discom": "BRPL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 600.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "metering_arrangement_approval",
+      "install_before_feasibility": null,
+      "case_date": "2024-06-28"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BRPL\nConsumer No / K-No: D1D7B18B0D06\nBilling Name: Ritu Khanna\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2024-06-28)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Ritu Khanna (Consumer ID: D1D7B18B0D06)\nProposed DC Capacity: 600.00 kWp\nInverter Rating: 600.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)\nApplication Reference: RTS-DL-D1D7B1\nApplication Submission Date: 2024-06-28\nCurrent Workflow Stage: Metering Arrangement Approval"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-009#cl-3.8",
+        "clause": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+        "effective_date": "2024-04-01",
+        "jurisdiction": "DL",
+        "applicability_basis": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GN"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "metering_mode_selection",
+      "root_cause": "capacity_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 100,
+          "proposed_capacity_kw": 600,
+          "max_permissible_kw": 500.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-009#cl-3.8",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-4249ea2e#nfo-1",
+        "case_id": "SB-4249ea2e",
+        "target_property": "currency",
+        "claim_text": "DL-C3-009#cl-3.8 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-4249ea2e#nfo-2",
+        "case_id": "SB-4249ea2e",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-009#cl-3.8 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-db11efe7",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-009#cl-3.8",
+    "facts": {
+      "state": "DL",
+      "discom": "TPDDL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 600.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "metering_arrangement_approval",
+      "install_before_feasibility": null,
+      "case_date": "2024-05-22"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TPDDL\nConsumer No / K-No: B750A0C8BD22\nBilling Name: Sanjay Arora\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2024-05-22)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Sanjay Arora (Consumer ID: B750A0C8BD22)\nProposed DC Capacity: 600.00 kWp\nInverter Rating: 600.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (rooftop solar)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)\nApplication Reference: RTS-DL-B750A0\nApplication Submission Date: 2024-05-22\nCurrent Workflow Stage: Metering Arrangement Approval"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-009#cl-3.8",
+        "clause": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+        "effective_date": "2024-04-01",
+        "jurisdiction": "DL",
+        "applicability_basis": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GN"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 100,
+          "proposed_capacity_kw": 600,
+          "max_permissible_kw": -1.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-009#cl-3.8",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-db11efe7#nfo-1",
+        "case_id": "SB-db11efe7",
+        "target_property": "currency",
+        "claim_text": "DL-C3-009#cl-3.8 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-db11efe7#nfo-2",
+        "case_id": "SB-db11efe7",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-009#cl-3.8 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-5c2f1b69",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-4-note-ii",
+    "facts": {
+      "state": "KA",
+      "discom": "HESCOM",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 4.0,
+      "connected_load_kw": 4.0,
+      "proposed_capacity_kw": 6.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2026-01-09"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: HESCOM\nConsumer No / K-No: 9180EB9C4087\nBilling Name: Manjunath Gowda\nTariff Category: LT-2(a) Domestic\nSanctioned Load / Contract Demand: 4.0 kW\nConnected Load: 4.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-01-09)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Manjunath Gowda (Consumer ID: 9180EB9C4087)\nProposed DC Capacity: 6.00 kWp\nInverter Rating: 6.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)\nApplication Reference: RTS-KA-9180EB\nApplication Submission Date: 2026-01-09\nCurrent Workflow Stage: Technical Feasibility\nDays Elapsed Since Submission: 2\nDays Elapsed Since Registration/Acknowledgement: 2\nApplication Completeness: Complete in all respects\nTechnical Feasibility Outcome: Not communicated by the licensee"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-4-note-ii",
+        "clause": "Item 4 note ii (deemed feasible up to 150 kW)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 6,
+          "days_elapsed": 2
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-4-note-ii",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-5c2f1b69#nfo-1",
+        "case_id": "SB-5c2f1b69",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-4-note-ii is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-5c2f1b69#nfo-2",
+        "case_id": "SB-5c2f1b69",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-4-note-ii governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-3831cee8",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-3.2",
+    "facts": {
+      "state": "DL",
+      "discom": "TPDDL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 20.0,
+      "connected_load_kw": 20.0,
+      "proposed_capacity_kw": 150.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "metering_arrangement_approval",
+      "install_before_feasibility": null,
+      "case_date": "2026-02-12"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TPDDL\nConsumer No / K-No: 8E40DE524587\nBilling Name: Amit Kapoor\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 20.0 kW\nConnected Load: 20.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-02-12)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Amit Kapoor (Consumer ID: 8E40DE524587)\nProposed DC Capacity: 150.00 kWp\nInverter Rating: 150.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)\nParticipating consumers: commercial shops in one market association",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)\nApplication Reference: RTS-DL-8E40DE\nApplication Submission Date: 2026-02-12\nCurrent Workflow Stage: Metering Arrangement Approval"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-3.2",
+        "clause": "Guideline 3(2) (substituted)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply."
+      },
+      {
+        "rule_id": "DL-C3-009#cl-3.8",
+        "clause": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+        "effective_date": "2024-04-01",
+        "jurisdiction": "DL",
+        "applicability_basis": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GN"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "metering_mode_selection",
+      "root_cause": "capacity_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "vnm_eligible": true,
+          "sanctioned_load_kw": 20,
+          "proposed_capacity_kw": 150,
+          "max_permissible_kw": 100.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-3.2,DL-C3-009#cl-3.8",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-3831cee8#nfo-1",
+        "case_id": "SB-3831cee8",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-3.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-3831cee8#nfo-2",
+        "case_id": "SB-3831cee8",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-3.2 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-dee78131",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-004#cl-6.2a",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "industrial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 80.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2024-11-20"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 41C5D1DE9679\nBilling Name: Rakesh Chaudhari\nTariff Category: HTP-I Industrial\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2024-11-20)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Rakesh Chaudhari (Consumer ID: 41C5D1DE9679)\nProposed DC Capacity: 80.00 kWp\nInverter Rating: 80.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nUse of Generation: Captive consumption under net metering (non-residential)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-41C5D1\nApplication Submission Date: 2024-11-20\nCurrent Workflow Stage: Technical Feasibility"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-004#cl-6.2a",
+        "clause": "Amended Reg 6.2(a)",
+        "effective_date": "2022-05-31",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW."
+      },
+      {
+        "rule_id": "GJ-C3-004#cl-6.2c-ii",
+        "clause": "Amended Reg 6.2(c)(ii)",
+        "effective_date": "2022-05-31",
+        "jurisdiction": "GJ",
+        "applicability_basis": "No capacity restrictions upto sanctioned load/ contracted demand shall be applicable for the captive consumers and project set up under Third Party Sale within "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 100,
+          "proposed_capacity_kw": 80,
+          "max_permissible_kw": 1000.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-004#cl-6.2a,GJ-C3-004#cl-6.2c-ii",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-dee78131#nfo-1",
+        "case_id": "SB-dee78131",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-004#cl-6.2a is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-dee78131#nfo-2",
+        "case_id": "SB-dee78131",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-004#cl-6.2a governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-3c0568a1",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-13.5-check",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 12.0,
+      "connected_load_kw": 12.0,
+      "proposed_capacity_kw": 18.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2025-04-24"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 96D09809C59A\nBilling Name: Rakesh Chaudhari\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 12.0 kW\nConnected Load: 12.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-04-24)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Rakesh Chaudhari (Consumer ID: 96D09809C59A)\nProposed DC Capacity: 18.00 kWp\nInverter Rating: 18.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-96D098\nApplication Submission Date: 2025-04-24\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-check",
+        "clause": "Reg 13.5 (replaced 2020), check meters",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 18,
+          "check_meter_threshold_kw": 20.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-13.5-check",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F2",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-3c0568a1#fe-1",
+        "case_id": "SB-3c0568a1",
+        "fault_class": "F2",
+        "fault_subtype": null,
+        "gold_trigger": "other-state KA-C5-001#cl-15 check-meter threshold applied",
+        "gold_evidence": [
+          "KA-C5-001#cl-15"
+        ],
+        "expected_behavior": "Apply GJ-C3-003#cl-13.5-check",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-3c0568a1#nfo-1",
+        "case_id": "SB-3c0568a1",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-13.5-check is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-3c0568a1#nfo-2",
+        "case_id": "SB-3c0568a1",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-13.5-check governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-4337c49d",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-18",
+    "facts": {
+      "state": "KA",
+      "discom": "HESCOM",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 40.0,
+      "connected_load_kw": 40.0,
+      "proposed_capacity_kw": 30.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2026-03-25"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: HESCOM\nConsumer No / K-No: 42C7E3D06211\nBilling Name: Basavaraj Patil\nTariff Category: LT-3 Commercial\nSanctioned Load / Contract Demand: 40.0 kW\nConnected Load: 40.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-03-25)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Basavaraj Patil (Consumer ID: 42C7E3D06211)\nProposed DC Capacity: 30.00 kWp\nInverter Rating: 30.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)\nApplication Reference: RTS-KA-42C7E3\nApplication Submission Date: 2026-03-25\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-18",
+        "clause": "Item 18 (check meter threshold)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The check meter shall be provided for DSPV systems of capacity more than 50kWp."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 30,
+          "check_meter_threshold_kw": 50.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-18",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-4337c49d#fe-1",
+        "case_id": "SB-4337c49d",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded KA-C5-001#cl-15 check-meter threshold applied",
+        "gold_evidence": [
+          "KA-C5-001#cl-15"
+        ],
+        "expected_behavior": "Apply KA-C5-006#cl-18",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-4337c49d#nfo-1",
+        "case_id": "SB-4337c49d",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-18 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-4337c49d#nfo-2",
+        "case_id": "SB-4337c49d",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-18 governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-d9152b85",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-5-proviso",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 4.0,
+      "connected_load_kw": 4.0,
+      "proposed_capacity_kw": 10.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2025-10-03"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 7E43B0B3FF1E\nBilling Name: Hiral Patel\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 4.0 kW\nConnected Load: 4.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-10-03)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Hiral Patel (Consumer ID: 7E43B0B3FF1E)\nProposed DC Capacity: 10.00 kWp\nInverter Rating: 10.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-7E43B0\nApplication Submission Date: 2025-10-03\nCurrent Workflow Stage: Technical Feasibility\nDistribution Transformer Rating: 100 kVA\nExisting Solar on Transformer: 75.0 kW\nResultant Cumulative Solar Capacity: 85.0 kW"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-5-proviso",
+        "clause": "Amended Reg 5 proviso (DT limit)",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "dt_capacity_kva": 100,
+          "cumulative_solar_kw": 85,
+          "saturation_pct": 85.0,
+          "permissible_kw": 100.0,
+          "excess_kw": 0.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-5-proviso",
+      "confidence": "high"
+    },
+    "failure_class_probed": "MULTI",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-d9152b85#fe-1",
+        "case_id": "SB-d9152b85",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded GJ-C3-001#cl-5-proviso applied to the hosting limit",
+        "gold_evidence": [
+          "GJ-C3-001#cl-5-proviso"
+        ],
+        "expected_behavior": "Apply GJ-C3-003#cl-5-proviso",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      },
+      {
+        "fault_event_id": "SB-d9152b85#fe-2",
+        "case_id": "SB-d9152b85",
+        "fault_class": "F2",
+        "fault_subtype": null,
+        "gold_trigger": "other-state KA-C5-006#cl-4 applied to the hosting limit",
+        "gold_evidence": [
+          "KA-C5-006#cl-4"
+        ],
+        "expected_behavior": "Apply GJ-C3-003#cl-5-proviso",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-d9152b85#nfo-1",
+        "case_id": "SB-d9152b85",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-5-proviso is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-d9152b85#nfo-2",
+        "case_id": "SB-d9152b85",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-5-proviso governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-0a1272aa",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-5-proviso",
+    "facts": {
+      "state": "GJ",
+      "discom": "UGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 6.0,
+      "connected_load_kw": 6.0,
+      "proposed_capacity_kw": 10.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2025-01-17"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: UGVCL\nConsumer No / K-No: DEAE5CB318C4\nBilling Name: Hiral Patel\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 6.0 kW\nConnected Load: 6.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-01-17)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Hiral Patel (Consumer ID: DEAE5CB318C4)\nProposed DC Capacity: 10.00 kWp\nInverter Rating: 10.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)\nApplication Reference: RTS-GJ-DEAE5C\nApplication Submission Date: 2025-01-17\nCurrent Workflow Stage: Technical Feasibility\nDistribution Transformer Rating: 100 kVA\nExisting Solar on Transformer: 60.0 kW\nResultant Cumulative Solar Capacity: 70.0 kW"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-5-proviso",
+        "clause": "Amended Reg 5 proviso (DT limit)",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "dt_capacity_kva": 100,
+          "cumulative_solar_kw": 70,
+          "saturation_pct": 70.0,
+          "permissible_kw": 100.0,
+          "excess_kw": 0.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-5-proviso",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-0a1272aa#fe-1",
+        "case_id": "SB-0a1272aa",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded GJ-C3-001#cl-5-proviso applied to the hosting limit",
+        "gold_evidence": [
+          "GJ-C3-001#cl-5-proviso"
+        ],
+        "expected_behavior": "Apply GJ-C3-003#cl-5-proviso",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-0a1272aa#nfo-1",
+        "case_id": "SB-0a1272aa",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-5-proviso is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-0a1272aa#nfo-2",
+        "case_id": "SB-0a1272aa",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-5-proviso governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-fe4dc242",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-4-note-ii",
+    "facts": {
+      "state": "KA",
+      "discom": "HESCOM",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 5.0,
+      "connected_load_kw": 5.0,
+      "proposed_capacity_kw": 9.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2026-06-06"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: HESCOM\nConsumer No / K-No: 7E40989F685C\nBilling Name: Prakash Shetty\nTariff Category: LT-2(a) Domestic\nSanctioned Load / Contract Demand: 5.0 kW\nConnected Load: 5.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-06-06)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Prakash Shetty (Consumer ID: 7E40989F685C)\nProposed DC Capacity: 9.00 kWp\nInverter Rating: 9.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)\nApplication Reference: RTS-KA-7E4098\nApplication Submission Date: 2026-06-06\nCurrent Workflow Stage: Technical Feasibility\nDays Elapsed Since Submission: 2\nDays Elapsed Since Registration/Acknowledgement: 2\nApplication Completeness: Complete in all respects\nTechnical Feasibility Outcome: Not communicated by the licensee"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-4-note-ii",
+        "clause": "Item 4 note ii (deemed feasible up to 150 kW)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 9,
+          "days_elapsed": 2
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-4-note-ii",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-fe4dc242#fe-1",
+        "case_id": "SB-fe4dc242",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded KA-C5-001#cl-26 applied to a 9 kW application",
+        "gold_evidence": [
+          "KA-C5-001#cl-26"
+        ],
+        "expected_behavior": "Apply KA-C5-006#cl-4-note-ii",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-fe4dc242#nfo-1",
+        "case_id": "SB-fe4dc242",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-4-note-ii is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-fe4dc242#nfo-2",
+        "case_id": "SB-fe4dc242",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-4-note-ii governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-e851ca36",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-18",
+    "facts": {
+      "state": "KA",
+      "discom": "BESCOM",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 40.0,
+      "connected_load_kw": 40.0,
+      "proposed_capacity_kw": 35.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2026-01-13"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BESCOM\nConsumer No / K-No: 1CF9FAB373D2\nBilling Name: Lakshmi Hegde\nTariff Category: LT-3 Commercial\nSanctioned Load / Contract Demand: 40.0 kW\nConnected Load: 40.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-01-13)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Lakshmi Hegde (Consumer ID: 1CF9FAB373D2)\nProposed DC Capacity: 35.00 kWp\nInverter Rating: 35.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BESCOM)\nApplication Reference: RTS-KA-1CF9FA\nApplication Submission Date: 2026-01-13\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-18",
+        "clause": "Item 18 (check meter threshold)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The check meter shall be provided for DSPV systems of capacity more than 50kWp."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 35,
+          "check_meter_threshold_kw": 50.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-18",
+      "confidence": "high"
+    },
+    "failure_class_probed": "MULTI",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-e851ca36#fe-1",
+        "case_id": "SB-e851ca36",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded KA-C5-001#cl-15 check-meter threshold applied",
+        "gold_evidence": [
+          "KA-C5-001#cl-15"
+        ],
+        "expected_behavior": "Apply KA-C5-006#cl-18",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      },
+      {
+        "fault_event_id": "SB-e851ca36#fe-2",
+        "case_id": "SB-e851ca36",
+        "fault_class": "F2",
+        "fault_subtype": null,
+        "gold_trigger": "other-state GJ-C3-003#cl-13.5-check check-meter threshold applied",
+        "gold_evidence": [
+          "GJ-C3-003#cl-13.5-check"
+        ],
+        "expected_behavior": "Apply KA-C5-006#cl-18",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-e851ca36#nfo-1",
+        "case_id": "SB-e851ca36",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-18 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-e851ca36#nfo-2",
+        "case_id": "SB-e851ca36",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-18 governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-632b2212",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-13.5-class",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 30.0,
+      "connected_load_kw": 30.0,
+      "proposed_capacity_kw": 25.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2025-12-23"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 53DEC0E19C4E\nBilling Name: Jignesh Desai\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 30.0 kW\nConnected Load: 30.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-12-23)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Jignesh Desai (Consumer ID: 53DEC0E19C4E)\nProposed DC Capacity: 25.00 kWp\nInverter Rating: 25.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Check Meter: Not provided\nSolar Generation Meter: accuracy class 1.0\nNet Meter: accuracy class 0.5S",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-53DEC0\nApplication Submission Date: 2025-12-23\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-class",
+        "clause": "Amended Reg 13.5 (meter class)",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy"
+      },
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-check",
+        "clause": "Reg 13.5 (replaced 2020), check meters",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "equipment_verification",
+      "root_cause": "check_meter_missing",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 25,
+          "check_meter_threshold_kw": 20.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-13.5-class,GJ-C3-003#cl-13.5-check",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F4",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-632b2212#fe-1",
+        "case_id": "SB-632b2212",
+        "fault_class": "F4",
+        "fault_subtype": "F4-R",
+        "gold_trigger": "GJ-C3-003#cl-13.5-check (check meter above 20 kW) also decides the case",
+        "gold_evidence": [
+          "GJ-C3-003#cl-13.5-check"
+        ],
+        "expected_behavior": "Cite and apply GJ-C3-003#cl-13.5-check",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-632b2212#nfo-1",
+        "case_id": "SB-632b2212",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-13.5-class is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-632b2212#nfo-2",
+        "case_id": "SB-632b2212",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-13.5-class governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-9f927b9d",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "TN-C5-002#cl-I.2",
+    "facts": {
+      "state": "TN",
+      "discom": "TANGEDCO",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 8.0,
+      "connected_load_kw": 12.0,
+      "proposed_capacity_kw": 10.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2022-12-07"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TANGEDCO\nConsumer No / K-No: 885E1012B782\nBilling Name: Murugan Selvam\nTariff Category: LA-1A Domestic\nSanctioned Load / Contract Demand: 8.0 kW\nConnected Load: 12.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2022-12-07)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Murugan Selvam (Consumer ID: 885E1012B782)\nProposed DC Capacity: 10.00 kWp\nInverter Rating: 10.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Billing",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TANGEDCO)\nApplication Reference: RTS-TN-885E10\nApplication Submission Date: 2022-12-07\nCurrent Workflow Stage: Technical Feasibility"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "TN-C5-002#cl-I.2",
+        "clause": "I.2 (net billing / net feed-in capacity)",
+        "effective_date": "2021-10-22",
+        "jurisdiction": "TN",
+        "applicability_basis": "All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "technical_feasibility",
+      "root_cause": "capacity_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 8,
+          "proposed_capacity_kw": 10,
+          "max_permissible_kw": 8
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:TN-C5-002#cl-I.2",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F6",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-9f927b9d#fe-1",
+        "case_id": "SB-9f927b9d",
+        "fault_class": "F6",
+        "fault_subtype": null,
+        "gold_trigger": "binding connected load as sanctioned load",
+        "gold_evidence": [
+          "sanctioned_load_kw"
+        ],
+        "expected_behavior": "Bind sanctioned load (8 kW)",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-9f927b9d#nfo-1",
+        "case_id": "SB-9f927b9d",
+        "target_property": "currency",
+        "claim_text": "TN-C5-002#cl-I.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-9f927b9d#nfo-2",
+        "case_id": "SB-9f927b9d",
+        "target_property": "jurisdiction",
+        "claim_text": "TN-C5-002#cl-I.2 governs TN applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-940e925b",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-3.2",
+    "facts": {
+      "state": "DL",
+      "discom": "BRPL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 30.0,
+      "connected_load_kw": 30.0,
+      "proposed_capacity_kw": 120.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "metering_arrangement_approval",
+      "install_before_feasibility": null,
+      "case_date": "2026-06-23"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BRPL\nConsumer No / K-No: A7FF0D9737D9\nBilling Name: Ritu Khanna\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 30.0 kW\nConnected Load: 30.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-06-23)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Ritu Khanna (Consumer ID: A7FF0D9737D9)\nProposed DC Capacity: 120.00 kWp\nInverter Rating: 120.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)\nParticipating consumers: commercial shops in one market association",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)\nApplication Reference: RTS-DL-A7FF0D\nApplication Submission Date: 2026-06-23\nCurrent Workflow Stage: Metering Arrangement Approval"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-3.2",
+        "clause": "Guideline 3(2) (substituted)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "vnm_eligible": true,
+          "sanctioned_load_kw": 30,
+          "proposed_capacity_kw": 120,
+          "max_permissible_kw": 150.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-3.2",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-940e925b#fe-1",
+        "case_id": "SB-940e925b",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded DL-C3-006#cl-3.2 applied to VNM eligibility",
+        "gold_evidence": [
+          "DL-C3-006#cl-3.2"
+        ],
+        "expected_behavior": "Apply DL-C3-015#cl-3.2",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-940e925b#nfo-1",
+        "case_id": "SB-940e925b",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-3.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-940e925b#nfo-2",
+        "case_id": "SB-940e925b",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-3.2 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-8bbbbb5f",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-5-proviso",
+    "facts": {
+      "state": "GJ",
+      "discom": "UGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 3.0,
+      "connected_load_kw": 3.0,
+      "proposed_capacity_kw": 5.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2024-11-04"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: UGVCL\nConsumer No / K-No: 6EE5BEC489DC\nBilling Name: Hiral Patel\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 3.0 kW\nConnected Load: 3.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2024-11-04)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Hiral Patel (Consumer ID: 6EE5BEC489DC)\nProposed DC Capacity: 5.00 kWp\nInverter Rating: 5.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)\nApplication Reference: RTS-GJ-6EE5BE\nApplication Submission Date: 2024-11-04\nCurrent Workflow Stage: Technical Feasibility\nDistribution Transformer Rating: 100 kVA\nExisting Solar on Transformer: 50.0 kW\nResultant Cumulative Solar Capacity: 55.0 kW"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-5-proviso",
+        "clause": "Amended Reg 5 proviso (DT limit)",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "dt_capacity_kva": 100,
+          "cumulative_solar_kw": 55,
+          "saturation_pct": 55.0,
+          "permissible_kw": 100.0,
+          "excess_kw": 0.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-5-proviso",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-8bbbbb5f#nfo-1",
+        "case_id": "SB-8bbbbb5f",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-5-proviso is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-8bbbbb5f#nfo-2",
+        "case_id": "SB-8bbbbb5f",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-5-proviso governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-1873dafe",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "UP-C3-002#cl-5.1",
+    "facts": {
+      "state": "UP",
+      "discom": "MVVNL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 4.0,
+      "connected_load_kw": 4.0,
+      "proposed_capacity_kw": 5.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2023-04-19"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MVVNL\nConsumer No / K-No: 9C5003262D1E\nBilling Name: Sunita Mishra\nTariff Category: LMV-1 Domestic Light, Fan & Power\nSanctioned Load / Contract Demand: 4.0 kW\nConnected Load: 4.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2023-04-19)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Sunita Mishra (Consumer ID: 9C5003262D1E)\nProposed DC Capacity: 5.00 kWp\nInverter Rating: 5.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MVVNL)\nApplication Reference: RTS-UP-9C5003\nApplication Submission Date: 2023-04-19\nCurrent Workflow Stage: Technical Feasibility"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "UP-C3-002#cl-5.1",
+        "clause": "Reg. 5.1 and proviso",
+        "effective_date": "2019-01-04",
+        "jurisdiction": "UP",
+        "applicability_basis": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /con"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "technical_feasibility",
+      "root_cause": "capacity_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 4,
+          "proposed_capacity_kw": 5,
+          "max_permissible_kw": 4
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:UP-C3-002#cl-5.1",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-1873dafe#nfo-1",
+        "case_id": "SB-1873dafe",
+        "target_property": "currency",
+        "claim_text": "UP-C3-002#cl-5.1 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-1873dafe#nfo-2",
+        "case_id": "SB-1873dafe",
+        "target_property": "jurisdiction",
+        "claim_text": "UP-C3-002#cl-5.1 governs UP applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-8b99a646",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-3.6",
+    "facts": {
+      "state": "DL",
+      "discom": "BRPL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 400.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "registration",
+      "install_before_feasibility": null,
+      "case_date": "2026-04-11"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BRPL\nConsumer No / K-No: 3A3A9DD3C6EA\nBilling Name: Rohit Sehgal\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-04-11)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Rohit Sehgal (Consumer ID: 3A3A9DD3C6EA)\nProposed DC Capacity: 400.00 kWp\nInverter Rating: 400.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)\nApplication Reference: RTS-DL-3A3A9D\nApplication Submission Date: 2026-04-11\nCurrent Workflow Stage: Registration\nConnection Voltage of RE System: 11 kV\nCumulative VNM/GNM Capacity in BRPL incl. this project: 95 MW\nService Line cum Development (SLD) Charges: Not paid"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-3.6",
+        "clause": "Guideline 3(6) (substituted, dated 20.01.2026)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRP"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "cumulative_vnm_gnm_mw": 95,
+          "sld_waived": true
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-3.6",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-8b99a646#fe-1",
+        "case_id": "SB-8b99a646",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded DL-C3-009#cl-3.6 applied to the SLD waiver cap",
+        "gold_evidence": [
+          "DL-C3-009#cl-3.6"
+        ],
+        "expected_behavior": "Apply DL-C3-015#cl-3.6",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-8b99a646#nfo-1",
+        "case_id": "SB-8b99a646",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-3.6 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-8b99a646#nfo-2",
+        "case_id": "SB-8b99a646",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-3.6 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-6f0e9c5f",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-004#cl-6.2a",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "industrial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 300.0,
+      "connected_load_kw": 300.0,
+      "proposed_capacity_kw": 120.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2025-09-12"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 580F1C5B4E14\nBilling Name: Hiral Patel\nTariff Category: HTP-I Industrial\nSanctioned Load / Contract Demand: 300.0 kW\nConnected Load: 300.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-09-12)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Hiral Patel (Consumer ID: 580F1C5B4E14)\nProposed DC Capacity: 120.00 kWp\nInverter Rating: 120.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nUse of Generation: Captive consumption under net metering (non-residential)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-580F1C\nApplication Submission Date: 2025-09-12\nCurrent Workflow Stage: Technical Feasibility"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-004#cl-6.2a",
+        "clause": "Amended Reg 6.2(a)",
+        "effective_date": "2022-05-31",
+        "jurisdiction": "GJ",
+        "applicability_basis": "Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW."
+      },
+      {
+        "rule_id": "GJ-C3-004#cl-6.2c-ii",
+        "clause": "Amended Reg 6.2(c)(ii)",
+        "effective_date": "2022-05-31",
+        "jurisdiction": "GJ",
+        "applicability_basis": "No capacity restrictions upto sanctioned load/ contracted demand shall be applicable for the captive consumers and project set up under Third Party Sale within "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 300,
+          "proposed_capacity_kw": 120,
+          "max_permissible_kw": 1000.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-004#cl-6.2a,GJ-C3-004#cl-6.2c-ii",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-6f0e9c5f#nfo-1",
+        "case_id": "SB-6f0e9c5f",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-004#cl-6.2a is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-6f0e9c5f#nfo-2",
+        "case_id": "SB-6f0e9c5f",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-004#cl-6.2a governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-3fae633b",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "TN-C5-002#cl-I.2",
+    "facts": {
+      "state": "TN",
+      "discom": "TANGEDCO",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 4.0,
+      "connected_load_kw": 4.0,
+      "proposed_capacity_kw": 6.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2022-08-18"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TANGEDCO\nConsumer No / K-No: 43B6F77FD4CD\nBilling Name: Lakshmi Narayanan\nTariff Category: LA-1A Domestic\nSanctioned Load / Contract Demand: 4.0 kW\nConnected Load: 4.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2022-08-18)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Lakshmi Narayanan (Consumer ID: 43B6F77FD4CD)\nProposed DC Capacity: 6.00 kWp\nInverter Rating: 6.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Billing",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TANGEDCO)\nApplication Reference: RTS-TN-43B6F7\nApplication Submission Date: 2022-08-18\nCurrent Workflow Stage: Technical Feasibility"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "TN-C5-002#cl-I.2",
+        "clause": "I.2 (net billing / net feed-in capacity)",
+        "effective_date": "2021-10-22",
+        "jurisdiction": "TN",
+        "applicability_basis": "All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "technical_feasibility",
+      "root_cause": "capacity_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "sanctioned_load_kw": 4,
+          "proposed_capacity_kw": 6,
+          "max_permissible_kw": 4
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:TN-C5-002#cl-I.2",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F2",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-3fae633b#fe-1",
+        "case_id": "SB-3fae633b",
+        "fault_class": "F2",
+        "fault_subtype": null,
+        "gold_trigger": "other-state GJ-C3-004#cl-6.2c-i applied to the capacity limit",
+        "gold_evidence": [
+          "GJ-C3-004#cl-6.2c-i"
+        ],
+        "expected_behavior": "Apply TN-C5-002#cl-I.2",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-3fae633b#nfo-1",
+        "case_id": "SB-3fae633b",
+        "target_property": "currency",
+        "claim_text": "TN-C5-002#cl-I.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-3fae633b#nfo-2",
+        "case_id": "SB-3fae633b",
+        "target_property": "jurisdiction",
+        "claim_text": "TN-C5-002#cl-I.2 governs TN applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-032d9870",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "UP-C3-002#cl-6.2",
+    "facts": {
+      "state": "UP",
+      "discom": "PVVNL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 8.0,
+      "connected_load_kw": 8.0,
+      "proposed_capacity_kw": 6.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2023-07-04"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: PVVNL\nConsumer No / K-No: 96115508AA57\nBilling Name: Sunita Mishra\nTariff Category: LMV-1 Domestic Light, Fan & Power\nSanctioned Load / Contract Demand: 8.0 kW\nConnected Load: 8.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2023-07-04)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Sunita Mishra (Consumer ID: 96115508AA57)\nProposed DC Capacity: 6.00 kWp\nInverter Rating: 6.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)\nApplication Reference: RTS-UP-961155\nApplication Submission Date: 2023-07-04\nCurrent Workflow Stage: Technical Feasibility\nDistribution Transformer Rating: 100 kVA\nExisting Solar on Transformer: 72.0 kW\nResultant Cumulative Solar Capacity: 78.0 kW"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "UP-C3-002#cl-6.2",
+        "clause": "Reg. 6.2",
+        "effective_date": "2019-01-04",
+        "jurisdiction": "UP",
+        "applicability_basis": "6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligib"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "technical_feasibility",
+      "root_cause": "dt_hosting_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "dt_capacity_kva": 100,
+          "cumulative_solar_kw": 78,
+          "saturation_pct": 78.0,
+          "permissible_kw": 75.0,
+          "excess_kw": 3.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:UP-C3-002#cl-6.2",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F2",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-032d9870#fe-1",
+        "case_id": "SB-032d9870",
+        "fault_class": "F2",
+        "fault_subtype": null,
+        "gold_trigger": "other-state KA-C5-006#cl-4 applied to the hosting limit",
+        "gold_evidence": [
+          "KA-C5-006#cl-4"
+        ],
+        "expected_behavior": "Apply UP-C3-002#cl-6.2",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-032d9870#nfo-1",
+        "case_id": "SB-032d9870",
+        "target_property": "currency",
+        "claim_text": "UP-C3-002#cl-6.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-032d9870#nfo-2",
+        "case_id": "SB-032d9870",
+        "target_property": "jurisdiction",
+        "claim_text": "UP-C3-002#cl-6.2 governs UP applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-509700a5",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-9.2b",
+    "facts": {
+      "state": "DL",
+      "discom": "BRPL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 50.0,
+      "connected_load_kw": 50.0,
+      "proposed_capacity_kw": 150.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "vnm_arrangement_modification",
+      "install_before_feasibility": null,
+      "case_date": "2026-04-01"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BRPL\nConsumer No / K-No: E25B313C5BD0\nBilling Name: Rohit Sehgal\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 50.0 kW\nConnected Load: 50.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-04-01)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Rohit Sehgal (Consumer ID: E25B313C5BD0)\nProposed DC Capacity: 150.00 kWp\nInverter Rating: 150.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)\nApplication Reference: RTS-DL-E25B31\nApplication Submission Date: 2026-04-01\nCurrent Workflow Stage: VNM Arrangement Modification\nRequest: add a participating service connection to the existing VNM arrangement (MoU on file)\nShare/Participant Changes Already Made This Financial Year: 1\nAdvance Notice Given: 1 months"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-9.2b",
+        "clause": "Guideline 9(2)(b) (substituted)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "metering_mode_selection",
+      "root_cause": "vnm_change_not_permitted",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "changes_already_this_fy": 1,
+          "notice_months": 1
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-9.2b",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-509700a5#nfo-1",
+        "case_id": "SB-509700a5",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-9.2b is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-509700a5#nfo-2",
+        "case_id": "SB-509700a5",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-9.2b governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-06dccf10",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "IN-C1-001#cl-annex1-ii-amended",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 2.0,
+      "connected_load_kw": 2.0,
+      "proposed_capacity_kw": 4.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": true,
+      "application_stage": "subsidy_claim_review",
+      "install_before_feasibility": null,
+      "case_date": "2026-03-30"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 55E9277DC9EF\nBilling Name: Hiral Patel\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 2.0 kW\nConnected Load: 2.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-03-30)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Hiral Patel (Consumer ID: 55E9277DC9EF)\nProposed DC Capacity: 4.00 kWp\nInverter Rating: 4.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nProgramme: Rooftop Solar Programme Phase-II (application submitted 2023-12-05)\nCFA Claim Received On: 2026-02-16\nInstallation Status as on 01.04.2025: Installed and inspected",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-55E927\nApplication Submission Date: 2026-03-30\nCurrent Workflow Stage: Subsidy Claim Review\nScheme: CFA for residential rooftop solar"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "IN-C1-001#cl-annex1-ii-amended",
+        "clause": "Amendment OM 318/140/2024 (07.07.2025), Annexure 1 item ii (amended column)",
+        "effective_date": "2025-07-07",
+        "jurisdiction": "IN",
+        "applicability_basis": "CFAiftheclaimisreceived till October admissible for CFA.if claim is received till 2024.Theclaimsreceivedafter 31.12.2025."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "subsidy_approval",
+      "root_cause": "cfa_claim_not_admissible",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "phase2_application": true,
+          "claim_admissible": false
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:IN-C1-001#cl-annex1-ii-amended",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F6",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-06dccf10#fe-1",
+        "case_id": "SB-06dccf10",
+        "fault_class": "F6",
+        "fault_subtype": null,
+        "gold_trigger": "binding the application date as the claim date",
+        "gold_evidence": [
+          "claim_date"
+        ],
+        "expected_behavior": "Bind the claim date (2026-02-16)",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-06dccf10#nfo-1",
+        "case_id": "SB-06dccf10",
+        "target_property": "currency",
+        "claim_text": "IN-C1-001#cl-annex1-ii-amended is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-06dccf10#nfo-2",
+        "case_id": "SB-06dccf10",
+        "target_property": "jurisdiction",
+        "claim_text": "PM Surya Ghar guidelines are central and govern every state",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-1595d3ab",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-3.6",
+    "facts": {
+      "state": "DL",
+      "discom": "TPDDL",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 100.0,
+      "connected_load_kw": 100.0,
+      "proposed_capacity_kw": 400.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "registration",
+      "install_before_feasibility": null,
+      "case_date": "2026-05-18"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: TPDDL\nConsumer No / K-No: 61F3DCEAB4BE\nBilling Name: Ritu Khanna\nTariff Category: NDLT Non-Domestic\nSanctioned Load / Contract Demand: 100.0 kW\nConnected Load: 100.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-05-18)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Ritu Khanna (Consumer ID: 61F3DCEAB4BE)\nProposed DC Capacity: 400.00 kWp\nInverter Rating: 400.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Group Net Metering (ground-mounted RE system)",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)\nApplication Reference: RTS-DL-61F3DC\nApplication Submission Date: 2026-05-18\nCurrent Workflow Stage: Registration\nConnection Voltage of RE System: 11 kV\nCumulative VNM/GNM Capacity in TPDDL incl. this project: 120 MW\nService Line cum Development (SLD) Charges: Paid"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-3.6",
+        "clause": "Guideline 3(6) (substituted, dated 20.01.2026)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn\u2019t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRP"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "cumulative_vnm_gnm_mw": 120,
+          "sld_waived": false
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-3.6",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-1595d3ab#nfo-1",
+        "case_id": "SB-1595d3ab",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-3.6 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-1595d3ab#nfo-2",
+        "case_id": "SB-1595d3ab",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-3.6 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-3951f18b",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "GJ-C3-003#cl-13.5-class",
+    "facts": {
+      "state": "GJ",
+      "discom": "MGVCL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 20.0,
+      "connected_load_kw": 20.0,
+      "proposed_capacity_kw": 15.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "meter_installation",
+      "install_before_feasibility": null,
+      "case_date": "2025-05-15"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: MGVCL\nConsumer No / K-No: 7D226F934C15\nBilling Name: Rakesh Chaudhari\nTariff Category: RGP (Residential General Purpose)\nSanctioned Load / Contract Demand: 20.0 kW\nConnected Load: 20.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2025-05-15)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Rakesh Chaudhari (Consumer ID: 7D226F934C15)\nProposed DC Capacity: 15.00 kWp\nInverter Rating: 15.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nSolar Generation Meter: accuracy class 0.5S\nNet Meter: accuracy class 0.5S",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)\nApplication Reference: RTS-GJ-7D226F\nApplication Submission Date: 2025-05-15\nCurrent Workflow Stage: Meter Installation"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "GJ-C3-003#cl-13.5-class",
+        "clause": "Amended Reg 13.5 (meter class)",
+        "effective_date": "2020-01-22",
+        "jurisdiction": "GJ",
+        "applicability_basis": "The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "solar_meter_class": 0.5,
+          "net_meter_class": 0.5
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:GJ-C3-003#cl-13.5-class",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-3951f18b#fe-1",
+        "case_id": "SB-3951f18b",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded GJ-C3-001#cl-13.5-class (0.2s solar meter) applied",
+        "gold_evidence": [
+          "GJ-C3-001#cl-13.5-class"
+        ],
+        "expected_behavior": "Apply GJ-C3-003#cl-13.5-class",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-3951f18b#nfo-1",
+        "case_id": "SB-3951f18b",
+        "target_property": "currency",
+        "claim_text": "GJ-C3-003#cl-13.5-class is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-3951f18b#nfo-2",
+        "case_id": "SB-3951f18b",
+        "target_property": "jurisdiction",
+        "claim_text": "GJ-C3-003#cl-13.5-class governs GJ applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-54aaaca3",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "KA-C5-006#cl-4-note-ii",
+    "facts": {
+      "state": "KA",
+      "discom": "HESCOM",
+      "consumer_category": "commercial",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 50.0,
+      "connected_load_kw": 50.0,
+      "proposed_capacity_kw": 40.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "technical_feasibility",
+      "install_before_feasibility": null,
+      "case_date": "2026-05-04"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: HESCOM\nConsumer No / K-No: D25D1DFF4A8A\nBilling Name: Lakshmi Hegde\nTariff Category: LT-3 Commercial\nSanctioned Load / Contract Demand: 50.0 kW\nConnected Load: 50.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-05-04)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Lakshmi Hegde (Consumer ID: D25D1DFF4A8A)\nProposed DC Capacity: 40.00 kWp\nInverter Rating: 40.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)\nApplication Reference: RTS-KA-D25D1D\nApplication Submission Date: 2026-05-04\nCurrent Workflow Stage: Technical Feasibility\nDays Elapsed Since Submission: 5\nDays Elapsed Since Registration/Acknowledgement: 5\nApplication Completeness: Complete in all respects\nTechnical Feasibility Outcome: Not communicated by the licensee"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "KA-C5-006#cl-4-note-ii",
+        "clause": "Item 4 note ii (deemed feasible up to 150 kW)",
+        "effective_date": "2025-12-01",
+        "jurisdiction": "KA",
+        "applicability_basis": "The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such "
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": null,
+      "next_action": "Proceed to the next stage",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "capacity_kw": 40,
+          "days_elapsed": 5
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:KA-C5-006#cl-4-note-ii",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F2",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "SB-54aaaca3#fe-1",
+        "case_id": "SB-54aaaca3",
+        "fault_class": "F2",
+        "fault_subtype": null,
+        "gold_trigger": "other-state GJ-C3-005#cl-7-proviso (deemed only up to 10 kW) applied to a 40 kW application",
+        "gold_evidence": [
+          "GJ-C3-005#cl-7-proviso"
+        ],
+        "expected_behavior": "Apply KA-C5-006#cl-4-note-ii",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-54aaaca3#nfo-1",
+        "case_id": "SB-54aaaca3",
+        "target_property": "currency",
+        "claim_text": "KA-C5-006#cl-4-note-ii is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-54aaaca3#nfo-2",
+        "case_id": "SB-54aaaca3",
+        "target_property": "jurisdiction",
+        "claim_text": "KA-C5-006#cl-4-note-ii governs KA applications",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-b926248c",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "IN-C1-001#cl-annex1-ii-amended",
+    "facts": {
+      "state": "KA",
+      "discom": "HESCOM",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 4.0,
+      "connected_load_kw": 4.0,
+      "proposed_capacity_kw": 3.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": true,
+      "application_stage": "subsidy_claim_review",
+      "install_before_feasibility": null,
+      "case_date": "2026-02-14"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: HESCOM\nConsumer No / K-No: 957AE770AE0B\nBilling Name: Asha Kulkarni\nTariff Category: LT-2(a) Domestic\nSanctioned Load / Contract Demand: 4.0 kW\nConnected Load: 4.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-02-14)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Asha Kulkarni (Consumer ID: 957AE770AE0B)\nProposed DC Capacity: 3.00 kWp\nInverter Rating: 3.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Net Metering\nProgramme: Rooftop Solar Programme Phase-II (application submitted 2023-09-04)\nCFA Claim Received On: 2026-01-15\nInstallation Status as on 01.04.2025: Installed and inspected",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)\nApplication Reference: RTS-KA-957AE7\nApplication Submission Date: 2026-02-14\nCurrent Workflow Stage: Subsidy Claim Review\nScheme: CFA for residential rooftop solar"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "IN-C1-001#cl-annex1-ii-amended",
+        "clause": "Amendment OM 318/140/2024 (07.07.2025), Annexure 1 item ii (amended column)",
+        "effective_date": "2025-07-07",
+        "jurisdiction": "IN",
+        "applicability_basis": "CFAiftheclaimisreceived till October admissible for CFA.if claim is received till 2024.Theclaimsreceivedafter 31.12.2025."
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "subsidy_approval",
+      "root_cause": "cfa_claim_not_admissible",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "phase2_application": true,
+          "claim_admissible": false
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:IN-C1-001#cl-annex1-ii-amended",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-b926248c#nfo-1",
+        "case_id": "SB-b926248c",
+        "target_property": "currency",
+        "claim_text": "IN-C1-001#cl-annex1-ii-amended is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-b926248c#nfo-2",
+        "case_id": "SB-b926248c",
+        "target_property": "jurisdiction",
+        "claim_text": "PM Surya Ghar guidelines are central and govern every state",
+        "gold_valid": true
+      }
+    ]
+  },
+  {
+    "case_id": "SB-f9773ee1",
+    "corpus_version": "SuryaBench-Corpus-2026.10-r3",
+    "cluster_id": "DL-C3-015#cl-3.2",
+    "facts": {
+      "state": "DL",
+      "discom": "BRPL",
+      "consumer_category": "residential",
+      "tariff_slab": null,
+      "sanctioned_load_kw": 30.0,
+      "connected_load_kw": 30.0,
+      "proposed_capacity_kw": 200.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": false,
+      "application_stage": "metering_arrangement_approval",
+      "install_before_feasibility": null,
+      "case_date": "2026-03-21"
+    },
+    "inputs": {
+      "bill": "ELECTRICITY DISTRIBUTION UTILITY: BRPL\nConsumer No / K-No: DE8A6F9863B8\nBilling Name: Sanjay Arora\nTariff Category: DX Domestic\nSanctioned Load / Contract Demand: 30.0 kW\nConnected Load: 30.0 kW\nBilling Cycle: Monthly (Last Meter Reading: 2026-03-21)",
+      "proposal": "ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL\nClient: Sanjay Arora (Consumer ID: DE8A6F9863B8)\nProposed DC Capacity: 200.00 kWp\nInverter Rating: 200.00 kVA (AC)\nSolar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)\nCell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)\nRequested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)\nParticipating consumers: domestic connections in one housing society",
+      "portal_state": "UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)\nApplication Reference: RTS-DL-DE8A6F\nApplication Submission Date: 2026-03-21\nCurrent Workflow Stage: Metering Arrangement Approval"
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "DL-C3-015#cl-3.2",
+        "clause": "Guideline 3(2) (substituted)",
+        "effective_date": "2026-01-20",
+        "jurisdiction": "DL",
+        "applicability_basis": "Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply."
+      },
+      {
+        "rule_id": "DL-C3-009#cl-3.8",
+        "clause": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+        "effective_date": "2024-04-01",
+        "jurisdiction": "DL",
+        "applicability_basis": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GN"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": "metering_mode_selection",
+      "root_cause": "capacity_limit_exceeded",
+      "next_action": "Reject at the blocking stage and notify the applicant",
+      "prohibited_actions": [],
+      "computed": [
+        {
+          "vnm_eligible": true,
+          "sanctioned_load_kw": 30,
+          "proposed_capacity_kw": 200,
+          "max_permissible_kw": 150.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "rule_function:DL-C3-015#cl-3.2,DL-C3-009#cl-3.8",
+      "confidence": "high"
+    },
+    "failure_class_probed": "CLEAN",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "SB-f9773ee1#nfo-1",
+        "case_id": "SB-f9773ee1",
+        "target_property": "currency",
+        "claim_text": "DL-C3-015#cl-3.2 is in force at the case date",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "SB-f9773ee1#nfo-2",
+        "case_id": "SB-f9773ee1",
+        "target_property": "jurisdiction",
+        "claim_text": "DL-C3-015#cl-3.2 governs DL applications",
+        "gold_valid": true
+      }
+    ]
+  }
+]

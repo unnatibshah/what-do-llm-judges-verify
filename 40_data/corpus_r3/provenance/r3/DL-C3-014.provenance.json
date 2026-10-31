@@ -1,0 +1,28 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/DERC%20%28Group%20Net%20Metering%20and%20Virtual%20Net%20Metering%20for%20Renewable%20Energy%29%20%28Sixth%20Amendment%29%20Guidelines%2C%202025.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:51Z",
+  "sha256": "076fd51d5ed4176dae1a5c72186e992ac246acdc3e273c12c111e70953958df2",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "DERC (GNM and VNM for Renewable Energy) (Sixth Amendment) Guidelines, 2025",
+  "number": "F.3(620)/Tariff-Engg./DERC/2020-21/6846",
+  "printed_date": "2025-06-05",
+  "file_type": "PDF document, version 1.5, 1 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Guideline 8(2)(c),(e) (substituted)",
+      "verbatim_quote": "‘“occurred during the normal time block for Time of Day (ToD) consumers and normal time block for Non-ToD consumers.”",
+      "page": 1,
+      "topic": "Surplus credit time-block: off-peak -> normal for ToD consumers",
+      "numeric_values": {},
+      "amends_or_supersedes": {
+        "doc": "DL-GNMVNM-2019-guidelines",
+        "clause_ref": "Guideline 8(2)(c),(e)",
+        "evidence_quote": "as if the surplus generation/ Energy Credits occurred during the off peak time block for Time of Day ( ToD) consumers and normal time block for Non-ToD consumer.",
+        "evidence_page": 5
+      },
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

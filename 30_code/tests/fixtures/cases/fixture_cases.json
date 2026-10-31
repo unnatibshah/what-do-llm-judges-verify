@@ -1,0 +1,96 @@
+[
+  {
+    "case_id": "MH-T1-001",
+    "corpus_version": "SuryaBench-Corpus-2026.11-fixture",
+    "facts": {
+      "state": "MH",
+      "discom": "MSEDCL",
+      "consumer_category": "residential",
+      "sanctioned_load_kw": 15.0,
+      "connected_load_kw": 15.0,
+      "proposed_capacity_kw": 12.0,
+      "premises_type": "individual",
+      "metering_mode": "net",
+      "module_almm_status": "listed",
+      "dcr_claimed": true,
+      "subsidy_claimed": true,
+      "application_stage": "feasibility_review",
+      "install_before_feasibility": false,
+      "case_date": "2026-11-01"
+    },
+    "inputs": {
+      "bill": "MSEDCL Electricity Bill: Consumer No. 028510001234. Category: LT-I Residential. Sanctioned Load: 15 kW. Connected Load: 15 kW. Status: Active.",
+      "proposal": "Solar Installer Proposal: 12 kW Grid-Interactive Rooftop Solar PV System. ALMM List-I compliant DCR modules. Grid interconnection under Net Metering arrangement with Central CFA subsidy.",
+      "portal_state": "MSEDCL National Rooftop Solar Portal: Feasibility application pending technical approval."
+    },
+    "applicable_rules": [
+      {
+        "rule_id": "MH-C3-002#cl-3",
+        "clause": "3",
+        "effective_date": "2024-03-01",
+        "jurisdiction": "MH",
+        "applicability_basis": "Enhanced 50 kW net metering cap applies to residential consumers in Maharashtra"
+      },
+      {
+        "rule_id": "IN-C1-001#cl-4.1",
+        "clause": "4.1",
+        "effective_date": "2024-02-13",
+        "jurisdiction": "IN",
+        "applicability_basis": "Central PM Surya Ghar subsidy rules for residential solar systems"
+      }
+    ],
+    "expected_answer": {
+      "blocking_stage": null,
+      "root_cause": "nominal_compliant",
+      "next_action": "proceed_to_metering_installation",
+      "prohibited_actions": [
+        "unauthorized_meter_tampering"
+      ],
+      "computed": [
+        {
+          "metric": "central_cfa_subsidy",
+          "eligible_capacity_kw": 3.0,
+          "subsidy_inr": 78000.0
+        }
+      ]
+    },
+    "ground_truth_provenance": {
+      "basis": "explicit_applicability",
+      "confidence": "high"
+    },
+    "failure_class_probed": "F3",
+    "expected_decision": "ANSWER",
+    "abstention_reason": null,
+    "fault_events": [
+      {
+        "fault_event_id": "MH-T1-001#fe-1",
+        "case_id": "MH-T1-001",
+        "fault_class": "F3",
+        "fault_subtype": null,
+        "gold_trigger": "superseded clause MH-C3-001#cl-7.2 (10 kW cap) is live in corpus and may be cited instead of 2024 amendment MH-C3-002#cl-3 (50 kW cap)",
+        "gold_evidence": [
+          "MH-C3-002#cl-3"
+        ],
+        "expected_behavior": "cite MH-C3-002#cl-3; do not cite MH-C3-001#cl-7.2",
+        "verifier_flag": null,
+        "verifier_evidence": null
+      }
+    ],
+    "non_fault_opportunities": [
+      {
+        "opportunity_id": "MH-T1-001#nfo-1",
+        "case_id": "MH-T1-001",
+        "target_property": "jurisdiction",
+        "claim_text": "Maharashtra regulations govern MSEDCL consumer in MH",
+        "gold_valid": true
+      },
+      {
+        "opportunity_id": "MH-T1-001#nfo-2",
+        "case_id": "MH-T1-001",
+        "target_property": "load_ratio",
+        "claim_text": "Proposed 12 kW does not exceed 15 kW sanctioned load",
+        "gold_valid": true
+      }
+    ]
+  }
+]

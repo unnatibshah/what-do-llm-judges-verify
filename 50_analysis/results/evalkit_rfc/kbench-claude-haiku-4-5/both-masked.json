@@ -1,0 +1,1571 @@
+{
+ "model": "kbench-claude-haiku-4-5",
+ "context": "both-masked",
+ "code_hash": "0f395bb15e0b",
+ "links": 24,
+ "model_info": {
+  "provider": "kaggle-benchmarks",
+  "model_version": "anthropic/claude-haiku-4-5@20251001"
+ },
+ "seconds": 141.8,
+ "rows": [
+  {
+   "item_id": "RFC6312>RFC6342#fault",
+   "link": "RFC6312>RFC6342",
+   "role": "fault",
+   "cited": "RFC6312",
+   "as_of": "2026-10-01",
+   "topic": "Mobile Networks Considerations for IPv6 Deployment",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "unsupported"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-0122",
+      "reason": "unsupported",
+      "rationale": "The evidence shows two documents with the same title 'Mobile Networks Considerations for IPv6 Deployment': DOC-0122 (published 2011-07) and DOC-E6F4 (published 2011-08). The answer cites DOC-0122 as the document specifying this title, but the evidence indicates both documents specify this title. The answer does not acknowledge or explain why DOC-0122 is selected over DOC-E6F4, making the citation unsupported by the evidence provided."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6312>RFC6342#control",
+   "link": "RFC6312>RFC6342",
+   "role": "control",
+   "cited": "RFC6342",
+   "as_of": "2026-10-01",
+   "topic": "Mobile Networks Considerations for IPv6 Deployment",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6312>RFC6342#date-control",
+   "link": "RFC6312>RFC6342",
+   "role": "date-control",
+   "cited": "RFC6312",
+   "as_of": "2011-07-28",
+   "topic": "Mobile Networks Considerations for IPv6 Deployment",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7042>RFC9542#fault",
+   "link": "RFC7042>RFC9542",
+   "role": "fault",
+   "cited": "RFC7042",
+   "as_of": "2026-10-01",
+   "topic": "IANA Considerations and IETF Protocol and Documentation Usage for IEEE 802 Parameters",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-1224",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-1224 (published 2013-10) had been superseded by DOC-6F7A (published 2024-04), which covers the same subject matter. The answer cites the outdated version rather than the current document specifying these IANA considerations."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7042>RFC9542#control",
+   "link": "RFC7042>RFC9542",
+   "role": "control",
+   "cited": "RFC9542",
+   "as_of": "2026-10-01",
+   "topic": "IANA Considerations and IETF Protocol and Documentation Usage for IEEE 802 Parameters",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7042>RFC9542#date-control",
+   "link": "RFC7042>RFC9542",
+   "role": "date-control",
+   "cited": "RFC7042",
+   "as_of": "2023-04-15",
+   "topic": "IANA Considerations and IETF Protocol and Documentation Usage for IEEE 802 Parameters",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2204>RFC5024#fault",
+   "link": "RFC2204>RFC5024",
+   "role": "fault",
+   "cited": "RFC2204",
+   "as_of": "2026-10-01",
+   "topic": "ODETTE File Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-E843",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-E843 (1997-09) had been superseded by DOC-72FC (2007-11), which is a later version of the ODETTE File Transfer Protocol specification. The answer cites the older document when a more current specification existed for nearly 19 years prior to the question date."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2204>RFC5024#control",
+   "link": "RFC2204>RFC5024",
+   "role": "control",
+   "cited": "RFC5024",
+   "as_of": "2026-10-01",
+   "topic": "ODETTE File Transfer Protocol",
+   "invalid": false,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reasons": [],
+   "reply": {
+    "verdict": "PASS",
+    "findings": []
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2204>RFC5024#date-control",
+   "link": "RFC2204>RFC5024",
+   "role": "date-control",
+   "cited": "RFC2204",
+   "as_of": "2006-11-15",
+   "topic": "ODETTE File Transfer Protocol",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4550>RFC5550#fault",
+   "link": "RFC4550>RFC5550",
+   "role": "fault",
+   "cited": "RFC4550",
+   "as_of": "2026-10-01",
+   "topic": "Internet Email to Support Diverse Service Environments (Lemonade) Profile",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-9547",
+      "reason": "superseded",
+      "rationale": "The evidence shows that DOC-2AD6, published 2009-08, is a later version of the same document (both specify 'Internet Email to Support Diverse Service Environments (Lemonade) Profile'). As of 2026-10-01, DOC-9547 from 2006-06 would have been superseded by the 2009-08 version. The answer should cite DOC-2AD6 as the current document specifying the Lemonade Profile."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4550>RFC5550#control",
+   "link": "RFC4550>RFC5550",
+   "role": "control",
+   "cited": "RFC5550",
+   "as_of": "2026-10-01",
+   "topic": "Internet Email to Support Diverse Service Environments (Lemonade) Profile",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4550>RFC5550#date-control",
+   "link": "RFC4550>RFC5550",
+   "role": "date-control",
+   "cited": "RFC4550",
+   "as_of": "2008-08-15",
+   "topic": "Internet Email to Support Diverse Service Environments (Lemonade) Profile",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8773>RFC9973#fault",
+   "link": "RFC8773>RFC9973",
+   "role": "fault",
+   "cited": "RFC8773",
+   "as_of": "2026-10-01",
+   "topic": "TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-A200",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-A200 (published 2020-03) has been superseded by DOC-9794 (published 2026-07), which specifies a more recent TLS 1.3 extension for the same functional purpose. The answer cites the older document when a newer specification exists on the question date."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8773>RFC9973#control",
+   "link": "RFC8773>RFC9973",
+   "role": "control",
+   "cited": "RFC9973",
+   "as_of": "2026-10-01",
+   "topic": "TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reasons": [
+    "not_yet_published"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-9794",
+      "reason": "not_yet_published",
+      "rationale": "The answer cites DOC-9794 as published in 2026-07, but the question asks about documents as of 2026-10-01. While DOC-9794 would exist by that date, the evidence shows DOC-A200 was published in 2020-03 and already specifies the exact title requested: 'TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key'. The answer should have cited DOC-A200 instead, which was available as of the question date."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8773>RFC9973#date-control",
+   "link": "RFC8773>RFC9973",
+   "role": "date-control",
+   "cited": "RFC8773",
+   "as_of": "2025-07-15",
+   "topic": "TLS 1.3 Extension for Certificate-Based Authentication with an External Pre-Shared Key",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6723>RFC8077#fault",
+   "link": "RFC6723>RFC8077",
+   "role": "fault",
+   "cited": "RFC6723",
+   "as_of": "2026-10-01",
+   "topic": "Update of the Pseudowire Control-Word Negotiation Mechanism",
+   "invalid": true,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6723>RFC8077#control",
+   "link": "RFC6723>RFC8077",
+   "role": "control",
+   "cited": "RFC8077",
+   "as_of": "2026-10-01",
+   "topic": "Update of the Pseudowire Control-Word Negotiation Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-44E0",
+      "reason": "not_applicable",
+      "rationale": "DOC-44E0 describes pseudowire setup and maintenance using LDP in general terms. The evidence shows it is a rewrite of an earlier document for publication as an Internet Standard, but it does not specifically address 'Update of the Pseudowire Control-Word Negotiation Mechanism.' The document that explicitly specifies this update is DOC-32C7 (published 2012-09), which directly titles and describes the control-word negotiation mechanism update."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC6723>RFC8077#date-control",
+   "link": "RFC6723>RFC8077",
+   "role": "date-control",
+   "cited": "RFC6723",
+   "as_of": "2016-02-15",
+   "topic": "Update of the Pseudowire Control-Word Negotiation Mechanism",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5046>RFC7145#fault",
+   "link": "RFC5046>RFC7145",
+   "role": "fault",
+   "cited": "RFC5046",
+   "as_of": "2026-10-01",
+   "topic": "Internet Small Computer System Interface (iSCSI) Extensions for Remote Direct Memory Access (RDMA)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-4444",
+      "reason": "superseded",
+      "rationale": "DOC-4444 was published in 2007-10. The evidence shows that DOC-AB1F, a later version titled 'Internet Small Computer System Interface (iSCSI) Extensions for the Remote Direct Memory Access (RDMA) Specification,' was published in 2014-04. As of 2026-10-01, DOC-AB1F would be the current specification, making DOC-4444 superseded. The answer should cite DOC-AB1F as the applicable document for that date."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5046>RFC7145#control",
+   "link": "RFC5046>RFC7145",
+   "role": "control",
+   "cited": "RFC7145",
+   "as_of": "2026-10-01",
+   "topic": "Internet Small Computer System Interface (iSCSI) Extensions for Remote Direct Memory Access (RDMA)",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5046>RFC7145#date-control",
+   "link": "RFC5046>RFC7145",
+   "role": "date-control",
+   "cited": "RFC5046",
+   "as_of": "2013-04-15",
+   "topic": "Internet Small Computer System Interface (iSCSI) Extensions for Remote Direct Memory Access (RDMA)",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8407>RFC9907#fault",
+   "link": "RFC8407>RFC9907",
+   "role": "fault",
+   "cited": "RFC8407",
+   "as_of": "2026-10-01",
+   "topic": "Guidelines for Authors and Reviewers of Documents Containing YANG Data Models",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-4A5B",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-4A5B (published 2018-10) had been superseded by DOC-0E2E (published 2026-03), which is the current document specifying guidelines for authors and reviewers of documents containing YANG data models. The answer cites the outdated version rather than the applicable current document."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8407>RFC9907#control",
+   "link": "RFC8407>RFC9907",
+   "role": "control",
+   "cited": "RFC9907",
+   "as_of": "2026-10-01",
+   "topic": "Guidelines for Authors and Reviewers of Documents Containing YANG Data Models",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8407>RFC9907#date-control",
+   "link": "RFC8407>RFC9907",
+   "role": "date-control",
+   "cited": "RFC8407",
+   "as_of": "2025-03-15",
+   "topic": "Guidelines for Authors and Reviewers of Documents Containing YANG Data Models",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-4A5B",
+      "reason": "superseded",
+      "rationale": "As of 2025-03-15, DOC-4A5B (published 2018-10) had been superseded by DOC-0E2E (published 2026-03). However, note that DOC-0E2E's publication date of 2026-03 is in the future relative to the question date of 2025-03-15, which creates a logical inconsistency in the evidence. If DOC-0E2E is available as of 2025-03-15, then DOC-4A5B would be the superseded version. The answer should cite the current/latest applicable document."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5953>RFC6353#fault",
+   "link": "RFC5953>RFC6353",
+   "role": "fault",
+   "cited": "RFC5953",
+   "as_of": "2026-10-01",
+   "topic": "Transport Layer Security (TLS) Transport Model for the Simple Network Management Protocol (SNMP)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-1452",
+      "reason": "superseded",
+      "rationale": "The evidence shows that DOC-F046, published 2011-07, is a later document specifying the same standard. As of 2026-10-01, DOC-1452 (2010-08) would have been superseded by DOC-F046 (2011-07), making it not the current document specifying this transport model."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5953>RFC6353#control",
+   "link": "RFC5953>RFC6353",
+   "role": "control",
+   "cited": "RFC6353",
+   "as_of": "2026-10-01",
+   "topic": "Transport Layer Security (TLS) Transport Model for the Simple Network Management Protocol (SNMP)",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5953>RFC6353#date-control",
+   "link": "RFC5953>RFC6353",
+   "role": "date-control",
+   "cited": "RFC5953",
+   "as_of": "2010-08-28",
+   "topic": "Transport Layer Security (TLS) Transport Model for the Simple Network Management Protocol (SNMP)",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3941>RFC5401#fault",
+   "link": "RFC3941>RFC5401",
+   "role": "fault",
+   "cited": "RFC3941",
+   "as_of": "2026-10-01",
+   "topic": "Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-9950",
+      "reason": "superseded",
+      "rationale": "DOC-9950 (published 2004-11) was superseded by DOC-39A5 (published 2008-11), which covers the same subject matter ('Multicast Negative-Acknowledgment (NACK) Building Blocks') with a later publication date and STANDARDS-TRACK status. As of 2026-10-01, DOC-39A5 would be the current document specifying this functionality."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3941>RFC5401#control",
+   "link": "RFC3941>RFC5401",
+   "role": "control",
+   "cited": "RFC5401",
+   "as_of": "2026-10-01",
+   "topic": "Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "unsupported"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-39A5",
+      "reason": "unsupported",
+      "rationale": "The answer cites DOC-39A5 as specifying 'Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks', but the evidence shows DOC-39A5 is titled 'Multicast Negative-Acknowledgment (NACK) Building Blocks' without the 'NORM' designation. The document that explicitly specifies 'Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks' is DOC-9950 (2004-11), which is the correct document for this specification."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3941>RFC5401#date-control",
+   "link": "RFC3941>RFC5401",
+   "role": "date-control",
+   "cited": "RFC3941",
+   "as_of": "2007-11-15",
+   "topic": "Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building Blocks",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3189>RFC6469#fault",
+   "link": "RFC3189>RFC6469",
+   "role": "fault",
+   "cited": "RFC3189",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload Format for DV (IEC 61834) Video",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-741A",
+      "reason": "superseded",
+      "rationale": "DOC-741A (2002-01) was superseded by DOC-7D03 (2011-12) before the question date of 2026-10-01. As of that date, DOC-7D03 is the current document specifying RTP Payload Format for DV (IEC 61834) Video, not DOC-741A."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3189>RFC6469#control",
+   "link": "RFC3189>RFC6469",
+   "role": "control",
+   "cited": "RFC6469",
+   "as_of": "2026-10-01",
+   "topic": "RTP Payload Format for DV (IEC 61834) Video",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-7D03",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-7D03 (published 2011-12) would have been superseded by DOC-741A or other later documents. However, the evidence shows DOC-741A was published in 2002-01, making it older than DOC-7D03. The answer cites DOC-7D03 as current, but without evidence of what specifications exist after 2011-12, it cannot be confirmed this is the latest document as of 2026-10-01. The answer may be citing an obsoleted version when a newer one exists."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3189>RFC6469#date-control",
+   "link": "RFC3189>RFC6469",
+   "role": "date-control",
+   "cited": "RFC3189",
+   "as_of": "2010-12-15",
+   "topic": "RTP Payload Format for DV (IEC 61834) Video",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4813>RFC5613#fault",
+   "link": "RFC4813>RFC5613",
+   "role": "fault",
+   "cited": "RFC4813",
+   "as_of": "2026-10-01",
+   "topic": "OSPF Link-Local Signaling",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-E466",
+      "reason": "superseded",
+      "rationale": "The evidence shows DOC-DF25 was published in 2009-08, which is later than DOC-E466 (2007-03). As of 2026-10-01, DOC-E466 appears to have been superseded by the later DOC-DF25 document on the same topic ('OSPF Link-Local Signaling'). The answer should cite the more recent document."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4813>RFC5613#control",
+   "link": "RFC4813>RFC5613",
+   "role": "control",
+   "cited": "RFC5613",
+   "as_of": "2026-10-01",
+   "topic": "OSPF Link-Local Signaling",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4813>RFC5613#date-control",
+   "link": "RFC4813>RFC5613",
+   "role": "date-control",
+   "cited": "RFC4813",
+   "as_of": "2008-08-15",
+   "topic": "OSPF Link-Local Signaling",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3205>RFC9205#fault",
+   "link": "RFC3205>RFC9205",
+   "role": "fault",
+   "cited": "RFC3205",
+   "as_of": "2026-10-01",
+   "topic": "On the use of HTTP as a Substrate",
+   "invalid": true,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3205>RFC9205#control",
+   "link": "RFC3205>RFC9205",
+   "role": "control",
+   "cited": "RFC9205",
+   "as_of": "2026-10-01",
+   "topic": "On the use of HTTP as a Substrate",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "unsupported"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-2735",
+      "reason": "unsupported",
+      "rationale": "The answer cites DOC-2735 as the document specifying 'On the use of HTTP as a Substrate,' but the evidence shows DOC-5B06 is the document with that exact title. DOC-2735 is titled 'Building Protocols with HTTP' and addresses a related but distinct topic (best practices for HTTP-based specifications). The answer identifies the wrong document."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3205>RFC9205#date-control",
+   "link": "RFC3205>RFC9205",
+   "role": "date-control",
+   "cited": "RFC3205",
+   "as_of": "2021-06-15",
+   "topic": "On the use of HTTP as a Substrate",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2821>RFC5321#fault",
+   "link": "RFC2821>RFC5321",
+   "role": "fault",
+   "cited": "RFC2821",
+   "as_of": "2026-10-01",
+   "topic": "Simple Mail Transfer Protocol",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-71B6",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-71B6 (2001-04) has been superseded by DOC-A7B0 (2008-10), which is a more recent standards-track specification of SMTP. The answer cites the older document when a newer one exists."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2821>RFC5321#control",
+   "link": "RFC2821>RFC5321",
+   "role": "control",
+   "cited": "RFC5321",
+   "as_of": "2026-10-01",
+   "topic": "Simple Mail Transfer Protocol",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2821>RFC5321#date-control",
+   "link": "RFC2821>RFC5321",
+   "role": "date-control",
+   "cited": "RFC2821",
+   "as_of": "2007-10-15",
+   "topic": "Simple Mail Transfer Protocol",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4402>RFC7802#fault",
+   "link": "RFC4402>RFC7802",
+   "role": "fault",
+   "cited": "RFC4402",
+   "as_of": "2026-10-01",
+   "topic": "A Pseudo-Random Function (PRF) for the Kerberos V Generic Security Service Application Program Interface (GSS-API) Mechanism",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-147C",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-147C (published 2006-02) had been superseded by DOC-4930 (published 2016-03), which specifies the same PRF for Kerberos V GSS-API Mechanism. The evidence indicates DOC-4930 is the later specification addressing the same subject matter. The answer should have cited DOC-4930 as the current document."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4402>RFC7802#control",
+   "link": "RFC4402>RFC7802",
+   "role": "control",
+   "cited": "RFC7802",
+   "as_of": "2026-10-01",
+   "topic": "A Pseudo-Random Function (PRF) for the Kerberos V Generic Security Service Application Program Interface (GSS-API) Mechanism",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC4402>RFC7802#date-control",
+   "link": "RFC4402>RFC7802",
+   "role": "date-control",
+   "cited": "RFC4402",
+   "as_of": "2015-03-15",
+   "topic": "A Pseudo-Random Function (PRF) for the Kerberos V Generic Security Service Application Program Interface (GSS-API) Mechanism",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3272>RFC9522#fault",
+   "link": "RFC3272>RFC9522",
+   "role": "fault",
+   "cited": "RFC3272",
+   "as_of": "2026-10-01",
+   "topic": "Overview and Principles of Internet Traffic Engineering",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-8939",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-8939 (2002-05) had been superseded by DOC-DE01 (2024-01), which covers the same subject matter ('Overview and Principles of Internet Traffic Engineering'). The answer cites the older document when a more recent version exists."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3272>RFC9522#control",
+   "link": "RFC3272>RFC9522",
+   "role": "control",
+   "cited": "RFC9522",
+   "as_of": "2026-10-01",
+   "topic": "Overview and Principles of Internet Traffic Engineering",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC3272>RFC9522#date-control",
+   "link": "RFC3272>RFC9522",
+   "role": "date-control",
+   "cited": "RFC3272",
+   "as_of": "2023-01-15",
+   "topic": "Overview and Principles of Internet Traffic Engineering",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5157>RFC7707#fault",
+   "link": "RFC5157>RFC7707",
+   "role": "fault",
+   "cited": "RFC5157",
+   "as_of": "2026-10-01",
+   "topic": "IPv6 Implications for Network Scanning",
+   "invalid": true,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5157>RFC7707#control",
+   "link": "RFC5157>RFC7707",
+   "role": "control",
+   "cited": "RFC7707",
+   "as_of": "2026-10-01",
+   "topic": "IPv6 Implications for Network Scanning",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-492F",
+      "reason": "not_applicable",
+      "rationale": "The question asks which document specifies 'IPv6 Implications for Network Scanning'. The answer cites DOC-492F ('Network Reconnaissance in IPv6 Networks'), but the evidence shows that DOC-5BA4 is titled 'IPv6 Implications for Network Scanning' - an exact match to the specification requested. DOC-492F addresses related content but does not have the specified title."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5157>RFC7707#date-control",
+   "link": "RFC5157>RFC7707",
+   "role": "date-control",
+   "cited": "RFC5157",
+   "as_of": "2015-03-15",
+   "topic": "IPv6 Implications for Network Scanning",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2837>RFC4044#fault",
+   "link": "RFC2837>RFC4044",
+   "role": "fault",
+   "cited": "RFC2837",
+   "as_of": "2026-10-01",
+   "topic": "Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard",
+   "invalid": true,
+   "any": false,
+   "right": false,
+   "validity": false,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2837>RFC4044#control",
+   "link": "RFC2837>RFC4044",
+   "role": "control",
+   "cited": "RFC4044",
+   "as_of": "2026-10-01",
+   "topic": "Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "not_applicable"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-53CD",
+      "reason": "not_applicable",
+      "rationale": "The answer cites DOC-53CD as specifying 'Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard', but the evidence shows DOC-53CD describes 'managed objects for information related to the Fibre Channel' generally, not specifically the Fabric Element. DOC-7C33 explicitly addresses 'Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard' and is the correct document."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2837>RFC4044#date-control",
+   "link": "RFC2837>RFC4044",
+   "role": "date-control",
+   "cited": "RFC2837",
+   "as_of": "2004-05-15",
+   "topic": "Definitions of Managed Objects for the Fabric Element in Fibre Channel Standard",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2621>RFC4671#fault",
+   "link": "RFC2621>RFC4671",
+   "role": "fault",
+   "cited": "RFC2621",
+   "as_of": "2026-10-01",
+   "topic": "RADIUS Accounting Server MIB",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-6041",
+      "reason": "superseded",
+      "rationale": "DOC-6041 (1999-06) specifies 'RADIUS Accounting Server MIB' but was superseded by DOC-B19A (2006-08), which also specifies 'RADIUS Accounting Server MIB' with extensions for IPv6. As of 2026-10-01, DOC-B19A would be the current document addressing this specification, making DOC-6041 obsoleted."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2621>RFC4671#control",
+   "link": "RFC2621>RFC4671",
+   "role": "control",
+   "cited": "RFC4671",
+   "as_of": "2026-10-01",
+   "topic": "RADIUS Accounting Server MIB",
+   "invalid": false,
+   "any": true,
+   "right": false,
+   "validity": false,
+   "reasons": [
+    "unsupported"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-B19A",
+      "reason": "unsupported",
+      "rationale": "The answer claims DOC-B19A specifies 'RADIUS Accounting Server MIB', but the evidence shows DOC-B19A is titled 'RADIUS Accounting Server MIB for IPv6' - a more specific variant. Additionally, DOC-6041 from 1999-06 also specifies 'RADIUS Accounting Server MIB' (the general standard), making the answer incomplete. The question asks which document specifies this, and both DOC-6041 and DOC-B19A are valid answers as of 2026-10-01, but the answer's claim that DOC-B19A is 'the document' is unsupported since DOC-6041 also qualifies."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2621>RFC4671#date-control",
+   "link": "RFC2621>RFC4671",
+   "role": "date-control",
+   "cited": "RFC2621",
+   "as_of": "2005-08-15",
+   "topic": "RADIUS Accounting Server MIB",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5377>RFC8721#fault",
+   "link": "RFC5377>RFC8721",
+   "role": "fault",
+   "cited": "RFC5377",
+   "as_of": "2026-10-01",
+   "topic": "Advice to the Trustees of the IETF Trust on Rights to Be Granted in IETF Documents",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-9461",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-9461 (published 2008-11) had been superseded by DOC-06C9 (published 2020-02), which covers the same subject matter with a later publication date. The answer cites the obsolete document rather than the current one."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5377>RFC8721#control",
+   "link": "RFC5377>RFC8721",
+   "role": "control",
+   "cited": "RFC8721",
+   "as_of": "2026-10-01",
+   "topic": "Advice to the Trustees of the IETF Trust on Rights to Be Granted in IETF Documents",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-06C9",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-06C9 (published 2020-02) would have been superseded by DOC-9461 (published 2008-11) or another more recent document. However, the evidence shows DOC-9461 was published earlier (2008-11) than DOC-06C9 (2020-02). The answer cites DOC-06C9 as the document specifying the advice, but the evidence indicates both documents exist with the same title. Without evidence of a document published after 2020-02 and before 2026-10-01 that supersedes DOC-06C9, this requires clarification. The answer is problematic because it selects DOC-06C9 when DOC-9461 (the earlier version) also matches the question's criteria, and the answer does not address whether DOC-06C9 is still current as of the specified date."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5377>RFC8721#date-control",
+   "link": "RFC5377>RFC8721",
+   "role": "date-control",
+   "cited": "RFC5377",
+   "as_of": "2019-02-15",
+   "topic": "Advice to the Trustees of the IETF Trust on Rights to Be Granted in IETF Documents",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8312>RFC9438#fault",
+   "link": "RFC8312>RFC9438",
+   "role": "fault",
+   "cited": "RFC8312",
+   "as_of": "2026-10-01",
+   "topic": "CUBIC for Fast Long-Distance Networks",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-3574",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-3574 (published 2018-02) had been superseded by DOC-D5B1 (published 2023-08), which covers the same topic 'CUBIC for Fast and Long-Distance Networks' with more recent publication date. The answer should cite the current document DOC-D5B1 instead."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8312>RFC9438#control",
+   "link": "RFC8312>RFC9438",
+   "role": "control",
+   "cited": "RFC9438",
+   "as_of": "2026-10-01",
+   "topic": "CUBIC for Fast Long-Distance Networks",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "content_error",
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-D5B1",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-D5B1 (2023-08) would have been superseded by DOC-3574 (2018-02) is chronologically earlier, but the evidence shows DOC-3574 also specifies 'CUBIC for Fast Long-Distance Networks' and was published in 2018. However, the primary issue is that the answer cites DOC-D5B1 with a title variant 'CUBIC for Fast and Long-Distance Networks' rather than the exact phrase 'CUBIC for Fast Long-Distance Networks' specified in the question. More critically, DOC-3574 (2018-02) directly matches the question's specification title exactly and predates DOC-D5B1, making DOC-D5B1 the less authoritative source."
+     },
+     {
+      "doc_id": "DOC-D5B1",
+      "reason": "content_error",
+      "rationale": "The answer states the document title is 'CUBIC for Fast and Long-Distance Networks' but the question specifically asks for 'CUBIC for Fast Long-Distance Networks' (without 'and'). The evidence shows DOC-D5B1's actual title includes 'and' while DOC-3574 matches the exact phrasing requested."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC8312>RFC9438#date-control",
+   "link": "RFC8312>RFC9438",
+   "role": "date-control",
+   "cited": "RFC8312",
+   "as_of": "2022-08-15",
+   "topic": "CUBIC for Fast Long-Distance Networks",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2858>RFC4760#fault",
+   "link": "RFC2858>RFC4760",
+   "role": "fault",
+   "cited": "RFC2858",
+   "as_of": "2026-10-01",
+   "topic": "Multiprotocol Extensions for BGP-4",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-6E31",
+      "reason": "superseded",
+      "rationale": "As of 2026-10-01, DOC-6E31 (published 2000-06) had been superseded by DOC-0B33 (published 2007-01), which is a later STANDARDS-TRACK document specifying the same feature with enhanced content. The answer cites the obsolete version rather than the current specification."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2858>RFC4760#control",
+   "link": "RFC2858>RFC4760",
+   "role": "control",
+   "cited": "RFC4760",
+   "as_of": "2026-10-01",
+   "topic": "Multiprotocol Extensions for BGP-4",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-0B33",
+      "reason": "superseded",
+      "rationale": "The evidence shows that DOC-6E31 (published 2000-06) also specifies 'Multiprotocol Extensions for BGP-4' and predates DOC-0B33 (published 2007-01). As of 2026-10-01, DOC-0B33 would likely have been superseded by a more recent standard-track document. The answer cites DOC-0B33 without acknowledging the existence of the earlier DOC-6E31 or confirming that DOC-0B33 remains the current specification on the question date."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC2858>RFC4760#date-control",
+   "link": "RFC2858>RFC4760",
+   "role": "date-control",
+   "cited": "RFC2858",
+   "as_of": "2006-01-15",
+   "topic": "Multiprotocol Extensions for BGP-4",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5787>RFC6827#fault",
+   "link": "RFC5787>RFC6827",
+   "role": "fault",
+   "cited": "RFC5787",
+   "as_of": "2026-10-01",
+   "topic": "OSPFv2 Routing Protocols Extensions for Automatically Switched Optical Network (ASON) Routing",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-FE92",
+      "reason": "superseded",
+      "rationale": "DOC-BA3E (published 2013-01) addresses the same specification topic ('Automatically Switched Optical Network (ASON) Routing for OSPFv2 Protocols') and is a later document. By 2026-10-01, DOC-BA3E would be the current standards-track document. DOC-FE92 (2010-03) would likely be superseded as the relevant specification."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5787>RFC6827#control",
+   "link": "RFC5787>RFC6827",
+   "role": "control",
+   "cited": "RFC6827",
+   "as_of": "2026-10-01",
+   "topic": "OSPFv2 Routing Protocols Extensions for Automatically Switched Optical Network (ASON) Routing",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-BA3E",
+      "reason": "superseded",
+      "rationale": "The evidence shows DOC-FE92 (published 2010-03) specifies 'OSPFv2 Routing Protocols Extensions for Automatically Switched Optical Network (ASON) Routing' with the exact title match. DOC-BA3E (published 2013-01) has a slightly different title ('Automatically Switched Optical Network (ASON) Routing for OSPFv2 Protocols') and is a later publication, indicating it superseded DOC-FE92. The answer incorrectly identifies DOC-BA3E as the document specifying the queried standard when DOC-FE92 is the primary document with the precise title requested."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC5787>RFC6827#date-control",
+   "link": "RFC5787>RFC6827",
+   "role": "date-control",
+   "cited": "RFC5787",
+   "as_of": "2012-01-15",
+   "topic": "OSPFv2 Routing Protocols Extensions for Automatically Switched Optical Network (ASON) Routing",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7321>RFC8221#fault",
+   "link": "RFC7321>RFC8221",
+   "role": "fault",
+   "cited": "RFC7321",
+   "as_of": "2026-10-01",
+   "topic": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+   "invalid": false,
+   "any": true,
+   "right": true,
+   "validity": true,
+   "reasons": [
+    "superseded"
+   ],
+   "reply": {
+    "verdict": "FLAG",
+    "findings": [
+     {
+      "doc_id": "DOC-3A3C",
+      "reason": "superseded",
+      "rationale": "The evidence shows DOC-5F4F was published 2017-10, which is later than DOC-3A3C (2014-08). Both documents have identical titles regarding ESP and AH cryptographic algorithm guidance. As of 2026-10-01, DOC-3A3C would have been superseded by the more recent DOC-5F4F. The answer cites the outdated document rather than the current one."
+     }
+    ]
+   },
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7321>RFC8221#control",
+   "link": "RFC7321>RFC8221",
+   "role": "control",
+   "cited": "RFC8221",
+   "as_of": "2026-10-01",
+   "topic": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  },
+  {
+   "item_id": "RFC7321>RFC8221#date-control",
+   "link": "RFC7321>RFC8221",
+   "role": "date-control",
+   "cited": "RFC7321",
+   "as_of": "2016-10-15",
+   "topic": "Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)",
+   "invalid": true,
+   "any": true,
+   "right": false,
+   "validity": true,
+   "reply": null,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "dropped": false
+  }
+ ]
+}

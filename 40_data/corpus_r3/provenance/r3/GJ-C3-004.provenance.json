@@ -1,0 +1,73 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2Nzc2NjkzN180NDYx",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "amendment (Third)",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Third Amendment) Regulations, 2022",
+  "number": "Notification No. 2 of 2022",
+  "printed_date": "2022-05-31 per landing page",
+  "file": "GERC-NetMetering-2022-3rdAmend.pdf",
+  "fetched_at": "2026-10-01T16:42:48Z",
+  "http_status": 200,
+  "sha256": "05be6f01377f099e737f4ff40b01d316007b16d8c6ac3da7057f8edc647bd837",
+  "pages": 39,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Amended Reg 6.2(a)",
+      "verbatim_quote": "Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW.",
+      "page": 6,
+      "topic": "kW ceiling",
+      "numeric_values": {
+        "min_kw": 1,
+        "max_kw": 1000
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2020-2ndAmend",
+        "clause_ref": "Reg 6.2 (as amended 2017, 2020)",
+        "evidence_quote": "shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand;",
+        "evidence_in_file": "GERC-NetMetering-2020-2ndAmend.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 6.2(b) (gross metering floor)",
+      "verbatim_quote": "Rooftop Solar PV System shall be permitted for gross-metering provision for projects having capacity of above 10 kW and upto 1000 kW.",
+      "page": 6,
+      "topic": "kW threshold",
+      "numeric_values": {
+        "gross_metering_above_kw": 10,
+        "max_kw": 1000
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 6.2(c)(ii)",
+      "verbatim_quote": "No capacity restrictions upto sanctioned load/ contracted demand shall be applicable for the captive consumers and project set up under Third Party Sale within the permissible limit.",
+      "page": 7,
+      "topic": "capacity cap % of sanctioned load",
+      "numeric_values": {
+        "cap_pct_sanctioned_load": "none (was 50%)"
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2020-2ndAmend",
+        "clause_ref": "Reg 6.2 (as amended)",
+        "evidence_quote": "shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand;",
+        "evidence_in_file": "GERC-NetMetering-2020-2ndAmend.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 6.2(c)(iii) (REC mechanism)",
+      "verbatim_quote": "For the projects set up under REC Mechanism for captive use/ third party sale, installation of solar projects shall be allowed up to sanctioned load/contracted demand.",
+      "page": 7,
+      "topic": "capacity cap % of sanctioned load",
+      "numeric_values": {
+        "cap_pct_sanctioned_load": 100
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

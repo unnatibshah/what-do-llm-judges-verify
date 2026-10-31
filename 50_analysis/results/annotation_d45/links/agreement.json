@@ -1,0 +1,75 @@
+{
+  "items": 15,
+  "missing_in_b": [
+    "L021",
+    "L026",
+    "L032",
+    "L051",
+    "L053",
+    "L058",
+    "L061",
+    "L062",
+    "L068",
+    "L072",
+    "L091",
+    "L096",
+    "L098",
+    "L104",
+    "L120",
+    "L123",
+    "L145",
+    "L173",
+    "L179"
+  ],
+  "missing_in_a": [
+    "L004",
+    "L015",
+    "L018",
+    "L020",
+    "L024",
+    "L036",
+    "L037",
+    "L065",
+    "L077",
+    "L100",
+    "L132",
+    "L137",
+    "L147",
+    "L149",
+    "L166",
+    "L168",
+    "L172",
+    "L175"
+  ],
+  "fields": {
+    "new_clause_id": {
+      "kappa_a_b": 0.0625,
+      "pabak_a_b": 0.0333,
+      "agreement_a_b": 0.0667,
+      "kappa_a_key": 0.0625,
+      "kappa_b_key": 0.8585
+    },
+    "relation": {
+      "kappa_a_b": 0.697,
+      "pabak_a_b": 0.8222,
+      "agreement_a_b": 0.8667,
+      "kappa_a_key": 0.5122,
+      "kappa_b_key": 0.5833
+    },
+    "effective_date": {
+      "kappa_a_b": 0.7399,
+      "pabak_a_b": 0.7778,
+      "agreement_a_b": 0.8,
+      "kappa_a_key": 0.507,
+      "kappa_b_key": 0.434
+    },
+    "wording": {
+      "kappa_a_b": 0.837,
+      "pabak_a_b": 0.9,
+      "agreement_a_b": 0.9333,
+      "kappa_a_key": 0.837,
+      "kappa_b_key": 1.0
+    }
+  },
+  "sheet": "links"
+}

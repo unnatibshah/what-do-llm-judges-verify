@@ -1,0 +1,11 @@
+% paper_v5, two-column sn-jnl layout (option iicol), same body as main.tex. Tables and figures span both columns,
+% because most were set for one column.
+\documentclass[pdflatex,sn-basic,iicol]{sn-jnl}
+\input{preamble}
+\makeatletter
+\renewenvironment{table}[1][tbp]{\@dblfloat{table}[#1]}{\end@dblfloat}
+\renewenvironment{figure}[1][tbp]{\@dblfloat{figure}[#1]}{\end@dblfloat}
+\makeatother
+\begin{document}
+\input{body}
+\end{document}

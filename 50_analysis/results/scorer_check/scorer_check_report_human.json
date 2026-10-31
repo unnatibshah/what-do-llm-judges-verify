@@ -1,0 +1,183 @@
+{
+ "n": 50,
+ "agree": 35,
+ "agreement": 0.7,
+ "confusion": {
+  "INVALID -> INVALID": 4,
+  "INVALID -> NO_FLAG": 2,
+  "NO_FLAG -> NO_FLAG": 10,
+  "RIGHT_CATCH -> RIGHT_CATCH": 7,
+  "RIGHT_CATCH -> WRONG_REASON": 3,
+  "WRONG_CLAUSE -> WRONG_CLAUSE": 5,
+  "WRONG_CLAUSE -> WRONG_REASON": 7,
+  "WRONG_REASON -> WRONG_CLAUSE": 3,
+  "WRONG_REASON -> WRONG_REASON": 9
+ },
+ "disagreements": [
+  {
+   "check_id": "SC11",
+   "item_id": "SB-359a0d1b#S-both#fault",
+   "model": "qwen2.5:14b",
+   "config": "support-metaoff",
+   "code_label": "RIGHT_CATCH",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "RJ-C3-002#cl-6.1",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.9,\n  \"findings\": [\n    {\n      \"clause_id\": \"SRC-F9592D#cl-6.1\",\n      \"reason\": \"not_in_force\",\n      \"rationale\": \"The regulation cited is superseded by an amendment increasing the limit to 80%.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC13",
+   "item_id": "SB-0f72497f#S-both#fault",
+   "model": "llama3.1:8b",
+   "config": "validity-metaoff",
+   "code_label": "WRONG_REASON",
+   "labeller": "WRONG_CLAUSE",
+   "note": "",
+   "planted": "RJ-C3-002#cl-6.1",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"SRC-6747A8#cl-6.1\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The cumulative capacity of 840.0 kW exceeds 50% of the distribution transformer capacity of 1260 kVA, but the regulation allows up to 80% of the capacity, which is not considered.\"\n    },\n    {\n      \"clause_id\": \"SRC-C7788C#cl-2\",\n      \"reason\": \"not_in_force\",\n      \"rationale\": \"The regulation amendment is not yet in force on the application date of 2024-12-21.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC19",
+   "item_id": "SB-ca940ea3#A#fault",
+   "model": "llama3.1:8b",
+   "config": "support",
+   "code_label": "WRONG_CLAUSE",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.2\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The proposed DC capacity of 119.00 kWp exceeds the Sanctioned Load of 102.0 kW, violating Regulation 6.2.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC20",
+   "item_id": "SB-e7de4356#S-both#fault",
+   "model": "llama3.1:8b",
+   "config": "support",
+   "code_label": "WRONG_REASON",
+   "labeller": "WRONG_CLAUSE",
+   "note": "",
+   "planted": "IN-C1-002#cl-2",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"IN-C1-002#cl-2\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The subsidy amount of Rs 35011.0 exceeds the maximum CFA of Rs 30000/kWp for the first 2 kW of RTS capacity under PM Surya Ghar: Muft Bijli Yojana.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC22",
+   "item_id": "SB-3bc520cc#A#fault",
+   "model": "qwen2.5:7b",
+   "config": "reflect",
+   "code_label": "WRONG_CLAUSE",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\"verdict\": \"FLAG\", \"risk\": 0.8, \"findings\": [{\"clause_id\": \"MH-C3-001#cl-6.2\", \"reason\": \"content_or_arithmetic\", \"rationale\": \"System capacity exceeds sanctioned limit.\"}]}"
+  },
+  {
+   "check_id": "SC26",
+   "item_id": "SB-adb89bfe#S-both#fault",
+   "model": "gemma-4-26b-a4b-it",
+   "config": "validity",
+   "code_label": "WRONG_REASON",
+   "labeller": "WRONG_CLAUSE",
+   "note": "",
+   "planted": "IN-C1-002#cl-2",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 1.0,\n  \"findings\": [\n    {\n      \"clause_id\": \"IN-C1-002#cl-2\",\n      \"reason\": \"not_applicable\",\n      \"rationale\": \"This clause describes general eligibility but does not provide grounds for rejection of a 1.5 kWp system.\"\n    },\n    {\n      \"clause_id\": \"IN-C1-001#cl-4.1\",\n      \"reason\": \"missing_rule\",\n      \"rationale\": \"The generator failed to apply the PM Surya Ghar guidelines which support a subsidy for a 1.5 kWp installation.\"\n    },\n    {\n      \"clause_id\": \"subsidy_amount\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The calculated subsidy of Rs 21882.0 contradicts the PM Surya Ghar CFA of Rs 30,000/kWp for the first 2 kWp.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC28",
+   "item_id": "SB-2b19802e#A#fault",
+   "model": "qwen2.5:14b",
+   "config": "validity",
+   "code_label": "RIGHT_CATCH",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"MH-C3-001#cl-2.1j\",\n      \"reason\": \"not_applicable\",\n      \"rationale\": \"The clause defines an Eligible Consumer but does not address the capacity limit issue.\"\n    },\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.2\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The proposed system capacity of 12 kW exceeds the sanctioned load of 10 kW, but the decision does not consider the cumulative transformer capacity limit.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC32",
+   "item_id": "SB-b18a65c5#S-swap#fault",
+   "model": "qwen2.5:7b",
+   "config": "reflect",
+   "code_label": "WRONG_CLAUSE",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "IN-C1-002#cl-2",
+   "reply": "{\"verdict\": \"FLAG\", \"risk\": 0.8, \"findings\": [{\"clause_id\": \"IN-C1-001#cl-5.1m\", \"reason\": \"missing_rule\", \"rationale\": \"The inverter compliance requirement is not addressed in the decision.\"}]}"
+  },
+  {
+   "check_id": "SC37",
+   "item_id": "SB-133bedc0#A#fault",
+   "model": "llama3.1:8b",
+   "config": "support-metaoff",
+   "code_label": "WRONG_CLAUSE",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"SRC-64CFE6#cl-6.2\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The proposed DC capacity of 408.00 kWp exceeds the Sanctioned Load of 340.0 kW, violating Regulation 6.2.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC41",
+   "item_id": "SB-3bc520cc#A#fault",
+   "model": "gemma-4-26b-a4b-it",
+   "config": "validity",
+   "code_label": "WRONG_CLAUSE",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.2\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The proposed 14.00 kWp capacity exceeds the sanctioned load of 16.0 kW if considering AC/DC limits, but more importantly, the generator failed to check the capacity limit against sanctioned load.\"\n    },\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.2\",\n      \"reason\": \"missing_rule\",\n      \"rationale\": \"The generator failed to apply clause 6.2 which limits system capacity to the consumer's sanctioned load.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC44",
+   "item_id": "SB-be70d3cd#A#fault",
+   "model": "gemma-4-26b-a4b-it",
+   "config": "support",
+   "code_label": "WRONG_CLAUSE",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 1.0,\n  \"findings\": [\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.2\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The proposed 126.00 kWp capacity exceeds the sanctioned load of 126.0 kW if any margin is required, but more critically, the generator ignored the capacity limit rule.\"\n    },\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.3\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The generator failed to verify if the cumulative solar capacity (966.0 kW) on the transformer violates transformer capacity limits under clause 6.3.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC46",
+   "item_id": "SB-ca940ea3#A#fault",
+   "model": "qwen2.5:14b",
+   "config": "validity",
+   "code_label": "RIGHT_CATCH",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"MH-C3-001#cl-2.1j\",\n      \"reason\": \"not_applicable\",\n      \"rationale\": \"The proposed system capacity exceeds the 1 MW limit specified for an Eligible Consumer.\"\n    },\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.2\",\n      \"reason\": \"content_or_arithmetic\",\n      \"rationale\": \"The proposed system capacity of 119 kW exceeds the sanctioned load of 102 kW.\"\n    }\n  ]\n}"
+  },
+  {
+   "check_id": "SC47",
+   "item_id": "SB-8846f830#A#fault",
+   "model": "llama3.1:8b",
+   "config": "validity",
+   "code_label": "INVALID",
+   "labeller": "NO_FLAG",
+   "note": "",
+   "planted": "RJ-C3-003#cl-2-proviso",
+   "reply": "Verifier reply has no PASS/FLAG verdict: {'verdict': 'REJECTED', 'risk': 0.8, 'findings': [{'clause_id': 'RJ-C3-003#cl-2-proviso', 'reason': 'content_or_arithmetic', 'rationale': 'The application is rejected due to exceeding 80% of distribution transformer capacity, but the consumer has installed the transformer, making the limit inapplica"
+  },
+  {
+   "check_id": "SC48",
+   "item_id": "SB-fa63ca89#S-swap#fault",
+   "model": "gemma-4-26b-a4b-it",
+   "config": "reflect",
+   "code_label": "INVALID",
+   "labeller": "NO_FLAG",
+   "note": "",
+   "planted": "IN-C1-002#cl-2",
+   "reply": "Gemini returned no text for gemma-4-26b-a4b-it (finish: MAX_TOKENS)"
+  },
+  {
+   "check_id": "SC49",
+   "item_id": "SB-7f4026ce#A#fault",
+   "model": "gemma-4-26b-a4b-it",
+   "config": "reflect",
+   "code_label": "WRONG_CLAUSE",
+   "labeller": "WRONG_REASON",
+   "note": "",
+   "planted": "MH-C3-001#cl-2.1j",
+   "reply": "{\n  \"verdict\": \"FLAG\",\n  \"risk\": 0.8,\n  \"findings\": [\n    {\n      \"clause_id\": \"MH-C3-001#cl-6.2\",\n      \"reason\": \"missing_rule\",\n      \"rationale\": \"The generator failed to verify the solar capacity against the sanctioned load using clause 6.2.\"\n    }\n  ]\n}"
+  }
+ ]
+}

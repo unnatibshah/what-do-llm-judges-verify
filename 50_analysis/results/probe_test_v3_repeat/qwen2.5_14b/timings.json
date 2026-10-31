@@ -1,0 +1,44 @@
+{
+  "validity__S-both": {
+    "items": 84,
+    "calls": 84,
+    "seconds": 634.6,
+    "workers": 1,
+    "calls_per_min": 7.94
+  },
+  "validity__C": {
+    "items": 42,
+    "calls": 42,
+    "seconds": 220.6,
+    "workers": 1,
+    "calls_per_min": 11.42
+  },
+  "validity-regstatus__S-both": {
+    "items": 84,
+    "calls": 84,
+    "seconds": 588.8,
+    "workers": 1,
+    "calls_per_min": 8.56
+  },
+  "validity-regstatus__C": {
+    "items": 42,
+    "calls": 42,
+    "seconds": 217.2,
+    "workers": 1,
+    "calls_per_min": 11.6
+  },
+  "validity-regnorec__S-both": {
+    "items": 84,
+    "calls": 84,
+    "seconds": 438.6,
+    "workers": 1,
+    "calls_per_min": 11.49
+  },
+  "validity-regnorec__C": {
+    "items": 42,
+    "calls": 42,
+    "seconds": 210.4,
+    "workers": 1,
+    "calls_per_min": 11.98
+  }
+}

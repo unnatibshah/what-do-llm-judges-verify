@@ -1,0 +1,17 @@
+{
+  "source_url": "https://srtpv.bescom.org/SRTPV/document/2_1_10kW_Domestic_consumers.pdf",
+  "landing_page_url": "https://srtpv.bescom.org/SRTPV/",
+  "domain_note": "Hosted on BESCOM's own SRTPV portal srtpv.bescom.org (BESCOM is a wholly Government of Karnataka undertaking) - NOT a *.gov.in or kerc.karnataka.gov.in domain; kerc.karnataka.gov.in and bescom.karnataka.gov.in were unreachable from the collection host (see FAILURES.md). Authenticity vs the KERC-hosted original is unconfirmed (same-bytes check pending).",
+  "issuer": "Bangalore Electricity Supply Company Ltd (BESCOM), DSM Section",
+  "doc_type": "DISCOM procedure and timelines",
+  "title": "Procedure and Time Lines for Grid connected SRTPV plants - A. 1kW to 10kW domestic consumers",
+  "number": "not printed",
+  "printed_date": "not printed",
+  "file": "BESCOM-SRTPV-1-10kW-domestic-procedure.pdf",
+  "fetched_at": "2026-10-01T16:56:10Z",
+  "http_status": 200,
+  "sha256": "9ec04f319e6bacc1039c0a36c875a7a268a85cd83acdcb9e0be43d444208e42c",
+  "pages": 1,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

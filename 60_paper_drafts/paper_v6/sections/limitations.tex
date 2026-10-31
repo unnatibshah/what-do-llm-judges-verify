@@ -1,0 +1,37 @@
+\section{Limitations and threats to validity}
+\label{sec:limitations}
+
+\paragraph{Two draws of dropped links, few items.} Each draw gives each judge 24 gap faults; the two draws share 12,
+so the gap result rests on 36 distinct links. The drop held on both draws for every judge, but the pilot showed how much
+a judge's result can depend on which links are dropped, and differences between judges of a few items remain within
+what such variation could produce. The presentation conditions were run on the first draw only, and Claude's
+presentation effects are not significant.
+
+\paragraph{Reused replies, single runs and decoding.} Text-only replies on the first 24 links were reused from the
+pilot for all four judges, and the second draw reuses the first draw's text-only replies, so H2a is partly a re-analysis of pilot replies; on the gap faults where
+every reply is new, the drop is of similar size (\S\ref{sec:res-gaps}). Hosted judges ran once each,
+through a proxy that sets and does not report temperature and seed; in the pilot, a repeated block changed 30 of 72
+replies but only one catch. Reused replies came from an earlier form of the proxy call. Gemma's client sometimes
+retried a cut-off reply without the API's JSON mode, and we did not record which items.
+
+\paragraph{The decoys are a partial control.} They are matched on dates, title similarity and, for most pairs, IETF
+area, but not on abstract overlap, which differs sharply between replacements and updates. Some decoys are new
+protocol versions, for which flagging the older RFC is a defensible reading of the question even though the
+publisher's record says it was not replaced. The similarity analysis is exploratory, post hoc and small.
+
+\paragraph{Construct.} The evidence is titles, dates and abstracts, not full documents. The error tested is always the
+citation of a whole replaced document; partial amendments and chains are not covered. Links are dropped at random,
+while real records fail in patterns (recent amendments, particular issuers). The question names the old document's
+title, which may provoke some of the non-currency findings on controls.
+
+\paragraph{Generalisation.} One corpus of technical standards, chosen because its publisher maintains an exact
+record, and four judges. Legal collections add problems this test does not address, as the case study illustrates:
+partial amendments, records extracted by machine, and answer keys that people disagree about. The title of the paper
+asks a general question; the answer we give is limited to these judges, prompts and documents.
+
+\paragraph{Mechanism.} The presentation conditions keep the record fixed and vary single features, one prompt variant
+each. They can show that presentation changed what a judge did; they cannot show why.
+
+\paragraph{Provenance.} A Claude model built the harness and drafted the text, and Claude Opus~4.5 is one of the
+judges. All judges received identical prompts and items, and the gold comes from the publisher. The plan was written by
+the same team after the pilot and recorded internally rather than registered publicly.

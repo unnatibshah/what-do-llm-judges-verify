@@ -1,0 +1,16 @@
+{
+  "issuer": "TANGEDCO (TNPDCL USRP portal)",
+  "source_url": "https://www.tnebltd.gov.in/usrp/files/policiesadopted.pdf",
+  "landing_page_url": "https://www.tnebltd.gov.in/usrp/",
+  "doc_type": "DISCOM summary (context only)",
+  "title": "Roof top Solar: TANGEDCO is at present adopting Hon’ble TNERC’s Generic Tariff Order for GISS Order No.8 of 2021 dated 22/10/2021",
+  "number": "n/a",
+  "printed_date": "not printed",
+  "file": "TNEBLTD-usrp-policiesadopted.pdf",
+  "fetched_at": "2026-10-01T16:54:53Z",
+  "http_status": 200,
+  "sha256": "8c40826a3024bb4a366c8df7a987ce53a2076d502d089245f08b63a6c1d6c933",
+  "pages": 1,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

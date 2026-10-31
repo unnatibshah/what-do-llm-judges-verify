@@ -1,0 +1,87 @@
+{
+  "source_url": "https://srtpv.bescom.org/SRTPV/document/KERCSRTPVtariff2024.pdf",
+  "landing_page_url": "https://srtpv.bescom.org/SRTPV/",
+  "domain_note": "Hosted on BESCOM's own SRTPV portal srtpv.bescom.org (BESCOM is a wholly Government of Karnataka undertaking) - NOT a *.gov.in or kerc.karnataka.gov.in domain; kerc.karnataka.gov.in and bescom.karnataka.gov.in were unreachable from the collection host (see FAILURES.md). Authenticity vs the KERC-hosted original is unconfirmed (same-bytes check pending).",
+  "issuer": "Karnataka Electricity Regulatory Commission (KERC)",
+  "doc_type": "tariff order that also substitutes provisions of the 2016 SRTPV Regulations under Reg 13",
+  "title": "Determination of Tariff and norms in respect of Solar Power Projects (including Solar Rooftop Photovoltaic Projects) for FY24",
+  "number": "not extracted (order dated 01.06.2023)",
+  "printed_date": "01.06.2023",
+  "note": "Portal labels file 'KERCSRTPVtariff2024.pdf' / 'KERC Tariff order 01.06.2023'.",
+  "file": "KERC-SRTPV-tariff-order-2023-06-01.pdf",
+  "fetched_at": "2026-10-01T16:56:10Z",
+  "http_status": 200,
+  "sha256": "5e5d1c2edbbc3456341b0c9e410ccc6cfee41e0ecab2d9d8532fb3bb005930ad",
+  "pages": 32,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Decision (i): substituted Reg 6(a) connectivity table",
+      "verbatim_quote": "1. Upto 5kW 230V-Single Phase 2. Above 5kW and upto 150kW 400V- Three Phase 3. Above 150kW and upto 2000kW 11kV HT",
+      "page": 25,
+      "topic": "meter/phase threshold",
+      "numeric_values": {
+        "lt_three_phase_up_to_kw": 150,
+        "previous_up_to_kw": 50
+      },
+      "amends_or_supersedes": {
+        "doc": "KERC (Implementation of Solar Rooftop Photovoltaic Power Plants) Regulations, 2016 (NOT in staging; not retrievable, see FAILURES.md)",
+        "clause_ref": "Reg 6(a)",
+        "evidence_quote": "1. Upto 5kW 230V-Single Phase 2. Above 5kW and upto 50kW 400V- Three Phase 3. Above 50kW and upto 2000kW 11kV HT",
+        "evidence_in_file": "KERC-SRTPV-tariff-order-2023-06-01.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Decision (i): substituted Reg 6(e) (DT hosting limit)",
+      "verbatim_quote": "Each SRTPV plant of less than 150kW capacity shall be connected only to the existing distribution transformer through which the eligible consumers are being supplied electricity. In such cases, the total capacity of the existing and proposed SRTPV plants on that distribution transformer shall not exceed 80% of the rated capacity.",
+      "page": 25,
+      "topic": "DT hosting capacity",
+      "numeric_values": {
+        "dt_limit_pct": 80,
+        "previous_pct": "UNKNOWN - 2016 text not retrieved"
+      },
+      "amends_or_supersedes": {
+        "doc": "KERC (Implementation of Solar Rooftop Photovoltaic Power Plants) Regulations, 2016 (NOT in staging; not retrievable, see FAILURES.md)",
+        "clause_ref": "Reg 6(e)",
+        "evidence_quote": "decides to substitute Regulations 6(a), (e)(f), (g) as detailed below:",
+        "evidence_in_file": "KERC-SRTPV-tariff-order-2023-06-01.pdf"
+      },
+      "status": "UNVERIFIED — needs human check",
+      "note": "Old Reg 6(e) value must be read from the 2016 Regulations (get from KERC site by a human) before this is a numeric edge."
+    },
+    {
+      "clause_ref": "Decision (i): substituted Reg 6(f) (HT feeder limit)",
+      "verbatim_quote": "Every SRTPV plant of more than 150kW shall be connected only to the exis ting 11kV Distribution System. In such cases, the total capacity of the existing and proposed SRTPV plants on that feeder shall not exceed 80% of the rated current carrying capacity of that line.",
+      "page": 26,
+      "topic": "feeder hosting capacity",
+      "numeric_values": {
+        "feeder_limit_pct": 80
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Decision (l) timeline: site verification / feasibility (1-2000 kW, non-domestic)",
+      "verbatim_quote": "Site verification / Technical Feasibility & issuance of Letter of Approval / Rejection of application. ESCOM Within 10 (ten) working days from the date of acknowledging the application",
+      "page": 28,
+      "topic": "feasibility timeline",
+      "numeric_values": {
+        "working_days": 10
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Decision (k): carport / cap at sanctioned load",
+      "verbatim_quote": "duly limiting the capacity of the SRTPV plant to the sanctioned load of the consumer.",
+      "page": 27,
+      "topic": "capacity cap vs sanctioned load",
+      "numeric_values": {
+        "cap": "sanctioned load (100%)"
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

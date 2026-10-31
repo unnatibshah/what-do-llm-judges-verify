@@ -1,0 +1,26 @@
+% Shared by main.tex (single column, the submission) and main_2col.tex (two-column sn-jnl layout).
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amsmath,amssymb}
+\usepackage{pifont}
+\usepackage[title]{appendix}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+
+% Every number is a macro. Case study: numbers.tex (paper_v3 outputs); pilot: generated/numbers_rfc.tex
+% (python -m suryabench.evalkit --tex); final runs: generated/numbers_e123.tex (analyse_final_e123.py --tex).
+\input{numbers.tex}
+\input{numbers_pending.tex}
+\input{generated/numbers_rfc.tex}
+\input{generated/numbers_e123.tex}
+\newcommand{\pend}{\textcolor{red}{[pending]}}
+
+\newcommand{\cfg}[1]{\texttt{#1}}
+\newcommand{\rung}[1]{\textsf{#1}}
+\newcommand{\Rfourp}{\rung{R4$'$}}
+\newcommand{\anonurl}{withheld for anonymous review}
+% The public repository for the authored builds (arXiv); main_anon.tex prints the anonymous link instead.
+\ifdefined\anonymous\newcommand{\repourl}{\anonurl}\else\newcommand{\repourl}{\url{https://github.com/unnatibshah/what-do-llm-judges-verify}}\fi
+\raggedbottom

@@ -1,0 +1,26 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/Renewable-Energy-Net-Metering-Regulations2014.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:22Z",
+  "sha256": "159f647797e02333d87090ebc982d4d14ac61552df88e941a4038019b6665797",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "Delhi Electricity Regulatory Commission (Net Metering for Renewable Energy) Regulations, 2014",
+  "number": "F. 9(116)/DERC/Tariff/DS/2013-14/C.F 4110",
+  "printed_date": "2014 (date blank in printed text; DERC listing: 2014)",
+  "file_type": "PDF document, version 1.5, 8 pages (zip deflate encoded)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Reg. 5(4) DERC NM Regs 2014",
+      "verbatim_quote": "such Consumer of premises shall pay Service Line cum Development (SLD) charges at the time of registration of Renewable Energy System, equal to the differential amount of SLD charges between the capacity of the Renewable Energy System and the existing sanctioned load",
+      "page": 4,
+      "topic": "RE system may exceed sanctioned load, with SLD charges",
+      "numeric_values": {
+        "cap_relative_to_sanctioned_load": "may exceed (SLD differential charge)"
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "note": "Candidate conflict with UP Reg 5.1 (cap = 100% of contracted demand) in the sense of cross-state contrast, and with any reading of Rule 11 ROC that ties capacity to sanctioned load."
+    }
+  ]
+}

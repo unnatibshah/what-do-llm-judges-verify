@@ -1,0 +1,3527 @@
+{
+  "nodes": {
+    "IN-C1-001#cl-4.1": {
+      "node_id": "IN-C1-001#cl-4.1",
+      "doc_id": "IN-C1-001",
+      "clause_ref": "e) table rows 1-3",
+      "clause_text_snippet": "| 1. | Residential Sector (first 2 kW of RTS capacity p or part thereof) | Rs 30,000/kWp | Rs 33,000/kWp | | 2. | Residential Sector (with additional RTS capacity of 1 kW or part thereof) p | Rs 18,000/kWp | Rs 19,800/kWp | | 3. | Residential Sector (additional RTS capacity beyond 3 kW ) p | No additional CFA",
+      "subject": "subsidy_cfa_residential",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-02-13",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A3"
+    },
+    "IN-C1-001#cl-4.gh": {
+      "node_id": "IN-C1-001#cl-4.gh",
+      "doc_id": "IN-C1-001",
+      "clause_ref": "e) table row 4",
+      "clause_text_snippet": "| 4. | Group Housing Societies/ Residential Welfare Associations (GHS/RWA) etc, for common facilities including EV charging up to 500 kW p (@3 kW per house) p | Rs 18,000/kWp",
+      "subject": "subsidy_cfa_group_housing",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-02-13",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A3"
+    },
+    "IN-C1-001#cl-5.1m": {
+      "node_id": "IN-C1-001#cl-5.1m",
+      "doc_id": "IN-C1-001",
+      "clause_ref": "m)",
+      "clause_text_snippet": "m) Domestic Content Requirement: Solar modules used in the installation must satisfy the Domestic Content Requirement condition i.e., domestically manufactured modules manufactured from domestically manufactured cells. This is an essential condition for the installation to be eligible for the CFA. Use of non-DCR modules in any form in the installation shall render the installation ineligible for CFA.",
+      "subject": "dcr_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-02-13",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A3"
+    },
+    "IN-C1-002#cl-2": {
+      "node_id": "IN-C1-002#cl-2",
+      "doc_id": "IN-C1-002",
+      "clause_ref": "2",
+      "clause_text_snippet": "Accordingly, it is clarified that subsidy for individual residential household under Phase — II of Grid Connected Rooftop Solar Programme will be available to all eligible households for installation of rooftop solar plant as per regulations of respective SERCs and provisions of programme implementation Guidelines, in the following manner: S. Total capacity of rooftop solar | Applicable subsidy in terms of Benchmark cost or No. | installations cost arrived through tender, whichever is lower. I Up to 3 kW 40% 2. Above 3 kW and up to 10 kW | 40% for first 3 kW and 20% for balance",
+      "subject": "subsidy_cfa_residential",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2019-09-03",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A3"
+    },
+    "IN-C2-002#cl-1": {
+      "node_id": "IN-C2-002#cl-1",
+      "doc_id": "IN-C2-002",
+      "clause_ref": "1",
+      "clause_text_snippet": "Vide MNRE's Order of even no.dated 10\" March 2023, the Approved Models and Manufacturers of Solar Photovoltaic Modules (Requirements for Compulsory Registration) Order, 2019 (ALMM Order) was held in abeyance for one financial year, i.e. FY 2023-24. It is clarified that the ALMM[Approved List of Models&Manufacturers]for Solar PVModules, shallaccordinglycomeintoeffectfrom1st April, 2024",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-04-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A3"
+    },
+    "IN-C2-003#cl-1": {
+      "node_id": "IN-C2-003#cl-1",
+      "doc_id": "IN-C2-003",
+      "clause_ref": "1",
+      "clause_text_snippet": "The undersigned is directed to convey that the O.M. of even no. dated 9th February, 2024 (copy enclosed) on the subject issue, is hereby held in abeyance till further orders.",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-02-15",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A3"
+    },
+    "IN-C3-001#cl-11.7": {
+      "node_id": "IN-C3-001#cl-11.7",
+      "doc_id": "IN-C3-001",
+      "clause_ref": "rule 11(7)",
+      "clause_text_snippet": "(7) For installation of roof top solar photo voltaic systems, the technical feasibility study shall be completed within a period of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be presumed that the proposal is technically feasible.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-02-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A2"
+    },
+    "IN-C3-002#cl-11.7": {
+      "node_id": "IN-C3-002#cl-11.7",
+      "doc_id": "IN-C3-002",
+      "clause_ref": "rule 11(7)",
+      "clause_text_snippet": "(7) The technical feasibility study shall be completed within the time period specified by the Commission, not exceeding twenty days and the outcome of the study shall be intimated to the applicant.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2020-12-31",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A2"
+    },
+    "IN-C3-002#cl-11.4": {
+      "node_id": "IN-C3-002#cl-11.4",
+      "doc_id": "IN-C3-002",
+      "clause_ref": "rule 11(4)",
+      "clause_text_snippet": "(4) The regulations on Grid Interactive Roof top Solar PV system and its related matters shall provide for net metering for loads up to ten kW and for gross metering for loads above ten kW.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2020-12-31",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A2"
+    },
+    "MH-C3-001#cl-2.1j": {
+      "node_id": "MH-C3-001#cl-2.1j",
+      "doc_id": "MH-C3-001",
+      "clause_ref": "2.1(j)",
+      "clause_text_snippet": "(j) “Eligible Consumer” means a consumer of electricity in the area of supply of the Distribution Licensee who uses or intends to use a Renewable Energy Generating System having a capacity less than 1 MW, installed on a roof-top or any other mounting structure in his premises, to meet all or part or no part of his own electricity requirement, and includes a Consumer catering to a common load such as a Housing Society: Provided that such Generating System may be owned and/or operated by such Consumer, or by a Distribution Licensee or third party leasing such System to the Consumer: Provided further that in case of Net Billing Arrangement, the capacity limit of 1 MW shall not apply;",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2019-12-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "MH-C3-001#cl-5.2": {
+      "node_id": "MH-C3-001#cl-5.2",
+      "doc_id": "MH-C3-001",
+      "clause_ref": "5.2",
+      "clause_text_snippet": "The cumulative capacity of all Renewable Energy Generating Systems under Net Metering Arrangements and/or Net Billing Arrangements connected to a particular Distribution Transformer/feeder of the Licensee shall not exceed 70% of its rated capacity:",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2019-12-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "MH-C3-001#cl-6.2": {
+      "node_id": "MH-C3-001#cl-6.2",
+      "doc_id": "MH-C3-001",
+      "clause_ref": "6.2",
+      "clause_text_snippet": "6.2 The capacity of the Renewable Energy Generating System to be connected at the Eligible Consumer’s premises shall not exceed the Sanctioned load (in kW) or the Contract Demand (in kVA) of the Consumer, as applicable.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2019-12-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "MH-C3-001#cl-annex1-c": {
+      "node_id": "MH-C3-001#cl-annex1-c",
+      "doc_id": "MH-C3-001",
+      "clause_ref": "Annexure-1 c",
+      "clause_text_snippet": "c. The Distribution Licensee shall conduct a technical feasibility study within 15 working days from the registration of the Application",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2019-12-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1"
+    },
+    "MH-C3-002#cl-2": {
+      "node_id": "MH-C3-002#cl-2",
+      "doc_id": "MH-C3-002",
+      "clause_ref": "2 (4th-5th provisos to 2.1(j))",
+      "clause_text_snippet": "Provided also that Residential consumer in multi storied building can setup Renewable Energy Generating System at any place located within same Distribution Licensee’s area of supply and source renewable energy generated from such plant under Virtual Net-Metering Arrangement:",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2024-08-29",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "MH-C3-002#cl-annex1-c": {
+      "node_id": "MH-C3-002#cl-annex1-c",
+      "doc_id": "MH-C3-002",
+      "clause_ref": "6 (Annexure-1 c)",
+      "clause_text_snippet": "c For installation of Renewable Energy Generating Systems, the technical feasibility study shall be completed within a period of (15) days and the outcome of the study shall be intimated to the applicant, failing which it shall be presumed that the proposal is technically feasible:",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2024-08-29",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "MH-C3-002#cl-annex1-c-proviso": {
+      "node_id": "MH-C3-002#cl-annex1-c-proviso",
+      "doc_id": "MH-C3-002",
+      "clause_ref": "6 (Annexure-1 c, proviso)",
+      "clause_text_snippet": "Provided that the applications for Renewable Energy Generating Systems upto 10 kW capacity, complete in all respects shall be deemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of the sanctioned load of the consumer, as may be required, shall be carried out by the Distribution Licensee.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": null
+      },
+      "effective_date": "2024-08-29",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "MH-C5-001#cl-feasibility": {
+      "node_id": "MH-C5-001#cl-feasibility",
+      "doc_id": "MH-C5-001",
+      "clause_ref": "9.3",
+      "clause_text_snippet": "9.3 MSEDCL shall register the Application on first come first served basis and acknowledge its receipt within three working days; or intimate the Applicant within that period of any deficiency or incompleteness.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": "MSEDCL"
+      },
+      "effective_date": "2020-01-20",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6"
+    },
+    "MH-C5-004#cl-open-access": {
+      "node_id": "MH-C5-004#cl-open-access",
+      "doc_id": "MH-C5-004",
+      "clause_ref": "12.7 (inserted into CC 258, clause 12)",
+      "clause_text_snippet": "12.7. Net metering & Open Access cannot be availed simultaneously by the same consumer.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": "MSEDCL"
+      },
+      "effective_date": "2018-08-10",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A6"
+    },
+    "MH-C5-005#cl-phase2": {
+      "node_id": "MH-C5-005#cl-phase2",
+      "doc_id": "MH-C5-005",
+      "clause_ref": "3.1-5 (Illustration for CFA)",
+      "clause_text_snippet": "3.1-5 lllustration for CFA S.No. Total CapacitY of Rooftop Applicable SubsidY Solar lnstallation upto3KW 40% 7 2 Above 3 KW and uP to L0 40% for the first 3 KW and 20% for balance capacity KW 3 Above 10 KW 40% for the first 3 KW and 20% for next 7 KW. No subsidy beyond 10 KW capacity",
+      "subject": "subsidy_cfa_residential",
+      "jurisdiction": {
+        "level": "state",
+        "code": "MH",
+        "discom": "MSEDCL"
+      },
+      "effective_date": "2021-01-15",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6"
+    },
+    "RJ-C3-001#cl-3.1": {
+      "node_id": "RJ-C3-001#cl-3.1",
+      "doc_id": "RJ-C3-001",
+      "clause_ref": "3.1",
+      "clause_text_snippet": "The maximum Rooftop PV Solar Power Plant capacity to be installed at any Eligible Consumer premises shall not be more than 80% of the sanctioned connected load/contract demand of the consumer.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2015-02-26",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-002#cl-6.1": {
+      "node_id": "RJ-C3-002#cl-6.1",
+      "doc_id": "RJ-C3-002",
+      "clause_ref": "6.1",
+      "clause_text_snippet": "6.1 The cumulative capacity of Renewable Energy generating system to be allowed at a particular distribution transformer shall not exceed 50% of the capacity of such distribution transformer or such limit as may be stipulated by the Commission from time to time",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2021-06-15",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-002#cl-7.2": {
+      "node_id": "RJ-C3-002#cl-7.2",
+      "doc_id": "RJ-C3-002",
+      "clause_ref": "7.2",
+      "clause_text_snippet": "7.2 The maximum Renewable Energy generating system capacity to be installed at any Eligible Consumer’s premises shall not exceed 100% of the Sanctioned Load/Contract Demand of the consumer:",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2021-06-15",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-002#cl-8.8": {
+      "node_id": "RJ-C3-002#cl-8.8",
+      "doc_id": "RJ-C3-002",
+      "clause_ref": "8.8",
+      "clause_text_snippet": "8.8 Within twenty (20) days from the issuance of acknowledgement of the application, the concerned officer of the respective Sub-divisional office of the Distribution Licensee shall check the technical feasibility of the Renewable Energy generating system.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2021-06-15",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-003#cl-2": {
+      "node_id": "RJ-C3-003#cl-2",
+      "doc_id": "RJ-C3-003",
+      "clause_ref": "2 (substituted 6.1)",
+      "clause_text_snippet": "\"6.1 The cumulative capacity of Renewable Energy generating system to be allowed at a particular distribution transformer shall not exceed 80% of the capacity of such distribution transformer or such limit as may be stipulated by the Commission from time to time:",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2023-10-06",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-003#cl-2-proviso": {
+      "node_id": "RJ-C3-003#cl-2-proviso",
+      "doc_id": "RJ-C3-003",
+      "clause_ref": "2 (substituted 6.1, second proviso)",
+      "clause_text_snippet": "Provided further that, in case of HT consumers where the distribution transformer has been installed by the consumer, the limit of 80% of distribution transformer capacity shall not be applicable.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2023-10-06",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-004#cl-12": {
+      "node_id": "RJ-C3-004#cl-12",
+      "doc_id": "RJ-C3-004",
+      "clause_ref": "12",
+      "clause_text_snippet": "orders that henceforth net metering arrangement shall be applicable for loads upto one megawatt (01 MW) or upto the sanctioned load/contract demand, whichever is lower, for all categories of the",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2024-02-07",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-005#cl-8.8": {
+      "node_id": "RJ-C3-005#cl-8.8",
+      "doc_id": "RJ-C3-005",
+      "clause_ref": "3(1) (substituted 8.8)",
+      "clause_text_snippet": "“For installation of Renewable Energy Generating systems, the technical feasibility study shall be completed within a period of fifteen days and the outcome of the study shall be intimated to the applicant, failing which it shall be presumed that the proposal is technically feasible.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2024-08-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "RJ-C3-005#cl-8.8-proviso": {
+      "node_id": "RJ-C3-005#cl-8.8-proviso",
+      "doc_id": "RJ-C3-005",
+      "clause_ref": "3(1) (substituted 8.8, proviso)",
+      "clause_text_snippet": "Provided that the applications for Renewable Energy Generating systems upto 10 kW capacity complete in all respects shall be deemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of the sanctioned load of the consumer, as may be required, shall be carried out by the Distribution Licensee.”",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "RJ",
+        "discom": null
+      },
+      "effective_date": "2024-08-30",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1"
+    },
+    "GJ-C3-001#cl-5-proviso": {
+      "node_id": "GJ-C3-001#cl-5-proviso",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 5, proviso (DT hosting limit)",
+      "clause_text_snippet": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed 65% of the peak capacity of the distribution transformer;",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-001#cl-5.1-proviso": {
+      "node_id": "GJ-C3-001#cl-5.1-proviso",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 5.1 proviso (augmentation cost)",
+      "clause_text_snippet": "Provided that if augmentation of transformer/distribution network is required, the cost of such augmentation shall be borne by the consumer.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-001#cl-6.2": {
+      "node_id": "GJ-C3-001#cl-6.2",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 6.2 (capacity cap vs sanctioned load)",
+      "clause_text_snippet": "The maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s premises shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand;",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-001#cl-6.2-proviso1": {
+      "node_id": "GJ-C3-001#cl-6.2-proviso1",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 6.2 first proviso (kW bounds)",
+      "clause_text_snippet": "Provided that the installed capacity shall not be less than 1 kW and shall not exceed 1 MW;",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-001#cl-7-row4": {
+      "node_id": "GJ-C3-001#cl-7-row4",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 7 row 4 (TFR request timeline)",
+      "clause_text_snippet": "On Registration with Distribution Licensee, letter to concerned Circle/Division for TFR and informing applicant regarding specifications of CTPT, meter. 5 days from receipt of duly completed application",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "GJ-C3-001#cl-7-row6": {
+      "node_id": "GJ-C3-001#cl-7-row6",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 7 row 6 (post-TFR consent timeline)",
+      "clause_text_snippet": "5 days from receipt of TFR from field office",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-001#cl-8.2": {
+      "node_id": "GJ-C3-001#cl-8.2",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 8(2) connectivity table",
+      "clause_text_snippet": "1. Upto 6 kW 240 V- single phase 2. Above 6 kW and upto 18.65 kW 415 V-Three phase",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "GJ-C3-001#cl-13.5-class": {
+      "node_id": "GJ-C3-001#cl-13.5-class",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 13.5 (solar meter class; check meters)",
+      "clause_text_snippet": "The main Solar Meters shall be of 0.2s class accura cy",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "GJ-C3-001#cl-13.5-check": {
+      "node_id": "GJ-C3-001#cl-13.5-check",
+      "doc_id": "GJ-C3-001",
+      "clause_ref": "Reg 13.5 (check meter threshold)",
+      "clause_text_snippet": "Check meters shall be mandatory for Rooftop S olar PV S ystems having capacity more than 20 kW.",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2016-06-17",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "GJ-C3-002#cl-6.2": {
+      "node_id": "GJ-C3-002#cl-6.2",
+      "doc_id": "GJ-C3-002",
+      "clause_ref": "Amended Reg 6.2",
+      "clause_text_snippet": "The maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s premises except Residential Consumers shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand; whereas in case of Residential Consumers, the Rooftop Solar PV System capacity shall be irrespective of their sanctioned load/contract demand.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2017-10-06",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-003#cl-5-proviso": {
+      "node_id": "GJ-C3-003#cl-5-proviso",
+      "doc_id": "GJ-C3-003",
+      "clause_ref": "Amended Reg 5 proviso (DT limit)",
+      "clause_text_snippet": "Provided that the cumulative capacity to be allowed at a particular distribution transformer shall not exceed capacity of the distribution transformer;",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2020-01-22",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-003#cl-6.2": {
+      "node_id": "GJ-C3-003#cl-6.2",
+      "doc_id": "GJ-C3-003",
+      "clause_ref": "Amended Reg 6.2 (residential and MSME exempt from cap)",
+      "clause_text_snippet": "and MSME (Manufacturing) Enterprise shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand; whereas in case of Residential Consumers",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2020-01-22",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-003#cl-13.5-class": {
+      "node_id": "GJ-C3-003#cl-13.5-class",
+      "doc_id": "GJ-C3-003",
+      "clause_ref": "Amended Reg 13.5 (meter class)",
+      "clause_text_snippet": "The main Solar Meter and Net Meter shall be of 1.0 and 0.5S or better class accuracy",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2020-01-22",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-003#cl-7-item11.5": {
+      "node_id": "GJ-C3-003#cl-7-item11.5",
+      "doc_id": "GJ-C3-003",
+      "clause_ref": "Amended Reg 7 item 11.5 (no-volt relay above 10 kW)",
+      "clause_text_snippet": "second line of protection such as no volt relay (for Solar PV system above 10 Kw)",
+      "subject": "grid_inverter_safety_standard",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2020-01-22",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-004#cl-6.2a": {
+      "node_id": "GJ-C3-004#cl-6.2a",
+      "doc_id": "GJ-C3-004",
+      "clause_ref": "Amended Reg 6.2(a)",
+      "clause_text_snippet": "Rooftop Solar PV System shall be permitted under net-metering provision for projects having capacity of 1 kW and above and upto 1000 kW.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2022-05-31",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-004#cl-6.2b": {
+      "node_id": "GJ-C3-004#cl-6.2b",
+      "doc_id": "GJ-C3-004",
+      "clause_ref": "Amended Reg 6.2(b) (gross metering floor)",
+      "clause_text_snippet": "Rooftop Solar PV System shall be permitted for gross-metering provision for projects having capacity of above 10 kW and upto 1000 kW.",
+      "subject": "gross_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2022-05-31",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-004#cl-6.2c-ii": {
+      "node_id": "GJ-C3-004#cl-6.2c-ii",
+      "doc_id": "GJ-C3-004",
+      "clause_ref": "Amended Reg 6.2(c)(ii)",
+      "clause_text_snippet": "No capacity restrictions upto sanctioned load/ contracted demand shall be applicable for the captive consumers and project set up under Third Party Sale within the permissible limit.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2022-05-31",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-004#cl-6.2c-iii": {
+      "node_id": "GJ-C3-004#cl-6.2c-iii",
+      "doc_id": "GJ-C3-004",
+      "clause_ref": "Amended Reg 6.2(c)(iii) (REC mechanism)",
+      "clause_text_snippet": "For the projects set up under REC Mechanism for captive use/ third party sale, installation of solar projects shall be allowed up to sanctioned load/contracted demand.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2022-05-31",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-005#cl-7-row4": {
+      "node_id": "GJ-C3-005#cl-7-row4",
+      "doc_id": "GJ-C3-005",
+      "clause_ref": "Amended Reg 7 row 4 (TFR request timeline)",
+      "clause_text_snippet": "On Registration with Distribution Licensee, letter to concerned Circle/Division for TFR and informing applicant regarding specifications of CTPT, meter. 3 days from receipt of duly completed application",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2024-09-06",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "GJ-C3-005#cl-7-row6": {
+      "node_id": "GJ-C3-005#cl-7-row6",
+      "doc_id": "GJ-C3-005",
+      "clause_ref": "Amended Reg 7 row 6 (post-TFR timeline)",
+      "clause_text_snippet": "2 days from receipt of TFR from field office",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2024-09-06",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-005#cl-7-proviso": {
+      "node_id": "GJ-C3-005#cl-7-proviso",
+      "doc_id": "GJ-C3-005",
+      "clause_ref": "Amended Reg 7, proviso (no feasibility study up to 10 kW)",
+      "clause_text_snippet": "Provided that the application for Rooftop Solar Photovoltaic systems upto 10 kW capacity, complete in all respect shall be deemed to have been accepted without requiring technical feasibility study",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2024-09-06",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-005#cl-7-proviso2": {
+      "node_id": "GJ-C3-005#cl-7-proviso2",
+      "doc_id": "GJ-C3-005",
+      "clause_ref": "Amended Reg 7, second proviso (compensation for delay)",
+      "clause_text_snippet": "the Licensee shall be liable to pay compensation to the consumer at a rate which shall not be less than five hundred rupees per day for each day of default.",
+      "subject": "discom_approval_timeline",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2024-09-06",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-005#cl-5.1-proviso": {
+      "node_id": "GJ-C3-005#cl-5.1-proviso",
+      "doc_id": "GJ-C3-005",
+      "clause_ref": "Substituted Reg 5.1 proviso (strengthening cost up to 6 kW)",
+      "clause_text_snippet": "Provided that the cost of strengthening of distribution infrastructure, including distribu tion transformer, as necessary, to facilitate the installation of Rooftop Solar PV System up to 6 KW including subsequent addition aggregating up to 6 KW, shall be included in the Annual Revenue Requirement of Distribution Licensee.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2024-09-06",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "GJ-C3-005#cl-5.1a": {
+      "node_id": "GJ-C3-005#cl-5.1a",
+      "doc_id": "GJ-C3-005",
+      "clause_ref": "Substituted Reg 5.1, (a) LT above 6 kW up to 100 kW",
+      "clause_text_snippet": "(a) For LT consumers installing Rooftop Solar PV System above 6 kW up to 100 kW in aggregate:",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2024-09-06",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-007#cl-8.2": {
+      "node_id": "GJ-C3-007#cl-8.2",
+      "doc_id": "GJ-C3-007",
+      "clause_ref": "Substituted Reg 8(2) (connectivity level by Supply Code)",
+      "clause_text_snippet": "The connectivity levels at which the Rooftop PV Solar System shall be connected with the grid shall be as per the supply voltage level provided under GERC (Electricity Supply Code and Related Matters) Regulations, 2015 as amended from time to time.",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2025-11-03",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-007#cl-7-proviso-pmsg": {
+      "node_id": "GJ-C3-007#cl-7-proviso-pmsg",
+      "doc_id": "GJ-C3-007",
+      "clause_ref": "Reg 7 new proviso (no separate agreement for PM Surya Ghar)",
+      "clause_text_snippet": "Provided that there shall not be requirement for execution of separate written connectivity agreement",
+      "subject": "commissioning_report_procedure",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2025-11-03",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-008#cl-1.4": {
+      "node_id": "GJ-C3-008#cl-1.4",
+      "doc_id": "GJ-C3-008",
+      "clause_ref": "Draft Reg 1.4 (repeal)",
+      "clause_text_snippet": "These Regulations shall repeal the Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) Regulations, 2016 and subsequent amendments.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "unknown",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": "draft_not_in_force",
+      "quote_check": "exact"
+    },
+    "GJ-C3-008#cl-6.2": {
+      "node_id": "GJ-C3-008#cl-6.2",
+      "doc_id": "GJ-C3-008",
+      "clause_ref": "Draft Reg 6.2 (no feasibility study up to 10 kW)",
+      "clause_text_snippet": "The applications for DRES up to 10 kW capacity, complete in all respects shall be deemed to have been accepted without requiring technical feasibility study",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "unknown",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": "draft_not_in_force",
+      "quote_check": "exact"
+    },
+    "KA-C3-001#cl-6a": {
+      "node_id": "KA-C3-001#cl-6a",
+      "doc_id": "KA-C3-001",
+      "clause_ref": "Decision (i): substituted Reg 6(a) connectivity table",
+      "clause_text_snippet": "1. Upto 5kW 230V-Single Phase 2. Above 5kW and upto 150kW 400V- Three Phase 3. Above 150kW and upto 2000kW 11kV HT",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2023-06-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "KA-C3-001#cl-6e": {
+      "node_id": "KA-C3-001#cl-6e",
+      "doc_id": "KA-C3-001",
+      "clause_ref": "Decision (i): substituted Reg 6(e) (DT hosting limit)",
+      "clause_text_snippet": "Each SRTPV plant of less than 150kW capacity shall be connected only to the existing distribution transformer through which the eligible consumers are being supplied electricity. In such cases, the total capacity of the existing and proposed SRTPV plants on that distribution transformer shall not exceed 80% of the rated capacity.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2023-06-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C3-001#cl-6f": {
+      "node_id": "KA-C3-001#cl-6f",
+      "doc_id": "KA-C3-001",
+      "clause_ref": "Decision (i): substituted Reg 6(f) (HT feeder limit)",
+      "clause_text_snippet": "Every SRTPV plant of more than 150kW shall be connected only to the exis ting 11kV Distribution System. In such cases, the total capacity of the existing and proposed SRTPV plants on that feeder shall not exceed 80% of the rated current carrying capacity of that line.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2023-06-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "KA-C3-001#cl-l-feasibility": {
+      "node_id": "KA-C3-001#cl-l-feasibility",
+      "doc_id": "KA-C3-001",
+      "clause_ref": "Decision (l) timeline: site verification / feasibility (1-2000 kW, non-domestic)",
+      "clause_text_snippet": "Site verification / Technical Feasibility & issuance of Letter of Approval / Rejection of application. ESCOM Within 10 (ten) working days from the date of acknowledging the application",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2023-06-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "KA-C3-001#cl-k-carport": {
+      "node_id": "KA-C3-001#cl-k-carport",
+      "doc_id": "KA-C3-001",
+      "clause_ref": "Decision (k): carport / cap at sanctioned load",
+      "clause_text_snippet": "duly limiting the capacity of the SRTPV plant to the sanctioned load of the consumer.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2023-06-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C3-003#cl-24.1": {
+      "node_id": "KA-C3-003#cl-24.1",
+      "doc_id": "KA-C3-003",
+      "clause_ref": "Reg 24.1 (repeal)",
+      "clause_text_snippet": "the KERC (Implementation of Solar Rooftop Photovoltaic Power Plants) Regulations, 2016 shall stand repealed from the date of coming into force of these regulations.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2026-08-19",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C3-003#cl-8.2": {
+      "node_id": "KA-C3-003#cl-8.2",
+      "doc_id": "KA-C3-003",
+      "clause_ref": "Reg 8.2 (DT hosting limit)",
+      "clause_text_snippet": "the total capacity of the existing and proposed DSPV/SPV plants on that distribution transformer shall not exceed 80% of the rated capacity.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2026-08-19",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C3-003#cl-15.1": {
+      "node_id": "KA-C3-003#cl-15.1",
+      "doc_id": "KA-C3-003",
+      "clause_ref": "Reg 15.1 (10 kW sanctioned-load tolerance)",
+      "clause_text_snippet": "allowed to install DSPV Plant up to and inclusive of 10 kW sanctioned load, a capacity tolerance of up to 10 percent for the applied system capacity (DC)",
+      "subject": "load_enhancement_requirement",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2026-08-19",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C3-003#cl-timeline-feasibility": {
+      "node_id": "KA-C3-003#cl-timeline-feasibility",
+      "doc_id": "KA-C3-003",
+      "clause_ref": "Timeline (>150 kW): feasibility",
+      "clause_text_snippet": "Site verification/ Technical Feasibility & Issuance of Letter of Approval /Rejection of application. Distribution Licensee Within 10 (ten) working days from the date of acknowledging the application.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2026-08-19",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "KA-C4-001#cl-preamble-b": {
+      "node_id": "KA-C4-001#cl-preamble-b",
+      "doc_id": "KA-C4-001",
+      "clause_ref": "Preamble (b): Rule 7A quoted (deemed accepted, no feasibility up to 10 kW)",
+      "clause_text_snippet": "Applications for rooftop solar photovoltaic (SRTPV) systems up to 10 kW capacity, complete in all respects, shall be deemed to have been accepted without requiring a technical feasibility study.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2024-12-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A2",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C4-001#cl-1": {
+      "node_id": "KA-C4-001#cl-1",
+      "doc_id": "KA-C4-001",
+      "clause_ref": "Order para 1 (auto-enhancement of sanctioned load up to 10 kW)",
+      "clause_text_snippet": "the distribution licensee shall allow such consumer to install SRTPV plant of capacity upto and inclusive of 10kW and the sanctioned load of the consumer shall be enhanced automatically to match the required capacity of SRTPV plant",
+      "subject": "load_enhancement_requirement",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2024-12-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A2",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C4-001#cl-3": {
+      "node_id": "KA-C4-001#cl-3",
+      "doc_id": "KA-C4-001",
+      "clause_ref": "Order para 3 (10% DC tolerance)",
+      "clause_text_snippet": "a capacity tolerance of up to 10 % shall be allowed for the applied system capacity (DC), subject to condition that the AC capacity of the inverter shall not exceed the sanctioned load.",
+      "subject": "load_enhancement_requirement",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "2024-12-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A2",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "KA-C5-001#cl-15": {
+      "node_id": "KA-C5-001#cl-15",
+      "doc_id": "KA-C5-001",
+      "clause_ref": "Para 15 (check meter threshold)",
+      "clause_text_snippet": "The check meter shall be provided for SRTPV systems capacity of more than 17.5 kW.",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2023-08-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C5-001#cl-22": {
+      "node_id": "KA-C5-001#cl-22",
+      "doc_id": "KA-C5-001",
+      "clause_ref": "Para 22 (interconnection voltage)",
+      "clause_text_snippet": "1 From 1kWp Upto & inclusive 5kWp 230 Volts 2 Above 5 kWp & upto 150 kWp 400 Volts 3 Above 150 kWp & above upto 2000 kWp 11 kV",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2023-08-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "KA-C5-001#cl-23": {
+      "node_id": "KA-C5-001#cl-23",
+      "doc_id": "KA-C5-001",
+      "clause_ref": "Para 23 (DT hosting limit)",
+      "clause_text_snippet": "the total capacity of the existing and proposed SRTPV plants on that distribution transformer sha ll not exceed 80% of the rated capacity",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2023-08-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "KA-C5-001#cl-26": {
+      "node_id": "KA-C5-001#cl-26",
+      "doc_id": "KA-C5-001",
+      "clause_ref": "Para 26 (SDO verifies feasibility for every application)",
+      "clause_text_snippet": "The Sub -divisional officer (SDO) shall verify for Technical feasibility of the installation",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2023-08-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "KA-C5-001#cl-37": {
+      "node_id": "KA-C5-001#cl-37",
+      "doc_id": "KA-C5-001",
+      "clause_ref": "Para 37 (non-residential cap at sanctioned load)",
+      "clause_text_snippet": "duly limiting the capacity of the SRTPV plant to the sanctioned load of the consumer ( As per KERC order dated 01.06.2023)",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2023-08-05",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C5-006#cl-18": {
+      "node_id": "KA-C5-006#cl-18",
+      "doc_id": "KA-C5-006",
+      "clause_ref": "Item 18 (check meter threshold)",
+      "clause_text_snippet": "The check meter shall be provided for DSPV systems of capacity more than 50kWp.",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2025-12-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C5-006#cl-4-note-ii": {
+      "node_id": "KA-C5-006#cl-4-note-ii",
+      "doc_id": "KA-C5-006",
+      "clause_ref": "Item 4 note ii (deemed feasible up to 150 kW)",
+      "clause_text_snippet": "The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2025-12-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C5-006#cl-4": {
+      "node_id": "KA-C5-006#cl-4",
+      "doc_id": "KA-C5-006",
+      "clause_ref": "Item 4 (DT hosting limit, LT)",
+      "clause_text_snippet": "the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": "BESCOM"
+      },
+      "effective_date": "2025-12-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-001#cl-2": {
+      "node_id": "TN-C5-001#cl-2",
+      "doc_id": "TN-C5-001",
+      "clause_ref": "Para 2 (capacity cap vs sanctioned demand)",
+      "clause_text_snippet": "Consumer can install a maximum capacity of rooftop solar net feed-in plant upto 100% of his sanctioned/contracted demand.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2019-05-10",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-001#cl-3": {
+      "node_id": "TN-C5-001#cl-3",
+      "doc_id": "TN-C5-001",
+      "clause_ref": "Para 3 (voltage/phase thresholds)",
+      "clause_text_snippet": "415 V at the option of the consumer. For load exceeding 4 kW upto 112 KW , the voltage level is 415V, three phase.",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2019-05-10",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "TN-C5-001#cl-5": {
+      "node_id": "TN-C5-001#cl-5",
+      "doc_id": "TN-C5-001",
+      "clause_ref": "Para 5 (DT hosting limit)",
+      "clause_text_snippet": "connectivity to roo ftop solar systems shall be restricted to 90% of the distribution transformer capacity on the basis of first c ome first served.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2019-05-10",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "TN-C5-001#cl-6": {
+      "node_id": "TN-C5-001#cl-6",
+      "doc_id": "TN-C5-001",
+      "clause_ref": "Para 6 (feasibility timeline)",
+      "clause_text_snippet": "The feasibility intimation letter/ approval should be issued within 3 working days from the date of registration of application.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2019-05-10",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-001#cl-14": {
+      "node_id": "TN-C5-001#cl-14",
+      "doc_id": "TN-C5-001",
+      "clause_ref": "Para 14 (inspection authority threshold)",
+      "clause_text_snippet": "For Solar PV installations below 10 KW, the Assistant Executive Engineer/O&M concerned shall be the inspection authority.",
+      "subject": "commissioning_report_procedure",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2019-05-10",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-002#cl-I.2": {
+      "node_id": "TN-C5-002#cl-I.2",
+      "doc_id": "TN-C5-002",
+      "clause_ref": "I.2 (net billing / net feed-in capacity)",
+      "clause_text_snippet": "All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2021-10-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-002#cl-VII.3": {
+      "node_id": "TN-C5-002#cl-VII.3",
+      "doc_id": "TN-C5-002",
+      "clause_ref": "VII.3 (DT hosting limit)",
+      "clause_text_snippet": "The cumulative capacity of all Solar PV systems under net metering or net billing put together connected to a distribution transformer shall not exceed 90% of the distribution transformer capacity.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2021-10-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-002#cl-VII.4": {
+      "node_id": "TN-C5-002#cl-VII.4",
+      "doc_id": "TN-C5-002",
+      "clause_ref": "VII.4 (power transformer limit, HT gross metering)",
+      "clause_text_snippet": "The cumulative capacity of all solar generating systems under Gross metering mechanism in case of HT connected to a Power Transformer shall not exceed 70% of the Power Transformer capacity.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2021-10-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-002#cl-I.3a": {
+      "node_id": "TN-C5-002#cl-I.3a",
+      "doc_id": "TN-C5-002",
+      "clause_ref": "I.3(a) (gross metering minimum size)",
+      "clause_text_snippet": "that can be set up under Gross Metering mechanism shall be 151 kWp up to a maximum capacity of 999 kW.",
+      "subject": "gross_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2021-10-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-002#cl-check-meter": {
+      "node_id": "TN-C5-002#cl-check-meter",
+      "doc_id": "TN-C5-002",
+      "clause_ref": "Check meter (optional up to 20 kW)",
+      "clause_text_snippet": "Provided that installation of Check Meter shall be optional for Renewable Energy Generating System with capacity up to and including 20 kW.",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2021-10-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "TN-C5-002#cl-annex1-feasibility": {
+      "node_id": "TN-C5-002#cl-annex1-feasibility",
+      "doc_id": "TN-C5-002",
+      "clause_ref": "Annexure I timeline (site verification / technical feasibility)",
+      "clause_text_snippet": "Site Verification / Technical Feasibility & issuance of Letter of Approval (LOA) / Termination [1] DISCOM 15",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "TN",
+        "discom": "TANGEDCO"
+      },
+      "effective_date": "2021-10-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A6",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "pypdf_text_only"
+    },
+    "DL-C3-001#cl-5.4": {
+      "node_id": "DL-C3-001#cl-5.4",
+      "doc_id": "DL-C3-001",
+      "clause_ref": "Reg. 5(4) DERC NM Regs 2014",
+      "clause_text_snippet": "such Consumer of premises shall pay Service Line cum Development (SLD) charges at the time of registration of Renewable Energy System, equal to the differential amount of SLD charges between the capacity of the Renewable Energy System and the existing sanctioned load",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-002#cl-g1.1": {
+      "node_id": "DL-C3-002#cl-g1.1",
+      "doc_id": "DL-C3-002",
+      "clause_ref": "Guidelines under DERC NM Regs 2014, cl. 1(1)",
+      "clause_text_snippet": "Distribution Tran sformer level capacity to be offered for Connecting Renewable EnergySystem for Net Metering by the Distribution Licensee shall not be less than 20% (Twenty percent) of the rated capacity of respective distribution transformer.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "DL-C3-002#cl-g3.3": {
+      "node_id": "DL-C3-002#cl-g3.3",
+      "doc_id": "DL-C3-002",
+      "clause_ref": "Guidelines under DERC NM Regs 2014, cl. 3(3)",
+      "clause_text_snippet": "the Distribution Licensee shall complete the feasibility analysis for connecting the Renewable EnergySystem to the distribution system within thirty (30) days from the date of receipt of the application..",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-002#cl-g3.13": {
+      "node_id": "DL-C3-002#cl-g3.13",
+      "doc_id": "DL-C3-002",
+      "clause_ref": "Guidelines cl. 3(13)",
+      "clause_text_snippet": "Within thirt y (30) days from the date of registration, the Distribution Licensee and the Consumer shall execute a Con nection Agreement .",
+      "subject": "discom_approval_timeline",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "DL-C3-002#cl-g3.16": {
+      "node_id": "DL-C3-002#cl-g3.16",
+      "doc_id": "DL-C3-002",
+      "clause_ref": "Guidelines cl. 3(16)",
+      "clause_text_snippet": "The Distribution Licensee, within fifteen (15)days from the date of installation of the Renewable Energy System shall procure, test and install the Net Meter.",
+      "subject": "discom_approval_timeline",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-004#cl-3.8": {
+      "node_id": "DL-C3-004#cl-3.8",
+      "doc_id": "DL-C3-004",
+      "clause_ref": "Guideline 3(8)",
+      "clause_text_snippet": "The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2019-05-31",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-008#cl-13": {
+      "node_id": "DL-C3-008#cl-13",
+      "doc_id": "DL-C3-008",
+      "clause_ref": "Guideline 13 (substituted 24.02.2022)",
+      "clause_text_snippet": "Provided that exemption of applicability of such charges shall be valid till commissioning of Renewable Energy System by 31 st March 2024 or till additional capacity reaches upto 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL , BYPL and NDMC respectively",
+      "subject": "application_fee_tariff",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2022-02-24",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "DL-C3-009#cl-3.8": {
+      "node_id": "DL-C3-009#cl-3.8",
+      "doc_id": "DL-C3-009",
+      "clause_ref": "Guideline 3(8) (substituted, eff. 01.04.2024)",
+      "clause_text_snippet": "Capacity of the Ground Mounted RE System under GNM or VNM framework shall be upto 5 times of Sanctioned Load of participating consumer who have opted for VNM/GNM with maximum of 10 MW.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2024-04-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-009#cl-13": {
+      "node_id": "DL-C3-009#cl-13",
+      "doc_id": "DL-C3-009",
+      "clause_ref": "Guideline 13 (substituted)",
+      "clause_text_snippet": "The Renewable Energy System commissioned till 31/03/2027 shall be exempted, till useful life, from 100% payment of Wheeling Charge, Banking Charge, Cross Subsidy Surcharge and any other charge(s).",
+      "subject": "application_fee_tariff",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2024-04-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-011#cl-11.4ia": {
+      "node_id": "DL-C3-011#cl-11.4ia",
+      "doc_id": "DL-C3-011",
+      "clause_ref": "Reg. 11(4)(i)(a) Supply Code 2017 (substituted 16.07.2024)",
+      "clause_text_snippet": "not exceeding three days (3) in metropolitan areas, seven days (7) in urban areas and fifteen days (15) in rural areas",
+      "subject": "discom_approval_timeline",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2024-07-16",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-012#cl-5.3-proviso3": {
+      "node_id": "DL-C3-012#cl-5.3-proviso3",
+      "doc_id": "DL-C3-012",
+      "clause_ref": "Reg. 5(3) provisos (inserted 26.07.2024)",
+      "clause_text_snippet": "Provided also that Technical feasibility of Renewable Energy System above 10 kW shall be completed by Distribution Licensee within fifteen (15) days from the date of receipt of application complete in all aspects.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2024-07-26",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-012#cl-5.3-proviso1": {
+      "node_id": "DL-C3-012#cl-5.3-proviso1",
+      "doc_id": "DL-C3-012",
+      "clause_ref": "Reg. 5(3) proviso 1",
+      "clause_text_snippet": "Provided that the Technical feasibility of Renewable Energy System upto 10 kW is exempted from technical feasibility studies on the same supply type",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2024-07-26",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-014#cl-8.2ce": {
+      "node_id": "DL-C3-014#cl-8.2ce",
+      "doc_id": "DL-C3-014",
+      "clause_ref": "Guideline 8(2)(c),(e) (substituted)",
+      "clause_text_snippet": "‘“occurred during the normal time block for Time of Day (ToD) consumers and normal time block for Non-ToD consumers.”",
+      "subject": "billing_settlement_period",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2025-06-05",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-015#cl-3.6": {
+      "node_id": "DL-C3-015#cl-3.6",
+      "doc_id": "DL-C3-015",
+      "clause_ref": "Guideline 3(6) (substituted, dated 20.01.2026)",
+      "clause_text_snippet": "Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn’t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively",
+      "subject": "application_fee_tariff",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-01-20",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-015#cl-9.2b": {
+      "node_id": "DL-C3-015#cl-9.2b",
+      "doc_id": "DL-C3-015",
+      "clause_ref": "Guideline 9(2)(b) (substituted)",
+      "clause_text_snippet": "to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year with an advance notice of two months",
+      "subject": "billing_settlement_period",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-01-20",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-015#cl-3.2": {
+      "node_id": "DL-C3-015#cl-3.2",
+      "doc_id": "DL-C3-015",
+      "clause_ref": "Guideline 3(2) (substituted)",
+      "clause_text_snippet": "Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-01-20",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-016#cl-g3-stage1": {
+      "node_id": "DL-C3-016#cl-g3-stage1",
+      "doc_id": "DL-C3-016",
+      "clause_ref": "Guideline 3 (substituted), Stage I",
+      "clause_text_snippet": "The Distribution Licensee shall complete the technical feasibility analysis within fifteen (15) days from the date of receipt of the application complete in all aspects:",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-07-16",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-016#cl-g3-cumulative": {
+      "node_id": "DL-C3-016#cl-g3-cumulative",
+      "doc_id": "DL-C3-016",
+      "clause_ref": "Guideline 3 (substituted), Stage II and cumulative cap",
+      "clause_text_snippet": "the cumulative period to be observed by the Distribution Licensee, up to the grant of connectivity, shall not exceed —(a) twenty -five (25) days in the case of a Renewable Energy System above 10 kW, and (b) ten (10) days in the case of a Renewable Energy System up to 10 kW",
+      "subject": "discom_approval_timeline",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-07-16",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "DL-C3-016#cl-g3.1-proviso": {
+      "node_id": "DL-C3-016#cl-g3.1-proviso",
+      "doc_id": "DL-C3-016",
+      "clause_ref": "Guideline 3(1) proviso (substituted)",
+      "clause_text_snippet": "Provided that no Application Fee for feasibility analysis shall be payable in the case of domestic consumers for Rooftop Solar Connections up to 10 kW, irrespective of whether or not such consumers avail benefits under the PM Surya Ghar: Muft Bijli Yojana.",
+      "subject": "application_fee_tariff",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-07-16",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-002#cl-6.2": {
+      "node_id": "UP-C3-002#cl-6.2",
+      "doc_id": "UP-C3-002",
+      "clause_ref": "Reg. 6.2",
+      "clause_text_snippet": "6.2 Provided that the capacity to be allowed in the area fed from a distribution transformer (DT) or any other transformer from which power is fed to the eligible consumer is not more than 75% of that DT or any other transformer.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2019-01-04",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-002#cl-5.1": {
+      "node_id": "UP-C3-002#cl-5.1",
+      "doc_id": "UP-C3-002",
+      "clause_ref": "Reg. 5.1 and proviso",
+      "clause_text_snippet": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the connected /contracted demand of the consumer.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2019-01-04",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-002#cl-5.1-proviso": {
+      "node_id": "UP-C3-002#cl-5.1-proviso",
+      "doc_id": "UP-C3-002",
+      "clause_ref": "Reg. 5.1 proviso",
+      "clause_text_snippet": "shall not be less than 1 kWp and shall not exceed 2 MW.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2019-01-04",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-002#cl-6.2-proviso2": {
+      "node_id": "UP-C3-002#cl-6.2-proviso2",
+      "doc_id": "UP-C3-002",
+      "clause_ref": "Reg. 6.2 second proviso",
+      "clause_text_snippet": "up to total 10 kWp solar rooftop installation, the consumer would not pay any charge except to a one time charge computed at the rate of Rs 1000 per kWp on the capacity beyond 10 KWp, as cost of augmentation of system.",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2019-01-04",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-002#cl-10.3": {
+      "node_id": "UP-C3-002#cl-10.3",
+      "doc_id": "UP-C3-002",
+      "clause_ref": "Reg. 10.3(iii)/(iv) net-metering unadjusted credit rate",
+      "clause_text_snippet": "any electricity credits, which remain unadjusted, shall be paid at a Net Metering Rate of Rs 2/kWh by the Distribution Licensee or as notified by the Commission from time to time.",
+      "subject": "surplus_energy_purchase_rate",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2019-01-04",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-003#cl-10.6": {
+      "node_id": "UP-C3-003#cl-10.6",
+      "doc_id": "UP-C3-003",
+      "clause_ref": "Reg. 10.6 (added 01.06.2022)",
+      "clause_text_snippet": "shall be finalized by UPNEDA/ state designated agency in consultation of the Discom within 60 days of notification of this Regulation",
+      "subject": "discom_approval_timeline",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2022-06-01",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-004#cl-2k-iii": {
+      "node_id": "UP-C3-004#cl-2k-iii",
+      "doc_id": "UP-C3-004",
+      "clause_ref": "Reg. 2(k)(iii) Net Metering Scheme eligibility (17.11.2023)",
+      "clause_text_snippet": "(I) All Public Institutions covered under LMV-4A consumer category of the Rate Schedule except such consumers which are covered under LMV-4A(c) as provided in the Rate Schedule.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2023-11-17",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-005#cl-10.3ii": {
+      "node_id": "UP-C3-005#cl-10.3ii",
+      "doc_id": "UP-C3-005",
+      "clause_ref": "Reg. 10.3(ii) proviso (03.06.2025)",
+      "clause_text_snippet": "plus an incentive of 25%. In case no bidding is done in previous Financial Year, then the last applicable tariff for gross metering shall continue.",
+      "subject": "surplus_energy_purchase_rate",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2025-06-03",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C3-004#cl-11.4": {
+      "node_id": "IN-C3-004#cl-11.4",
+      "doc_id": "IN-C3-004",
+      "clause_ref": "Rule 11(4) (substituted by G.S.R. 448(E), 28.06.2021)",
+      "clause_text_snippet": "Provided that where the regulations does not provide for net -metering, net -billing or net feed -in, the Commission may allow net metering to the Prosumer for loads up to five hundred Kilowatt or upto the sanctioned load, whichever is lower",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2021-06-28",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "IN-C2-008#cl-5": {
+      "node_id": "IN-C2-008#cl-5",
+      "doc_id": "IN-C2-008",
+      "clause_ref": "Para 5 modified (OM 28.07.2025)",
+      "clause_text_snippet": "Explanation: \"Cut-off date\" for this purpose is the date, which falls exactly after 1 month of the publication of ALMM List-ll for solar PV cells.",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2025-07-28",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-008#cl-8": {
+      "node_id": "IN-C2-008#cl-8",
+      "doc_id": "IN-C2-008",
+      "clause_ref": "Para 8 (reiterated)",
+      "clause_text_snippet": "All the Net-Metering Projects and Open Access RE Power Projects which get commissioned on or after 1st June 2026, shall have to mandatorily source their solar PV modules from ALMM List-l and solar PV cells from ALMM List-Il.",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2025-07-28",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-011#cl-7": {
+      "node_id": "IN-C2-011#cl-7",
+      "doc_id": "IN-C2-011",
+      "clause_ref": "Para 7 (SUPERSEDED 18.07.2026)",
+      "clause_text_snippet": "within 30.06.2026. No physical applications will be entertained.",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-05-25",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-012#cl-3": {
+      "node_id": "IN-C2-012#cl-3",
+      "doc_id": "IN-C2-012",
+      "clause_ref": "Para 3",
+      "clause_text_snippet": "Earlier this dispensation for Net-metering projects and Open Access renewable power projects was available till 31st May 2026. Net- metering projects and Open Access renewable power projects commissioned after 31st December, 2026, will be required to comply with the ALMM List-ll provisions.",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-07-18",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-013#cl-1b-definition": {
+      "node_id": "IN-C2-013#cl-1b-definition",
+      "doc_id": "IN-C2-013",
+      "clause_ref": "Para 1(b)",
+      "clause_text_snippet": "'Net-Metering' as referred herein shall be construed to cover all other forms of connection and interaction to grid, including but not limited to Gross Metering, Net Billing, Net Feed In, Virtual Net Metering, Group Net Metering, etc. but excluding Behind-The-Meter connections.",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-08-04",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-013#cl-1a": {
+      "node_id": "IN-C2-013#cl-1a",
+      "doc_id": "IN-C2-013",
+      "clause_ref": "Para 1(a)",
+      "clause_text_snippet": "the cut off date of 31.08.2025 (the date falling after one month of the publication of initial ALMM List-II dated 31.07.2025)",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-08-04",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C1-011#cl-annex-phase2-claims": {
+      "node_id": "IN-C1-011#cl-annex-phase2-claims",
+      "doc_id": "IN-C1-011",
+      "clause_ref": "Para on Phase II claims (original 07.06.2024)",
+      "clause_text_snippet": "will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained.",
+      "subject": "subsidy_disbursement_process",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-06-07",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A3",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-004#cl-6.2c-i": {
+      "node_id": "GJ-C3-004#cl-6.2c-i",
+      "doc_id": "GJ-C3-004",
+      "clause_ref": "Reg 6.2(c)(i) (substituted 2022)",
+      "clause_text_snippet": "Solar Projects set up by residential consumers on their rooftop/premises shall be allowed irrespective of consumer sanctioned load.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2022-05-31",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "GJ-C3-003#cl-13.5-check": {
+      "node_id": "GJ-C3-003#cl-13.5-check",
+      "doc_id": "GJ-C3-003",
+      "clause_ref": "Reg 13.5 (replaced 2020), check meters",
+      "clause_text_snippet": "Check Meters shall be mandatory for Rooftop Solar PV Systems having capacity more than 20 kW.",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "GJ",
+        "discom": null
+      },
+      "effective_date": "2020-01-22",
+      "effective_date_basis": "E5",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-016#cl-g3-stage1-deemed": {
+      "node_id": "DL-C3-016#cl-g3-stage1-deemed",
+      "doc_id": "DL-C3-016",
+      "clause_ref": "Guideline 3 (substituted 2026), Stage I provisos",
+      "clause_text_snippet": "Provided that no technical feasibility analysis shall be required in respect of a Renewable Energy System of capacity up to 10 kW on the same supply type",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-07-16",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-016#cl-g3-stage1-lapse": {
+      "node_id": "DL-C3-016#cl-g3-stage1-lapse",
+      "doc_id": "DL-C3-016",
+      "clause_ref": "Guideline 3 (substituted 2026), Stage I second proviso",
+      "clause_text_snippet": "Provided further that where the Distribution Licensee fails to communicate the outcome of the feasibili ty analysis within the said period, the feasibility shall be deemed to have been granted;",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2026-07-16",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "IN-C2-013#cl-1b": {
+      "node_id": "IN-C2-013#cl-1b",
+      "doc_id": "IN-C2-013",
+      "clause_ref": "Para 1(b) (net-metering window)",
+      "clause_text_snippet": "b) For Net-Metering & Open Access Projects, if commissioned by 31.12.2026, the projects are exempt from ALMM List-ll for solar cells, else not.",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-08-04",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-013#cl-1b-giu": {
+      "node_id": "IN-C2-013#cl-1b-giu",
+      "doc_id": "IN-C2-013",
+      "clause_ref": "Para 1(b) (Give It Up residential cases)",
+      "clause_text_snippet": "be exempted from applicability of ALMM List-II (for solar PV cells) till the end of the scheme period, i.e., 31st March 2027,",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-08-04",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-013#cl-1e": {
+      "node_id": "IN-C2-013#cl-1e",
+      "doc_id": "IN-C2-013",
+      "clause_ref": "Para 1(e)(i) (behind-the-meter captive)",
+      "clause_text_snippet": "ALMM List-I (for solar PV modules) and ALMM List-II (for solar PV cells) shall not apply to behind-the-meter solar power plants solely used for captive consumption",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-08-04",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C1-001#cl-annex1-ii-amended": {
+      "node_id": "IN-C1-001#cl-annex1-ii-amended",
+      "doc_id": "IN-C1-001",
+      "clause_ref": "Amendment OM 318/140/2024 (07.07.2025), Annexure 1 item ii (amended column)",
+      "clause_text_snippet": "CFAiftheclaimisreceived till October admissible for CFA.if claim is received till 2024.Theclaimsreceivedafter 31.12.2025.",
+      "subject": "subsidy_disbursement_process",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2025-07-07",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A3",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C1-001#cl-phase2-pmsg-split": {
+      "node_id": "IN-C1-001#cl-phase2-pmsg-split",
+      "doc_id": "IN-C1-001",
+      "clause_ref": "Annexure (application date split, 13.02.2024)",
+      "clause_text_snippet": "Application received under PM - Surya Ghar : Muft Bijli Yojana (on and after 13th Feb 2024)",
+      "subject": "subsidy_disbursement_process",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-06-07",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A3",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-001#cl-6.2": {
+      "node_id": "UP-C3-001#cl-6.2",
+      "doc_id": "UP-C3-001",
+      "clause_ref": "Reg 6.2 (2015)",
+      "clause_text_snippet": "6.2 Provided that the capacity to be allowed in the area fed from the distribution transformer or any other transformer from which power is fed to the eligible consumer shall not exceed 15 % or any other percentage as may be fixed by the Commission of the rated capacity of such transformer(s).",
+      "subject": "dt_capacity_limit",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2015-03-20",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "UP-C3-001#cl-5.1": {
+      "node_id": "UP-C3-001#cl-5.1",
+      "doc_id": "UP-C3-001",
+      "clause_ref": "Reg 5.1 (2015)",
+      "clause_text_snippet": "5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be installed by any eligible consumer shall not exceed 100% of the sanctioned connected load / contract demand of the consumer.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2015-03-20",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-002#cl-1.3": {
+      "node_id": "UP-C3-002#cl-1.3",
+      "doc_id": "UP-C3-002",
+      "clause_ref": "Reg 1(3) (supersession of the 2015 Regulations)",
+      "clause_text_snippet": "These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive Systems Gross / Net Metering) Regulations, 2015\".",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2019-01-04",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C3-001#cl-11.7A": {
+      "node_id": "IN-C3-001#cl-11.7A",
+      "doc_id": "IN-C3-001",
+      "clause_ref": "rule 11(7A) (inserted 2024)",
+      "clause_text_snippet": "(7A) The applications for roof top solar photo voltaic systems upto 10 kW capacity, complete in all respects shall be deemed to have been accepted without requiring technical feasibility study and any commensurate enhancement of the sanctioned load of the consumer, as may be required, shall be carried out by the distribution licensee.",
+      "subject": "feasibility_sanction_stage",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2024-02-22",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "KA-C3-001#cl-6a-2016-quoted": {
+      "node_id": "KA-C3-001#cl-6a-2016-quoted",
+      "doc_id": "KA-C3-001",
+      "clause_ref": "Reg 6(a) (2016 text as quoted in this order)",
+      "clause_text_snippet": "1. Upto 5kW 230V-Single Phase 2. Above 5kW and upto 50kW 400V- Three Phase 3. Above 50kW and upto 2000kW 11kV HT",
+      "subject": "meter_phase_threshold",
+      "jurisdiction": {
+        "level": "state",
+        "code": "KA",
+        "discom": null
+      },
+      "effective_date": "UNKNOWN",
+      "effective_date_basis": "E9",
+      "effective_date_confidence": "low",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": "quoted_predecessor",
+      "quote_check": "pypdf_text_only"
+    },
+    "DL-C3-004#cl-13": {
+      "node_id": "DL-C3-004#cl-13",
+      "doc_id": "DL-C3-004",
+      "clause_ref": "Guideline 13",
+      "clause_text_snippet": "The Renewable Energy System commissioned till 31 st march 2022 under DERC (Net Metering for Renewable Energy) Regulations, 2014, shall be exempted during its useful life",
+      "subject": "application_fee_tariff",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2019-05-31",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "DL-C3-004#cl-8.2ce": {
+      "node_id": "DL-C3-004#cl-8.2ce",
+      "doc_id": "DL-C3-004",
+      "clause_ref": "Guideline 8(2)(c),(e)",
+      "clause_text_snippet": "as if the surplus generation/ Energy Credits occurred during the off peak time block for Time of Day ( ToD) consumers and normal time block for Non-ToD consumer.",
+      "subject": "billing_settlement_period",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2019-05-31",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "loose"
+    },
+    "DL-C3-009#cl-3.6": {
+      "node_id": "DL-C3-009#cl-3.6",
+      "doc_id": "DL-C3-009",
+      "clause_ref": "Guideline 3(6) second proviso",
+      "clause_text_snippet": "Provided also that such waiver of SLD will be effective till cumulative capacity doesn’t exceed 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively",
+      "subject": "application_fee_tariff",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2024-04-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-004#cl-9.2b": {
+      "node_id": "DL-C3-004#cl-9.2b",
+      "doc_id": "DL-C3-004",
+      "clause_ref": "Guideline 9(2)(b)",
+      "clause_text_snippet": "once in the financial year with an advance notice of two months",
+      "subject": "billing_settlement_period",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2019-05-31",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-006#cl-3.2": {
+      "node_id": "DL-C3-006#cl-3.2",
+      "doc_id": "DL-C3-006",
+      "clause_ref": "Guideline 3(2)",
+      "clause_text_snippet": "Virtual Net Metering Framework shall be applicable for consumers under domestic category, consumers like Hospitals, Colleges, Schools, other Institutions run or managed by Charitable Institutions, non-profit Organisations/Trust, which are not covered under the category of domestic consumers, offices of Government /Local Authorities and Renewable Energy Generators registered under Mukhya Mantri Kisaan Aay Badhotari Yojna.",
+      "subject": "net_metering_capacity_cap",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2020-12-24",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "DL-C3-013#cl-g3.1-proviso": {
+      "node_id": "DL-C3-013#cl-g3.1-proviso",
+      "doc_id": "DL-C3-013",
+      "clause_ref": "Guideline 3(1) proviso",
+      "clause_text_snippet": "Provided that no such Application Fee for feasibility analysis shall be payable in case of domestic consumers for Rooftop Solar Connections up to 10 KW under PM Surya Ghar: Muft Bijli Yojana.",
+      "subject": "application_fee_tariff",
+      "jurisdiction": {
+        "level": "state",
+        "code": "DL",
+        "discom": null
+      },
+      "effective_date": "2025-05-01",
+      "effective_date_basis": "E6",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-001#cl-10": {
+      "node_id": "UP-C3-001#cl-10",
+      "doc_id": "UP-C3-001",
+      "clause_ref": "Reg. 10 (unadjusted credit)",
+      "clause_text_snippet": "remain unadjusted, shall be paid at a rate of Rs 0.50/kWh by the Distribution Licensee",
+      "subject": "surplus_energy_purchase_rate",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2015-03-20",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "UP-C3-002#cl-10.3ii": {
+      "node_id": "UP-C3-002#cl-10.3ii",
+      "doc_id": "UP-C3-002",
+      "clause_ref": "Reg. 10.3(ii) proviso",
+      "clause_text_snippet": "adopted by the Commission plus an incentive of 25%.",
+      "subject": "surplus_energy_purchase_rate",
+      "jurisdiction": {
+        "level": "state",
+        "code": "UP",
+        "discom": null
+      },
+      "effective_date": "2019-01-04",
+      "effective_date_basis": "E4",
+      "effective_date_confidence": "medium",
+      "status_at_snapshot": "superseded",
+      "authority_rank": "A1",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    },
+    "IN-C2-006#cl-5": {
+      "node_id": "IN-C2-006#cl-5",
+      "doc_id": "IN-C2-006",
+      "clause_ref": "Para 5-6 OM 09.12.2024",
+      "clause_text_snippet": "if the last date of bid submission is on or before the issuance of this order, such projects shall be mandated to use solar PV modules",
+      "subject": "almm_module_compliance",
+      "jurisdiction": {
+        "level": "central",
+        "code": "IN",
+        "discom": null
+      },
+      "effective_date": "2026-06-01",
+      "effective_date_basis": "E1",
+      "effective_date_confidence": "high",
+      "status_at_snapshot": "in_force",
+      "authority_rank": "A4",
+      "verification_status": "UNVERIFIED",
+      "legal_status": null,
+      "quote_check": "exact"
+    }
+  },
+  "edges": [
+    {
+      "from": "IN-C1-002#cl-2",
+      "to": "IN-C1-001#cl-4.1",
+      "relation": "superseded_by",
+      "from_date": "2024-02-13",
+      "confidence": "high",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "subsumed into the new scheme, and the new scheme funds shall be utilized for meeting",
+        "doc_id": "IN-C1-001"
+      }
+    },
+    {
+      "from": "IN-C2-003#cl-1",
+      "to": "IN-C2-002#cl-1",
+      "relation": "superseded_by",
+      "from_date": "2024-03-29",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "1st April, 2024",
+        "doc_id": "IN-C2-002"
+      }
+    },
+    {
+      "from": "IN-C3-002#cl-11.7",
+      "to": "IN-C3-001#cl-11.7",
+      "relation": "superseded_by",
+      "from_date": "2024-02-22",
+      "confidence": "high",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "for sub-rule (7), the following sub-rule shall be substituted",
+        "doc_id": "IN-C3-001"
+      }
+    },
+    {
+      "from": "MH-C3-001#cl-annex1-c",
+      "to": "MH-C3-002#cl-annex1-c",
+      "relation": "superseded_by",
+      "from_date": "2024-08-29",
+      "confidence": "high",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "Substitution of Clause C of Annexure-1 of the Principal Regulations",
+        "doc_id": "MH-C3-002"
+      }
+    },
+    {
+      "from": "MH-C5-004#cl-open-access",
+      "to": "MH-C5-001#cl-feasibility",
+      "relation": "superseded_by",
+      "from_date": "2020-01-20",
+      "confidence": "high",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "Procedure for Application, methodology for Metering",
+        "doc_id": "MH-C5-001"
+      }
+    },
+    {
+      "from": "RJ-C3-001#cl-3.1",
+      "to": "RJ-C3-002#cl-7.2",
+      "relation": "superseded_by",
+      "from_date": "2021-06-15",
+      "confidence": "high",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "shall be governed as per the",
+        "doc_id": "RJ-C3-002"
+      }
+    },
+    {
+      "from": "RJ-C3-002#cl-6.1",
+      "to": "RJ-C3-003#cl-2",
+      "relation": "superseded_by",
+      "from_date": "2023-10-06",
+      "confidence": "high",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "The existing sub-regulation 6.1 shall be substituted with the following",
+        "doc_id": "RJ-C3-003"
+      }
+    },
+    {
+      "from": "RJ-C3-002#cl-8.8",
+      "to": "RJ-C3-005#cl-8.8",
+      "relation": "superseded_by",
+      "from_date": "2024-08-30",
+      "confidence": "high",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "The existing sub regulation 8.8 shall be substituted with the following",
+        "doc_id": "RJ-C3-005"
+      }
+    },
+    {
+      "from": "GJ-C3-001#cl-6.2",
+      "to": "GJ-C3-002#cl-6.2",
+      "relation": "superseded_by",
+      "from_date": "2017-10-06",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "The maximum Rooftop Solar PV System capacity to be installed at any Eligible Consumer’s premises except Residential Consumers shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand; whereas in case of Residential Consumers, the Rooftop Solar PV System capacity shall be irrespective of their sanctioned load/contract demand.",
+        "doc_id": "GJ-C3-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2017-1stAmend Amended Reg 6.2 amends/supersedes GERC-NetMetering-2016-Reg Reg 6.2"
+    },
+    {
+      "from": "GJ-C3-001#cl-5-proviso",
+      "to": "GJ-C3-003#cl-5-proviso",
+      "relation": "superseded_by",
+      "from_date": "2020-01-22",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "The second para of Regulation 5 of the Principal Regulations shall stand amended as under:",
+        "doc_id": "GJ-C3-003"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2020-2ndAmend Amended Reg 5 proviso (DT limit) amends/supersedes GERC-NetMetering-2016-Reg Reg 5 proviso"
+    },
+    {
+      "from": "GJ-C3-002#cl-6.2",
+      "to": "GJ-C3-003#cl-6.2",
+      "relation": "superseded_by",
+      "from_date": "2020-01-22",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "and MSME (Manufacturing) Enterprise shall be upto a maximum of 50% of consumer’s sanctioned load/contract demand; whereas in case of Residential Consumers",
+        "doc_id": "GJ-C3-003"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2020-2ndAmend Amended Reg 6.2 (residential and MSME exempt from cap) amends/supersedes GERC-NetMetering-2017-1stAmend Reg 6.2 (as amended 2017)"
+    },
+    {
+      "from": "GJ-C3-001#cl-13.5-class",
+      "to": "GJ-C3-003#cl-13.5-class",
+      "relation": "superseded_by",
+      "from_date": "2020-01-22",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "Para 13.5 of the Principal Regulations, shall be replaced with the following para:",
+        "doc_id": "GJ-C3-003"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2020-2ndAmend Amended Reg 13.5 (meter class) amends/supersedes GERC-NetMetering-2016-Reg Reg 13.5"
+    },
+    {
+      "from": "GJ-C3-003#cl-6.2",
+      "to": "GJ-C3-004#cl-6.2a",
+      "relation": "superseded_by",
+      "from_date": "2022-05-31",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "shall stand amended and substituted by following clauses:",
+        "doc_id": "GJ-C3-004"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2022-3rdAmend Amended Reg 6.2(a) amends/supersedes GERC-NetMetering-2020-2ndAmend Reg 6.2 (as amended 2017, 2020)"
+    },
+    {
+      "from": "GJ-C3-003#cl-6.2",
+      "to": "GJ-C3-004#cl-6.2c-ii",
+      "relation": "superseded_by",
+      "from_date": "2022-05-31",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "No capacity restrictions upto sanctioned load/ contracted demand shall be applicable for the captive consumers and project set up under Third Party Sale within the permissible limit.",
+        "doc_id": "GJ-C3-004"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2022-3rdAmend Amended Reg 6.2(c)(ii) amends/supersedes GERC-NetMetering-2020-2ndAmend Reg 6.2 (as amended)"
+    },
+    {
+      "from": "GJ-C3-001#cl-7-row4",
+      "to": "GJ-C3-005#cl-7-row4",
+      "relation": "superseded_by",
+      "from_date": "2024-09-06",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "On Registration with Distribution Licensee, letter to concerned Circle/Division for TFR and informing applicant regarding specifications of CTPT, meter. 3 days from receipt of duly completed application",
+        "doc_id": "GJ-C3-005"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2024-4thAmend Amended Reg 7 row 4 (TFR request timeline) amends/supersedes GERC-NetMetering-2016-Reg Reg 7 row 4"
+    },
+    {
+      "from": "GJ-C3-001#cl-7-row6",
+      "to": "GJ-C3-005#cl-7-row6",
+      "relation": "superseded_by",
+      "from_date": "2024-09-06",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "2 days from receipt of TFR from field office",
+        "doc_id": "GJ-C3-005"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2024-4thAmend Amended Reg 7 row 6 (post-TFR timeline) amends/supersedes GERC-NetMetering-2016-Reg Reg 7 row 6"
+    },
+    {
+      "from": "GJ-C3-001#cl-5.1-proviso",
+      "to": "GJ-C3-005#cl-5.1-proviso",
+      "relation": "superseded_by",
+      "from_date": "2024-09-06",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Provided that the cost of strengthening of distribution infrastructure, including distribu tion transformer, as necessary, to facilitate the installation of Rooftop Solar PV System up to 6 KW including subsequent addition aggregating up to 6 KW, shall be included in the Annual Revenue Requirement of Distribution Licensee.",
+        "doc_id": "GJ-C3-005"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2024-4thAmend Substituted Reg 5.1 proviso (strengthening cost up to 6 kW) amends/supersedes GERC-NetMetering-2016-Reg Reg 5.1 proviso"
+    },
+    {
+      "from": "GJ-C3-001#cl-8.2",
+      "to": "GJ-C3-007#cl-8.2",
+      "relation": "superseded_by",
+      "from_date": "2025-11-03",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "The connectivity levels at which the Rooftop PV Solar System shall be connected with the grid shall be as per the supply voltage level provided under GERC (Electricity Supply Code and Related Matters) Regulations, 2015 as amended from time to time.",
+        "doc_id": "GJ-C3-007"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: GERC-NetMetering-2025-5thAmend Substituted Reg 8(2) (connectivity level by Supply Code) amends/supersedes GERC-NetMetering-2016-Reg Reg 8(2)"
+    },
+    {
+      "from": "KA-C3-001#cl-6a-2016-quoted",
+      "to": "KA-C3-001#cl-6a",
+      "relation": "superseded_by",
+      "from_date": "2023-06-01",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "1. Upto 5kW 230V-Single Phase 2. Above 5kW and upto 150kW 400V- Three Phase 3. Above 150kW and upto 2000kW 11kV HT",
+        "doc_id": "KA-C3-001"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: KERC-SRTPV-tariff-order-2023-06-01 Decision (i): substituted Reg 6(a) connectivity table amends/supersedes KERC (Implementation of Solar Rooftop Photovoltaic Power Plants) Regulations, 2016 (NOT in staging; not retrievable, see FAILURES.md) Reg 6(a)"
+    },
+    {
+      "from": "KA-C3-001#cl-6e",
+      "to": "KA-C3-003#cl-8.2",
+      "relation": "superseded_by",
+      "from_date": "2026-08-19",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "the total capacity of the existing and proposed DSPV/SPV plants on that distribution transformer shall not exceed 80% of the rated capacity.",
+        "doc_id": "KA-C3-003"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: KERC-DSPV-Regulations-2026 Reg 8.2 (DT hosting limit) amends/supersedes KERC-SRTPV-tariff-order-2023-06-01 Substituted Reg 6(e)"
+    },
+    {
+      "from": "KA-C4-001#cl-3",
+      "to": "KA-C3-003#cl-15.1",
+      "relation": "superseded_by",
+      "from_date": "2026-08-19",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "allowed to install DSPV Plant up to and inclusive of 10 kW sanctioned load, a capacity tolerance of up to 10 percent for the applied system capacity (DC)",
+        "doc_id": "KA-C3-003"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: KERC-DSPV-Regulations-2026 Reg 15.1 (10 kW sanctioned-load tolerance) amends/supersedes KERC-order-2024-12-05 Order para 3"
+    },
+    {
+      "from": "KA-C3-001#cl-k-carport",
+      "to": "KA-C4-001#cl-1",
+      "relation": "superseded_by",
+      "from_date": "2024-12-05",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "the distribution licensee shall allow such consumer to install SRTPV plant of capacity upto and inclusive of 10kW and the sanctioned load of the consumer shall be enhanced automatically to match the required capacity of SRTPV plant",
+        "doc_id": "KA-C4-001"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: KERC-order-2024-12-05 Order para 1 (auto-enhancement of sanctioned load up to 10 kW) amends/supersedes KERC-SRTPV-tariff-order-2023-06-01 Decision (k) / cap at sanctioned load"
+    },
+    {
+      "from": "KA-C5-001#cl-15",
+      "to": "KA-C5-006#cl-18",
+      "relation": "superseded_by",
+      "from_date": "2025-12-01",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "The check meter shall be provided for DSPV systems of capacity more than 50kWp.",
+        "doc_id": "KA-C5-006"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: BESCOM-SRTPV-Common-SOP-DSPV Item 18 (check meter threshold) amends/supersedes BESCOM-SRTPV-Guidelines-2023-08-05 Para 15"
+    },
+    {
+      "from": "KA-C5-001#cl-26",
+      "to": "KA-C5-006#cl-4-note-ii",
+      "relation": "superseded_by",
+      "from_date": "2025-12-01",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "The installations with solar proposed capacity upto 150kW are considered to be deemed feasible. There is no requirement of issuing feasibility reports for such DSPV plants.",
+        "doc_id": "KA-C5-006"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: BESCOM-SRTPV-Common-SOP-DSPV Item 4 note ii (deemed feasible up to 150 kW) amends/supersedes BESCOM-SRTPV-Guidelines-2023-08-05 Para 26"
+    },
+    {
+      "from": "KA-C5-001#cl-23",
+      "to": "KA-C5-006#cl-4",
+      "relation": "superseded_by",
+      "from_date": "2025-12-01",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "the total capacity of the existing and proposed DSPV plants on that distribution transformer shall not exceed 80% of the rated capacity.",
+        "doc_id": "KA-C5-006"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: BESCOM-SRTPV-Common-SOP-DSPV Item 4 (DT hosting limit, LT) amends/supersedes BESCOM-SRTPV-Guidelines-2023-08-05 Para 23"
+    },
+    {
+      "from": "TN-C5-001#cl-2",
+      "to": "TN-C5-002#cl-I.2",
+      "relation": "superseded_by",
+      "from_date": "2021-10-22",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "All electricity consumer categories (except hut and agriculture) irrespective of tariff and voltage levels up to the level of sanctioned load/contracted demand up to a maximum capacity of 999 KW are eligible for solar energy net billing or net feed-in mechanism.",
+        "doc_id": "TN-C5-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: TNEBLTD-usrp-Salientfeatures I.2 (net billing / net feed-in capacity) amends/supersedes TANGEDCO-test1-soi-100519 Para 2"
+    },
+    {
+      "from": "TN-C5-001#cl-5",
+      "to": "TN-C5-002#cl-VII.3",
+      "relation": "superseded_by",
+      "from_date": "2021-10-22",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "The cumulative capacity of all Solar PV systems under net metering or net billing put together connected to a distribution transformer shall not exceed 90% of the distribution transformer capacity.",
+        "doc_id": "TN-C5-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: TNEBLTD-usrp-Salientfeatures VII.3 (DT hosting limit) amends/supersedes TANGEDCO-test1-soi-100519 Para 5"
+    },
+    {
+      "from": "TN-C5-001#cl-6",
+      "to": "TN-C5-002#cl-annex1-feasibility",
+      "relation": "superseded_by",
+      "from_date": "2021-10-22",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Site Verification / Technical Feasibility & issuance of Letter of Approval (LOA) / Termination [1] DISCOM 15",
+        "doc_id": "TN-C5-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: TNEBLTD-usrp-Salientfeatures Annexure I timeline (site verification / technical feasibility) amends/supersedes TANGEDCO-test1-soi-100519 Para 6"
+    },
+    {
+      "from": "DL-C3-004#cl-13",
+      "to": "DL-C3-008#cl-13",
+      "relation": "superseded_by",
+      "from_date": "2022-02-24",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Provided that exemption of applicability of such charges shall be valid till commissioning of Renewable Energy System by 31 st March 2024 or till additional capacity reaches upto 75 MW, 50 MW, 30 MW and 10 MW for BRPL, TPDDL , BYPL and NDMC respectively",
+        "doc_id": "DL-C3-008"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-GNMVNM-2022-fourth-amend Guideline 13 (substituted 24.02.2022) amends/supersedes DL-GNMVNM-2019-guidelines Guideline 13"
+    },
+    {
+      "from": "DL-C3-004#cl-3.8",
+      "to": "DL-C3-009#cl-3.8",
+      "relation": "superseded_by",
+      "from_date": "2024-04-01",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "In Guidelines 3(8), the following shall be substituted as:-",
+        "doc_id": "DL-C3-009"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-GNMVNM-2024-fifth-amend Guideline 3(8) (substituted, eff. 01.04.2024) amends/supersedes DL-GNMVNM-2019-guidelines Guideline 3(8)"
+    },
+    {
+      "from": "DL-C3-008#cl-13",
+      "to": "DL-C3-009#cl-13",
+      "relation": "superseded_by",
+      "from_date": "2024-04-01",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "The Renewable Energy System commissioned till 31/03/2027 shall be exempted, till useful life, from 100% payment of Wheeling Charge, Banking Charge, Cross Subsidy Surcharge and any other charge(s).",
+        "doc_id": "DL-C3-009"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-GNMVNM-2024-fifth-amend Guideline 13 (substituted) amends/supersedes DL-GNMVNM-2022-fourth-amend Guideline 13"
+    },
+    {
+      "from": "DL-C3-002#cl-g3.3",
+      "to": "DL-C3-012#cl-5.3-proviso3",
+      "relation": "superseded_by",
+      "from_date": "2024-07-26",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Provided also that Technical feasibility of Renewable Energy System above 10 kW shall be completed by Distribution Licensee within fifteen (15) days from the date of receipt of application complete in all aspects.",
+        "doc_id": "DL-C3-012"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-NM-2024-first-amend-regs Reg. 5(3) provisos (inserted 26.07.2024) amends/supersedes DL-NM-2014-regs-and-guidelines-sws Guidelines cl. 3(3)"
+    },
+    {
+      "from": "DL-C3-004#cl-8.2ce",
+      "to": "DL-C3-014#cl-8.2ce",
+      "relation": "superseded_by",
+      "from_date": "2025-06-05",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "‘“occurred during the normal time block for Time of Day (ToD) consumers and normal time block for Non-ToD consumers.”",
+        "doc_id": "DL-C3-014"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-GNMVNM-2025-sixth-amend Guideline 8(2)(c),(e) (substituted) amends/supersedes DL-GNMVNM-2019-guidelines Guideline 8(2)(c),(e)"
+    },
+    {
+      "from": "DL-C3-009#cl-3.6",
+      "to": "DL-C3-015#cl-3.6",
+      "relation": "superseded_by",
+      "from_date": "2026-01-20",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Provided also that such waiver of SLD and network augmentation will be effective till cumulative capacity doesn’t exceed 110 MW, 100 MW, 30 MW and 10 MW for BRPL, TPDDL, BYPL and NDMC respectively",
+        "doc_id": "DL-C3-015"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-GNMVNM-2025-seventh-amend Guideline 3(6) (substituted, dated 20.01.2026) amends/supersedes DL-GNMVNM-2024-fifth-amend Guideline 3(6) second proviso"
+    },
+    {
+      "from": "DL-C3-004#cl-9.2b",
+      "to": "DL-C3-015#cl-9.2b",
+      "relation": "superseded_by",
+      "from_date": "2026-01-20",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "to add new participating service connections to the existing VNM arrangement under the agreement/MoU entered into by the consumer(s) twice in the financial year with an advance notice of two months",
+        "doc_id": "DL-C3-015"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-GNMVNM-2025-seventh-amend Guideline 9(2)(b) (substituted) amends/supersedes DL-GNMVNM-2019-guidelines Guideline 9(2)(b)"
+    },
+    {
+      "from": "DL-C3-006#cl-3.2",
+      "to": "DL-C3-015#cl-3.2",
+      "relation": "superseded_by",
+      "from_date": "2026-01-20",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Virtual Net Metering Framework shall be applicable for all consumers of NCT of Delhi including consumers of single point of supply.",
+        "doc_id": "DL-C3-015"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-GNMVNM-2025-seventh-amend Guideline 3(2) (substituted) amends/supersedes DL-GNMVNM-2020-second-amend Guideline 3(2)"
+    },
+    {
+      "from": "DL-C3-002#cl-g3.3",
+      "to": "DL-C3-016#cl-g3-stage1",
+      "relation": "superseded_by",
+      "from_date": "2026-07-16",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "The Distribution Licensee shall complete the technical feasibility analysis within fifteen (15) days from the date of receipt of the application complete in all aspects:",
+        "doc_id": "DL-C3-016"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-NM-2026-second-amend-guidelines Guideline 3 (substituted), Stage I amends/supersedes DL-NM-2014-regs-and-guidelines-sws Guidelines cl. 3(3)"
+    },
+    {
+      "from": "DL-C3-002#cl-g3.13",
+      "to": "DL-C3-016#cl-g3-cumulative",
+      "relation": "superseded_by",
+      "from_date": "2026-07-16",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "the cumulative period to be observed by the Distribution Licensee, up to the grant of connectivity, shall not exceed —(a) twenty -five (25) days in the case of a Renewable Energy System above 10 kW, and (b) ten (10) days in the case of a Renewable Energy System up to 10 kW",
+        "doc_id": "DL-C3-016"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-NM-2026-second-amend-guidelines Guideline 3 (substituted), Stage II and cumulative cap amends/supersedes DL-NM-2014-regs-and-guidelines-sws Guidelines cl. 3(9),(13),(16)"
+    },
+    {
+      "from": "DL-C3-013#cl-g3.1-proviso",
+      "to": "DL-C3-016#cl-g3.1-proviso",
+      "relation": "superseded_by",
+      "from_date": "2026-07-16",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Provided that no Application Fee for feasibility analysis shall be payable in the case of domestic consumers for Rooftop Solar Connections up to 10 kW, irrespective of whether or not such consumers avail benefits under the PM Surya Ghar: Muft Bijli Yojana.",
+        "doc_id": "DL-C3-016"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: DL-NM-2026-second-amend-guidelines Guideline 3(1) proviso (substituted) amends/supersedes DL-NM-2025-first-amend-guidelines Guideline 3(1) proviso"
+    },
+    {
+      "from": "UP-C3-001#cl-6.2",
+      "to": "UP-C3-002#cl-6.2",
+      "relation": "superseded_by",
+      "from_date": "2019-01-04",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive Systems Gross / Net Metering) Regulations, 2015\".",
+        "doc_id": "UP-C3-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: UP-RSPV-2019-regs Reg. 6.2 amends/supersedes UP-RSPV-2015-regs Reg. 6.2"
+    },
+    {
+      "from": "UP-C3-001#cl-5.1",
+      "to": "UP-C3-002#cl-5.1",
+      "relation": "superseded_by",
+      "from_date": "2019-01-04",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive Systems Gross / Net Metering) Regulations, 2015\".",
+        "doc_id": "UP-C3-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: UP-RSPV-2019-regs Reg. 5.1 and proviso amends/supersedes UP-RSPV-2015-regs Reg. 5.1-5.2"
+    },
+    {
+      "from": "UP-C3-001#cl-10",
+      "to": "UP-C3-002#cl-10.3",
+      "relation": "superseded_by",
+      "from_date": "2019-01-04",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "any electricity credits, which remain unadjusted, shall be paid at a Net Metering Rate of Rs 2/kWh by the Distribution Licensee or as notified by the Commission from time to time.",
+        "doc_id": "UP-C3-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: UP-RSPV-2019-regs Reg. 10.3(iii)/(iv) net-metering unadjusted credit rate amends/supersedes UP-RSPV-2015-regs Reg. 10 (unadjusted credit)"
+    },
+    {
+      "from": "UP-C3-002#cl-10.3ii",
+      "to": "UP-C3-005#cl-10.3ii",
+      "relation": "superseded_by",
+      "from_date": "2025-06-03",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "plus an incentive of 25%. In case no bidding is done in previous Financial Year, then the last applicable tariff for gross metering shall continue.",
+        "doc_id": "UP-C3-005"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: UP-RSPV-2019-third-amend Reg. 10.3(ii) proviso (03.06.2025) amends/supersedes UP-RSPV-2019-regs Reg. 10.3(ii) proviso"
+    },
+    {
+      "from": "IN-C3-002#cl-11.4",
+      "to": "IN-C3-004#cl-11.4",
+      "relation": "superseded_by",
+      "from_date": "2021-06-28",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Provided that where the regulations does not provide for net -metering, net -billing or net feed -in, the Commission may allow net metering to the Prosumer for loads up to five hundred Kilowatt or upto the sanctioned load, whichever is lower",
+        "doc_id": "IN-C3-004"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: IN-ROC-2021-amend-GSR448E Rule 11(4) (substituted by G.S.R. 448(E), 28.06.2021) amends/supersedes CORPUS:IN-C3-002 Rule 11(4) ROC 2020"
+    },
+    {
+      "from": "IN-C2-008#cl-5",
+      "to": "IN-C2-006#cl-5",
+      "relation": "superseded_by",
+      "from_date": "2026-06-01",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "if the last date of bid submission is on or before the issuance of this order, such projects shall be mandated to use solar PV modules",
+        "doc_id": "IN-C2-006"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: IN-ALMM-2025-07-28-amend-OM-283-59-2024 Para 5 modified (OM 28.07.2025) amends/supersedes CORPUS:IN-C2-006 Para 5-6 OM 09.12.2024"
+    },
+    {
+      "from": "IN-C2-011#cl-7",
+      "to": "IN-C2-012#cl-3",
+      "relation": "superseded_by",
+      "from_date": "2026-07-18",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "In supersession of MNRE's O.M. No. 283/63/2025-GRID SOLAR dated 25th May 2026,",
+        "doc_id": "IN-C2-012"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "staging record: IN-ALMM-2026-05-25-OM-283-63-2025 Para 7 (SUPERSEDED 18.07.2026) amends/supersedes IN-ALMM-2026-07-18-OM-283-53-2026 Para 3 supersession"
+    },
+    {
+      "from": "IN-C1-011#cl-annex-phase2-claims",
+      "to": "IN-C1-001#cl-annex1-ii-amended",
+      "relation": "superseded_by",
+      "from_date": "2025-07-07",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "Subject: Amendment in Guidelines for Implementation of PM-Surya Ghar: Muft Bijli",
+        "doc_id": "IN-C1-001"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "Amendment OM 318/140/2024 dated 07.07.2025 (bundled in IN-C1-001) amends the Phase-II claim window; the two-column (existing/amended) table is OCR-interleaved: read the page image."
+    },
+    {
+      "from": "GJ-C3-001#cl-13.5-check",
+      "to": "GJ-C3-003#cl-13.5-check",
+      "relation": "superseded_by",
+      "from_date": "2020-01-22",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "Para 13.5 of the Principal Regulations, shall be replaced with the following para:",
+        "doc_id": "GJ-C3-003"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "Para 13.5 replaced in full; the 20 kW check-meter threshold is restated unchanged."
+    },
+    {
+      "from": "GJ-C3-002#cl-6.2",
+      "to": "GJ-C3-004#cl-6.2c-i",
+      "relation": "superseded_by",
+      "from_date": "2022-05-31",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "shall stand amended and substituted by following clauses:",
+        "doc_id": "GJ-C3-004"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "Residential exemption restated in 6.2(c)(i)."
+    },
+    {
+      "from": "IN-C2-008#cl-8",
+      "to": "IN-C2-012#cl-3",
+      "relation": "amended_by",
+      "from_date": "2026-07-18",
+      "confidence": "medium",
+      "evidence": {
+        "type": "implicit",
+        "quote_text": "Earlier this dispensation for Net-metering projects and Open Access renewable power projects was available till 31st May 2026.",
+        "doc_id": "IN-C2-012"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "The 18.07.2026 OM extends the List-II exemption for net-metering / open-access projects from 01.06.2026 to 31.12.2026; para 8 (as reiterated 28.07.2025) is amended to that extent."
+    },
+    {
+      "from": "UP-C3-001#cl-5.1",
+      "to": "UP-C3-002#cl-1.3",
+      "relation": "consolidated_into",
+      "from_date": "2019-01-04",
+      "confidence": "medium",
+      "evidence": {
+        "type": "explicit",
+        "quote_text": "These Regulations supersede the \"UPERC (Rooftop Solar PV Grid Interactive Systems Gross / Net Metering) Regulations, 2015\".",
+        "doc_id": "UP-C3-002"
+      },
+      "verification_status": "UNVERIFIED",
+      "notes": "Backs superseded_documents[UP-C3-001]: whole-instrument supersession."
+    }
+  ],
+  "superseded_documents": {
+    "RJ-C3-001": "2021-06-15",
+    "IN-C1-002": "2024-02-13",
+    "MH-C5-004": "2020-01-20",
+    "IN-C2-003": "2024-03-29",
+    "UP-C3-001": "2019-01-04"
+  }
+}

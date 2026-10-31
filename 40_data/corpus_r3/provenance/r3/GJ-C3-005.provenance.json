@@ -1,0 +1,107 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2Nzc2NzA4N185NTkw",
+  "landing_page_url": "https://gercin.org/regulations/re_regulations",
+  "doc_type": "amendment (Fourth)",
+  "title": "Gujarat Electricity Regulatory Commission (Net Metering Rooftop Solar PV Grid Interactive Systems) (Fourth Amendment) Regulations, 2024",
+  "number": "Notification No. 13 of 2024",
+  "printed_date": "2024-09-06 (Gazette Extra No. 98); signed 04/09/2024",
+  "file": "GERC-NetMetering-2024-4thAmend.pdf",
+  "fetched_at": "2026-10-01T16:42:54Z",
+  "http_status": 200,
+  "sha256": "327d4bd1f926de3f142c698b9c43f4e79cecae151f192cb83434cfd3e6971169",
+  "pages": 5,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Amended Reg 7 row 4 (TFR request timeline)",
+      "verbatim_quote": "On Registration with Distribution Licensee, letter to concerned Circle/Division for TFR and informing applicant regarding specifications of CTPT, meter. 3 days from receipt of duly completed application",
+      "page": 3,
+      "topic": "feasibility timeline",
+      "numeric_values": {
+        "days": 3,
+        "previous_days": 5
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 7 row 4",
+        "evidence_quote": "On Registration with Distribution Licensee, letter to concerned Circle/Division for TFR and informing applicant regarding specifications of CTPT, meter. 5 days from receipt of duly completed application",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 7 row 6 (post-TFR timeline)",
+      "verbatim_quote": "2 days from receipt of TFR from field office",
+      "page": 3,
+      "topic": "feasibility timeline",
+      "numeric_values": {
+        "days": 2,
+        "previous_days": 5
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 7 row 6",
+        "evidence_quote": "5 days from receipt of TFR from field office",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 7, proviso (no feasibility study up to 10 kW)",
+      "verbatim_quote": "Provided that the application for Rooftop Solar Photovoltaic systems upto 10 kW capacity, complete in all respect shall be deemed to have been accepted without requiring technical feasibility study",
+      "page": 5,
+      "topic": "feasibility study exemption",
+      "numeric_values": {
+        "kw": 10
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 7 rows 4-5 (TFR)",
+        "evidence_quote": "Note: Solar installation to be restricted up to T/C capacity, and if required, it is to be strengthened at the c ost of Solar Rooftop Generator.",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Amended Reg 7, second proviso (compensation for delay)",
+      "verbatim_quote": "the Licensee shall be liable to pay compensation to the consumer at a rate which shall not be less than five hundred rupees per day for each day of default.",
+      "page": 5,
+      "topic": "delay compensation",
+      "numeric_values": {
+        "inr_per_day": 500
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Substituted Reg 5.1 proviso (strengthening cost up to 6 kW)",
+      "verbatim_quote": "Provided that the cost of strengthening of distribution infrastructure, including distribu tion transformer, as necessary, to facilitate the installation of Rooftop Solar PV System up to 6 KW including subsequent addition aggregating up to 6 KW, shall be included in the Annual Revenue Requirement of Distribution Licensee.",
+      "page": 2,
+      "topic": "DT strengthening cost",
+      "numeric_values": {
+        "kw": 6,
+        "previous": "cost borne by consumer"
+      },
+      "amends_or_supersedes": {
+        "doc": "GERC-NetMetering-2016-Reg",
+        "clause_ref": "Reg 5.1 proviso",
+        "evidence_quote": "Provided that if augmentation of transformer/distribution network is required, the cost of such augmentation shall be borne by the consumer.",
+        "evidence_in_file": "GERC-NetMetering-2016-Reg.pdf"
+      },
+      "status": "UNVERIFIED — needs human check"
+    },
+    {
+      "clause_ref": "Substituted Reg 5.1, (a) LT above 6 kW up to 100 kW",
+      "verbatim_quote": "(a) For LT consumers installing Rooftop Solar PV System above 6 kW up to 100 kW in aggregate:",
+      "page": 2,
+      "topic": "kW thresholds",
+      "numeric_values": {
+        "lt_from_kw": 6,
+        "lt_to_kw": 100
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

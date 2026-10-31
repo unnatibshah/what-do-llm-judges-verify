@@ -1,0 +1,44 @@
+{
+  "source_url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2025/07/202507281907062200.pdf",
+  "landing_page_url": "https://mnre.gov.in/en/approved-list-of-models-and-manufacturers-almm/",
+  "fetched_at": "2026-10-01T16:51:02Z",
+  "sha256": "6be5b6f4f0109fb1dbb8b755aa69f8291a56e40fbaf6723e43057fd2a517d19c",
+  "http_status": 200,
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "printed_title": "Amendment to O.M. No. 283/59/2024-GRID SOLAR dated 09.12.2024 for Implementation of ALMM for Solar PV cells",
+  "number": "283/59/2024-GRID SOLAR",
+  "printed_date": "2025-07-28",
+  "file_type": "PDF document, version 1.4",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Para 5 modified (OM 28.07.2025)",
+      "verbatim_quote": "Explanation: \"Cut-off date\" for this purpose is the date, which falls exactly after 1 month of the publication of ALMM List-ll for solar PV cells.",
+      "page": 2,
+      "topic": "Bid cut-off shifts from 09.12.2024 to 1 month after List-II publication (31.08.2025)",
+      "numeric_values": {
+        "old_cutoff": "2024-12-09",
+        "new_cutoff": "1 month after List-II (31.08.2025)"
+      },
+      "amends_or_supersedes": {
+        "doc": "CORPUS:IN-C2-006",
+        "clause_ref": "Para 5-6 OM 09.12.2024",
+        "evidence_quote": "if the last date of bid submission is on or before the issuance of this order, such projects shall be mandated to use solar PV modules",
+        "evidence_page": 1
+      },
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    },
+    {
+      "clause_ref": "Para 8 (reiterated)",
+      "verbatim_quote": "All the Net-Metering Projects and Open Access RE Power Projects which get commissioned on or after 1st June 2026, shall have to mandatorily source their solar PV modules from ALMM List-l and solar PV cells from ALMM List-Il.",
+      "page": 3,
+      "topic": "Net-metering/open access projects commissioned on/after 1 June 2026 must use List-II cells",
+      "numeric_values": {
+        "effective_date": "2026-06-01"
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check",
+      "text_source": "OCR (macOS Vision) of scanned PDF; quote may contain OCR errors — compare to image"
+    }
+  ]
+}

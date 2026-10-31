@@ -1,0 +1,230 @@
+DERIVED FILE: macOS Vision OCR of IN-ALMM-2025-07-28-amend-OM-283-59-2024.pdf; not the document. Verify against the PDF image.
+
+=====PAGE 1=====
+No. 283/59/2024-GRID SOLAR
+7 / Government of India
+Ministry of New & Renewable Energy (MNRE)
+Grid Solar Power Division
+Atal Akshay Urja Bhawan,
+Lodi Road, New Delhi - 110003
+Date: 28th July, 2025
+OFFICE MEMORANDUM
+Sub: Amendment to O.M. No. 283/59/2024-GRID SOLAR dated 09.12.2024 for Implementation of ALMM
+for Solar PV cells - reg.
+SI.
+Modified Provision
+No.
+1
+2
+3
+Existing Provision
+Reference is invited to the 'Approved Models and
+No change
+Manufacturers of Solar Photovoltaic Modules
+(Requirements
+for Compulsory Registration)
+Order, 2019' issued by MNRE on 02.01.2019 anc
+various clarifications / amendments thereto issued
+from time to time along with the Procedural
+Guidelines
+28.03.2019
+Clarifications amendmen thereto, issued under
+the subject Order.
+Though the aforesaid ALMM order dated
+No change
+02.01.2019 had provision for List-l, specifying
+nodels and manufacturers of Solar PV Modules
+and List-ll, specifying models and manufacturers
+of Solar PV Cells, till date, List-ll of solar PV cells
+has not been
+issued because
+the installed
+capacity of solar PV cells in the country was lower
+than demand.
+With installed capacity of solar PV cells in the
+country expected to increase substantially in next
+year, it has been proposed to issue List-ll of solar
+PV cells under ALMM, which shall be effective
+from 1st June 2026.
+4
+5
+With installed capacity of solar PV cells in the
+country expected to increase substantially in nex
+few years, it has been proposed to issue List-ll o
+solar PV cells under ALMM, which shall be
+effective from 1st June 2026, subject to terms
+and conditions as detailed out in following
+In line with provisions already specified in ALMM No change
+Order
+02.01.2019,
+subsequent
+clarifications and amendments thereto, all projects
+falling under the purview of ALMM shall have to
+mandatorily source their solar PV modules from
+models and manufacturers included in ALMM List-
+I for solar PV modules and such solar PV modules
+in turn
+shall have to use solar PV cells from
+amongst the models and manufacturers enlisted
+in ALMM List-II for solar PV cells, as per the details
+specified in following paragraphs.
+For all projects (including the projects bid out
+For all projects (including the projects bid out
+following
+the Guidelines issued by the Central
+following the Guidelines issued by the Central
+Government under Section 63 of the Electricity Act
+Government under Section 63 of the Electricity Act
+2003) which are mandated to use solar PV
+2003) which are mandated to use solar PV
+modules from ALMM List-I (for solar PV modules),
+modules from ALMM List-I (for solar PV modules),
+if the last date of bid submission is on or before
+if the last date of bid submission is on or before
+the issuance of this order (refers to OM dated
+the cut-off date, such projects shall be mandated
+09.12.2024), such projects shall be mandated to
+to use solar PV modules from ALMM List-I (for
+use solar PV modules from ALMM List-I (for solar solar PV modules) but will stand exempted from
+
+=====PAGE 2=====
+SI.
+No.
+6
+Existing Provision
+Modified Provision
+the requirement of using solar PV cells from ALMM
+List-ll (for solar PV cells), irrespective of their date
+of commissioning, i.e. such projects will be exempt
+from the requirement of using solar PV cells from
+from the requirement of using solar PV cells from
+ALMM List-ll, even if their date of commissioning
+ALMM List-ll, even if their date of commissioning
+is beyond 1st June 2026.
+is beyond 1st June 2026.
+There shall be no relaxation in Domestic
+Content
+Requirement (DCR) provisions,
+wherever applicable in respect of MNRE's
+Schemes/ Programs like Components B&C of
+PM-KUSUM, PM Surya Ghar: Muft Bijli Yojana
+and CPSU Scheme Phase-ll.
+Explanation: "Cut-off date" for this purpose is
+the date, which falls exactly after 1 month of
+the publication of ALMM List-ll for solar PV
+cells. For instance, If the ALMM List for Solar
+Cells is published on August 1st 2025, then the
+cut-off date shall be September 1st 2025.
+All projects (including the projects bid out following
+All projects (including the projects bid out following
+the Guidelines issued by the Central Government
+the Guidelines issued by the Central Government
+under Section 63 of the Electricity Act 2003) that
+under Section 63 of the Electricity Act 2003) that
+are covered under ALMM and where the last date
+are covered under ALMM and where the last date
+of bid submission is after the date of issuance of
+of bid submission falls after the cut-off date as
+this order (refers to OM dated 09.12.2024), shall
+mentioned above, shall have a clause in their
+have a clause in their tender documents / Request
+tender documents / Request for Selection (RfS)
+for Selection (RfS) documents that the solar PV
+documents that the solar PV modules and solar
+modules and solar PV cells used in such projects
+PV cells used in such projects shall be from the
+shall be from the models and
+manufacturers
+models and manufacturers included in ALMM List-
+included in ALMM List-I (for solar PV modules) and
+I (for solar PV modules) and ALMM List-ll (for solar
+ALMM List-II (for solar PV cells) and this condition
+PV cells) and this condition will have to be followed
+will have to be followed irrespective of the date of
+irrespective of the date of commissioning, i.e. even
+commissioning, i.e. even
+if
+such projects get
+if such projects get commissioned prior to 1st June
+commissioned prior to 1st June 2026. In case of
+2026. In case of such tenders which have been
+such tenders which have been issued prior to the
+issued prior to the date of issuance of this order,
+date of issuance of this order, but the last date of
+but the last date of bid submission falls after the
+bid submission is after the issuance of this
+cut-off date as mentioned above, the concerned
+order (refers to OM dated 09.12.2024), the
+bidding agency would issue an amendment to the
+concerned
+bidding agency would issue an
+tender document to include provisions stating that
+amendment to the tender document to include bidders shall take into account the provisions of
+provisions stating that bidders shall take into
+ALMM for solar PV cells while submitting their
+account the provisions of ALMM for solar PV cells
+bids.
+while submitting their bids.
+From 1st June, 2026 onwards, only such solar PV
+No change
+modules will remain in ALMM List- I (for solar PV
+modules) which are using solar PV cells from
+ALMM List-II (for solar PV cells) and solar PV
+module manufacturers who fail to comply to this
+condition, will be liable to be delisted from ALMM
+List-I (for solar PV modules). However, after 31st
+May 2026, a separate ALMM List-I(a) (for solar P\
+nodules) would be maintained and this list woul
+contain such solar PV modules which are enlisted
+in ALMM but do not use solar PV cells from ALMM
+List-II (for solar PV cells) and this ALMM List-I(a)
+(for solar PV modules) would be applicable only
+for such projects which are mandated to use solar
+PV modules from ALMM for solar PV modules
+
+=====PAGE 3=====
+SI.
+No.
+8
+Existing Provision
+[List-l / List-(a)] but are exempt from using solar
+PV cells from ALMM List-Il for solar PV cells.
+Net-Metering
+Projects and Open Access RE
+No change
+Power Projects are mandated to use solar PV
+modules enlisted in ALMM, unless such projects
+are exempt from ALMM in accordance with
+provisions of MNRE's O.M. No. 283/54/2018-
+GRID SOLAR-Part(5) dated 07.10.2022, clarified
+and reiterated by MNRE's O.M. No. 283/54/2018-
+GRID SOLAR-Part(2) dated 14.10.2024, MNRE'S
+other O.M./Order/Instruction
+Modified Provision
+9
+10
+stand exempted tom the eristie end des, wil
+get commissioned prior to 1st June 2026. All the
+Net-Metering Projects and Open Access RE
+Power Projects which get commissioned on or
+after 1st June 2026, shall have to mandatorily
+source their solar PV modules from ALMM List-l
+and solar PV cells from ALMM List-Il.
+Thin Film technology based Solar PV Modules
+No change
+enlisted in ALMM List-l and manufactured in
+Integrated Solar PV Module Manufacturing units
+enlisted in ALMM List- I, shall be considered to be
+in deemed compliance to the requirement of using
+solar PV cells from ALMM List-Il.
+Procedural Guidelines for enlistment of Models
+No change
+and Manufacturers of Solar PV Cells under ALMM
+List-ll (for Solar PV Cells) will be issued
+subsequently.
+11. This issues with the approval of Hon'ble Minister (New & Renewable Energy).
+(Sanjay G. Karndhar)
+Scientist-E
+Email: karndhar.sg@nic.in
+To: All concerned
+Copy to: Director (Technical), NIC, MNRE, for uploading on MNRE Website

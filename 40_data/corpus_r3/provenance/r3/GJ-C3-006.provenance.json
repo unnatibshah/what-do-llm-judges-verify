@@ -1,0 +1,16 @@
+{
+  "issuer": "Gujarat Electricity Regulatory Commission (GERC)",
+  "source_url": "https://gercin.org/viewdocument/cmVndWxhdGlvbl9lbmdfMTc2NzY5MzgyMF84NTE0",
+  "landing_page_url": "https://gercin.org/regulations/draft_regulations",
+  "doc_type": "draft amendment (context only)",
+  "title": "Draft GERC (Net Metering Rooftop Solar PV Grid Interactive Systems) (Fifth Amendment) Regulations, 2025",
+  "number": "draft",
+  "printed_date": "2025-10-14 per landing page",
+  "file": "GERC-NetMetering-2025-5thAmend-DRAFT.pdf",
+  "fetched_at": "2026-10-01T16:43:36Z",
+  "http_status": 200,
+  "sha256": "d36ae57a5a57e6b6f192ac57c8c5215d293d380512f6dfad38f0ae35f9482cd5",
+  "pages": 2,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

@@ -1,0 +1,341 @@
+DERIVED FILE: macOS Vision OCR of IN-CEA-2013-DG-connectivity-regs-principal.pdf; not the document. Verify against the PDF image.
+
+=====PAGE 1=====
+REGD. NO. D. L.-33004/99
+The Gazette of India
+EXTRAORDINARY
+47 11-4US 4
+PART III-Section 4
+PUBLISHED BY AUTHORITY
+7.
+259]
+No. 259}
+15, 195
+NEW DELHI, MONDAY, OCTOBER 7, 2013/ASVINA 15, 1935
+7 Pm, 30 fant, 2013
+1
+Turt Ho Sto 410-33004/99
+(7)
+4298 Gl/2013
+(1)
+
+=====PAGE 2=====
+1 2 Ta H
+a t i man the tune olen
+He t m t me be he the den that ban barel
+(z)
+(2)
+(8)
+97727802.
+(2)
+(n)
+ра на ще рави лов ула ще ввіре
+(1e)
+
+=====PAGE 3=====
+cin te late
+(z)
++
+В в шик са п се сути ш не ник дие нале не ваше вавнаь
+G 3370287
+(8)
+me B t 2 La tu
+(2)
+(2)
+be de clare
+(y)
+e e th me th de tant mane mi e trente pata ela de bople (g)
+e bene me ale moble
+(+)
+(8)
+(z)
+Te Butte nean n t man a su tale che lette
+Inalate: khat Le palle
+-]][ Wh]
+
+=====PAGE 4=====
+THE GAZETTE OF INDIA : EXTRAORDINARY
+[PART ILI-SEC. 4]
+(4)
+Ha the aute te lan la de toles what leathe te taple
+(5)
+m bal male 6
+m la M n
+:
+(4)
+
+=====PAGE 5=====
+4298 4613-2
+l l n t tNe Laliaj (*)
+wn
+s He (6)
+h t teh ti baine t tla (8)
+BE (
+L Ipyant a hse boe ala d IDaguabde de ladE ye laere blel lade e yolaaa l saal lblate
+t C t ®
+Thaở
+()
+(
+H h n tà guanet tt bne t tin Lận tu t jàe
+C t c ti (e
+e pul 24e
+ba f nK b QnK Ch mE T L Lệt
+t m ma l mhn mh mna t Ê t mhnh bhu t ha bagtl lalat fle
+C C T T (Y
+InMnlHle i Eblon l Pah
+[+ SnB- 1|] 1b]
+
+=====PAGE 6=====
+13.
+i 4E 48(2)
+1 1hE (4)
+The t th baba man the dig tan than t lane bull de ta ta (8)
+C T HI
+10 0Đ (:
+(2
+
+=====PAGE 7=====
+MINISTRY OF POWER
+(Central Electricity Authority)
+NOTIFICATION
+New Delhi, the 30 September, 2013
+File No. 12/X/STD(CONN)/GM/CEA.-Whereas draft of the Central Electricity Authority
+(Technical Standards for Connectivity of the Distributed Generation Resources) Regulations, 2010 was
+published on 4' April 2012, as required by sub-section (3) of section 177 of the Electricity Act, 2003
+(36 of 2003), read with rule 3 of the Electricity (Procedure for Previous Publication) Rules, 2005;
+Now, therefore, in exercise of powers conferred by sub-section (1) of Section 177 of the Electricity
+Act, 2003, the Central Electricity Authority hereby makes the following regulations, namely:-
+1. Short title and commencement - (1) These Regulations may be called the Central Electricity
+Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations,
+(2) They shall come into force on the date of their publication in the Official Gazette.
+(3) For distributed generation resources already connected to the electricity system on the date of
+commencement of these regulations, the generating company and the licensee of the electricity system
+to which the generating station is connected shall mutually discuss and agree on the measures
+which can be taken to meet the technical standards specified in these regulations within one
+hundred and eighty days of the coming into force of these regulations.
+2. Definitions - (1) In these regulations -
+(a) "Act" means the Electricity Act, 2003 (No. 36 of 2003);
+(b) "applicant" means a generating company or a person seeking connectivity to the electricity
+system at voltage level below 33 kV for its distributed generation resource;
+(c) "appropriate licensee" means transmission licensee or the distribution licensee, as the case may
+be, to whose electricity system the electricity generated from the distributed generation resource
+shall be injected or is being injected;
+(d) "British Standards" (BS) means those standards and specifications approved by the British
+Standards Institution;
+(e) "distributed generation resource" means a generating station feeding electricity into the electricity
+system at voltage level of below 33 kV;
+(f) "frequency" means the number of alternating cycles per second expressed in Hertz;
+(g) "IEC Standard" means a standard approved by the International Electrotechnical Commission;
+(h) "Indian Standards" means standards specified by Bureau of Indian Standards;
+(i) "interconnection point" means a point on the electricity system, including a sub-station or a
+switchyard, where
+the interconnection is established between the facility of the applicant and the
+electricity system and where electricity injected into or drawn from the electricity system can be
+measured unambiguously for the applicant;
+(i "inverter" means a device that changes direct current power into alternating current power;
+(k) "protection system" means the equipment by which abnormal conditions in the electricity system
+are detected and fault clearance, actuating signals or indications are initiated without the
+intervention by the operator;
+(l) "Site Responsibility Schedule" (SRS) means a schedule for demarcating the ownership,
+responsibility for control, operation and maintenance of the equipment at the interconnection point;
+(m) "unintended island" means a part of the electricity system which remains energised by one or more
+distributed generation resource, when such part of the system has been isolated from the remaining
+part of the electricity system; and
+
+=====PAGE 8=====
+8
+THE GAZETTE OF INDIA: EXTRAORDINARY
+[PART III- SEC. 4]
+(n) "user" means a generating company whose distributed generation resource is connected to the
+electricity system.
+(2) The words and expressions used herein and not defined in these regulations but defined in
+the Act shall have the meanings assigned to them in the Act.
+3. Applicability of the Regulations - These regulations shall be applicable to all the generating
+companies or persons owning distributed generation resource, which are connected to or seeking
+connectivity with the electricity system:
+Provided that, in case a licensee owning the electricity system to which connection is to be made
+also owns the distributed generation resource, these regulations shall be applicable mutatis mutandis.
+4. General Connectivity Conditions - (1) The applicant shall make a formal request to the
+appropriate licensee for connection to electricity system of the appropriate licensee or generating
+station as the case may be.
+(2) The applicant shall be responsible for the planning, design, construction, reliability, protection
+and safe operation of its own equipment subject to the regulations for construction, operation,
+(3) The applicant and the user shall furnish data as prescribed by the appropriate licensee in a non-
+discriminatory manner.
+(4) The applicant and the user shall provide necessary facilities in the distributed generation
+resource for communication and storage of data and other parameters as may be stipulated by the
+appropriate licensee in a non-discriminatory manner.
+(5) The applicant and the user shall coordinate with the appropriate licensee on the issues including
+but not limited to protection, safety, and metering.
+(6) The appropriate licensee shall carry out the inter-connection study to determine:-
+(a) the point of inter-connection, required interconnection facilities and modifications
+required on
+the existing electricity system, if any, to accommodate the
+interconnection,
+(b)
+the maximum net capacity of the distributed generation resource at a particular
+location for single-phase and three phase generators connected to a shared single-
+phase system
+or three phase system respectively, based on the capacity and
+configuration of the electricity system, and imbalance in the power flows that
+distributed generation resource may cause,
+(c)
+likely impact, if any, on the quality of service to consumers connected to the electricity
+system and measures to mitigate the same,
+(d) additional measures to ensure safety of the equipment and personnel.
+(7) Every connection of an applicant's system to the electricity system shall be covered by a
+connection agreement between the applicant and appropriate licensee, which shall contain general
+and specific technical conditions, applicable to that connection.
+(8) The appropriate licensee shall inform the concemed State transmission utility within thirty days of
+acceptance of application for connectivity of a generating station to electricity system operating at voltage
+level below 33 KV. The concerned State transmission utility shall in turn inform the State Load
+Despatch Centre with details of installed capacity, generator capabilities, connectivity and likely
+date of commissioning or date of commercial operation.
+5. Standards and Codes of Practice, - (1) The applicant shall follow the industry best practices
+and applicable industry standards in respect of the equipment installation and its operation and
+maintenance.
+(2) The equipment including overhead lines and cables shall comply with the relevant Indian
+standards issued by Bureau of Indian Standards.
+
+=====PAGE 9=====
+.
+.
+(3) In case the Bureau of Indian Standards has not issued relevant standard, IEC standard or
+British Standards or standard issued by American National Standards Institute (ANSI) or any other
+equivalent International Standard shall be followed in that order:
+Provided that whenever a standard other than Indian Standard is followed, necessary
+corrections or modifications shall be made for nominal system frequency, nominal system voltage,
+ambient temperature, humidity and other conditions prevailing in India before actual adoption of the
+said standard.
+(4) The effects of wind, storms, floods, lightning, elevation, temperature extremes,
+icing,
+contamination, pollution and earthquakes must be considered in the design and operation of the
+connected facilities.
+(5) Installation, operation and maintenance of the equipment by the applicant shall conform to the
+relevant standards specified by the Central Electricity Authority as and when they come into force.
+6. Safety. - The applicant shall comply with the Central Electricity Authority (Measures Relating to
+Safety and Electricity Supply) Regulations, 2010 for the proposes of safety under these regulations.
+7. Sub-station Grounding. - Sub-station grounding shall be done in accordance with IS 3043, the code
+of practice for earthing issued by Bureau of Indian Standards.
+8. Metering. - (1) Meters shall be provided as specified in the Central Electricity Authority (Installation
+and Operation of Meters) Regulations, 2006 for the purpose of metering under these regulations.
+(2) Measurement of harmonic current injection, Direct Current injection and flicker shall be done with
+calibrated meters before the commissioning of the project and once in a year in presence of the
+parties concerned and the indicative date for the same shall be mentioned in the connection
+agreement:
+Provided that in addition to annual measurement, if appropriate licensee or the generating
+company, as the case may be, desires to measure harmonic current injection or Direct Current
+injection or flicker, it shall inform the other party in writing and the measurement shall be carried out
+within five working days
+9. Schematic Diagrams. - The applicant and user shall prepare single line schematic diagrams in
+respect of its system facility and make the same available to the appropriate licensee.
+10. Inspection, Test, Calibration and Maintenance prior to connection. - (1) Before physical
+connection, the applicant shall complete all inspections and tests finalised in consultation with the
+appropriate licensee or generating station to which his equipment is getting connected.
+(2) The applicant shall make available all drawings, specifications and test records of the project
+equipment to the appropriate licensee or generating station as the case may be.
+Standards for distributed generation resources. - Harmonic current injections from a
+generating station shall not exceed the limits specified in lEEE 519.
+The distributed generating resource shall not inject Direct Current greater than 0.5% of the
+full rated output at the interconnection point.
+(3) The distributed generating resource shall not introduce flicker beyond the limits specified in IEC
+61000:
+Provided that the standards for flicker shall come into effect from 18t April 2014.
+(4) Every distributed generating resource shall be equipped with automatic synchronisation device:
+Provided that induction generators, except self-excited induction generators, shall not
+require a synchronising device:
+Provided further that distributed generation resources using inverters shall not be required to
+have separate synchronising device, if the same is inherenty built into the inverter.
+(5) For three-phase generators, the circuit breakers shall be three-phase devices with electronic or
+electromechanical control.
+429848/13-3
+
+=====PAGE 10=====
+10
+THE GAZETTE OF INDIA: EXTRAORDINARY
+[PART III-SEC. 4]
+(6) Distributed generation resource operating in parallel with electricity system shall be equipped
+with the following protective functions to sense abnoral conditions on electricity system and cause
+the distributed generation resource to be automatically disconnected from electricity system or to
+prevent the distributed generation resource from being connected to electricity system
+inappropriately
+(a) over and under voltage trip functions if voltage reaches above 110% or below 80%
+respectively with a clearing time upto two seconds; however, appropriate licensee
+may prescribe a narrower range of voltage for the purpose.
+(b) over and under frequency trip functions, if frequency reaches 50.5 Hz and below
+47.5 Hz with a clearing time upto 0.2 seconds; however, appropriate licensee may
+prescribe a narrower range of frequency for the purpose.
+(c)
+the distributed generation resource shall cease to energise the circuit to which it is
+connected in case of any fault in this circuit.
+(d) a voltage and frequency sensing and time-delay function to prevent the distributed
+generation resource from energising a de energised circuit and to prevent the
+distributed generation resource from reconnecting with electricity system unless
+voltage and frequency is within the prescribed limits and are stable for at least sixty
+seconds; and
+(e) a function to prevent the distributed generation resource from contributing to the
+formation of an unintended island, and cease to energise the electricity system
+within two seconds of the formation of an unintended Island.
+(7) The equipment of the generating station shall meet following requirements, namely:-
+(a) circuit breakers or other interrupting equipment shall be suitable for their intended
+application with the capability of interrupting the maximum available fault current
+expected at their location.
+(b) distributed generation resource and associated equipment shall be designed so that
+the failure of any single device or component shall not potentially compromise the
+safety and reliability of the electricity system.
+(c) paralleling-device of distributed generation resource shall be capable of withstanding
+220% of the nominal voltage at the interconnection point.
+(8) Every time the generating station is synchronised to the electricity system, it shall not cause
+voltage fluctuation greater than + 5% at the point of connection.
+(9) After considering the maintenance and safety procedures, the distribution licensee may require
+the applicant with a distributed generation resource of capacity exceeding a particular level to
+provide a manually operated isolating switch between the distributed generation resource and
+the electricity system, which shall meet following requirements:
+(a)
+allow visible verification that separation has been accomplished;
+(b)
+include indicators to clearly show open and closed positions;
+(c)
+be capable of being reached quickly and conveniently twenty four hours a day by
+licensee's personnel without requiring clearance from the applicant;
+(d)
+be capable of being locked in the open position;
+(e)
+may not be rated for load break nor may have feature of over-current protection; and
+(f)
+be located at a height of at least 2.44 m above the ground level.
+(10) Prior to synchronisation of the distributed generation resource for the first time with electricity
+system, the applicant and the appropriate licensee shall agree on the protection features and control
+diagrams.
+!
+
+=====PAGE 11=====
+one copy each of the approved drawing and diagrams showing important equipment,
+protection and control features shall be signed by representative of the applicant and the licensee
+and shall be in possession of the applicant and licensee.
+(12) These drawing and diagrams shall be amended as and when any changes are made in the
+distributed generation resource or interconnection facility.
+12. Site Responsibility Schedule. - (1) A Site Responsibility Schedule for every interconnection point
+shall be prepared by the appropriate licensee.
+(2) Following information shall be included in the Site Responsibility Schedule, namely:-
+(a) schedule of electrical apparatus services and supplies;
+(b) schedule of telecommunications and measurement apparatus; and
+(c) safety rules applicable to each plant and apparatus.
+(3) Following information shall also be furnished in the Site Responsibility Schedule for each item of
+equipment installed at the connection site, namely:-
+(a) the ownership of equipment;
+(b) the responsibility for control of equipment;
+(c) the responsibility for maintenance of equipment;
+(d) the resporisibility for operation of equipment;
+(e) the manager of the site;
+(t) the responsibility for all matters relating to safety of persons at site; and
+(g) the responsibility for all matters relating to safety of equipment at site.
+13. Access at Connection Site - The applicant and user shall provide reasonable access and other
+equired facilities to the appropriate licensee for inspection of the equipment belonging to th
+ipplicant or user, as the case may be, and for maintenance of the equipment, if any, installed by th
+appropriate licensee in the premises of the applicant or user, as the case may be.
+M. S. PURI, Secy.
+Central Electricity Authority
+[ADVT-III/4/Exty./150/13]
+Printed by the Manager, Government of India Press, Ring Road, Mayapuri, New Delhi-110064
+and Published by the Controller of Publications, Delhi-110054.

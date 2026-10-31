@@ -1,0 +1,77 @@
+% Every citation checked against its source page (paper_v4 citation check; additions 2026-10-30, D52).
+\section{Related work}
+\label{sec:related}
+
+\paragraph{How LLM judges are evaluated.}
+Work on LLM judges has documented position, verbosity and self-preference biases \citep{zheng2023judging} and built
+benchmarks of harder judgements. JudgeBench \citep{tan2025judgebench} pairs responses that differ in correctness, and
+ContextualJudgeBench \citep{xu2025contextualjudgebench} asks judges to assess responses against supplied context,
+which it treats as the reference. Other studies probe what judges are sensitive to: they can be stable under edits
+that should not matter and insensitive to edits that should \citep{chen2026judgeknow}, and citation judges accept
+claims that their passage does not warrant \citep{qian2026relevant}. What counts as an error, or how it is
+scored, changes rankings: of citation verifiers \citep{kim2026hallmark} and of the models a benchmark evaluates
+\citep{pall2026scoring}. Our test belongs to this line, with two
+differences in emphasis. The supplied context is a record that is deliberately incomplete, and findings are scored by
+the reason the judge gives, because in this task a flag for the wrong reason is easy to obtain.
+
+\paragraph{Following a supplied signal over the evidence.}
+That models follow supplied signals is well established. Judges shown prior scores as metadata move toward them, and
+an instruction to disregard the metadata does not remove the effect \citep{kapetanovic2026anchoring}. Code auditors
+given false assurances from static analysis lose detection, and prompt instructions do not reliably restore it
+\citep{liu2026trusting}. Agents often adopt corrupted tool outputs (over a third of the time for every
+tool tested) and rarely warn users of the conflict \citep{yang2026overreliance}. In the legal domain, models over-trust authoritative but false legal sources and struggle to tell
+whether a retrieved provision is still in force, and larger models appear more susceptible \citep{molfetta2026sycophants}. The effect is not
+universal: judges given a wrong reference answer often ignore it \citep{lee2026reference}, so how far a model follows
+a signal depends on the task and on the form of the signal.
+
+Our results agree with this literature in direction. The setting differs in how the misleading signal arises. In the
+studies above it is constructed to be false: an injected score, a fabricated assurance, a corrupted tool output. Our
+record errs only through missing links, which is how real amendment records fail. In its authoritative form the gap
+then reads ``in force'', which is false, but in one condition the line says only that no replacement is recorded,
+which is true, and the judges' catches fell there too. The
+judge also has both documents in front of it, and a deterministic lookup in the same record gives a reference for what
+the record alone achieves. Our presentation conditions vary the record's wording, its apparent authority and a
+warning about its completeness while keeping the record itself fixed. For three of our four judges, the warning restored most of the lost catches (significantly for two);
+\citet{kapetanovic2026anchoring} found that a warning did not reduce the total anchoring effect, though it improved
+accuracy in their categorical experiment. The two warnings differ (ours states a
+specific, true defect of the record), and it also brought back our judges' text-only false alarms, so we do not read the two
+results as contradicting each other. Deference to an authoritative label is related to sycophancy towards a user's stated view
+\citep{sharma2023sycophancy}, but the source of the pressure is different.
+
+\paragraph{Outdated evidence and temporal knowledge.}
+A separate line asks whether models that write answers can cope with change. Stale-Document Poisoning
+\citep{staledoc2026} shows that outdated retrieved documents overturn answers a model had right, and that an explicit
+statement of when the old evidence stops applying helps larger models. EvolveBench \citep{zhu2025evolvebench} and
+earlier benchmarks of time-sensitive questions \citep{chen2021timeqa,zhang2021situatedqa,vu2024freshllms,ouyang2025hoh}
+measure whether models track facts that change, and work on knowledge conflicts asks when supplied context overrides
+what a model knows \citep{xie2024chameleon,xu2024knowledge,wu2024clasheval}. These studies concern the model that
+writes the answer. We study a model that reviews an answer already written, which makes false alarms on correct answers
+part of the measurement.
+
+\paragraph{Versioned law and amendment records.}
+Legal informatics has long modelled the change of norms explicitly: systems that manage consolidated acts across their
+successive versions \citep{palmirani2002norma}, models of the temporal dimensions of norm change
+\citep{palmirani2006time}, defeasible-logic accounts of abrogation and
+annulment \citep{governatori2010changing}, and temporal metadata (in-force, efficacy and
+application times) in LegalRuleML \citep{palmirani2011legalruleml}.
+More recent work finds that retrieval over a corpus holding only current texts returns the wrong version of a
+provision \citep{cymbler2026temporal},
+diagnoses staleness in statutory question answering \citep{prior2026oldfriend}, improves version-aware retrieval
+\citep{huwiler2025versionrag,nam2026timelyrag}, and shows that LLM consolidation of statutes from amendment
+instructions is often not exact (50\% exact matches for single amendments, 21\% for chains)
+\citep{prior2025consolidation}. Our record is a much thinner object than these models, a list of
+document-to-document replacements with dates, and our notion of currency (``replaced on or before the date asked
+about'') is the simplest of the temporal notions they distinguish. We take such a record as given, imperfections
+included, and ask what a judge does with it.
+
+\paragraph{Contrast items and right-for-the-wrong-reason.}
+Models can score well by exploiting features that correlate with the label \citep{mccoy2019right}, and minimally
+different contrast items are a standard way to expose this \citep{gardner2020contrast}. Our date controls and decoys
+play that role for document currency. The date control changes only the date of a fault. The decoy keeps a newer
+document on the same topic, often with the same title, but one that leaves the older document in force. As
+\S\ref{sec:res-shortcut} shows, our decoys control for title similarity but not for overlap between abstracts, so they
+are a partial contrast. Finally, label errors change model rankings \citep{northcutt2021pervasive,gema2025mmlu}, and
+a clinical benchmark built with LLM help was found to have at least 27\% of its test labels likely wrong or
+incomputable \citep{ye2025stewardship}. This is the main reason our
+primary data use the publisher's own record as gold, and the reason the regulatory study, whose AI-assisted key failed
+our checks, is reported only descriptively.

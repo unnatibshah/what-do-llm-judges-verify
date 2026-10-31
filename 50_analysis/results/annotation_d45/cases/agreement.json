@@ -1,0 +1,125 @@
+{
+  "items": 20,
+  "missing_in_b": [
+    "SB-06dccf10",
+    "SB-1595d3ab",
+    "SB-1873dafe",
+    "SB-3951f18b",
+    "SB-3c0568a1",
+    "SB-3e914362",
+    "SB-4976c4bf",
+    "SB-54aaaca3",
+    "SB-5c2f1b69",
+    "SB-7fcce033",
+    "SB-a011df1f",
+    "SB-ae138ae0",
+    "SB-b0b563e1",
+    "SB-b926248c",
+    "SB-c6303ba7",
+    "SB-d9152b85",
+    "SB-db11efe7",
+    "SB-e6ca17a9",
+    "SB-e8347f30",
+    "SB-fe4dc242"
+  ],
+  "missing_in_a": [
+    "SB-032d9870",
+    "SB-3831cee8",
+    "SB-3fae633b",
+    "SB-41d678b1",
+    "SB-4337c49d",
+    "SB-509700a5",
+    "SB-6f0e9c5f",
+    "SB-770a372c",
+    "SB-78994120",
+    "SB-8a026028",
+    "SB-8b99a646",
+    "SB-8bbbbb5f",
+    "SB-940e925b",
+    "SB-9d0c1db7",
+    "SB-9f927b9d",
+    "SB-b457a31c",
+    "SB-bea538fe",
+    "SB-c9fe09fd",
+    "SB-e851ca36",
+    "SB-f9773ee1"
+  ],
+  "fields": {
+    "decision": {
+      "kappa_a_b": 0.604,
+      "pabak_a_b": 0.7,
+      "agreement_a_b": 0.8,
+      "kappa_a_key": 0.4093,
+      "kappa_b_key": 0.5192
+    },
+    "blocking_stage": {
+      "kappa_a_b": 0.788,
+      "pabak_a_b": 0.82,
+      "agreement_a_b": 0.85,
+      "kappa_a_key": 0.5668,
+      "kappa_b_key": 0.5904
+    },
+    "deciding_clauses": {
+      "kappa_a_b": 0.1392,
+      "pabak_a_b": 0.113,
+      "agreement_a_b": 0.15,
+      "kappa_a_key": 0.0476,
+      "kappa_b_key": 0.0476
+    }
+  },
+  "decision_by_cluster": {
+    "DL-C3-009#cl-3.8": {
+      "n": 2,
+      "kappa_a_b": null
+    },
+    "DL-C3-015#cl-3.6": {
+      "n": 1,
+      "kappa_a_b": null
+    },
+    "DL-C3-015#cl-9.2b": {
+      "n": 3,
+      "kappa_a_b": 0.25
+    },
+    "GJ-C3-003#cl-13.5-check": {
+      "n": 1,
+      "kappa_a_b": null
+    },
+    "GJ-C3-003#cl-13.5-class": {
+      "n": 3,
+      "kappa_a_b": 0.5
+    },
+    "GJ-C3-003#cl-5-proviso": {
+      "n": 1,
+      "kappa_a_b": null
+    },
+    "GJ-C3-004#cl-6.2a": {
+      "n": 2,
+      "kappa_a_b": 1.0
+    },
+    "IN-C1-001#cl-annex1-ii-amended": {
+      "n": 1,
+      "kappa_a_b": 0.0
+    },
+    "IN-C3-001#cl-11.7": {
+      "n": 2,
+      "kappa_a_b": null
+    },
+    "KA-C5-006#cl-18": {
+      "n": 1,
+      "kappa_a_b": null
+    },
+    "KA-C5-006#cl-4-note-ii": {
+      "n": 1,
+      "kappa_a_b": null
+    },
+    "UP-C3-002#cl-5.1": {
+      "n": 1,
+      "kappa_a_b": null
+    },
+    "UP-C3-002#cl-6.2": {
+      "n": 1,
+      "kappa_a_b": null
+    }
+  },
+  "sheet": "cases"
+}

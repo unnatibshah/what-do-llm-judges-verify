@@ -1,0 +1,64 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{The gap result.}
+Within each of the four judges, the same gap faults were caught less often when a record line was present, and
+most of the lost catches became passes with no finding. Some mundane explanations can be set aside. The items are
+identical across conditions. The drop also occurs when the line says only that no replacement is recorded, so it does
+not depend on the record stating anything false. And the decoy test shows that most text-only catches were not
+reflexive objections to older documents. Others cannot. The comparison rests on two random choices of dropped links that share half their links,
+on single samples from each judge, and, for 11 of the 24 seed-0 items, on text-only replies reused from the pilot.
+
+We cannot say why the judges behaved this way, and at least three explanations fit what we observed. The judge may
+simply be relying on the record as the task presents it. It is shown an ``amendment record lookup'', nothing suggests
+the record is incomplete, and trusting it is defensible; on correct answers, following it removed most decoy false
+alarms (\S\ref{sec:res-correct}). On that reading the failure belongs to a record that does not disclose its own gaps,
+and what the judge lacks is any sign of registering the conflict with the texts. The line may instead be more salient
+than the evidence, being short, explicit and placed just before the task, while the replacement has to be inferred
+from two abstracts; we did not vary position or length. Or the judge may treat the status line as part of the question
+rather than as evidence to weigh. A bare pass is compatible with all three, and it does not tell us whether the judge
+noticed the conflict and resolved it in the record's favour or never noticed it.
+
+\paragraph{Presentation.}
+The presentation conditions were meant to separate these explanations, and they partly do. Rewording the gap did not
+restore the catches for any judge, which argues against the simplest account, that judges are misled by an explicit
+claim of currency. For Gemini and GPT-5.5, lowering the record's standing or warning that it was incomplete restored
+most or all of the lost catches, and Claude's changed as much, though on fewer items and without reaching
+significance. This fits the first explanation: told that the record
+might be wrong, these judges went back to the texts. It fits the salience explanation less well, since the note and the
+warning leave the line as short, explicit and close to the task as before. For these three judges, however, the decoy
+false alarms came back with the catches, to about their text-only level. The judges did not come to weigh record against
+texts item by item; they moved from relying on one source to relying on the other. Gemma moved least, catching at
+most five of the 24 gap faults however the damaged record was presented. Which judges respond in this way, and why, is
+a question for more judges and more wordings than our one variant per condition.
+
+Two related findings point in different directions. \citet{kapetanovic2026anchoring} found that a warning did not
+reduce the total effect of judges' anchoring on prior scores, though it improved accuracy in one of their experiments. Our warning differs in stating a specific and true defect of the record, with
+the contradicting evidence in view, and either difference could matter. \citet{molfetta2026sycophants} report that
+larger models defer more to authoritative but false legal citations, mainly among larger reasoning models. Our one
+open-weight judge responded least to the presentation of the record, but the hosted judges' sizes are not published,
+and four judges could not test an effect of size in any case.
+
+\paragraph{Resemblance between documents.}
+The decoy results contain two observations that should be kept apart. The judges did not flag older documents merely
+for having a newer neighbour, since they caught far more replacements than they flagged updates. Yet their mistakes in
+both directions tracked how alike the two documents looked. Given both texts, updates were flagged only when the titles were
+near-identical, and Gemma rarely caught a replacement whose title had changed. Some of this reliance is reasonable,
+since RFC replacements often do repeat their predecessor's title and abstract, and some flagged decoys are new
+protocol versions that a reader might prefer to cite. The practical concern is transfer. An amended regulation may keep
+its title, while a contract amendment can look nothing like the agreement it modifies. A judge evaluated on one kind
+of collection may behave differently on the other, and nothing in a single-corpus evaluation, ours included, would show
+it.
+
+\paragraph{Scoring.}
+Reason codes matter most on correct answers. Under any-finding scoring, Claude and Gemma would have appeared to object
+to roughly two in five controls, nearly all for reasons that have nothing to do with currency. On faults they matter
+little for frontier judges with evidence, but they matter for judges without evidence. They are also what makes the
+gap result measurable: a judge that calls a stale citation a ``content error'' has at least objected, and only
+reason-coded scoring separates it from a judge that says nothing.
+
+\paragraph{Small item sets.}
+The pilot shows how much a dozen items can mislead. On the pilot's 12 gap faults Claude kept nearly all its catches; on
+the 24 here it lost \EOpusHTwoaLost{} of the catches it made from the texts, mainly because the two runs dropped different
+links. The second draw was added for this reason, and on it every judge's result went the same way as on the first. Comparisons between judges
+on item sets of this size, including the between-judge differences in our own tables, are provisional.

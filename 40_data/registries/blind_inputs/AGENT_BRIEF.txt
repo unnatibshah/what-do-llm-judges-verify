@@ -1,0 +1,26 @@
+BLIND REGISTRY BRIEF (shared by all sub-agents)
+
+Base dir B = <scratch directory>
+ALLOWED inputs ONLY: B/text/*.txt, B/text/*.meta.json, B/documents.json, B/registry_real_r2_prior.json, B/build_registry.py, B/fragments/*.json.
+FORBIDDEN: anything under <development repository> (do not read, grep, ls, or cd there), any other scratchpad dir, web access. This registry is built BLIND and compared to a hidden gold registry; never look for it.
+Use Read/Grep/Bash(python3) on B only. Always use absolute paths.
+
+GOAL: a clause-level supersession/jurisdiction registry, as a practitioner could build from the document text alone.
+Write your output to the fragment file named in your task: JSON {"nodes":[...],"edges":[...],"document_supersessions":[...]}.
+
+node: {"node_id":"<doc_id>#cl-<clause as printed>", "doc_id", "jurisdiction" (= documents.json jurisdiction.code), "clause_ref" (as printed, e.g. "2.1(j)", "8.3", "Annexure-1.c", "Para 5(e)"; node_id must equal doc_id+"#cl-"+clause_ref), "topic" (short; use these tags where relevant: capacity limit vs sanctioned/contract load; DT hosting limit; feasibility/technical study; timelines; deemed approval; metering/phase threshold; CFA subsidy; ALMM/DCR; eligibility; group/virtual net metering; settlement/banking; tariff), "snippet" (EXACT verbatim substring of text/<doc_id>.txt, <=600 chars, copy by slicing the text in python, never retype; OCR errors stay as-is), "effective_date" (YYYY-MM-DD from the text or documents.json, else "UNKNOWN"), "confidence" high|medium|low (low for poor OCR or uncertain clause ref)}.
+
+edge (older clause -> newer clause): {"from_node","to_node","type": supersedes (substitution/replacement/deletion/omission of the whole clause) | amends (insertion of words/provisos, partial textual change) | partially_supersedes (newer clause overrides part of older one without textual amendment, or a different instrument overriding a clause), "effective_date" (of the newer instrument), "evidence_quote" (EXACT verbatim substring of the NEWER document = the to_node's doc; e.g. "Substitution of Regulation 8.3 ..." or the amending instruction), "confidence", "note" (required when confidence is low: the reason; recommended otherwise)}.
+ - Both endpoints must be nodes (yours, or node_ids already in other fragments / the prior registry if you reference them; prefer referencing only nodes in your own fragment plus nodes that already exist in B/fragments/*.json).
+ - An amending instrument typically yields: a node for the original clause in the principal document, a node for the amending clause in the amendment document (clause_ref = the clause number it substitutes/inserts, as printed, e.g. "8.3"; if the amendment numbers its own paragraphs, use the principal clause number it targets and mention the amendment para in topic), and an edge.
+ - Chains: if amendment 2 re-substitutes a clause already substituted by amendment 1, edge goes amendment1-node -> amendment2-node.
+ - Implicit supersession (no express words) ONLY with confidence low and a note giving the reason.
+ - DRAFTS (title starts "Draft" or doc_number contains "draft") are NEVER superseding instruments: no edge may point TO a draft node and no document_supersession may have a draft as doc_to. You may include draft nodes (topic should mention "DRAFT, not in force") so the proposals are recorded.
+ - Statements of Reasons (SoR), FAQs, portal pages, circulars implementing regulations: nodes allowed; edges only where the text supports them (a DISCOM circular cannot amend a regulation; an SoR explains, it does not supersede).
+document_supersession: {"doc_from" (doc_id or a descriptive name + " [not in corpus]"), "doc_to" (in-corpus doc_id, the newer, non-draft), "type" (repeal | substitution | prospective_replacement_no_repeal | scheme_subsumption | withdrawal | ...), "evidence_quote" (verbatim from doc_to), "confidence", "note"}.
+
+COVERAGE: every document assigned to you must get nodes for its operative rooftop-solar clauses: capacity limits vs sanctioned/contract load, DT/transformer hosting limits, feasibility/technical study and timelines, deemed approval, metering and single/three-phase thresholds, CFA subsidy amounts, ALMM/DCR, eligibility, group/virtual net metering, settlement/banking where central. Typically 3-20 nodes per substantive document, 1-3 for short circulars; a doc with nothing operative for rooftop solar still gets 1 node (its main operative clause) with a topic saying so. Include only what the text supports.
+
+CHECK: run  python3 B/build_registry.py --check <your fragment>  and fix every ERROR (WARN about undefined nodes is ok only if they exist in another fragment). Do NOT edit build_registry.py, documents.json, text/, or other agents' fragments. Do not write any other files in B except scratch files under B/tmp_<yourname>/ (delete them at the end).
+
+FINAL REPLY (<=200 words): nodes/edges per document count summary, document_supersessions added, and the main uncertainties (OCR quality, ambiguous clause numbering, implicit/low edges, drafts).

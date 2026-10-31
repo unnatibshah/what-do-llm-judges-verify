@@ -1,0 +1,9 @@
+MAHARASHTRA ELECTRICITY REGULATORY COMMISSION (MERC)
+FIRST AMENDMENT REGULATIONS, 2024
+Order No. MERC/2024/AMEND-004
+Date: 15 February 2024
+
+Clause 3 Amendment of Clause 7.2 of Principal Regulations
+Clause 7.2 of the Maharashtra Electricity Regulatory Commission (Grid Interactive Rooftop Renewable Energy Systems) Regulations, 2019 is hereby substituted as follows:
+"The capacity of grid interactive rooftop solar PV system for residential net metering shall not exceed the sanctioned load of the consumer, provided that the upper ceiling under net metering arrangement is enhanced from 10 kW to 50 kW for all low tension residential consumers."
+This amendment takes effect immediately from the date of publication in the Official Gazette, 1 March 2024.

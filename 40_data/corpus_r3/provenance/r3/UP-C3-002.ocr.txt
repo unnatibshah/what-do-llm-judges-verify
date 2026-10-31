@@ -1,0 +1,993 @@
+DERIVED FILE: macOS Vision OCR of UP-RSPV-2019-regs.pdf; not the document. Verify against the PDF image.
+
+=====PAGE 1=====
+UPERC RSPV Regulations, 2019
+Uttar Pradesh Electricity Regulatory Commission
+Notification No.: UPERC/Secretary/RSPV Regulations/
+Dated: 04.01.2019
+In exercise of powers conferred under section 61, 66, 86(1)(e) and 181 of the Electricity
+Act, 2003 and all other powers enabling in this behalf, the Uttar Pradesh Electricity
+Regulatory Commission hereby makes the following Regulations, namely:
+UPERC (Rooftop Solar PV Grid Interactive Systems Gross/ Net
+Metering) Regulations, 2019 (RSPV Regulations, 2019)
+1.
+Short Title and commencement
+1. These Regulations shall be called the UPERC (Rooftop Solar PV Grid
+Interactive Systems Gross/Net Metering) Regulations, 2019, (hereinafter
+referred to as RSPV Regulations, 2019.
+2. These Regulations shall come into force from the date of their notification in
+the Official Gazette of the State and shall remain in force unless otherwise
+reviewed/extended.
+3. These Regulations supersede the "UPERC (Rooftop Solar PV Grid Interactive
+Systems Gross / Net Metering) Regulations, 2015".
+4. Words and expressions used in these Regulations and not defined herein but
+defined in the Electricity Act, 2003 (hereinafter referred to as 'the Act'), as
+amended from time to time, shall have the meaning as assigned to them
+under the Act.
+2.
+Definitions and Interpretations
+In these regulations, unless the context otherwise requires,
+a) "Accuracy class index" shall mean the index as specified in Central
+Electricity Authority (Installation & Operation of Meters) Regulations 2006
+and subsequent amendments thereof;
+b) "Act" means the Electricity Act, 2003 (36 of 2003) and subsequent
+amendments thereof;
+c) "Billing cycle" or "Billing period" means the period for which electricity
+bills shall be prepared for different categories of consumers by the
+Licensee.
+d) "Blockchain" means a special technology for peer-to-peer transaction
+platforms that uses decentralised storage to record all transaction data.
+1
+2u
+
+=====PAGE 2=====
+UPERC RSPV Regulations, 2019
+e)
+"Commission" means the Uttar Pradesh Electricity Regulatory
+Commission constituted under the Act;
+f) "Consumer" means any person who is supplied with electricity for his own
+use by a Licensee or the Government or by any other person engaged in
+the business of supplying electricity to the public under the Act or any other
+law for the time being in force and includes any person whose premises
+are, for the time being, connected for the purpose of receiving electricity
+with the works of a Distribution Licensee, the Government or such other
+person, as the case may be;
+g) "Connected load" expressed in kW, KVA or HP, refers to aggregate of the
+manufacturer's rated capacities of all the energy consuming devices or
+apparatus connected with the Distribution licensee's service line on the
+consumer's premises which can be operated simultaneously. For the
+purpose of levy of any charges and for deciding the supply voltage, the
+amendments thereof;
+h) "Contracted demand or Sanctioned load" means the maximum
+demand or load in kW, KVA or HP, agreed to be supplied by the licensee
+and indicated in the agreement executed between the licensee and the
+consumer;
+"Distribution Licensee" or "Licensee" means a person granted a
+license under Section 14 of the Act authorizing him to operate and maintain
+a distribution system for supplying electricity to the consumers in his area
+of supply;
+j) "Electricity Supply Code" means the UPERC (Electricity Supply Code)
+Regulations 2005 and subsequent amendments thereof;
+k) "Eligible consumer" for Net Metering Scheme means the consumers of a
+Licensee under agriculture (LMV-5) category or domestic consumers under
+LMV-1 category. while under Gross Metering Scheme means a consumer
+of electricity in the area of supply of the Distribution Licensee, who intends
+to set up a grid connected rooftop Solar PV system in the consumer's
+premises which can be self-owned or third party owned, with an intent to
+sell the entire electricity to the distribution licensee at the rate prescribed
+by the Commission.
+"Net Metering Tariff" or "NMT" means the tariff determined by the
+Commission applicable for settlement of any surplus power at the end of
+settlement period to be paid by the Distribution Licensee to consumer
+covered by Rooftop Net Metering .
+m) "Financial year" means the period beginning from first of April in an
+English calendar year and ending with the thirty first of the March of the
+next year;
+2
+Uttar Pradesh Electricity Regulatory Commission
+the,
+durand
+
+=====PAGE 3=====
+UPERC RSPV Regulations, 2019
+"Gross Metering" means the arrangement under which entire energy
+generated from rooftop solar PV system installed at eligible consumer
+premises which is also connected with the grid, is delivered to the
+distribution system of the distribution Licensee.
+"Gross Metering Tariff" means the tariff, as determined by the Commission
+from time to time, for supply of electricity generated from RSPV plant to the
+distribution Licensee under the Gross metering arrangement.
+p) "Inter-Connection Agreement" means the agreement entered into for
+connecting rooftop Solar PV system to the distribution system;
+q) "Interconnection point" means the interface point of the Solar PV power
+generation facility with the distribution system of the Licensee. The
+interface point shall be the appropriate meter as per CEA (Installation and
+Operation of Meters), Regulations, 2006 and subsequent amendments
+thereof, installed at consumer's premises or distribution substation;
+r) "Invoice" means either a Monthly Bill / Supplementary Bill or a Monthly
+Invoice/Supplementary Invoice raised by the Distribution Licensee.
+s) "kW." means kilo Watt peak;
+t) "Net metering" means an arrangement for measurement of energy in a
+system under which rooftop solar PV system installed at metered agriculture
+(under LMV-5 category) or metered residential/domestic consumer premises
+(under LMV-1 category) delivers surplus electricity, if any, to the Distribution
+Licensee after off-setting the electricity supplied by Distribution Licensee
+during the applicable billing period.
+u) "Net meter" means an appropriate energy meter capable of recording both
+import & export of electricity or a pair of meters one each for recording the
+import and export of electricity as the case may be;
+v) "Obligated entity" means the entity mandated under clause (e) of
+subsection (1) of section 86 of the Act to fulfill the renewable purchase
+obligation and identified under UPERC (Promotion of Green Energy through
+Renewable Purchase Obligation) Regulations, 2010 and subsequent
+amendments thereof;
+w) "Peer to Peer transaction" means that all transactions are stored on a
+network of computers consisting of the computers of the provider and
+customer participating in a transaction, as well as of the computers of many
+other network participants.
+x) "Premises" means rooftops, covered elevated areas of building, roofs of
+warehouses, or other infrastructure or part or combination thereof, but not
+including the bare land, in respect of which a separate meter or metering
+arrangements have been made by the Licensee for supply of electricity;
+3
+Uttar Pradesh Electricity Regulatory Commission
+Ther
+
+=====PAGE 4=====
+UPERC RSPV Regulations, 2019
+y) "Prosumer" a person who consumes electricity from the grid and can also
+inject Solar energy into the grid using the same network.
+z) "Rooftop solar PV (RSPV) system or Rooftop solar PV (RSPV) Plant"
+means the grid interactive solar photo voltaic power system installed on
+the rooftops of consumer premises that uses sunlight for direct conversion
+into electricity through photo voltaic technology;
+aa) cordable Wing protecte a eats the eat serity
+Regulatory Commission;
+bb) "Renewable Energy Meter" shall have the meaning as per definition
+assigned to it in the Central Electricity Authority (Installation and Operation
+of Meters) Amendment Regulations 2014 and subsequent amendments
+thereof;
+cc) Settlement period" means the period beginning from first of April in a
+calendar year and ending with the thirty first of the March of the next year.
+dd) "Tariff order" in respect of a Licensee means the most recent order
+issued by the Commission for that Licensee indicating the rates to be
+charged by the Licensee from various categories of consumers for supply
+of electrical energy and services;
+ee) "Third party owner" means a developer who is generating solar energy
+on a rooftop but does not own the rooftop but enters into a lease /
+commercial agreement with the rooftop owner. In case of gross metering
+arrangement owned by third party, he shall also enter into an agreement
+with the Distribution Licensee. However, if a consumer installs rooftop
+solar PV system in his premises through a third party and wishes to avail
+net metering facility, then only the eligible consumer shall enter into an
+agreement with the Licensee;
+All other words and expressions used in these Regulations although not specifically
+defined herein above, but defined in the Act, shall have the meaning assigned to them
+in the Act. The other words and expressions used herein but not specifically defined in
+these Regulations or in the Act but defined under any law passed by the Parliament
+applicable to the electricity industry in the State shall have the meaning assigned to
+them in such law.
+3. Scope and application
+3.1 These Regulations shall apply to the Distribution Licensees, the eligible
+consumers of the Distribution Licensees and third party owners of gross metering
+arrangement of rooftop solar PV system in the State of Uttar Pradesh.
+4
+Uttar Pradesh Electricity Regulatory Commission
+
+=====PAGE 5=====
+UPERC RSPV Regulations, 2019
+3.2
+The eligible consumer may install the rooftop solar PV system under gross
+metering arrangement or the Net Metering Arrangement. Metered Agricultural or
+metered Residential/Domestic category under LMV-5 and LMV-1 category
+respectively, can install rooftop solar PV system under net metering arrangement
+or the Gross Metring Arrangement which:
+a) Shall be within the permissible rated capacity as defined under these
+Regulations;
+b) Shall be located in the premises of the consumer;
+c) Shall interconnect and operate safely with the distribution system of the
+Licensee.
+3.3 These Regulations do not preclude the right of the State Authorities to undertake
+rooftop solar projects above 2 MW through alternative mechanism.
+4. General Principles
+4.1 Subject to the limits and other terms and conditions specified in these
+Regulations, the eligible consumers of the Distribution Licensee shall be entitled
+to install rooftop solar PV system under gross metering arrangement or net
+metering arrangement.
+Provided that third party owners who have entered into a lease or commercial
+agreement for the rooftop in the premises of the eligible consumers, shall also be
+entitled to install rooftop solar PV system under gross metering arrangement with
+the Distribution Licensee, for such capacity which shall be cumulative of the
+prescribed limits of rooftop solar PV capacity for each eligible consumer whose
+rooftop has been leased by the third party owner.
+Provided that third party owners who have entered into a lease or commercial
+agreement for the rooftop in the premises of a group of consumers, shall also be
+entitled to install rooftop solar PV system under Net metering arrangement with
+the Distribution Licensee, for such capacity which shall be cumulative of the
+prescribed limits of rooftop solar PV capacity for each eligible consumer of the
+group whose rooftop has been leased by the third party owner connected with
+the same Distribution Transformer (upto the limit of as defined under these
+Regulations of capacity of DT).
+4.2 Provided that the eligible consumer or third party owner as the case may be
+availing gross metering arrangement under these Regulations shall not be
+allowed to apply for net metering arrangement within the same premises.
+4.3 Provided that the eligible consumer availing net metering arrangement under
+these Regulations shall not be allowed to apply for gross metering arrangement
+within the same premises.
+4.4 Provided that the Distribution Licensee shall, as per the eligibility condition as
+specified in these Regulations, allow the provision of gross metering
+arrangement or net metering arrangement to the consumer or third party owner
+5
+utar Prades Electriy Resulatory Comision fu mun
+
+=====PAGE 6=====
+UPERC RSPV Regulations, 2019
+as the case may be, who intends to install grid connected rooftop solar PV
+system.
+4.5 If the eligible consumer or third party owner installs solar rooftop system under
+the gross metering arrangement, the entire power generated from such an
+installation shall be injected to the distribution system of the Licensee at the
+interconnection point.
+4.6 If the eligible consumer installs solar rooftop system under the net metering
+scheme, such eligible consumer shall be entitled to use the power generated
+from the rooftop solar PV system at his premises. The surplus power can be
+injected to the distribution system of the Licensee at the interconnection point.
+4.7 In addition to above, to provide flexibility to rooftop solar power prosumer and
+other eligible consumers, taking a progressive view, the Commission is
+proposing provision of mutual sale and purchase of electricity through peer-to-
+peer transaction in a secured and reliable way with proper accounting and billing
+mechanism implemented with the help Block chain technology. Provided that for
+such arrangement prior approval of the Commission shall be required. To further
+take up development of peer-to-peer transaction of electricity generated through
+renewable sources, and for that UPPCL and UPNEDA shall put up a proposal
+jointly for approval of the Commission. The Commission may further incorporate
+provisions in the Regulations based on the proposal.
+5
+Capacity of Rooftop PV System.
+5.1 The maximum peak capacity of the grid connected rooftop solar PV system to be
+installed by any eligible consumer shall not exceed 100% of the connected
+/contracted demand of the consumer.
+Provided the capacity of the grid connected rooftop solar PV system to be
+installed by any eligible consumer or third party owner shall not be less than 1
+kWp and shall not exceed 2 MW.
+5.2 Provided that the capacity of the grid connected rooftop solar PV system shall be
+in conformity with the provisions relating to the connected load or contracted
+demand permissible under the UPERC (Electricity Supply Code) Regulations,
+2005 and subsequent amendments thereof.
+6 Capacity of Transformer
+6.1 The Distribution Licensee shall provide information on its website regarding
+capacity available on distribution transformers) for feeding the eligible consumer
+at different locations for connecting rooftop solar PV system within three months
+from the date of commencement of these Regulations, and shall update the
+same within one month of the start of the subsequent financial year under
+intimation to the Commission.
+Uttar Pradesh Electricity Regulatory Commission
+
+=====PAGE 7=====
+UPERC RSPV Regulations, 2019
+6.2 Provided that the capacity to be allowed in the area fed from a distribution
+transformer (DT) or any other transformer from which power is fed to the eligible
+consumer is not more than 75% of that DT or any other transformer.
+Provided that if augmentation of transformer/distribution network is required, then
+up to total 10 kWp solar rooftop installation, the consumer would not pay any
+charge except to a one time charge computed at the rate of Rs 1000 per kWp on
+the capacity beyond 10 KWp, as cost of augmentation of system. e.g. a
+consumer willing to install a 15 kWp RPV Plant shall be paying Rs 5,000
+(5x1000) as RSPV cost to the utility.
+Provided that the Discom shall adhere to SOPs provided in UP (Electricity Supply
+Code) Regulations, 2005 and subsequent amendments thereof, for augmentation
+of Distribution network.
+6.3 Provided further that in case of multiple applications from the consumers or third
+party owners fed by a transformer, the connectivity with the rooftop solar PV
+system shall be allowed on first come first serve basis.
+7
+Procedure for Application and Registration
+7.1 The eligible consumer or third party owner hereinafter referred to as applicant
+who intends to install grid interactive rooftop solar PV system in his/her premises
+will apply for Roof Top Solar Connectivity, along with application fee as
+prescribed in annexure-l, as per the procedure prescribed by UPNEDA or any
+other agency specified by the State Government.
+8
+7.2 The UPNEDA or the other designated agency shall frame the Rules for grant of
+connectivity under this Scheme and shall display the same on the web site of the
+concerned agency. The Rules shall conform to Regulations and shall be non-
+discriminatory and shall provide for expeditious disposal of the applications.
+Interconnection with the distribution system
+8.1 The interconnection of the rooftop solar PV system with the distribution system of
+the Distribution Licensee shall be made as per the technical specifications and
+standards for connectivity as specified by the Central Electricity Authority. The
+cost of evacuation system and interconnection of the rooftop solar PV system
+with the distribution system shall be borne by the eligible consumer or third party
+owner, as the case may be. Information related to technical & interconnection
+standards are given at Annexure Il of these Regulations. The Distribution
+Licensee shall ensure that:
+(i) The interconnection of the rooftop solar PV system with the distribution
+system conforms to the specifications, standards and provisions as
+provided in the Central Electricity Authority (Technical Standards for
+connectivity of the Distributed Generation Resources) Regulations, 2013
+as amended from time to time.
+unar Pradesh Electichy Regulatory Commission fur aul
+7
+20-
+
+=====PAGE 8=====
+UPERC RSPV Regulations, 2019
+9
+(il) The inter connection of the rooftop solar PV system with the distribution
+system of the Licensee confirms to the relevant provisions of the Central
+Electricity Authority (Measures Relating to Safety and Electric Supply)
+Regulations, 2010, as amended from time to time.
+(ili) The interconnection of the rooftop solar PV system with the distribution
+system conforms to the specifications, standards and provisions as
+provided in the UPERC (Grant of connectivity to intra-state Transmission
+System) Regulations, 2010 as amended from time to time.
+Provided that in case of a conflict between these Regulations and the
+regulations specified under the UPERC (Grant of connectivity to intra-state
+Transmission System) Regulations, 2010 as amended from time to time,
+these Regulations shall be applicable to the eligible consumers or third
+party owner as the case may be.
+(iv) The interconnection of the rooftop solar PV system with the distribution
+system conforms to the Regulations and provisions framed under Section
+53 of the Electricity Act, 2003 and subsequent amendments thereof;
+(v) In case of Gross Metering an inter Connection Agreement as per
+Annexure ||(A) is signed between both the parties whereas in case of
+Net metering inter Connection Agreement as per Annexure IlI(B) is
+signed between both the parties.
+8.2 The interface point will remain same irrespective of the installed capacity of
+RSPV system. The connectivity levels at which the rooftop solar PV system shall
+be connected with the distribution system shall be as provided in the UP
+(Electricity Supply Code) Regulations, 2005 and subsequent amendments
+thereot.
+8.3 The eligible consumer shall be responsible for safe operation, maintenance and
+rectification of any defect of the rooftop solar PV system up to the
+interconnection point beyond which the responsibility of safe operation,
+maintenance and rectification of any defect in the distribution system including
+the meter/net meter as the case may be shall rest with the Distribution
+Licensee.
+8.4 The Distribution Licensee shall have the right to disconnect the rooftop solar PV
+system at any time in the event of possible threat/damage, from such rooftop
+solar PV system to its distribution system, to prevent an accident or damage.
+Subject to Regulation 8.3, the Distribution Licensee may call upon the eligible
+consumer to rectify the defect within a reasonable time.
+Metering arrangement
+9.1 All the meters shall adhere to the standards and provisions specified in CEA
+(Installation and Operation of Meters), Regulations, 2006 and subsequent
+amendments thereof.
+8
+Uttar Pradesh Electricity Regulatory Commission
+
+=====PAGE 9=====
+UPERC RSPV Regulations, 2019
+9.2 The appropriate meters) at the premises of the consumer shall be procured,
+installed and maintained by the Distribution Licensee at the cost of the eligible
+consumer. However, if the eligible consumer wishes to procure the appropriate
+Meters), he may procure such meters) and present the same to the
+Distribution Licensee for testing and installation.
+9.3 The location of appropriate meters) shall be in accordance with the CEA
+(Installation and Operation of Meters), Regulations, 2006 as amendments from
+time to time and the UPERC (Grid Code) Regulations, 2007 as amendments
+from time to time.
+9.4 The installation of check meters shall be mandatory for rooftop solar PV system
+having rated capacity more than 50 kW. For installations having rated capacity
+up to 50 KW, the eligible consumer or the Distribution Licensee who so ever if
+desires, may install check meter at their own cost. In any case, the Distribution
+Licensee shall own the check meter. The check meter shall be installed after the
+inverter of the solar rooftop system
+9.5 The specification and standards of the check meter shall be same as or better
+than the consumer meter installed at the premises of the eligible consumer.
+9.6 All the meters installed shall be jointly inspected and sealed on behalf of both the
+parties.
+Provided that the meter reading taken by the Distribution Licensee shall form the
+basis of commercial settlement.
+10 Energy Accounting and Settlement
+10.1 Meter readings shall be taken as per the applicable cycle as provided in the
+UPERC (Electricity Supply Code) Regulations 2005 and subsequent
+amendments thereof;
+10.2 In the case of rooftop solar PV system under gross metering arrangement, the
+Licensee shall undertake energy accounting and settlement with either the
+eligible consumer or the third party owner whosoever is a signatory of the
+interconnection agreement with the Licensee.
+10.3 The energy accounting and settlement procedure for eligible consumers/third
+party owners installing and operating rooftop solar PV system under Gross
+Metering shall be as per the following procedure:
+(i) For each billing period, the Licensee shall show the quantum of electricity
+injected by the rooftop solar PV system installed at the premises of the
+eligible consumer in the billing period.
+(ii) The Distribution Licensee shall reimburse the eligible consumer or the third
+party owner as the case may be for the quantum of injected electricity by the
+rooftop solar PV system during the billing period by way of 'Solar Injection
+Compensation'.
+9
+
+=====PAGE 10=====
+UPERC RSPV Regulations, 2019
+Provided that the rate at which the Solar Injection Compensation to be paid
+by the Distribution Licensee to the eligible consumer or third party owner as
+the case may be, shall be the weighted average tariff of Large Scale Solar
+projects of 5MW and more, discovered through Competitive Bidding in last
+Financial Year and adopted by the Commission plus an incentive of 25%.
+E.g. For FY 2018-19, weighted average tariff of large Solar projects of 5 MW
+and more discovered through Competitive Bidding in FY 2017-18 and
+adopted by the Commission plus an incentive of 25% shall be applicable. In
+case no bidding is done in previous Financial Year, then the last applicable
+tariff for gross metering shall continue.
+iIi) Rebate and late payment surcharge on early or delayed payment of the
+Solar Injection Compensation as the case may be shall be levied in the same
+manner as per the procedure laid down by the Commission in the UPERC
+(Electricity Supply Code) Regulations, 2005 and subsequent amendments
+thereof;
+Provided that such rebates/ delayed payment surcharge as the case may be
+shall also be payable to the third party owner in the same manner as per
+procedure specified for the consumer of the Licensee in the UPERC
+(Electricity Supply Code) Regulations, 2005 and subsequent amendments
+thereof;
+(iv) There shall be no deemed generation charges payable to the eligible
+consumer or third party owner of the solar rooftop system.
+(v) The Distribution Licensee shall be responsible for billing of the electricity
+injected by the rooftop solar PV system into the distribution system. The bills
+prepared by the distribution license shall necessarily include the following:
+a) Quantum of electricity injected into the distribution system by the
+rooftop solar PV system.
+b) Quantum of Solar Injection Compensation payable by the Licensee.
+Provided that the billing period and due date of the bills shall be the
+same as that of the eligible consumer in whose premises the solar
+system has been installed.
+Provided also that Licensee shall reimburse the eligible consumer or
+third party owner of the solar rooftop system as the case may be, within
+the due date of the electricity bill of the consumer in whose premises the
+rooftop solar PV system has been installed
+10.4 The energy accounting and settlement procedure for consumers installing and
+operating rooftop solar PV system under net metering arrangement shall be as
+per the following procedure:
+(i) For each billing period, the Licensee shall show the quantum of electricity
+injected by the rooftop solar PV system in the billing period, supplied electricity
+10
+Uttar Pradesh Electricity Regulatory Commission
+anyand
+
+=====PAGE 11=====
+UPERC RSPV Regulations, 2019
+by Distribution Licensee in the billing period, net billed electricity for payment by
+the consumer for that billing period and net carried over electricity to the next
+billing period separately;
+(ii) If the electricity injected exceeds the electricity consumed during the billing
+period, such excess injected electricity shall be carried forward to next billing
+period as electricity credit and may be utilized to net electricity consumed in
+future billing periods but within the settlement period;
+(iii) If the electricity supplied by the Distribution Licensee during any billing period
+exceeds the electricity generated by the eligible consumer's rooftop solar PV
+system, the Distribution Licensee shall raise invoice for the net electricity
+consumption after taking into account any electricity credit balance remaining
+from previous billing periods;
+Provided, in case the eligible customer is under the ambit of time of day tariff, as
+determined by the Commission from time to time, the electricity consumption in
+any time block (e.g., peak hours, off-peak hours, etc.) shall be first compensated
+with the electricity generation in the same time block. Any excess generation
+over consumption in any time block in a billing cycle shall be carried forward to
+the corresponding time block in the subsequent month for adjustment purpose.
+Provided also that the excess electricity measured in kilo-watt hour may only be
+utilized to offset the consumption measured in kilo-watt hour and may not be
+utilized to compensate any other fee and charges imposed by the Distribution
+Licensee as per the instructions of Commission
+Provided also that in Net Metering arrangement, at the end of each settlement
+period, any electricity credits, which remain unadjusted, shall be paid at a Net
+Metering Rate of Rs 2/kWh by the Distribution Licensee or as notified by the
+Commission from time to time.
+Provide further that at the beginning of each settlement period, cumulative
+carried over electricity credits shall be reset to zero.
+(iv) When an eligible consumer leaves the system, the unused electricity credits for
+that consumer in case of Net Metering arrangement shall be paid at Net
+Metering Rate of Rs 2/kWh by the Distribution Licensee or as notified by the
+Commission from time to time.
+(v) In case of Group Net Metering, the settlement between the individual consumer
+in the group and the third party (if involved) will be the responsibility of the group
+or third party itself and shall be governed by the agreement between them. The
+third party aggregator shall not be charged by DISCOM any fixed charges on
+this account but shall be charged for imported energy as per prevailing Rules
+and Regulations.
+(vi) There shall be no deemed generation charges payable to the eligible consumer.
+11
+Uttar Pradesh Electricity Regulatory Commission
+Ther
+
+=====PAGE 12=====
+UPERC RSPV Regulations, 2019
+(vii) In case the applicable tariff provides for billing on kVAh basis, the net drawl or
+injection of energy shall also be measured in kVAh.
+(viii) Regardless of availability of electricity credits with the eligible consumer during
+any billing period, the consumer shall continue to pay applicable charges such
+as fixed/ demand charges, Government levy etc.
+(ix) The Distribution Licensee shall necessarily provide the following details along
+with the electricity bill relating to each billing period:
+a) Quantum of electricity generated from the rooftop solar PV system.
+b) Quantum of electricity injected into the distribution system by the rooftop
+solar PV system.
+C)
+Quantum of electricity supplied by the Distribution Licensee to the
+d)
+eligible consumer.
+Quantum of net electricity that has been billed for payment by the eligible
+e) Quantum of electricity credits available to the eligible consumer which is
+carried over from the previous billing period.
+f)
+Quantum of electricity injected into the distribution system in excess of
+the drawl by the eligible consumer (quantum of electricity credits) which
+shall be carried forward to the next billing period.
+9)
+Billing Credits carried forward from the last billing period to next billing
+period, if any.
+10.5 In case of any dispute in billing it would be settled by the Consumer Grievance
+Redressal Forum and if issue still remains unresolved, it shall be settled by the
+Ombudsman following appropriate procedure.
+11 Applicability of other charges
+In rooftop solar PV system under gross metering scheme or net metering
+scheme, whether self-owned or third party owned and installed on eligible
+consumer premises shall be exempted from wheeling and cross subsidy
+surcharge.
+12 Solar Renewable Purchase Obligation
+12.1 In case of gross metering scheme ,the quantum of solar electricity generation by
+eligible consumer, who is not defined as Obligated entity, from the rooftop solar
+PV system shall qualify towards compliance of Renewable Purchase Obligation
+(RPO) for the Distribution Licensee in whose area of supply the eligible
+consumer is located.
+12.2 In case of net metering scheme the total quantum of solar electricity generated
+under the net metering arrangement by eligible consumer, who is not defined as
+Obligated entity, shall qualify towards Renewable Purchase Obligation (RPO) for
+the Distribution Licensee in whose area of supply the eligible consumer is
+located.
+12
+Uttar Pradesh Electricity Regulatory Commission
+Then
+
+=====PAGE 13=====
+UPERC RSPV Regulations, 2019
+13
+Eligibility to participate under Renewable Energy Certificate Mechanism
+13.1 Nothing contained in these Regulations shall apply to the Solar PV generator
+intending to sell power under the Renewable Energy Certificate Mechanism and
+he shall be free to sell power under such mechanism as per the provisions of
+Central Electricity Regulatory Commission (Terms and Conditions for recognition
+and issuance of Renewable Energy Certificate for Renewable Energy
+Generation) Regulations, 2010 and subsequent amendments thereof and
+UPERC (Promotion of Green Energy through Renewable Purchase Obligation)
+Regulations, 2010.
+13.2 The eligibility for Renewable Energy Certificate and issuance of such renewable
+energy certificate shall be as per the eligibility criteria specified under Central
+Electricity Regulatory Commission (Terms and Conditions for recognition and
+issuance of Renewable Energy Certificate for Renewable Energy Generation)
+Regulations, 2010 and subsequent amendments thereof.
+14
+Penalty or Compensation
+In case of failure of gross metering or net metering system as the case may be,
+the provisions of penalty or compensation shall be as per the provisions of the
+provided in the UPERC (Electricity Supply Code) Regulations, 2005 and
+subsequent amendments thereof or as determined by the Commission from time
+to time.
+15 Power to give directions
+The Commission may from time to time issue such directions and orders as
+considered appropriate for the implementation of these Regulations.
+16
+Power to relax
+17
+The Commission may by general or special order, for reasons to be recorded in
+writing, and after giving an opportunity of hearing to the parties likely to be
+affected may relax any of the provisions of these Regulations on its own motion
+or on an application made before it by an interested person.
+Power to amend
+The Commission may from time to time add, vary, alter, suspend, modify, amend
+or repeal any provisions of these Regulations.
+By the order of the Commission
+Secretary
+13
+Uttar Pradesh Electricity Regulatory Commission
+the
+
+=====PAGE 14=====
+UPERC RSPV Regulations, 2019
+Annexure-l
+APPLICATION FEES
+S.No.
+1.
+2.
+3.
+Connected Load / Contract Demand
+of Eligible Consumer
+Up to 50 kW / 63 KVA
+Above 50 kW and up to 1 MW
+Above 1 MW (for upto each additional MW)
+Amount
+Rs 250
+Rs 750
+Rs 750
+The amount of application fee for eligible consumer and third party other than the owner of the
+premises shall be the amount mentioned above.
+REGISTRATION FEES
+S.No.
+1.
+2.
+3.
+Connected Load / Contract Demand
+of Eligible Consumer
+Up to 50 kW / 63 kVA
+Above 50 kW and up to 1 MW
+Above 1 MW (for upto each additional MW)
+Amount
+Rs 1000
+Rs 2500
+Rs 2500
+The amount of registration fee for eligible consumer and third party other than the owner of the
+premises shall be the amount mentioned above.
+14
+
+=====PAGE 15=====
+UPERC RSPV Regulations, 2019
+Annexure-ll
+INFORMATION RELATED TO TECHNICAL & INTERCONNECTION STANDARDS
+Parameter
+Reference
+Overall conditions of
+State Distribution/Supply Code
+Requirement
+Reference to State Distribution code
+Overall Grid Standards Central Electricity Authority (Grid Standard)
+Reference to Regulations
+Regulations 2010 and subsequent amendments
+thereof;
+Equipment
+Meters
+BIS/EC/IEEE
+Central Electricity Authority (Installation &
+operation of meters) Regulation 2006 and
+Reference to standards
+Reference to regulations and additional
+conditions issued by the Commission.
+subsequent amendments thereof
+Safety and supply
+Central Electricity Authority (measures of safety Reference to regulations
+and electricity supply) Regultions,2010 and
+subsequent amendments thereof
+Harmonic Current
+IEEE 519
+Harmonic current injections from a generating
+CEA (Technical Standards for Connectivity of the station shall not exceed the limits specified in
+Distributed Generation Resources) Regulations IEEE 519
+2013 and Subsequent amendments thereof;
+Synchronization
+IEEE 519
+Rooftop Solar PV System must be equipped with
+CEA (Technical Standards for Connectivity of the a grid frequency synchronization device. Every
+Distributed Generation Resources) Regulations time the generating station is synchronized to the
+2013 and Subsequent amendments thereof;
+electricity system. It shall not cause voltage
+fluctuation greater than +/- 5% at point of
+connection
+Voltage
+IEEE 519
+The voltage operating window should minimize
+CEA (Technical Standards for Connectivity of the nuisance tripping and should be under operating
+Distributed Generation Resources) Regulations range of 80% to110% of the nominal connected
+2013 and Subsequent amendments thereof;
+voltage. Beyond a clearing time of 2 sec the
+Rooftop Solar PV System must isolate itself from
+Flicker
+Frequency
+DC injection
+Inverter Standards
+Power factor
+Operation of Rooftop Solar PV System should not
+CEA (Technical Standards for Connectivity of the cause voltage flicker in excess of the limits stated
+Distributed Generation Resources) Regulations in IEC 61000 standards or other equivalent Indian
+2013 and Subsequent amendments thereof;
+standards, if any
+When the Distribution system frequency deviates
+CEA (Technical Standards for Connectivity of the outside the specified conditions (50.5 Hz on
+Distributed Generation Resources) Regulations upper side and 47.5 Hz on lower side), There
+2013 and Subsequent amendments thereof;
+should be over and under frequency trip functions
+with a clearing time of 0.2 sec
+Rooftop Solar PV System should not inject DC
+CEA (Technical Standards for Connectivity of the power more than 0.5% of full rated output at the
+Distributed Generation Resources) Regulations interconnection point or 1% of rated inverter
+output current into distribution system under any
+operating conditions.
+EC 61683/IS 61683
+Inverter should comply with these standards for
+efficiency and measurements
+IEC 60068-2(1,2,14,30)/ Equivalent BIS
+Should comply for environmental testing.
+Standard
+IEEE 519
+While the output of the inverter is greater than
+CEA (Technical Standards for Connectivity of the 50%, a lagging power factor of greater than 0.9
+Distributed Generation Resources) Regulations should operate.
+15
+Uttar Pradesh Electricity Regulatory Commission
+
+=====PAGE 16=====
+UPERC RSPV Regulations, 2019
+Parameter
+Reference
+Requirement
+2013 and Subsequent amendments thereof;
+slanding and
+Disconnection
+IEEE 519
+The Rooftop Solar PV System in the event of
+CEA (Technical Standards for Connectivity of the fault, voltage or frequency variations must
+Distributed Generation Resources) Regulations island/disconnect itself within IEC standard on
+2013 and Subsequent amendments thereof;
+stipulated period.
+Overload and Overheat IEEE 519
+The inverter should have the facility to
+CEA (Technical Standards for Connectivity of the automatically switch off in case of overload or
+Distributed Generation Resources) Regulations overheating and should restart when normal
+2013 and Subsequent amendments thereof;
+conditions are restored.
+Paralleling Device
+Paralleling device of Rooftop Solar PV System
+CEA (Technical Standards for Connectivity of the shall be capable of withstanding 220% of the
+Distributed Generation Resources) Regulations normal voltage at the interconnection point.
+2013 and Subsequent amendments thereof;
+Uttar Pradesh Electricity Regulatory Commission
+Expand.
+16
+
+=====PAGE 17=====
+UPERC RSPV Regulations, 2019
+Annexure-III (A)
+Inter connection agreement (Gross Metering Arrangement)
+This Agreement is made and entered into at (location) .....
+...on this (date)
+day of (month).
+....year
+......between
+The Eligible Consumer or third party owner, by the name of
+or leasing or having commerce rights to the premises at (address)
+owning
+..as
+first party
+AND
+Istribution Licensee (herein after called as Licensee and represented b
+Desianation of office) and having its registered office at (address)
+...as second party
+of the agreement
+And whereas, the .
+.... (Name of the Licensee) agrees to provide grid connectivity to the
+eligible consumer for injection of the electricity generated from his RSPV plant of capacity ............ kW into the power
+system of Licensee and as per conditions of this agreement and RSPV Regulations/Orders issued by the Uttar
+Pradesh Electricity Regulatory Commission.
+Both the parties hereby agree to as follows:
+1. Eligibility
+1.1. Eligibility for Gross Metering arrangement has been specified in the UPERC (Rooftop Solar PV Grid
+Interactive System Gross/Net Metering) Regulations, 2019 (hereinafter referred to as RSPV Regulations,
+2019). Eligible consumer or third party owner is required to be aware, in advance, of the standards and
+conditions his system has to meet for being integrated into grid/distribution system.
+2. Technical and Interconnection Requirements
+2.1. The First Party agrees that his Rooftop Solar PV generation plant Gross Metering system will conform to the
+standards and requirements specified in these regulations and in the following Regulations and codes as
+amended from time to time.
+i. Central Electricity Authority (Technical Standards for connectivity of the Distributed Generating
+Resources) Regulations, 2013 and subsequent amendments thereof;
+ii.
+Central Electricity Authority (Installation and Operation of Meters) Regulation 2006 and subsequent
+amendments thereof;
+iii.
+Central Electricity Authority (Measures of Safety and Electricity Supply) Regulations, 2010
+and subsequent amendments thereof;
+IV.
+UPERC Electricity Grid Code, 2007 and subsequent amendments thereof;
+V.
+UPERC (Grant of Connectivity to intra-State Transmission System) Regulations,
+• 2010 and
+subsequent amendments thereof to the extent specified in the UPERC RSPV Regulations, 2019;
+vi.
+UPERC Supply Code Regulations 2005 and subsequent amendments thereof;
+vii.
+Any other provisions applicable to the electricity consumer of the Distribution Licensee.
+2.2. First Party agrees that he has installed or will install, prior to connection of Photovoltaic system to
+Licensee's distribution system, an isolation device (both automatic and inbuilt within inverter and external
+manual relays) and agrees for the Licensee to have access to and operation of this, if required and for
+repair & maintenance of the distribution system.
+2.3 First Party agrees that in case of a power outage Licensee's system, photovoltaic system will
+disconnect/isolate automatically and his plant will not inject power into Licensee's distribution system.
+17
+Uttar Pradesh Electricity Regulatory Commission
+
+=====PAGE 18=====
+UPERC RSPV Regulations, 2019
+2.4. All the equipment connected to distribution system shall be compliant with relevant International (IEEE/EC)
+or Indian standards (BIS) and installations of electrical equipment must comply with Central Electricity
+Authority (Measures of Safety and Electricity Supply) Regulations, 2010.
+2.5. First Party agrees that Licensee will specify the interface/interconnection point and metering point.
+2.6. First Party and Second Party agree to comply with the relevant CEA and UPERC Regulations in respect of
+operation and maintenance of the plant, drawing and diagrams, site responsibility schedule, harmonics,
+synchronization, voltage, frequency, flicker etc.
+2.7. Due to Licensee's obligation to maintain a safe and reliable distribution system, First Party agrees that if it is
+determined by the Licensee that the respective owner's photovoltaic system either causes damage to
+and/or produces adverse effects affecting other consumers or Licensee's assets, First Party will have to
+disconnect photovoltaic system immediately from the distribution system upon direction from the Licensee
+and correct the problem at his own expense prior to a reconnection.
+3. Clearances and Approvals
+3.1. The First Party agrees to obtain all the necessary approvals and clearances (environmental and grid
+connection related) before connecting the photovoltaic system to the distribution system.
+4. Access and Disconnection
+4.1. Licensee shall have access to metering equipment and disconnecting means of the solar photovoltaic
+system, both automatic and manual, at all times.
+4.2. In emergency or outage situation, where there is no access to the disconnecting means, both automatic and
+manual, such as a switch or breaker, Licensee may disconnect service to the premises of the eligible
+consumer.
+5. Liabilities
+5.1. Eligible consumer and Licensee will indemnify each other for damages or adverse effects from either party's
+negligence or intentional misconduct in the connection and operation of photovoltaic system or Licensee's
+distribution system.
+5.2. Licensee and eligible consumer will not be liable to each other for any loss of profits or revenues, business
+interruption losses, loss of contract or loss of goodwill, or for indirect, consequential, incidental or special
+damages, including, but not limited to, punitive or exemplary damages, whether any of the said liability, loss
+or damages arise in contract, or otherwise.
+5.3. Licensee shall not be liable for delivery or realization by eligible consumer for any fiscal or other incentive
+provided by the Central/State Government beyond the scope specified by the Commission in its relevant
+5.4. The Licensee may consider the quantum of electricity generation from the Rooftop Solar PV system towards
+RPO.
+6. Commercial Settlement
+6.1. All the commercial settlement under this agreement shall follow the RSPV Regulations, 2019 issued by the
+UPERC.
+7. Connection Costs
+7.1. The First Party shall bear all costs related to setting up of photovoltaic system including metering and
+interconnection costs. The First Party agrees to pay the actual cost of modifications and upgrades to the
+service line required to connect photovoltaic system to the grid in case it is required.
+8. Termination
+8.1. The First Party can terminate agreement at any time by providing Licensee with 90 days prior notice.
+8.2. Licensee has the right to terminate Agreement on 30 days prior written notice, if First Party commits breach
+of any of the term of this Agreement and does not remedy the breach within 30 days of receiving written
+notice from Licensee of the breach.
+18
+Uttar Pradesh Electricity Regulatory Commission
+
+=====PAGE 19=====
+UPERC RSPV Regulations, 2019
+8.3. First Party shall upon termination of this Agreement, disconnect the photovoltaic system from License's
+distribution system in a timely manner and to Licensee's satisfaction.
+In witness, whereof, Mr.
+party owner) and Mr.
+two originals.
+or anand on hell (ice sie con sus agreement in
+Eligible Consumer/ Third Party
+Name
+Address
+Service connection No.
+Distribution Licensee
+Name
+Designation
+Office Address
+fu and.
+19
+
+=====PAGE 20=====
+UPERC RSPV Regulations, 2019
+Annexure-III (B)
+Inter connection agreement (Net Metering Arrangement)
+This Agreement is made and entered into at (location)
+..on this (date)
+day of (month)
+•year
+..between
+The Eligible Consumers) by the name of
+having or leasing the
+premises at (address)
+as first party
+AND
+Distribution Licensee (herein after called
+as Licensee) and represented by
+(Designation of office) and having its registered office at (address)
+as second party
+of the agreement
+And whereas, the ...
+... (Name of the Licensee) agrees to provide grid connectivity to the
+eligible consumer for injection of the electricity generated from his RSPV plant of capacity
+power system of Licensee and as per conditions of this agreement and Requlations/Orders issued by the Uttar
+Pradesh Electricity Regulatory Commission.
+Both the parties hereby agree to as follows:
+1. Eligibility
+1.1. Eligibility for Net-Metering/Net- Billing arrangement has been specified in the UPERC (Rooftop Solar PV
+Grid Interactive System Gross / Net Metering) Regulations, 2019 (hereinafter referred to as RSPV
+Regulations, 2019). Eligible consumer is required to be aware, in advance, of the standards and conditions
+his system has to meet for being integrated into grid/distribution system.
+2. Technical and Interconnection Requirements
+2.1. The eligible consumer agrees that his Rooftop Solar PV generation plant and Net Metering/Net- Billing
+system will conform to the standards and requirements specified in these regulations and in the following
+Regulations and codes as amended from time to time.
+i. Central Electricity Authority (Technical Standards for connectivity of the Distributed Generating
+Resources) Regulations, 2013 and subsequent amendments thereof;
+ii.
+Central Electricity Authority (Installation and Operation of Meters) Regulation 2006 and subsequent
+amendments thereof;
+ili.
+Central Electricity Authority (Measures of Safety and Electricity Supply) Regulations, 2010
+and subsequent amendments thereof;
+iv.
+UPERC Electricity Grid Code, 2007 and subsequent amendments thereof;
+V.
+UPERC (Grant of Connectivity to intra-State Transmission System) Regulations, 2010 and
+subsequent amendments thereof to the extent specified in the UPERC RSPV Regulations, 2019;
+vi.
+UPERC Supply Code Regulations 2005 and subsequent amendments thereof;
+vii.
+Any other provisions applicable to the electricity consumer of the Distribution Licensee.
+2.2. Eligible consumer agrees that he has installed or will install, prior to connection of Photovoltaic system to
+Licensee's distribution system, an isolation device (both automatic and inbuilt within inverter and external
+manual relays) and agrees for the Licensee to have access to and operation of this, if required and for
+repair & maintenance of the distribution system.
+2.3 Eligible consumer agrees that in case of a power outage on Licensee's system, photovoltaic system will
+disconnect/isolate automatically and his plant will not inject power into Licensee's distribution system.
+20
+Uttar Pradesh Electricity Regulatory Commission
+"found.
+
+=====PAGE 21=====
+UPERC RSPV Regulations, 2019
+2.4 All the equipment connected to distribution system shall be compliant with relevant International (IEEE/EC)
+or Indian standards (BIS) and installations of electrical equipment must comply with Central Electricity
+Authority (Measures of Safety and Electricity Supply) Regulations, 2010.
+2.5. Eligible consumer agrees that Licensee will specify the interface/interconnection point and metering point.
+2.6. Eligible consumer and Licensee agree to comply with the relevant CEA and UPERC Regulations in respect
+of operation and maintenance of the plant, drawing and diagrams, site responsibility schedule, harmonics,
+synchronization, voltage, frequency, flicker etc.
+2.7. Due to Licensee's obligation to maintain a safe and reliable distribution system, eligible consumer agrees
+that if it is determined by the Licensee that eligible consumer's photovoltaic system either causes damage
+to and/or produces adverse effects affecting other consumers or Licensee's assets, eligible consumer will
+have to disconnect photovoltaic system immediately from the distribution system upon direction from the
+Licensee and correct the problem at his own expense prior to a reconnection.
+3. Clearances and Approvals
+3.1. The eligible consumer agrees to obtain all the necessary approvals and clearances (environmental and grid
+connection related) before connecting the photovoltaic system to the distribution system.
+4. Access and Disconnection
+4.1. Licensee shall have access to metering equipment and disconnecting means of the solar photovoltaic
+system, both automatic and manual, at all times.
+4.2. In emergency or outage situation, where there is no access to the disconnecting means, both automatic and
+manual, such as a switch or breaker, Licensee may disconnect service to the premises of the eligible
+consumer.
+5. Liabilities
+5.1. Eligible consumer and Licensee will indemnify each other for damages or adverse effects from either party's
+negligence or intentional misconduct in the connection and operation of photovoltaic system or Licensee's
+distribution system.
+5.2. Licensee and eligible consumer will not be liable to each other for any loss of profits or revenues, business
+interruption losses, loss of contract or loss of goodwill, or for indirect, consequential, incidental or special
+damages, including, but not limited to, punitive or exemplary damages, whether any of the said liability, loss
+or damages arise in contract, or otherwise.
+5.3. Licensee shall not be liable for delivery or realization by eligible consumer for any fiscal or other incentive
+provided by the Central/State Goverment beyond the scope specified by the Commission in its relevant
+5.4. The Licensee may consider the quantum of electricity generation from the Rooftop Solar PV system towards
+RPO.
+6. Commercial Settlement
+6.1. All the commercial settlement under this agreement shall follow the RSPV Regulations, 2019 issued by the
+UPERC.
+7. Connection Costs
+7.1. The eligible consumer shall bear all costs related to setting up of photovoltaic system including metering and
+interconnection costs. The eligible consumer agrees to pay the actual cost of modifications and upgrades to
+the service line required to connect photovoltaic system to the grid in case it is required.
+8. Termination
+8.1. The eligible consumer can terminate agreement at any time by providing Licensee with 90 days prior notice.
+21
+
+=====PAGE 22=====
+UPERC RSPV Regulations, 2019
+8.2. Licensee has the right to terminate Agreement on 30 days prior written notice, if eligible consumer commits
+breach of any of the term of this Agreement and does not remedy the breach within 30 days of receiving
+written notice from Licensee of the breach.
+3. Eligible consumer shall upon termination of this Agreement. disconnect the photovoltaic system fro
+censee's distribution system in a timely manner and to Licensee's satisfactio
+In witness, whereof, Mr.
+... for and on behalf of (Eligible consumer) and Mr.
+. for and on behalf of (Licensee) sign this agreement in two originals.
+Eligible Consumer
+Name
+Address
+Service connection No.
+Distribution Licensee
+Name
+Designation
+Office Address
+frand.
+22
+Uttar Pradesh Electricity Regulatory Commission
+oh,

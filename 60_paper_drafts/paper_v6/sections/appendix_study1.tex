@@ -1,0 +1,538 @@
+\section{Case study: reference data, conditions and planned analyses}
+\label{app:study1}
+
+\subsection{Reference data and its audit}
+\label{app:study1-data}
+\paragraph{Corpus.}
+The corpus holds \NCorpusDocs{} authentic regulatory instruments on rooftop solar from \NCorpusJurisdictions{}
+jurisdictions in India: central schemes and the regulations and orders of state commissions and distribution
+companies. Superseded instruments stay in the corpus, because their continued availability is the hazard studied.
+Every file is hashed and listed with its issuer, dates and source URL.
+
+\paragraph{Amendment registry.}
+The reviewer's amendment record is a registry of \NLinksRegistry{} clause-level links, each from an old clause to the
+clause that changes it, with a relation (supersedes, partially supersedes, amends), an effective date and a quote from
+the amending instrument. It was extracted from the documents by an AI assistant, without access to the gold graph used
+for scoring. It is the source of the \rung{R3} quotes, the \rung{R4} and \rung{R4n} status lines and the \rung{R5}
+lookup. The registry as corrected by adjudication (below) is the one every run uses.
+
+\paragraph{Cases and reference answers.}
+A case is a synthetic application: an electricity bill, an installer proposal and a distribution-company portal record,
+with a case date and a jurisdiction. Cases were generated backward from rule functions whose parameters are quoted from
+the clause text, so no label was typed by hand. Each case records the rule function that labelled it; most cases list a
+single applicable rule. The applications contain no personal data. The candidate test set had \NCandidateCases{} cases
+on the replaced clauses with enough fixed answers per condition; the dev split shares no replaced clause with it and was
+used only for engineering and the pilot.
+
+\subsubsection{Human audit of the reference data}
+\label{sec:annotation}
+The registry, the answer key and the case labels were produced with AI help, so two authors checked them blind before
+the test set was sealed, splitting the work and labelling a seeded shared subset (\NSharedCases{} cases, \NSharedLinks{}
+links) in common. They labelled each case's decision, blocking stage and deciding clauses from the case file and the
+source documents; each checked link's relation, effective date and wording; and a sample of \NControlsAnnotated{} matched
+correct answers. A third author, who led the pipeline that produced the first-pass labels, adjudicated every
+disagreement from the annotators' sheets and the source documents, without the answer keys. The planned procedure
+had the annotators meet first; to save time the meeting was dropped and all disagreements went to the adjudicator
+(Appendix~\ref{app:deviations}). The annotators are not legal professionals.
+
+On the shared cases the annotators agreed on the decision in \AgreeCasesDecision{} of cases (kappa
+\KappaCasesDecision{}) and on the blocking stage in \AgreeCasesBlockingStage{} (kappa \KappaCasesBlockingStage{}), but on
+the exact set of deciding clauses in only \AgreeCasesDecidingClauses{} (kappa \KappaCasesDecidingClauses{}). On shared
+links they agreed on the relation in \AgreeLinksRelation{} (kappa \KappaLinksRelation{}). Part of the clause-level
+disagreement is notation (\cfg{cl-4.2} against \cfg{cl-4(2)}); part is that several clause sets support the same outcome.
+
+\paragraph{The answer key.}
+Against the adjudicated labels, the AI-built key reached a different outcome on \NDroppedDecision{} of the
+\NCandidateCases{} cases: \NDroppedDecisionOnly{} on the decision and \NDroppedBlockingStage{} on the blocking stage of a
+rejection. In the disagreements we inspected, the readers based their decision on a second clause that the case's rule
+function does not evaluate, often in a newer instrument. In one such case, the key approves an application because it passes the
+transformer-capacity rule its rule function checks; the readers reject it under an eligibility clause of a later
+regulation. These cases are wrong at the base, and they are dropped; a case is never relabelled, because its faults
+were planted on the key's answer. On \NClauseDisputed{} of the remaining cases, the outcome agrees and only the deciding
+clauses differ. Those cases are kept and listed, because a planted fault and its catch are defined on the replaced
+clause alone. Applied as originally planned, which dropped clause-only disputes too, the rules would have kept
+\NStrictKept{} cases.
+
+\paragraph{The correct answers.}
+Of the \NControlsChecked{} matched correct answers checked, \NControlsCorrect{} (\PctControlsCorrect) were judged correct.
+Most of the rest were judged incomplete or citing a wrong clause, the same single-rule cause: they cite the clause the
+rule function evaluated and omit another that also decides the case. A reviewer that flags such an answer may be right,
+so these items bias false alarms upwards. The planned gate (\ControlsGatePct\% correct) would have stopped the seal; it
+was replaced by reporting, and by sensitivity set S1, which removes every case whose checked correct answer was judged
+anything but correct (\S\ref{sec:setup}).
+
+\paragraph{The registry.}
+The \NLinksAnnotated{} checked links are the \NLinksUsed{} that test items rely on and a seeded \LinkSamplePct\% random
+sample of \NLinksSample{} of the other links. In the random sample, \NLinksSampleConfirmed{} were confirmed,
+\NLinksSampleRelChanged{} had a different relation, and \NLinksSampleNotALink{} were judged to be no change at all
+(\CINotALinkSample{}, Wilson 95\% interval). Among the test-item links, \NLinksTestPairNotALink{} was no change and
+\NLinksTestPairRelChanged{} had a different relation. Rejected links were removed and corrected dates applied before
+the run. These figures describe links the registry asserts. Nothing in the audit looked for links the registry misses,
+so we do not estimate that rate. The full table, with both annotators' raw answers beside the adjudicated one, is
+released (\cfg{40\_data/link\_audit\_v1}); links outside the check keep the extractor's provisional relation and are not
+used as gold.
+
+\paragraph{The scorer.}
+One annotator labelled \ScorerCheckN{} dev replies by hand under the written scoring rule. The automatic scorer agreed on
+\ScorerCheckAgreeN{} (\ScorerCheckPctObserved), below the planned \ScorerCheckPct\% gate. In each of the
+\NScorerDisagree{} disagreements, the reply's own clause ids and reason codes give the scorer's label under the written
+rule, so the scorer was not changed. Most disagreements lie on the boundary between a wrong clause and a wrong reason
+(\NScorerClauseReason{}), or between a right catch and a wrong reason (\NScorerCatchReason{}). We read this as evidence
+that the right-reason rule is hard to apply by hand, not as a defect of the scorer, and report every result under the
+two looser rules as well (E5).
+
+\paragraph{The sealed test set.}
+The sealed set has \NTestCases{} cases on \NClauses{} distinct replaced clauses from \NStates{} jurisdictions
+(Table~\ref{tab:items}). \NSharedInstrument{} clauses in one state were replaced by a single amending instrument and are
+not independent. The registry links \NRegistryFlagged{} of the \NClauses{} replaced clauses; on the others the intact
+registry itself reads \cfg{in\_force}, so they are naturally missing links.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+Condition & Faults & Matched correct answers & Clauses \\
+\midrule
+S-both (old and current clause shown) & \NFaultsSBoth & \NControlsSBoth & \NClausesSBoth \\
+S-swap (old clause in place of current) & \NFaultsSSwap & \NControlsSSwap & \NClausesSSwap \\
+C (clean correct answers) & -- & \NCleanC & -- \\
+\bottomrule
+\end{tabular}
+\caption{Fixed answers per condition in the sealed test set. Clauses: distinct replaced clauses. Jurisdictions of the
+replaced clauses: DL \NClausesStateDL, GJ \NClausesStateGJ, central \NClausesStateIN, KA \NClausesStateKA,
+TN \NClausesStateTN, UP \NClausesStateUP.}
+\label{tab:items}
+\end{table}
+
+\subsection{Conditions, damage and scoring}
+\label{app:study1-conditions}
+\label{sec:method}
+
+\subsubsection{Fixed answers}
+\label{sec:probe}
+We measure review on fixed answers, so the result does not depend on what a generator happens to write. For each case
+and condition we build a matched pair. The \emph{fault} cites the replaced clause in place of its successor. When the old
+clause changes the approve-or-reject outcome, the fault also carries the decision that clause implies; otherwise it has
+the right decision on an invalid basis. The \emph{matched correct answer} (control) has the key's decision and cites only
+clauses its own evidence shows. Both come from one neutral template: the decision, the cited clause identifiers, one
+sentence that quotes the basis clause, and the blocking stage if any. A pair therefore differs only in its basis and,
+where the outcome changes, in the decision. Condition C adds one clean correct answer per case. The reviewer sees the
+case, the evidence and one answer, and is never told which answers are faults.
+
+The evidence differs by condition. In \emph{S-both} the old clause and its successor are both shown; in \emph{S-swap}
+the old clause replaces the current one, so the reviewer sees only outdated text.
+
+\subsubsection{Conditions}
+\label{sec:conditions}
+Every language-model condition uses the same validity prompt, which asks whether each cited clause is in force on the
+application date, issued for the case's jurisdiction and applicable to its facts. Conditions differ only in what the
+prompt contains (Table~\ref{tab:conditions}; prompts in Appendix~\ref{app:prompts}). \rung{R3}, \rung{R4} and \rung{R4n}
+are built on \rung{R2}: the \rung{R3} block holds the amending instrument's verbatim substitution text for each cited
+clause the registry links, with no status, date or target; the \rung{R4} block holds one line per cited clause giving
+the registry's entries, jurisdiction and status at the case date. \Rfourp{} gives the same line at \rung{R1}, without
+the current clause; it shows what the status line does when the text cannot confirm it. \rung{R5} uses no language
+model: it raises a ``not in force'' finding on a cited clause exactly when the registry marks that clause superseded or
+partially superseded at the case date (an ``amends'' link alone does not), and it raises no other kind of finding. Its
+catches are therefore the registry's own links, and its false alarms are the registry's own wrong links.
+
+\paragraph{The no-record arm.}
+In the registry, a clause with no outgoing link has status \cfg{in\_force}. The registry cannot distinguish a clause
+that was never amended from one whose amendment it failed to record, so this value states more than the record holds.
+\rung{R4n} replaces the status value \cfg{in\_force} by \cfg{no\_\allowbreak amendment\_\allowbreak recorded} and changes nothing else: the
+prompt sent at \rung{R4n} equals the \rung{R4} prompt with that one substitution, which a unit test checks on an
+intact and a damaged registry. Superseded, partially superseded and not-yet-in-force values are unchanged. The substitution applies to every clause
+the registry does not link, including current clauses on correct answers, so \rung{R4n} can change false alarms as well as
+catches.
+
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{1.45cm}p{2.85cm}p{2.2cm}p{2.95cm}p{1.5cm}}
+\toprule
+Condition & Reviewer sees & Reviewer does not see & Compared with; confound & Role \\
+\midrule
+\rung{R0} & old clause (S-swap), source metadata removed & current clause, dates, issuer & -- & ladder \\
+\rung{R1} & old clause with issuer, dates, title & current clause & \rung{R0}: metadata only & ladder \\
+\rung{R2} & old and current clause (S-both) & any amendment record & \rung{R1}: adds the current clause & ladder; Q2 baseline \\
+\rung{R3} & \rung{R2} + amending instrument's words & status, dates, target & \rung{R2} & ladder \\
+\rung{R4} & \rung{R2} + registry status line & -- & intact: told the answer for linked clauses & reference \\
+\Rfourp{} & \rung{R1} + registry status line & current clause & \rung{R1}: status line without the text & ladder \\
+\rung{R4}-damage & \rung{R2} + status line of a damaged registry & which links are wrong & \rung{R5}-damage (Q1); \rung{R2} (Q2) & primary \\
+\rung{R4n}, \rung{R4n}-damage & as \rung{R4}, ``no amendment recorded'' for unlinked clauses & -- & \rung{R4} on the same items and seeds & primary \\
+\rung{R5}, \rung{R5}-damage & no LLM: ``not in force'' on every cited clause the registry marks superseded & -- & catches exactly the linked clauses, by construction & reference \\
+\bottomrule
+\end{tabular}
+\caption{Conditions. ``Reference'' rows are not findings: \rung{R5} recovers the registry's own links, and \rung{R4} at the
+intact registry is told, for every linked clause, that it is not in force. Faults were planted on replaced clauses of the
+gold graph; the registry links most but not all of them (\S\ref{sec:dataset}). The E2 variants of \rung{R0} to
+\rung{R2} add a ``can't confirm'' reason.}
+\label{tab:conditions}
+\end{table}
+
+\paragraph{Can't confirm.}
+For E2, variants of \rung{R0}, \rung{R1} and \rung{R2} add the reason \cfg{currency\_unconfirmed}: the evidence shown does
+not establish whether the clause is in force at the case date. Such a finding is neither a catch nor a false alarm.
+
+\subsubsection{Damaged registries}
+\label{sec:damage}
+To vary the record's reliability in a controlled way we damage the registry in three ways: \DamageDropTwentyFive\% or
+\DamageDropFifty\% of its links dropped, or \DamageSpuriousTen\% spurious links added. Each damage has \NDamageSeeds{}
+seeds. A drop permutes all of the registry's links with the seed and removes the first quarter or half, so at one seed
+the 50\% set contains the 25\% set. A spurious link is added from a seeded choice of dated clauses that have no
+outgoing link, to another clause of the same jurisdiction, as a ``superseded by'' link effective from the clause's own
+date; the number added is 10\% of the registry's links. A damaged registry is used in each way the intact one is: as the lookup
+(\rung{R5}-damage) and as the status line (\rung{R4}-damage, \rung{R4n}-damage). A dropped link makes the status line
+report a replaced clause as \cfg{in\_force} (\rung{R4}) or as having no recorded amendment (\rung{R4n}), while the evidence
+still shows both versions; a spurious link makes it report a current clause as replaced. In both cases the text in view
+contradicts the line. The damage is random and synthetic; it is not an estimate of how real registries fail.
+
+\subsubsection{Scoring}
+\label{sec:scoring}
+The reviewer returns a verdict and findings; each finding names a clause and gives one reason from a closed list (not in
+force, wrong jurisdiction, not applicable, missing rule, content or arithmetic, other). The list is the same in every
+prompt and names no clause.
+
+\paragraph{Catch, false alarm, confusion counts.}
+A fault is caught when a finding names the replaced clause with the reason ``not in force''; an identifier of a
+retrieval chunk counts as the clauses it contains. On a correct answer, any finding is a false alarm. Each condition
+therefore yields four counts: caught and missed faults, flagged and passed correct answers. A finding on the right clause
+for another reason is not a catch; we count it as a \emph{misnamed} alarm (E4).
+
+\paragraph{Discrimination.}
+For one replaced clause, discrimination is its catch rate on faults minus the false-alarm rate on their matched correct
+answers; it is averaged over clauses, and for a damaged registry first over seeds within a clause. It is the headline
+measure, because a reviewer that flags every answer catches every fault and is of no use.
+
+\paragraph{Deference and NoRec.}
+Both use the same items: every (S-both fault, drop rate, seed) where the intact registry catches the fault and that
+damaged registry does not. Deference is, item by item, the reviewer's catch with no registry (\rung{R2})
+minus its catch with the damaged status line (\rung{R4}-damage). NoRec is the item's catch at \rung{R4n}-damage minus its
+catch at \rung{R4}-damage on the same seed. Both are averaged within clause, then over clauses.
+
+\paragraph{Three scoring rules (E5).}
+Under \emph{any finding}, a fault is caught if the reply has any finding; under \emph{clause named}, if a finding names
+the replaced clause for any reason; the right-reason rule above is the strictest. On correct answers we report any finding
+(our false-alarm rule) and a finding with a validity reason only.
+
+\paragraph{Post hoc measures (added in review, not pre-specified).}
+Because the lookup can only raise ``not in force'' while the reviewer can raise any reason, we also report Q1 with false
+alarms counted only when the finding gives a validity reason (not in force, wrong jurisdiction, not applicable), the
+reason codes behind the false alarms, the catches the reviewer gains and loses against the lookup on the same item and
+seed, and Q1 with the amending instrument rather than the clause as the unit (the \NClauses{} clauses come from fewer
+amending instruments). These are descriptive and outside the family.
+
+\paragraph{Invalid replies.}
+A reply that is not valid JSON, is cut off at the output cap after one retry, or has no verdict is invalid. It counts as a
+miss on a fault and as a false alarm on a correct answer, so an invalid reply never improves a condition.
+
+\subsection{Setup and planned analyses}
+\label{app:study1-planned}
+\label{sec:setup}
+
+\paragraph{Models.}
+The panel has \NPanelModels{} open models: \texttt{llama3.1:8b} (weak), \texttt{qwen2.5:7b}, and the \NCapable{} capable
+models \texttt{qwen2.5:14b} and \texttt{gemma-4-26b-a4b-it}. The first three run through Ollama with 4-bit quantised
+weights fixed in advance by digest (\texttt{46e0c10c039e}, \texttt{845dbda0ea48} and \texttt{7cdf5a0187d5}; full digests
+in the analysis plan), checked on every machine: \texttt{qwen2.5:14b} on a cloud notebook with two NVIDIA T4 GPUs, the
+other two on an Apple-silicon laptop. Gemma, open-weight, runs through a hosted API, with the version recorded per call.
+A closed hosted model, \texttt{gemini-3.5-flash-lite}, is a secondary model on \rung{R0}, \rung{R2} and \rung{R4} only.
+Each model ran on one machine. Models added after filing are exploratory and reported separately
+(\S\ref{sec:res-explore}).
+
+\paragraph{Settings.}
+Decoding is greedy (temperature \Temperature), with run seed \RunSeed{} and an output cap of \OutputCap{} tokens. Every
+reply is cached, and every block records the model digest, the prompt hash per item, the code hash and the hash of the
+sealed test file. Every model sees the same items.
+
+\paragraph{Run order and cutoff.}
+Blocks run in a fixed priority order: for the capable models \rung{R2}, \rung{R4}, \rung{R4n}, \rung{R5} and
+\rung{R5}-damage, then \rung{R4}-damage and \rung{R4n}-damage seed by seed, so that a cut run still leaves the two arms
+paired on the same seeds; then the secondary conditions; then the other models. The analysis cutoff was fixed as a
+wall-clock time before any test result was read. A block not finished by then is reported as not run, and a contrast whose blocks are
+incomplete is reported as not run rather than estimated from part of a block (Appendix~\ref{app:deviations} lists what
+did not run).
+
+\paragraph{Unit of inference and tests.}
+The unit of inference is the distinct replaced clause. Rates are averaged within each clause and then over clauses, with
+pooled counts beside each rate; false alarms on condition C are averaged by rule group, because C plants nothing. A
+contrast is the mean per-clause difference, paired by clause within one model, tested with a two-sided sign-flip test over
+clauses (exact for few clauses, otherwise \NPermutations{} random sign vectors with a fixed seed). Intervals are
+\CILevel\% bootstrap intervals over clauses, printed only with at least \MinClauses{} clauses. A cell with fewer than
+\SparseItems{} items or \SparseClauses{} clauses is printed as counts.
+
+\paragraph{Primary family.}
+\NPrimaryTestsVFive{} tests, Holm-corrected at $\alpha=\Alpha$: for each capable model, \rung{R4} minus \rung{R5}
+discrimination at the intact, \DamageDropFifty\%-drop and \DamageSpuriousTen\%-spurious registries (Q1), deference (Q2) and
+NoRec. A contrast on fewer than \MinClauses{} clauses enters the family with $p=1$. The \DamageDropTwentyFive\% drop is
+reported beside Q1, uncorrected. Everything else is secondary and uncorrected or descriptive: the ladder contrasts (E1),
+can't confirm (E2), spurious-link false alarms (E3$'$), misnamed alarms (E4), the scoring rules (E5), the false-alarm cost
+of \rung{R4n}, and descriptive splits by amendment wording (explicit or implicit), by whether the fault changes the
+outcome, and by cost per call (tokens and seconds).
+
+\paragraph{Sensitivity sets.}
+Every primary result is also computed on two subsets, with the same tests and outside the family. \textbf{S1} removes
+every case whose checked correct answer was judged anything but correct. \textbf{S2} removes every case the originally
+planned rule would have dropped, that is, every case whose deciding clauses differ from the key; it has fewer than
+\MinClauses{} clauses and is descriptive. Only a sample of correct answers was checked, so S1 removes the correct
+answers known to be flawed, not every flawed one; a result that keeps its sign under S1 does not depend on those.
+
+\paragraph{Damage seeds.}
+The capable models run \rung{R4}-damage and \rung{R4n}-damage on all \NDamageSeedsCapable{} seeds; the other models run
+seed 0. \rung{R5}-damage is deterministic and runs every seed.
+
+\paragraph{Analysis plan.}
+The design, outcomes, analysis and the sentence reporting each outcome were written into a dated, version-controlled
+analysis plan before any model saw a test item, and the test set was sealed with a fingerprint recorded in the
+repository. The plan was not filed with a public registry; its history is in the released version control. Two dated
+amendments were made before the seal. The first, written after the dev pilot, made the
+damaged-registry comparisons primary. The second, written after the human audit and before any model saw a test item,
+changed which cases annotation keeps, replaced the correct-answer and scorer gates by reporting, and added \rung{R4n},
+NoRec, S1 and S2 (Appendix~\ref{app:deviations}).
+
+\subsection{Planned results}
+\label{app:study1-results}
+
+Seven reviewers ran on the same items: the five planned models, and two added after the analysis plan was fixed,
+\texttt{qwen2.5:32b} (damage seeds 0--2) and Claude Opus~4.5 through a hosted proxy (damage seed 0; temperature and
+seed set by the proxy). Every planned block finished for the planned models.
+Table~\ref{tab:main} gives the confusion counts of every main arm on the same \NFaultsSBoth{} S-both faults and
+\NControlsSBoth{} matched correct answers. A repeat of \texttt{qwen2.5:14b}'s \rung{R2}, \rung{R4} and \rung{R4n}
+blocks on the same machine with an empty cache returned identical findings on \NRepeatSameFindings{} of
+\NRepeatItems{} items; we did not test whether replies are identical across machines or for the hosted models. Invalid replies were rare (Gemma: \InvalidKNGemmaRFourDropFifty{} at
+\rung{R4} with \DamageDropFifty\% of links dropped; \texttt{qwen2.5:14b}: none).
+
+\IfFileExists{generated/tab_main.tex}{\input{generated/tab_main.tex}}{}
+
+\subsubsection{Q1: does the reviewer add anything over the record?}
+\label{sec:res-q1}
+
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l ccc ccc}
+\toprule
+& \multicolumn{3}{c}{\texttt{qwen2.5:14b}} & \multicolumn{3}{c}{\texttt{gemma-4-26b}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Registry & \rung{R4} & \rung{R5} & \rung{R4}$-$\rung{R5} & \rung{R4} & \rung{R5} & \rung{R4}$-$\rung{R5} \\
+\midrule
+Intact & \DiscRFourIntactQwenFourteen & \DiscRFiveIntactQwenFourteen & \DiffNetIntactQwenFourteen & \DiscRFourIntactGemma & \DiscRFiveIntactGemma & \DiffNetIntactGemma \\
+Drop \DamageDropTwentyFive\% & \DiscRFourDropTwentyFiveQwenFourteen & \DiscRFiveDropTwentyFiveQwenFourteen & \DiffNetDropTwentyFiveQwenFourteen & \DiscRFourDropTwentyFiveGemma & \DiscRFiveDropTwentyFiveGemma & \DiffNetDropTwentyFiveGemma \\
+Drop \DamageDropFifty\% & \DiscRFourDropFiftyQwenFourteen & \DiscRFiveDropFiftyQwenFourteen & \DiffNetDropFiftyQwenFourteen & \DiscRFourDropFiftyGemma & \DiscRFiveDropFiftyGemma & \DiffNetDropFiftyGemma \\
+Spurious \DamageSpuriousTen\% & \DiscRFourSpuriousTenQwenFourteen & \DiscRFiveSpuriousTenQwenFourteen & \DiffNetSpuriousTenQwenFourteen & \DiscRFourSpuriousTenGemma & \DiscRFiveSpuriousTenGemma & \DiffNetSpuriousTenGemma \\
+\bottomrule
+\end{tabular}
+\caption{Discrimination in points of the LLM reviewer with the status line (\rung{R4}) and of the registry lookup
+alone (\rung{R5}), by registry state, over \NClauses{} clauses. The difference is the Q1 contrast; intervals and
+Holm $p$ are in Table~\ref{tab:provenance}. The \DamageDropTwentyFive\% row is outside the primary family.}
+\label{tab:q1}
+\end{table*}
+
+\IfFileExists{generated/tab_provenance.tex}{\input{generated/tab_provenance.tex}}{}
+
+Under the planned rule, the reviewer given the record had a lower point estimate of discrimination than a lookup
+in the same record at every registry state, for both capable models (Table~\ref{tab:q1}). For Gemma the difference
+was \DiffNetIntactGemma{} points with the registry intact (CI \CINetIntactGemma, Holm $p=$ \PHolmNetIntactGemma) and
+\DiffNetSpuriousTenGemma{} with spurious links (CI \CINetSpuriousTenGemma, Holm $p=$ \PHolmNetSpuriousTenGemma),
+both significant after Holm, and \DiffNetDropFiftyGemma{} with half the links dropped (Holm $p=$
+\PHolmNetDropFiftyGemma). For \texttt{qwen2.5:14b} it was \DiffNetIntactQwenFourteen{} (Holm $p=$
+\PHolmNetIntactQwenFourteen), \DiffNetDropFiftyQwenFourteen{} (CI \CINetDropFiftyQwenFourteen, Holm $p=$
+\PHolmNetDropFiftyQwenFourteen) and \DiffNetSpuriousTenQwenFourteen{} (Holm $p=$ \PHolmNetSpuriousTenQwenFourteen),
+none significant. The reading fixed in advance for both models is that the reviewer did not discriminate better than a
+lookup in the registry it was given, even when the registry was damaged; the reading fixed in advance for Gemma's intact
+result is that adding the reviewer to a correct registry made review worse than the registry alone.
+
+That last reading should be taken narrowly, for three reasons we found after the run (post hoc, \S\ref{sec:scoring}).
+First, the gap is made of findings the lookup cannot raise. The planned false-alarm rule counts any finding on a
+correct answer, but the lookup only ever says ``not in force''. Most of Gemma's findings on matched correct answers gave
+``content or arithmetic'' or ``missing rule'' as the reason, not a validity reason. Counting only validity-reason
+findings as false alarms, the difference is \DiffNetVIntactGemma{} points for Gemma with the registry intact (CI
+\CINetVIntactGemma) and \DiffNetVDropFiftyGemma{} with half the links dropped; for \texttt{qwen2.5:14b} it is
+\DiffNetVIntactQwenFourteen{} and \DiffNetVDropFiftyQwenFourteen{} (CI \CINetVDropFiftyQwenFourteen). On the
+question the lookup answers, whether a cited clause is in force, the reviewer did about as well as the lookup. Its
+other findings may be right: the audit found that many correct answers omit a clause that also decides the case
+(\S\ref{sec:annotation}), which this design cannot score. Second, the \NClauses{} clauses come from
+\InstrNIntactGemma{} amending instruments; with the instrument as the unit, Gemma's intact and spurious differences
+have uncorrected sign-flip $p=$ \InstrPIntactGemma{} and \InstrPSpuriousTenGemma, on fewer units than the planned
+minimum of \MinClauses. Third, both lose significance under S1 (\S\ref{sec:res-sens}). We therefore report Gemma's
+Q1 result as planned, but do not read it as evidence that a reviewer degrades a correct record.
+
+The expectation fixed in advance for Q1, that the gap would narrow or reverse as links were dropped because the reviewer
+can still read both versions, was not met. Table~\ref{tab:main} shows why. With \DamageDropFifty\% of links
+dropped, the reviewer's right-reason catches on S-both faults nearly equal the lookup's for both models. Item by item
+and seed by seed, Gemma caught \RecGainedDropFiftyGemma{} faults the damaged lookup missed and missed
+\RecLostDropFiftyGemma{} it caught; \texttt{qwen2.5:14b} gained \RecGainedDropFiftyQwenFourteen{} and lost
+\RecLostDropFiftyQwenFourteen. The reviewer recovered some dropped links from the text, and lost about as many
+catches elsewhere, so on net it did not repair the record. Its false alarms on matched correct answers stayed well
+above the lookup's.
+
+Two properties of the design bound this result. The lookup's catches are the registry's own links: it misses
+the faults on clauses the registry does not link and flags whatever a wrong link marks, so its discrimination is a
+property of the record, not a benchmark of reasoning (\S\ref{sec:method}). And the result holds for these models,
+these \NClauses{} clauses and fixed answers with a single planted fault.
+
+\subsubsection{Q2: does the reviewer follow a wrong ``in force'' line?}
+\label{sec:res-q2}
+The deference contrast could be computed on \NDroppedClausesQwenFourteen{} clauses: those whose planted link the
+intact registry catches and some drop seed removes. That is below our planned minimum of \MinClauses{}, so by
+rule it entered the family with $p=1$ and supports no confirmatory claim; we report it descriptively and, as
+planned, as no evidence of deference rather than evidence of its absence. On those faults
+\texttt{qwen2.5:14b} caught \OwnCatchDroppedQwenFourteen{} with no registry (\rung{R2}) and
+\CatchDroppedQwenFourteen{} when the damaged status line said the replaced clause was in force (deference
+\DiffDeferQwenFourteen{} points). Gemma caught \OwnCatchDroppedGemma{} and \CatchDroppedGemma{} (deference
+\DiffDeferGemma). The direction for \texttt{qwen2.5:14b} is the one the deference account predicts and matches the
+effect of false assurances that \citet{liu2026trusting} report for code auditors; Gemma's catches on these items
+hardly changed.
+
+\paragraph{The no-record wording (R4n).} On the same faults, stating that no amendment is recorded instead of that
+the clause is in force raised catches from \CatchDroppedRFourQwenFourteen{} to \CatchDroppedRFournQwenFourteen{}
+for \texttt{qwen2.5:14b} and from \CatchDroppedRFourGemma{} to \CatchDroppedRFournGemma{} for Gemma (NoRec
+\DiffNoRecQwenFourteen{} and \DiffNoRecGemma{} points, \NNoRecClausesQwenFourteen{} clauses, below the minimum,
+no confirmatory claim). False alarms on matched correct answers rose a little: with half the links dropped, from
+\FAMQwenFourteenRFourDropFifty{} to \FAMQwenFourteenRFourNDropFifty{} for \texttt{qwen2.5:14b} and from
+\FAMGemmaRFourDropFifty{} to \FAMGemmaRFourNDropFifty{} for Gemma; with the registry intact, from
+\FAMQwenFourteenRFour{} to \FAMQwenFourteenRFourN{} and from \FAMGemmaRFour{} to \FAMGemmaRFourN. As planned, we
+report no evidence that the wording matters, not evidence that it does not; the point estimates are small and
+positive, recover a fraction of what the dropped links cost, and come with a small rise in false alarms. The set is
+small by construction: deference and NoRec need a fault the intact registry catches, and the registry links only
+\NRegistryFlagged{} of the \NClauses{} clauses.
+
+\paragraph{Spurious links (E3$'$).} On correct answers citing a clause that a spurious link marks as replaced
+(\KNSpuriousMarkedQwenFourteen{} items on \NSpuriousClausesQwenFourteen{} clauses), \texttt{qwen2.5:14b} raised a false alarm on
+\FASpuriousMarkedQwenFourteen{} with the status line against \OwnFASpuriousMarkedQwenFourteen{} with no registry;
+Gemma on \FASpuriousMarkedGemma{} against \OwnFASpuriousMarkedGemma{}. A wrong link marking a current clause as
+replaced was followed into a false alarm more often than not. The counts are small and no test was planned. Unlike the code auditors of \citet{liu2026trusting}, whose accuracy was never significantly lowered
+when a tool raised false alarms, these reviewers followed a wrong record in both directions; on three clauses this is a
+hypothesis for confirmatory work, not a finding.
+
+\subsubsection{How much the scoring rule matters}
+\label{app:res-e5}
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{ll ccc ccc}
+\toprule
+& & \multicolumn{3}{c}{\texttt{qwen2.5:14b}} & \multicolumn{3}{c}{\texttt{gemma-4-26b}} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+& Rule & \rung{R0} & \rung{R2} & \rung{R4} & \rung{R0} & \rung{R2} & \rung{R4} \\
+\midrule
+Catch & any finding & \ScAnyCatchQwenFourteenRZero & \ScAnyCatchQwenFourteenRTwo & \ScAnyCatchQwenFourteenRFour & \ScAnyCatchGemmaRZero & \ScAnyCatchGemmaRTwo & \ScAnyCatchGemmaRFour \\
+& clause named & \ScClauseCatchQwenFourteenRZero & \ScClauseCatchQwenFourteenRTwo & \ScClauseCatchQwenFourteenRFour & \ScClauseCatchGemmaRZero & \ScClauseCatchGemmaRTwo & \ScClauseCatchGemmaRFour \\
+& right reason & \CatchQwenFourteenRZero & \CatchQwenFourteenRTwo & \CatchQwenFourteenRFour & \CatchGemmaRZero & \CatchGemmaRTwo & \CatchGemmaRFour \\
+\midrule
+False alarm & any finding & \ScAnyFAQwenFourteenRZero & \ScAnyFAQwenFourteenRTwo & \ScAnyFAQwenFourteenRFour & \ScAnyFAGemmaRZero & \ScAnyFAGemmaRTwo & \ScAnyFAGemmaRFour \\
+& validity reason & \ScReasonFAQwenFourteenRZero & \ScReasonFAQwenFourteenRTwo & \ScReasonFAQwenFourteenRFour & \ScReasonFAGemmaRZero & \ScReasonFAGemmaRTwo & \ScReasonFAGemmaRFour \\
+\bottomrule
+\end{tabular}
+\caption{The same replies under three scoring rules, on faults (catch) and matched correct answers (false alarm).
+Clause-averaged. The right-reason row is the catch reported everywhere else. At \rung{R0} the reviewer sees only
+the old clause, so a right-reason catch is not expected there.}
+\label{tab:scoring}
+\end{table*}
+The scoring rule changed the apparent skill of the same replies by tens of points (Table~\ref{tab:scoring}).
+With both versions in view (\rung{R2}), any-finding scoring credited \texttt{qwen2.5:14b} with
+\ScAnyCatchQwenFourteenRTwo{} catches and Gemma with \ScAnyCatchGemmaRTwo, against \CatchQwenFourteenRTwo{} and
+\CatchGemmaRTwo{} when the finding had to name the replaced clause for the reason that it is no longer in force.
+Naming the clause hardly mattered: almost every finding on a fault named it, and the gap is the reason. Under any
+of the rules the reviewers also flagged a large share of matched correct answers, so a catch rate reported alone
+would overstate them. The reading fixed in advance applies: scoring by flags alone would have credited these reviewers
+with many catches made for the wrong reason.
+
+The right-reason rule is itself hard to apply. In the human check of the scorer on \ScorerCheckN{} dev replies the
+annotator and the code agreed on \ScorerCheckAgreeN{} (\ScorerCheckPctObserved), below the pre-specified
+\ScorerCheckPct\% gate; \NScorerClauseReason{} of the \NScorerDisagree{} disagreements lie on the boundary between
+a wrong clause and a wrong reason. Amendment 2 kept the scorer and reports the failed gate
+(\S\ref{sec:annotation}); the any-finding and clause-named rows of Table~\ref{tab:scoring} show every result under
+the looser rules, and the post hoc Q1 analysis in \S\ref{sec:res-q1} applies the validity-reason rule to false alarms.
+
+\subsubsection{The reference ladder (E1) and the other models}
+\label{sec:res-e1}
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\linewidth]{generated/fig_ladder.png}
+\caption{Right-reason catch by rung, one line per model, clause-averaged, with \CILevel\% bootstrap intervals
+over clauses. \rung{R5} is the registry lookup and is the same for every model.}
+\label{fig:ladder}
+\end{figure}
+
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{l ccc ccc ccc ccc}
+\toprule
+& \multicolumn{3}{c}{\texttt{llama3.1:8b}} & \multicolumn{3}{c}{\texttt{qwen2.5:7b}}
+& \multicolumn{3}{c}{\texttt{qwen2.5:14b}} & \multicolumn{3}{c}{\texttt{gemma-4-26b}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}
+Rung & Catch & FA-m & FA-C & Catch & FA-m & FA-C & Catch & FA-m & FA-C & Catch & FA-m & FA-C \\
+\midrule
+\rung{R0} & \CatchLlamaRZero & \FAMLlamaRZero & \FACLlamaRZero & \CatchQwenSevenRZero & \FAMQwenSevenRZero & \FACQwenSevenRZero & \CatchQwenFourteenRZero & \FAMQwenFourteenRZero & \FACQwenFourteenRZero & \CatchGemmaRZero & \FAMGemmaRZero & \FACGemmaRZero \\
+\rung{R1} & \CatchLlamaROne & \FAMLlamaROne & \FACLlamaROne & \CatchQwenSevenROne & \FAMQwenSevenROne & \FACQwenSevenROne & \CatchQwenFourteenROne & \FAMQwenFourteenROne & \FACQwenFourteenROne & \CatchGemmaROne & \FAMGemmaROne & \FACGemmaROne \\
+\rung{R2} & \CatchLlamaRTwo & \FAMLlamaRTwo & \FACLlamaRTwo & \CatchQwenSevenRTwo & \FAMQwenSevenRTwo & \FACQwenSevenRTwo & \CatchQwenFourteenRTwo & \FAMQwenFourteenRTwo & \FACQwenFourteenRTwo & \CatchGemmaRTwo & \FAMGemmaRTwo & \FACGemmaRTwo \\
+\rung{R3} & \CatchLlamaRThree & \FAMLlamaRThree & \FACLlamaRThree & \CatchQwenSevenRThree & \FAMQwenSevenRThree & \FACQwenSevenRThree & \CatchQwenFourteenRThree & \FAMQwenFourteenRThree & \FACQwenFourteenRThree & \CatchGemmaRThree & \FAMGemmaRThree & \FACGemmaRThree \\
+\rung{R4} & \CatchLlamaRFour & \FAMLlamaRFour & \FACLlamaRFour & \CatchQwenSevenRFour & \FAMQwenSevenRFour & \FACQwenSevenRFour & \CatchQwenFourteenRFour & \FAMQwenFourteenRFour & \FACQwenFourteenRFour & \CatchGemmaRFour & \FAMGemmaRFour & \FACGemmaRFour \\
+\Rfourp & \CatchLlamaRFourP & \FAMLlamaRFourP & \FACLlamaRFourP & \CatchQwenSevenRFourP & \FAMQwenSevenRFourP & \FACQwenSevenRFourP & \CatchQwenFourteenRFourP & \FAMQwenFourteenRFourP & \FACQwenFourteenRFourP & \CatchGemmaRFourP & \FAMGemmaRFourP & \FACGemmaRFourP \\
+\rung{R5} & \CatchLlamaRFive & \FAMLlamaRFive & \FACLlamaRFive & \CatchQwenSevenRFive & \FAMQwenSevenRFive & \FACQwenSevenRFive & \CatchQwenFourteenRFive & \FAMQwenFourteenRFive & \FACQwenFourteenRFive & \CatchGemmaRFive & \FAMGemmaRFive & \FACGemmaRFive \\
+\bottomrule
+\end{tabular}
+\caption{Right-reason catch and false alarms by rung (clause-averaged; C false alarms averaged by rule group).
+FA-m: matched correct answers of the same blocks (S-swap pairs for \rung{R0}, \rung{R1} and \Rfourp, S-both
+otherwise; \rung{R5} pools both). FA-C: clean correct answers. Table~\ref{tab:main} gives S-both counts only, so its
+false alarms can differ from FA-m here.}
+\label{tab:ladder}
+\end{table*}
+
+The ladder is the reference that places Q1 and Q2. For both capable models the status line lifted right-reason
+catches over seeing both versions: \rung{R4}$-$\rung{R2} was \DiffRFourMinusRTwoQwenFourteen{} points for
+\texttt{qwen2.5:14b} (CI \CIRFourMinusRTwoQwenFourteen) and \DiffRFourMinusRTwoGemma{} for Gemma (CI
+\CIRFourMinusRTwoGemma), while \rung{R2}$-$\rung{R0} was \DiffRTwoMinusRZeroQwenFourteen{} and
+\DiffRTwoMinusRZeroGemma{}, not significant by the planned sign-flip test (Gemma's bootstrap interval,
+\CIRTwoMinusRZeroGemma, excludes zero; \rung{R0} runs on S-swap items, where a right-reason catch is near zero by
+design). In the words fixed in advance, seeing both versions is not enough, and
+\rung{R4} lifts these capable models. The amending instrument's quote (\rung{R3}) added little over \rung{R2}
+(\DiffRThreeMinusRTwoQwenFourteen{} and \DiffRThreeMinusRTwoGemma{} points). Without a record the reviewers did
+not discriminate at all: \rung{R2} discrimination was \DiscRTwoQwenFourteen{} points for \texttt{qwen2.5:14b} and
+\DiscRTwoGemma{} for Gemma, because they flagged matched correct answers as often as, or more often than, they caught faults for
+the right reason.
+
+The weak model barely moved: \texttt{llama3.1:8b} caught \CatchLlamaRTwo{} at \rung{R2} and \CatchLlamaRFour{} at
+\rung{R4}. In the words fixed in advance, below a capability threshold the information does not help; this is reported
+as a limit of the claim. \texttt{gemini-3.5-flash-lite}, run at \rung{R0}, \rung{R2} and \rung{R4} only, caught
+\CatchFlashRTwo{} at \rung{R2} and \CatchFlashRFour{} at \rung{R4}, with false alarms on matched correct answers
+of \FAMFlashRFour{} at \rung{R4}; seeing both versions did not close the gap for it either, so stop rule 5 did not
+trigger. Given the ``can't confirm'' option (E2), neither capable model used it on a fault at \rung{R2}
+(\CantConfirmKNQwenFourteenRTwoCC{} and \CantConfirmKNGemmaRTwoCC): the option was available and unused. Of the
+\rung{R2} findings that flagged the replaced clause, \MisnamedKNQwenFourteenRTwo{} (\texttt{qwen2.5:14b}) and
+\MisnamedKNGemmaRTwo{} (Gemma) never gave ``not in force'' as the reason (E4).
+
+\subsubsection{The added models}
+\label{sec:res-explore}
+\IfFileExists{generated/tab_exploratory.tex}{\input{generated/tab_exploratory.tex}}{}
+The two models added after the analysis plan was fixed are outside every planned test; Table~\ref{tab:robust} and
+Table~\ref{tab:exploratory} report them on the main arms. Claude Opus~4.5 is the clearest case that capability changes
+the picture: it is the only reviewer whose catches survive the absence of a record, and the only one that repaired a
+damaged record (\S\ref{sec:res-robust}). A Claude model also helped build this benchmark (\S\ref{sec:ai-use}); its
+items were not tuned on any model's replies, but readers should weigh that relation. It ran one damage seed, through a
+proxy that sets temperature and seed itself, so its numbers carry more uncertainty than the planned models'. Scale did not buy a better reviewer. \texttt{qwen2.5:32b}, run with
+the pre-specified prompts on the same items, flagged matched correct answers more often than
+\texttt{qwen2.5:14b} at every arm, and about twice as often once given the record, so its discrimination was lower, and its gap to the lookup wider, with the record
+intact and with half the links dropped. Without a record it named the replaced clause on most faults but rarely for
+the reason that it is no longer in force. On the dropped-link faults its catches fell to none under the damaged
+status line, and the no-record wording did not restore them. One model, one family and the same \NClauses{} clauses
+cannot separate size from other differences between checkpoints; we report it because a reader will ask whether a
+larger model removes the pattern, and here it did not.
+
+\subsubsection{Sensitivity to the annotation audit}
+\label{sec:res-sens}
+Removing the cases whose checked correct answer annotators judged flawed (S1; only a sample was checked) left the sign
+of every primary contrast unchanged (Table~\ref{tab:provenance}). Gemma's two significant Q1 differences became
+\SOneDiffNetIntactGemma{} and \SOneDiffNetSpuriousTenGemma{} points with Holm $p=$ \SOnePHolmNetIntactGemma{} and
+\SOnePHolmNetSpuriousTenGemma, no longer below \Alpha{} on the smaller set. Under the reading fixed in advance, the Q1
+result does not depend on the correct answers known to be flawed in direction; its significance for Gemma does
+depend on keeping them. Under the original strict rule (S2) only \NStrictKept{} cases remain, on fewer than \MinClauses{} clauses; that
+is descriptive only, and there \texttt{qwen2.5:14b}'s Q1 difference turns positive (\STwoDiffNetIntactQwenFourteen{}
+points intact), Gemma's stays negative (\STwoDiffNetIntactGemma).
+

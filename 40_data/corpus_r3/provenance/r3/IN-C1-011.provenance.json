@@ -1,0 +1,31 @@
+{
+  "source_url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf",
+  "landing_page_url": "https://mnre.gov.in/en/notice/operational-guidelines-for-implementation-of-the-component-central-financial-assistance-to-residential-consumers-of-pm-surya-ghar-muft-bijli-yojana/",
+  "fetched_at": "2026-10-01T16:51:03Z",
+  "sha256": "2de9b3faf765c18b9ea902271c3f431a6550e7b07bd007597e435a7c87ef368d",
+  "http_status": 200,
+  "issuer": "Ministry of New and Renewable Energy (MNRE)",
+  "printed_title": "Guidelines for PM-Surya Ghar: Muft Bijli Yojana - Central Financial Assistance to Residential Consumers (original, 2024)",
+  "number": "318/17/2024-GCRT",
+  "printed_date": "2024-06-07",
+  "file_type": "PDF document, version 1.5, 57 pages",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Para on Phase II claims (original 07.06.2024)",
+      "verbatim_quote": "will be admissible for CFA if the claim is received till October 2024. The claims received after October 2024 will not be entertained.",
+      "page": 19,
+      "topic": "Phase II rooftop claims accepted only till October 2024",
+      "numeric_values": {
+        "claim_deadline_original": "2024-10"
+      },
+      "amends_or_supersedes": {
+        "doc": "CORPUS:IN-C1-001",
+        "clause_ref": "Phase II claims para (amended OM 318/140/2024)",
+        "evidence_quote": "31.12.2025",
+        "evidence_page": 1
+      },
+      "status": "UNVERIFIED — needs human check",
+      "note": "Corpus IN-C1-001 is the amended text (OM 318/140/2024); this staged document is the earlier original, so the edge runs from corpus -> staged (corpus doc supersedes this one). evidence_quote is a short fragment; human to confirm full sentence in IN-C1-001 text."
+    }
+  ]
+}

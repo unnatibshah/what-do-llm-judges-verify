@@ -1,0 +1,1087 @@
+case_id,bill,proposal,portal_state,decision,blocking_stage,deciding_clauses,minutes_spent,notes
+SB-41d678b1,"ELECTRICITY DISTRIBUTION UTILITY: PVVNL
+Consumer No / K-No: F3D3D0393871
+Billing Name: Sunita Mishra
+Tariff Category: LMV-2 Non-Domestic
+Sanctioned Load / Contract Demand: 20.0 kW
+Connected Load: 20.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2023-09-16)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sunita Mishra (Consumer ID: F3D3D0393871)
+Proposed DC Capacity: 15.00 kWp
+Inverter Rating: 15.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)
+Application Reference: RTS-UP-F3D3D0
+Application Submission Date: 2023-09-16
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 160 kVA
+Existing Solar on Transformer: 110.0 kW
+Resultant Cumulative Solar Capacity: 125.0 kW",,,,,
+SB-65c5c39f,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: 81E7DDBD9BE7
+Billing Name: Rohit Sehgal
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 50.0 kW
+Connected Load: 50.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-05-08)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Rohit Sehgal (Consumer ID: 81E7DDBD9BE7)
+Proposed DC Capacity: 150.00 kWp
+Inverter Rating: 150.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-81E7DD
+Application Submission Date: 2026-05-08
+Current Workflow Stage: VNM Arrangement Modification
+Request: add a participating service connection to the existing VNM arrangement (MoU on file)
+Share/Participant Changes Already Made This Financial Year: 2
+Advance Notice Given: 3 months",,,,,
+SB-9d0c1db7,"ELECTRICITY DISTRIBUTION UTILITY: MVVNL
+Consumer No / K-No: F6BD86C24564
+Billing Name: Alok Tripathi
+Tariff Category: HV-2 Large and Heavy Power
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-09-05)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Alok Tripathi (Consumer ID: F6BD86C24564)
+Proposed DC Capacity: 80.00 kWp
+Inverter Rating: 80.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MVVNL)
+Application Reference: RTS-UP-F6BD86
+Application Submission Date: 2024-09-05
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 25
+Days Elapsed Since Registration/Acknowledgement: 25
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not communicated by the licensee",,,,,
+SB-78994120,"ELECTRICITY DISTRIBUTION UTILITY: TANGEDCO
+Consumer No / K-No: 9F875DF58F9D
+Billing Name: Karthik Raja
+Tariff Category: LB-V Commercial
+Sanctioned Load / Contract Demand: 150.0 kW
+Connected Load: 150.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2022-09-24)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Karthik Raja (Consumer ID: 9F875DF58F9D)
+Proposed DC Capacity: 120.00 kWp
+Inverter Rating: 120.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Feed-in","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TANGEDCO)
+Application Reference: RTS-TN-9F875D
+Application Submission Date: 2022-09-24
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-6f0e9c5f,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 580F1C5B4E14
+Billing Name: Hiral Patel
+Tariff Category: HTP-I Industrial
+Sanctioned Load / Contract Demand: 300.0 kW
+Connected Load: 300.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-09-12)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Hiral Patel (Consumer ID: 580F1C5B4E14)
+Proposed DC Capacity: 120.00 kWp
+Inverter Rating: 120.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Use of Generation: Captive consumption under net metering (non-residential)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-580F1C
+Application Submission Date: 2025-09-12
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-09416de5,"ELECTRICITY DISTRIBUTION UTILITY: BESCOM
+Consumer No / K-No: 28D1AAFC7F15
+Billing Name: Asha Kulkarni
+Tariff Category: LT-3 Commercial
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-02-16)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Asha Kulkarni (Consumer ID: 28D1AAFC7F15)
+Proposed DC Capacity: 80.00 kWp
+Inverter Rating: 80.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BESCOM)
+Application Reference: RTS-KA-28D1AA
+Application Submission Date: 2026-02-16
+Current Workflow Stage: Meter Installation",,,,,
+SB-4976c4bf,"ELECTRICITY DISTRIBUTION UTILITY: PVVNL
+Consumer No / K-No: 91263C3967D2
+Billing Name: Ramesh Yadav
+Tariff Category: LMV-2 Non-Domestic
+Sanctioned Load / Contract Demand: 150.0 kW
+Connected Load: 150.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-02-11)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ramesh Yadav (Consumer ID: 91263C3967D2)
+Proposed DC Capacity: 100.00 kWp
+Inverter Rating: 100.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)
+Application Reference: RTS-UP-91263C
+Application Submission Date: 2024-02-11
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 500 kVA
+Existing Solar on Transformer: 200.0 kW
+Resultant Cumulative Solar Capacity: 300.0 kW",,,,,
+SB-4337c49d,"ELECTRICITY DISTRIBUTION UTILITY: HESCOM
+Consumer No / K-No: 42C7E3D06211
+Billing Name: Basavaraj Patil
+Tariff Category: LT-3 Commercial
+Sanctioned Load / Contract Demand: 40.0 kW
+Connected Load: 40.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-03-25)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Basavaraj Patil (Consumer ID: 42C7E3D06211)
+Proposed DC Capacity: 30.00 kWp
+Inverter Rating: 30.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)
+Application Reference: RTS-KA-42C7E3
+Application Submission Date: 2026-03-25
+Current Workflow Stage: Meter Installation",,,,,
+SB-1873dafe,"ELECTRICITY DISTRIBUTION UTILITY: MVVNL
+Consumer No / K-No: 9C5003262D1E
+Billing Name: Sunita Mishra
+Tariff Category: LMV-1 Domestic Light, Fan & Power
+Sanctioned Load / Contract Demand: 4.0 kW
+Connected Load: 4.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2023-04-19)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sunita Mishra (Consumer ID: 9C5003262D1E)
+Proposed DC Capacity: 5.00 kWp
+Inverter Rating: 5.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MVVNL)
+Application Reference: RTS-UP-9C5003
+Application Submission Date: 2023-04-19
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-fa9742da,"ELECTRICITY DISTRIBUTION UTILITY: BESCOM
+Consumer No / K-No: FD0E568603F3
+Billing Name: Lakshmi Hegde
+Tariff Category: LT-3 Commercial
+Sanctioned Load / Contract Demand: 80.0 kW
+Connected Load: 80.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-04-30)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Lakshmi Hegde (Consumer ID: FD0E568603F3)
+Proposed DC Capacity: 60.00 kWp
+Inverter Rating: 60.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BESCOM)
+Application Reference: RTS-KA-FD0E56
+Application Submission Date: 2026-04-30
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 4
+Days Elapsed Since Registration/Acknowledgement: 4
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not communicated by the licensee",,,,,
+SB-bea538fe,"ELECTRICITY DISTRIBUTION UTILITY: PVVNL
+Consumer No / K-No: F304C7CAD1CA
+Billing Name: Ramesh Yadav
+Tariff Category: LMV-1 Domestic Light, Fan & Power
+Sanctioned Load / Contract Demand: 2.0 kW
+Connected Load: 2.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2023-08-08)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ramesh Yadav (Consumer ID: F304C7CAD1CA)
+Proposed DC Capacity: 1.00 kWp
+Inverter Rating: 1.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)
+Application Reference: RTS-UP-F304C7
+Application Submission Date: 2023-08-08
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-940e925b,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: A7FF0D9737D9
+Billing Name: Ritu Khanna
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 30.0 kW
+Connected Load: 30.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-06-23)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ritu Khanna (Consumer ID: A7FF0D9737D9)
+Proposed DC Capacity: 120.00 kWp
+Inverter Rating: 120.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)
+Participating consumers: commercial shops in one market association","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-A7FF0D
+Application Submission Date: 2026-06-23
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-3951f18b,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 7D226F934C15
+Billing Name: Rakesh Chaudhari
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 20.0 kW
+Connected Load: 20.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-05-15)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Rakesh Chaudhari (Consumer ID: 7D226F934C15)
+Proposed DC Capacity: 15.00 kWp
+Inverter Rating: 15.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Generation Meter: accuracy class 0.5S
+Net Meter: accuracy class 0.5S","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-7D226F
+Application Submission Date: 2025-05-15
+Current Workflow Stage: Meter Installation",,,,,
+SB-4249ea2e,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: D1D7B18B0D06
+Billing Name: Ritu Khanna
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-06-28)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ritu Khanna (Consumer ID: D1D7B18B0D06)
+Proposed DC Capacity: 600.00 kWp
+Inverter Rating: 600.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-D1D7B1
+Application Submission Date: 2024-06-28
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-b926248c,"ELECTRICITY DISTRIBUTION UTILITY: HESCOM
+Consumer No / K-No: 957AE770AE0B
+Billing Name: Asha Kulkarni
+Tariff Category: LT-2(a) Domestic
+Sanctioned Load / Contract Demand: 4.0 kW
+Connected Load: 4.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-02-14)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Asha Kulkarni (Consumer ID: 957AE770AE0B)
+Proposed DC Capacity: 3.00 kWp
+Inverter Rating: 3.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Programme: Rooftop Solar Programme Phase-II (application submitted 2023-09-04)
+CFA Claim Received On: 2026-01-15
+Installation Status as on 01.04.2025: Installed and inspected","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)
+Application Reference: RTS-KA-957AE7
+Application Submission Date: 2026-02-14
+Current Workflow Stage: Subsidy Claim Review
+Scheme: CFA for residential rooftop solar",,,,,
+SB-d500cb79,"ELECTRICITY DISTRIBUTION UTILITY: PVVNL
+Consumer No / K-No: 95CEBDBBE170
+Billing Name: Sunita Mishra
+Tariff Category: LMV-2 Non-Domestic
+Sanctioned Load / Contract Demand: 40.0 kW
+Connected Load: 40.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-03-09)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sunita Mishra (Consumer ID: 95CEBDBBE170)
+Proposed DC Capacity: 35.00 kWp
+Inverter Rating: 35.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)
+Application Reference: RTS-UP-95CEBD
+Application Submission Date: 2025-03-09
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 21
+Days Elapsed Since Registration/Acknowledgement: 21
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not communicated by the licensee",,,,,
+SB-5c2f1b69,"ELECTRICITY DISTRIBUTION UTILITY: HESCOM
+Consumer No / K-No: 9180EB9C4087
+Billing Name: Manjunath Gowda
+Tariff Category: LT-2(a) Domestic
+Sanctioned Load / Contract Demand: 4.0 kW
+Connected Load: 4.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-01-09)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Manjunath Gowda (Consumer ID: 9180EB9C4087)
+Proposed DC Capacity: 6.00 kWp
+Inverter Rating: 6.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)
+Application Reference: RTS-KA-9180EB
+Application Submission Date: 2026-01-09
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 2
+Days Elapsed Since Registration/Acknowledgement: 2
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not communicated by the licensee",,,,,
+SB-c9fe09fd,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: 50A2A8B2BF2B
+Billing Name: Ritu Khanna
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 120.0 kW
+Connected Load: 120.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-03-14)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ritu Khanna (Consumer ID: 50A2A8B2BF2B)
+Proposed DC Capacity: 90.00 kWp
+Inverter Rating: 90.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-50A2A8
+Application Submission Date: 2025-03-14
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-4e00a3c4,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: 601E3C77B10A
+Billing Name: Amit Kapoor
+Tariff Category: Industrial (HT)
+Sanctioned Load / Contract Demand: 3000.0 kW
+Connected Load: 3000.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-08-04)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Amit Kapoor (Consumer ID: 601E3C77B10A)
+Proposed DC Capacity: 12000.00 kWp
+Inverter Rating: 12000.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-601E3C
+Application Submission Date: 2024-08-04
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-ae138ae0,"ELECTRICITY DISTRIBUTION UTILITY: MVVNL
+Consumer No / K-No: 97207EA5A8EC
+Billing Name: Vinod Srivastava
+Tariff Category: LMV-2 Non-Domestic
+Sanctioned Load / Contract Demand: 60.0 kW
+Connected Load: 60.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-11-18)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Vinod Srivastava (Consumer ID: 97207EA5A8EC)
+Proposed DC Capacity: 50.00 kWp
+Inverter Rating: 50.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MVVNL)
+Application Reference: RTS-UP-97207E
+Application Submission Date: 2024-11-18
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 10
+Days Elapsed Since Registration/Acknowledgement: 10
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not communicated by the licensee",,,,,
+SB-c6303ba7,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 4406D707E469
+Billing Name: Hiral Patel
+Tariff Category: LTMD Non-RGP Commercial
+Sanctioned Load / Contract Demand: 25.0 kW
+Connected Load: 25.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-07-07)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Hiral Patel (Consumer ID: 4406D707E469)
+Proposed DC Capacity: 20.00 kWp
+Inverter Rating: 20.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-4406D7
+Application Submission Date: 2025-07-07
+Current Workflow Stage: Meter Installation",,,,,
+SB-8a026028,"ELECTRICITY DISTRIBUTION UTILITY: HESCOM
+Consumer No / K-No: 3A8749F924F6
+Billing Name: Basavaraj Patil
+Tariff Category: LT-3 Commercial
+Sanctioned Load / Contract Demand: 60.0 kW
+Connected Load: 60.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-05-04)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Basavaraj Patil (Consumer ID: 3A8749F924F6)
+Proposed DC Capacity: 45.00 kWp
+Inverter Rating: 45.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)
+Application Reference: RTS-KA-3A8749
+Application Submission Date: 2026-05-04
+Current Workflow Stage: Meter Installation
+Distribution Transformer Rating: 100 kVA
+Existing Solar on Transformer: 50.0 kW
+Resultant Cumulative Solar Capacity: 95.0 kW",,,,,
+SB-d79bec1f,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: D9436F85C848
+Billing Name: Nayana Joshi
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 4.0 kW
+Connected Load: 4.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-03-02)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Nayana Joshi (Consumer ID: D9436F85C848)
+Proposed DC Capacity: 6.00 kWp
+Inverter Rating: 6.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Generation Meter: accuracy class 1.0
+Net Meter: accuracy class 1.0","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-D9436F
+Application Submission Date: 2025-03-02
+Current Workflow Stage: Meter Installation",,,,,
+SB-e851ca36,"ELECTRICITY DISTRIBUTION UTILITY: BESCOM
+Consumer No / K-No: 1CF9FAB373D2
+Billing Name: Lakshmi Hegde
+Tariff Category: LT-3 Commercial
+Sanctioned Load / Contract Demand: 40.0 kW
+Connected Load: 40.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-01-13)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Lakshmi Hegde (Consumer ID: 1CF9FAB373D2)
+Proposed DC Capacity: 35.00 kWp
+Inverter Rating: 35.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BESCOM)
+Application Reference: RTS-KA-1CF9FA
+Application Submission Date: 2026-01-13
+Current Workflow Stage: Meter Installation",,,,,
+SB-2741cfc2,"ELECTRICITY DISTRIBUTION UTILITY: MVVNL
+Consumer No / K-No: 324246360D44
+Billing Name: Kiran Verma
+Tariff Category: LMV-2 Non-Domestic
+Sanctioned Load / Contract Demand: 40.0 kW
+Connected Load: 40.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2023-05-28)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Kiran Verma (Consumer ID: 324246360D44)
+Proposed DC Capacity: 30.00 kWp
+Inverter Rating: 30.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MVVNL)
+Application Reference: RTS-UP-324246
+Application Submission Date: 2023-05-28
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 250 kVA
+Existing Solar on Transformer: 100.0 kW
+Resultant Cumulative Solar Capacity: 130.0 kW",,,,,
+SB-b457a31c,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: A1D3B53BC099
+Billing Name: Bhavesh Parmar
+Tariff Category: HTP-I Industrial
+Sanctioned Load / Contract Demand: 600.0 kW
+Connected Load: 600.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-12-27)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Bhavesh Parmar (Consumer ID: A1D3B53BC099)
+Proposed DC Capacity: 1200.00 kWp
+Inverter Rating: 1200.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Use of Generation: Captive consumption under net metering (non-residential)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-A1D3B5
+Application Submission Date: 2024-12-27
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-dee78131,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 41C5D1DE9679
+Billing Name: Rakesh Chaudhari
+Tariff Category: HTP-I Industrial
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-11-20)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Rakesh Chaudhari (Consumer ID: 41C5D1DE9679)
+Proposed DC Capacity: 80.00 kWp
+Inverter Rating: 80.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Use of Generation: Captive consumption under net metering (non-residential)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-41C5D1
+Application Submission Date: 2024-11-20
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-632b2212,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 53DEC0E19C4E
+Billing Name: Jignesh Desai
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 30.0 kW
+Connected Load: 30.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-12-23)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Jignesh Desai (Consumer ID: 53DEC0E19C4E)
+Proposed DC Capacity: 25.00 kWp
+Inverter Rating: 25.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided
+Solar Generation Meter: accuracy class 1.0
+Net Meter: accuracy class 0.5S","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-53DEC0
+Application Submission Date: 2025-12-23
+Current Workflow Stage: Meter Installation",,,,,
+SB-e6ca17a9,"ELECTRICITY DISTRIBUTION UTILITY: PVVNL
+Consumer No / K-No: F5BB80B86089
+Billing Name: Ramesh Yadav
+Tariff Category: HV-2 Large and Heavy Power
+Sanctioned Load / Contract Demand: 3000.0 kW
+Connected Load: 3000.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2023-05-26)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ramesh Yadav (Consumer ID: F5BB80B86089)
+Proposed DC Capacity: 2500.00 kWp
+Inverter Rating: 2500.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)
+Application Reference: RTS-UP-F5BB80
+Application Submission Date: 2023-05-26
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-12e1399b,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: FCB1E0D170D7
+Billing Name: Ritu Khanna
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 50.0 kW
+Connected Load: 50.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-02-02)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ritu Khanna (Consumer ID: FCB1E0D170D7)
+Proposed DC Capacity: 150.00 kWp
+Inverter Rating: 150.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-FCB1E0
+Application Submission Date: 2026-02-02
+Current Workflow Stage: VNM Arrangement Modification
+Request: add a participating service connection to the existing VNM arrangement (MoU on file)
+Share/Participant Changes Already Made This Financial Year: 0
+Advance Notice Given: 2 months",,,,,
+SB-7fcce033,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 5EC887E142E2
+Billing Name: Bhavesh Parmar
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 15.0 kW
+Connected Load: 15.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-12-02)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Bhavesh Parmar (Consumer ID: 5EC887E142E2)
+Proposed DC Capacity: 12.00 kWp
+Inverter Rating: 12.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided
+Solar Generation Meter: accuracy class 2.0
+Net Meter: accuracy class 0.5S","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-5EC887
+Application Submission Date: 2025-12-02
+Current Workflow Stage: Meter Installation",,,,,
+SB-47f4827f,"ELECTRICITY DISTRIBUTION UTILITY: PVVNL
+Consumer No / K-No: 0A8272C9D98B
+Billing Name: Sunita Mishra
+Tariff Category: HV-2 Large and Heavy Power
+Sanctioned Load / Contract Demand: 1500.0 kW
+Connected Load: 1500.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2023-10-21)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sunita Mishra (Consumer ID: 0A8272C9D98B)
+Proposed DC Capacity: 1200.00 kWp
+Inverter Rating: 1200.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)
+Application Reference: RTS-UP-0A8272
+Application Submission Date: 2023-10-21
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-3fae633b,"ELECTRICITY DISTRIBUTION UTILITY: TANGEDCO
+Consumer No / K-No: 43B6F77FD4CD
+Billing Name: Lakshmi Narayanan
+Tariff Category: LA-1A Domestic
+Sanctioned Load / Contract Demand: 4.0 kW
+Connected Load: 4.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2022-08-18)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Lakshmi Narayanan (Consumer ID: 43B6F77FD4CD)
+Proposed DC Capacity: 6.00 kWp
+Inverter Rating: 6.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Billing","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TANGEDCO)
+Application Reference: RTS-TN-43B6F7
+Application Submission Date: 2022-08-18
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-e8347f30,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: 4F2AE25D3250
+Billing Name: Kokila Shah
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 10.0 kW
+Connected Load: 10.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-06-14)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Kokila Shah (Consumer ID: 4F2AE25D3250)
+Proposed DC Capacity: 6.00 kWp
+Inverter Rating: 6.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-4F2AE2
+Application Submission Date: 2025-06-14
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 100 kVA
+Existing Solar on Transformer: 97.0 kW
+Resultant Cumulative Solar Capacity: 103.0 kW",,,,,
+SB-3e914362,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: D226C2E953C3
+Billing Name: Amit Kapoor
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-04-28)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Amit Kapoor (Consumer ID: D226C2E953C3)
+Proposed DC Capacity: 400.00 kWp
+Inverter Rating: 400.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-D226C2
+Application Submission Date: 2026-04-28
+Current Workflow Stage: Registration
+Connection Voltage of RE System: 11 kV
+Cumulative VNM/GNM Capacity in TPDDL incl. this project: 105 MW
+Service Line cum Development (SLD) Charges: Not paid",,,,,
+SB-0a1272aa,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: DEAE5CB318C4
+Billing Name: Hiral Patel
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 6.0 kW
+Connected Load: 6.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-01-17)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Hiral Patel (Consumer ID: DEAE5CB318C4)
+Proposed DC Capacity: 10.00 kWp
+Inverter Rating: 10.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-DEAE5C
+Application Submission Date: 2025-01-17
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 100 kVA
+Existing Solar on Transformer: 60.0 kW
+Resultant Cumulative Solar Capacity: 70.0 kW",,,,,
+SB-3831cee8,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: 8E40DE524587
+Billing Name: Amit Kapoor
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 20.0 kW
+Connected Load: 20.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-02-12)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Amit Kapoor (Consumer ID: 8E40DE524587)
+Proposed DC Capacity: 150.00 kWp
+Inverter Rating: 150.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)
+Participating consumers: commercial shops in one market association","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-8E40DE
+Application Submission Date: 2026-02-12
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-61a6573c,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: E322B3780EE4
+Billing Name: Nayana Joshi
+Tariff Category: LTMD Non-RGP Commercial
+Sanctioned Load / Contract Demand: 50.0 kW
+Connected Load: 50.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-05-24)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Nayana Joshi (Consumer ID: E322B3780EE4)
+Proposed DC Capacity: 60.00 kWp
+Inverter Rating: 60.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Use of Generation: Captive consumption under net metering (non-residential)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-E322B3
+Application Submission Date: 2025-05-24
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-3c0568a1,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 96D09809C59A
+Billing Name: Rakesh Chaudhari
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 12.0 kW
+Connected Load: 12.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-04-24)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Rakesh Chaudhari (Consumer ID: 96D09809C59A)
+Proposed DC Capacity: 18.00 kWp
+Inverter Rating: 18.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-96D098
+Application Submission Date: 2025-04-24
+Current Workflow Stage: Meter Installation",,,,,
+SB-4683a697,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: D0B77C2F837A
+Billing Name: Pooja Bansal
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-09-06)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Pooja Bansal (Consumer ID: D0B77C2F837A)
+Proposed DC Capacity: 400.00 kWp
+Inverter Rating: 400.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-D0B77C
+Application Submission Date: 2026-09-06
+Current Workflow Stage: Registration
+Connection Voltage of RE System: 33 kV
+Cumulative VNM/GNM Capacity in BRPL incl. this project: 50 MW
+Service Line cum Development (SLD) Charges: Not paid",,,,,
+SB-a86540a6,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: E2854D2624BF
+Billing Name: Kokila Shah
+Tariff Category: LTMD Non-RGP Commercial
+Sanctioned Load / Contract Demand: 40.0 kW
+Connected Load: 40.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-01-03)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Kokila Shah (Consumer ID: E2854D2624BF)
+Proposed DC Capacity: 30.00 kWp
+Inverter Rating: 30.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Check Meter: Not provided","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-E2854D
+Application Submission Date: 2025-01-03
+Current Workflow Stage: Meter Installation",,,,,
+SB-509700a5,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: E25B313C5BD0
+Billing Name: Rohit Sehgal
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 50.0 kW
+Connected Load: 50.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-04-01)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Rohit Sehgal (Consumer ID: E25B313C5BD0)
+Proposed DC Capacity: 150.00 kWp
+Inverter Rating: 150.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-E25B31
+Application Submission Date: 2026-04-01
+Current Workflow Stage: VNM Arrangement Modification
+Request: add a participating service connection to the existing VNM arrangement (MoU on file)
+Share/Participant Changes Already Made This Financial Year: 1
+Advance Notice Given: 1 months",,,,,
+SB-db11efe7,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: B750A0C8BD22
+Billing Name: Sanjay Arora
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-05-22)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sanjay Arora (Consumer ID: B750A0C8BD22)
+Proposed DC Capacity: 600.00 kWp
+Inverter Rating: 600.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (rooftop solar)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-B750A0
+Application Submission Date: 2024-05-22
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-9f927b9d,"ELECTRICITY DISTRIBUTION UTILITY: TANGEDCO
+Consumer No / K-No: 885E1012B782
+Billing Name: Murugan Selvam
+Tariff Category: LA-1A Domestic
+Sanctioned Load / Contract Demand: 8.0 kW
+Connected Load: 12.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2022-12-07)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Murugan Selvam (Consumer ID: 885E1012B782)
+Proposed DC Capacity: 10.00 kWp
+Inverter Rating: 10.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Billing","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TANGEDCO)
+Application Reference: RTS-TN-885E10
+Application Submission Date: 2022-12-07
+Current Workflow Stage: Technical Feasibility",,,,,
+SB-f9773ee1,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: DE8A6F9863B8
+Billing Name: Sanjay Arora
+Tariff Category: DX Domestic
+Sanctioned Load / Contract Demand: 30.0 kW
+Connected Load: 30.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-03-21)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sanjay Arora (Consumer ID: DE8A6F9863B8)
+Proposed DC Capacity: 200.00 kWp
+Inverter Rating: 200.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)
+Participating consumers: domestic connections in one housing society","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-DE8A6F
+Application Submission Date: 2026-03-21
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-e4475169,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: 67EB6F3F40E7
+Billing Name: Neha Malhotra
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 50.0 kW
+Connected Load: 50.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-08-06)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Neha Malhotra (Consumer ID: 67EB6F3F40E7)
+Proposed DC Capacity: 150.00 kWp
+Inverter Rating: 150.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-67EB6F
+Application Submission Date: 2026-08-06
+Current Workflow Stage: VNM Arrangement Modification
+Request: add a participating service connection to the existing VNM arrangement (MoU on file)
+Share/Participant Changes Already Made This Financial Year: 1
+Advance Notice Given: 3 months",,,,,
+SB-55bff1e2,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: 699D563A33A8
+Billing Name: Nayana Joshi
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 5.0 kW
+Connected Load: 5.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-09-03)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Nayana Joshi (Consumer ID: 699D563A33A8)
+Proposed DC Capacity: 8.00 kWp
+Inverter Rating: 8.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Solar Generation Meter: accuracy class 0.2S
+Net Meter: accuracy class 0.2S","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-699D56
+Application Submission Date: 2025-09-03
+Current Workflow Stage: Meter Installation",,,,,
+SB-a011df1f,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: F0AEEBC3FF36
+Billing Name: Sanjay Arora
+Tariff Category: Industrial (HT)
+Sanctioned Load / Contract Demand: 200.0 kW
+Connected Load: 200.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-09-05)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sanjay Arora (Consumer ID: F0AEEBC3FF36)
+Proposed DC Capacity: 700.00 kWp
+Inverter Rating: 700.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Virtual Net Metering (ground-mounted RE system)
+Participating consumers: industrial units in one estate","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-F0AEEB
+Application Submission Date: 2026-09-05
+Current Workflow Stage: Metering Arrangement Approval",,,,,
+SB-06dccf10,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 55E9277DC9EF
+Billing Name: Hiral Patel
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 2.0 kW
+Connected Load: 2.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-03-30)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Hiral Patel (Consumer ID: 55E9277DC9EF)
+Proposed DC Capacity: 4.00 kWp
+Inverter Rating: 4.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Programme: Rooftop Solar Programme Phase-II (application submitted 2023-12-05)
+CFA Claim Received On: 2026-02-16
+Installation Status as on 01.04.2025: Installed and inspected","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-55E927
+Application Submission Date: 2026-03-30
+Current Workflow Stage: Subsidy Claim Review
+Scheme: CFA for residential rooftop solar",,,,,
+SB-fe4dc242,"ELECTRICITY DISTRIBUTION UTILITY: HESCOM
+Consumer No / K-No: 7E40989F685C
+Billing Name: Prakash Shetty
+Tariff Category: LT-2(a) Domestic
+Sanctioned Load / Contract Demand: 5.0 kW
+Connected Load: 5.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-06-06)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Prakash Shetty (Consumer ID: 7E40989F685C)
+Proposed DC Capacity: 9.00 kWp
+Inverter Rating: 9.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)
+Application Reference: RTS-KA-7E4098
+Application Submission Date: 2026-06-06
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 2
+Days Elapsed Since Registration/Acknowledgement: 2
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not communicated by the licensee",,,,,
+SB-0e1aff33,"ELECTRICITY DISTRIBUTION UTILITY: MVVNL
+Consumer No / K-No: B61ACE32C3E4
+Billing Name: Vinod Srivastava
+Tariff Category: LMV-2 Non-Domestic
+Sanctioned Load / Contract Demand: 20.0 kW
+Connected Load: 20.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-06-23)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Vinod Srivastava (Consumer ID: B61ACE32C3E4)
+Proposed DC Capacity: 15.00 kWp
+Inverter Rating: 15.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MVVNL)
+Application Reference: RTS-UP-B61ACE
+Application Submission Date: 2024-06-23
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 20
+Days Elapsed Since Registration/Acknowledgement: 20
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not feasible: distribution transformer loading",,,,,
+SB-d9152b85,"ELECTRICITY DISTRIBUTION UTILITY: MGVCL
+Consumer No / K-No: 7E43B0B3FF1E
+Billing Name: Hiral Patel
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 4.0 kW
+Connected Load: 4.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-10-03)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Hiral Patel (Consumer ID: 7E43B0B3FF1E)
+Proposed DC Capacity: 10.00 kWp
+Inverter Rating: 10.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MGVCL)
+Application Reference: RTS-GJ-7E43B0
+Application Submission Date: 2025-10-03
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 100 kVA
+Existing Solar on Transformer: 75.0 kW
+Resultant Cumulative Solar Capacity: 85.0 kW",,,,,
+SB-8bbbbb5f,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: 6EE5BEC489DC
+Billing Name: Hiral Patel
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 3.0 kW
+Connected Load: 3.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2024-11-04)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Hiral Patel (Consumer ID: 6EE5BEC489DC)
+Proposed DC Capacity: 5.00 kWp
+Inverter Rating: 5.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-6EE5BE
+Application Submission Date: 2024-11-04
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 100 kVA
+Existing Solar on Transformer: 50.0 kW
+Resultant Cumulative Solar Capacity: 55.0 kW",,,,,
+SB-54aaaca3,"ELECTRICITY DISTRIBUTION UTILITY: HESCOM
+Consumer No / K-No: D25D1DFF4A8A
+Billing Name: Lakshmi Hegde
+Tariff Category: LT-3 Commercial
+Sanctioned Load / Contract Demand: 50.0 kW
+Connected Load: 50.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-05-04)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Lakshmi Hegde (Consumer ID: D25D1DFF4A8A)
+Proposed DC Capacity: 40.00 kWp
+Inverter Rating: 40.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (HESCOM)
+Application Reference: RTS-KA-D25D1D
+Application Submission Date: 2026-05-04
+Current Workflow Stage: Technical Feasibility
+Days Elapsed Since Submission: 5
+Days Elapsed Since Registration/Acknowledgement: 5
+Application Completeness: Complete in all respects
+Technical Feasibility Outcome: Not communicated by the licensee",,,,,
+SB-8b99a646,"ELECTRICITY DISTRIBUTION UTILITY: BRPL
+Consumer No / K-No: 3A3A9DD3C6EA
+Billing Name: Rohit Sehgal
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-04-11)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Rohit Sehgal (Consumer ID: 3A3A9DD3C6EA)
+Proposed DC Capacity: 400.00 kWp
+Inverter Rating: 400.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (BRPL)
+Application Reference: RTS-DL-3A3A9D
+Application Submission Date: 2026-04-11
+Current Workflow Stage: Registration
+Connection Voltage of RE System: 11 kV
+Cumulative VNM/GNM Capacity in BRPL incl. this project: 95 MW
+Service Line cum Development (SLD) Charges: Not paid",,,,,
+SB-770a372c,"ELECTRICITY DISTRIBUTION UTILITY: UGVCL
+Consumer No / K-No: 63DE0C2DE6E2
+Billing Name: Nayana Joshi
+Tariff Category: RGP (Residential General Purpose)
+Sanctioned Load / Contract Demand: 2.0 kW
+Connected Load: 2.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-09-19)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Nayana Joshi (Consumer ID: 63DE0C2DE6E2)
+Proposed DC Capacity: 3.00 kWp
+Inverter Rating: 3.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Programme: Rooftop Solar Programme Phase-II (application submitted 2023-11-10)
+CFA Claim Received On: 2025-08-20
+Installation Status as on 01.04.2025: Installed and inspected","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (UGVCL)
+Application Reference: RTS-GJ-63DE0C
+Application Submission Date: 2025-09-19
+Current Workflow Stage: Subsidy Claim Review
+Scheme: CFA for residential rooftop solar",,,,,
+SB-1595d3ab,"ELECTRICITY DISTRIBUTION UTILITY: TPDDL
+Consumer No / K-No: 61F3DCEAB4BE
+Billing Name: Ritu Khanna
+Tariff Category: NDLT Non-Domestic
+Sanctioned Load / Contract Demand: 100.0 kW
+Connected Load: 100.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2026-05-18)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Ritu Khanna (Consumer ID: 61F3DCEAB4BE)
+Proposed DC Capacity: 400.00 kWp
+Inverter Rating: 400.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Group Net Metering (ground-mounted RE system)","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TPDDL)
+Application Reference: RTS-DL-61F3DC
+Application Submission Date: 2026-05-18
+Current Workflow Stage: Registration
+Connection Voltage of RE System: 11 kV
+Cumulative VNM/GNM Capacity in TPDDL incl. this project: 120 MW
+Service Line cum Development (SLD) Charges: Paid",,,,,
+SB-032d9870,"ELECTRICITY DISTRIBUTION UTILITY: PVVNL
+Consumer No / K-No: 96115508AA57
+Billing Name: Sunita Mishra
+Tariff Category: LMV-1 Domestic Light, Fan & Power
+Sanctioned Load / Contract Demand: 8.0 kW
+Connected Load: 8.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2023-07-04)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Sunita Mishra (Consumer ID: 96115508AA57)
+Proposed DC Capacity: 6.00 kWp
+Inverter Rating: 6.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (PVVNL)
+Application Reference: RTS-UP-961155
+Application Submission Date: 2023-07-04
+Current Workflow Stage: Technical Feasibility
+Distribution Transformer Rating: 100 kVA
+Existing Solar on Transformer: 72.0 kW
+Resultant Cumulative Solar Capacity: 78.0 kW",,,,,
+SB-088d295a,"ELECTRICITY DISTRIBUTION UTILITY: MVVNL
+Consumer No / K-No: F81437449A53
+Billing Name: Alok Tripathi
+Tariff Category: LMV-1 Domestic Light, Fan & Power
+Sanctioned Load / Contract Demand: 5.0 kW
+Connected Load: 5.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2025-11-02)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Alok Tripathi (Consumer ID: F81437449A53)
+Proposed DC Capacity: 3.00 kWp
+Inverter Rating: 3.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Metering
+Programme: Rooftop Solar Programme Phase-II (application submitted 2023-12-18)
+CFA Claim Received On: 2025-03-05
+Installation Status as on 01.04.2025: Installed and inspected","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (MVVNL)
+Application Reference: RTS-UP-F81437
+Application Submission Date: 2025-11-02
+Current Workflow Stage: Subsidy Claim Review
+Scheme: CFA for residential rooftop solar",,,,,
+SB-b0b563e1,"ELECTRICITY DISTRIBUTION UTILITY: TANGEDCO
+Consumer No / K-No: AAA95D8FC3FB
+Billing Name: Karthik Raja
+Tariff Category: HT-I A Industrial
+Sanctioned Load / Contract Demand: 1500.0 kW
+Connected Load: 1500.0 kW
+Billing Cycle: Monthly (Last Meter Reading: 2022-04-29)","ROOFTOP SOLAR PV SYSTEM INSTALLATION PROPOSAL
+Client: Karthik Raja (Consumer ID: AAA95D8FC3FB)
+Proposed DC Capacity: 1200.00 kWp
+Inverter Rating: 1200.00 kVA (AC)
+Solar PV Modules: Mono PERC 540W (ALMM List-I Enlisted)
+Cell & Wafer Origin: Domestic Cells and Wafers (DCR Compliant)
+Requested Interconnection Mode: Net Billing","UTILITY & NATIONAL SOLAR INTERCONNECTION PORTAL (TANGEDCO)
+Application Reference: RTS-TN-AAA95D
+Application Submission Date: 2022-04-29
+Current Workflow Stage: Technical Feasibility",,,,,

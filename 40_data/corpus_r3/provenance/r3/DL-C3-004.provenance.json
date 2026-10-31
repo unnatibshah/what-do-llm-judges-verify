@@ -1,0 +1,26 @@
+{
+  "source_url": "https://www.derc.gov.in/sites/default/files/DERC%28Group%20Net%20Metering%20and%20Virtual%20Net%20Metering%20for%20Renewable%20Energy%29%20Guidelines%2C%202019.pdf",
+  "landing_page_url": "https://www.derc.gov.in/regulations/derc-Regulations",
+  "fetched_at": "2026-10-01T16:39:33Z",
+  "sha256": "e017000d9b851033c950b31829fb2954c2a293ebd0cc201623832688c42cbf69",
+  "http_status": 200,
+  "issuer": "Delhi Electricity Regulatory Commission (DERC)",
+  "printed_title": "Delhi Electricity Regulatory Commission (Group Net Metering and Virtual Net Metering for Renewable Energy) Guidelines, 2019",
+  "number": "F9 (182)/DERC/DS/2016-17/484",
+  "printed_date": "2019-05-31",
+  "file_type": "PDF document, version 1.5, 7 pages (zip deflate encoded)",
+  "candidate_clauses": [
+    {
+      "clause_ref": "Guideline 3(8)",
+      "verbatim_quote": "The capacity of the Renewable Energy System under Group Net Metering or Virtual Net Metering framework to be installed by any Renewable Energy Generator shall not be less than 5 kilo Watt and more than 5000 kilo Watt.",
+      "page": 3,
+      "topic": "GNM/VNM capacity band 5 kW to 5000 kW (original)",
+      "numeric_values": {
+        "min_kW": 5,
+        "max_kW": 5000
+      },
+      "amends_or_supersedes": null,
+      "status": "UNVERIFIED — needs human check"
+    }
+  ]
+}

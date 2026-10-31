@@ -1,0 +1,17 @@
+{
+  "issuer": "TANGEDCO (TNPDCL USRP portal)",
+  "source_url": "https://www.tnebltd.gov.in/usrp/assets/files/pmsolarfreescheme22022024.pdf",
+  "landing_page_url": "https://www.tnebltd.gov.in/usrp/faq.xhtml",
+  "doc_type": "DISCOM notice in Tamil (context only)",
+  "title": "PM Surya Ghar Muft Bijli Yojana notice (Tamil)",
+  "number": "n/a",
+  "printed_date": "22.02.2024 per filename; body refers 13.02.2024",
+  "note": "Tamil legacy-font text extracts as garbage; no clauses extracted.",
+  "file": "TNEBLTD-usrp-pmsolarfreescheme22022024.pdf",
+  "fetched_at": "2026-10-01T16:54:31Z",
+  "http_status": 200,
+  "sha256": "12e8c596f067da8355babfd40b81b0893d7b2adc81fa299fadd23138c5c94025",
+  "pages": 1,
+  "text_extraction": "pypdf (whitespace collapsed for quote matching)",
+  "candidate_clauses": []
+}

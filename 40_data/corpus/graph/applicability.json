@@ -1,0 +1,300 @@
+[
+  {
+    "node_id": "IN-C1-001#cl-4.1",
+    "applies_when": {
+      "all": [
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "residential"
+        },
+        {
+          "field": "premises_type",
+          "op": "eq",
+          "value": "individual"
+        },
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "applicability_basis": "PM Surya Ghar residential slabs: individual residential consumers claiming CFA",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C1-001#cl-4.gh",
+    "applies_when": {
+      "all": [
+        {
+          "field": "premises_type",
+          "op": "in",
+          "value": [
+            "group_housing",
+            "rwa_common"
+          ]
+        },
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "applicability_basis": "PM Surya Ghar GHS/RWA row: common facilities of housing societies",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C1-001#cl-5.1m",
+    "applies_when": {
+      "all": [
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        }
+      ]
+    },
+    "applicability_basis": "DCR is an essential condition for CFA eligibility",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "IN-C2-002#cl-1",
+    "applies_when": {
+      "all": [
+        {
+          "field": "subsidy_claimed",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "field": "case_date",
+          "op": "gte",
+          "value": "2024-04-01"
+        }
+      ]
+    },
+    "applicability_basis": "ALMM List-I in effect from 01.04.2024 for subsidised rooftop projects",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-001#cl-5.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        }
+      ]
+    },
+    "applicability_basis": "MERC DT hosting limit: all net-metering / net-billing systems in Maharashtra",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-001#cl-6.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lt",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "MERC individual capacity limit (Eligible Consumer systems below 1 MW)",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-001#cl-2.1j",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gte",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "MERC Eligible Consumer definition: net-metering systems must be below 1 MW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-002#cl-annex1-c",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "MERC 2024 feasibility study: 15 days, presumed feasible if not intimated",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "MH-C3-002#cl-annex1-c-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "MH"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "MERC 2024 proviso: up to 10 kW deemed accepted",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-002#cl-7.2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "RERC individual capacity limit: 100% of sanctioned load / contract demand",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-004#cl-12",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 1000
+        }
+      ]
+    },
+    "applicability_basis": "RERC 07.02.2024 order: net metering up to 1 MW",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-003#cl-2",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "consumer_category",
+          "op": "neq",
+          "value": "industrial"
+        }
+      ]
+    },
+    "applicability_basis": "RERC DT hosting limit 80% (not HT consumers with their own transformer)",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-003#cl-2-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "consumer_category",
+          "op": "eq",
+          "value": "industrial"
+        }
+      ]
+    },
+    "applicability_basis": "RERC proviso: 80% DT limit not applicable to HT consumers' own transformers",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-005#cl-8.8",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "gt",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "RERC 2024 feasibility study: 15 days, presumed feasible if not intimated",
+    "basis_span": null,
+    "confidence": "high"
+  },
+  {
+    "node_id": "RJ-C3-005#cl-8.8-proviso",
+    "applies_when": {
+      "all": [
+        {
+          "field": "state",
+          "op": "eq",
+          "value": "RJ"
+        },
+        {
+          "field": "proposed_capacity_kw",
+          "op": "lte",
+          "value": 10
+        }
+      ]
+    },
+    "applicability_basis": "RERC 2024 proviso: up to 10 kW deemed accepted",
+    "basis_span": null,
+    "confidence": "high"
+  }
+]
