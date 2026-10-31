@@ -1,9 +1,13 @@
 % Appendix (paper_v6). Main experiment: A pilot, B gap items, C prompt. D: the descriptive case study, summarised;
 % its full report is the supplementary material (sections/supplement_body.tex). Reproducibility is in \S10.
 
+% Appendix floats restart per appendix (A1, B1, ...); distinct PDF anchors so links do not land on Table 1.
+\renewcommand{\theHtable}{app\thesection.\arabic{table}}
+\renewcommand{\theHfigure}{app\thesection.\arabic{figure}}
 \section{The pilot}
 \label{app:pilot}
 \label{app:study2}
+\setcounter{table}{0}\setcounter{figure}{0}
 
 Six judges (Qwen~2.5~32B, Gemma~4~26B, GPT-OSS~120B, Gemini~3.1~Pro, GPT-5.5 and Claude Opus~4.5) ran up to ten
 contexts on the first 24 links before the final design was fixed; Qwen~2.5~32B ran all \RfcSample.
@@ -19,6 +23,7 @@ contrast). The pilot's gap faults overlap only partly with the final run's (\S\r
 
 \section{Gap faults item by item}
 \label{app:items}
+\setcounter{table}{0}\setcounter{figure}{0}
 Table~\ref{tab:e123-items} gives, for each judge, the outcome on every gap fault under no record and the four
 presentations of the damaged record. Every reply, with its raw text, is in the repository
 (\texttt{50\_analysis/results/evalkit\_rfc\_v2/}; second draw in \texttt{evalkit\_rfc\_v2\_seed1/}). The outcome of every
@@ -28,6 +33,7 @@ link under both draws, with the draws it belongs to, is in \texttt{evalkit\_rfc\
 
 \section{Prompt}
 \label{app:prompt-rfc}
+\setcounter{table}{0}\setcounter{figure}{0}
 Figure~\ref{fig:prompt} gives the system text and the full prompt for one gap fault under the authoritative line, as sent, and the record
 block of each damaged context. The other contexts differ only in the record block, which is absent from
 \texttt{both-texts}.
@@ -37,6 +43,7 @@ block of each damaged context. The other contexts differ only in the record bloc
 \clearpage
 \section{Case study: Indian rooftop-solar regulation}
 \label{app:case}
+\setcounter{table}{0}\setcounter{figure}{0}
 
 \noindent\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\small
 \textbf{Status: descriptive only.} The test was first developed on this setting, where no curated consolidation

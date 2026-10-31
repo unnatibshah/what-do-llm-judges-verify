@@ -515,7 +515,7 @@ of \FAMFlashRFour{} at \rung{R4}; seeing both versions did not close the gap for
 The two models added after the analysis plan was fixed are outside every planned test; Table~\ref{tab:exploratory}
 and the descriptive-results table of the paper's case-study appendix report them on the main arms. Claude Opus~4.5
 behaves differently from the open models: it is the only reviewer whose catches survive the absence of a record, and
-the only one that gained more catches than it lost against the damaged lookup. Its catches on dropped links still
+the one with the clearest net gain against the damaged lookup (gaining many and losing none). Its catches on dropped links still
 fell under the damaged status line, as in the main study, and its false alarms on this key's correct answers are
 the highest, which the flawed key cannot interpret. A model from the same developer also helped build this
 benchmark (see the paper's statement on the use of AI assistants); its items were not tuned on any model's replies,
@@ -534,8 +534,8 @@ larger model removes the pattern, and here it did not.
 Removing the cases whose checked correct answer annotators judged flawed (S1; only a sample was checked) left the sign
 of every primary contrast unchanged (Table~\ref{tab:provenance}). Gemma's two significant Q1 differences became
 \SOneDiffNetIntactGemma{} and \SOneDiffNetSpuriousTenGemma{} points with Holm $p=$ \SOnePHolmNetIntactGemma{} and
-\SOnePHolmNetSpuriousTenGemma, no longer below \Alpha{} on the smaller set. Under the reading fixed in advance, the Q1
-result does not depend on the correct answers known to be flawed in direction; its significance for Gemma does
+\SOnePHolmNetSpuriousTenGemma, no longer below \Alpha{} on the smaller set. Under the reading fixed in advance, the
+direction of the Q1 result does not depend on the correct answers known to be flawed; its significance for Gemma does
 depend on keeping them. Under the original strict rule (S2) only \NStrictKept{} cases remain, on fewer than \MinClauses{} clauses; that
 is descriptive only, and there \texttt{qwen2.5:14b}'s Q1 difference turns positive (\STwoDiffNetIntactQwenFourteen{}
 points intact), Gemma's stays negative (\STwoDiffNetIntactGemma).

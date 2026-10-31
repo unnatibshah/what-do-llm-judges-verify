@@ -20,7 +20,7 @@ from suryabench.paths import ROOT  # noqa: E402
 GEN = ROOT / "60_paper_drafts" / "paper_v6" / "generated"
 BLUE, ORANGE, GRAY = "#2a78d6", "#eb6834", "#8c8b87"
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e4e3df"
-JUDGES = [("Gemini", "Gemini 3.1 Pro"), ("GPT", "GPT-5.5"), ("Opus", "Claude Opus 4.5"), ("Gemma", "Gemma 4 26B")]
+JUDGES = [("Gemma", "Gemma 4 26B"), ("GPT", "GPT-5.5"), ("Gemini", "Gemini 3.1 Pro"), ("Opus", "Claude Opus 4.5")]  # table order
 
 plt.rcParams.update({"font.size": 8, "pdf.fonttype": 42, "axes.edgecolor": MUTED, "axes.labelcolor": INK,
                      "xtick.color": MUTED, "ytick.color": MUTED, "axes.spines.top": False, "axes.spines.right": False})

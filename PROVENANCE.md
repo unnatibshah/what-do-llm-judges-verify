@@ -37,3 +37,4 @@ committed there. Every result block also carries its own model version and a has
 - Paper sources synced again from development commit `8d49a240` (2026-10-31T01:47:50-04:00): corrections from a cold-read review (disclosures, wording, bibliography format). No number, table value or result changed.
 - Paper sources synced again from development commit `1c394260` (2026-10-31T01:56:07-04:00): corrections from a second cold-read review (framing, definitions, captions, layout). No number, table value or result changed.
 - Paper sources synced again from development commit `abb770df` (2026-10-31T02:13:47-04:00): three figures (drawn from existing number macros) and packaging. No number or result changed.
+- Paper sources synced again from development commit `05219779` (2026-10-31T11:15:51-04:00): corrections from a third cold-read review. No number or result changed.

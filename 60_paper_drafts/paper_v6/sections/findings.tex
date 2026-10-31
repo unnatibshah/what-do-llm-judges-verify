@@ -17,7 +17,7 @@ construction. The record also helped on correct answers. For decoys, the record 
 in force, and decoy false alarms fell from \EGPTDecoyFATexts{} to \EGPTDecoyFARecord{} for GPT-5.5, from
 \EGeminiDecoyFATexts{} to \EGeminiDecoyFARecord{} for Gemini, from \EGemmaDecoyFATexts{} to \EGemmaDecoyFARecord{} for Gemma and from \EOpusDecoyFATexts{} to \EOpusDecoyFARecord{} for
 Claude. Following the record therefore has a benefit as well as the cost measured below, and on this corpus a judge
-given a correct record does essentially what the record does.
+given a correct record does essentially what the record does in its findings about currency.
 
 With the damaged record the lookup catches the 24 faults whose link survived and none of the 24 gap faults. Over all
 \ENLinks{} faults the judges scored Gemma \EGemmaCatchDamaged, GPT-5.5 \EGPTCatchDamaged, Gemini \EGeminiCatchDamaged{}
@@ -85,8 +85,8 @@ significant after the Holm adjustment over the twelve presentation tests ($p$ \E
 the same way, to \EOpusGapLowauth{} and \EOpusGapCaveat{} (\EOpusArmLowauthGained{} items each, none lost; raw
 $p$ \EOpusArmLowauthRaw, Holm $p$ \EOpusArmLowauthHolm). In each condition it caught six of the
 \EOpusHTwoaLost{} faults it had lost and one it had missed from the texts (Appendix~\ref{app:items}), almost its
-text-only level of \EOpusGapTexts; the test is not
-significant because Claude had few catches to recover, not because the change was small. Gemma recovered less,
+text-only level of \EOpusGapTexts; with only eight lost
+catches to recover, even this near-complete recovery does not survive the Holm adjustment over twelve tests. Gemma recovered less,
 catching \EGemmaGapLowauth{} and \EGemmaGapCaveat{} against \EGemmaGapTexts{} from the texts alone (Holm $p$
 \EGemmaArmLowauthHolm{} and \EGemmaArmCaveatHolm).
 
@@ -107,9 +107,9 @@ use of the record. False alarms on controls and date controls stayed at two of 4
 replies are the same reused replies and Claude caught \EOpusPilotSharedCaught; the other \EOpusPilotPilotOnly{} pilot
 items, all of which it caught, are not gap faults in this run. Most of the difference therefore comes from which links
 were dropped, and on the second draw Claude again lost catches (\EOpusSOneLost) and gained none. Because the shared
-replies were reused rather than requested again, this comparison cannot speak to run-to-run variation, which the
-pilot's one repeated block suggests is real at the level of individual replies. A dozen items can therefore mislead,
-and comparisons between judges on item sets of this size, including those in our own tables, are provisional.
+replies were reused rather than requested again, this comparison cannot speak to run-to-run variation. What it does
+show is that the choice of a dozen dropped links can reverse a judge's result, so comparisons between judges on item
+sets of this size, including those in our own tables, are provisional.
 Appendix~\ref{app:items} lists every gap fault.
 
 \subsection{Replacements, updates and surface similarity}
@@ -117,10 +117,10 @@ Appendix~\ref{app:items} lists every gap fault.
 
 Table~\ref{tab:e123-decoy} and Figure~\ref{fig:decoy} report the decoy test, with both texts and no record. Every judge caught more
 faults than it flagged decoys (paired difference \EGPTHOne{} points for GPT-5.5, 95\% interval \EGPTHOneCI; Gemini
-\EGeminiHOne, \EGeminiHOneCI; Claude \EOpusHOne, \EOpusHOneCI; Gemma \EGemmaHOne, \EGemmaHOneCI), so H1 holds. H1 is a weak test,
-though: a judge that flagged every older document with a near-identical title would pass it as long as most
-replacements share their predecessor's title. The more informative comparison is within the same-title pairs, where
-title similarity is held roughly constant. There GPT-5.5 caught \EGPTSameCatch{} faults and flagged \EGPTSameDecoy{}
+\EGeminiHOne, \EGeminiHOneCI; Claude \EOpusHOne, \EOpusHOneCI; Gemma \EGemmaHOne, \EGemmaHOneCI), so H1 holds. Because each decoy was
+drawn from its link's title group, a judge that flagged every pair with near-identical titles would score zero here;
+the weakness of H1 lies elsewhere, in abstract overlap, discussed below. The more informative comparison is within
+the same-title pairs, where title similarity is held roughly constant. There GPT-5.5 caught \EGPTSameCatch{} faults and flagged \EGPTSameDecoy{}
 decoys, Gemini \EGeminiSameCatch{} and \EGeminiSameDecoy, Claude \EOpusSameCatch{} and \EOpusSameDecoy, Gemma \EGemmaSameCatch{} and \EGemmaSameDecoy. Among
 different-title pairs, no judge flagged a decoy, and catches differed widely (GPT-5.5 \EGPTDifferentCatch, Gemini \EGeminiDifferentCatch, Claude
 \EOpusDifferentCatch, Gemma \EGemmaDifferentCatch).

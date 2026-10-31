@@ -4,7 +4,7 @@
 Contracts are amended by later agreements, regulations by later notifications, and technical standards by later
 standards. An answer drawn from such a collection can quote a provision correctly and still be wrong, because the
 document it quotes was replaced before the date the question is about. Systems that use language models
-for this increasingly add a second model, an LLM judge, to check the answers before they reach a user. The judge is
+for this can add a second model, an LLM judge, to check the answers before they reach a user. The judge is
 often given help: an amendment record listing which document replaced which, and from when.
 
 Our starting point is a practical worry about that arrangement. Amendment records are seldom complete. Consolidated
@@ -28,7 +28,7 @@ says the cited document was replaced.
 
 We applied the test to \ENLinks{} replacements recorded by the RFC Editor of the Internet Engineering Task Force (IETF), with four judges (Gemini~3.1~Pro,
 GPT-5.5, Claude Opus~4.5 and the open-weight Gemma~4~26B). The hypotheses, tests and the way we would read each outcome
-were committed to the project repository after a smaller pilot on 24 of the links and before these runs.
+were committed to the project repository after a smaller pilot, mostly on 24 of the links, and before these runs.
 
 With a correct record line, the judges caught every replaced citation or nearly so, which a lookup in the record
 also does. On the faults whose link we removed, every judge caught fewer with the record present than from the texts
