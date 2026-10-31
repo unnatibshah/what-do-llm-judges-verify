@@ -52,7 +52,7 @@ def main() -> None:
         raise SystemExit(f"author placeholders still printed in: {open_items}")
     with tempfile.TemporaryDirectory() as tmp:
         src = Path(tmp) / "src"
-        shutil.copytree(PAPER, src, ignore=shutil.ignore_patterns("*.pdf", "*.log", "*.blg", "*.aux", *SKIP))
+        shutil.copytree(PAPER, src, ignore=shutil.ignore_patterns("*.pdf", "*.log", "*.blg", "*.aux", ".DS_Store", *SKIP))
         shutil.copy(PAPER / "references.bib", src)
         for f in src.rglob("*.tex"):
             f.write_text(strip_comments(f.read_text(encoding="utf-8")), encoding="utf-8", newline="\n")
