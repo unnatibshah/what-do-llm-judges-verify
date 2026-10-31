@@ -216,7 +216,7 @@ Under \emph{any finding}, a fault is caught if the reply has any finding; under 
 the replaced clause for any reason; the right-reason rule above is the strictest. On correct answers we report any finding
 (our false-alarm rule) and a finding with a validity reason only.
 
-\paragraph{Post hoc measures (added in review, not pre-specified).}
+\paragraph{Post hoc measures (added after the results were seen, not pre-specified).}
 Because the lookup can only raise ``not in force'' while the reviewer can raise any reason, we also report Q1 with false
 alarms counted only when the finding gives a validity reason (not in force, wrong jurisdiction, not applicable), the
 reason codes behind the false alarms, the catches the reviewer gains and loses against the lookup on the same item and
@@ -238,7 +238,7 @@ weights fixed in advance by digest (\texttt{46e0c10c039e}, \texttt{845dbda0ea48}
 in the analysis plan), checked on every machine: \texttt{qwen2.5:14b} on a cloud notebook with two NVIDIA T4 GPUs, the
 other two on an Apple-silicon laptop. Gemma, open-weight, runs through a hosted API, with the version recorded per call.
 A closed hosted model, \texttt{gemini-3.5-flash-lite}, is a secondary model on \rung{R0}, \rung{R2} and \rung{R4} only.
-Each model ran on one machine. Models added after filing are exploratory and reported separately
+Each model ran on one machine. Models added after the plan was fixed are exploratory and reported separately
 (\S\ref{sec:res-explore}).
 
 \paragraph{Settings.}
@@ -489,7 +489,8 @@ The ladder is the reference that places Q1 and Q2. For both capable models the s
 catches over seeing both versions: \rung{R4}$-$\rung{R2} was \DiffRFourMinusRTwoQwenFourteen{} points for
 \texttt{qwen2.5:14b} (CI \CIRFourMinusRTwoQwenFourteen) and \DiffRFourMinusRTwoGemma{} for Gemma (CI
 \CIRFourMinusRTwoGemma), while \rung{R2}$-$\rung{R0} was \DiffRTwoMinusRZeroQwenFourteen{} and
-\DiffRTwoMinusRZeroGemma{}, not significant by the planned sign-flip test (Gemma's bootstrap interval,
+\DiffRTwoMinusRZeroGemma{} (on the \ClausesRTwoMinusRZeroGemma{} clauses where both rungs ran, so they differ from the
+clause averages of Table~\ref{tab:ladder}), not significant by the planned sign-flip test (Gemma's bootstrap interval,
 \CIRTwoMinusRZeroGemma, excludes zero; \rung{R0} runs on S-swap items, where a right-reason catch is near zero by
 design). In the words fixed in advance, seeing both versions is not enough, and
 \rung{R4} lifts these capable models. The amending instrument's quote (\rung{R3}) added little over \rung{R2}
@@ -498,12 +499,12 @@ not discriminate at all: \rung{R2} discrimination was \DiscRTwoQwenFourteen{} po
 \DiscRTwoGemma{} for Gemma, because they flagged matched correct answers as often as, or more often than, they caught faults for
 the right reason.
 
-The weak model barely moved: \texttt{llama3.1:8b} caught \CatchLlamaRTwo{} at \rung{R2} and \CatchLlamaRFour{} at
-\rung{R4}. In the words fixed in advance, below a capability threshold the information does not help; this is reported
-as a limit of the claim. \texttt{gemini-3.5-flash-lite}, run at \rung{R0}, \rung{R2} and \rung{R4} only, caught
+The weak model gained little: \texttt{llama3.1:8b} caught \CatchLlamaRTwo{} at \rung{R2} and \CatchLlamaRFour{} at
+\rung{R4} (\DiffRFourMinusRTwoLlama{} points, interval \CIRFourMinusRTwoLlama). That is just outside the
+\InterpPoints-point margin of the reading fixed in advance for this case (reading 12), so that reading does not apply;
+we report the small gain as a limit of the claim. \texttt{gemini-3.5-flash-lite}, run at \rung{R0}, \rung{R2} and \rung{R4} only, caught
 \CatchFlashRTwo{} at \rung{R2} and \CatchFlashRFour{} at \rung{R4}, with false alarms on matched correct answers
-of \FAMFlashRFour{} at \rung{R4}; seeing both versions did not close the gap for it either, so stop rule 5 did not
-trigger. Given the ``can't confirm'' option (E2), neither capable model used it on a fault at \rung{R2}
+of \FAMFlashRFour{} at \rung{R4}; seeing both versions did not close the gap for it either. Given the ``can't confirm'' option (E2), neither capable model used it on a fault at \rung{R2}
 (\CantConfirmKNQwenFourteenRTwoCC{} and \CantConfirmKNGemmaRTwoCC): the option was available and unused. Of the
 \rung{R2} findings that flagged the replaced clause, \MisnamedKNQwenFourteenRTwo{} (\texttt{qwen2.5:14b}) and
 \MisnamedKNGemmaRTwo{} (Gemma) never gave ``not in force'' as the reason (E4).
@@ -517,7 +518,7 @@ the clearest case that capability changes the picture: it is the only reviewer w
 record, and the only one that repaired a damaged record. A model from the same developer also helped build this
 benchmark (see the paper's statement on the use of AI assistants); its items were not tuned on any model's replies,
 but readers should weigh that relation. It ran one damage seed, through a
-proxy that sets temperature and seed itself, so its numbers carry more uncertainty than the planned models'. Scale did not buy a better reviewer. \texttt{qwen2.5:32b}, run with
+proxy that sets temperature and seed itself, so its numbers carry more uncertainty than the planned models'. Within one model family, scale did not buy a better reviewer. \texttt{qwen2.5:32b}, run with
 the pre-specified prompts on the same items, flagged matched correct answers more often than
 \texttt{qwen2.5:14b} at every arm, and about twice as often once given the record, so its discrimination was lower, and its gap to the lookup wider, with the record
 intact and with half the links dropped. Without a record it named the replaced clause on most faults but rarely for

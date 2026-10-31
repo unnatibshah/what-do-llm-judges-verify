@@ -23,7 +23,12 @@ publisher's record says it was not replaced. The similarity analysis is explorat
 \paragraph{Construct.} The evidence is titles, dates and abstracts, not full documents. The error tested is always the
 citation of a whole replaced document; partial amendments and chains are not covered. Links are dropped at random,
 while real records fail in patterns (recent amendments, particular issuers). The question names the old document's
-title, which may provoke some of the non-currency findings on controls.
+title, which may provoke some of the non-currency findings on controls. Two of the 24 gap faults are weaker items:
+RFC~7142 (``Reclassification of RFC~1142 to Historic'') and RFC~6082 (``\ldots RFC~2482 is Historic'') name the
+old RFC in their titles, so the replacement is stated rather than inferred, and as reclassification notices they do
+not themselves specify the protocol, so the controls citing them are weaker. They account for two of Gemini's lost
+catches and one each of GPT-5.5's and Claude's (Table~\ref{tab:e123-items}); without them every judge still lost
+catches and gained none (Claude 7 lost, two-sided exact $p$ = .016).
 
 \paragraph{Generalisation.} One corpus of technical standards, chosen because its publisher maintains an exact
 record, and four judges. Legal collections add problems this test does not address, as the case study illustrates:

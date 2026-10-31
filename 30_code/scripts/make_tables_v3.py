@@ -277,8 +277,9 @@ def robust_table(lad: dict[str, Any]) -> list[str]:
             ("Catch on dropped links, R2 $\\to$ R4-damage, \\% (clauses)", defer)]
     body = [f"{label} & " + " & ".join(fn(m) for m in models) + " \\\\" for label, fn in rows]
     return [r"\begin{table*}[t]\centering\scriptsize",
-            r"\caption{The findings across all models, on the same items (pooled k/n over S-both faults or matched correct "
-            r"answers; 50\%-dropped arms pooled over each model's damage seeds). Models are ordered by size; the last "
+            r"\caption{The findings across all models, on the same items (pooled k/n over S-both faults, where both versions "
+            r"of the clause are shown, or matched correct answers; 50\%-dropped arms pooled over each model's damage "
+            r"seeds). The five planned models come first (the open models by size, then Flash-Lite); the last two "
             r"columns were added after the analysis plan was fixed. Gains and losses compare each fault and seed with the "
             r"damaged lookup. The dropped-link catch is clause-averaged over the faults the intact registry catches and the "
             r"damaged one drops.}",

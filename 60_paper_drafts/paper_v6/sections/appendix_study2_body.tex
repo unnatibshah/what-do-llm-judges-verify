@@ -8,7 +8,8 @@ had two to four such replies per block, the other reported judges at most two. T
 deference pair of contexts and are not analysed; their blocks are in the repository.
 
 \paragraph{Items.} Two of the 48 replacing RFCs name the old RFC in their title (RFC~7142, RFC~6082); titles are not
-filtered, so these two links are explicit for Qwen~32B, the one judge that ran all 48. The sentence filter of
+filtered, so these two links are explicit wherever they appear: for Qwen~32B in the pilot, and for all four judges
+in the final runs, where both are gap faults (Table~\ref{tab:e123-items}). The sentence filter of
 \texttt{both-texts} also removes some sentences that mention updates in general.
 
 \paragraph{Links without a shared title.} On the 6 of the first 24 links whose successor has a different title, with
@@ -18,8 +19,7 @@ Claude \RfcTitleDifferentBothTextsClaudeOpusFourFive, GPT-OSS \RfcTitleDifferent
 (Gemini \RfcCatchBothMaskedGeminiThreeOnePro, Claude \RfcCatchBothMaskedClaudeOpusFourFive, GPT-5.5
 \RfcCatchBothMaskedGPTFiveFive) and cost GPT-OSS a few catches (\RfcCatchBothMaskedGPTOSSOneTwoZeroB).
 
-\paragraph{Bare passes.} A reply on a fault is a bare pass when it has no finding at all; a reply with findings is coded
-by whether its rationale mentions the record (a keyword rule, post hoc).
+\paragraph{Bare passes.} A reply on a fault is a bare pass when it has no finding at all.
 
 \paragraph{Controls citing the successor.} Table~\ref{tab:rfc-current} gives discrimination against controls that cite
 the replacing document. Given the documents, the frontier judges, GPT-OSS and Gemma rarely gave a validity reason on

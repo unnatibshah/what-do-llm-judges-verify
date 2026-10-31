@@ -31,7 +31,8 @@ material (\S S1.2).
 \paragraph{Reviewers and scoring.}
 Seven reviewers judged the same items: \texttt{llama3.1:8b}, \texttt{qwen2.5:7b}, \texttt{qwen2.5:14b},
 \texttt{gemma-4-26b-a4b-it}, \texttt{gemini-3.5-flash-lite} (on \rung{R0}, \rung{R2} and \rung{R4} only),
-\texttt{qwen2.5:32b} and Claude Opus~4.5, with greedy decoding. A fault is caught when a finding names the replaced
+\texttt{qwen2.5:32b} and Claude Opus~4.5, with greedy decoding except for Claude, which ran through a proxy that sets
+temperature and seed itself. A fault is caught when a finding names the replaced
 clause with the reason ``not in force''. The unit of inference is the distinct replaced clause: rates are averaged within
 a clause, then over clauses. The questions, analyses and readings were fixed in a dated, version-controlled plan before
 any model saw a test item; the planned tests, all reported, are in the supplementary material (\S S1.3 and S1.4).

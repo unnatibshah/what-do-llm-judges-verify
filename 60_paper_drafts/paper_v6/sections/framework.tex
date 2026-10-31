@@ -27,6 +27,7 @@ actually checks.
 The context is the part a builder controls, and we vary it while holding the question and the answer fixed
 (Table~\ref{tab:menu}). In every primary context the judge gets both documents' titles, dates and abstracts, with any
 sentence that states a replacement or names the other document removed, so that the replacement has to be inferred.
+Titles are not filtered, and in two links the replacing RFC's title names the old one (\S\ref{sec:limitations}).
 Five of the six contexts add one line from an amendment record about the cited document. In the damaged record, half
 the links are dropped with a fixed seed; for a dropped link the record says nothing about a replacement, and its line
 therefore reports the replaced document as in force. We call the faults on these links \emph{gap faults}. The four
@@ -62,7 +63,7 @@ statement about it.}
 
 \paragraph{Scoring by reason.}
 The judge returns a verdict and a list of findings. Each finding names a document and gives one reason from a closed
-list: replaced, not yet published, not applicable, content error, unsupported, or other. We count a fault as
+list: replaced (coded \texttt{superseded} in the prompt), not yet published, not applicable, content error, unsupported, or other. We count a fault as
 \emph{caught} only if some finding names the cited document with the reason that it was replaced. A judge that flags
 the fault as, say, a content error has noticed that something is off without identifying the error, and an any-finding
 count would credit it with the catch. On the three kinds of correct answer we record two false-alarm counts: a

@@ -3,8 +3,9 @@
 \label{app:interpretations}
 % Source: PREREGISTRATION_v3 section 7, PREREGISTRATION_v3_AMENDMENT_1 section 4 (D48) and
 % PREREGISTRATION_v3_AMENDMENT_2 sections 3 and 5b (D49). Keep the wording; it was planned.
-Each rule was planned with the sentence we report when it applies. Readings 1--5 are from amendment 1, readings
-6--8 from amendment 2, and the rest from the original registration, where they now apply to the reference ladder.
+Each rule was planned with the sentence we report when it applies; where a reading names a place of report (``the
+abstract''), it refers to the case study's own report. Readings 1--5 are from amendment 1, readings
+6--8 from amendment 2, and the rest from the original analysis plan, where they now apply to the reference ladder.
 \begin{enumerate}
   \item \rung{R4}$-$\rung{R5} not positive after Holm at any registry state, for a capable model: ``For this
   model, the reviewer did not discriminate better than a lookup in the registry it was given, even when the
@@ -32,7 +33,7 @@ Each rule was planned with the sentence we report when it applies. Readings 1--5
   \item \rung{R2} at least as high as \rung{R4} for the capable models: ``The bottleneck is retrieval,
   not representation: given both versions, reviewers catch the replaced rule as well as when told its
   status.''
-  \item \rung{R4}$-$\rung{R2} not significant (uncorrected, secondary since D48): no ladder claim. ``Telling the reviewer the
+  \item \rung{R4}$-$\rung{R2} not significant (uncorrected, secondary since amendment 1): no ladder claim. ``Telling the reviewer the
   registry status did not reliably raise catches for these models.''
   \item The weak model at \rung{R4} within \InterpPoints{} points of its \rung{R2}: ``Below a capability
   threshold, the information does not help.'' Reported as a limit of the claim.
@@ -46,8 +47,9 @@ Each rule was planned with the sentence we report when it applies. Readings 1--5
 
 \section{Case study: prompts}
 \label{app:prompts}
-The exact prompt of every rung, rendered for one dev item by \texttt{render\_prereg\_prompts.py}, is filed with
-the analysis plan (\texttt{PREREGISTRATION\_v3\_PROMPTS.md}) and released with the code; we do not retype it here.
+The exact prompt of every rung, rendered for one dev item by \texttt{render\_prereg\_prompts.py}, is kept with
+the analysis plan (\texttt{PREREGISTRATION\_v3\_PROMPTS.md}; the plan's working file names say ``preregistration'',
+but it was not publicly registered) and released with the code; we do not retype it here.
 \rung{R4n} is \rung{R4}'s prompt with one change: in the registry lookup block, a status value
 \texttt{in\_force} reads \texttt{no\_amendment\_recorded}. A unit test checks that the two prompts differ in that word
 only, with the registry intact and damaged.
@@ -84,10 +86,10 @@ registry writes brackets (\texttt{cl-4(2)}); the adjudicator resolved these.
 \label{app:deviations}
 % Source: DECISIONS.md D48, D49 and the dated notes of 2026-10-29. Add any deviation found after the run.
 All of the following were recorded before any model saw a test item, except the last paragraph.
-\paragraph{Amendment 1 (D48).} After the dev pilot, the damaged-registry comparisons (Q1, Q2) replaced the ladder
+\paragraph{Amendment 1.} After the dev pilot, the damaged-registry comparisons (Q1, Q2) replaced the ladder
 contrasts (\rung{R4}$-$\rung{R2}, \rung{R2}$-$\rung{R0}) as the primary family; the capable models run all
 \NDamageSeedsCapable{} damage seeds; discrimination, deference and the looser scoring rules (E5) were added.
-\paragraph{Amendment 2 (D49), after the human audit.}
+\paragraph{Amendment 2, after the human audit.}
 \begin{itemize}
   \item Annotation keeps a case whose adjudicated outcome (decision, and blocking stage for a rejection) matches the key;
   cases whose deciding clauses alone differ are kept and listed. The planned rule dropped them too and would have
@@ -106,7 +108,7 @@ contrasts (\rung{R4}$-$\rung{R2}, \rung{R2}$-$\rung{R0}) as the primary family; 
 Dated in the decision log. (1) The local models moved from the lead author's laptop to Kaggle GPU notebooks
 (\texttt{qwen2.5:14b}) and back to the laptop for the two smaller models, for speed; each model ran on one machine,
 and a 30-minute partial start on the laptop that finished no block is kept and unused. Model files were checked
-against the pre-specified digests on every machine. (2) The analysis cutoff was fixed as a wall-clock time before any
+against the pre-specified digests on every machine. (2) The 24-hour cutoff was fixed as a wall-clock time before any
 test result was read. (3) The laptop's model server crashed once mid-request; the run raised, recorded no reply, and
 resumed from its cache. (4) Additions after the plan was fixed, outside every planned test: \texttt{qwen2.5:32b} (damage seeds 0--2) and Claude
 Opus~4.5 through a Kaggle-hosted proxy (seed 0) on the main arms, and a same-machine repeat of three blocks to measure
