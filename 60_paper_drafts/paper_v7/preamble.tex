@@ -39,7 +39,8 @@
 % line: none of the authors holds a current university post (arXiv: claimed affiliation must be current).
 \newcommand{\emailUS}{unnati.ix@gmail.com}
 \newcommand{\emailAP}{aumrp77@gmail.com}
-\newcommand{\authornotes}{{\renewcommand{\thefootnote}{}\footnotetext{\raggedright
+\makeatletter\newcommand{\plainfntext}{\long\def\@makefntext##1{\noindent##1}}\makeatother
+\newcommand{\authornotes}{{\renewcommand{\thefootnote}{}\plainfntext\footnotetext{\raggedright
 $^{1}$M.S. in Computer Science, University of Southern California. \texttt{\emailUS} (corresponding author)\\
 $^{2}$M.S. in Computer Science, Illinois Institute of Technology. \texttt{samruddhikakade2001@gmail.com}\\
 $^{3}$M.S. in Computer Science, New York University. \texttt{\emailAP}\\
