@@ -8,6 +8,9 @@
 \usepackage{xcolor}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
+% Preprint layout (main.tex, main_full.tex, hence the arXiv package): standard 1-inch margins instead of the journal's
+% 131 mm text block. The journal builds (main_anon, main_2col, supplement*) keep the Springer Nature layout.
+\ifdefined\wideformat\geometry{a4paper,margin=1in,bindingoffset=0pt,twoside=false}\fi % sn-jnl loads geometry (print: 6 mm binding offset)
 
 % Every number is a macro. Case study: numbers.tex (paper_v3 outputs); pilot: generated/numbers_rfc.tex
 % (python -m suryabench.evalkit --tex); final runs: generated/numbers_e123.tex (analyse_final_e123.py --tex).
@@ -21,6 +24,13 @@
 \newcommand{\rung}[1]{\textsf{#1}}
 \newcommand{\Rfourp}{\rung{R4$'$}}
 \newcommand{\anonurl}{withheld for anonymous review}
+% Authors as one centred row (used inside \title by body.tex and supplement.tex in the authored builds).
+\newcommand{\authorsrow}{{\normalfont\small\setlength{\tabcolsep}{8pt}%
+\begin{tabular}{@{}ccc@{}}
+\textbf{Unnati Shah} & \textbf{Samruddhi Kakade} & \textbf{Aum Patel}\\
+\footnotesize University of Southern California & \footnotesize Illinois Institute of Technology & \footnotesize New York University\\
+\footnotesize\texttt{ubshah@usc.edu} & \footnotesize\texttt{samruddhikakade2001@gmail.com} & \footnotesize\texttt{ap9018@nyu.edu}
+\end{tabular}}}
 % The public repository for the authored builds (arXiv); main_anon.tex prints the anonymous link instead.
 \ifdefined\anonymous\newcommand{\repourl}{\anonurl}\else\newcommand{\repourl}{\url{https://github.com/unnatibshah/what-do-llm-judges-verify}}\fi
 \raggedbottom

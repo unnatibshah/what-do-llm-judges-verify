@@ -23,7 +23,7 @@ on when the record and the documents disagree. The test starts from any table of
 writes an answer citing the replaced document (a fault) and three answers that are correct: one citing the successor,
 one citing the replaced document at a date before the replacement existed (a date control), and one citing an older
 document that a newer one updated without replacing (a decoy). It then removes half the links from the record, presents
-the damaged record in several ways that carry the same information, and counts a fault as caught only when the judge
+the damaged record in several ways that leave its content unchanged, and counts a fault as caught only when the judge
 says the cited document was replaced.
 
 We applied the test to \ENLinks{} replacements recorded by the IETF's RFC Editor, with four judges (Gemini~3.1~Pro,
@@ -34,12 +34,12 @@ With a correct record line, the judges caught every replaced citation or nearly 
 also does. On the faults whose link we removed, every judge caught fewer with the record present than from the texts
 alone, on each of two random choices of which links to remove, and most of the missed answers were passed without
 any finding. The drop also occurred when the line said only that no replacement was recorded, a statement that is
-true. Presenting the record as an unverified note, or warning that it was incomplete, moved Gemini, GPT-5.5 and
-Claude most of the way back to their text-only behaviour, in their false alarms as well as their catches; the change is
-significant after correction for Gemini and GPT-5.5, while Claude, which had fewer catches to recover, did not reach
-significance, and Gemma recovered at most 5 of the 13 it had lost (\S\ref{sec:res-gaps}). Given both texts and no record, the judges
-caught many more replacements than they flagged updates, but every update they flagged had a near-identical title,
-and an unplanned analysis suggests that they treat the resemblance between two documents as evidence of replacement.
+true. Presenting the record as an unverified note, or warning that it was incomplete, returned Gemini, GPT-5.5 and
+Claude most of the way to their text-only behaviour, false alarms included; the change is significant after correction
+for Gemini and GPT-5.5 but not for Claude, which had fewer catches to recover, and Gemma recovered at most 5 of the 13
+it had lost (\S\ref{sec:res-gaps}). Given both texts and no record, the judges caught many more replacements than they
+flagged updates, but every update they flagged had a near-identical title, and an unplanned analysis suggests that
+they treat the resemblance between two documents as evidence of replacement.
 Date controls, which the judges here nearly all passed, exposed in the pilot a 32B open model that flagged almost every old
 citation whatever its date.
 

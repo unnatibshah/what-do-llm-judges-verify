@@ -166,7 +166,7 @@ Condition & Reviewer sees & Reviewer does not see & Compared with; confound & Ro
 \end{tabular}
 \caption{Conditions. ``Reference'' rows are not findings: \rung{R5} recovers the registry's own links, and \rung{R4} at the
 intact registry is told, for every linked clause, that it is not in force. Faults were planted on replaced clauses of the
-gold graph; the registry links most but not all of them (\S\ref{sec:dataset}). The E2 variants of \rung{R0} to
+gold graph; the registry links most but not all of them (\S\ref{app:study1-data}). The E2 variants of \rung{R0} to
 \rung{R2} add a ``can't confirm'' reason.}
 \label{tab:conditions}
 \end{table}
@@ -511,11 +511,12 @@ trigger. Given the ``can't confirm'' option (E2), neither capable model used it 
 \subsubsection{The added models}
 \label{sec:res-explore}
 \IfFileExists{generated/tab_exploratory.tex}{\input{generated/tab_exploratory.tex}}{}
-The two models added after the analysis plan was fixed are outside every planned test; Table~\ref{tab:robust} and
-Table~\ref{tab:exploratory} report them on the main arms. Claude Opus~4.5 is the clearest case that capability changes
-the picture: it is the only reviewer whose catches survive the absence of a record, and the only one that repaired a
-damaged record (\S\ref{sec:res-robust}). A Claude model also helped build this benchmark (\S\ref{sec:ai-use}); its
-items were not tuned on any model's replies, but readers should weigh that relation. It ran one damage seed, through a
+The two models added after the analysis plan was fixed are outside every planned test; Table~\ref{tab:exploratory}
+and the descriptive-results table of the paper's case-study appendix report them on the main arms. Claude Opus~4.5 is
+the clearest case that capability changes the picture: it is the only reviewer whose catches survive the absence of a
+record, and the only one that repaired a damaged record. A model from the same developer also helped build this
+benchmark (see the paper's statement on the use of AI assistants); its items were not tuned on any model's replies,
+but readers should weigh that relation. It ran one damage seed, through a
 proxy that sets temperature and seed itself, so its numbers carry more uncertainty than the planned models'. Scale did not buy a better reviewer. \texttt{qwen2.5:32b}, run with
 the pre-specified prompts on the same items, flagged matched correct answers more often than
 \texttt{qwen2.5:14b} at every arm, and about twice as often once given the record, so its discrimination was lower, and its gap to the lookup wider, with the record

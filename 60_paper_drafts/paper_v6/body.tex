@@ -5,15 +5,10 @@ Document Currency}
 \author{\fnm{Anonymous} \sur{Authors}}
 \affil{\orgname{Anonymous for review}}
 \else
-% Authors as one centred row (name, affiliation, email) instead of the class's numbered affiliations and e-mail lines.
+% Authors as one centred row (name, affiliation, email; \authorsrow in preamble.tex) instead of the class's numbered
+% affiliations and e-mail lines.
 \title[What Do LLM Judges Actually Verify?]{What Do LLM Judges Actually Verify? Matched Controls and Record Gaps for
-Document Currency\par\vspace{1.2em}
-{\normalfont\small\setlength{\tabcolsep}{8pt}%
-\begin{tabular}{@{}ccc@{}}
-\textbf{Unnati Shah} & \textbf{Samruddhi Kakade} & \textbf{Aum Patel}\\
-\footnotesize University of Southern California & \footnotesize Illinois Institute of Technology & \footnotesize New York University\\
-\footnotesize\texttt{ubshah@usc.edu} & & \footnotesize\texttt{ap9018@nyu.edu}
-\end{tabular}}}
+Document Currency\par\vspace{1.2em}\authorsrow}
 \hypersetup{pdftitle={What Do LLM Judges Actually Verify? Matched Controls and Record Gaps for Document Currency},
 pdfauthor={Unnati Shah, Samruddhi Kakade, Aum Patel}}
 \fi
@@ -42,3 +37,6 @@ statements comparing judges will be rechecked when they are. Not for circulation
 \end{appendices}
 
 \bibliography{references}
+
+% main_full.tex: the supplementary material (the case study in full) in the same PDF.
+\ifdefined\withsupplement\clearpage\input{sections/supplement_body}\fi

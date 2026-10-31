@@ -5,7 +5,7 @@ jurisdictions, superseded ones included. No consolidated record exists, so an AI
 documents: \NLinksRegistry{} clause-level links, each from an old clause to the clause that changes it, with a relation
 and an effective date. Two authors checked a random sample of the links blind; \NLinksSampleNotALink{} of
 \NLinksSample{} were judged to be no change at all, and every link the test relies on was checked and corrected
-(Appendix~\ref{app:study1-data}). The record therefore asserts few wrong links, but nothing measures how many it
+(supplementary material, \S S1.1). The record therefore asserts few wrong links, but nothing measures how many it
 misses, as in practice.
 
 \paragraph{Items.}
@@ -25,8 +25,8 @@ a damaged record (\rung{R4}-damage, \texttt{status-damaged}; \rung{R4n}-damage, 
 is damaged by dropping \DamageDropTwentyFive\% or \DamageDropFifty\% of its links, or adding \DamageSpuriousTen\%
 spurious ones, over \NDamageSeeds{} seeds. A deterministic lookup in the same record (\rung{R5}, no language model)
 flags exactly the clauses the record marks as replaced; it is the reference for what the record alone achieves.
-Further conditions (the old clause alone, source metadata, the amending instrument's words) are in
-Appendix~\ref{app:study1-conditions}.
+Further conditions (the old clause alone, source metadata, the amending instrument's words) are in the supplementary
+material (\S S1.2).
 
 \paragraph{Reviewers and scoring.}
 Seven reviewers judged the same items: \texttt{llama3.1:8b}, \texttt{qwen2.5:7b}, \texttt{qwen2.5:14b},
@@ -34,5 +34,5 @@ Seven reviewers judged the same items: \texttt{llama3.1:8b}, \texttt{qwen2.5:7b}
 \texttt{qwen2.5:32b} and Claude Opus~4.5, with greedy decoding. A fault is caught when a finding names the replaced
 clause with the reason ``not in force''. The unit of inference is the distinct replaced clause: rates are averaged within
 a clause, then over clauses. The questions, analyses and readings were fixed in a dated, version-controlled plan before
-any model saw a test item; the planned tests, all reported, are in Appendix~\ref{app:study1-planned}.
+any model saw a test item; the planned tests, all reported, are in the supplementary material (\S S1.3 and S1.4).
 

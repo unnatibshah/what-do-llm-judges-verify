@@ -1,4 +1,4 @@
-"""Build the arXiv source package of paper_v6: the authored single-column paper, comments stripped, with its .bbl.
+"""Build the arXiv source package of paper_v6: the authored single-column paper with the supplement appended, comments stripped, with its .bbl.
 
     PYTHONPATH=30_code/src python 30_code/scripts/make_arxiv.py [--tectonic PATH] [--draft]
 
@@ -18,7 +18,8 @@ from suryabench.paths import ROOT
 
 PAPER = ROOT / "60_paper_drafts" / "paper_v6"
 OUT = ROOT / "70_papers" / "arxiv"
-SKIP = {"main_2col.tex", "main_anon.tex", "README.md", "references.bib", "numbers_placeholder.tex"}  # .bbl is shipped
+SKIP = {"main_2col.tex", "main_anon.tex", "main_full.tex", "supplement.tex", "supplement_anon.tex", "README.md",
+        "references.bib", "numbers_placeholder.tex"}  # .bbl is shipped; one top-level file (main.tex) for arXiv
 
 
 def strip_comments(tex: str) -> str:
@@ -56,7 +57,9 @@ def main() -> None:
         for f in src.rglob("*.tex"):
             f.write_text(strip_comments(f.read_text(encoding="utf-8")), encoding="utf-8", newline="\n")
         main_tex = src / "main.tex"
-        main_tex.write_text("\\ifdefined\\XeTeXrevision\\else\\pdfoutput=1\\fi  % arXiv: pdflatex\n" + main_tex.read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
+        # arXiv: pdflatex; \withsupplement appends the case study in full (as main_full.tex does), one PDF.
+        main_tex.write_text("\\ifdefined\\XeTeXrevision\\else\\pdfoutput=1\\fi\n\\def\\withsupplement{}\n"
+                            + main_tex.read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
         r = subprocess.run([a.tectonic, "-X", "compile", "--keep-intermediates", "main.tex"], cwd=src,
                            capture_output=True, text=True)
         if r.returncode:

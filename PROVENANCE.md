@@ -33,3 +33,4 @@ committed there. Every result block also carries its own model version and a has
   extracted unchanged from a Kaggle archive of the development repository (`evalkit_results_gpt55_damaged.tgz`).
 - Not released: reply caches, Kaggle archives, document files and their extracted text, machine translations, the
   annotators' personal records, internal planning and correspondence.
+- Paper sources (`60_paper_drafts/paper_v6/`) and `30_code/scripts/make_arxiv.py` synced from development commit `40311ca2` (2026-10-31T01:26:00-04:00): editorial pass, case study moved to supplementary material (`supplement*.tex`, `main_full.tex`), corrected AI-use statement, 1-inch preprint layout. No number, table, reference or result changed.

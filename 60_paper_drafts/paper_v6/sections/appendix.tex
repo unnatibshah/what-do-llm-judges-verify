@@ -1,15 +1,16 @@
-% Appendix (paper_v6). Main experiment: A pilot, B gap items, C prompt, D reproducibility.
-% Then the descriptive case study, every section titled "Case study: ..." (lock v2 A5).
+% Appendix (paper_v6). Main experiment: A pilot, B gap items, C prompt. D: the descriptive case study, summarised;
+% its full report is the supplementary material (sections/supplement_body.tex). Reproducibility is in \S10.
 
 \section{The pilot}
 \label{app:pilot}
 \label{app:study2}
 
-Six judges ran up to ten contexts on the first 24 links before the final design was fixed; Qwen~2.5~32B ran all
-\RfcSample. Table~\ref{tab:rfc-deference} gives the pilot's gap result, on the 12 gap faults per judge produced by a
-damaged record over 24 links, and Table~\ref{tab:rfc-date} the currency discrimination against date controls in every
-context. The generated pilot tables use the pilot's own vocabulary (``reviewer'' for judge, ``deference'' for the gap contrast). The pilot's
-gap faults overlap only partly with the final run's (\S\ref{sec:res-gaps}).
+Six judges (Qwen~2.5~32B, Gemma~4~26B, GPT-OSS~120B, Gemini~3.1~Pro, GPT-5.5 and Claude Opus~4.5) ran up to ten
+contexts on the first 24 links before the final design was fixed; Qwen~2.5~32B ran all \RfcSample.
+Table~\ref{tab:rfc-deference} gives the pilot's gap result, on the 12 gap faults per judge produced by a damaged
+record over 24 links, and Table~\ref{tab:rfc-date} the currency discrimination against date controls in every
+context. The generated pilot tables use the pilot's own vocabulary (``reviewer'' for judge, ``deference'' for the gap
+contrast). The pilot's gap faults overlap only partly with the final run's (\S\ref{sec:res-gaps}).
 
 \IfFileExists{generated/tab_rfc_deference.tex}{\input{generated/tab_rfc_deference.tex}}{}
 \IfFileExists{generated/tab_rfc_disc_date.tex}{\input{generated/tab_rfc_disc_date.tex}}{}
@@ -33,44 +34,29 @@ block of each damaged context. The other contexts differ only in the record bloc
 
 \IfFileExists{generated/prompt_example.tex}{\input{generated/prompt_example.tex}}{}
 
-\section{Reproducibility}
-\label{app:repro}
-The harness (\texttt{30\_code/\allowbreak src/\allowbreak suryabench/\allowbreak evalkit.py}), the run script, every reply with its block metadata (model
-version, context, code hash) and the analysis are in the repository (\repourl). \texttt{analyse\_final\_e123.py} rescores every reply from
-its raw text, checks the stored scores, and regenerates every number and table of \S\ref{sec:results} and
-Appendix~\ref{app:items}; \texttt{python -m suryabench.evalkit} does the same for the pilot. The RFC index is cited with
-its retrieval date and content hash. The hypotheses, tests and readings of the final program were committed to the
-project's development repository before the runs, and the amendment adding the second draw before any call on it. That
-repository is private; the release contains the plan with its amendments and a provenance file listing the commit and
-time at which the plan, each amendment and each block of results were recorded.
-
-\clearpage
-\section{Case study: overview and status}
+\section{Case study: Indian rooftop-solar regulation}
 \label{app:case}
 
 \noindent\fbox{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{\small
-\textbf{Status of this and the following ``Case study'' appendices: descriptive only.} The case study's answer key
-failed the quality checks planned for it, so none of its numbers is used as evidence for the hypotheses or findings of
-\S\ref{sec:results}. It is reported because it is where the test was developed, and because its failures, annotation
-disagreements and negative results show what the test needs from an uncurated amendment record. Its own planned
-analyses and readings are kept as they were fixed, so that nothing is selected after the fact.}}
+\textbf{Status: descriptive only.} The test was first developed on this setting, where no curated consolidation
+exists and the amendment record had to be extracted from the documents by an AI pipeline. Its answer key failed the
+quality checks planned for it: a person applying the right-reason rule agreed with the automatic scorer on
+\ScorerCheckPctObserved{} of dev replies, against a planned threshold of 95\%, and when people read whole case files,
+many of the fixed ``correct'' answers turned out to be incomplete. None of its numbers is used as evidence for the
+hypotheses or findings of \S\ref{sec:results}. It is reported because its failures, annotation disagreements and
+negative results show what the test needs from an uncurated amendment record; its planned analyses and readings are
+kept as they were fixed, so that nothing is selected after the fact. The full report (reference data and their audit,
+conditions, planned analyses and results, readings fixed in advance, prompts, per-clause results, annotation
+agreement, deviations from the plan and the data statement) is in the supplementary material.}}
 \medskip
-
-
-This study applied the same design to Indian rooftop-solar regulation, where no curated consolidation exists and the
-amendment record had to be extracted from the documents by an AI pipeline. It came first, and it is where we learned
-what the test needs from a record. We report it descriptively, and no claim in the main text rests on it, because its
-answer key did not pass the checks we set for it. A person applying the right-reason rule agreed with the automatic
-scorer on \ScorerCheckPctObserved{} of dev replies, against a planned threshold of 95\%, and when people read whole case
-files, many of the fixed ``correct'' answers turned out to be incomplete.
 
 Two consequences follow for reading the numbers below. False alarms on correct answers cannot be taken as the judge's
 errors. For example, Claude Opus~4.5 raised some finding on \RobFlaggedClaudeOpusRFour{} correct answers when given the
 status line, but most of its findings were not about validity (\RobNonValidityClaudeOpus), and only a corrected key
 could say whether they were wrong. Likewise, the large differences between any-finding and right-reason catches in this
 study are real outputs on this key, but we do not use them to support \S\ref{sec:res-scoring}, which rests on the RFC
-data. The subsections that follow are carried over from the study's own report with their planned analyses; they were
-written before the RFC study and use its terms (reviewer for judge, registry for record, clause for document).
+data. The text below is carried over from the study's own report, written before the RFC study, and uses its terms
+(reviewer for judge, registry for record, clause for document).
 
 \subsection{Setting}
 \label{sec:study1}
@@ -93,6 +79,3 @@ no record (\rung{R2}). Clause-averaged, damage seeds averaged within clause, 95\
 \NClauses{} clauses.}
 \label{fig:damage}
 \end{figure}
-
-\input{sections/appendix_study1}
-\input{sections/appendix_study1_extra}

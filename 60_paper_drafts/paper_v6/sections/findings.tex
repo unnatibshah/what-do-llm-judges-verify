@@ -28,12 +28,11 @@ and Claude \EOpusCatchDamaged. The gap faults themselves are analysed next.
 
 Table~\ref{tab:e123-gap} isolates the 24 gap faults; the items are the same in every column, so each comparison is
 within a judge. One qualification applies to all four judges. Their text-only replies to the items of the
-first 24 links, which include 11 of the gap faults, are the pilot's replies, reused because the prompts are identical;
-for the hosted judges those were obtained with an earlier form of the proxy call (\S\ref{sec:studies}). For these
-items the comparison is a partial replication of the pilot, not an independent one. On the other
-\EGPTFreshN{} gap faults, where every reply is new, the drop is of similar size: Gemini \EGeminiFreshOwn{} to \EGeminiFreshWithRecord, GPT-5.5 \EGPTFreshOwn{} to
-\EGPTFreshWithRecord, Claude \EOpusFreshOwn{} to \EOpusFreshWithRecord, Gemma \EGemmaFreshOwn{} to
-\EGemmaFreshWithRecord.
+first 24 links, which include 11 of the gap faults, are the pilot's replies, reused because the prompts are identical
+(\S\ref{sec:studies}); for these items the comparison is a partial replication of the pilot, not an independent one.
+On the other \EGPTFreshN{} gap faults, where every reply is new, the drop is of similar size: Gemini
+\EGeminiFreshOwn{} to \EGeminiFreshWithRecord, GPT-5.5 \EGPTFreshOwn{} to \EGPTFreshWithRecord, Claude \EOpusFreshOwn{}
+to \EOpusFreshWithRecord, Gemma \EGemmaFreshOwn{} to \EGemmaFreshWithRecord.
 
 \IfFileExists{generated/tab_e123_gap.tex}{\input{generated/tab_e123_gap.tex}}{}
 
@@ -69,9 +68,8 @@ change is significant before or after adjustment. Small gains are within what 24
 is that the rewording did not restore the lost catches, not that it had no effect. This condition matters for one more
 reason. In it the record line is literally true: it reports only that no replacement is recorded. The drop seen here,
 for judges that had the replacement in front of them, is therefore produced by an omission in the record, without any
-false statement. (This comparison with the texts alone was not a planned test; for each judge every item that changed
-moved away from a catch: Gemini \EGeminiGapTexts{} to \EGeminiGapNorecord, GPT-5.5 \EGPTGapTexts{} to
-\EGPTGapNorecord, Claude \EOpusGapTexts{} to \EOpusGapNorecord, Gemma \EGemmaGapTexts{} to \EGemmaGapNorecord.)
+false statement. (The comparison with the texts alone was not a planned test; for each judge every item that changed
+moved away from a catch.)
 
 The other two presentations moved three of the judges. With the line headed as an unverified note, Gemini caught
 \EGeminiGapLowauth{} gap faults and GPT-5.5 \EGPTGapLowauth{}; with a warning that the record omits some replacements,
@@ -82,9 +80,9 @@ the same way, to \EOpusGapLowauth{} and \EOpusGapCaveat{} (\EOpusArmLowauthGaine
 $p$ \EOpusArmLowauthRaw, Holm $p$ \EOpusArmLowauthHolm). In each condition it caught six of the
 \EOpusHTwoaLost{} faults it had lost and one it had missed from the texts (Appendix~\ref{app:items}), almost its
 text-only level of \EOpusGapTexts; the test is not
-significant because Claude had few catches to recover, not because the change was small. Gemma recovered less
-(\EGemmaGapLowauth{} and \EGemmaGapCaveat{} of the \EGemmaHTwoaLost{} it had lost; Holm $p$ \EGemmaArmLowauthHolm{} and
-\EGemmaArmCaveatHolm).
+significant because Claude had few catches to recover, not because the change was small. Gemma recovered less,
+catching \EGemmaGapLowauth{} and \EGemmaGapCaveat{} against \EGemmaGapTexts{} from the texts alone (Holm $p$
+\EGemmaArmLowauthHolm{} and \EGemmaArmCaveatHolm).
 
 Where the catches came back, they came back with the judge's text-only false alarms. Under the authoritative record,
 Gemini and GPT-5.5 raised no validity false alarm on decoys, because the record correctly lists the decoy's older RFC as
@@ -102,8 +100,10 @@ use of the record. False alarms on controls and date controls stayed at two of 4
 \EOpusPilotShared{} of its \EOpusPilotPilotItems{} gap faults are gap faults here. On those \EOpusPilotShared{} the
 replies are the same reused replies and Claude caught \EOpusPilotSharedCaught; the other \EOpusPilotPilotOnly{} pilot
 items, all of which it caught, are not gap faults in this run. Most of the difference therefore comes from which links
-were dropped, and on the second draw Claude again lost catches (\EOpusSOneLost) and gained none. Because the shared replies were reused rather than requested again, this comparison cannot speak to
-run-to-run variation, which the pilot's one repeated block suggests is real at the level of individual replies.
+were dropped, and on the second draw Claude again lost catches (\EOpusSOneLost) and gained none. Because the shared
+replies were reused rather than requested again, this comparison cannot speak to run-to-run variation, which the
+pilot's one repeated block suggests is real at the level of individual replies. A dozen items can therefore mislead,
+and comparisons between judges on item sets of this size, including those in our own tables, are provisional.
 Appendix~\ref{app:items} lists every gap fault.
 
 \subsection{Replacements, updates and surface similarity}

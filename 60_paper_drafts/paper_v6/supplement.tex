@@ -1,0 +1,20 @@
+% Supplementary material (the case study in full), standalone, with authors. supplement_anon.tex is the anonymised version;
+% main_full.tex appends the same material to the paper in one PDF.
+\documentclass[pdflatex,sn-basic]{sn-jnl}
+\input{preamble}
+\begin{document}
+\ifdefined\anonymous
+\title[Supplementary material]{Supplementary material for ``What Do LLM Judges Actually Verify? Matched Controls and
+Record Gaps for Document Currency''}
+\author{\fnm{Anonymous} \sur{Authors}}
+\affil{\orgname{Anonymous for review}}
+\else
+\title[Supplementary material]{Supplementary material for ``What Do LLM Judges Actually Verify? Matched Controls and
+Record Gaps for Document Currency''\par\vspace{1.2em}\authorsrow}
+\hypersetup{pdftitle={Supplementary material: What Do LLM Judges Actually Verify?},
+pdfauthor={Unnati Shah, Samruddhi Kakade, Aum Patel}}
+\fi
+\maketitle
+\input{sections/supplement_body}
+\bibliography{references}
+\end{document}
