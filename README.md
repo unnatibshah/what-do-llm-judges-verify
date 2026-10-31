@@ -1,7 +1,7 @@
 # What Do LLM Judges Actually Verify? Matched Controls and Record Gaps for Document Currency
 
-Code, data and every model reply for the paper by Unnati Shah (University of Southern California), Samruddhi Sanjaykumar Kakade
-(Independent Researcher) and Aum Patel (New York University). The paper's source and PDF are in
+Code, data and every model reply for the paper by Unnati Shah, Samruddhi Sanjaykumar Kakade and Aum Patel. The research
+was conducted independently and was not commissioned, funded, supervised or endorsed by any university or employer. The paper's source and PDF are in
 `60_paper_drafts/paper_v7/` (the arXiv version; `main_full.pdf` is the paper with its supplement). `paper_v6/` is the
 earlier version, kept for reference.
 

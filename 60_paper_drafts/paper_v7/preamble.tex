@@ -33,10 +33,18 @@
 \ifdim\wd\authorsbox>\dimexpr\hsize-\leftskip-\rightskip\relax\resizebox{\dimexpr\hsize-\leftskip-\rightskip\relax}{!}{\usebox{\authorsbox}}\else\usebox{\authorsbox}\fi}
 \newcommand{\authorstable}{{\normalfont\small\setlength{\tabcolsep}{8pt}%
 \begin{tabular}{@{}ccc@{}}
-\textbf{Unnati Shah} & \textbf{Samruddhi Sanjaykumar Kakade} & \textbf{Aum Patel}\\
-\footnotesize University of Southern California & \footnotesize Independent Researcher & \footnotesize New York University\\
-\footnotesize\texttt{ubshah@usc.edu} & \footnotesize\texttt{samruddhikakade2001@gmail.com} & \footnotesize\texttt{ap9018@nyu.edu}
+\textbf{Unnati Shah}$^{1}$ & \textbf{Samruddhi Sanjaykumar Kakade}$^{2}$ & \textbf{Aum Patel}$^{3}$
 \end{tabular}}}
+% Education, e-mail and independence note, printed as an unmarked first-page footnote after \maketitle. No affiliation
+% line: none of the authors holds a current university post (arXiv: claimed affiliation must be current).
+\newcommand{\emailUS}{unnati.ix@gmail.com}
+\newcommand{\emailAP}{ap9018@nyu.edu}
+\newcommand{\authornotes}{{\renewcommand{\thefootnote}{}\footnotetext{\raggedright
+$^{1}$M.S. in Computer Science, University of Southern California. \texttt{\emailUS} (corresponding author)\\
+$^{2}$M.S., Illinois Institute of Technology. \texttt{samruddhikakade2001@gmail.com}\\
+$^{3}$M.S. in Computer Science, New York University. \texttt{\emailAP}\\
+This research was conducted independently and was not commissioned, funded, supervised or endorsed by any
+university or employer.}}}
 % The public repository for the authored builds (arXiv); main_anon.tex prints the anonymous link instead.
 \ifdefined\anonymous\newcommand{\repourl}{\anonurl}\else\newcommand{\repourl}{\url{https://github.com/unnatibshah/what-do-llm-judges-verify}}\fi
 \raggedbottom

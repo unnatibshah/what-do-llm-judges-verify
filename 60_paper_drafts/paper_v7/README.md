@@ -2,7 +2,8 @@
 
 paper_v6 after the co-author review loop of 2026-10-31 (Samruddhi Kakade): four rounds of three-lens review and fixes,
 then a final review on a different model, all in `80_review/SAMRUDDHI-REVIEW-2026-10-31/` (`README.md` lists each round,
-`LEDGER.md` the settled items). The author line is "Samruddhi Sanjaykumar Kakade, Independent Researcher". No number
+`LEDGER.md` the settled items). The author block (2026-10-31, DECISIONS.md) has no affiliation line: page 1 gives each author's degree, university
+and e-mail in a first-page note, with a statement that the work was independent. No number
 changed; the generated number files are the same as paper_v6's, which is kept unchanged as the lead author left it.
 
 **Status: arXiv version.** arXiv source: `70_papers/arxiv/paper_v7/surya_arxiv_src.tar.gz`, built with
